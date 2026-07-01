@@ -256,12 +256,14 @@ Given the uncertainty around how AI development will unfold, it’s hard to pred
 
 How we navigate these dynamics could determine whether the future goes well or badly.
 
+
 If we handle things wisely, we could create a flourishing future with unprecedented prosperity for all sentient beings, and could even spread to the stars. But if we lose control of advanced AI, or if bad actors use it to undermine the rest of the world’s interests, we could face a catastrophe — like humans permanently losing our ability to shape the future, or going extinct.
 
 In other words, we think these issues have _[existential](https://80000hours.org/articles/existential-risks/) stakes_, making them among the most pressing problems in the world.
 
 And although we’re hopeful that [these issues are tractable](#5-work-on-these-problems-is-tractable-but-neglected), we can’t just assume our institutions will navigate them well _by default_. After all, this is confusing, unprecedented territory. And we’ve seen society stumble into disaster when facing new challenges we haven’t sufficiently planned for — just think about the slow institutional responses to early COVID-19 warnings, or the numerous [close calls](https://en.wikipedia.org/wiki/Nuclear_close_calls) we’ve seen with [nuclear weapons](https://80000hours.org/problem-profiles/nuclear-security/).
 
+:::collapse
 #### Read more about specific AGI risks
 
 We’ve written a series of articles explaining the AI-related issues we think pose the greatest chance of existential catastrophe, why we need people working on them, and what you can do to help.
@@ -275,10 +277,9 @@ We’ve written a series of articles explaining the AI-related issues we think p
 -   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97-720x448.jpg)](https://80000hours.org/problem-profiles/gradual-disempowerment/)
     
 -   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/06/1203081_07-720x448.jpg)](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1-720x448.jpg)](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
-    
 
+-   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1-720x448.jpg)](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
+:::
 #### The speed of this transition could matter a lot
 
 There are two ways speed can matter critically to this transition:
