@@ -2,67 +2,22 @@ name: Validate
 
 on:
   pull_request:
-    branches: [main]
+    branches: [production]
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"
 
-# Least-privilege token: checkout needs contents:read; the "Record validation
-# result" step posts a commit status, which needs statuses:write.
+# Least-privilege token: checkout needs contents:read; the status steps post
+# commit statuses, which need statuses:write.
 permissions:
   contents: read
   statuses: write
 
 jobs:
-  check:
-    if: github.event_name == 'schedule'
-    runs-on: ubuntu-latest
-    outputs:
-      should_run: ${{ steps.check.outputs.should_run }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: staging
-          fetch-depth: 2
-
-      - name: Check if should run
-        id: check
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          CURRENT_SHA=$(git rev-parse HEAD)
-          echo "Current commit: $CURRENT_SHA"
-
-          # Skip if commit is less than 5 minutes old (still editing)
-          COMMIT_TIME=$(git log -1 --format=%ct)
-          NOW=$(date +%s)
-          COMMIT_AGE=$((NOW - COMMIT_TIME))
-
-          if [ $COMMIT_AGE -lt 300 ]; then
-            echo "::notice title=Validation Skipped::Commit is ${COMMIT_AGE}s old (< 5min), still being edited"
-            exit 78
-          fi
-
-          # Check if this commit already has a validation status
-          VALIDATED=$(gh api repos/${{ github.repository }}/commits/$CURRENT_SHA/statuses \
-            --jq '.[] | select(.context == "validation/content") | .state' 2>/dev/null | head -1 || echo "")
-
-          if [ -n "$VALIDATED" ]; then
-            echo "::notice title=Validation Skipped::Commit already validated (result: $VALIDATED)"
-            exit 78
-          fi
-
-          echo "Will validate commit $CURRENT_SHA"
-          echo "should_run=true" >> $GITHUB_OUTPUT
-
   validate:
-    needs: check
-    if: always() && (github.event_name != 'schedule' || needs.check.outputs.should_run == 'true')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'staging' }}
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'production' }}
           fetch-depth: 2
 
       - name: Get commit SHA
@@ -77,51 +32,91 @@ jobs:
       - name: Validate content
         id: validate
         run: |
-          npx lens-content-processor@0.4.0 . --output validation-result.json
+          npx lens-content-processor@latest . --output validation-result.json || true
 
-          # Count only errors (not warnings)
-          ERROR_COUNT=$(jq '[.errors[] | select(.severity == "error")] | length' validation-result.json)
-          WARNING_COUNT=$(jq '[.errors[] | select(.severity == "warning")] | length' validation-result.json)
-          echo "Found $ERROR_COUNT errors and $WARNING_COUNT warnings"
+          python3 - <<'PY'
+          import json, os
 
-          # Show warnings as annotations (non-blocking)
-          if [ "$WARNING_COUNT" -gt 0 ]; then
-            echo ""
-            echo "## Warnings"
-            echo ""
-            jq -r '.errors[] | select(.severity == "warning") | "::warning file=\(.file),line=\(.line // 1)::\(.message)\(if .suggestion then " (" + .suggestion + ")" else "" end)"' validation-result.json
-            echo ""
-            jq -r '.errors[] | select(.severity == "warning") | "- **\(.file):\(.line // "?")** - \(.message)"' validation-result.json
-          fi
+          try:
+              data = json.load(open("validation-result.json"))
+          except Exception as e:
+              print(f"::error::Could not read validation output: {e}")
+              with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+                  f.write("real_count=1\nwip_count=0\n")
+              raise SystemExit(0)
 
-          # Show errors and fail if any
-          if [ "$ERROR_COUNT" -gt 0 ]; then
-            echo ""
-            echo "## Validation Errors"
-            echo ""
-            jq -r '.errors[] | select(.severity == "error") | "::error file=\(.file),line=\(.line // 1)::\(.message)\(if .suggestion then " (" + .suggestion + ")" else "" end)"' validation-result.json
-            echo ""
-            jq -r '.errors[] | select(.severity == "error") | "- **\(.file):\(.line // "?")** - \(.message)"' validation-result.json
-            exit 1
-          fi
+          issues = data.get("errors", [])
+          errors = [e for e in issues if e.get("severity") == "error"]
+          warnings = [e for e in issues if e.get("severity") == "warning"]
 
-          echo "✓ All content validated successfully"
+          def is_wip(path):
+              """A file is work-in-progress if its frontmatter carries the tag."""
+              try:
+                  text = open(path, encoding="utf-8", errors="replace").read()
+              except OSError:
+                  return False
+              fm = text.split("---", 2)[1] if text.startswith("---") and text.count("---") >= 2 else text
+              return "work-in-progress" in fm
 
-      - name: Record validation result
+          real, wip = [], []
+          for e in errors:
+              (wip if is_wip(e.get("file", "")) else real).append(e)
+
+          def annotate(level, e):
+              loc = f"file={e.get('file')},line={e.get('line') or 1}"
+              print(f"::{level} {loc}::{e.get('message')}")
+
+          for e in real:
+              annotate("error", e)
+          for e in wip:
+              annotate("warning", e)  # WIP placeholders: visible, non-blocking
+          for w in warnings:
+              annotate("warning", w)
+
+          summary = (
+              f"Validation: {len(real)} non-WIP error(s) (blocking), "
+              f"{len(wip)} work-in-progress error(s) (non-blocking), "
+              f"{len(warnings)} warning(s)."
+          )
+          print(summary)
+          with open(os.environ.get("GITHUB_STEP_SUMMARY", os.devnull), "a") as f:
+              f.write("### Content validation\n\n" + summary + "\n")
+              if real:
+                  f.write("\n**Blocking (non-WIP) errors:**\n")
+                  for e in real:
+                      f.write(f"- `{e.get('file')}:{e.get('line') or '?'}` — {e.get('message')}\n")
+
+          with open(os.environ["GITHUB_OUTPUT"], "a") as f:
+              f.write(f"real_count={len(real)}\n")
+              f.write(f"wip_count={len(wip)}\n")
+          PY
+
+      - name: Record validation statuses
         if: always()
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           SHA=${{ steps.sha.outputs.sha }}
-          if [ "${{ steps.validate.outcome }}" == "success" ]; then
-            STATE="success"
-            DESC="Validation passed"
-          else
-            STATE="failure"
-            DESC="Validation failed"
-          fi
+          REAL="${{ steps.validate.outputs.real_count }}"
+          WIP="${{ steps.validate.outputs.wip_count }}"
+          REAL="${REAL:-1}"; WIP="${WIP:-0}"
 
+          # validation/content — the promote-ready gate. Mark THIS required in
+          # branch protection so real errors block; WIP never affects it.
+          [ "$REAL" = "0" ] && CSTATE=success || CSTATE=failure
           gh api repos/${{ github.repository }}/statuses/$SHA \
-            -f state="$STATE" \
-            -f context="validation/content" \
-            -f description="$DESC" || echo "Failed to set status"
+            -f state="$CSTATE" -f context="validation/content" \
+            -f description="$REAL non-WIP error(s)" || echo "failed to set validation/content"
+
+          # validation/wip — informational. Leave this NOT required: it shows red
+          # when work-in-progress placeholders are incomplete, without blocking.
+          [ "$WIP" = "0" ] && WSTATE=success || WSTATE=failure
+          gh api repos/${{ github.repository }}/statuses/$SHA \
+            -f state="$WSTATE" -f context="validation/wip" \
+            -f description="$WIP work-in-progress placeholder(s)" || echo "failed to set validation/wip"
+
+      - name: Fail on non-WIP errors
+        if: steps.validate.outputs.real_count != '0'
+        run: |
+          echo "Blocking: ${{ steps.validate.outputs.real_count }} non-WIP validation error(s). See annotations."
+          exit 1
