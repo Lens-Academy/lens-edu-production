@@ -2,10 +2,8 @@ name: Validate
 
 on:
   pull_request:
-    branches: [main]
+    branches: [production]
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"
 
 # Least-privilege token: checkout needs contents:read; the "Record validation
 # result" step posts a commit status, which needs statuses:write.
@@ -14,55 +12,12 @@ permissions:
   statuses: write
 
 jobs:
-  check:
-    if: github.event_name == 'schedule'
-    runs-on: ubuntu-latest
-    outputs:
-      should_run: ${{ steps.check.outputs.should_run }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: staging
-          fetch-depth: 2
-
-      - name: Check if should run
-        id: check
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          CURRENT_SHA=$(git rev-parse HEAD)
-          echo "Current commit: $CURRENT_SHA"
-
-          # Skip if commit is less than 5 minutes old (still editing)
-          COMMIT_TIME=$(git log -1 --format=%ct)
-          NOW=$(date +%s)
-          COMMIT_AGE=$((NOW - COMMIT_TIME))
-
-          if [ $COMMIT_AGE -lt 300 ]; then
-            echo "::notice title=Validation Skipped::Commit is ${COMMIT_AGE}s old (< 5min), still being edited"
-            exit 78
-          fi
-
-          # Check if this commit already has a validation status
-          VALIDATED=$(gh api repos/${{ github.repository }}/commits/$CURRENT_SHA/statuses \
-            --jq '.[] | select(.context == "validation/content") | .state' 2>/dev/null | head -1 || echo "")
-
-          if [ -n "$VALIDATED" ]; then
-            echo "::notice title=Validation Skipped::Commit already validated (result: $VALIDATED)"
-            exit 78
-          fi
-
-          echo "Will validate commit $CURRENT_SHA"
-          echo "should_run=true" >> $GITHUB_OUTPUT
-
   validate:
-    needs: check
-    if: always() && (github.event_name != 'schedule' || needs.check.outputs.should_run == 'true')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'staging' }}
+          ref: ${{ github.event_name == 'pull_request' && github.head_ref || 'production' }}
           fetch-depth: 2
 
       - name: Get commit SHA
@@ -77,7 +32,7 @@ jobs:
       - name: Validate content
         id: validate
         run: |
-          npx lens-content-processor@0.4.0 . --output validation-result.json
+          npx lens-content-processor@latest . --output validation-result.json
 
           # Count only errors (not warnings)
           ERROR_COUNT=$(jq '[.errors[] | select(.severity == "error")] | length' validation-result.json)
