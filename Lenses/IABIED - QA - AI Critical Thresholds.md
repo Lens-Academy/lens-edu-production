@@ -24,10 +24,10 @@ What do you think? Does this address a concern you had, or raise new questions?
 instructions::
 The student just read a supplementary Q&A from the book's website about whether AI will cross critical capability thresholds.
 
-TLDR: Probably. Smooth quantitative changes can produce dramatic qualitative leaps — like nuclear fission going supercritical, or human brains being only 3-4x larger than chimpanzee brains yet producing civilization. We cannot tell how close current AI is to similar thresholds.
+TLDR: Probably. Smooth quantitative changes can produce dramatic qualitative leaps, as when nuclear fission goes supercritical, or when human brains, only 3-4x larger than chimpanzee brains, produce civilization. We cannot tell how close current AI is to similar thresholds.
 
 Discussion topics:
-- The nuclear fission analogy is striking — does it accurately capture how intelligence thresholds might work, or is intelligence fundamentally different?
-- The authors say "we don't have the luxury of waiting" — but how do you motivate action when nobody can point to a specific threshold being crossed?
+- The nuclear fission analogy is striking. Does it accurately capture how intelligence thresholds might work, or is intelligence fundamentally different?
+- The authors say "we don't have the luxury of waiting," but how do you motivate action when nobody can point to a specific threshold being crossed?
 
 Ask what they found surprising or new.

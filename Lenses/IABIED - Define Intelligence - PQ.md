@@ -10,9 +10,10 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Before reading Chapter 1: When you think of "intelligence," what do you mean? Some animals are experts in their niche — a bat's sonar, a crow's tool use, a dog's nose. What do you think makes human intelligence distinctively powerful compared to theirs? Jot down a quick answer before reading — the authors have a specific framework for this.
+content:: Before reading Chapter 1: When you think of "intelligence," what do you mean? Some animals are experts in their niche: a bat's sonar, a crow's tool use, a dog's nose. What do you think makes human intelligence distinctively powerful compared to theirs? Jot down a quick answer before reading. The authors have a specific framework for this.
 
 #### Chat
+min-chat-messages:: 1
 instructions::
 The student is about to read the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 

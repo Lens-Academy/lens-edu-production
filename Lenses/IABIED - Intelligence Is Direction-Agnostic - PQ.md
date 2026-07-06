@@ -10,12 +10,13 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical — more aligned with human values? Why or why not? Write down your intuition before reading.
+content:: Before reading the second half of Chapter 1: Imagine you could build an AI dramatically smarter than any human. Would you expect it to also be more ethical (more aligned with human values)? Why or why not? Write down your intuition before reading.
 
 #### Chat
+min-chat-messages:: 1
 instructions::
 The student is about to read the second half of Chapter 1 of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "Would a smarter AI also be more ethical or aligned with human values?"
 
-Acknowledge their answer in 1–2 sentences. Do not explain the direction-agnostic concept — they will encounter it in the reading. Close with something like: "Hold on to that intuition as you read. Come back when you've finished the assigned section."
+Acknowledge their answer in 1–2 sentences. Do not explain the direction-agnostic concept. They will encounter it in the reading. Close with something like: "Hold on to that intuition as you read. Come back when you've finished the assigned section."

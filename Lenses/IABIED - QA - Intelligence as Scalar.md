@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A concedes that intelligence is not a simple scalar quantity — it's multi-dimensional with bottlenecks and plateaus. But the authors argue this doesn't prevent AI from vastly surpassing humans, just as humans vastly surpass chimpanzees despite intelligence not being one-dimensional.
+This Q&A concedes that intelligence is not a simple scalar quantity: it's multi-dimensional with bottlenecks and plateaus. But the authors argue this doesn't prevent AI from vastly surpassing humans, just as humans vastly surpass chimpanzees despite intelligence not being one-dimensional.
 
 #### Article
 source:: [[../articles/iabied-ch1-faq-scalar-quantity]]
