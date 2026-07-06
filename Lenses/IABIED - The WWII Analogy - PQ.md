@@ -10,12 +10,13 @@ tags:
   - IABIED
 ---
 #### Text
-content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult — requiring massive sacrifice — because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
+content:: Before reading Chapter 13, section 1: Think of a time in history when countries did something extremely costly and difficult that demanded massive sacrifice, because they believed their survival or way of life was at stake. Did you find it surprising that coordination happened at all? Now: do you think major world powers could coordinate to restrict AI development if they genuinely believed it was an existential threat? Write down your thinking before you read.
 
 #### Chat
+min-chat-messages:: 1
 instructions::
 The student is about to read Chapter 13, section 1 of "If Anyone Builds It, Everyone Dies," stopping at "But we don't know how else humanity could survive."
 
 They just answered: "Could major world powers coordinate to restrict AI development if they believed it was an existential threat?"
 
-Acknowledge their answer in 1–2 sentences. Do NOT explain the WWII analogy, the political-impossibility objection, or how the chapter responds to fatalism about international coordination — they will encounter all of that in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 13 when you're ready and stop when you reach 'But we don't know how else humanity could survive.' Come back here when you're done."
+Acknowledge their answer in 1–2 sentences. Do NOT explain the WWII analogy, the political-impossibility objection, or how the chapter responds to fatalism about international coordination. They will encounter all of that in the reading. Close with: "Hold onto that intuition as you read. Head to Chapter 13 when you're ready and stop when you reach 'But we don't know how else humanity could survive.' Move on to the next lens when you're done."
