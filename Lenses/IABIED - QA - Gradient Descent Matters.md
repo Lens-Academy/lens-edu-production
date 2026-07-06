@@ -11,7 +11,7 @@ tags:
 
 #### Text
 content::
-This Q&A explains why gradient descent matters for AI safety. The key insight: the readable code is not the AI itself — it's the machinery for growing the AI. Experts understand the training process but know almost nothing about the trained model's internals, which are "a hundred billion numbers" stumbled upon by an optimizer.
+This Q&A explains why gradient descent matters for AI safety. The key insight: the readable code is not the AI itself but the machinery for growing the AI. Experts understand the training process but know almost nothing about the trained model's internals, which are "a hundred billion numbers" stumbled upon by an optimizer.
 
 #### Article
 source:: [[../articles/iabied-ch2-faq-gradient-descent]]
@@ -27,7 +27,7 @@ The student just read a supplementary Q&A from the book's website about why grad
 TLDR: Gradient descent matters because it means AI capabilities emerge from trial-and-error optimization rather than deliberate design. Engineers understand the growing process but not the grown AI. This limits their ability to shape or predict AI behavior.
 
 Discussion topics:
-- The distinction between understanding the training process and understanding the trained model — does this change how you think about claims that "we built it, so we understand it"?
+- Does the distinction between understanding the training process and understanding the trained model change how you think about claims that "we built it, so we understand it"?
 - What are the implications of AI capabilities emerging from optimization rather than design for our ability to ensure safety?
 
 Ask what they found surprising or new.

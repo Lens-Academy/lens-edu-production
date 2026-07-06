@@ -13,6 +13,7 @@ tags:
 content:: Before reading Chapter 3: Does your GPS "want" to get you to your destination? What about a chess AI, does it "want" to win? If you think there's a difference between having a goal and wanting something, what is it? Write down your intuition before reading.
 
 #### Chat
+min-chat-messages:: 1
 instructions::
 The student is about to read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies."
 
