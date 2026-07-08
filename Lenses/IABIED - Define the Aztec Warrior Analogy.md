@@ -19,12 +19,12 @@ Return here after reading.
 
 ---
 
+#### Question
+content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-#### Chat
-min-chat-messages:: 1
-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+assessment-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the Aztec warrior analogy as Chapter 6 states it: a defender cannot imagine the mechanism of defeat but the outcome is still predictable from capability asymmetry alone.
 
@@ -62,14 +62,12 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Text
+#### Question
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-#### Chat
-min-chat-messages:: 1
-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -98,14 +96,12 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### Text
+#### Question
 content::
 \## Phase 3: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
-#### Chat
-min-chat-messages:: 1
-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection that conflates two errors: treating overwhelming capability asymmetry like a coin-flip upset (where the underdog sometimes wins), and demanding a specific mechanism (the "winning move") before granting the outcome. The student must dismantle it using the analogy's logic rather than re-describing the Aztec story. Use it to draw out the mechanism-vs-outcome distinction and why a large enough capability gap makes the outcome predictable.
 

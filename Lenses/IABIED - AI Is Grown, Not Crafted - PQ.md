@@ -9,13 +9,11 @@ tags:
   - lens
   - IABIED
 ---
-#### Text
+#### Question
 content:: 
 Before reading Chapter 2: How do you imagine modern AI systems like ChatGPT were created? Who decided what it would say? Did engineers write rules for it to follow, or did something else happen? Write down your best guess before reading.
 
-#### Chat
-min-chat-messages:: 1
-instructions::
+assessment-instructions::
 The student is about to read the first half of Chapter 2 ("Grown, Not Crafted") of "If Anyone Builds It, Everyone Dies."
 
 They just answered: "How do you imagine modern AI systems like ChatGPT were created?"
