@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
 source:: [[../Lenses/Credible Threats|Credible Threats]]

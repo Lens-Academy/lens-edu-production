@@ -8,6 +8,8 @@ authors:
 tags:
   - lens
   - IABIED
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
 #### Text
 content::

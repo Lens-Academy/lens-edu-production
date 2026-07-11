@@ -6,6 +6,8 @@ tags:
   - lens
   - IABIED
   - supplementary
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]"
 ---
 
 #### Text

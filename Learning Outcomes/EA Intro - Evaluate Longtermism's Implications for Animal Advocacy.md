@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]
+source:: [[../Lenses/EA Intro - Longtermism and Animal Advocacy]]

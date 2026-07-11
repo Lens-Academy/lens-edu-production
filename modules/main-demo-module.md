@@ -22,36 +22,34 @@ This is a demo chat segment. In real course content, use this field to tell the 
 # Lens: An imported lens
 source:: [[../Lenses/Dummy lens]]
 
-%% The benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
+%% One benefit of importing is that we can reuse the same lens in different modules without copying its source text. Importing lenses is usually preferred over defining them directly in the module. %%
 
-%% Instead of importing lenses directly, we can import a learning outcome: %%
-# Learning Outcome:
-source:: [[../Learning Outcomes/Dummy learning outcome]]
-
-%% That learning outcome then contains its own lenses. 
-
-Having lenses be part of learning outcomes is often what we strive for. But when lenses don't have a learning outcome yet, it's okay to import them directly. 
-
-A module can contain as many learning outcomes and lenses as you want.
-
-Now that we know the structure of a module, lets actually look inside of a learning outcome file:
-%%
+%% Modules also contains learning outcomes.  %%
 # Learning Outcome:
 source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 %% Please look inside the above file before continuing. %%
 
-%% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. Look at the following Lens. %%
+
+%% A module can contain as many learning outcomes and lenses as you want. 
+
+Each learning outcome is shown to the user as one test page, and each lens is shown to the user as one content page. 
+
+The lenses and tests show in the same order in the learner's UI as the order of the lenses and learning outcomes in this module file. Therefore, it is important to place the learning outcomes after the lenses that cover its material. It's also an option to group learning outcomes together at the end of a module.%%
+
+%% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. 
+
+Take a look at the following Lens: %%
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% Now look at this one: %%
+%% After you've looked at the above Lens, take a look at this next one: %%
 # Lens:
 source:: [[../Lenses/Article annotation and text collapse demo]]
 
-%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind ellipsis that the user can click on to see the collapsed text. %%
+%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text. %%
 
-%% After looking at that lens, look at the following Lens, demoing a video: %%
+%% Now take a look at the following Lens, demoing a video: %%
 # Lens:
 source:: [[../Lenses/video demo]]
 
@@ -73,4 +71,4 @@ optional:: true
 source:: [[../Lenses/Links and cards demo]]
 
 
-%% When done with the lenses in this module, return to the course ([[../courses/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 
+%% When done with the lenses in this module, return to the course file ([[../courses/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 

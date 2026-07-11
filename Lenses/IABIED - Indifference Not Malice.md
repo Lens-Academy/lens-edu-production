@@ -8,6 +8,8 @@ authors:
 tags:
   - lens
   - IABIED
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
 ---
 #### Text
 content::

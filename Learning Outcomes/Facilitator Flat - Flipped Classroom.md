@@ -12,7 +12,6 @@ tags:
 id:: b26a5ff4-a17e-47ed-af11-ca967d98d996
 
 #### Question
-feedback:: true
 content:: The format you'll be facilitating is almost always a flipped classroom: participants do the readings/videos on their own; the session itself is for discussion, application, and working with the material together. This shifts the facilitator's job dramatically — from delivering content to running cognitive work.
 
 Describe the flipped classroom in one sentence. Then name two rookie failure modes in flipped sessions and explain why each one undermines the format.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates the time-allocation shift (traditional: ~70% content delivery / ~30% engagement → flipped: ~5% / ~95%) and what the trainee will do with all that newly-available session time.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Flipped Classroom]]
+source:: [[../Lenses/Facilitator Flat - Flipped Classroom]]

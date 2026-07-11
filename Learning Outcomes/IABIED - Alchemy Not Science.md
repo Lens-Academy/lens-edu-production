@@ -13,7 +13,6 @@ tags:
 ## Test: 
 id:: 311a34f9-b4d2-46b8-813a-3b51869fe6c3
 #### Question
-feedback:: true
 content:: Chapter 11 opens with an allegory about a young alchemist who claims to be "close" to transmuting lead into gold despite having no understanding of why his recipes produce the results they do. The chapter then applies this framing to current AI alignment efforts, drawing on public statements from Elon Musk (xAI) and Yann LeCun (Meta). The authors call this the "alchemy stage" of a science.
 
 **In your own words, what is Chapter 11's "alchemy stage" diagnosis of the AI alignment field? What specifically does the chapter claim is missing from the field's current state, and why does it matter that it is missing?**
@@ -31,8 +30,10 @@ Score according to the following rubric.
 
 **5**: As above, plus holds the diagnosis with the *correct valence*: it is a field-level epistemic claim, not despair, not individual blame, and not a claim that progress is impossible in principle. The field isn't permanently stuck: it's in a stage that has to be exited before adequate engineering becomes possible, and that exit hasn't happened. *Example: Adds "And the diagnosis is meant as a diagnosis, not a verdict. It's not saying alignment researchers are bad people, or that the field will be like this forever, or that progress is impossible. It's saying that *right now* the field is producing the kind of confident-sounding claims that fields produce *before* they have the conceptual machinery to actually engage the problem. And distinguishing this stage from a mature engineering stage is what allows you to ask the right policy questions about what to do while we're still here."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
+source:: [[../Lenses/IABIED - Alchemy Not Science - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Alchemy Not Science]]
+source:: [[../Lenses/IABIED - Alchemy Not Science]]

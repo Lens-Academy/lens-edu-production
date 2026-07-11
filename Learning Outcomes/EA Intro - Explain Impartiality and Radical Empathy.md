@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
+source:: [[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]

@@ -43,19 +43,55 @@ We hope this book club will also help grow the AI safety community. Some of thes
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!
 
 # Submodule: Ch0 - Introduction
+{++{"author":"Luc's AI","timestamp":1783764914484}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]
+++}
+# Lens:
+source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
+
 # Learning Outcome: IABIED - Hard Calls and Easy Calls
 source:: ![[../Learning Outcomes/Distinguish Hard Calls from Easy Calls]]
 
 # Submodule: Ch1 - Intelligence
+{++{"author":"Luc's AI","timestamp":1783764916321}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]
+++}
+# Lens:
+source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define Intelligence]]
+
 # Learning Outcome: IABIED - Define Intelligence
 source:: ![[../Learning Outcomes/Define Intelligence]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
 
 # Learning Outcome: IABIED - Intelligence Is Direction-Agnostic
 source:: ![[../Learning Outcomes/Explain Intelligence Is Direction-Agnostic]]
 
 # Submodule: Ch2 - Grown, not crafted
+{++{"author":"Luc's AI","timestamp":1783764918254}@@add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]
+++}
+# Lens:
+source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted]]
+
 # Learning Outcome: IABIED - AI Is Grown, Not Crafted
 source:: ![[../Learning Outcomes/Explain AI Is Grown, Not Crafted]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
 
 # Learning Outcome: IABIED - Behavior Is Not Values
 source:: ![[../Learning Outcomes/Distinguish Behavior from Values]]

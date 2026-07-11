@@ -4,5 +4,7 @@ discussion: https://discord.com/channels/1440725236843806762/1465343271932002488
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/10 reasons]]
+source:: [[../Lenses/10 reasons]]

@@ -10,8 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Fermi Estimation]]
+source:: [[../Lenses/EA Intro - Fermi Estimation]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Seabirds Sea Mammals and Marine Plastic]]
+source:: [[../Lenses/EA Intro - Seabirds Sea Mammals and Marine Plastic]]

@@ -12,7 +12,6 @@ tags:
 id:: f51071e9-d415-4910-af2c-2d5e447a233f
 
 #### Question
-feedback:: true
 content:: The first 5-10 minutes set the rest. Three things to accomplish: land in the room, reconnect to the material, set a clear shape. A reliable 3-step pattern: Check-in (2-3 min) → Anchor (1-2 min) → Opening question via Think-Pair-Share (3-5 min).
 
 Describe each of the three steps. Then draft your own opening plan for an upcoming session: check-in question, anchor sentence, and opening question.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to the timekeeping discipline (gently moving someone on if their check-in goes long — sets the norm that check-ins are short).
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Opening a Session]]
+source:: [[../Lenses/Facilitator Flat - Opening a Session]]

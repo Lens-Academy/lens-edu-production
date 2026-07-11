@@ -32,21 +32,129 @@ instructions:: Orient the learner to the module. The module covers, in order: (1
 showUserPreviousContent:: true
 
 # Submodule: Decomposing AI risks
+
+## Lens:
+source:: [[../Lenses/The AI risk landscape]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/darioamodei-dario-amodei-the-adolescence-of-technology]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/arxiv-an-overview-of-catastrophic-ai-risks]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
+
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Decomposing AI risks]]
 
 # Submodule: Alignment targets
+
+## Lens:
+source:: [[../Lenses/Choosing an alignment target]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/yudkowsky-coherent-extrapolated-volition]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/anthropic-claudes-new-constitution]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/lesswrong-corrigibility]]
+
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Alignment targets]]
 
 # Submodule: Training stories and outer-inner alignment
+
+## Lens:
+source:: [[../Lenses/Decomposing the alignment problem]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/krakovna-specification-gaming-the-flip-side-of-ai-ingenuity]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/shah-how-undesired-goals-can-arise-with-correct-rewards]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/hubinger-risks-from-learned-optimization-in-advanced-machine-learning-systems]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/mitchell-the-need-for-biases-in-learning-generalizations]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-broadly-misaligned-llms-1-this-paper-contains-model-generated-content-that-might-be-offensive-1]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/turntrout-reward-is-not-the-optimization-target]]
+
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
 
 # Submodule: Goals and instrumental convergence
+
+## Lens:
+source:: [[../Lenses/Goal-directedness and instrumental convergence]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/omohundro-the-basic-ai-drives]]
+
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Goals and instrumental convergence]]
 
 # Submodule: Forecasting risk and solution approaches
+
+## Lens:
+source:: [[../Lenses/Forecasting risk and choosing an approach]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/anthropic-core-views-on-ai-safety-when-why-what-and-how]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/grace-thousands-of-ai-authors-on-the-future-of-ai]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/ai-2027 article lens]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/optimism-ai-is-easy-to-control]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/leike-why-im-optimistic-about-our-alignment-approach]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem]]
+
+## Lens:
+optional:: true
+source:: [[../Lenses/dai-problems-in-ai-alignment-that-philosophers-could-potentially-contribute-to]]
+
 ## Learning Outcome:
 source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]

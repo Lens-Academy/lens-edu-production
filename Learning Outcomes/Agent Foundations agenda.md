@@ -8,18 +8,16 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
 source:: [[../Lenses/Agent Foundations]]
 
 ## Lens:
-optional:: false
 source:: [[../Lenses/AF not really math not really science]]
 
 ## Lens:
-optional:: true
 source:: [[../Lenses/Embedded agents]]
 
 ## Lens:
-optional:: false
 source:: [[../Lenses/Realism about rationality]]

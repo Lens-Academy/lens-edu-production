@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Why S-Risks Are the Worst Existential Risks]]
+source:: [[../Lenses/EA Intro - Why S-Risks Are the Worst Existential Risks]]

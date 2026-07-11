@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
+source:: [[../Lenses/EA Intro - Introduction to Effective Altruism]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Four Ideas You Already Agree With]]
+source:: [[../Lenses/EA Intro - Four Ideas You Already Agree With]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - The World Is Much Better]]
+source:: [[../Lenses/EA Intro - The World Is Much Better]]

@@ -5,9 +5,9 @@ reading-from: "Suppose you sent a design for a refrigerator back in time by a th
 reading-to: "So: Once upon a time in the near future…"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764675267}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: bbbca804-d52c-4567-84cb-68eae82c0025
 #### Question
-feedback:: true
 content::
 Chapter 6 sends a refrigerator blueprint back a thousand years. A medieval blacksmith could build it but would be astonished that it produces cold air, because the underlying physics (gas compression and expansion) was unknown to them. The chapter uses this to illustrate what it means to face something that knows more about reality than you do. It then applies this logic to a superintelligent AI, and explores the domains where humanity is most exposed.
 
@@ -32,8 +31,10 @@ assessment-instructions::
 
 **5** — As above, plus articulates the epistemological consequence: inability to describe the mechanism doesn't undermine the prediction. The blacksmith's confusion about the refrigerator doesn't mean cold air is impossible. *Example: Adds "This also answers 'I can't imagine a specific mechanism, so I'm not convinced.' The blacksmith who built the refrigerator couldn't explain why it produced cold air, but the cold air was real. We don't need to describe the exact attack vector for 'a superintelligence with capabilities we don't understand would defeat us' to be a valid conclusion."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
+source:: [[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
+source:: [[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]

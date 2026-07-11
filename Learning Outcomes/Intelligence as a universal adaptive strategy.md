@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
-source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
+source:: [[../Lenses/The power of intelligence|The power of intelligence]]

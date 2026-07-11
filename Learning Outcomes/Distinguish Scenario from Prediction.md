@@ -9,6 +9,7 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Isn't This Just Science Fiction]]
+source:: [[../Lenses/IABIED - QA - Isn't This Just Science Fiction]]

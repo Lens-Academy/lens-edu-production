@@ -17,20 +17,45 @@ content:: {>>TODO: add module welcome text (~105 min module)<<}
 source:: ![[../Lenses/EA Intro - What Do You Think Introduction]]
 
 # Submodule: Bayes' rule and evidence
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Making Beliefs Pay Rent]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - What Is Evidence]]
+
 # Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
 source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
 
 # Submodule: Independent impressions
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Independent Impressions]]
+
 # Learning Outcome: EA Intro - Explain Independent Impressions
 source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
 
 # Submodule: Learning from mistakes
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]
+
 # Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
 source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]
 
 # Learning Outcome: EA Intro - Explain Why Maximization Is Perilous
 source:: ![[../Learning Outcomes/EA Intro - Explain Why Maximization Is Perilous]]
 
 # Submodule: Less common causes
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Big List of Cause Candidates]]
+
 # Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
 source:: ![[../Learning Outcomes/EA Intro - Enumerate Less Common Cause Candidates]]

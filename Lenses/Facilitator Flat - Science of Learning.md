@@ -11,23 +11,23 @@ tags:
 ---
 #### Text
 content::
-Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wrote a compact summary of what cognitive science actually tells us about how people learn. It's the closest thing to a canonical reference for active-learning course design.
+Stephen Kosslyn (Harvard, then Minerva, then the Active Learning Initiative) wrote a compact summary of what cognitive science actually tells us about how learning works, and it's become a standard reference for active-learning course design.
 
 \## Read (20 min)
 
-**Read: The Science of Learning — Mechanisms and Principles — Stephen Kosslyn, 2017 (20 min):** https://drive.google.com/file/d/1tAIMLUpw1S0LlNLdBhldmtPe6csgq4M5/view
+**Read: The Science of Learning — Mechanisms and Principles by Stephen Kosslyn, 2017 :** https://drive.google.com/file/d/1tAIMLUpw1S0LlNLdBhldmtPe6csgq4M5/view
 
-As you read, look for these six mechanisms in particular. They're the ones that justify the discussion format most directly:
+As you read, look for these six mechanisms in particular since they're the ones that justify the discussion format most directly:
 
-1. **Desirable difficulty.** Learning that feels too easy doesn't stick. Material that requires effort to retrieve is retained better. Discussion is harder than re-reading. That's a feature.
+1. **Desirable difficulty.** Material that requires effort to retrieve sticks better than material that feels easy going in.  Discussion asks more of participants than re-reading the same text does, and that extra effort involves doing useful work. 
 
-2. **Generation effect.** Producing an answer yourself — even an imperfect one — strengthens memory more than reading the right answer. Asking participants *"what do you think this means?"* before offering an interpretation is better than the reverse.
+2. **Generation effect.** Producing an answer yourself, even an imperfect one,  strengthens memory more than reading the correct answer. Asking participants *"what do you think this means?"* before offering an interpretation is worth doing, because the act of reaching for an answer is where a lot of the learning happens.
 
-3. **Spacing & interleaving.** Encountering the same idea multiple times across days beats encountering it many times in a single sitting. A weekly cohort discussion isn't an inferior version of a one-day workshop — it's the better format, for retention.
+3. **Spacing and interleaving.** Encountering the same idea across multiple days builds retention in a better way in comparison to a singlre concentrated sitting. . A weekly cohort discussion is well suited to this, and understanding why helps you fell grounded in the Lens structure. isn't an inferior version of a one-day workshop — it's 
 
-4. **Elaboration & connection.** Knowledge stored in connection to other knowledge is more usable than isolated facts. When a participant says *"this reminds me of…"*, that's not a tangent; it's the brain doing the work that makes the material durable.
+4. **Elaboration & connection.** Knowledge held  in connection to other knowledge is more usable than sitting in isloationisolated facts. When a participant says *"this reminds me of…"*, or draws a parallel to their own work, that's the brain doing exactly what makes the material stick. 
 
-5. **Dual coding.** Information processed across more than one modality (e.g. verbal + visual) is retained better than information processed through one alone. In a lecture-with-slides format this is a major lever — you keep the key claim visible while you talk about it, and the two encodings reinforce each other. In a pure-discussion format like Lens cohort meetings there's less surface for it to do work during the meeting itself. The strongest dual-coding effect in Lens's format comes from the structure as a whole: participants read (textual encoding) and then discuss (verbal encoding). That's one reason discussion-after-reading outperforms re-reading.
+5. **Dual coding.** When you encounter the same information in two different formats, you retain it better than when you encounter it in one format alone. Information  In a lecture-with-slides format this is a major lever — you keep the key claim visible while you talk about it, and the two encodings reinforce each other. In a pure-discussion format like Lens cohort meetings there's less surface for it to do work during the meeting itself. The strongest dual-coding effect in Lens's format comes from the structure as a whole: participants read (textual encoding) and then discuss (verbal encoding). That's one reason discussion-after-reading outperforms re-reading.
 
 6. **Worked examples → faded scaffolding.** Beginners need explicit examples. As they progress, the support fades and they generate more themselves. Your sessions across a course should follow this arc: more facilitator structure in Week 1, less by Week 6.
 

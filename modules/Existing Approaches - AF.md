@@ -16,5 +16,18 @@ This module focuses on one such agenda: Agent Foundations. Agent Foundations tre
 
 This module is a direct preparation for the Agent Foundations program that follows this course.
 
+# Lens:
+source:: [[../Lenses/Agent Foundations]]
+
+# Lens:
+source:: [[../Lenses/AF not really math not really science]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Embedded agents]]
+
+# Lens:
+source:: [[../Lenses/Realism about rationality]]
+
 # Learning Outcome:
 source:: [[../Learning Outcomes/Agent Foundations agenda]]

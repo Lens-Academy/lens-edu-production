@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]
+source:: [[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Perilous]]

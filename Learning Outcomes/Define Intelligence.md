@@ -5,9 +5,9 @@ reading-from: "IMAGINE, IF YOU would—though of course nothing like this ever h
 reading-to: "it is still in some important sense 'shallow' compared to a human twelve-year-old."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764568455}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
 #### Question
-feedback:: true
 content::
 Chapter 1 defines intelligence in a specific way that's different from everyday usage.
 
@@ -33,10 +32,10 @@ Score according to the following rubric.
 
 **5**: As above, plus applies the framework to a novel case, demonstrating they own the vocabulary, not just recall it. *Example: Classifies a specific system (animal, AI, institution) using prediction + steering + generality and explains where it sits on the spectrum.*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence - PQ]]
+source:: [[../Lenses/IABIED - Define Intelligence - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Define Intelligence]]
-
-
+source:: [[../Lenses/IABIED - Define Intelligence]]

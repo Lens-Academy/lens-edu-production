@@ -3,9 +3,9 @@ id: ed5fab41-b9a2-466f-89bd-825af3944c1c
 learning-outcome: "Distinguish 'hard calls' from 'easy calls' as the authors define them, and explain why they classify the danger from ASI as an easy call despite its apparent implausibility."
 reading-from: "\"MITIGATING THE RISK OF EXTINCTION FROM AI SHOULD BE A global priority alongside other societal-scale risks such as pandemics and nuclear war.\""
 reading-to: "Where there's life, there's hope."
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764662759}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/00 - Introduction - Hard Calls and Easy Calls]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 authors:
@@ -15,7 +15,6 @@ authors:
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70
 #### Question
-feedback:: true
 content::
 The Introduction introduces a framework for thinking about predictions: some things about the future are "easy calls" and others are "hard calls."
 
@@ -33,8 +32,10 @@ Score according to the following rubric.
 
 **5**: As above, plus productively interrogates the classification itself: what assumptions make something "reliable enough" to be an easy call, or whether the authors have actually established that. *Example: "I'd want to push back on whether the mechanism really does make the outcome inevitable. The easy/hard framework assumes we know enough about how capable AI behaves to treat it like an ice cube melting, but do we?"*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
+source:: [[../Lenses/IABIED - PQ - Hard Calls and Easy Calls]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Hard Calls and Easy Calls]]
+source:: [[../Lenses/IABIED - Hard Calls and Easy Calls]]

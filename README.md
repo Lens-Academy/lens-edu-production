@@ -1,48 +1,47 @@
 # Lens Academy Educational Content
 
-Course modules and lessons for the Lens Academy AI Safety curriculum. 
+Course modules and lessons for the Lens Academy AI Safety curriculum.
 ## Read-only:
-- Staging (automatically synced from Obsidian with 10s delay): https://github.com/lucbrinkman/lens-educational-content/tree/staging
-- Production: https://github.com/lucbrinkman/lens-educational-content/tree/main
+- Staging (automatically synced from the relay within seconds): https://github.com/Lens-Academy/lens-edu-staging/tree/staging
+- Production: https://github.com/Lens-Academy/lens-edu-production
 
 ## Workflow
 ```
-Obsidian → Relay → staging branch → PR → main branch → Production
+Obsidian / web editor / AI (MCP) → Relay → lens-edu-staging → promotion PR → lens-edu-production → Production
 ```
 
-1. **Edit in Obsidian** - All content is authored in Obsidians
-2. **Auto-sync to staging** - Relay automatically syncs changes to the `staging` branch
-	- The staging branch is used directly by our staging website. Changed made in Obsidian should be reflected on the website after 20s or so.
-3. **Create PR** - Manually open a pull request from `staging` to `main`
-4. **Validation** - GitHub Actions validates lesson format and wiki-links
-5. **Merge to main** - Once checks pass, squash and merge to `main`
-6. **Production** - The `main` branch is used directly by the production website..
+1. **Edit via Relay** - Content is authored in Obsidian (Relay plugin), the web editor (editor.lensacademy.org), or by AI through the lens-relay MCP (AI edits land as suggestions a human accepts in the editor)
+2. **Auto-sync to staging** - Relay automatically syncs changes to the `staging` branch of `lens-edu-staging`
+	- The staging branch is used directly by the staging website (staging.lensacademy.org). Changes should be reflected there after 20s or so. Check https://staging.lensacademy.org/validate for format errors.
+3. **Promotion PR** - Open a pull request in `lens-edu-production` promoting the content from staging
+4. **Validation** - GitHub Actions validates content format and wiki-links on the promotion PR
+5. **Merge** - Once checks pass, merge
+6. **Production** - `lens-edu-production` is used directly by the production website (lensacademy.org)
 ## Important
 
-- **Never commit directly to the Lens Educational Content repo on Github** - All changes must come through Relay.
-- That includes pushing to the staging branch and any other branches.
+- **Never push to `lens-edu-staging` on GitHub** - it is continuously overwritten by the relay sync; pushes break the sync. All content changes must come through Relay.
+- `lens-edu-production` only changes through promotion PRs.
 
 ## Structure
 ### Course structure
 ```
-**Course** - list of 
-: **Week** - where each week has 1 or more
-:: **Module** - list of
-::: **Learning outcome** - where each has three params
-:::: 1. Name of outcome
-:::: 2. **Test** - how we'll assess whether the person learned the objective
-:::: 3. **Lens** - a learning flow which has
-::::: A. One **Resource** {article, video, a section from one of them, or a little app to teach something}
-::::: B. **Prompt(s)** for the AI tutor to talk to the student (optional)
-::::: C. Some extra bits like framing texts etc (optional)
+**Course** - ordered list of **Module** references, with `# Meeting:` markers in between - each module is a list of
+: **Learning outcome** - where each has three params
+:: 1. Name of outcome
+:: 2. **Test** - how we'll assess whether the person learned the objective
+:: 3. **Lens** - a learning flow which has
+::: A. One **Resource** {article, video, a section from one of them, or a little app to teach something}
+::: B. **Prompt(s)** for the AI tutor to talk to the student (optional)
+::: C. Some extra bits like framing texts etc (optional)
 ```
 
 This is implemented as shown below:
 #### Modules
 e.g. `Lens Edu/modules/module.md`
-Required frontmatter: `slug`, `title`, `id`
+Required frontmatter: `slug`, `title` (`id` optional but conventional)
 
 Any number of
+\# Submodule: (groups the sections below it)
 \# Lens: (inline with `id::` + segments, or referenced with `source::`)
 \# Learning Outcome:
 
@@ -56,12 +55,12 @@ id:: <uuid>
 content::
 Lorum Ipsum
 
-# Learning Outcome:
-[[link to Learning Outcome note]]
+# Learning Outcome: Define Intelligence
+source:: ![[../Learning Outcomes/Define Intelligence]]
 
 # Lens:
 optional:: true
-source:: [[link to Lens note]]
+source:: ![[../Lenses/Some Lens]]
 ```
 
 #### Learning Outcomes
@@ -75,13 +74,16 @@ Any number of
 Example:
 ```md
 ## Test:
-[[Link to Test note]]
+id:: <uuid>
+#### Question
+content:: <the test question>
+assessment-instructions:: <scoring rubric>
 
 ## Lens:
-[[link to Lens note]]
+source:: ![[../Lenses/lens-name]]
 
-## Lens: (optional)
-[[Link to 2nd Lens note]]
+## Lens:
+source:: ![[../Lenses/second-lens]]
 ```
 
 #### Lenses

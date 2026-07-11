@@ -6,15 +6,15 @@ tldr: I.J. Good recognized that the first machine smarter than any human would b
 ---
 #### Text
 content::
-The issue with self amplifying loops is that plans become obsolete very quickly. The system a few steps down the line will be dominated by effects that are almost impossible to foresee from the starting line. I.J. Good recognised this when he wrote the following:
+In 1965, long before any working computer looked remotely like a mind, the statistician I. J. Good followed the feedback loop to its end. Read the last clause slowly.
 
 #### Article
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
-from:: "The survival of man depends"
-to:: "in his own image."
+from:: "Let an ultraintelligent machine be defined"
+to:: "how to keep it under control."
 
 #### Article
-from:: "Let an ultraintelligent machine be defined"
+from:: "Since we are concerned with the economical construction"
 to:: "value at a megakeynes."
 
 #### Text

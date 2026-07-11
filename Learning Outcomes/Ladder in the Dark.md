@@ -13,7 +13,6 @@ tags:
 ## Test:
 id:: 38dc6bd8-b793-448e-a44a-89d3cd4c6a03
 #### Question
-feedback:: true
 content:: Chapter 12 closes with a striking image: every competing AI company is climbing a ladder in the dark. Nobody knows which rung will be the last safe one: the point at which an AI system crosses into unrecoverable territory. You might expect this uncertainty to provide protection: if no one knows where the lethal rung is, perhaps caution will prevail. Chapter 12 argues the opposite. 
 
 **Using the ladder-in-the-dark framing, explain why uncertainty about the fatal rung does not protect against predictable disaster. Trace the chapter's argument that if climbing cannot be stopped, death is a predictable collective outcome, even though no one can identify which rung is lethal in advance.**
@@ -31,6 +30,8 @@ Score according to the following rubric.
 
 **5**: As above, plus connects to the CERN comparison the chapter uses to close: CERN spent 10 years calculating whether the LHC could destroy the Earth before proceeding, which illustrates what appropriate epistemic caution under existential uncertainty looks like. The contrast reveals that AI development has no equivalent pause-and-calculate mechanism. *Example: Adds "The CERN comparison clarifies the counterfactual. Physicists delayed the LHC a decade while they verified it couldn't destroy the world. That's the appropriate model for proceeding under existential uncertainty: pause and calculate until you can show it's safe. AI development has no equivalent process: there's no coordinated threshold, no verification requirement, no pause mechanism. The ladder keeps climbing because the competitive structure provides nothing to stop it."*
 
+
+# Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 

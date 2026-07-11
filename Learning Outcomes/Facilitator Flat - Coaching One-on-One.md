@@ -12,7 +12,6 @@ tags:
 id:: 01daaceb-9d37-4c20-b155-5d4e86e35fa1
 
 #### Question
-feedback:: true
 content:: Coaching is a different mode than facilitating, and it takes a different posture. Coaching is about the person, not the problem. Most rookies make the same mistake: they listen to the problem, then start solving. Better coaching has more questions and less advice.
 
 Why is coaching different from facilitating? Name at least three of the seven coaching questions from The Coaching Habit. Name the four stages of GROW. What does 'stay curious longer' look like in practice?
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies the AWE Question ("And what else?") as the most under-used — and uses GROW for heavier decisions.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Coaching One-on-One]]
+source:: [[../Lenses/Facilitator Flat - Coaching One-on-One]]

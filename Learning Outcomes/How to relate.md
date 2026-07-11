@@ -8,39 +8,32 @@ tags:
 id:: 07be3052-f86d-4ae7-8f95-33134b0b9cd8
 
 #### Question
-feedback:: true
 content:: Among these common first steps, (Learn more, Talk to people in the field, Help spread understanding, Apply for a program or fellowship, Engage politically or institutionally, and Donate), which seem most interesting to you personally?
 enforce-voice:: true
 
 #### Question
-feedback:: true
 content:: Which of these options feels most meaningful, and which feels most realistic?
 enforce-voice:: true
 
 #### Question
-feedback:: true
 content:: What is the main thing you are missing right now in order to decide how, or whether, you want to engage further?
 enforce-voice:: true
 
 #### Question
-feedback:: true
 content:: What would be a reasonable next step for you after this course to address that missing piece?
 enforce-voice:: true
 
 #### Question
-feedback:: true
 content:: What did you take away from this course for yourself?
 enforce-voice:: true
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
-source:: ![[../Lenses/The World Keeps Getting Saved]]
+source:: [[../Lenses/The World Keeps Getting Saved]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/The Goddess Of Everything Else]]
+source:: [[../Lenses/The Goddess Of Everything Else]]
 
 ## Lens:
-optional:: false
 source:: [[../Lenses/Next steps]]
-

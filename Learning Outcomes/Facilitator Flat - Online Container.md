@@ -12,7 +12,6 @@ tags:
 id:: 03b31a65-a3cf-421f-98f2-07fc7142f072
 
 #### Question
-feedback:: true
 content:: An online discussion is its own medium, not a worse version of an in-person one. The mistake is treating it as a degraded form. It isn't — it has different affordances.
 
 Name three things that are harder online and three things that are easier. For each "easier" — describe how you'd actually use it in a session.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which "harder" item is the one they personally need to develop a workaround for first.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Online Container]]
+source:: [[../Lenses/Facilitator Flat - Online Container]]

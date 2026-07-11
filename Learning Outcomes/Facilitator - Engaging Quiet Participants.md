@@ -12,7 +12,6 @@ tags:
 id:: 8ca12fea-78f2-40a2-b6b7-4ba3de557968
 
 #### Question
-feedback:: true
 content:: Quiet doesn't mean disengaged. Sometimes the quiet person is the deepest thinker in the room; sometimes they're checked out. Your job is to find out, without putting them on the spot.
 
 **Name three moves that engage quiet participants without cold-calling. Then name the two patterns to AVOID (and explain the cost of each).**
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies that ranked praise ("great point, Maya!") makes the next person worry their point won't be "great" enough — use neutral acknowledgment.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator - Engaging Quiet Participants]]
+source:: [[../Lenses/Facilitator - Engaging Quiet Participants]]

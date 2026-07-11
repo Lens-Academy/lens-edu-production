@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
+source:: [[../Lenses/EA Intro - Bayes Rule Guide]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Making Beliefs Pay Rent]]
+source:: [[../Lenses/EA Intro - Making Beliefs Pay Rent]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - What Is Evidence]]
+source:: [[../Lenses/EA Intro - What Is Evidence]]

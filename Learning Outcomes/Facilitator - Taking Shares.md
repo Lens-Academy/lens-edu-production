@@ -12,7 +12,6 @@ tags:
 id:: 64c1c84b-4565-4eff-901a-04dfd956ff08
 
 #### Question
-feedback:: true
 content:: A participant has just spoken. You have about three seconds to choose what to do next. Most facilitators default to "thank you, anyone else?" There are seven moves available, and the meta-skill is range, not preference.
 
 **Name all seven moves. For each of the following situations, pick the right move: (a) the speaker has been on for a while and others are quiet; (b) the share contained a vague word that's doing a lot of work; (c) the share contained a claim that, if true, would change the conclusion. Which move do you default to in real life — and what's lost when you over-rely on it?**
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates that **Push Back** is the most under-used move and the antidote to "pleasant agreement" (where people share, others nod, nothing moves). Distinguishes pushback from disagreement ("Do you mean THIS version or THAT version?" vs "I think you're wrong").
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator - Taking Shares]]
+source:: [[../Lenses/Facilitator - Taking Shares]]

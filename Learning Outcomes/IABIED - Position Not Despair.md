@@ -14,7 +14,6 @@ tags:
 
 id:: 3d3ca945-33d2-4a1b-a098-bc3571529754
 #### Question
-feedback:: true
 content:: Chapter 10 closes by mapping each of its three case-study domains (space probes, nuclear reactors, computer security) onto the ASI alignment problem, then states a blunt conclusion: "NOBODY SHOULD BE ALLOWED TO TRY." This phrasing reads to many people as despair: a counsel that nothing can be done. The authors mean something different.
 
 **In your own words, what is Chapter 10's closing position, and how does the chapter want you to read it? Specifically, distinguish between despair (nothing can be done, so why bother) and a position-statement (a logical conclusion from evidence that calls for a specific kind of response).**
@@ -32,8 +31,10 @@ Score according to the following rubric.
 
 **5**: As above, plus connects the despair / position-statement distinction back to the "grown, not crafted" insight from M1 and explains why a *crafted* engineering challenge of this difficulty might still be tackled by working harder, while a *grown* one of this difficulty cannot — making the position-statement the only available form of progress. *Example: Adds "If ASI were crafted, the response to compounding curses might be 'work harder, build better tools, get more eyes on it.' Because it's grown, the engineers don't even know what the curses of their own system are, so there's no 'work harder' move available. The position-statement is the only conclusion the evidence supports: under these conditions, the attempt itself is the failure mode."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
+source:: [[../Lenses/IABIED - Position Not Despair - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Position Not Despair]]
+source:: [[../Lenses/IABIED - Position Not Despair]]

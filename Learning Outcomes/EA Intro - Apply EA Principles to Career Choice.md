@@ -10,8 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
+source:: [[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Career Choice for Longtermists]]
+source:: [[../Lenses/EA Intro - Career Choice for Longtermists]]

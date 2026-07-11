@@ -12,7 +12,6 @@ tags:
 id:: abe92a29-e967-43a7-86ea-47e55d00bff6
 
 #### Question
-feedback:: true
 content:: Clarity about the role is half the work. The other half is clarity about where the role ends — what you are not responsible for. Conflating these is the most reliable source of facilitator burnout.
 
 Name at least three things a facilitator is NOT responsible for, and three things they ARE. For each "not" — describe what goes wrong if you take it on anyway.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a specific signpost they'll use when something heavy comes up that isn't theirs to hold (e.g., "we can talk after, or I can connect you with X").
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - What a Facilitator Is]]
+source:: [[../Lenses/Facilitator Flat - What a Facilitator Is]]

@@ -9,10 +9,10 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
+source:: [[../Lenses/IABIED - AI Safety Career Paths]]
 
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
+source:: [[../Lenses/IABIED - Next Steps with Lens Academy]]
