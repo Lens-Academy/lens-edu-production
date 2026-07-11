@@ -10,10 +10,11 @@ tags:
 
 ## Test:
 
+# Suggested Lenses:
 ## Lens:
-optional:: false
 source:: [[../Lenses/Lens Template|Lens Template]]
+notes:: 
 
 ## Lens:
-optional:: true
 source:: [[../Lenses/Lens Template|Lens Template]]
+notes:: 

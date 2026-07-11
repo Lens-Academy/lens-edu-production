@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]
+source:: [[../Lenses/EA Intro - 500 Million But Not a Single One More]]

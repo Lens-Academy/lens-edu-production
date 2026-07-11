@@ -14,7 +14,6 @@ tags:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678
 
 #### Question
-feedback:: true
 content:: The second half of Chapter 14 issues different calls to action to different audiences: government leaders, elected officials who are already persuaded, politicians who are not yet persuaded, journalists, and ordinary citizens.
 
 **Distinguish what the chapter asks of (a) government leaders, (b) skeptical politicians who aren't fully persuaded, and (c) ordinary citizens. What specific lever does each group hold that the other two cannot provide?**
@@ -31,6 +30,8 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates what makes each lever non-fungible: why government signaling requires state-level credibility to move other states; why GPU concentration requires regulatory authority that citizens don't have; and why citizen pressure creates the political permission structure that allows politicians and governments to act. *Example adds: "The chapter implies these groups form a chain: citizen pressure gives politicians permission to speak, politicians give governments cover to signal, and government signals make a treaty negotiable. No group can substitute for another because each lever requires a kind of authority or credibility the other groups lack."*
 
+
+# Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 

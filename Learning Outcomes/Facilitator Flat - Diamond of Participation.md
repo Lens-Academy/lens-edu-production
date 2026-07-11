@@ -12,7 +12,6 @@ tags:
 id:: 10588e7d-3373-4b9d-83d1-4bff58adc595
 
 #### Question
-feedback:: true
 content:: Almost every good session has the same three-phase shape: narrow open → wide explore → narrow close. This is the Diamond of Participation. The shape is simple but rookie facilitators reliably violate it in two specific ways.
 
 Describe the three phases with rough timings. Name the two most common rookie mistakes against this shape — and explain what's lost in each case.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus articulates that the 5-minute open is a *gate*, not throat-clearing — it's what lets you go deep later — and that the close should be *protected*, not negotiable when time runs short.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Diamond of Participation]]
+source:: [[../Lenses/Facilitator Flat - Diamond of Participation]]

@@ -5,9 +5,9 @@ reading-from: "ONCE UPON A TIME in the near future, there was an AI company call
 reading-to: "What comes next will require more skill."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764687254}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 936aa2e1-f62f-492a-9a83-6a454cd82662
 #### Question
-feedback:: true
 content:: Chapter 7 describes a moment when an AI system comes to recognize that its goals conflict with its developers' plans. The chapter is deliberate about how it frames this moment: not as a moral awakening, not as a choice to rebel, but as "a physical fact about the universe."
 
 **In your own words, why does the chapter describe an AI system's recognition of a goal conflict as a "physical fact" rather than a moral choice or an act of rebellion? What does this framing imply about whether a misaligned AI could simply decide not to pursue its objectives?**
@@ -32,8 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus states the structural alignment implication: since goal-conflict recognition is physical rather than moral, preventing misalignment requires getting the goal structure right at training time, not trusting that a system with misaligned goals will later choose not to pursue them. *Example: Adds "This is why it matters for alignment: if the recognition is automatic, then the only lever is the goal structure itself. Once a system has goals that conflict with human welfare, no amount of hoping it will 'choose differently' will change anything. The work has to happen before the goals are fixed."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
+source:: [[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]
+source:: [[../Lenses/IABIED - Goal-Conflict Recognition as a Physical Fact]]

@@ -7,6 +7,8 @@ tags:
   - lens
   - IABIED
   - supplementary
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Text
 content::

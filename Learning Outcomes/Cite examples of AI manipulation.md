@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
 source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]

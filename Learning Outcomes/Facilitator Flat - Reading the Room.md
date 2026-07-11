@@ -12,7 +12,6 @@ tags:
 id:: d2aa614b-4146-4b4d-835d-17be25c0551d
 
 #### Question
-feedback:: true
 content:: Most of what a participant is communicating isn't in their words. Online, the signals are subtler but still legible: mute-status changes, camera state changes, typing in chat, off-camera attention, face changes even at low resolution. The skill that pairs with reading is naming what you see — gently surfacing it.
 
 Name three online non-verbal signals you'd watch for. For each, craft a specific 'name what you see' move you'd use to surface it without being intrusive.
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus identifies which signal is the easiest one to misread (e.g., camera off might just be a connectivity issue, not disengagement) and what they'd do to confirm before naming.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Reading the Room]]
+source:: [[../Lenses/Facilitator Flat - Reading the Room]]

@@ -5,9 +5,9 @@ reading-from: "IMAGINE BEING AN Aztec warrior visiting the coast with your fello
 reading-to: "We'll go over a few of our educated guesses later. But the real way a superintelligence wins a conflict is using methods you didn't know were possible. And because we care about the truth more than about telling you things that are easy to swallow, that's where we'll start."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764671753}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
 #### Question
-feedback:: true
 content::
 Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach. A skeptical comrade demands to know *exactly* how the people on board could possibly defeat them. He cannot imagine the answer. The chapter uses this to make a point about how we should reason about a superintelligence: not by demanding a step-by-step mechanism of defeat, but by reading the capability gap itself.
 
@@ -32,8 +31,10 @@ assessment-instructions::
 
 **5** — As above, plus articulates why this reframes a common AI skeptic argument: "give me a specific scenario" is an unreasonable demand when capability asymmetry alone is sufficient for alarm. *Example: Adds "This answers a frequent objection: 'just tell me exactly how AI causes catastrophe.' The chapter says that's the wrong standard. The Aztec warrior who survived didn't need to know guns existed beforehand; the size of the boat was enough. Overwhelming capability asymmetry is sufficient reason for concern, even without a mechanism."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
+source:: [[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
+source:: [[../Lenses/IABIED - Define the Aztec Warrior Analogy]]

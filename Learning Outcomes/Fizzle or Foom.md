@@ -4,10 +4,12 @@ discussion: <discord url>
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
 source::
-![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
+[[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 ## Lens:
 source::
-![[../Lenses/Recursion Magic|Recursion Magic]]
+[[../Lenses/Recursion Magic|Recursion Magic]]

@@ -8,6 +8,8 @@ authors:
 tags:
   - lens
   - IABIED
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
 ---
 #### Text
 content::

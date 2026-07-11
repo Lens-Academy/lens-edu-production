@@ -28,35 +28,55 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 * How can coordination failures and competitive pressure drive unsafe outcomes even when individuals prefer safety, and how does this relate, or not, to instrumental convergence?
 
 
-# Learning Outcome:
+# Lens:
 optional:: true
+source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
 
+# Lens:
+source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
+
 # Learning Outcome:
-optional:: false
 source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
-# Learning Outcome:
+# Lens:
 optional:: true
+source:: [[../Lenses/When should we worry about AI power-seeking]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
 
+# Lens:
+source:: [[../Lenses/Sharp left turn]]
+
 # Learning Outcome:
-optional:: false
 source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
 
+# Lens:
+source:: [[../Lenses/Discovering when an agent is present in a system]]
+
 # Learning Outcome:
-optional:: false
 source:: [[../Learning Outcomes/Explain causal definition of agency]]
 
-# Learning Outcome:
+# Lens:
 optional:: true
+source:: [[../Lenses/Pythia by plex]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
 
-# Learning Outcome:
-optional:: false
-source:: [[../Learning Outcomes/Explain why default outcome is bad]]
+# Lens:
+optional:: true
+source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # Learning Outcome:
-optional:: false
+source:: [[../Learning Outcomes/Explain why default outcome is bad]]
+
+# Lens:
+source:: [[../Lenses/Meditations on Moloch]]
+
+# Learning Outcome:
 source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
 

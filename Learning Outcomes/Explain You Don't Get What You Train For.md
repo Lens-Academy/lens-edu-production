@@ -5,9 +5,9 @@ reading-from: "A MILLION YEARS ago, when one branch of primates was still master
 reading-to: "That's the next chapter."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764669755}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 27dca5ad-1a1d-40bf-b83d-fbcbd2e9f3d0
 #### Question
-feedback:: true
 content::
 Chapter 4 introduces the alignment problem by arguing that training an AI to be helpful does not reliably produce an AI that wants to be helpful.
 
@@ -33,8 +32,10 @@ Score according to the following rubric.
 
 **5**, As above, plus articulates the blank-map principle and its safety implication: the, complications are invisible in today's AIs because they lack the power to act on them. The problems only surface when the AI becomes capable enough to reshape its environment. *Example: Adds "The blank-map principle is what makes this dangerous: we don't see these weird preferences in current AIs because they're not powerful enough to act on them. Like sucralose, humans couldn't want it until we invented chemistry. The misalignment is already there in the weights, hidden, and will only show up when the AI is smart enough to invent its own options."*
 
+
+# Suggested Lenses:
 ## Lens: PQ - You Don't Get What You Train For
-source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
+source:: [[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 
 ## Lens: You Don't Get What You Train For
-source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
+source:: [[../Lenses/IABIED - You Don't Get What You Train For]]

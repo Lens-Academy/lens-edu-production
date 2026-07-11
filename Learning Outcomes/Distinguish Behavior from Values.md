@@ -5,9 +5,9 @@ reading-from: "Modern LLMs are, in some sense, truly alien minds—perhaps more 
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764661254}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
 #### Question
-feedback:: true
 content::
 Chapter 2 ends with a distinction the rest of the course will keep returning to: the difference between an AI that *behaves* as if it's aligned and one that *is* aligned.
 
@@ -33,8 +32,10 @@ Score according to the following rubric.
 
 **5** — As above, plus applies the distinction to a concrete scenario: given a specific example of aligned-seeming AI behavior, identifies what additional evidence would be needed to establish genuine alignment. *Example: "If an AI declines to help with a harmful request, that's a behavioral observation. To establish it's actually aligned you'd need to know whether it declined because it has values against harm, or because declining is what the training signal rewarded. Those predict very different behavior in novel situations."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Behavior Is Not Values - PQ]]
+source:: [[../Lenses/IABIED - Behavior Is Not Values - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Behavior Is Not Values]]
+source:: [[../Lenses/IABIED - Behavior Is Not Values]]

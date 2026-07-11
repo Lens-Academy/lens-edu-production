@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference]]
+source:: [[../Lenses/EA Intro - Comparing Charities - How Big Is the Difference]]

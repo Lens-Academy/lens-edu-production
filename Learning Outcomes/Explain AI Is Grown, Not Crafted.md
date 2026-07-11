@@ -5,9 +5,9 @@ reading-from: "Scene: A man and a woman are sitting in a restaurant in daytime."
 reading-to: "Machine minds are subjected to different constraints, and grown under different pressures, than those that shape biological organisms; and although they're trained to predict human writing, the thinking inside an AI runs on a radically different architecture from a human's."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764664752}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -16,7 +16,6 @@ tags:
 id:: 01dd1801-36f3-4a83-b7e7-33eed08ba1b0
 
 #### Question
-feedback:: true
 content:: Chapter 2 draws a sharp contrast between AI systems that are "grown" and systems that are "crafted."
 
 What is that distinction? And specifically: what does an engineer know about a trained AI model, and what do they not know?
@@ -33,9 +32,10 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates the process-knowledge/cognition-knowledge distinction: understanding how a system was produced is not the same as understanding what it is. *Example: "There are two kinds of understanding here. Engineers have process-knowledge: they know exactly how the training works. But they lack cognition-knowledge: they don't know what the model actually represents or wants. Confusing these two is the mistake that makes people overconfident about AI safety."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
+source:: [[../Lenses/IABIED - AI Is Grown, Not Crafted - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - AI Is Grown, Not Crafted]]
-
+source:: [[../Lenses/IABIED - AI Is Grown, Not Crafted]]

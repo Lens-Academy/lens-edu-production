@@ -7,18 +7,16 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
-source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
+source:: [[../Lenses/1960, The Year The Singularity Was Cancelled]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/Deadly By Default]]
+source:: [[../Lenses/Deadly By Default]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/Machines Of Loving Grace]]
+source:: [[../Lenses/Machines Of Loving Grace]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
+source:: [[../Lenses/The Artificial Intelligence That Deleted A Century]]

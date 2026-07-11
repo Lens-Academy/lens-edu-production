@@ -6,9 +6,9 @@ reading-to: "end of chapter"
 optional: true
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764676755}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
   - optional
@@ -17,7 +17,6 @@ tags:
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
 #### Question
-feedback:: true
 content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
 
 **The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
@@ -34,5 +33,7 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required M4's emotional work before it could be explained. The Coda's philosophical precision only lands because Chapters 7–9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because M4 made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Fiction as Argument]]
+source:: [[../Lenses/IABIED - Fiction as Argument]]

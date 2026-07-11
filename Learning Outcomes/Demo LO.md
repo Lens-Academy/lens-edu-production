@@ -5,5 +5,7 @@ learning-outcome: Used for manual testing
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/External Link Lens Demo|External Link Lens Demo]]
+source:: [[../Lenses/External Link Lens Demo|External Link Lens Demo]]

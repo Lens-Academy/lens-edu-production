@@ -10,11 +10,13 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Giving 101 Guide]]
+source:: [[../Lenses/EA Intro - Giving 101 Guide]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Global Health]]
+source:: [[../Lenses/EA Intro - Global Health]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Introducing LEEP]]
+source:: [[../Lenses/EA Intro - Introducing LEEP]]

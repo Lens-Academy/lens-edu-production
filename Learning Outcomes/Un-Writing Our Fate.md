@@ -14,7 +14,6 @@ tags:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456
 
 #### Question
-feedback:: true
 content:: Chapter 14 opens with Vesna Vulović, a flight attendant who survived a 10.1-kilometer fall when terrorists bombed her plane. The chapter then invokes the nuclear arms race: in 1952, a nuclear war seemed rationally predictable based on centuries of evidence about human conflict, yet it didn't happen. The chapter calls what prevented it "un-writing a fate already written."
 
 **In your own words: what does the chapter mean by "un-writing a fate already written"? What happened during the Cold War that the chapter uses as evidence that un-writing a fate is actually possible?**
@@ -31,6 +30,8 @@ Score according to the following rubric.
 
 **5** — As above, plus explicitly connects the nuclear precedent to AI: the chapter isn't claiming the future is optimistic, but that a fate that appears locked can be actively un-written by organized human effort, and that this precedent is the basis for treating hope as an active, rational posture rather than wishful thinking. *Example adds: "The chapter's point is that 'un-writing our fate' isn't optimism. It's a description of what the Cold War generation actually did. The nuclear war was as predictably catastrophic as the book claims AI disaster is. If they could un-write it through sustained effort, we can too. But only through the same kind of hard work, not by hoping things work out."*
 
+
+# Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 

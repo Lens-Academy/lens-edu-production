@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
+source:: [[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]

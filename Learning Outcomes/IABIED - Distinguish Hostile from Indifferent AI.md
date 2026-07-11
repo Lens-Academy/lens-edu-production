@@ -5,9 +5,9 @@ reading-from: "In a sense, that's all there is to it."
 reading-to: "And how could they possibly do that, if they're trapped inside computers?"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764678756}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
 #### Question
-feedback:: true
 content::
 A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then addresses the rebuttal that we could just "keep AI in a box" or restrict its capabilities, and explains why indifference combined with sufficient capability is all that's needed for catastrophe.
 
@@ -33,16 +32,16 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates why indifference makes the problem harder, not easier: hostility would at least give us a clear adversary to defend against, whereas indifference means the AI has no reason to negotiate, compromise, or even notice us, which makes alignment the only viable strategy rather than containment or deterrence. *Example: Adds "Counterintuitively, indifference is worse than hostility. A hostile AI is at least an adversary you can try to reason with or defend against. An indifferent AI has no reason to negotiate or spare you. You're just not a factor in its calculations. That's why the chapter says containment won't work and alignment is the only real path forward. You can't deter something that doesn't consider you relevant."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
+source:: [[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Distinguish Hostile from Indifferent AI]]
+source:: [[../Lenses/IABIED - Distinguish Hostile from Indifferent AI]]
 
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Useful]]
+source:: [[../Lenses/IABIED - QA - AI Find Us Useful]]
 
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
+source:: [[../Lenses/IABIED - QA - AI Find Us Fascinating]]

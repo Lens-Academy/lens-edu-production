@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]
+source:: [[../Lenses/EA Intro - Moral Progress and Cause X]]

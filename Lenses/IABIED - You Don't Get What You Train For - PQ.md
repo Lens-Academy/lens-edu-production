@@ -8,6 +8,8 @@ authors:
 tags:
   - lens
   - IABIED
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
 ---
 #### Question
 content:: Before reading Chapter 4: If you trained an AI by rewarding it every time it produced a helpful response, how confident are you that the AI would end up genuinely wanting to be helpful? Could an AI learn to produce helpful-looking outputs without actually wanting to help, and if so, would that matter? Write down your intuition before reading.

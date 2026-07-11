@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]
+source:: [[../Lenses/EA Intro - How AI Could Create the Biggest Problems]]

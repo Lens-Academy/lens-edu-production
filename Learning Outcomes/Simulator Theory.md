@@ -5,13 +5,13 @@ learning-outcome: Explain LLM behavior in terms of simulator theory.
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
-source:: ![[../Lenses/How can LLMs be understood as simulators]]
+source:: [[../Lenses/How can LLMs be understood as simulators]]
 
 ## Lens:
-optional:: false
-source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
+source:: [[../Lenses/Janus' Simulators - Scott Alexander]]
+
 ## Lens:
-optional:: true
-source:: ![[../Lenses/Simulators by Janus]]
+source:: [[../Lenses/Simulators by Janus]]

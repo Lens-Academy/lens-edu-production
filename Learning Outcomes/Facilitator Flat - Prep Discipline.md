@@ -12,7 +12,6 @@ tags:
 id:: 729042fd-6164-4bae-8ceb-203d5995ee35
 
 #### Question
-feedback:: true
 content:: You will be tempted to over-prepare. Reading the entire reading three times, writing 15 candidate questions, drafting an opening monologue — these feel diligent. They mostly aren't. There's a small list of prep moves that reliably improve quality and a longer list that's busywork.
 
 Name three prep moves that actually move session quality, and three prep moves that are busywork. For each "busywork" item — why does it feel useful but actually isn't?
@@ -28,5 +27,7 @@ assessment-instructions::
 
 **5** — As above, plus pre-commits to a 20-30 minute prep ceiling for their next session and articulates how they'll resist the pull to do more.
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/Facilitator Flat - Prep Discipline]]
+source:: [[../Lenses/Facilitator Flat - Prep Discipline]]

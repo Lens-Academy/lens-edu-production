@@ -8,6 +8,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]

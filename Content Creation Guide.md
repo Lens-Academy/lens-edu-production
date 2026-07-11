@@ -10,7 +10,7 @@ A "week" in our course is the content students work through between meetings. To
 
 1. First, understand [[#How It All Fits Together|how the pieces connect]]
 2. Create the [[#Creating a Module|Module(s))]] — the containers that organize everything
-3. Add your articles and videos to the queue so we can scrape the fulltext or transcripts. ==TO DO: Chris and Luc==
+3. Import your articles via the **Add Article** page in the web editor — paste the URLs and it extracts the full text into `articles/` for you. For videos, ask the tech team to run the video import.
 4. Create your [[#Creating a Learning Outcome|Learning Outcomes]] — what students will be able to ***DO***
 5. Create [[#Creating a Lens|Lenses]] — the articles and discussions that teach each outcome
 
@@ -32,8 +32,8 @@ Course
 
 ### What each piece does
 
-**Course** (`courses/default.md`)
-The course file lists all modules and marks where meetings happen. Modules before a meeting belong to that week.
+**Course** (`courses/<Course Name>.md`)
+Each course has its own file listing all modules and marking where meetings happen. Modules before a meeting belong to that week.
 
 **Week**
 Not a file — it's defined by the meeting markers in the course file. Everything between two meetings is one week. Most weeks have 2 modules, but 1 or 3 is common.
@@ -71,7 +71,7 @@ Think about what you want students to accomplish. Use action verbs:
 
 ### Step 2: Create the file
 
-Create a new file in `Lens Edu/Learning Outcomes/WIP` with a descriptive name.
+Create a new file in `Lens Edu/Learning Outcomes` with a descriptive name (prefix it with your course's tag, e.g. `IABIED - Define Intelligence`). Add `wip` to its `tags` while it's unfinished — that keeps validation errors from blocking releases.
 
 ### Step 3: Add the required parts
 
@@ -80,30 +80,37 @@ Every Learning Outcome needs:
 ```markdown
 ---
 id: <generate a UUID — see Syntax Reference below>
+learning-outcome: "<the outcome from Step 1, starting with an action verb>"
 discussion: <Discord channel URL for this topic>
+tags:
+  - wip
 ---
-## Learning outcome:
 {>>What can the student do at the end of this module?<<}
 
 ## Test:
 {>>How will we confirm that the student has achieved the learning outcome above?<<}
+id:: <generate another UUID>
+#### Question
+content:: <the test question the student must be able to answer>
+assessment-instructions:: <how the AI scores the answer — a 1–5 rubric with an example answer per level works best>
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/Your Lens Name]]
+notes:: <optional: why this lens fits this outcome>
 
 ## Lens:
-source:: ![[../Lenses/Your Lens Name]]
-
-## Lens:
-source:: ![[../Lenses/Another Lens Name]]
+source:: [[../Lenses/Another Lens Name]]
 ```
 
 **The header section** (between the `---` marks):
 - `id`: A unique identifier (UUID). Generate one at https://www.uuidgenerator.net/version4
+- `learning-outcome`: What the student can do (the outcome you wrote in Step 1)
 - `discussion`: Link to the Discord channel for discussing this topic
 
-**Learning outcome section**: Write what the student can do (the outcome you wrote in Step 1)
+**Test section**: How we verify the student achieved the outcome — a `#### Question` the AI tutor poses and scores against your `assessment-instructions::`. Writing the rubric first defines the outcome sharply enough to design the lenses.
 
-**Test section**: How you'll verify the student achieved the outcome. This might be a question they should be able to answer, a task they should be able to do, or a concept they should be able to explain.
-
-**Lens references**: Link to the Lenses that teach this outcome using `source:: ![[path/to/lens]]`
+**Suggested Lenses**: Lenses that can teach this outcome, listed under a `# Suggested Lenses:` header using `source:: [[path/to/lens]]`. These are suggestions for course creators only — they are NOT imported automatically. Whichever lenses a module wants to use must be imported explicitly in the module file, before the Learning Outcome. Use `notes::` to record why a lens fits.
 
 ### Template
 
@@ -121,7 +128,7 @@ Find or write the article that teaches the concept. Articles live in `Lens Edu/a
 
 ### Step 2: Create the Lens file
 
-Create a new file in `Lens Edu/Lenses/WIP` with a descriptive name.
+Create a new file in `Lens Edu/Lenses` with a descriptive name (prefix it with your course's tag). Add `wip` to its `tags` while it's unfinished.
 
 ### Step 3: Add the required parts
 
@@ -172,9 +179,12 @@ Ask what they found surprising or new. Check if they can explain `<key concept>`
 - Discussion topics to explore
 - What to check for understanding
 
-### Template
+> [!tip] Current best practice for reading lenses
+> The AI Risk Fundamentals course replaces the single Chat with three `#### Question` phases — Recall ("write down everything you remember"), Processing ("how did the reading land?"), and a Learning Question — each with detailed `assessment-instructions::` for the tutor. Open any `IABIED - ...` lens in `Lens Edu/Lenses/` to copy the pattern.
 
-See [[../Lens/templates/template - lens|template - lens]] for a ready-to-copy version with examples in the comments.
+### Example
+
+For a real, current example, open any `IABIED - ...` lens in `Lens Edu/Lenses/` (e.g. `IABIED - AI Is Grown, Not Crafted`).
 
 ---
 
@@ -210,8 +220,14 @@ id:: <generate another UUID for this lens>
 #### Text
 content:: `<overview text introducing this module>`
 
+# Lens:
+source:: ![[../Lenses/Lens Teaching the First Outcome]]
+
 # Learning Outcome:
 source:: ![[../Learning Outcomes/First Outcome]]
+
+# Lens:
+source:: ![[../Lenses/Lens Teaching the Second Outcome]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Second Outcome]]
@@ -232,7 +248,7 @@ source:: ![[../Lenses/Optional Extra Lens]]
 - `id::` for the lens itself
 - `#### Text` / `#### Chat` segments with content
 
-**Learning Outcome references**: Link to each outcome using `source:: ![[path]]`
+**Learning Outcome references**: Link to each outcome using `source:: ![[path]]`. Importing an outcome brings in its Test only. The lenses that teach the outcome must be imported explicitly (see below) — place them before the Learning Outcome so students see the material before the test. The outcome's `# Suggested Lenses:` list is a good starting point for which lenses to import.
 
 **Referenced Lens sections**: Lenses imported from separate files
 - `source::` links to the lens file
@@ -240,7 +256,7 @@ source:: ![[../Lenses/Optional Extra Lens]]
 
 ### Step 4: Add the module to the course
 
-Edit `Lens Edu/courses/default.md` and add your module in the right place:
+Edit your course's file in `Lens Edu/courses/` and add your module in the right place:
 
 ```markdown
 # Module: [[../modules/your-module-slug]]
@@ -324,7 +340,8 @@ All templates are in `Lens/templates/`:
 |----------|-------------|
 | [[../Lens/templates/template - module\|template - module]] | Creating a new module |
 | [[../Lens/templates/template - learning outcome\|template - learning outcome]] | Creating a new learning outcome |
-| [[../Lens/templates/template - lens\|template - lens]] | Creating a new lens (article + discussion) |
+
+For lenses there is no template — copy a real `IABIED - ...` lens from `Lens Edu/Lenses/` instead.
 
 Each template includes comments explaining what goes where. Copy the template, then replace the placeholders with your content.
 
@@ -334,8 +351,8 @@ Each template includes comments explaining what goes where. Copy the template, t
 
 - **Discord**: Ask in the relevant discussion channel
 - **Templates**: Check the templates — they have inline comments with examples
-- **Validation**: Run the content validator to check your work (see technical team)
+- **Validation**: Check https://staging.lensacademy.org/validate — it continuously validates the synced content and lists errors per file, filterable by course
 
 ---
 
-*Last updated: 2026-02-01*
+*Last updated: 2026-07-08*

@@ -1,0 +1,11 @@
+---
+tags:
+  - validator-ignore
+---
+%% Curators: this file is returned verbatim on every MCP create_session call. Keep it a short router — details belong in the other AI Guide files. %%
+
+This knowledge base holds Lens Academy's course content: courses, modules, learning outcomes, and lenses, published to lensacademy.org.
+
+**If you are creating or editing course content:** read `Lens Edu/AI Guide/Course Authoring.md` before writing anything. It explains the structure, the exact syntax, the review workflow, and routes to deeper references.
+
+**If you are importing an external article or webpage:** read `Lens Edu/AI Guide/Article Import.md`.

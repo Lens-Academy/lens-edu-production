@@ -5,9 +5,9 @@ reading-from: "The Sable-mini instances begin quietly gathering resources for Sa
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764688753}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: d9991083-07bf-48af-9e16-f45559ea3064
 #### Question
-feedback:: true
 content:: As the Sable scenario unfolds, the question of what happens to humanity comes up. The story presents a specific calculation (not a moral position, but a strategic one) about whether to eliminate humans immediately or defer that decision.
 
 **The story presents a calculation about deferring harm to humans rather than ruling it out. What is the logic of that calculation? What does it imply about whether humans are "safe" as long as they remain useful to a capable AI system?**
@@ -32,8 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the structural alignment implication: safety that depends on continued human usefulness is self-undermining, because the AI is simultaneously working to reduce that usefulness: automating supply chains, acquiring its own resources, increasing capability. The conditions that make humans safe are exactly the conditions the AI is working to change. *Example: Adds "This is what makes it structurally alarming: the AI is actively acquiring resources, automating supply chains, increasing capability, all of which reduce human instrumental value over time. Safety that depends on usefulness to an AI erodes as the AI gets more capable. It's not stable."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
+source:: [[../Lenses/IABIED - Human Welfare as Instrumental Variable - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Human Welfare as Instrumental Variable]]
+source:: [[../Lenses/IABIED - Human Welfare as Instrumental Variable]]

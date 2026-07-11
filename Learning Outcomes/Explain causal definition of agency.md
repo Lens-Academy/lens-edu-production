@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: false
 source:: [[../Lenses/Discovering when an agent is present in a system]]

@@ -21,8 +21,29 @@ What can I do to shape that future?
 
 
 
+# Lens:
+source:: ![[../Lenses/1960, The Year The Singularity Was Cancelled]]
+
+# Lens:
+source:: ![[../Lenses/Deadly By Default]]
+
+# Lens:
+source:: ![[../Lenses/Machines Of Loving Grace]]
+
+# Lens:
+source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
+
 # Learning Outcome:
 source:: ![[../Learning Outcomes/Where it leads to]]
+
+# Lens:
+source:: ![[../Lenses/The World Keeps Getting Saved]]
+
+# Lens:
+source:: ![[../Lenses/The Goddess Of Everything Else]]
+
+# Lens:
+source:: [[../Lenses/Next steps]]
 
 # Learning Outcome:
 source:: ![[../Learning Outcomes/How to relate]]

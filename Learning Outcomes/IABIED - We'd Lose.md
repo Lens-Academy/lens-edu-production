@@ -9,10 +9,10 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Can We Just Contain It in a Box]]
+source:: [[../Lenses/IABIED - QA - Can We Just Contain It in a Box]]
 
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Could We Enhance Humans to Compete]]
+source:: [[../Lenses/IABIED - QA - Could We Enhance Humans to Compete]]

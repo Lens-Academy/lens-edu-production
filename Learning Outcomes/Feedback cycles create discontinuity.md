@@ -8,9 +8,10 @@ tags:
 ## Test:
 
 
+# Suggested Lenses:
 ## Lens:
 source::
-![[../Lenses/Cascades and Cycles]]
+[[../Lenses/Cascades and Cycles]]
 
 ## Lens:
 source::

@@ -13,7 +13,6 @@ tags:
 ## Test:
 id:: f9c4b820-5a71-4d83-9e12-7b3f0c5d8a91
 #### Question
-feedback:: true
 content:: Chapter 13 opens with a parable about the Allied Powers in World War II: military drafts, food rationing, soldiers sent to die, enormous expense, all to prevent totalitarianism from conquering the world. The chapter then addresses those who believe international coordination on AI restriction is politically impossible. The WWII story is the chapter's direct answer to that objection.
 
 **In your own words, how does the chapter use the WWII analogy to respond to the claim that coordinating major powers on AI restriction is politically impossible? What specific feature of WWII does it invoke, and what does it assume about what people are capable of?**
@@ -30,6 +29,8 @@ Score according to the following rubric.
 
 **5** — As above, plus connects the analogy's argumentative function to the chapter's arc: it converts impossibility from a factual claim to a motivational claim and answers it with historical precedent, while explicitly acknowledging the proposed action is not easy or cheap. *Example: Adds "The WWII analogy does specific work: it shifts 'this can't happen' to 'this requires people to care enough,' then shows it has happened before. The chapter explicitly says what it's proposing is not easy or cheap. The analogy doesn't deny the difficulty; it rebuts the claim that difficulty makes coordination impossible."*
 
+
+# Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 

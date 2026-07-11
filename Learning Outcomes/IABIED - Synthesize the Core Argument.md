@@ -8,5 +8,7 @@ tags:
 ---
 
 ## Test:
+
+# Suggested Lenses:
 ## Lens: Synthesize the Core Argument
 source:: [[../Lenses/IABIED - QA - Warning Shots]]

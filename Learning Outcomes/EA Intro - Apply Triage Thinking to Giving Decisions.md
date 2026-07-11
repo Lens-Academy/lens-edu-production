@@ -10,5 +10,7 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
+source:: [[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]

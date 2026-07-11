@@ -14,7 +14,6 @@ tags:
 id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
 #### Question
-feedback:: true
 content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on three engineering domains (space probes, Chernobyl-style nuclear reactors, and computer security) to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
 
 **Name the five engineering curses Chapter 10 identifies, and for each one, identify which case study (space probes, Chernobyl, or computer security) the chapter uses to illustrate it.**
@@ -32,8 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates *why* the chapter argues edge cases are a different category (they intensify with the system's intelligence, while the other four are physical constraints), and connects this to AI being "grown, not crafted" from M1. *Example: Adds "Speed, narrow margins, self-amplification, and complications are physical constraints that intelligent and unintelligent systems both face. Edge cases are different: they get worse the smarter the adversary is, because a smarter system can find more obscure exploits. And because AI is grown, not crafted, the engineers don't even know what the edge cases of their own system are. That's the curse stack-up."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
+source:: [[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - The Five Engineering Curses]]
+source:: [[../Lenses/IABIED - The Five Engineering Curses]]

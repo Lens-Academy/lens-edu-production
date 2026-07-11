@@ -10,8 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - On Caring]]
+source:: [[../Lenses/EA Intro - On Caring]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
+source:: [[../Lenses/EA Intro - Scope Insensitivity]]

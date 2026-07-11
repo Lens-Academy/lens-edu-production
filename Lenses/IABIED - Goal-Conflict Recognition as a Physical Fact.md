@@ -8,6 +8,8 @@ authors:
 tags:
   - lens
   - IABIED
+add_to_ai_context:
+  - "[[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]"
 ---
 #### Text
 content::

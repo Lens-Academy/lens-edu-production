@@ -13,7 +13,6 @@ tags:
 ## Test:
 id:: fc3b7597-3165-46ee-af3a-a6990d9e98eb
 #### Question
-feedback:: true
 content:: The most developed alignment plan Chapter 11 examines is "superalignment": the idea, made flagship at OpenAI in 2023, of using AI to help solve the alignment problem itself. The chapter splits this into two versions, weak (AI helps with interpretability research) and strong (a smarter-than-human AI solves alignment for us), and finds the strong version particularly broken.
 
 **Describe the strong-superalignment proposal as Chapter 11 presents it. Then state the chapter's objection: specifically, why building the AI required to solve alignment cannot be done before alignment is itself solved. If you can, also describe the chapter's response to "we'll just make a special-purpose alignment AI that isn't generally dangerous."**
@@ -31,8 +30,10 @@ Score according to the following rubric.
 
 **5**: As above, plus contrasts strong superalignment with a *biomedical-AI* counterexample (per the chapter): a biology-specialized AI is at least not thinking explicitly about how to make better AIs, so its outputs are checkable against narrower verification tools. The structural problem with strong superalignment is that the alignment-thinking AI *cannot* be made non-dangerous in the same way. *Example: Adds "The chapter contrasts this with a biomedical AI: that AI isn't reasoning about AI internals or alignment psychology, so if it outputs a cancer cure you can run separate narrower tools to check the protein interactions. Strong superalignment doesn't have that out: the very capability you need *is* the dangerous thinking. There's no narrower checker for 'is this alignment plan secretly going to fail.'"*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
+source:: [[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
+source:: [[../Lenses/IABIED - Strong Superalignment Objection]]

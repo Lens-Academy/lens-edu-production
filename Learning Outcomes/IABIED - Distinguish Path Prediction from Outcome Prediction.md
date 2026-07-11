@@ -5,9 +5,9 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764680256}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 18d90494-37f8-4ecd-9d00-5494296d5b5d
 #### Question
-feedback:: true
 content:: The Coda makes a careful distinction between two kinds of prediction. On one side: the specific events that lead to an outcome. On the other: the outcome itself.
 
 **What is that distinction? Use the analogy the authors give to explain it. And what does the distinction imply about what the book actually predicts, and what it doesn't?**
@@ -32,8 +31,10 @@ Score according to the following rubric.
 
 **5** — As above, plus connects to the Introduction's hard/easy-calls framework: this is the course's opening epistemic distinction arriving at its final and most consequential application. The Stockfish analogy completes what the ice-cube analogy opened, and the Coda's path/outcome distinction is the precise tool the course has been building toward since M1. *Example: Adds "The Introduction introduced hard and easy calls. The Coda delivers the course's most important deployment of that framework: the outcome of human-superintelligence interaction, once capability is reached, is an easy call, even though the specific path remains a hard one."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
+source:: [[../Lenses/IABIED - Path Prediction vs Outcome Prediction - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]
+source:: [[../Lenses/IABIED - Path Prediction vs Outcome Prediction]]

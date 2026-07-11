@@ -9,6 +9,7 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Why Write a Fictional Scenario]]
+source:: [[../Lenses/IABIED - QA - Why Write a Fictional Scenario]]

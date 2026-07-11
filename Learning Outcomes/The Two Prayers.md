@@ -14,7 +14,6 @@ tags:
 id:: c2d3e4f5-a6b7-8901-cdef-012345678901
 
 #### Question
-feedback:: true
 content:: The Closing Words offer two prayers. The first asks that the authors be proven wrong, shamed, and forgotten. The second, which the authors call their "true last prayer," is the book's final line.
 
 **Distinguish what each prayer asks for. What would need to happen in the real world for the first prayer to be answered? For the second? And why do the authors call the second prayer their "true" one?**
@@ -31,6 +30,8 @@ Score according to the following rubric.
 
 **5** — As above, plus articulates the deeper epistemic point: the two prayers are compatible — the authors would prefer the first (to be wrong) but refuse to rely on it, so they issue the second as their actual position. The "true last prayer" is the authors' statement of what they stand for given that being passively wrong may not happen. *Example adds: "The two prayers aren't in tension. The authors genuinely want to be wrong. That would be the best news. But wanting to be wrong doesn't mean doing nothing. The second prayer is 'true' because it's what they're actually asking of the reader: not just to hope things work out, but to act. Both can be held at once: hope you're wrong, and act as if you're not."*
 
+
+# Suggested Lenses:
 ## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 

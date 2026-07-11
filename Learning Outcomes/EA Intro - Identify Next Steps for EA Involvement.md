@@ -10,8 +10,10 @@ tags:
 ## Test:
 {>>TODO: write assessment question or task<<}
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/EA Intro - Call to Vigilance]]
+source:: [[../Lenses/EA Intro - Call to Vigilance]]
 
 ## Lens:
-source:: ![[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]
+source:: [[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]

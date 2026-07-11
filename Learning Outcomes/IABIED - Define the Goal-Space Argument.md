@@ -5,9 +5,9 @@ reading-from: "THERE ONCE WAS a civilization of aliens, biological rather than m
 reading-to: "Making a future full of flourishing people is not the best, most efficient way to fulfill strange alien purposes. So it wouldn't happen to do that, any more than we'd happen to ensure that our dwellings always contain a prime number of stones."
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764673254}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -15,7 +15,6 @@ tags:
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
 #### Question
-feedback:: true
 content::
 Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 
@@ -33,8 +32,10 @@ Score according to the following rubric.
 
 **5** — As above, plus connects the goal-space argument to the chapter's broader stakes: this is why the problem is so hard: it's not that we need to prevent AI from choosing bad goals, but that human-compatible goals are a needle in an astronomical haystack, and there's no known method to aim for that needle. *Example: Adds "This is what makes alignment so difficult. It's not about preventing a malicious AI: it's that building an AI whose goals happen to include human flourishing requires hitting an incredibly specific target in an enormous space, and we don't yet know how to aim. The default outcome isn't hostility; it's indifference."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
+source:: [[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Define the Goal-Space Argument]]
+source:: [[../Lenses/IABIED - Define the Goal-Space Argument]]

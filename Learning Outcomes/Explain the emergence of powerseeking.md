@@ -7,6 +7,7 @@ tags:
 ---
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
 source:: [[../Lenses/When should we worry about AI power-seeking]]

@@ -22,6 +22,10 @@ source:: [[../Lenses/Risks from power-seeking AI]]
 optional:: true
 source:: [[../Lenses/AI Chronicles - Torchbearer]]
 %%
+
+# Lens:
+source:: ![[../Lenses/10 reasons]]
+
 # Learning Outcome:
 source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
 

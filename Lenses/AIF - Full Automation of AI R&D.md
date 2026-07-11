@@ -1,0 +1,28 @@
+---
+id: 9f73d64c-3d19-4f13-8570-cb8ba1106d68
+title: "Full Automation of AI R&D"
+tldr: Even if the "software-only singularity" fizzles, fully automating AI research still buys an enormous speed-up. Fast progress doesn't depend on the diverging-returns assumption.
+summary_for_tutor: "Covers Greenblatt's argument that full automation of AI R&D probably yields a large (order-of-magnitude-scale) speed-up in AI progress even without a software-only singularity: automated researchers can be run in vast numbers, at high serial speed, around the clock, with better coordination. The conclusion that progress becomes very fast therefore does not depend on the diverging-returns-to-software assumption debated in the software intelligence explosion literature."
+---
+
+#### Text
+content::
+A useful counterpoint-within-the-camp: even if the "software-only singularity" fizzles, this Redwood post argues full automation of AI R&D still buys a very large speed-up. The interesting part is *why*: where the acceleration comes from when the recursive loop doesn't diverge.
+
+#### Article
+source:: [[../articles/greenblatt-full-automation-of-ai-rd-probably-yields-a-large-speed-up-even-without-a-software-only-singularity]]
+
+#### Text
+content::
+Greenblatt claims fast progress survives *even if* the recursive loop never diverges. Are you convinced? Pressure-test that claim with the tutor.
+
+#### Chat
+instructions::
+TLDR of what the user just read: Ryan Greenblatt argues that fully automating AI R&D probably yields a large (order-of-magnitude-ish) speed-up in AI progress even without a software-only intelligence explosion, because AI researchers can be run in huge numbers, at high serial speed, around the clock, so conclusions about fast progress don't depend on the diverging-returns assumption.
+
+Discussion topics to explore:
+- Which sources of speed-up (parallelism, serial speed, no rest, better coordination) does the learner find most/least credible?
+- How does this argument change what evidence we should track (does the r parameter debate matter less than it seemed?)
+- What would a world with "merely" 10x faster AI progress look like from the outside, and how much reaction time would society have?
+
+Check they can articulate the difference between "software intelligence explosion" and "large speed-up from full automation" in their own words.

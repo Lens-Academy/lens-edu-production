@@ -7,9 +7,9 @@ title: "Explain Intelligence Is Direction-Agnostic"
 slug: intelligence-is-direction-agnostic
 authors:
   - Chris+Claude
-add_to_ai_context:
+{--{"author":"Luc's AI","timestamp":1783764666255}@@add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
-tags:
+--}tags:
   - learning-outcome
   - IABIED
 ---
@@ -17,7 +17,6 @@ tags:
 ## Test:
 id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
 #### Question
-feedback:: true
 content::
 Chapter 1 makes a claim that cuts against a common assumption: that smarter AI will naturally be safer or more aligned with human goals.
 
@@ -35,8 +34,10 @@ Score according to the following rubric.
 
 **5** — As above, plus applies the concept to rebut a common objection (e.g., "Won't it share our values because it learned from human data?" or "Won't it keep us alive as a resource?"). *Example: "People say it'll have human values because it trained on human text. But that assumes it internalized what humans want rather than just learned to predict what humans say. Those are very different things."*
 
+
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
+source:: [[../Lenses/IABIED - Intelligence Is Direction-Agnostic - PQ]]
 
 ## Lens:
-source:: ![[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]
+source:: [[../Lenses/IABIED - Intelligence Is Direction-Agnostic]]

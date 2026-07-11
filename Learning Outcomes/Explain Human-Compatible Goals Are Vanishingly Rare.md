@@ -9,6 +9,7 @@ tags:
 
 ## Test:
 
+
+# Suggested Lenses:
 ## Lens:
-optional:: true
-source:: ![[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
+source:: [[../Lenses/IABIED - QA - Won't It Choose to Be Moral]]
