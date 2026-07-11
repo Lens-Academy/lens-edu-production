@@ -3,8 +3,6 @@ id: 27b0be33-0b86-496a-8be5-c1c91952fbf0
 title: "How would stopping everyone be possible without spyware?"
 tldr: "By acting soon."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

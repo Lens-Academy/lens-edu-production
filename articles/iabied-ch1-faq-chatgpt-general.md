@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### You could call it that if you'd like.
 

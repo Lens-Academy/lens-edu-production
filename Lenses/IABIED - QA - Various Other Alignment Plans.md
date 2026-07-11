@@ -3,8 +3,6 @@ id: bac5f63b-add8-4553-808e-8146f934ea4b
 title: "What about various other AI alignment plans?"
 tldr: "We cover additional alignment proposals in the book."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

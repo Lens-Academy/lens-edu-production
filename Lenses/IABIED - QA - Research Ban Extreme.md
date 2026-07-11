@@ -3,8 +3,6 @@ id: bafb42cd-f9b2-43d1-aec4-bd6ed36b10e0
 title: "Why a research ban? That seems extreme."
 tldr: "More breakthroughs might make it effectively impossible to stop people from making superintelligence."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

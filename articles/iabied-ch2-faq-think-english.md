@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Not as much as you might hope; we already see signs of infidelity.
 

@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Only if you're using an overly narrow definition of "intelligence."
 

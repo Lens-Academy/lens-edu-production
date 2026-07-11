@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 
 #### We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios.

@@ -4,7 +4,6 @@ learning-outcome: "Name all seven 'taking shares' moves (Reflect, Paraphrase, De
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

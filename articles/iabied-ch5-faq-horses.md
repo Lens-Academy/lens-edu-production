@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### What horses remain, remain because we like them.

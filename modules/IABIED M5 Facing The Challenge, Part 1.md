@@ -8,9 +8,6 @@ readings:
   - "Chapter 11: An Alchemy, Not a Science"
 authors:
   - Yatharth+Claude
-tags:
-  - IABIED
-  - module
 ---
 
 # Submodule: Welcome
@@ -20,14 +17,17 @@ source:: ![[../Lenses/IABIED - M5 Welcome]]
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
+# Learning Outcome: IABIED - The Five Engineering Curses
+source:: ![[../Learning Outcomes/IABIED - The Five Engineering Curses]]
+
+# Learning Outcome: IABIED - Position Not Despair
+source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
+
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses]]
-
-# Learning Outcome: IABIED - The Five Engineering Curses
-source:: ![[../Learning Outcomes/IABIED - The Five Engineering Curses]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
@@ -35,11 +35,14 @@ source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair]]
 
-# Learning Outcome: IABIED - Position Not Despair
-source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
-
 # Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
+
+# Learning Outcome: IABIED - Alchemy Not Science
+source:: ![[../Learning Outcomes/IABIED - Alchemy Not Science]]
+
+# Learning Outcome: IABIED - Strong Superalignment Objection
+source:: ![[../Learning Outcomes/IABIED - Strong Superalignment Objection]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
@@ -47,17 +50,11 @@ source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Alchemy Not Science]]
 
-# Learning Outcome: IABIED - Alchemy Not Science
-source:: ![[../Learning Outcomes/IABIED - Alchemy Not Science]]
-
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
-
-# Learning Outcome: IABIED - Strong Superalignment Objection
-source:: ![[../Learning Outcomes/IABIED - Strong Superalignment Objection]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

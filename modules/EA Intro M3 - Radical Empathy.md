@@ -18,34 +18,34 @@ source:: ![[../Lenses/EA Intro - Radical Empathy Introduction]]
 
 # Submodule: Impartiality and radical empathy
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
-
 # Learning Outcome: EA Intro - Explain Impartiality and Radical Empathy
 source:: ![[../Learning Outcomes/EA Intro - Explain Impartiality and Radical Empathy]]
-
-# Lens:
-source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]
 
 # Learning Outcome: EA Intro - Describe Moral Progress and Cause X
 source:: ![[../Learning Outcomes/EA Intro - Describe Moral Progress and Cause X]]
 
-# Lens:
-source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
-
 # Learning Outcome: EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes
 source:: ![[../Learning Outcomes/EA Intro - Evaluate the Possibility of Ongoing Moral Catastrophes]]
-
-# Lens:
-source:: ![[../Lenses/EA Intro - On Fringe Ideas]]
 
 # Learning Outcome: EA Intro - Apply the Case for Animal Moral Consideration
 source:: ![[../Learning Outcomes/EA Intro - Apply the Case for Animal Moral Consideration]]
 
-# Submodule: The case for caring about animal welfare
+# Lens:
+source:: ![[../Lenses/EA Intro - Radical Empathy (Karnofsky)]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]
+source:: ![[../Lenses/EA Intro - Moral Progress and Cause X]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - The Possibility of Ongoing Moral Catastrophe]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - On Fringe Ideas]]
+
+# Submodule: The case for caring about animal welfare
 
 # Learning Outcome: EA Intro - Identify Strategies for Improving Animal Welfare
 source:: ![[../Learning Outcomes/EA Intro - Identify Strategies for Improving Animal Welfare]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Factory Farming Problem Profile]]

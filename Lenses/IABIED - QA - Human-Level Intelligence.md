@@ -4,8 +4,6 @@ summary_for_tutor: "Defends 'human-level intelligence' as a useful concept by po
 title: "Is 'human-level intelligence' a meaningful concept?"
 tldr: "Yes, in many cases."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

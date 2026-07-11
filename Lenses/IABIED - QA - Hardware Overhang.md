@@ -4,8 +4,6 @@ summary_for_tutor: Covers the argument that racing ahead in AI prevents dangerou
 title: "Isn't it important to race ahead because of 'hardware overhang'?"
 tldr: "That would be suicidal, because we're too far from an alignment solution."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

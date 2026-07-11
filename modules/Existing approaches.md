@@ -3,9 +3,10 @@ id: e2883472-3994-43a1-88a2-b4f64f70b210
 slug: existing-approaches
 title: "Existing approaches"
 discussion: https://discordapp.com/channels/1440725236843806762/1470760399438614538
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Arguments for and against different agendas]]
 
 # Submodule: Welcome
 ## Lens: Welcome
@@ -97,8 +98,6 @@ source:: [[../Lenses/Embedded agents]]
 ## Lens:
 source:: [[../Lenses/Realism about rationality]]
 
-# Submodule: Test Your Understanding
-## Learning Outcome:
-source:: [[../Learning Outcomes/Arguments for and against different agendas]]
+
 
 

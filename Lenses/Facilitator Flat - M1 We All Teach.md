@@ -4,7 +4,6 @@ title: "Optional — We All Teach: How to Do It Better (Noetel, 15 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

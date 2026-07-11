@@ -9,7 +9,6 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-  - IABIED
 ---
 
 ## Test:

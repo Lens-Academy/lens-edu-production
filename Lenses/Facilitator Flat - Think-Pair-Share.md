@@ -6,7 +6,6 @@ tldr: "If you memorise one structural pattern from this whole course, make it th
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

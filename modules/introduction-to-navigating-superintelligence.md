@@ -4,6 +4,10 @@ slug: introduction-to-navigating-superintelligence
 title: Introduction to Navigating Superintelligence
 discussion: https://discord.com/channels/1440725236843806762/1465349126073094469
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
+
 # Lens: Welcome
 id:: a1b2c3d4-5678-90ab-cdef-1234567890ab
 #### Text
@@ -25,9 +29,6 @@ source:: [[../Lenses/AI Chronicles - Torchbearer]]
 
 # Lens:
 source:: ![[../Lenses/10 reasons]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Objections L1 - Realize objections and rebuttals exist]]
 
 # Lens:
 optional:: true

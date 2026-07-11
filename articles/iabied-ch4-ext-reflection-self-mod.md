@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### By Default, AIs Don't Self-Modify the Way We'd Want
 

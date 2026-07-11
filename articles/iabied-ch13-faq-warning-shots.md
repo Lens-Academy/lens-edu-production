@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Maybe. If we wish to make use of them, we must prepare now.
 

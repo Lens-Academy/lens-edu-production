@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### The time has passed for playing political games.
 

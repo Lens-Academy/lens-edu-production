@@ -4,8 +4,6 @@ summary_for_tutor: Explores whether ChatGPT qualifies as a general intelligence.
 title: "Isn't ChatGPT already a general intelligence?"
 tldr: "You could call it that if you'd like."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

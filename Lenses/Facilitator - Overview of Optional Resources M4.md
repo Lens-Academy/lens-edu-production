@@ -2,7 +2,6 @@
 id: 43c21ff3-112e-444f-ab3a-2441da330d48
 title: "Facilitator M4 — Overview of Optional Resources"
 tags:
-  - lens
   - facilitator-training
 ---
 

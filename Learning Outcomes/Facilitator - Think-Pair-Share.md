@@ -4,7 +4,6 @@ learning-outcome: "Describe the three steps of Think-Pair-Share, identify two si
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

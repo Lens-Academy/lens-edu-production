@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### We're saying government officials should take the problem seriously.
 

@@ -18,16 +18,19 @@ source:: ![[../Lenses/EA Intro - Putting It Into Practice Introduction]]
 
 # Submodule: Attitudes to doing good
 
+# Learning Outcome: EA Intro - Identify Next Steps for EA Involvement
+source:: ![[../Learning Outcomes/EA Intro - Identify Next Steps for EA Involvement]]
+
 # Lens:
 source:: ![[../Lenses/EA Intro - Call to Vigilance]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Effective Altruism as the Most Exciting Cause]]
 
-# Learning Outcome: EA Intro - Identify Next Steps for EA Involvement
-source:: ![[../Learning Outcomes/EA Intro - Identify Next Steps for EA Involvement]]
-
 # Submodule: Career choice
+
+# Learning Outcome: EA Intro - Apply EA Principles to Career Choice
+source:: ![[../Learning Outcomes/EA Intro - Apply EA Principles to Career Choice]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
@@ -35,13 +38,10 @@ source:: ![[../Lenses/EA Intro - Summary of 80000 Hours Key Ideas]]
 # Lens:
 source:: ![[../Lenses/EA Intro - Career Choice for Longtermists]]
 
-# Learning Outcome: EA Intro - Apply EA Principles to Career Choice
-source:: ![[../Learning Outcomes/EA Intro - Apply EA Principles to Career Choice]]
-
 # Submodule: Dealing with demandingness
-
-# Lens:
-source:: ![[../Lenses/EA Intro - You Have More Than One Goal]]
 
 # Learning Outcome: EA Intro - Navigate Demandingness in EA
 source:: ![[../Learning Outcomes/EA Intro - Navigate Demandingness in EA]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - You Have More Than One Goal]]

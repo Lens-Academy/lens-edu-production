@@ -2,8 +2,6 @@
 id: 9229186a-fa0d-456e-860a-9559953f553a
 title: "Workable Plans Will Involve Telling AI Companies No"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

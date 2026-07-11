@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### Many technologies are banned or heavily regulated.
 

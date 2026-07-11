@@ -6,7 +6,6 @@ tldr: "Participants do the reading on their own. The session is for the harder c
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

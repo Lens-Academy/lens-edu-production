@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 In the [Chapter 1 resources](/1/are-you-saying-machines-will-become-conscious), we distinguished a few different concepts of "consciousness." The version of consciousness we'll be talking about here is sometimes called things like "subjective experience," "sentience," or "phenomenal consciousness." It's the idea that there's *something it's like* to be that entity; the lights are on, metaphorically speaking.
 

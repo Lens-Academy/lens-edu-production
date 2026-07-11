@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### The weirdness is evidence that their actual pursuits aren't our intended pursuits.

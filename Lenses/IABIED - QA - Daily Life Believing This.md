@@ -3,8 +3,6 @@ id: 206e08ee-598a-4a78-ac5b-43042f471975
 title: "What does it do to your daily life to believe all of this?"
 tldr: "It dramatically affects our priorities."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -4,7 +4,6 @@ learning-outcome: "Name at least three of the six learning mechanisms from Kossl
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

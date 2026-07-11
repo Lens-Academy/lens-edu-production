@@ -5,9 +5,6 @@ reading-from: "beginning of chapter"
 reading-to: "But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome
-  - IABIED
 ---
 
 ## Test:

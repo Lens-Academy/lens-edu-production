@@ -5,9 +5,6 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome
-  - IABIED
 ---
 
 ## Test:

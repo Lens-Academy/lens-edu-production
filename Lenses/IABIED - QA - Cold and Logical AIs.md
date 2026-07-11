@@ -4,8 +4,6 @@ summary_for_tutor: Argues that AIs need not be limited to cold logic, just as ai
 title: "Won't AIs inevitably be cold and logical, or otherwise missing some crucial spark?"
 tldr: "No."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

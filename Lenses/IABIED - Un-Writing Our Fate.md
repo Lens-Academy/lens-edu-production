@@ -5,9 +5,6 @@ title: "Un-Writing Our Fate"
 tldr: "A predicted catastrophic outcome isn't destiny. The Cold War generation reversed a nuclear fate through decades of deliberate effort, and the chapter asks whether we can do the same for AI."
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 ---
 #### Text
 content::

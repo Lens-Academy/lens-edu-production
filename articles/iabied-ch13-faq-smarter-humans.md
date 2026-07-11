@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### It could help with solving the alignment problem.
 

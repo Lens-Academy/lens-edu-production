@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### There is no "digital realm" independent of physical infrastructure.

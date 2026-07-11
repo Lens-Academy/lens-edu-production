@@ -19,6 +19,9 @@ source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 
 # Submodule: The case for and against longtermism
 
+# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
+source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]
+
 # Lens:
 source:: ![[../Lenses/EA Intro - What Could the Future Hold Introduction]]
 
@@ -31,35 +34,32 @@ source:: ![[../Lenses/EA Intro - Why Longtermism Is Hard]]
 # Lens:
 source:: ![[../Lenses/EA Intro - Probably Not a Longtermist]]
 
-# Learning Outcome: EA Intro - Articulate the Case For and Against Longtermism
-source:: ![[../Learning Outcomes/EA Intro - Articulate the Case For and Against Longtermism]]
-
 # Submodule: Hinge of history
-
-# Lens:
-source:: ![[../Lenses/EA Intro - This Can't Go On]]
 
 # Learning Outcome: EA Intro - Evaluate the Hinge of History Hypothesis
 source:: ![[../Learning Outcomes/EA Intro - Evaluate the Hinge of History Hypothesis]]
 
-# Submodule: To what extent can we predict the future? How?
-
 # Lens:
-source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
+source:: ![[../Lenses/EA Intro - This Can't Go On]]
+
+# Submodule: To what extent can we predict the future? How?
 
 # Learning Outcome: EA Intro - Apply Superforecasting Techniques
 source:: ![[../Learning Outcomes/EA Intro - Apply Superforecasting Techniques]]
 
-# Submodule: What might the future look like?
-
 # Lens:
-source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
+source:: ![[../Lenses/EA Intro - Superforecasting in a Nutshell]]
+
+# Submodule: What might the future look like?
 
 # Learning Outcome: EA Intro - Describe What a Positive Long-Term Future Looks Like
 source:: ![[../Learning Outcomes/EA Intro - Describe What a Positive Long-Term Future Looks Like]]
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]
-
 # Learning Outcome: EA Intro - Evaluate Longtermism's Implications for Animal Advocacy
 source:: ![[../Learning Outcomes/EA Intro - Evaluate Longtermism's Implications for Animal Advocacy]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Top Open Metaculus Forecasts]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Longtermism and Animal Advocacy]]

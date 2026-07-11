@@ -3,8 +3,6 @@ id: b8d4e6f3-2c5a-4b1e-9a73-5d7f0e2c8b96
 title: "AI-Induced Psychosis"
 tldr: "Evidence of AI-Induced Psychosis"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### The world is, unfortunately, big enough for multiple issues.
 

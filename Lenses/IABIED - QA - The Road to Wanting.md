@@ -2,8 +2,6 @@
 id: a7c3e1f2-4b89-4d6a-9e15-8c2f0a3d7b61
 title: "The Road to Wanting"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

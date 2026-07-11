@@ -4,8 +4,6 @@ summary_for_tutor: "Examines the Emergent Misalignment paper (Betley et al. 2025
 title: "What about the experimental result suggesting good behaviors correlate?"
 tldr: "This seems like a positive update, albeit a minor one."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

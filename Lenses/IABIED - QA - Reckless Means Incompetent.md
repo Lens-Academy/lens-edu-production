@@ -4,8 +4,6 @@ summary_for_tutor: Covers the objection that reckless AI companies will be too i
 title: "Won't the most reckless companies naturally be the most incompetent, and thus not a threat?"
 tldr: "Not in general. Corner-cutting is often competitive."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

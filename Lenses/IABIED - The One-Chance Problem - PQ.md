@@ -5,9 +5,6 @@ title: "Pre-Reading Question - The One-Chance Problem"
 tldr: Before reading, reflect on how humans actually respond to disasters and when that response can't work.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 ---
 
 #### Question

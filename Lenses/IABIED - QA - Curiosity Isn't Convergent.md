@@ -4,8 +4,6 @@ summary_for_tutor: Argues that curiosity is a specifically human solution to the
 title: "Curiosity Isn't Convergent"
 tldr: "Why Curiosity?"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

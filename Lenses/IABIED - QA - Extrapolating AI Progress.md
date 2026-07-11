@@ -4,8 +4,6 @@ summary_for_tutor: Covers why trend extrapolation fails for predicting dangerous
 title: "Can we use past progress to extrapolate when we'll build smarter-than-human AI?"
 tldr: "We don't have a good enough understanding of intelligence for that."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

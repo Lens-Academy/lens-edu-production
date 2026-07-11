@@ -2,7 +2,6 @@
 id: c1cba6fe-1661-458e-83e6-eaebe2b2046b
 title: Utopia
 tags:
-  - lens
   - work-in-progress
   - validator-ignore
 ---

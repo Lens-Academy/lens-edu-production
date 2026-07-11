@@ -5,9 +5,6 @@ title: "Alchemy, Not Science"
 tldr: "The alignment field can produce techniques that work, but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
 authors:
   - Yatharth+Claude
-tags:
-  - lens
-  - IABIED
 ---
 #### Text
 content::

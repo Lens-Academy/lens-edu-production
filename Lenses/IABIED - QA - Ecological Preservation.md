@@ -4,8 +4,6 @@ summary_for_tutor: Examines whether AI might preserve humanity out of ecological
 title: "Won't AI want to keep us happy and healthy for ecological preservation or similar drive?"
 tldr: "The human preference for ecological preservation looks like another weird contingent drive."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

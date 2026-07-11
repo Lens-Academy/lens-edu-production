@@ -5,7 +5,6 @@ reading-from: "\"MITIGATING THE RISK OF EXTINCTION FROM AI SHOULD BE A global pr
 reading-to: "Where there's life, there's hope."
 tags:
   - learning-outcome
-  - IABIED
 authors:
   - Chris+Claude
 ---

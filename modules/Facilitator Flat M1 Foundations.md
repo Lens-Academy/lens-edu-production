@@ -8,7 +8,6 @@ readings:
   - "Curiosity Society — A Facilitator's Handbook, pp. 4-13 (12 min)"
 tags:
   - facilitator-training
-  - module
 ---
 
 # Lens: Foundations — What Is a Facilitator?

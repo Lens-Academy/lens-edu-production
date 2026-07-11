@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### It's important for understanding how engineers can and cannot shape modern AIs.
 

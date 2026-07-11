@@ -6,7 +6,6 @@ tldr: "You're tracking four things at once — self, individual, group, context.
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

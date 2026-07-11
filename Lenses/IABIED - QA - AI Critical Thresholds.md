@@ -4,8 +4,6 @@ summary_for_tutor: Argues that AI will likely cross critical capability threshol
 title: "Will AI cross critical thresholds and take off?"
 tldr: "Probably."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -6,7 +6,6 @@ tldr: "Most of what participants communicate isn't in their words. Online signal
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

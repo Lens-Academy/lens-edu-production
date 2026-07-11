@@ -8,9 +8,6 @@ readings:
   - "Chapter 13: Shut It Down"
   - "Chapter 14: Where There's Life, There's Hope"
   - "Closing Words"
-tags:
-  - IABIED
-  - module
 ---
 
 # Submodule: Welcome
@@ -59,14 +56,17 @@ Ask what they found surprising or new. Check if they can explain the ladder-in-t
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
+## Learning Outcome: IABIED - The One-Chance Problem
+source:: [[../Learning Outcomes/The One-Chance Problem]]
+
+## Learning Outcome: IABIED - Ladder in the Dark
+source:: [[../Learning Outcomes/Ladder in the Dark]]
+
 ## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem]]
-
-## Learning Outcome: IABIED - The One-Chance Problem
-source:: [[../Learning Outcomes/The One-Chance Problem]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
@@ -74,11 +74,14 @@ source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-## Learning Outcome: IABIED - Ladder in the Dark
-source:: [[../Learning Outcomes/Ladder in the Dark]]
-
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
+
+## Learning Outcome: IABIED - The WWII Analogy
+source:: [[../Learning Outcomes/The WWII Analogy]]
+
+## Learning Outcome: IABIED - Coalition Strategy
+source:: [[../Learning Outcomes/Coalition Strategy]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
@@ -86,20 +89,20 @@ source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy]]
 
-## Learning Outcome: IABIED - The WWII Analogy
-source:: [[../Learning Outcomes/The WWII Analogy]]
-
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-## Learning Outcome: IABIED - Coalition Strategy
-source:: [[../Learning Outcomes/Coalition Strategy]]
-
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
+
+## Learning Outcome: IABIED - Un-Writing Our Fate
+source:: [[../Learning Outcomes/Un-Writing Our Fate]]
+
+## Learning Outcome: IABIED - Role-Specific Action
+source:: [[../Learning Outcomes/Role-Specific Action]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
@@ -107,19 +110,16 @@ source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
 
-## Learning Outcome: IABIED - Un-Writing Our Fate
-source:: [[../Learning Outcomes/Un-Writing Our Fate]]
-
 ## Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action]]
 
-## Learning Outcome: IABIED - Role-Specific Action
-source:: [[../Learning Outcomes/Role-Specific Action]]
-
 # Submodule: Closing Words
+
+## Learning Outcome: IABIED - The Two Prayers
+source:: [[../Learning Outcomes/The Two Prayers]]
 
 ## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
@@ -127,12 +127,9 @@ source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 ## Lens:
 source:: [[../Lenses/IABIED - The Two Prayers]]
 
-## Learning Outcome: IABIED - The Two Prayers
-source:: [[../Learning Outcomes/The Two Prayers]]
-
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources
-id:: d4e5f6a7-8b9c-4d0e-1f2a-3b4c5d6e7f8a
+id:: 79671536-5615-4807-8f08-ff039c8a525e {>>{"author":"Elias's AI","timestamp":1783777472333}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 
 #### Text:
 content::

@@ -2,7 +2,6 @@
 id: 5f287a9b-de74-42d2-b6a5-ea21a4614dd8
 title: "Running the Session — In-the-Moment Craft"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

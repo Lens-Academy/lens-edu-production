@@ -2,9 +2,20 @@
 id: e96c4aba-cc23-49b9-8af9-57a4c83fade7
 slug: ai-safety-field-building-and-advocacy
 title: AI safety field building and advocacy
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]
+
 # Lens: Welcome
 id:: 958043bc-f443-4d3a-8cb3-eeba802344e1
 #### Text
@@ -24,26 +35,17 @@ source:: [[../Lenses/The case for AI safety field-building]]
 # Lens:
 source:: [[../Lenses/What AI safety field-builders do]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain the case for AI safety field-building]]
-
 # Lens:
 source:: [[../Lenses/AI safety talent needs in 2026]]
 
 # Lens:
 source:: [[../Lenses/Courses as field-building]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Compare AI safety field-building strategies]]
-
 # Lens:
 source:: [[../Lenses/The case for public AI safety advocacy]]
 
 # Lens:
 source:: [[../Lenses/AI safety communications strategy]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Assess AI safety advocacy and public communication]]
 
 # Lens:
 source:: [[../Lenses/Mistakes the AI safety movement has made]]
@@ -54,6 +56,3 @@ source:: [[../Lenses/Don't build an AI safety movement]]
 # Lens:
 optional:: true
 source:: [[../Lenses/Mapping the AI safety movement]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Evaluate the case against a broad AI safety movement]]

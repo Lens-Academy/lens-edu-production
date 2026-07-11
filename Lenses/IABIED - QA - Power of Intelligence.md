@@ -4,8 +4,6 @@ summary_for_tutor: Argues that popular culture systematically underestimates int
 title: Appreciating the Power of Intelligence
 tldr: 'Hollywood "Intelligence"'
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

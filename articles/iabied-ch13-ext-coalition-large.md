@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 We've heard some people argue that we should take a strong stand against AI art or robotic weapons, in order to send a simpler message: not anti-superintelligence, but anti-*AI.*
 

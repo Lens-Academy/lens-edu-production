@@ -5,9 +5,6 @@ title: "Pre-Reading Question - Behavior Is Not Values"
 tldr: If an AI consistently acts helpful and safe, does that mean it *wants* to be helpful and safe? Think about it before you read.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/02 - Chapter 2 - Grown, Not Crafted]]"
 ---

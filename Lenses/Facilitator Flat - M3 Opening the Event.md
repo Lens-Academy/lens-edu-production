@@ -4,7 +4,6 @@ title: "Optional — Opening the Event (Sara Ness, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why human augmentation cannot keep pace with AI. Even
 title: "Can we enhance humans so they keep pace with AI?"
 tldr: "No."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

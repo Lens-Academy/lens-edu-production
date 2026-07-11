@@ -4,8 +4,6 @@ summary_for_tutor: Covers why having many different AIs does not solve the align
 title: "What if there are lots of different AIs?"
 tldr: "It doesn't much help if we can't make any of them care about good things."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

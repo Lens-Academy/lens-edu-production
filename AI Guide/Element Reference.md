@@ -55,13 +55,15 @@ hide:: true                           ← hidden from the module page (requires 
 
 A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline) — not both.
 
+**Learning outcome placement (processor ≥0.19.1):** declare outcomes first. A `# Learning Outcome:` *before* the first `# Submodule:` is module-level: the platform renders its test at the end of the module as an auto-generated "Test Your Understanding" entry (one outcome → a directly-openable row; several → one expandable submodule). A learning outcome *after* a `# Submodule:` marker (H1 or as an H2 child) belongs to that submodule — declare it before the lenses; its test renders at the end of that submodule regardless of where it is written. A dedicated `# Submodule: Test Your Understanding` wrapper is no longer needed, and combining one with module-level outcomes is a validation error.
+
 A `# Submodule:` marker may carry `add_to_ai_context:: [[wikilink]]` (one or more `[[...]]`) — that content is added to the AI tutor's context for every lens and test in the submodule. Use this for per-chapter source material (module-level covers the whole module; submodule-level scopes to one chapter).
 
 ## Learning Outcome — `Learning Outcomes/<Name>.md`
 
 Frontmatter: required `id`; optional `learning-outcome` (the outcome statement — start with an action verb: Explain, Distinguish, Identify, Compare, Evaluate, Apply...), `discussion`, `tags`. **Do not** put `add_to_ai_context` on a Learning Outcome — it is an error. Put it on the lens, the module, or the `# Submodule:` marker instead.
 
-Body = H2 sections:
+Body = the test, then (optionally) suggested lenses:
 
 ```markdown
 ## Test:
@@ -70,14 +72,18 @@ id:: <uuid>
 content:: <the test question>
 assessment-instructions:: <scoring rubric — see Quality Patterns>
 
+# Suggested Lenses:
 ## Lens:
-source:: ![[../Lenses/My Topic - PQ]]
+source:: [[../Lenses/My Topic - PQ]]
+notes:: <optional author note about this suggestion>
 
 ## Lens:
-source:: ![[../Lenses/My Topic]]
+source:: [[../Lenses/My Topic]]
 ```
 
-`## Submodule: <name>` sections may group lenses inside an outcome. Lens order is the learner's path.
+Suggested lenses are **author-facing candidates only** — the platform never imports them. A module that references the outcome gets just the test; the module lists its teaching lenses explicitly, before the `# Learning Outcome:` ref. Outcomes with zero suggested lenses are valid. A Test may only contain question/roleplay segments (anything else is flagged — it would be silently dropped).
+
+Errors to avoid: a `## Lens:` outside the `# Suggested Lenses:` header, a `## Test:` nested under it (must sit above), and any `Submodule:` section (removed from outcomes — structure lives in the module file).
 
 ## Lens — `Lenses/<Name>.md`
 

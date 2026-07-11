@@ -6,8 +6,6 @@ tldr: "*It's just sci-fi* and *this will definitely happen* are both wrong. The 
 authors:
   - Chris+Claude
 tags:
-  - lens
-  - IABIED
   - optional
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"

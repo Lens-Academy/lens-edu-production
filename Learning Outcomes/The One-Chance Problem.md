@@ -5,9 +5,6 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome
-  - IABIED
 ---
 
 ## Test:

@@ -5,9 +5,6 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-tags:
-  - learning-outcome
-  - IABIED
 ---
 
 ## Test:

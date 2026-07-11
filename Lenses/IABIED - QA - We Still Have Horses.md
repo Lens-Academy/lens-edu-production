@@ -4,8 +4,6 @@ summary_for_tutor: "Examines the common analogy that since horses survived the a
 title: "But we still have horses. Why wouldn't AI keep us around?"
 tldr: "What horses remain, remain because we like them."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

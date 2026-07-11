@@ -3,8 +3,6 @@ id: df1d08f5-8ff9-48e3-8c57-c9f7cf5dc178
 title: "Can a monitoring regime last forever?"
 tldr: "No. Some other off-ramp will be needed."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

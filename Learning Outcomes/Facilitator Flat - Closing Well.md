@@ -4,7 +4,6 @@ learning-outcome: "Describe the three-part close (Reflect, Integrate, Ritual) an
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

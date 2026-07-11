@@ -4,7 +4,6 @@ title: "Optional — Following Aliveness (Sara Ness, 5 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

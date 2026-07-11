@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after.
 
@@ -33,4 +32,4 @@ A handful of humans started out naked on the savannah, and we bootstrapped our w
 
 #### Notes
 
-[1] *as many instances as needed:*There are probably on the order of 200,000 instances of GPT-5 running at any given time (as of August 2025, shortly after GPT-5's release), which is maybe smaller than modern "civilization" and is closer to a small nation. Ultimately, we don't put much weight on this analogy, as we don't think individual AI instances are ever likely to be very similar to individual humans. The important point here is that large numbers of instances aren't likely to be especially hard to come by, if (contrary to our best guess) that turns out to be important for some reason.
+[1] *as many instances as needed:* There are probably on the order of 200,000 instances of GPT-5 running at any given time (as of August 2025, shortly after GPT-5's release), which is maybe smaller than modern "civilization" and is closer to a small nation. Ultimately, we don't put much weight on this analogy, as we don't think individual AI instances are ever likely to be very similar to individual humans. The important point here is that large numbers of instances aren't likely to be especially hard to come by, if (contrary to our best guess) that turns out to be important for some reason.

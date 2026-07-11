@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### No. But "partial alignment" is still likely to be catastrophic.
 

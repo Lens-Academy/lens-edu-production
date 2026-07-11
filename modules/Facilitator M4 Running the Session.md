@@ -11,7 +11,6 @@ readings:
   - "Jason Digges — Keeping Participants Engaged (5 min)"
 tags:
   - facilitator-training
-  - module
 ---
 
 # Submodule: Welcome

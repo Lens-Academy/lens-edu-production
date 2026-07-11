@@ -4,8 +4,6 @@ summary_for_tutor: "Documents that AI experts do not understand their systems' i
 title: "Do experts understand what's going on inside AIs?"
 tldr: "No."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

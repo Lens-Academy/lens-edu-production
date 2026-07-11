@@ -2,8 +2,6 @@
 id: 7b04cf11-874c-4cfa-a031-54eb246df26d
 discussion:
 learning-outcome: Dummy learning outcome
-tags:
-  - learning outcome
 ---
 
 ## Test:

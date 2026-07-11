@@ -6,7 +6,6 @@ tldr: "Six mechanisms from cognitive science justify almost every move a facilit
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

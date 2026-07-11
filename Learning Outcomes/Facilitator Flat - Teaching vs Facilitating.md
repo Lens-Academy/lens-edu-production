@@ -4,7 +4,6 @@ learning-outcome: "State the core distinction between teaching and facilitating,
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

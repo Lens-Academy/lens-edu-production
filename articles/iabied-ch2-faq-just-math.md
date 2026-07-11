@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Saying AIs are "just math" is like saying humans are "just biochemistry."
 

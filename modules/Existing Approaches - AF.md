@@ -2,9 +2,10 @@
 id: 67040104-ab3c-4b36-be03-cdecd33ff1c0
 slug: existing-approaches-af
 title: "Existing Approaches: Agent Foundations"
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Agent Foundations agenda]]
 
 # Lens: Welcome
 id:: c24350d1-737f-4e7b-93fb-2ca85cbe0295
@@ -28,6 +29,3 @@ source:: [[../Lenses/Embedded agents]]
 
 # Lens:
 source:: [[../Lenses/Realism about rationality]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Agent Foundations agenda]]

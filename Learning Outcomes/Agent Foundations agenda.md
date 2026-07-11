@@ -2,8 +2,6 @@
 id: 5db32a2f-1535-4dde-ac2a-3003a205e34b
 discussion:
 learning-outcome: "Explain the Agent Foundations research agenda: its theory of change, core assumptions, and the primary arguments for and against it as an approach to AI alignment."
-tags:
-  - learning-outcome
 ---
 
 ## Test:

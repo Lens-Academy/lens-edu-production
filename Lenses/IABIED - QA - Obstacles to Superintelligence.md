@@ -4,8 +4,6 @@ summary_for_tutor: "Surveys the history of AI obstacles being overcome: image re
 title: "But aren't there big obstacles to reaching superintelligence?"
 tldr: "It isn't clear."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

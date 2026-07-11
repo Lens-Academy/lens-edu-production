@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 *Why* is wanting an effective way of doing? Why does it *win*? Why does black-box optimization by natural selection stumble across this trick, over and over?

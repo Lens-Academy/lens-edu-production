@@ -2,7 +2,6 @@
 id: e7708a1f-3d6d-43be-b994-574222b8bcc8
 title: "1.3 What a facilitator isn't (and isn't responsible for)"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

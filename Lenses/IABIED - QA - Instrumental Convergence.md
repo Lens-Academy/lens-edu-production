@@ -3,8 +3,6 @@ id: a7c1e3d4-5f28-4b91-8e6a-2d9f0c7b3a15
 title: "Instrumental Convergence"
 tldr: "Convergent Paths"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

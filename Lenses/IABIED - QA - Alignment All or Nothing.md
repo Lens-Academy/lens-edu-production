@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why partial alignment is still likely catastrophic. A
 title: "Do you see alignment as all-or-nothing?"
 tldr: "No. But \"partial alignment\" is still likely to be catastrophic."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

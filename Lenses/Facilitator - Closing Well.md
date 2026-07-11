@@ -6,7 +6,6 @@ tldr: "Last five minutes matter disproportionately. People remember beginnings a
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

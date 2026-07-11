@@ -2,8 +2,6 @@
 id: 08fca4a1-6634-4747-8c90-3eb966f129f4
 title: "The Same Work Can Be Done in Many Different Ways"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

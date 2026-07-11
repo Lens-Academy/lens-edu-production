@@ -4,8 +4,6 @@ summary_for_tutor: Covers how digital AIs can affect the physical world through 
 title: "How will AIs be able to affect us if they're digital?"
 tldr: "Being on a computer connected to the internet isn't much of a limitation."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

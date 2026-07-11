@@ -4,8 +4,6 @@ summary_for_tutor: "Covers the proxy problem in alignment using the evolution an
 title: "A lot of people want kids. So aren't humans 'aligned' with natural selection after all?"
 tldr: "With more technology, we'd likely make even fewer copies of our genes."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

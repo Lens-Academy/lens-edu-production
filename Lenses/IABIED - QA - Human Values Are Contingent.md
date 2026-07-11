@@ -4,8 +4,6 @@ summary_for_tutor: "Traces how human empathy and kindness arose from specific ac
 title: Human Values Are Contingent
 tldr: "The Glorious Accident of Kindness"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

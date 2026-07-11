@@ -4,7 +4,6 @@ learning-outcome: "Identify your default failure mode under pressure (pufferfish
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

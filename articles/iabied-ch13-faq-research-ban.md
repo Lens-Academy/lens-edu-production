@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 #### More breakthroughs might make it effectively impossible to stop people from making superintelligence.
 

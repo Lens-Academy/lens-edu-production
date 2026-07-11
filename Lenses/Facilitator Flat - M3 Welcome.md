@@ -2,7 +2,6 @@
 id: 6b83b036-cec7-4390-8786-54508633fcc6
 title: "Preparing to Facilitate a Session"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

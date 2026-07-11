@@ -4,8 +4,6 @@ summary_for_tutor: "Argues against the hope that machines will have compensating
 title: "Won't machines be fundamentally uncreative, or otherwise fatally flawed?"
 tldr: "No."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

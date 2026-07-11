@@ -6,7 +6,6 @@ tldr: "The list that ends up on the doc, in the cohort's own language, is the on
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

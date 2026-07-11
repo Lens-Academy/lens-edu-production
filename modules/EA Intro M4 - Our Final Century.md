@@ -18,46 +18,46 @@ source:: ![[../Lenses/EA Intro - Our Final Century Introduction]]
 
 # Submodule: Existential risks
 
-# Lens:
-source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
-
 # Learning Outcome: EA Intro - Explain Existential Risk and Moral Importance
 source:: ![[../Learning Outcomes/EA Intro - Explain Existential Risk and Moral Importance]]
 
-# Submodule: Risks from pandemics
-
 # Lens:
-source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
+source:: ![[../Lenses/EA Intro - The Case for Reducing Existential Risk]]
+
+# Submodule: Risks from pandemics
 
 # Learning Outcome: EA Intro - Evaluate Pandemic Risk
 source:: ![[../Learning Outcomes/EA Intro - Evaluate Pandemic Risk]]
 
-# Submodule: Strategies for improving biosecurity
-
 # Lens:
-source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
+source:: ![[../Lenses/EA Intro - Preventing Catastrophic Pandemics]]
+
+# Submodule: Strategies for improving biosecurity
 
 # Learning Outcome: EA Intro - Identify Biosecurity Interventions
 source:: ![[../Learning Outcomes/EA Intro - Identify Biosecurity Interventions]]
 
-# Submodule: Expected value & Hits-based giving
-
 # Lens:
-source:: ![[../Lenses/EA Intro - Expected Value]]
+source:: ![[../Lenses/EA Intro - Concrete Biosecurity Projects]]
+
+# Submodule: Expected value & Hits-based giving
 
 # Learning Outcome: EA Intro - Apply Expected Value Reasoning
 source:: ![[../Learning Outcomes/EA Intro - Apply Expected Value Reasoning]]
 
-# Lens:
-source:: ![[../Lenses/EA Intro - Hits-Based Giving]]
-
 # Learning Outcome: EA Intro - Explain Hits-Based Giving
 source:: ![[../Learning Outcomes/EA Intro - Explain Hits-Based Giving]]
 
-# Submodule: Crucial considerations
+# Lens:
+source:: ![[../Lenses/EA Intro - Expected Value]]
 
 # Lens:
-source:: ![[../Lenses/EA Intro - Crucial Considerations]]
+source:: ![[../Lenses/EA Intro - Hits-Based Giving]]
+
+# Submodule: Crucial considerations
 
 # Learning Outcome: EA Intro - Explain Crucial Considerations
 source:: ![[../Learning Outcomes/EA Intro - Explain Crucial Considerations]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - Crucial Considerations]]

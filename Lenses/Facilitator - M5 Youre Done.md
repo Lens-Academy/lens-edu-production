@@ -2,7 +2,6 @@
 id: dd704e0f-ecc6-4472-8c9f-9ac2cf9bd511
 title: "You're done"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

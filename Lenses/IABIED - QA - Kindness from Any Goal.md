@@ -4,8 +4,6 @@ summary_for_tutor: "Covers four reasons kindness is unlikely to emerge from arbi
 title: "Maybe no matter what goal you train on, you get kindness out?"
 tldr: "Kindness looks contingent on the particulars of our biology and ancestry."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

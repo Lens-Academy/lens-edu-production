@@ -4,8 +4,6 @@ summary_for_tutor: Argues that intelligence is probably understandable in princi
 title: "Is intelligence understandable in principle?"
 tldr: "Probably."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

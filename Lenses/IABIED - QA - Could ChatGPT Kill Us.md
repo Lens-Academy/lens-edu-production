@@ -4,8 +4,6 @@ summary_for_tutor: "Clarifies that the concern is not about current systems like
 title: "Are you suggesting that ChatGPT could kill us all?"
 tldr: "No. The worry is about forthcoming advances in AI."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

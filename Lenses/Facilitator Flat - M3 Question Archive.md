@@ -4,7 +4,6 @@ title: "Optional — Question Archive (Check-in Success)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

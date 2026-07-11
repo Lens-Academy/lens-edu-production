@@ -4,8 +4,6 @@ summary_for_tutor: "Addresses the dismissal that AI risk is science fiction. Not
 title: "Isn't this AI stuff just science fiction?"
 tldr: "We can't learn much from a topic's prevalence in fiction."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

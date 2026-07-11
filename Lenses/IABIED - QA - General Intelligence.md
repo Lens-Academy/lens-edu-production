@@ -4,8 +4,6 @@ summary_for_tutor: Argues that general intelligence exists on a spectrum. Deep B
 title: "Is 'general intelligence' a meaningful concept?"
 tldr: "Yes."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

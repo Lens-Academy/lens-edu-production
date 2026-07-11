@@ -1,8 +1,6 @@
 ---
 id: 18f79ac5-25b7-4dd0-ba62-1d6fc11b01ca
 learning-outcome: Be aware of foundational discussions on the level of risk and different high-level approaches to solving the AI alignment problem
-tags:
-  - learning outcome
 ---
 ## Test:
 id:: 846bc26c-5dfe-4370-a4ff-e6ef62b0a127

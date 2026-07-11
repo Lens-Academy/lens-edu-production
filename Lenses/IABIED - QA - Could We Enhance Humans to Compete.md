@@ -2,8 +2,6 @@
 id: 2431fc78-812f-40a2-9275-2aad957738d6
 title: "Can we enhance humans so they keep pace with AI?"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

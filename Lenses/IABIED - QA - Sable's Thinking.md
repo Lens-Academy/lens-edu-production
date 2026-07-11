@@ -4,8 +4,6 @@ summary_for_tutor: "Covers how the fictional AI Sable's psychology connects to t
 title: "Why does Sable end up thinking the way it does?"
 tldr: "Our story showcases how AI is liable to have weird and unintended preferences."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

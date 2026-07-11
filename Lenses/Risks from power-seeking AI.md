@@ -1,8 +1,6 @@
 ---
 id: 08b90be9-bf81-4a0b-97e3-c3147376bd88
 title: Risks from power-seeking AI
-tags:
-  - lens
 ---
 #### Text
 content::

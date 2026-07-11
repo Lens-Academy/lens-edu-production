@@ -3,9 +3,32 @@ id: 4a6836a1-9572-43da-9560-0bcaef788555
 slug: module-fundamental-difficulties
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain causal definition of agency]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain why default outcome is bad]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
+
 # Lens: Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d
 #### Text
@@ -32,51 +55,27 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 optional:: true
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
-
 # Lens:
 source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
 
 # Lens:
 optional:: true
 source:: [[../Lenses/When should we worry about AI power-seeking]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
-
 # Lens:
 source:: [[../Lenses/Sharp left turn]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
-
 # Lens:
 source:: [[../Lenses/Discovering when an agent is present in a system]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain causal definition of agency]]
 
 # Lens:
 optional:: true
 source:: [[../Lenses/Pythia by plex]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
-
 # Lens:
 optional:: true
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain why default outcome is bad]]
-
 # Lens:
 source:: [[../Lenses/Meditations on Moloch]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
 

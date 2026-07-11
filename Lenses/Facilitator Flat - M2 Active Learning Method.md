@@ -4,7 +4,6 @@ title: "Optional — The Active Learning Method (Sprouts, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

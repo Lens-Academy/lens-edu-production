@@ -2,8 +2,6 @@
 id: e06e88b1-ff11-45eb-b88c-d969c33447de
 title: "Is intelligence a meaningful concept?"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### The world usually muddles through by trial and error. In this case, early errors wouldn't leave survivors.
 
