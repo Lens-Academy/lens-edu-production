@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why partial alignment is insufficient for good outcom
 title: "Won't AIs care at least a little about humans?"
 tldr: "Not in the way that matters."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

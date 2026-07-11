@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why slow AI development would still end in catastroph
 title: "What if AI is developed only slowly, and it slowly integrates with society?"
 tldr: "That scenario still ends in catastrophe."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

@@ -3,8 +3,6 @@ id: 4bb117ef-efdd-453c-b921-1e9a7e0bb666
 title: "Will there be warning shots?"
 tldr: "Maybe. If we wish to make use of them, we must prepare now."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Intelligence lets you learn more from experiments and run faster, more informative, more parallelized experiments.
 

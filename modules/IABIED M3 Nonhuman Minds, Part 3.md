@@ -6,9 +6,6 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings: 
   - "Chapter 5: Its Favorite Things"
   - "Chapter 6: We'd Lose"
-tags:
-  - IABIED
-  - module
 ---
 
 # Submodule: Part 3 Welcome
@@ -16,10 +13,11 @@ tags:
 id:: caf48b0b-f27a-4c09-9336-b443ac7843f4
 
 #### Text
-content:: In module 3 we ask 2 essential questions:
+content:: In module 3, we ask 2 essential questions:
 - First, how do we know that an AI won't want things that are broadly compatible with human life and flourishing?
 - Second, in the event it wants things that are bad for humanity, can't we just...?
 
+%%
 **Chapter 5**
 The key intuition to take away from the first question goes something like this: an AI could have countless possible goals and those that are compatible with human flourishing are only a very small subset. We don't know nearly enough about what's happening inside AI's to know where goals come from or how they form. 
 
@@ -33,23 +31,26 @@ The chapter opens with Aztec warriors watching a boat approaching. It was much l
 
 I hate to be pedantic here, but it's pretty much *by definition* that if it's a superintelligence, it defeats humans at tasks that require intelligence, like... war? "How exactly would it win that conflict? We don’t know, any more than we know exactly what moves Stockfish would use to beat you at chess. But we’re still quite sure it would wipe the floor with you."
 
-Editorially, this chapter feels feels like a weird collection of oddities. It's harder to assemble into a coherent whole message aside from: we'll be surprised, but only if we realize there's something to be surprised about. 
+Editorially, this chapter feels like a weird collection of oddities. It's harder to assemble into a coherent whole message aside from: we'll be surprised, but only if we realize there's something to be surprised about. 
 
 "In a sense, the scenario we need to worry about is as simple as this: An AI with strange goals becomes or creates a superintelligence, and that superintelligence creates all sorts of technology and radically reshapes the world."
 
 Really, the learning outcome here distills back to the power of intelligence (plus technology). 
-
+%%
 # Submodule: Ch5 - Its Favorite Things
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
+
+# Learning Outcome: IABIED - Define the Goal-Space Argument
+source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
+
+# Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
+source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument]]
-
-# Learning Outcome: IABIED - Define the Goal-Space Argument
-source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Distinguish Hostile from Indifferent AI]]
@@ -66,11 +67,14 @@ optional:: true
 source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
 {>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}
 
-# Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
-source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
-
 # Submodule: Ch6 - We'd Lose
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
+
+# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
+
+# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
+source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
@@ -78,17 +82,11 @@ source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
 
-# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
-
 # Lens:
 source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
-
-# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
-source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

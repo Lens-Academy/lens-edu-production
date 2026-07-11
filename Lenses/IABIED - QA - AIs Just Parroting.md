@@ -4,8 +4,6 @@ summary_for_tutor: Argues that modern AIs do far more than parrot training data.
 title: "Aren't AIs only able to parrot back what humans say?"
 tldr: "To predict the next token well, LLMs need to learn how the world works."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

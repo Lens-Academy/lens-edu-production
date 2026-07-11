@@ -4,8 +4,6 @@ summary_for_tutor: Argues that training on human data does not make LLMs human-l
 title: "Won't LLMs be like the humans in the data they're trained on?"
 tldr: "There's a difference between the machinery it takes to be one person and the machinery it takes to predict many individuals."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

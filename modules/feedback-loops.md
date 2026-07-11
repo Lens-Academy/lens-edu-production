@@ -3,9 +3,14 @@ id: 393739ba-02de-4fe2-8aa0-32dd43a8b9de
 slug: feedback-loops
 title: Feedback Loops
 discussion:
-tags: 
-  - module
 ---
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Fizzle or Foom]]
+
 # Lens: Welcome
 id:: e0f8913a-66a2-4fc9-bbe8-bf72a95b003e
 #### Text
@@ -19,18 +24,12 @@ source:: ![[../Lenses/Cascades and Cycles]]
 # Lens:
 source:: [[../Lenses/Speculations concerning the first ultraintelligent machine|Speculations concerning the first ultraintelligent machine]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
-
 # Lens:
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 # Lens:
 optional:: true
 source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Fizzle or Foom]]
 
 {>>{"author":"Elias's AI","timestamp":1783453519891}@@Added per course feedback. 1960 and the AI Digest time-horizons piece are the new mainline readings 2 and 3 (I. J. Good stays reading 0, the singularity/explosion/takeoff definitions lens reading 1). They are attached at module level rather than to a specific learning outcome; reviewer may want to file them under an outcome. Cascades and Cycles + Recursion Magic were moved to optional inside their outcomes.<<}
 

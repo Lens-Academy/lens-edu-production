@@ -4,6 +4,13 @@ slug: what-even-is-ai
 title: What even is AI?
 discussion:
 ---
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
+
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
 #### Text
@@ -18,9 +25,6 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
-
 # Lens:
 source:: ![[../Lenses/How can LLMs be understood as simulators]]
 
@@ -30,7 +34,4 @@ source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 # Lens:
 optional:: true
 source:: ![[../Lenses/Simulators by Janus]]
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
 

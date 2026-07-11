@@ -19,6 +19,9 @@ source:: ![[../Lenses/EA Intro - About This Handbook]]
 source:: ![[../Lenses/EA Intro - The Effectiveness Mindset (Dalton)]]
 # Submodule: On effective altruism
 
+# Learning Outcome: EA Intro - Explain What Effective Altruism Is
+source:: ![[../Learning Outcomes/EA Intro - Explain What Effective Altruism Is]]
+
 # Lens:
 source:: ![[../Lenses/EA Intro - Introduction to Effective Altruism]]
 
@@ -28,10 +31,10 @@ source:: ![[../Lenses/EA Intro - Four Ideas You Already Agree With]]
 # Lens:
 source:: ![[../Lenses/EA Intro - The World Is Much Better]]
 
-# Learning Outcome: EA Intro - Explain What Effective Altruism Is
-source:: ![[../Learning Outcomes/EA Intro - Explain What Effective Altruism Is]]
-
 # Submodule: On scope sensitivity
+
+# Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
+source:: ![[../Learning Outcomes/EA Intro - Identify Failures of Scope Sensitivity]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - On Caring]]
@@ -39,10 +42,10 @@ source:: ![[../Lenses/EA Intro - On Caring]]
 # Lens:
 source:: ![[../Lenses/EA Intro - Scope Insensitivity]]
 
-# Learning Outcome: EA Intro - Identify Failures of Scope Sensitivity
-source:: ![[../Learning Outcomes/EA Intro - Identify Failures of Scope Sensitivity]]
-
 # Submodule: On scout mindset and thinking clearly
+
+# Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
+source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Scout Mindset (Julia Galef)]]
@@ -53,21 +56,18 @@ source:: ![[../Lenses/EA Intro - What Cognitive Biases Feel Like From the Inside
 # Lens:
 source:: ![[../Lenses/EA Intro - Purchase Fuzzies and Utilons Separately]]
 
-# Learning Outcome: EA Intro - Distinguish Scout Mindset from Soldier Mindset
-source:: ![[../Learning Outcomes/EA Intro - Distinguish Scout Mindset from Soldier Mindset]]
-
 # Submodule: On tradeoffs
-
-# Lens:
-source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
 
 # Learning Outcome: EA Intro - Apply Triage Thinking to Giving Decisions
 source:: ![[../Learning Outcomes/EA Intro - Apply Triage Thinking to Giving Decisions]]
 
-# Submodule: On impact
-
 # Lens:
-source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]
+source:: ![[../Lenses/EA Intro - We Are in Triage Every Second of Every Day]]
+
+# Submodule: On impact
 
 # Learning Outcome: EA Intro - Explain Why Some Interventions Have Outsized Impact
 source:: ![[../Learning Outcomes/EA Intro - Explain Why Some Interventions Have Outsized Impact]]
+
+# Lens:
+source:: ![[../Lenses/EA Intro - 500 Million But Not a Single One More]]

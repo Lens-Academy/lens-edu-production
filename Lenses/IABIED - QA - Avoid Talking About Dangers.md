@@ -4,8 +4,6 @@ summary_for_tutor: "Addresses whether public discussion of AI risks might teach 
 title: "Should we avoid talking about AI dangers, so AIs don't get any bad ideas?"
 tldr: "If your AI plan requires that no one on the internet critique the plan, it's a bad plan."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

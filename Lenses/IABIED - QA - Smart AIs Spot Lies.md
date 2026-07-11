@@ -3,8 +3,6 @@ id: b4d8f2a1-6c73-4e9b-a120-9d3e5f7c8a42
 title: "Smart AIs Spot Lies and Opportunities"
 tldr: "Deep Machinery of Prediction"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

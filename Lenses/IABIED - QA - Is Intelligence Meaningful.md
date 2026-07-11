@@ -4,8 +4,6 @@ summary_for_tutor: "Defends intelligence as a meaningful concept despite lacking
 title: "Is intelligence a meaningful concept?"
 tldr: "Yes. There's a real phenomenon to describe, even if it's difficult to pin down."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

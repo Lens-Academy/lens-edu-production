@@ -4,7 +4,6 @@ title: "Optional — The Steps of Facilitation (Jason & Sara, 12 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

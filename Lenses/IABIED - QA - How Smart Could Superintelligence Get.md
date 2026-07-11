@@ -4,8 +4,6 @@ summary_for_tutor: "Covers the upper bounds of superintelligence permitted by ph
 title: "How smart could a superintelligence get?"
 tldr: "Very smart."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

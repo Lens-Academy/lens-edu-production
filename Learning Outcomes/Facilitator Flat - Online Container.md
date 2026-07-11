@@ -4,7 +4,6 @@ learning-outcome: "Name three things that are harder online and three that are e
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

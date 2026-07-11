@@ -4,8 +4,6 @@ summary_for_tutor: "Covers the objection that humanity always muddles through ch
 title: "Won't we just muddle through, like always?"
 tldr: "The world usually muddles through by trial and error. In this case, early errors wouldn't leave survivors."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

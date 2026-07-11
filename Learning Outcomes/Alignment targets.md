@@ -1,8 +1,6 @@
 ---
 id: ae572d9c-a207-487f-a620-336fa3a707b5
 learning-outcome: Explain different alignment targets like coherent extrapolated volition, intent alignment, or AI that follows a constitution
-tags:
-  - learning outcome
 ---
 ## Test:
 id:: b15c1ea9-810f-442a-9d1b-2e48a37c91b2

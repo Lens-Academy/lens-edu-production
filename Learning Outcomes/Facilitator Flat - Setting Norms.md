@@ -4,7 +4,6 @@ learning-outcome: "Explain why norms imposed get less follow-through than norms 
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

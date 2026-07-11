@@ -4,8 +4,6 @@ summary_for_tutor: "Addresses the hope that AI would confine itself to the digit
 title: "Wouldn't AI only care about the digital realm?"
 tldr: 'There is no "digital realm" independent of physical infrastructure.'
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

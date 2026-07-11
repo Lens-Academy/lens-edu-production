@@ -9,7 +9,6 @@ readings:
   - "Durrington Research School — How Effective Is Think-Pair-Share (3 min)"
 tags:
   - facilitator-training
-  - module
 ---
 
 # Lens: How People Learn — Why Discussions Work

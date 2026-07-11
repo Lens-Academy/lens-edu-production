@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### Yes. There's a real phenomenon to describe, even if it's difficult to pin down.
 

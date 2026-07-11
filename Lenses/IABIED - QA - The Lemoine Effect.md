@@ -2,8 +2,6 @@
 id: 96963c09-381d-419a-9245-012157347d66
 title: "The Lemoine Effect"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

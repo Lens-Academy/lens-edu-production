@@ -3,8 +3,6 @@ id: a7e3c1f4-9d28-4b6e-8a15-2f1d0e8c7b3a
 title: "What if we made AIs debate, compete with, or oversee each other?"
 tldr: "If the AIs get smart enough to matter, they likely collude."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

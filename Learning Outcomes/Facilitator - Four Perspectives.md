@@ -4,7 +4,6 @@ learning-outcome: "Name the four facilitator perspectives (self, individual, gro
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

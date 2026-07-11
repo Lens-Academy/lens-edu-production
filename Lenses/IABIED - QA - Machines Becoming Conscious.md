@@ -4,8 +4,6 @@ summary_for_tutor: "Separates machine consciousness from machine intelligence. D
 title: "Are you saying machines will become conscious?"
 tldr: "Not necessarily, and this seems like a separate topic."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

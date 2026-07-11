@@ -4,10 +4,14 @@ slug: iabied-m7
 title: "What Happens Next"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 tags:
-  - IABIED
-  - module
   - work-in-progress
 ---
+
+# Learning Outcome: IABIED - Synthesize the Core Argument
+source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
+
+# Learning Outcome: IABIED - Identify Your Path Forward
+source:: ![[../Learning Outcomes/Identify Your Path Forward]]
 
 # Lens: Welcome
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
@@ -49,9 +53,6 @@ Start by asking the student to present the complete argument. Listen carefully, 
 # Lens:
 source:: [[../Lenses/IABIED - QA - Warning Shots]]
 
-# Learning Outcome: IABIED - Synthesize the Core Argument
-source:: ![[../Learning Outcomes/IABIED - Synthesize the Core Argument]]
-
 # Lens:
 optional:: true
 source:: ![[../Lenses/IABIED - AI Safety Career Paths]]
@@ -61,11 +62,8 @@ optional:: true
 source:: ![[../Lenses/IABIED - Next Steps with Lens Academy]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
-# Learning Outcome: IABIED - Identify Your Path Forward
-source:: ![[../Learning Outcomes/Identify Your Path Forward]]
-
 # Lens: Overview of Optional Resources
-id:: e5f6a7b8-9c0d-4e1f-2a3b-4c5d6e7f8a9b
+id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9 {>>{"author":"Elias's AI","timestamp":1783777475035}@@replaced hand-typed placeholder id (invalid uuid4 variant) with a fresh uuid4<<}
 
 #### Text:
 content::

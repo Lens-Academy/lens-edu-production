@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 #### The difficulty isn't just the lack of time; it's the lethality of mistakes.
 

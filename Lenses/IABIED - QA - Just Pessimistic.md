@@ -4,8 +4,6 @@ summary_for_tutor: Covers the response to accusations of pessimism about AI. The
 title: "Are you just pessimistic?"
 tldr: "We're optimistic about many things, but superintelligence isn't like most things."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

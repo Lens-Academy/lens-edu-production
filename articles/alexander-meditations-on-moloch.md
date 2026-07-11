@@ -1,7 +1,7 @@
 ---
 title: "Meditations On Moloch"
 source_url: "https://www.slatestarcodexabridged.com/Meditations-On-Moloch"
-audio_url: "http://sscpodcast.libsyn.com/meditations-on-moloch"
+audio-url: "http://sscpodcast.libsyn.com/meditations-on-moloch"
 author:
   - "Scott Alexander"
 published: 2014-07-30

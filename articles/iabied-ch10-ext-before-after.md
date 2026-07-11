@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 As mentioned in the chapter, the fundamental difficulty researchers face in AI is this:
 

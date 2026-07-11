@@ -4,7 +4,6 @@ learning-outcome: "Name the five values of the mutual learning mindset, contrast
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

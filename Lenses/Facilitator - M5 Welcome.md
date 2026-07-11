@@ -2,7 +2,6 @@
 id: b3add5ba-890d-4c11-9e42-a66341d24be1
 title: "Hard Moments, Coaching, and Closing"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

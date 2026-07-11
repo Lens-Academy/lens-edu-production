@@ -7,7 +7,6 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-  - IABIED
 ---
 
 ## Test: 

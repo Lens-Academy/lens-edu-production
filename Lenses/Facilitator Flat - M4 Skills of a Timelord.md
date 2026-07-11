@@ -4,7 +4,6 @@ title: "Optional — Skills of a Timelord (Sara Ness, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

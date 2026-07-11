@@ -2,7 +2,6 @@
 id: 97efaed9-6c39-4327-a48d-1987c438a108
 title: "Closing exercise"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

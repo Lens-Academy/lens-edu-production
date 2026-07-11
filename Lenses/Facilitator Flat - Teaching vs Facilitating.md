@@ -2,7 +2,6 @@
 id: 5f93c1e7-f5da-47aa-9e04-1d1f8d5e6b65
 title: "1.1 The core distinction: teaching vs facilitating"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

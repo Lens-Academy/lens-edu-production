@@ -4,7 +4,6 @@ learning-outcome: "Apply the 'Name it, apologise lightly if warranted, move forw
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

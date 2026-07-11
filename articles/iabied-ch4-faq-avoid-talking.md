@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### If your AI plan requires that no one on the internet critique the plan, it's a bad plan.

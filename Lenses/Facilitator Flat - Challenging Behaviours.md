@@ -6,7 +6,6 @@ tldr: "Five patterns, five moves. The general principle: challenging behaviours 
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

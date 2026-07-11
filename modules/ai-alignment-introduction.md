@@ -33,6 +33,9 @@ showUserPreviousContent:: true
 
 # Submodule: Decomposing AI risks
 
+## Learning Outcome:
+source:: [[../Learning Outcomes/Decomposing AI risks]]
+
 ## Lens:
 source:: [[../Lenses/The AI risk landscape]]
 
@@ -48,10 +51,10 @@ source:: [[../Lenses/arxiv-an-overview-of-catastrophic-ai-risks]]
 optional:: true
 source:: [[../Lenses/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]
 
-## Learning Outcome:
-source:: [[../Learning Outcomes/Decomposing AI risks]]
-
 # Submodule: Alignment targets
+
+## Learning Outcome:
+source:: [[../Learning Outcomes/Alignment targets]]
 
 ## Lens:
 source:: [[../Lenses/Choosing an alignment target]]
@@ -68,10 +71,10 @@ source:: [[../Lenses/anthropic-claudes-new-constitution]]
 optional:: true
 source:: [[../Lenses/lesswrong-corrigibility]]
 
-## Learning Outcome:
-source:: [[../Learning Outcomes/Alignment targets]]
-
 # Submodule: Training stories and outer-inner alignment
+
+## Learning Outcome:
+source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
 
 ## Lens:
 source:: [[../Lenses/Decomposing the alignment problem]]
@@ -100,10 +103,10 @@ source:: [[../Lenses/betley-emergent-misalignment-narrow-finetuning-can-produce-
 optional:: true
 source:: [[../Lenses/turntrout-reward-is-not-the-optimization-target]]
 
-## Learning Outcome:
-source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
-
 # Submodule: Goals and instrumental convergence
+
+## Learning Outcome:
+source:: [[../Learning Outcomes/Goals and instrumental convergence]]
 
 ## Lens:
 source:: [[../Lenses/Goal-directedness and instrumental convergence]]
@@ -116,10 +119,10 @@ source:: [[../Lenses/gwern-why-tool-ais-want-to-be-agent-ais]]
 optional:: true
 source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 
-## Learning Outcome:
-source:: [[../Learning Outcomes/Goals and instrumental convergence]]
-
 # Submodule: Forecasting risk and solution approaches
+
+## Learning Outcome:
+source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]
 
 ## Lens:
 source:: [[../Lenses/Forecasting risk and choosing an approach]]
@@ -155,6 +158,3 @@ source:: [[../Lenses/yudkowsky-the-rocket-alignment-problem]]
 ## Lens:
 optional:: true
 source:: [[../Lenses/dai-problems-in-ai-alignment-that-philosophers-could-potentially-contribute-to]]
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]

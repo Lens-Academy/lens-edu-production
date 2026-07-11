@@ -2,8 +2,6 @@
 id: 373144d9-cfc6-401c-b945-b55427cc2b67
 title: "Making Sense of the Death Race"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

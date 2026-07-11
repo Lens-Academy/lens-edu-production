@@ -4,7 +4,6 @@ learning-outcome: "Describe the 'lead from behind' posture and the four-leadersh
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

@@ -4,8 +4,6 @@ summary_for_tutor: Covers why AIs probably will not have human-like emotions, wh
 title: "Will AIs have human-like emotions?"
 tldr: "Probably not."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

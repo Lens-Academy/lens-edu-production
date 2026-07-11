@@ -4,7 +4,6 @@ learning-outcome: "Describe the three phases of the Diamond of Participation (na
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

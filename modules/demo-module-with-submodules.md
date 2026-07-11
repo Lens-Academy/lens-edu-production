@@ -23,11 +23,11 @@ slug:: dummy-submodule-2
 
 %% Submodules can contain imported lenses and imported learning outcomes. %%
 
+## Learning Outcome:
+source:: [[../Learning Outcomes/Dummy Learning Outcome]]
+
 ## Lens:
 source:: [[../Lenses/Dummy lens 3]]
-
-## Learning Outcome:
-source:: [[../Learning Outcomes/Dummy learning outcome]]
 
 
 %% By the way, if a module contains submodules, then all its lenses must be inside of submodules. That is, you must start the file with defining a submodule. That is, you can't have a lens without a submodule first and then have a submodule.. %%

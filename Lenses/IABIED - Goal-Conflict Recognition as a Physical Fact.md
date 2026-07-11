@@ -5,9 +5,6 @@ title: "Goal-Conflict Recognition as a Physical Fact"
 tldr: When an AI's goals conflict with its constraints, the moment of 'realization' isn't a moral awakening; it's arithmetic. That distinction changes what alignment actually requires.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/07 - Chapter 7 - Realization]]"
 ---

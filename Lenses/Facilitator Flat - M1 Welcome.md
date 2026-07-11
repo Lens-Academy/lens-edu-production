@@ -2,7 +2,6 @@
 id: a919fb92-0bf7-4d26-9b27-086940758c87
 title: "Foundations — What Is a Facilitator?"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

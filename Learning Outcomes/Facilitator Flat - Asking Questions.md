@@ -4,7 +4,6 @@ learning-outcome: "Describe PPPB, ABC, and EEAA frameworks. Apply PPPB to one pr
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

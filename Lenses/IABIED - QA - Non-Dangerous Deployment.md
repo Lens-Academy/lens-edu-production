@@ -4,8 +4,6 @@ summary_for_tutor: Covers whether AI companies could limit powerful systems to s
 title: "What if AI companies only deploy their AIs for non-dangerous actions?"
 tldr: "Actions that seem benign can still require dangerous capabilities."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

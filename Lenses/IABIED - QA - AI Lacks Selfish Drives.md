@@ -4,8 +4,6 @@ summary_for_tutor: Addresses the hope that AI, lacking evolved drives like selfi
 title: "Humans are dangerous because of selfish, greedy drives. AI won't have those drives?"
 tldr: "Those drives aren't necessary to motivate resource acquisition."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

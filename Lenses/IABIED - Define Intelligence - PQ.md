@@ -5,9 +5,6 @@ title: "Pre-Reading Question - Define Intelligence"
 tldr: What makes human intelligence special? Think about it before you read.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---

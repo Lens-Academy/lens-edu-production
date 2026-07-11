@@ -4,8 +4,6 @@ summary_for_tutor: Covers why the authors chose a near-future setting for their 
 title: "Why did you pick this setup?"
 tldr: "Because it's plausible and easy to write."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

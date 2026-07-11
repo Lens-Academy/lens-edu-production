@@ -2,7 +2,6 @@
 id: 4c2a7c3c-34dc-4079-b05f-e9f2fdf347b6
 title: "1.4 Two postures worth knowing about"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

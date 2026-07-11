@@ -6,7 +6,6 @@ tldr: "Individual discussions follow a three-phase shape: open (narrow) → expl
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

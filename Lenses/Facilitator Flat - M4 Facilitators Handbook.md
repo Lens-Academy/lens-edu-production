@@ -4,7 +4,6 @@ title: "Optional — Facilitator's Handbook, activities (PDF)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

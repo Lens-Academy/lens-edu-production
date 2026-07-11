@@ -4,8 +4,6 @@ summary_for_tutor: Examines whether superintelligent AIs would need legal framew
 title: "Won't AIs need the rule of law?"
 tldr: "AIs could coordinate with each other without including humans."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

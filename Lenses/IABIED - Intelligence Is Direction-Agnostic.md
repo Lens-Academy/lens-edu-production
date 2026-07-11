@@ -5,9 +5,6 @@ title: "Intelligence Is Direction-Agnostic"
 tldr: A smarter mind is better at achieving its goals. But intelligence doesn't point itself at good goals. More capable doesn't mean more aligned.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/01 - Chapter 1 - Humanity's Special Power]]"
 ---

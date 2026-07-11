@@ -6,7 +6,6 @@ tldr: "The single most useful skill in facilitation. Three frameworks plus five 
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

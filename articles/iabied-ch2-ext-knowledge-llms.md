@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 What follows from understanding LLMs? How does it help us understand smarter-than-human AI and how to prevent everyone from dying?
 

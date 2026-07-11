@@ -4,8 +4,6 @@ summary_for_tutor: "Asks whether LLMs specifically could reach superintelligence
 title: "Could LLMs advance all the way to superintelligence?"
 tldr: "It isn't clear, but researchers are finding ways to overcome old LLM limitations."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

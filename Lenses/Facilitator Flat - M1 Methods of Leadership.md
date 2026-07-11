@@ -4,7 +4,6 @@ title: "Optional — Methods of Leadership (Sara & Carrie, 10 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

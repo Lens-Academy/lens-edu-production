@@ -7,8 +7,6 @@ optional: true
 authors:
   - Chris+Claude
 tags:
-  - learning-outcome
-  - IABIED
   - optional
 ---
 

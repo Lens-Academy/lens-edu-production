@@ -5,9 +5,6 @@ title: "Pre-Reading Question - Ladder in the Dark"
 tldr: Before reading, think about what it would actually take to stop a competitive race, even one everyone knows is dangerous.
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 ---
 
 #### Question

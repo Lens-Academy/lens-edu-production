@@ -6,7 +6,6 @@ tldr: "Long sessions decay. Four moves reliably reset attention. One of them ten
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

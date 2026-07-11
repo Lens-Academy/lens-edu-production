@@ -3,8 +3,6 @@ id: 38e41e7a-a68e-4065-9a5d-7b58c891135a
 title: "Is the situation hopeless?"
 tldr: "No."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

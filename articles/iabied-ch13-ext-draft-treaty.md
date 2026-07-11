@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 Many people, including members of the U.S. House of Representatives and the Senate, have asked us what concrete and specific legislative proposals would actually help with this problem.
 

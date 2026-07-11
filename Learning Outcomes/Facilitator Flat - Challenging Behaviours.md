@@ -4,7 +4,6 @@ learning-outcome: "Identify the specific facilitator move for at least four chal
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

@@ -2,7 +2,6 @@
 id: 61064e53-af1a-439c-abf1-842a55517d86
 title: "1.2 The mutual learning mindset"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

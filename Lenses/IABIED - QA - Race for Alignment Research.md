@@ -4,8 +4,6 @@ summary_for_tutor: Covers the justification that racing ahead in AI is necessary
 title: "Isn't it important to race ahead so we can do alignment research?"
 tldr: "We strongly recommend against this entire AI paradigm."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

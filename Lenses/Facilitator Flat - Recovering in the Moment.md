@@ -6,7 +6,6 @@ tldr: "Everything is recoverable. The recovery move is the same: name it, apolog
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

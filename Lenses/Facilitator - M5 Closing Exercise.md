@@ -2,7 +2,6 @@
 id: a3b23ee2-ee45-48c6-baf8-ce5f60f6eb9c
 title: "Final exercise"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

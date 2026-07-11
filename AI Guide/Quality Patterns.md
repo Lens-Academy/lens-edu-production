@@ -58,7 +58,7 @@ All three share a house style: state who the student is and what they just did; 
 
 ## The pre-reading question (PQ) lens
 
-Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, placed as the first `## Lens:` in the outcome. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
+Before a heavy reading, a tiny lens primes the intuition the chapter will challenge — one `#### Question`, no reading. Its brief is deliberately minimal: acknowledge in 1–2 sentences, **do not** preview the chapter's argument, close by sending them to the reading. Named `<Topic> - PQ`, listed in the module as the `# Lens:` immediately before the main reading lens. See `Lens Edu/Lenses/IABIED - Indifference Not Malice - PQ.md`.
 
 ## The learning-outcome test: a 1–5 rubric
 
@@ -76,8 +76,8 @@ Levels 4–5 are written as "As above, plus…" so graders compose rather than r
 
 ## Conventions that keep a course maintainable
 
-- **Naming:** prefix content files with the course tag (`IABIED - Define Intelligence`, `IABIED M1 Intro and Nonhuman Minds, Part 1`), and tag every file with it too — the tag, not the folder, is what groups a course's content.
+- **Naming:** prefix content files with the course prefix (`IABIED - Define Intelligence`, `IABIED M1 Intro and Nonhuman Minds, Part 1`) so a course's files sort and search together. Do not add `tags:` for grouping — the platform ignores frontmatter tags except `wip` and `validator-ignore`; a course's content is defined by its course file's module references.
 - **Frontmatter for two audiences:** `tldr` speaks to the learner (one memorable sentence, an analogy beats a summary: "Like a parent who knows how babies are made but not what the baby will become"); `summary_for_tutor` speaks to the AI (what the lens teaches and how its parts sequence).
 - **`add_to_ai_context`** on a lens, module, or `# Submodule:` marker (never a Learning Outcome — that's an error) injects source material (e.g. the chapter text from a private folder) into the tutor's context — use it whenever the tutor must discuss a text the student read elsewhere. Submodule-level is the natural home for per-chapter book content.
 - **`authors:`** credits humans and AI pairs (`Chris+Claude`) — keep it updated; it's tolerated metadata, not schema.
-- **One outcome, several lenses:** the main reading lens carries the outcome; PQ primes it; optional `- QA -` lenses hold depth for curious learners, linked via `::card` footers instead of bloating the main path.
+- **One outcome, several lenses:** in the module, list PQ → main reading lens → `# Learning Outcome:` ref; optional `- QA -` lenses hold depth for curious learners, linked via `::card` footers instead of bloating the main path. Record alternative candidate lenses in the outcome's `# Suggested Lenses:` section (with `notes::`) — author hints only, never part of the learner path.

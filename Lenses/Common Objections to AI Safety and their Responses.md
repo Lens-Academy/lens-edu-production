@@ -4,7 +4,6 @@ summary_for_tutor: ...
 title: Common Objections to AI Safety and their Responses
 tldr: ...
 tags:
-  - lens
   - work-in-progress
 ---
 

@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why experimental bottlenecks would not limit a superi
 title: "Won't AIs be limited by their ability to design and run experiments?"
 tldr: "Intelligence lets you learn more from experiments and run faster, more informative, more parallelized experiments."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

@@ -3,9 +3,23 @@ id: fc1c3de9-6429-45fd-913f-76a032180d50
 slug: cognitive-superpowers
 title: Cognitive Superpowers
 discussion:
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Understand the processing speed advantage]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Cite examples of AI manipulation]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Comply or else]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]
+
 # Lens: Welcome
 id:: 1e8bd017-944e-442f-b12c-5a168b0244f0
 #### Text
@@ -15,31 +29,16 @@ In this module, we explore the myriad ways in which intelligence gives agents po
 # Lens:
 source:: ![[../Lenses/The power of intelligence|The power of intelligence]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Intelligence as a universal adaptive strategy]]
-
 # Lens:
 source:: ![[../Lenses/Speed advantage with slow motion videos]]
-
-# Learning Outcome:
-source:: [[../Learning Outcomes/Understand the processing speed advantage]]
 
 # Lens:
 source:: [[../Lenses/AI manipulation - mind hacked|AI manipulation - mind hacked]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Cite examples of AI manipulation]]
-
 # Lens:
 source:: [[../Lenses/Credible Threats|Credible Threats]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Comply or else]]
-
 # Lens:
 source:: [[../Lenses/More advantages for digital agents|More advantages for digital agents]]
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Enumerate n competitive advantages machines have over humans]]
 
 

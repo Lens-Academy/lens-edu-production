@@ -4,7 +4,6 @@ title: "Optional — Facilitating Online (Sara Ness, 11 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

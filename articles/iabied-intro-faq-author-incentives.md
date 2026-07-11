@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis.

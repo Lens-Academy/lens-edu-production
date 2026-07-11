@@ -11,7 +11,6 @@ readings:
   - "Sara Ness — The Elegant Finale (10 min)"
 tags:
   - facilitator-training
-  - module
 ---
 
 # Submodule: Welcome

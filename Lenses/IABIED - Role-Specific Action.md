@@ -5,9 +5,6 @@ title: "Role-Specific Action"
 tldr: "Governments, politicians, journalists, and citizens each hold a lever that others can't pull. The chapter's final ask is that each group pull theirs."
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 ---
 #### Text
 content::

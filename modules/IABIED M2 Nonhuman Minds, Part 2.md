@@ -6,9 +6,6 @@ discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
   - "Chapter 3: Learning to Want"
   - "Chapter 4: You Don't Get What You Train For"
-tags:
-  - IABIED
-  - module
 ---
 
 # Submodule: Welcome
@@ -46,26 +43,26 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 # Submodule: Ch3 - Learning to Want
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
+# Learning Outcome: Explain Wanting Emerges from Training
+source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
+
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 
-# Learning Outcome: Explain Wanting Emerges from Training
-source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
-
 # Submodule: Ch4 - You Don't Get What You Train For
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
+
+# Learning Outcome: Explain You Don't Get What You Train For
+source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
-
-# Learning Outcome: Explain You Don't Get What You Train For
-source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
 
 # Submodule: Dive Deeper
 # Lens: Overview of Optional Resources

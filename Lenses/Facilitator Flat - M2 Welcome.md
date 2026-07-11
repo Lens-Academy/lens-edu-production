@@ -2,7 +2,6 @@
 id: d64739ff-9989-4af2-8dba-9f9d78a1b780
 title: "How People Learn — Why Discussions Work"
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

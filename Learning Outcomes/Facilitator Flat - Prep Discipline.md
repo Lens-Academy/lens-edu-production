@@ -4,7 +4,6 @@ learning-outcome: "Distinguish prep that moves session quality from prep that is
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

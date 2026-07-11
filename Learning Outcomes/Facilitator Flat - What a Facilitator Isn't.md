@@ -4,7 +4,6 @@ learning-outcome: "Identify at least three roles a facilitator is NOT responsibl
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

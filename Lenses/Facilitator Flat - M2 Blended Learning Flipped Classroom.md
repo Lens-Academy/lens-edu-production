@@ -4,7 +4,6 @@ title: "Optional — Blended Learning & Flipped Classroom (Osmosis, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

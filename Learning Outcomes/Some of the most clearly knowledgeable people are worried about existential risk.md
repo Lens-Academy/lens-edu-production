@@ -4,7 +4,6 @@ discussion: <discord url>
 learning-outcome:
 tags:
   - work-in-progress
-  - learning outcome
 ---
 
 # Suggested Lenses:

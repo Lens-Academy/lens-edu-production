@@ -4,8 +4,6 @@ summary_for_tutor: "Covers why smarter AIs would not self-correct toward human v
 title: "Won't AIs fix their own flaws as they get smarter?"
 tldr: "The AI will fix what *it* sees as flaws."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

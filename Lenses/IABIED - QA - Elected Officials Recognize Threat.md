@@ -3,8 +3,6 @@ id: 45b0200a-45ab-4db9-a754-54e7bd96fa66
 title: "Will elected officials recognize this as a real threat?"
 tldr: "An increasing number already have."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

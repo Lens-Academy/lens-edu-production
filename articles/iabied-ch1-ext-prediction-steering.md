@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 If you ask a wise physicist what an engine is, they might start by pointing at a rocket engine, a combustion engine, and a hamster wheel, and say, "Those are all engines," and then point at a rock and say, "But that is not."
 

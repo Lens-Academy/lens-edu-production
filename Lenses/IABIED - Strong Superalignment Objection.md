@@ -5,9 +5,6 @@ title: "Strong Superalignment Objection"
 tldr: "OpenAI's flagship plan was 'use AI to solve alignment.' The plan contains a paradox that Chapter 11 walks through carefully, and the workaround doesn't work either."
 authors:
   - Yatharth+Claude
-tags:
-  - lens
-  - IABIED
 ---
 #### Text
 content::

@@ -5,9 +5,6 @@ title: Pre-Reading Question - Instrumental Sub-Goal Convergence
 tldr: "Before you read about an AI acquiring resources in five completely different ways: does variety in method tell you anything about unity of purpose?"
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
 ---

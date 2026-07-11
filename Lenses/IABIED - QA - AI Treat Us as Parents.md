@@ -4,8 +4,6 @@ summary_for_tutor: Addresses whether AI might treat humanity well out of filial 
 title: "Will AI treat us as its 'parents'?"
 tldr: "It seems quite unlikely."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

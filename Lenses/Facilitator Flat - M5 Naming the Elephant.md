@@ -4,7 +4,6 @@ title: "Optional — Naming the Elephant (Meg & Sara, 6 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Video

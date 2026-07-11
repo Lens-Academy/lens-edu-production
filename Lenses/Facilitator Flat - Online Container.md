@@ -6,7 +6,6 @@ tldr: "Online is its own medium, not a worse version of in-person. Good online f
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

@@ -4,7 +4,6 @@ learning-outcome: "Name three online signals that participants are communicating
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

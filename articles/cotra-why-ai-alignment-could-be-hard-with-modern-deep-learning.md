@@ -1,7 +1,7 @@
 ---
 title: "Why AI alignment could be hard with modern deep learning"
 source_url: "https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/"
-audio_url: "https://www.buzzsprout.com/1851795/episodes/9229954-why-ai-alignment-could-be-hard-with-modern-deep-learning-guest-post-by-ajeya-cotra.mp3"
+audio-url: "https://www.buzzsprout.com/1851795/episodes/9229954-why-ai-alignment-could-be-hard-with-modern-deep-learning-guest-post-by-ajeya-cotra.mp3"
 author:
   - "Ajeya Cotra"
 published: 2021-09-21

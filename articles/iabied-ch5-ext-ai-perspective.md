@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 Seeing the world from a truly alien perspective is genuinely difficult. As a case study in the difficulty, we can cite Jürgen Schmidhuber, a prominent machine learning scientist. Schmidhuber has played an important role in the history of the field, helping invent recurrent neural networks and laying some of the groundwork for the deep learning revolution.
@@ -72,4 +71,4 @@ The hypothesis that non-human optimizers produce humane results has been tested,
 
 [1] *reveal that seed:* I (Yudkowsky) presented this counterargument to Schmidhuber in a live Q&A after Schmidhuber's [talk on the subject](https://vimeo.com/7441291) at the 2009 Singularity Summit, a conference hosted by MIRI (which was then called the Singularity Institute).
 
-[2] *genetic selection pressures:* The topic of individual selection versus group selection used to be a fierce debate. A consensus eventually emerged that substantial group selection pressures occur rarely at best. George C. Williams's book *[Adaptation and Natural Selection](https://books.google.com/books?hl=en&lr=&id=gkBhDwAAQBAJ&oi=fnd&pg=PP1&ots=Ch8ulE8NzS&sig=mxIwoqfSWZ0ScvIRh7dzzrJatJ4#v=onepage&q&f=false)*was widely considered clarifying, on this issue.
+[2] *genetic selection pressures:* The topic of individual selection versus group selection used to be a fierce debate. A consensus eventually emerged that substantial group selection pressures occur rarely at best. George C. Williams's book *[Adaptation and Natural Selection](https://books.google.com/books?hl=en&lr=&id=gkBhDwAAQBAJ&oi=fnd&pg=PP1&ots=Ch8ulE8NzS&sig=mxIwoqfSWZ0ScvIRh7dzzrJatJ4#v=onepage&q&f=false)* was widely considered clarifying, on this issue.

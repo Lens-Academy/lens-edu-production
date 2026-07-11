@@ -5,10 +5,15 @@ title:
 discussion:
 tags:
   - aibied
-  - module
   - work-in-progress
   - validator-ignore
 ---
+
+# Learning Outcome:
+source:: 
+
+# Learning Outcome:
+source:: 
 
 # Lens: Welcome
 id::
@@ -19,11 +24,5 @@ content::
 # Lens:
 source:: 
 
-# Learning Outcome:
-source:: 
-
 # Lens:
-source:: 
-
-# Learning Outcome:
 source:: 

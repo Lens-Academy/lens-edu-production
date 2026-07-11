@@ -3,6 +3,7 @@ title: "The persona selection model"
 author:
   - "Anthropic"
 source_url: "https://www.anthropic.com/research/persona-selection-model"
+published: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783776894284}@@published date unverifiable, used import date<<}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "A theory of why AI models act like humans."

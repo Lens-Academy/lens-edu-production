@@ -10,7 +10,6 @@ readings:
   - "Sara Ness — Facilitating Online (11 min)"
 tags:
   - facilitator-training
-  - module
 ---
 
 # Lens: Preparing to Facilitate a Session

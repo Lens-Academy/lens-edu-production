@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 
 #### Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming.

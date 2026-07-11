@@ -4,8 +4,6 @@ summary_for_tutor: "Explains why not understanding intelligence does not prevent
 title: "What makes you think people can build superhuman AI when they don't even understand intelligence?"
 tldr: "Past AI progress hasn't required much understanding of intelligence."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -5,9 +5,6 @@ title: Pre-Reading Question - Indifference Not Malice
 tldr: "Before you read about the end of human civilization: does a system that doesn't want to harm you have to intend harm to harm you?"
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/09 - Chapter 9 - Ascension]]"
 ---

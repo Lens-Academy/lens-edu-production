@@ -1,8 +1,6 @@
-{++{"author":"AI","timestamp":1783453456983}@@---
+---
 id: b38d3403-ef4e-48d6-9a94-4efc252fd89d
 title: "A new Moore's Law for AI agents"
-tags:
-  - lens
 ---
 #### Text
 content::
@@ -30,4 +28,3 @@ Discussion topics to explore:
 Ask what they found surprising. Check if they can explain "time horizon" in their own words, it is the key concept.
 
 The user is responding to: if the doubling trend holds, where does it put us in three years, and what would change their mind?
-++}

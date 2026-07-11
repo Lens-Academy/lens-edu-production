@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 We *do* somewhat caution people with influence in governments from making a plan that involves sitting down and negotiating with AI companies.
 

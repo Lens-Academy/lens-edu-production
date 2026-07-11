@@ -2,8 +2,6 @@
 id: d761d8d4-6c01-4a2d-bbc9-edf5dbc3bfa3
 title: The Draft Treaty
 tags:
-  - lens
-  - IABIED
   - supplementary
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]"

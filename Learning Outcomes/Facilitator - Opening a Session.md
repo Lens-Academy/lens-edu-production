@@ -4,7 +4,6 @@ learning-outcome: "Describe the three-step opening pattern (Check-in, Anchor, Op
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

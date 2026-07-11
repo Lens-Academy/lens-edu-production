@@ -2,9 +2,17 @@
 id: 1e8ae361-adcf-4cb0-a40e-3c5acef4faa9
 slug: ai-optimization-superintelligence
 title: AI, Optimization, Superintelligence
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/Define intelligence as efficient cross-domain optimization]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Fizzle or Foom]]
+
 # Lens: Welcome
 id:: ff3b2cc0-1381-41ed-8194-3ac5301f38b0
 #### Text
@@ -15,9 +23,6 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 # Lens:
 source:: [[../Lenses/Efficient Cross-Domain Optimization]]
 
-# Learning Outcome:
-source:: [[../Learning Outcomes/Define intelligence as efficient cross-domain optimization]]
-
 # Lens:
 optional:: true
 source:: ![[../Lenses/Cascades and Cycles]]
@@ -25,15 +30,9 @@ source:: ![[../Lenses/Cascades and Cycles]]
 # Lens:
 source:: [[../Lenses/Speculations concerning the first ultraintelligent machine|Speculations concerning the first ultraintelligent machine]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Feedback cycles create discontinuity]]
-
 # Lens:
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
 
 # Lens:
 optional:: true
 source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Fizzle or Foom]]

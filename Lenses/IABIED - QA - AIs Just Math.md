@@ -4,8 +4,6 @@ summary_for_tutor: "Counters the dismissal that AIs are 'just math.' Just as hum
 title: "Aren't AIs 'just math'?"
 tldr: "Saying AIs are \"just math\" is like saying humans are \"just biochemistry.\""
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

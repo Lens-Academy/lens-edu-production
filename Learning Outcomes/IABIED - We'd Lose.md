@@ -2,8 +2,6 @@
 id: 42c5126e-6eeb-42c4-8ba6-d60199ca656d
 learning-outcome: "Articulate why a superintelligence with misaligned goals would defeat humanity, even starting from limited resources"
 tags:
-  - learning-outcome
-  - IABIED
   - work-in-progress
 ---
 

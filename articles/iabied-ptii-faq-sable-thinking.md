@@ -7,7 +7,6 @@ author:
   - Nate Soares
 tags:
   - clippings
-  - IABIED
 ---
 
 #### Our story showcases how AI is liable to have weird and unintended preferences.

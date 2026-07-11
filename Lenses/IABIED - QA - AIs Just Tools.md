@@ -4,8 +4,6 @@ summary_for_tutor: "Challenges the framing of AIs as passive tools by cataloging
 title: "Aren't AIs just tools?"
 tldr: "AIs are grown, not crafted. So they already do things other than what they're told to do."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

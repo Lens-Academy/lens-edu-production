@@ -2,7 +2,6 @@
 id: 9e961fae-279b-4f42-b6d9-4931878e71cb
 title: "Facilitator M2 — Overview of Optional Resources"
 tags:
-  - lens
   - facilitator-training
 ---
 

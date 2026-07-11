@@ -4,8 +4,6 @@ summary_for_tutor: "Addresses whether AI progress will be bottlenecked by data, 
 title: "But won't we run out of data before AI goes all the way? Or electrical power? Or funding?"
 tldr: "Probably not."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

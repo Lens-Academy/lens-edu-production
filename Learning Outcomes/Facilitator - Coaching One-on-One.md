@@ -4,7 +4,6 @@ learning-outcome: "Distinguish coaching from facilitating; name at least three o
 authors:
   - Yatharth+Claude
 tags:
-  - learning-outcome
   - facilitator-training
 ---
 

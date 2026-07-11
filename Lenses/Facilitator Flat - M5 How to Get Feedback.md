@@ -4,7 +4,6 @@ title: "Optional — How to Get Feedback (Scott Young, 5 min)"
 authors:
   - Yatharth+Claude
 tags:
-  - lens
   - facilitator-training
 ---
 #### Text

@@ -2,8 +2,6 @@
 id: c9e3a5f6-7b4a-4db3-a08c-4f1b2e9d5c37
 title: "It's Hard to Get Robust Laziness"
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

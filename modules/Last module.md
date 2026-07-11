@@ -3,9 +3,13 @@ id: cd11efd8-f449-4964-8962-97cbe865a9bf
 slug: last-module-what-comes-next
 title: "Last module: What comes next"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
-tags:
-  - module
 ---
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/Where it leads to]]
+
+# Learning Outcome:
+source:: ![[../Learning Outcomes/How to relate]]
 
 # Lens: Welcome
 id:: 9b2bbd28-207f-4069-9610-37c31300583a
@@ -33,9 +37,6 @@ source:: ![[../Lenses/Machines Of Loving Grace]]
 # Lens:
 source:: ![[../Lenses/The Artificial Intelligence That Deleted A Century]]
 
-# Learning Outcome:
-source:: ![[../Learning Outcomes/Where it leads to]]
-
 # Lens:
 source:: ![[../Lenses/The World Keeps Getting Saved]]
 
@@ -44,6 +45,3 @@ source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
 source:: [[../Lenses/Next steps]]
-
-# Learning Outcome:
-source:: ![[../Learning Outcomes/How to relate]]

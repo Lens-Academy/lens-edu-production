@@ -4,8 +4,6 @@ summary_for_tutor: "Covers whether superintelligent AI might preserve humanity o
 title: "Won't AI find us historically important?"
 tldr: "If AI values \"fascination,\" it probably has better options."
 tags:
-  - lens
-  - IABIED
   - supplementary
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"

@@ -21,12 +21,12 @@ Jul 08, 2025
 
 Ryan’s podcast with Rob Wiblin has just come out! I think it turned out great. I particularly enjoyed Ryan’s discussion of different pathways to AI takeover, which I don’t think has been discussed in as much depth elsewhere. I really enjoyed watching some of the taping from the sidelines.
 
-<iframe src="https://www.youtube-nocookie.com/embed/-CJxwXAFvsw?rel=0&autoplay=0&showinfo=0&enablejsapi=0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{>>{"author":"Elias's AI","timestamp":1783776797710}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/-CJxwXAFvsw?rel=0&autoplay=0&showinfo=0&enablejsapi=0<<}
 
 Transcript + links + summary [here](https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/). You can also get it as a podcast:
 
-Spotify:
+Spotify: [Listen on Spotify](https://open.spotify.com/episode/4TeGozjFgTLlQjwTiphZdz)
 
-Apple:
+Apple: [Listen on Apple Podcasts](https://podcasts.apple.com/us/podcast/220-ryan-greenblatt-on-the-4-most-likely-ways-for-ai/id1245002988?i=1000716350932)
 
-No posts
+{>>{"author":"Elias's AI","timestamp":1783779724506}@@removed embedded podcast players (Spotify/Apple) and junk "No posts" footer; replaced with links to the episode recovered from the original Substack page<<}

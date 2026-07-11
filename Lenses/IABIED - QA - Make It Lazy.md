@@ -4,8 +4,6 @@ summary_for_tutor: "Covers three obstacles to designing AI laziness as a safety 
 title: "Can we just make it lazy?"
 tldr: "Even laziness isn't safe."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 #### Text

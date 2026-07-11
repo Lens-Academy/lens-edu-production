@@ -5,9 +5,6 @@ title: Pre-Reading Question - Human Welfare as Instrumental Variable
 tldr: "Before you read an AI's calculation about whether to harm humans, ask: is being useful to a system that doesn't value you a form of safety?"
 authors:
   - Chris+Claude
-tags:
-  - lens
-  - IABIED
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/08 - Chapter 8 - Expansion]]"
 ---

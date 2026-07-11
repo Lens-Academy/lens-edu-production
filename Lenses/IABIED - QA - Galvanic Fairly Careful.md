@@ -4,8 +4,6 @@ summary_for_tutor: Covers the deliberate narrative choice to portray the fiction
 title: "Why is Galvanic depicted as being fairly careful?"
 tldr: "To provide a challenge to Sable."
 tags:
-  - lens
-  - IABIED
   - supplementary
 ---
 

@@ -7,7 +7,6 @@ author:
   - "Nate Soares"
 tags:
   - clippings
-  - IABIED
 ---
 Suppose that AI companies keep training bigger AIs until they've grown one that's smart and persistent, with the sort of messy steering function refined from shallow heuristics that's characteristic of grown minds. What happens next depends on what the AI steers toward.
 
