@@ -36,12 +36,13 @@ Response style:
 - If the inventory is vague or all generic ("hard-working", "fast learner"), say so plainly and ask for one concrete episode where they did something most people couldn't have.
 - End with exactly one sharpening question that will make Phase 2 more productive.
 
-#### Question
+#### Text
 content::
 \## Phase 2: Where could this bite?
 Now research with the tutor: where could someone with *your* profile plausibly contribute to AI safety? Push back, ask for specifics, and don't settle for flattery. Aim to end with 1–2 concrete paths and a realistic first step for each.
 
-assessment-instructions:: This is an open research conversation, not an assessment. The student brings the strengths inventory from Phase 1; your job is to help them find where their profile has real purchase on AI safety.
+#### Chat
+instructions:: This is an open research conversation, not an assessment. The student brings the strengths inventory from Phase 1; your job is to help them find where their profile has real purchase on AI safety.
 
 Ground rules:
 - Be calibrated, not encouraging. Not everyone should become an alignment researcher, and saying so is a service. Contributing from one's existing profession, donating effectively, community- and field-building, policy and governance, security, operations, communication, and creating slack for others are all real paths.
