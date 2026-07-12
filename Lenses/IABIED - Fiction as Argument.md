@@ -11,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/10 - Coda]]"
 ---
 #### Question
+optional:: true
 content::
 \## Optional Reflection: No New Reading Required
 
