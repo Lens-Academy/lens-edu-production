@@ -8,17 +8,17 @@ authors:
 ---
 #### Text
 content::
-\## Your action plan, step 2: leave the building
-Last module you mapped your strengths{--{"author":"Ben Aybar","timestamp":1784474928039}@@ and sketched where they could bite--}. This week's step is smaller and harder: talk to one person you know about what you've been reading.
+**Your action plan, step 2: leave the building**
+Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
-- **It's the {~~{"author":"Ben Aybar","timestamp":1784474953644}@@sharpest~>best~~} test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you {~~{"author":"Ben Aybar","timestamp":1784475030741}@@exactly which parts you actually own~>what you know~~} and w{++{"author":"Ben Aybar","timestamp":1784475056166}@@hat++}{--{"author":"Ben Aybar","timestamp":1784475051933}@@hich--} parts you were only nodding along to.
+- **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
 - **It's the book's own ask.** The authors' call to ordinary citizens is not "become a researcher", it's to talk about the problem, because leaders can only act on risks their people are already taking seriously.
 - **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.
 
 #### Question
 content::
-\## Phase 1: Pick your person
+**Phase 1: Pick your person**
 Take 2 minutes. Who will you talk to this week? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
@@ -37,11 +37,11 @@ Response style:
 - Close by sending them to the rehearsal below.
 
 #### Roleplay
-id:: '17a55209-deab-48c8-afb0-fc522722fe8f'
+id:: 17a55209-deab-48c8-afb0-fc522722fe8f
 content::
-\## Phase 2: Rehearse it
+**Phase 2: Rehearse it**
 Practice the conversation before you have it. The tutor will play the person you just described. Start the way you actually would: over coffee, on a walk, in the group chat. Get to the dreaded sentence and past it.
-user-customizable:: true
+user-customizable:: false
 opening-message:: Hey! You said you wanted to tell me about that book you've been reading?
 ai-instructions:: Play the specific person the student described in Phase 1: their prior views on AI, their relationship to the student, their likely tone. Stay in character throughout.
 
@@ -55,7 +55,7 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 
 #### Text
 content::
-\## Phase 3: Have it for real
+**Phase 3: Have it for real**
 Sometime this week, have the conversation. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
@@ -67,7 +67,7 @@ You'll be asked how it went at next week's meeting. An awkward five minutes coun
 
 #### Question
 content::
-\## Phase 4: Commit
+**Phase 4: Commit**
 Write it down, for your future self:
 - Who, and when this week
 - Your opening line, word for word
@@ -78,4 +78,4 @@ assessment-instructions:: The student commits to a real conversation this week: 
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete slot this week, not "at some point". If vague, ask for the day.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session.{++{"author":"Elias's AI","timestamp":1784450221871}@@ {>>{"author":"Elias's AI","timestamp":1784450221871}@@sync poke: forcing re-export to clear stale frontmatter markup in staging git; safe to dismiss this comment<<}++}
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session. 
