@@ -1,5 +1,7 @@
 ---
 id: c6e6f804-0d5f-4561-a5ae-6ada290bb18a
+tldr: "If an AI relentlessly pursues a goal, what smaller goals will it invent along the way, and why do self-preservation and resisting shutdown show up no matter what it ultimately wants? This lens connects why AIs become goal-directed at all to why that makes any misalignment far more dangerous."
+summary_for_tutor: "Teaches why goal-directedness raises the stakes of misalignment. Presents Gwern's argument that economic pressure pushes systems toward agentic, goal-directed behavior, then introduces instrumental convergence: certain sub-goals (self-improvement, goal-preservation, self-protection) are useful across almost any final goal, so capable agents tend to develop them. Explains how these drives directly conflict with corrigibility, since resisting shutdown and modification is the opposite of being correctable. Includes a practice question targeting the common misreading that all advanced AIs converge on the same final goal, and an optional chat linking the three ideas."
 title: Goal-directedness and instrumental convergence
 ---
 #### Text

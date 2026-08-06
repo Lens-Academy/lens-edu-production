@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### The power to ban dangerous technology is already vested in governments.
 
 Banning AI research on the path to smarter-than-human AI wouldn't make much of a difference with regard to state power. Governments legislate and regulate an enormous number of things. Restricting a single research program is potentially a big deal *to the AI industry*, but it's a drop in the bucket *to governments* and to society, which are accustomed to state involvement in many parts of life, and which have a precedent of banning dangerous technology such as chemical weapons.

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### In part because it's realistic.
 
 AlphaGo (the first AI to beat a human at Go) was basically alone in its class when it was released. ChatGPT was basically alone in its class when it was released.

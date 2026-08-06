@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Not in the way that matters.
 
 There are many ways that AIs might wind up with preferences that are slightly human-like. Most of those do not result in humanity getting a slightly nice future.

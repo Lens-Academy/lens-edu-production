@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming.
 
 Many of the things people ask us to try to predict for them, we in fact have no way of knowing. When Leo Szilard wrote a letter warning the USA about nuclear weaponry in 1939, he did not and could not include any note along the lines of, "The first atomic weapon will be ready to detonate for testing in six years."
@@ -23,7 +30,7 @@ Not knowing when AI is coming is not the same as knowing that it's a long way of
 
 In 2021, the forecasting community on the prediction website Metaculus [estimated](https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/) that the first "truly general AI" would arrive in 2049. One year later, in 2022, that aggregate community prediction had fallen by twelve years, to 2037. Another year later, in 2023, it had fallen by a further four years, to 2033. [Again](https://perma.cc/742G-7V2F) and [again](https://forecastingresearch.org/near-term-xpt-accuracy), forecasters have been surprised by the fast pace of AI progress, with their time estimates varying wildly year over year.
 
-This phenomenon is not isolated to Metaculus. An organization called 80,000 Hours [documents](https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/) various other cases of rapidly shortening timelines from many groups of expert forecasters. And even superforecasters — who consistently win forecasting tournaments and often exceed domain experts in their ability to forecast the future — assigned only [2.3% probability](https://forecastingresearch.org/near-term-xpt-accuracy) to AIs achieving the International Math Olympiad gold medal by the year 2025. AIs [achieved](https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/) the International Math Olympiad gold medal in July of 2025. 
+This phenomenon is not isolated to Metaculus. An organization called 80,000 Hours [documents](https://80000hours.org/2025/03/when-do-experts-expect-agi-to-arrive/) various other cases of rapidly shortening timelines from many groups of expert forecasters. And even superforecasters — who consistently win forecasting tournaments and often exceed domain experts in their ability to forecast the future — assigned only [2.3% probability](https://forecastingresearch.org/near-term-xpt-accuracy) to AIs achieving the International Math Olympiad gold medal by the year 2025. AIs [achieved](https://deepmind.google/discover/blog/advanced-version-of-gemini-with-deep-think-officially-achieves-gold-medal-standard-at-the-international-mathematical-olympiad/) the International Math Olympiad gold medal in July of 2025.
 
 Smarter-than-human AI might intuitively look like it's decades off, but ChatGPT-level AI looked like it was decades off in 2021, and then suddenly it arrived. Who knows when new qualitative AI improvements will suddenly arrive? Maybe it'll take another ten years. Or maybe a breakthrough will come tomorrow. We don't know how long it will take, but a number of researchers have become increasingly worried that time might be running short. Without claiming special knowledge on this front, we think humanity should react soon. It's not clear how much more warning we're ever going to get.
 

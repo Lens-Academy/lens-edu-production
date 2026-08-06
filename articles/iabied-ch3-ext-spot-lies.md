@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Deep Machinery of Prediction
 
 It's hard to make a smart AI believe falsehoods.

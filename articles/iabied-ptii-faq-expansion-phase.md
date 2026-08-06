@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We were trying to depict an especially slow and comprehensible scenario, among plausible scenarios.
 
 In the real world, events often proceed in strange ways. Decades sometimes happen in weeks; and the world is never the same again.

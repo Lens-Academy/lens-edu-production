@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 In September of 1933, a physicist named Leo Szilard was crossing the intersection where Southampton Row passes Russell Square when he had the idea of a nuclear chain reaction — the key idea behind atomic bombs.
 
 There was, from there, a whole adventure as Szilard tried to figure out what to do with this momentous idea. He went to the more prestigious physicist Isidor Rabi, and Rabi went to the even more prestigious Enrico Fermi. Rabi asked Fermi whether he thought nuclear chain reactions were the real deal, and Fermi sent back a reply:

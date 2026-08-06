@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Solving difficult challenges requires AIs to take more and more initiative.
 
 Imagine an AI tasked with curing Alzheimer's disease. Can it succeed without a strong tendency to persist when it runs into roadblocks?

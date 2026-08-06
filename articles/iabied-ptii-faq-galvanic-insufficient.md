@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### In part because it's realistic.
 
 We expect real companies to make even more blunders than Galvanic. That would fit with the trend of modern AI companies, as spelled out in the endnotes for Part II of the book.

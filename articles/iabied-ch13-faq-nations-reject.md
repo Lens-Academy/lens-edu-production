@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Not if they understand the threat.
 
 We are talking about a technology that would kill everyone on the planet. If any country seriously understood the issue, and seriously understood how far any group on the planet is from making AI follow the intent of its operators even after transitioning into a superintelligence, then there would be no incentive for them to rush ahead. They, too, would desperately wish to sign onto a treaty and help enforce it, out of fear for their own lives.

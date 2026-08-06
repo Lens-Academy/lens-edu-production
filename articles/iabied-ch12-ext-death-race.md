@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 A natural question we expect from many readers is:
 
 > You say that if anyone builds ASI, everyone dies. But then why is anyone trying to build it? If you're right, these people aren't even following their own incentives, ultimately. If everyone dies, they die too.

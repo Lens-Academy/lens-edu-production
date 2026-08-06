@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 Throughout the book, we've laid out our case for the claim that rushing ahead on AI is likely to get us all killed. In Chapter 3, we discussed how AI will have its own drives and goals. In Chapters 4 and 5, we discussed why AI is likely to pursue ends that nobody intended, and in Chapter 6, we spelled out how machine superintelligences will have not just a motive but a *means* to kill us all.
@@ -38,6 +45,6 @@ If you want to figure out whether the dangers are real, you have to ask question
 
 [1] *a different thing when testifying:* OpenAI CEO Sam Altman [wrote in 2015](https://blog.samaltman.com/machine-intelligence-part-1):
 
-> Development of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.  There are other threats that I think are more certain to happen (for example, an engineered virus with a long incubation period and a high mortality rate) but are unlikely to destroy every human in the universe in the way that SMI could.  
+> Development of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.  There are other threats that I think are more certain to happen (for example, an engineered virus with a long incubation period and a high mortality rate) but are unlikely to destroy every human in the universe in the way that SMI could.
 
 When [addressing Congress](https://www.judiciary.senate.gov/imo/media/doc/2023-05-16%20-%20Bio%20&%20Testimony%20-%20Altman.pdf) in 2023, however, Altman made no mention of this threat, instead listing Privacy, Children's Safety, Accuracy, Disinformation, Cybersecurity, and Economic Impacts as possible areas of concern.

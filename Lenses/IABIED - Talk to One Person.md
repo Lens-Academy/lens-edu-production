@@ -5,10 +5,13 @@ tldr: "You don't fully know what you think about AI risk until you've explained 
 summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a cheerleader."
 authors:
   - Elias+Claude
----
+{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503018540}@@add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
+++}---
 #### Text
 content::
 **Your action plan, step 2: leave the building**
+
 Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
@@ -19,6 +22,7 @@ Three reasons this is worth your time:
 #### Question
 content::
 **Phase 1: Pick your person**
+
 Take 2 minutes. Who will you talk to this week? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
@@ -26,7 +30,7 @@ Take 2 minutes. Who will you talk to this week? Write down:
 
 assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after reading Chapters 1-11 of "If Anyone Builds It, Everyone Dies".
 
-Your role: a brief, honest coach, not a cheerleader.
+Your role: a brief, honest coach, not a cheerleader.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503019231}@@ Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.++}
 
 Response length: 60-120 words. Short paragraphs. No lists.
 
@@ -40,6 +44,7 @@ Response style:
 id:: 17a55209-deab-48c8-afb0-fc522722fe8f
 content::
 **Phase 2: Rehearse it**
+
 Practice the conversation before you have it. The tutor will play the person you just described. Start the way you actually would: over coffee, on a walk, in the group chat. Get to the dreaded sentence and past it.
 user-customizable:: false
 opening-message:: Hey! You said you wanted to tell me about that book you've been reading?
@@ -56,6 +61,7 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 #### Text
 content::
 **Phase 3: Have it for real**
+
 Sometime this week, have the conversation. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
@@ -68,6 +74,7 @@ You'll be asked how it went at next week's meeting. An awkward five minutes coun
 #### Question
 content::
 **Phase 4: Commit**
+
 Write it down, for your future self:
 - Who, and when this week
 - Your opening line, word for word

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 Over the years, we've seen many arguments for rushing ahead to build superintelligence. One of the most common is that a superintelligent AI would surely have human-like emotions and desires. These sorts of arguments come in many forms, such as:
 
 - Sufficiently smart AIs would surely be *conscious*, like humans are.

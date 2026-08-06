@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Lack of expert consensus is a sign of an immature technical field.
 
 We've noted that many senior AI scientists think that this technology has a serious chance of killing all humans. For example, Nobel laureate Geoffrey Hinton, who played a large role in pioneering the modern approach to AI, has said that his independent personal assessment puts the odds of AI killing us all at [greater than 50 percent](https://youtu.be/PTF5Up1hMhw?feature=shared&t=2376). More than 300 AI scientists signed the 2023 [Statement of AI Risk](https://aistatement.com/) that we opened the book with.[\*](#ftnt281)

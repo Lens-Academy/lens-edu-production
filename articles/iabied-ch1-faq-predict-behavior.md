@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### In some respects, but not in every respect.
 
 Stockfish 17 is better at steering a chessboard than we are. If we played a chess match against Stockfish, we would not be able to predict its moves — doing so would require us to be at least as good at chess as Stockfish 17. But it would be easy for us to predict the winner of the match.[\*](#ftnt23) It's hard to predict what moves Stockfish will make; it's easy to predict that it will *win.*

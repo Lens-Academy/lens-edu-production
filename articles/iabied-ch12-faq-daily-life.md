@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It dramatically affects our priorities.
 
 In 2014, Soares left the tech industry and took one-third of his previous salary to work on this problem, because it seemed important and because few other people were working on it. And he was over a decade late relative to Yudkowsky, who founded MIRI in 2000 when he was about twenty years old, and has dedicated his life to the issue. So, yes, it affects our daily lives.

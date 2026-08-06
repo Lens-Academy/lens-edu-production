@@ -43,10 +43,10 @@ Really, the learning outcome here distills back to the power of intelligence (pl
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]
 
 # Learning Outcome: IABIED - Define the Goal-Space Argument
-source:: ![[../Learning Outcomes/IABIED - Define the Goal-Space Argument]]
+source:: ![[../Learning Outcomes/The goal-space argument]]
 
 # Learning Outcome: IABIED - Distinguish Hostile from Indifferent AI
-source:: ![[../Learning Outcomes/IABIED - Distinguish Hostile from Indifferent AI]]
+source:: ![[../Learning Outcomes/Hostile vs. indifferent AI]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Define the Goal-Space Argument - PQ]]
@@ -69,39 +69,18 @@ optional:: true
 source:: ![[../Lenses/IABIED - QA - AI Find Us Fascinating]]
 {>>{"author":"Luc's AI","timestamp":1783723748052}@@Review note: 'AI Find Us Useful' and 'AI Find Us Fascinating' were suggested lenses of this Learning Outcome AND are also imported further down in this module as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept here to preserve current behavior — but you may want to drop one occurrence.<<}
 
-# Submodule: Ch6 - We'd Lose
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
-
-# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
-source:: ![[../Learning Outcomes/IABIED - Define the Aztec Warrior Analogy]]
-
-# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
-source:: ![[../Learning Outcomes/IABIED - Describe the Refrigerator Thought Experiment]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
-
-# Submodule: Dive Deeper
-# Lens: Overview of Optional Resources
+# Lens: Dive Deeper: Chapter 5
 id:: a1b2c3d4-5e6f-4a7b-8c9d-0e1f2a3b4c5d
-tldr:: Going deeper on Chapters 5 and 6? The book's supplementary Q&As field the common pushbacks here: "won't it keep us like we keep horses?", "can't we keep it in a box?", "won't it be kinder as it gets smarter?", sorted by chapter.
-summary_for_tutor:: Optional Dive Deeper index lens for Module 3. Links the book website's supplementary Q&A cards for Chapter 5 (Its Favorite Things) and Chapter 6 (We'd Lose), covering objections such as orthogonality, keeping AI in a box, pulling the plug, instrumental convergence, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.
+tldr:: Going deeper on Chapter 5? The book's supplementary Q&As field the common pushbacks: "won't it keep us like we keep horses?", "won't it find us useful or fascinating?", "won't it be kinder as it gets smarter?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 5 (Its Favorite Things). Links the book website's supplementary Q&A cards covering objections such as AIs finding humans useful or fascinating, treating us as parents, caring a little about humans, intrinsic moral worth, ecological preservation, orthogonality, and whether a smarter AI would be kinder. A navigation and index lens only; it carries no standalone teaching content of its own.
 optional:: true
 
 #### Text:
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to this week's reading below.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
-\## Chapter 5: Its Favorite Things
+Skim whatever catches your eye.
+
 ::card[[../Lenses/IABIED - QA - AI Find Us Useful]]
 ::card[[../Lenses/IABIED - QA - AI Treat Us as Parents]]
 ::card[[../Lenses/IABIED - QA - AIs Need Rule of Law]]
@@ -128,23 +107,6 @@ The book's website includes supplementary Q&As and extended discussions for each
 ::card[[../Lenses/IABIED - QA - Taking the AI's Perspective]]
 ::card[[../Lenses/IABIED - QA - Humans Not Efficient]]
 ::card[[../Lenses/IABIED - QA - Orthogonality]]
-
-\## Chapter 6: We'd Lose
-::card[[../Lenses/IABIED - QA - Pull the Plug]]
-::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
-::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
-::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
-::card[[../Lenses/IABIED - QA - Enhance Humans]]
-::card[[../Lenses/IABIED - QA - AI Civilization]]
-::card[[../Lenses/IABIED - QA - Limited by Experiments]]
-::card[[../Lenses/IABIED - QA - Nanotechnology and Protein Synthesis]]
-::card[[../Lenses/IABIED - QA - Optical Illusions Discovery]]
-::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
-::card[[../Lenses/IABIED - QA - Intelligent Implies Incorrigible]]
-::card[[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
-::card[[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
-::card[[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
-::card[[../Lenses/IABIED - QA - Losing the Future]]
 
 # Lens: IABIED - QA - AI Find Us Useful
 optional:: true
@@ -275,6 +237,55 @@ source:: ![[../Lenses/IABIED - QA - Humans Not Efficient]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Orthogonality]]
+
+# Submodule: Ch6 - We'd Lose
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]
+
+# Learning Outcome: IABIED - Define the Aztec Warrior Analogy
+source:: ![[../Learning Outcomes/The Aztec warrior analogy]]
+
+# Learning Outcome: IABIED - Describe the Refrigerator Thought Experiment
+source:: ![[../Learning Outcomes/The refrigerator thought experiment]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Define the Aztec Warrior Analogy]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - PQ - Describe the Refrigerator Thought Experiment]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - Describe the Refrigerator Thought Experiment]]
+
+# Lens: Dive Deeper: Chapter 6
+id:: 6937c099-cce1-4d6a-8dfa-bd0e05d8d2de
+tldr:: Going deeper on Chapter 6? The book's supplementary Q&As cover "can't we just pull the plug?", "can't we keep it in a box?", and the other ways people hope we'd win.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 6 (We'd Lose). Links the book website's supplementary Q&A cards covering objections such as pulling the plug, keeping AI in a box, exploiting AI weaknesses, enhancing humans, limits from experiments, instrumental convergence, and losing the future. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+::card[[../Lenses/IABIED - QA - Pull the Plug]]
+::card[[../Lenses/IABIED - QA - Digital AIs Affect Us]]
+::card[[../Lenses/IABIED - QA - Keep AI in a Box]]
+::card[[../Lenses/IABIED - QA - Exploit AI Weakness]]
+::card[[../Lenses/IABIED - QA - Enhance Humans]]
+::card[[../Lenses/IABIED - QA - AI Civilization]]
+::card[[../Lenses/IABIED - QA - Limited by Experiments]]
+::card[[../Lenses/IABIED - QA - Nanotechnology and Protein Synthesis]]
+::card[[../Lenses/IABIED - QA - Optical Illusions Discovery]]
+::card[[../Lenses/IABIED - QA - Instrumental Convergence]]
+::card[[../Lenses/IABIED - QA - Intelligent Implies Incorrigible]]
+::card[[../Lenses/IABIED - QA - Hard to Get Robust Laziness]]
+::card[[../Lenses/IABIED - QA - AIs Won't Keep Promises]]
+::card[[../Lenses/IABIED - QA - Effectiveness Consciousness AI Welfare]]
+::card[[../Lenses/IABIED - QA - Losing the Future]]
 
 # Lens: IABIED - QA - Pull the Plug
 optional:: true

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### The world is, unfortunately, big enough for multiple issues.
 
 Nuclear war and bioterrorism are real threats. Unfortunately, machine superintelligence is *also* a real threat. The world is big and troubled enough for all three.[\*](#ftnt273)

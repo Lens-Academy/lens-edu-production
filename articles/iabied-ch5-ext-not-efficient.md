@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We noted the [example](/5/taking-the-ais-perspective) of Jürgen Schmidhuber, a pioneering AI researcher who believed that an AI with preferences for *making things as simple as possible* would end up loving humans, because humans are such good simplifiers.
 
 In our experience, this is a remarkably common kind of mistake. "Well, the AI will probably end up with aesthetic preferences. And humans make art! So the AI will want to keep us around to make art."

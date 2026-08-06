@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### More on Making AI That Is "Truth-Seeking"
 
 In the months after we finalized the book's contents, Elon Musk's "truth-seeking" plan for xAI has already publicly misfired, and for the most basic reason we said that it would: Nobody knows how to engineer exact desires into AI.

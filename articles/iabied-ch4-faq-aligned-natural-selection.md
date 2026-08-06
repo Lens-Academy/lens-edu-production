@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### With more technology, we'd likely make even fewer copies of our genes.
 
 Humans jockey for prestigious promotions and Ivy League admissions far more than they jockey for opportunities to donate to sperm or egg banks.

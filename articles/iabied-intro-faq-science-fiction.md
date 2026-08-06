@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We can't learn much from a topic's prevalence in fiction.
 
 Smarter-than-human AI hasn't been built yet, but it has been depicted in fiction. We recommend against anchoring on these depictions, however. Real AI probably won't be much like fictional AI, for reasons we'll dive into in Chapter 4.

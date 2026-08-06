@@ -11,14 +11,21 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 > Autonomous AI systems (Agent AIs) trained using [reinforcement learning](https://en.wikipedia.org/wiki/Reinforcement_learning "Reinforcement learning") can do harm when they take wrong actions, especially superintelligent Agent AIs. One solution would be to eliminate their agency by not giving AIs the ability to take actions, confining them to purely informational or inferential tasks such as classification or prediction (Tool AIs), and have all actions be approved & executed by humans, giving equivalently superintelligent results without the risk.
-> 
+>
 > I argue that this is not an effective solution for two major reasons. First, because Agent AIs will by definition be better at _actions_ than Tool AIs, giving an economic advantage. Secondly, because Agent AIs will be better at _inference & learning_ than Tool AIs, and this is inherently due to their greater agency: the same algorithms which learn how to perform actions can be used to select important datapoints to learn inference over, how long to learn, how to more efficiently execute inference, how to design themselves, how to optimize hyperparameters, how to make use of external resources such as long-term memories or external software or large databases or the Internet, and how best to acquire new data.
-> 
+>
 > RL is a terrible way to learn anything complex from scratch, but it is the least bad way to learn how to control something complex—and the world is full of complex systems we want to control, including AIs themselves.
-> 
+>
 > All of these actions will result in Agent AIs more intelligent than Tool AIs, in addition to their greater economic competitiveness. Thus, Tool AIs will be inferior to Agent AIs in both actions and intelligence, implying use of Tool AIs is an even more highly unstable equilibrium than previously argued, as users of Agent AIs will be able to outcompete them on two dimensions (and not just one).
-> 
+>
 > That is: “tool AIs want to be agent AIs”. (And agent AIs want more agency.)
 
 One proposed solution to AI risk is to suggest that AIs could be limited purely to supervised/unsupervised learning, and not given access to any sort of capability that can directly affect the outside world such as robotic arms. In this framework, AIs are treated purely as mathematical functions mapping data to an output such as a classification probability, similar to a logistic or linear model but far more complex; most deep learning neural networks like ImageNet image classification convolutional neural networks (CNN)s would qualify. The gains from AI then come from training the AI and then asking it many questions which humans then review & implement in the real world as desired. So an AI might be trained on a large dataset of chemical structures labeled by whether they turned out to be a useful drug in humans and asked to classify new chemical structures as useful or non-useful; then doctors would run the actual medical trials on the drug candidates and decide whether to use them in patients etc. Or an AI might look like [Google Maps](https://en.wikipedia.org/wiki/Google_Maps "Google Maps") / [Waze](https://en.wikipedia.org/wiki/Waze "Waze"): it answers your questions about how best to drive places better than any human could, but it does not control any traffic lights country-wide to optimize traffic flows nor will it run a self-driving car to get you there. This theoretically avoids any possible runaway of AIs into malignant or uncaring actors who harm humanity by satisfying dangerous utility functions and developing instrumental drives. After all, if they can’t take any actions, how can they do anything that humans do not approve of?
@@ -26,44 +33,44 @@ One proposed solution to AI risk is to suggest that AIs could be limited purely 
 Two variations on this limiting or boxing theme are
 
 1.  [Oracle AI](https://www.lesswrong.com/tag/oracle-ai "Oracle AI"): [Nick Bostrom](https://en.wikipedia.org/wiki/Nick_Bostrom "Nick Bostrom"), in [_Superintelligence_ (2014 12ya)](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies "Superintelligence: Paths, Dangers, Strategies") (pg145–158) notes that while they can be easily ‘boxed’ and in some cases like P/NP problems the answers can be cheaply checked or random subsets expensively verified, there are several issues with oracle AIs:
-    
+
     -   the AI’s definition of ‘resources’ or ‘staying inside the box’ can change as it learns more about the world (ontological crises)
-        
+
     -   responses might manipulate users into asking easy (and useless problems)
-        
+
     -   making changes in the world can make it easier to answer questions about, by simplifying or controlling it (“All processes that are stable we shall predict. All processes that are unstable we shall control.”)
-        
+
     -   even a successfully boxed and safe oracle or tool AI can be misused [^1]
-        
+
 2.  [Tool AI](https://www.lesswrong.com/tag/tool-ai "Tool AI") (the idea, as “tool mode” or “tool AGI”, was apparently introduced by Holden Karnofsky in a July 2011 15ya discussion of a [May 2011 15ya discussion with Jaan Tallinn](https://gwern.net/doc/existential-risk/2011-05-10-givewell-holdenkarnofskyjaantallinn.doc "http://xa.yimg.com/kq/groups/23070378/1331435883/name/Jaan+Tallinn+2011+05+-+revised.doc") & elaborated on in [a May 2013 13ya essay](https://www.lesswrong.com/posts/6SGqkCgHuNr7d4yJm/thoughts-on-the-singularity-institute-si "Thoughts on the Singularity Institute (SI)"), but the idea has probably been proposed before). To quote Karnofsky:
-    
+
     > Google Maps—by which I mean the complete software package including the display of the map itself—does not have a “utility” that it seeks to maximize. (One could fit an utility function to its actions, as to any set of actions, but there is no single “parameter to be maximized” driving its operations.)
-    > 
+    >
     > Google Maps (as I understand it) considers multiple possible routes, gives each a score based on factors such as distance and likely traffic, and then displays the best-scoring route in a way that makes it easily understood by the user. If I don’t like the route, for whatever reason, I can change some parameters and consider a different route. If I like the route, I can print it out or email it to a friend or send it to my phone’s navigation application. Google Maps has no single parameter it is trying to maximize; it has no reason to try to “trick” me in order to increase its utility. In short, Google Maps is not an _agent_, taking actions in order to maximize an utility parameter. It is a _tool_, generating information and then displaying it in a user-friendly manner for me to consider, use and export or discard as I wish.
-    > 
+    >
     > Every software application I know of seems to work essentially the same way, including those that involve (specialized) artificial intelligence such as Google Search, Siri, Watson, Rybka, etc. Some can be put into an “agent mode” (as Watson was on _Jeopardy_) but all can easily be set up to be used as “tools” (for example, Watson can simply display its top candidate answers to a question, with the score for each, without speaking any of them.)…Tool-AGI is not “trapped” and it is not Unfriendly or Friendly; it has no motivations and no driving utility function of any kind, just like Google Maps. It scores different possibilities and displays its conclusions in a transparent and user-friendly manner, as its instructions say to do; it does not have an overarching “want,” and so, as with the specialized AIs described above, while it may sometimes “misinterpret” a question (thereby scoring options poorly and ranking the wrong one #1) there is no reason to expect intentional trickery or manipulation when it comes to displaying its results.
-    > 
+    >
     > …Another way of putting this is that a “tool” has an underlying instruction set that conceptually looks like: “(1) Calculate which action A would maximize parameter P, based on existing data set D. (2) Summarize this calculation in a user-friendly manner, including what Action A is, what likely intermediate outcomes it would cause, what other actions would result in high values of P, etc.” An “agent,” by contrast, has an underlying instruction set that conceptually looks like: “(1) Calculate which action, A, would maximize parameter P, based on existing data set D. (2) Execute Action A.” In any AI where (1) is separable (by the programmers) as a distinct step, (2) can be set to the “tool” version rather than the “agent” version, and this separability is in fact present with most/all modern software. Note that in the “tool” version, neither step (1) nor step (2) (nor the combination) constitutes an instruction to maximize a parameter—to describe a program of this kind as “wanting” something is a category error, and there is no reason to expect its step (2) to be deceptive…This is important because _an AGI running in tool mode could be extraordinarily useful but far more safe than an AGI running in agent mode._ In fact, if developing “Friendly AI” is what we seek, a tool-AGI could likely be helpful enough in thinking through this problem as to render any previous work on “Friendliness theory” moot.
-    > 
+    >
     > …Is a tool-AGI possible? I believe that it is, and furthermore that it ought to be our default picture of how AGI will work
-    
+
     There are similar general issues with Tool AIs as with Oracle AIs:
-    
+
     -   a human checking each result is no guarantee of safety; even Homer nods. A extremely dangerous or subtly dangerous answer might slip through; [Stuart Armstrong](https://www.lesswrong.com/posts/nAwTGhgrdxE85Bjmg/tools-versus-agents "Tools versus agents") notes that the summary may simply not mention the important (to humans) downside to a suggestion, or frame it in the most attractive light possible. The more a Tool AI is used, or trusted by users, the less checking will be done of its answers before the user mindlessly implements it.[^2]
-        
+
     -   an intelligent, never mind superintelligent Tool AI, will have built-in search processes and planners which may be quite intelligent themselves, and in ‘planning how to plan’, discover dangerous instrumental drives and the sub-planning process execute them.[^3]
-        
+
         (This struck me as mostly theoretical until I saw how well [GPT-3](https://gwern.net/gpt-3 "'GPT-3 Creative Fiction', Gwern 2020") could roleplay & imitate agents purely by offline self-supervised prediction on large text databases—imitation learning is (batch) reinforcement learning too! See [Decision Transformer](https://gwern.net/doc/www/sites.google.com/6d52698eb87380d0a5f8db5680fd2cf2bf7a1cc9.html "'Decision Transformer: Reinforcement Learning via Sequence Modeling', Chen et al 2021") for an explicit use of this.)
-        
+
     -   developing a Tool AI in the first place might require another AI, which itself is dangerous
-        
+
 
 Oracle AIs remain mostly hypothetical because it’s unclear how to write such utility functions. The second approach, Tool AI, is just an extrapolation of current systems but has two major problems aside from the already identified ones which cast doubt on Karnofsky’s claims that Tool AIs would be “extraordinarily useful” & that we should expect future AGIs to resemble Tool AIs rather than Agent AIs.
 
 ## Economic
 
 > We wish a slave to be intelligent, to be able to assist us in the carrying out of our tasks. However, we also wish him to be subservient. Complete subservience and complete intelligence do not go together.
-> 
+>
 > [Norbert Wiener 1960](https://gwern.net/doc/reinforcement-learning/safe/1960-wiener.pdf "‘Some Moral and Technical Consequences of Automation: As machines learn they may develop unforeseen strategies at rates that baffle their programmers’, Wiener 1960")
 
 First and most commonly pointed out, agent AIs are more economically competitive as they can replace tool AIs (as in the case of YouTube upgrading from [next-video prediction](https://gwern.net/doc/ai/nn/retrieval/2016-covington.pdf#google "'Deep Neural Networks for YouTube Recommendations', Covington et al 2018") to [REINFORCE](https://gwern.net/doc/www/arxiv.org/873820f4e7887fb2819c05a9e88ac2306e2bb9af.pdf#google "'Top-𝑘 Off-Policy Correction for a REINFORCE Recommender System', Chen et al 2018") [^4]) or ‘humans in the loop’.[^5] In any sort of process, [Amdahl’s law](https://en.wikipedia.org/wiki/Amdahl%27s_law "Amdahl’s law") notes that as steps get optimized, the optimization does less and less as the output becomes dominated by the slowest step—if a step only takes 10% of the time or resources, then even infinite optimization of that step down to zero time/resources means that the output will increase by no more than 10%. So if a human overseeing a, say, [high-frequency trading](https://en.wikipedia.org/wiki/High-frequency_trading "High-frequency trading") (HFT) algorithm, accounts for 50% of the latency in decisions, then the HFT algorithm will never run more than twice as fast as it does now, which is a crippling disadvantage. (Hence, the [Knight Capital](https://en.wikipedia.org/wiki/Knight_Capital_Group#2012_stock_trading_disruption "Knight Capital Group § 2012 stock trading disruption") debacle is not too surprising—no profitable HFT firm could afford to put too many humans into its loops, so when something does go wrong, it can be difficult for humans to figure out the problem & intervene before the losses mount.) As the AI gets better, the gain from replacing the human increases greatly, and may well justify replacing them with an AI inferior in many other respects but superior in some key aspect like cost or speed. This could also apply to error rates—in airline accidents, human error now causes the overwhelming majority of accidents due to their presence as overseers of the [autopilots](https://en.wikipedia.org/wiki/Autopilot "Autopilot") and it’s unclear that a human pilot represents a net safety gain; [and in ‘advanced chess’](https://gwern.net/note/note#advanced-chess-obituary), grandmasters initially chose most moves and used the chess AI for checking for tactical errors and blunders, which transitioned through the late ‘90s and early ’00s to human players (not even grandmasters) turning over most playing to the chess AI but contributing a great deal of win performance by picking & choosing which of several AI-suggested moves to use, but as the chess AIs improved, at some point around 2007 19ya victories increasingly came from the _humans_ making mistakes which the opposing chess AI could exploit, even mistakes as trivial as ’misclicks’ (on the computer screen), and now in advanced chess, human contribution has decreased to largely preparing the chess AIs’ opening books & looking for novel opening moves which their chess AI can be better prepared for.
@@ -77,7 +84,7 @@ So for this reason alone, we expect to see Agent AIs to systematically be prefer
 ## Intelligence
 
 > They passed a steam engine, and [Wordsworth](https://en.wikipedia.org/wiki/William_Wordsworth "William Wordsworth") made some observation to the effect that it was scarcely possible to divest oneself of the impression on seeing it that it had life and volition. ‘Yes’, replied [Coleridge](https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge "Samuel Taylor Coleridge"), ‘it is a giant with one idea.’
-> 
+>
 > Diary of Lady Richardson [^6]
 
 Why will people choose agents? Agent AIs will be chosen over Tool AIs because agents are what users want, lack of agency is something that will be penalized in competitive scenarios such as free markets or military uses, and because people will differ on preferences and some will inevitably choose to use agents.
@@ -103,45 +110,45 @@ The wide variety of uses of action is a major theme in recent work in AI (specif
 Roughly, we can try to categorize the different kinds of agentiness by the ‘level’ of the NN they work on. There are:
 
 1.  actions internal to a computation:
-    
+
     -   inputs
-        
+
     -   intermediate states
-        
+
     -   accessing the external ‘environment’
-        
+
     -   amount of computation
-        
+
     -   enforcing constraints/finetuning quality of output
-        
+
     -   changing the loss function applied to output
-        
+
 2.  actions internal to training the NN:
-    
+
     -   the gradient itself
-        
+
     -   size & direction of gradient descent steps on each parameter
-        
+
     -   overall gradient descent learning rate and learning rate schedule
-        
+
     -   choice of data samples to train on
-        
+
 3.  internal to the dataset
-    
+
     -   active learning
-        
+
     -   optimal experiment design
-        
+
 4.  internal to the NN design step
-    
+
     -   hyperparameter optimization
-        
+
     -   NN architecture
-        
+
 5.  internal to interaction with environment
-    
+
     -   adaptive experiment / multi-armed bandit / exploration for reinforcement learning
-        
+
 
 ### Actions Internal to a Computation
 
@@ -156,39 +163,39 @@ Extending attention, a NN can choose not just which parts of an input to look at
 Attention generally doesn’t change the nature of the computation aside from the necessity of actions over the input, but actions can be used to bring in different computing paradigms. For example, the entire field of [“differentiable neural computer”](https://gwern.net/doc/www/deepmind.google/b0c1e94edd4149ca423cc8b7783ef9192c63eafc.html "Differentiable neural computers") /“neural Turing machines” ([Zaremba & Sutskever 2015](https://gwern.net/doc/www/arxiv.org/6452068d1ac6645a580b67df6585da752cf66301.pdf "Reinforcement learning neural Turing machines"), [Graves et al 2016b](https://gwern.net/doc/reinforcement-learning/model-free/2016-graves.pdf#deepmind "Hybrid computing using a neural network with dynamic external memory")) or “neural stack machines” or “neural GPUs” or most designs with some sort of scalable external memory mechanism larger than LSTMs ([Rae et al 2016](https://gwern.net/doc/www/arxiv.org/19b07628379e61e3e327af30dabdaaca148ffa2f.pdf#deepmind "Scaling Memory-Augmented Neural Networks with Sparse Reads and Writes")) depends on figuring out a clever way to backpropagate through the action of memory accesses or using reinforcement learning techniques like [REINFORCE](https://gwern.net/doc/reinforcement-learning/model-free/1992-williams.pdf "'Simple statistical gradient-following algorithms for connectionist reinforcement learning', Williams 1992") for training the non-differentiable actions. And such a memory is like a database which is constructed on the fly per-problem, so it’ll help with database queries & information retrieval & knowledge graphs ([Narasimhan et al 2016](https://gwern.net/doc/www/arxiv.org/a17d7df32379441da416e9411b33461aca588bf1.pdf "Improving Information Extraction by Acquiring External Evidence with Reinforcement Learning"), [Seo et al 2016](https://gwern.net/doc/www/arxiv.org/e688f08bb89dbff4bd9023b493074038ff8447db.pdf "Bidirectional Attention Flow for Machine Comprehension"), [Bachman et al 2016](https://gwern.net/doc/www/arxiv.org/68d592cc43dab047a30a4bda8ea06c883b09bbeb.pdf "Towards Information-Seeking Agents"), [Buck et al 2017](https://gwern.net/doc/www/arxiv.org/0d60609401b0cf4756bf8c2da81ea0a8ed7f85a1.pdf "Ask the Right Questions: Active Question Reformulation with Reinforcement Learning"), [Yang et al 2017](https://gwern.net/doc/www/arxiv.org/72f30b69cfe9976187de87c969b0b196d49df429.pdf "Learning to Organize Knowledge with N-Gram Machines"), [Hadash et al 2018](https://gwern.net/doc/www/arxiv.org/f94631c161851a492cfc8f31f0d1ffa8e37e65eb.pdf#ibm "Estimate and Replace: A Novel Approach to Integrating Deep Neural Networks with Existing Applications")). An intriguing variant on this idea of ‘querying’ resources is mixture-of-experts ([committee machine](https://en.wikipedia.org/wiki/Committee_machine "Committee machine")) NN architectures ([Shazeer et al 2016](https://gwern.net/doc/www/arxiv.org/e2abb4a2655ea83270ac85d46cef6ec25167d7e9.pdf#google "Outrageously large neural networks: the sparsely-gated mixture-of-experts layer")). [Jeff Dean](https://en.wikipedia.org/wiki/Jeff_Dean "Jeff Dean") (Google Brain) asks where should we use RL techniques in our OSes, networks, and computations these days and answers: [everywhere](https://gwern.net/doc/www/learningsys.org/0853a10e3f31855199245669a3a6b9afb13ade6c.pdf "'Machine Learning for Systems and Systems for Machine Learning', Dean 2017 slides") ([Haj-Ali et al 2019](https://gwern.net/doc/www/arxiv.org/79740a58b4685d002cd940b0c60c87e45f83dec2.pdf "Deep Reinforcement Learning in System Optimization") review). RL should be used for: program placement on servers ([Mirhoseini et al 2017](https://gwern.net/doc/www/arxiv.org/d7cd5e2d703d3e5b64247a32f24fe96f8cb9a958.pdf#google "Device Placement Optimization with Reinforcement Learning") / [Mirhoseini et al 2018](https://gwern.net/doc/www/pdfs.semanticscholar.org/0494f682eb66a01479380edc9775e9b5d38cba6d.pdf "A Hierarchical Model for Device Placement")), [B-tree indexes](https://gwern.net/doc/www/arxiv.org/6a0f57b7ded2547af49c33ce0a2874dbfc1316c3.pdf "'The Case for Learned Index Structures', Kraska et al 2017") / [Bloom filters](https://gwern.net/doc/www/proceedings.mlr.press/ffc205d2c6c2a415641f822e0c909bd847352e99.pdf "'Meta-Learning Neural Bloom Filters', Rae et al 2019") for [databases](https://gwern.net/doc/www/www.cidrdb.org/712c806cece00b3dcf66e0b49f0dd0d6bc924771.pdf "'SageDB: A Learned Database System', Kraska et al 2019"), [graph partitioning](https://gwern.net/doc/www/arxiv.org/34359d47aaee3d8109e006dfcebb7bf6b18c5975.pdf#google "'GAP: Generalizable Approximate Graph Partitioning Framework', Nazi et al 2019"), search query candidates ([Rosset et al 2018](https://gwern.net/doc/www/arxiv.org/d0d7e4ae561f25afdf77a9d1a9a069518cc50193.pdf "Optimizing Query Evaluations using Reinforcement Learning for Web Search"), [Nogueira et al 2018](https://gwern.net/doc/www/arxiv.org/c791c8d8333fc4cd5816433d6cd5d17c87bdd7cb.pdf "Learning to Coordinate Multiple Reinforcement Learning Agents for Diverse Query Reformulation")), compiler settings ([Haj-Ali et al 2019](https://gwern.net/doc/www/arxiv.org/1ded642838f7b6a9e3c92d552993bfa6caeb23df.pdf "AutoPhase: Compiler Phase-Ordering for High Level Synthesis with Deep Reinforcement Learning"), [Trofin et al 2022](https://gwern.net/doc/www/arxiv.org/98466f98010c0ea151a7aab53f846d2f2453612b.pdf#google "MLGO: a Machine Learning Guided Compiler Optimizations Framework")), quantum computer control ([Niu et al 2019](https://www.nature.com/articles/s41534-019-0141-3 "Universal quantum control through deep reinforcement learning")), YouTube [video compression codec](https://gwern.net/doc/www/arxiv.org/4ea550800daddb7d2b610cf9dce5c0ece6b0dd79.pdf#deepmind "'MuZero with Self-competition for Rate Control in VP9 Video Compression', Mandhane et al 2022") settings, datacenter & server cooling controllers… Dean asks “Where Else Could We Use Learning?”, and replies:
 
 > _Anywhere We’re Using Heuristics To Make a Decision!_
-> 
+>
 > -   Compilers: instruction scheduling, register allocation, loop nest parallelization strategies, …
->     
+>
 > -   [Networking](https://gwern.net/doc/www/arxiv.org/58a316c8d20c588ccbc77007e2b46e6501052b7e.pdf#nvidia "‘Reinforcement Learning for Datacenter Congestion Control’, Tessler et al 2021"): TCP window size decisions, backoff for retransmits, data compression, …
->     
+>
 > -   Operating systems: process scheduling, buffer cache insertion/replacement \[eg. [Lagar-Cavilla et al 2019](https://lagarcavilla.org/publications/LagarCavillaASPLOS2019.pdf "Software-Defined Far Memory in Warehouse-Scale Computers") for [compressed RAM](https://en.wikipedia.org/wiki/Virtual_memory_compression "Virtual memory compression")\], file system prefetching \[eg. [Hashemi et al 2018](https://gwern.net/doc/www/arxiv.org/37166b9e4bf7e4019e8a956e73629fc4edaff8d5.pdf "Learning Memory Access Patterns"), memory allocation ([Maas et al 2020](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/cb7b7a938ac6d313a2b5f07612093b5c52093f51.pdf#google "Learning-based Memory Allocation for C++ Server Workloads"))\], …
->     
+>
 > -   Job scheduling systems: which tasks/VMs to co-locate on same machine, which tasks to pre-empt, … \[eg. [Chen & Tian 2018](https://gwern.net/doc/www/arxiv.org/cbd807adec326301fa6af8e1cdd54e2fd77aac4f.pdf "Automatic Local Rewriting for Combinatorial Optimization"), and [mixed integer programming](https://en.wikipedia.org/wiki/Linear_programming#Integer_unknowns "Linear programming § Integer unknowns") for planning of all sorts ([Nair et al 2020](https://gwern.net/doc/www/arxiv.org/9e0ffaefd6959c9fb4c99a9db7b38e487bb76984.pdf#deepmind "Solving Mixed Integer Programs Using Neural Networks") / [Sonnerat et al 2021](https://gwern.net/doc/www/arxiv.org/d4536b89621c6fcf15f9bdb318863c991efd08cf.pdf#deepmind "Learning a Large Neighborhood Search Algorithm for Mixed Integer Programs"))\]
->     
+>
 > -   ASIC design: [physical circuit](https://gwern.net/doc/www/arxiv.org/aa1b1f3a4e2aad423f32d57e9b4b0c388f2d2d00.pdf#google "'Placement Optimization with Deep Reinforcement Learning', Goldie & Mirhoseini 2020") [placement](https://gwern.net/doc/www/arxiv.org/9bdf8b3cf13d3cbbc5b8bc85f91f96b34303c4a9.pdf#google "'Chip Placement with Deep Reinforcement Learning', Mirhoseini et al 2020"), \[[TPU design](https://gwern.net/doc/www/arxiv.org/23400d7471750da67632489d586c76662b0f2e94.pdf#google "'A Full-stack Accelerator Search Technique for Vision Applications', Zhang et al 2021"),\] test case selection, …
->     
-> 
+>
+>
 > _Anywhere We’ve Punted to a User-Tunable Performance Option!_ Many programs have huge numbers of tunable command-line flags, usually not changed from their defaults (`--eventmanager_threads=16 --bigtable_scheduler_batch_size=8 --mapreduce_merge_memory=134217728` `--lexicon_cache_size=1048576 --storage_server_rpc_freelist_size=128` …)
-> 
+>
 > _Meta-learn everything_. ML:
-> 
+>
 > -   learning placement decisions
->     
+>
 > -   learning fast kernel implementations
->     
+>
 > -   learning optimization update rules
->     
+>
 > -   learning input preprocessing pipeline steps
->     
+>
 > -   learning activation functions
->     
+>
 > -   learning model architectures for specific device types, or that are fast for inference on mobile device X, learning which pre-trained components to reuse, …
->     
-> 
+>
+>
 > Computer architecture/datacenter networking design:
-> 
+>
 > -   learning best design properties by exploring design space automatically (via simulator) \[see [Dean 2019](https://gwern.net/doc/www/arxiv.org/d70bf21285239ebdb99fbd35dcb730cbcc62d33b.pdf#google "The Deep Learning Revolution and Its Implications for Computer Architecture and Chip Design")\]
->     
+>
 
 Finally, one interesting variant on this theme is treating an inferential or generative problem as a reinforcement learning problem in a sort of environment with global rewards.
 
@@ -223,7 +230,7 @@ Active learning also connects back, from a machine learning perspective, to some
 ### Actions Internal to NN Design
 
 > I suspect that less than 10 years from now, all of the DL training/architecture tricks that came from the arXiv firehose over 2015 – 4 2019 will have been entirely superseded by automated search techniques. The future: no alchemy, just clean APIs, and quite a bit of compute.
-> 
+>
 > [François Chollet](https://gwern.net/doc/www/localhost/26e4889732cd985206096ecf31885f9156fda268.html "Chollet 2026"), 2019-01-7
 
 Moving on to more familiar territory, we have [hyperparameter optimization](https://en.wikipedia.org/wiki/Hyperparameter_optimization "Hyperparameter optimization") using random search or grid search or Bayesian [Gaussian processes](https://en.wikipedia.org/wiki/Gaussian_process "Gaussian process") to try training a possible NN, observe interim ([Swersky et al 2014](https://gwern.net/doc/www/arxiv.org/72e896bab134e8a2975d173e3caad90a078a365e.pdf "Freeze-Thaw Bayesian Optimization")) and final performance, and look for better hyperparameters.
@@ -267,49 +274,49 @@ Hence, being a secret agent is much better than being a tool.
 ## External Links
 
 -   Discussion:
-    
+
     -   [HN](https://gwern.net/doc/www/news.ycombinator.com/ffb71c6407d0e53fa34ca87bc72a15110d6702ff.html)
-        
+
     -   [Reddit](https://gwern.net/doc/www/old.reddit.com/9b214dbe4fb6fc775ce24e475e2985d361836c90.html)
-        
+
 -   [“Mesa-optimization: Risks from Learned Optimization: Introduction”](https://www.alignmentforum.org/posts/FkgsxrGf3QxhfLWHG/risks-from-learned-optimization-introduction "Risks from Learned Optimization: Introduction")
-    
+
 -   [“On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models”](https://gwern.net/doc/www/arxiv.org/b85a4e82b077f63433d9694332c2407e7e0f9e02.pdf "'On Learning to Think: Algorithmic Information Theory for Novel Combinations of Reinforcement Learning Controllers and Recurrent Neural World Models', Schmidhuber 2015"), Schmidhuber 2015 11ya; [“One Big Net for Everything”](https://gwern.net/doc/www/arxiv.org/2f1937f3dc1828a15a1c2e642fa2141efb6c7e5b.pdf "'One Big Net For Everything', Schmidhuber 2018"), Schmidhuber 2018
-    
+
 -   [_Reinforcement Learning: An Introduction_](http://www.incompleteideas.net/book/the-book-2nd.html "'Sutton & Barto Book: Reinforcement Learning: An Introduction', Sutton & Barto 2026"), Sutton & Barto
-    
+
 -   [RL subreddit](https://gwern.net/doc/www/old.reddit.com/4af39bdcabcf613916ab4b8077dc0f09e83c2b58.html "'Reddit: Reinforcement Learning subreddit', Reddit 2026")
-    
+
 -   [“Learning to Learn”](https://gwern.net/doc/www/bair.berkeley.edu/ce7951d18625981a9be05c9bfc1dfacf05a238ab.html), Finn
-    
+
 -   [“ _Ist künstliche Motivation gefährlich?_” \[“Is Artificial Motivation Dangerous?”\]](https://gwern.net/doc/www/hci.iwr.uni-heidelberg.de/3684da354c36d3e5274e36b41d76ad4da9196309.pdf), Schmitt 2017
-    
+
 -   [“Military AI as a Convergent Goal of Self-Improving AI”](https://philarchive.org/archive/TURMAA-6v2), Turchin 2017
-    
+
 -   [“Deep Reinforcement Learning Doesn’t Work Yet”](https://gwern.net/doc/www/www.alexirpan.com/a19996698840ebd637282255eccb6b41d6d3b754.html "Deep Reinforcement Learning Doesn’t Work Yet"), Alex Irpan
-    
+
 -   [“The Ethics of Reward Shaping”](https://archives.argmin.net/2018/04/16/ethical-rewards/ "The Ethics of Reward Shaping"), Ben Recht
-    
+
 -   [“Google AI Chief Jeff Dean’s ML System Architecture Blueprint”](https://gwern.net/doc/reinforcement-learning/2018-07-26-synced-googleaichiefjeffdeansmlsystemarchitectureblueprint.html): Training/Batch Size/Sparsity and Embeddings/Quantization and Distillation/Networks with Soft Memory/Learning to Learn (L2L)
-    
+
 -   [“Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale”](https://gwern.net/doc/www/engineering.fb.com/15231d2bd600174b109cb28f58dc48ca0781d8e0.html "Solving the Mystery of Link Imbalance: A Metastable Failure State at Scale"), Bronson 2014
-    
+
 -   [“Reflective Oracles: A Foundation for Classical Game Theory”](https://gwern.net/doc/www/arxiv.org/e819aa25f19f5338e344546415167f69e54b5e53.pdf "'Reflective Oracles: A Foundation for Classical Game Theory', Fallenstein et al 2015"), Fallenstein et al 2015
-    
+
 -   [“Reframing Superintelligence: Comprehensive AI Services as General Intelligence”](https://gwern.net/doc/www/www.fhi.ox.ac.uk/d733ad7706dd4ef4aa27e7c624ec58cf61c74a5c.pdf), Drexler 2019 (argues that despite the benefits of agency & increasing integration of systems with RL techniques, narrow-domain tool AI will nevertheless win out economically)
-    
+
 -   [“The Bitter Lesson”](http://www.incompleteideas.net/IncIdeas/BitterLesson.html "'The Bitter Lesson', Sutton 2019") of AI Research: Compute Beats Clever (Rich Sutton)
-    
+
 -   [“AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence”](https://gwern.net/doc/www/arxiv.org/8fea76b2ff6379b574b6f1eb348db27c7b0203f5.pdf#uber "'AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence', Clune 2019"), Clune 2019
-    
+
 -   [End-to-end principle](https://gwern.net/doc/cs/end-to-end-principle/index "‘end-to-end’ directory")
-    
+
 -   [“There’s plenty of room at the Top: What will drive computer performance after Moore’s law?”](https://gwern.net/doc/cs/hardware/2020-leiserson.pdf "'There’s plenty of room at the Top: What will drive computer performance after Moore’s law?', Leiserson et al 2020"), Leiserson et al 2020
-    
+
 -   [“Automation as Colonization Wave”](https://gwern.net/doc/economics/automation/index "‘tech economics’ directory")
-    
+
 -   [“Modeling the Human Trajectory”](https://www.openphilanthropy.org/research/modeling-the-human-trajectory/ "'Modeling the Human Trajectory', Roodman 2020") ([paper](https://gwern.net/doc/economics/automation/2020-roodman.pdf "Superexponential")), Roodman 2020
-    
+
 
 ## Bibliography
 

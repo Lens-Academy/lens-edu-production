@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Yes, in many cases.
 
 Humans have built an advanced technological civilization, and chimpanzees haven't. There seems to be *some* sense in which chimpanzees aren't "on our level," even though chimpanzees communicate with each other and use tools and have many impressive skills. So there's use in pointing at humans and saying "*that* level," even if there are some issues with using human intelligence as a yardstick.

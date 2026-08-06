@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Smart AIs Resist Having Their Goals Overwritten
 
 Even in the most optimistic case, developers shouldn't expect it to be possible to get an AI's goals exactly right on the first attempt. Instead, the most optimistic development scenarios look like iteratively improving an AI's preferences over time such that the AI is always aligned *enough* to be non-catastrophically dangerous at a given capability level.

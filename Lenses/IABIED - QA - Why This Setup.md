@@ -14,18 +14,8 @@ The authors of Part II chose a scenario set close to the present day, not becaus
 #### Article
 source:: [[../articles/iabied-ptii-faq-pick-setup]]
 
-#### Text
-content::
-What do you think? Does this address a concern you had, or raise new questions?
-
-#### Chat
-instructions::
-The student just read a supplementary Q&A from the book's website about why the authors chose this particular narrative setup for Part II's fictional scenario.
-
-TLDR: The authors picked a near-future, simplified scenario because it's more plausible and easier to write than a deeply strange realistic future, and because the specific story details matter less than the convergent endpoint.
-
-Discussion topics:
-- Does setting the story close to the present make the danger feel more immediate, or does it risk seeming implausible for different reasons?
-- The authors claim optimistic counter-stories rely on unrealistic assumptions about alignment or AI powerlessness -- do you agree?
-
-Ask what they found surprising or new.
+#### Question
+content:: Setting the story close to the present makes it easy to picture. Does that make the danger feel more real to you, or does a near-term timeline make the whole thing easier to dismiss?
+assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the near-future setting hurts plausibility, note the authors' own claim that the specific path matters less than the convergent endpoint. Do not push them toward the authors' view.
+optional:: true
+{>>{"author":"Elias's AI","timestamp":1785314359328}@@Pilot conversion (1 of 5): the trailing "What do you think?" Text plus open #### Chat is replaced by a single optional #### Question. Rationale: on an optional Dive Deeper card, a full tutor chat is a heavy ask for a side reading. Please check the question wording and whether an optional Question gates card completion the way you want before this is rolled out to the remaining 175 Q&A lenses.<<}

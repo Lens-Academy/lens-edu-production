@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### AIs steer in alien directions that only mostly coincide with helpfulness.
 
 Modern AIs are pretty helpful (or at least not harmful) to most users, most of the time. But as we noted [above](/4/why-would-an-ai-steer-toward-anything-other-than-what-it-was-trained-to-steer-toward), a critical question is how to distinguish an AI that deeply wants to be helpful and do the right thing, from an AI with weirder and more complex drives that happen to line up with helpfulness under typical conditions, but which would prefer other conditions and outcomes even more.[\*](#ftnt98)

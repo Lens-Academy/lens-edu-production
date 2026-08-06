@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Those drives aren't necessary to motivate resource acquisition.
 
 Imagine an AI that's piloting a robot to fetch some coffee. In order to fetch the coffee, it has to cross the street. Does the AI drive the robot recklessly into the street, where it gets smashed by a truck? No.

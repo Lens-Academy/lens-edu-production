@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 If anyone builds superintelligence, everyone dies. And the long-term future shaped by such a superintelligence is not likely to harbor beauty, wonder, or joy; it's more likely to be an empty place.
 
 We're worried that joy itself perishes out of the universe. Not the *entire* universe — cosmic expansion and the speed-of-light limit imply that no disaster on Earth can touch more than a few billion galaxies — but the part of the universe that Earth can reach.

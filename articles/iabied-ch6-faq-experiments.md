@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Intelligence lets you learn more from experiments and run faster, more informative, more parallelized experiments.
 
 A civilization of motivated minds that think a thousand times faster than humanity wouldn't necessarily be able to produce technological outputs a thousand times faster than humans do.

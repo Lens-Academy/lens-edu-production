@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Even laziness isn't safe.
 
 Companies aren't likely to make "lazy" AIs, because AI is a competitive industry, and that's not the best way to make a profit. Users won't want the AI to be lazy about meeting their requests, and the company won't want the AI to be lazy about maximizing user engagement and attachment, or about thinking better and more clearly.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### With computers, the hard part is getting them to solve a certain problem at all. High volume and speed come soon after.
 
 "To take over the world, you need a civilization" is an intuition that makes sense for humans. It's a lot less obvious how well this idea generalizes to AI. AIs don't work like humans — they can be dramatically more capable than any human, and an AI instance isn't necessarily comparable to a single person.

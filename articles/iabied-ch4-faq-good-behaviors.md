@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### This seems like a positive update, albeit a minor one.
 
 The relevant experimental results are in a paper called [Emergent Misalignment](https://www.emergent-misalignment.com/) (Betley et al. 2025). Roughly speaking, the paper shows that LLMs tuned to do one bad activity — namely, writing code with flaws in it — also declared themselves to be Nazis and exhibited other bad behavior.

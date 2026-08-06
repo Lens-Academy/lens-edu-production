@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)[induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
 
 The replies (of which there were over 1,500) included many people who had direct experience with psychosis in other contexts offering affirmation, sympathy, and advice. Many others chimed in with their own anecdotes about friends and family being driven off the deep end by LLMs.

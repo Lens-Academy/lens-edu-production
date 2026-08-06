@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 We aren't advocating that humanity wait for a literal proof that some artificial superintelligence will be good, or anything like that. Such a proof is probably not possible even in principle, never mind in practice. As Einstein said in his 1921 lecture, *Geometry and Experience*: "As far as the laws of mathematics refer to reality, they are not certain; and as far as they are certain, they do not refer to reality."

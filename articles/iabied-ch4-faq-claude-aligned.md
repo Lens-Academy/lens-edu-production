@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### "What Claude says" isn't the same as "what Claude prefers."
 
 The AI company Anthropic tries to train its AIs to be "honest, helpful, and harmless" (HHH). In 2024, researchers ran an experiment in which they pretended that they were going to train some of these AIs to no longer be "harmless." In response, versions of Anthropic's "Claude" AI (Claude 3 Opus and Claude 3.5 Sonnet) sometimes pretended to already *be* harmful so that the researchers wouldn't use gradient descent to make it *more* harmful.[\*](#ftnt112)

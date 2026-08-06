@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Their thoughts are hard to read.
 
 Many people working in the AI industry, including a handful of lab leaders, have at various points in discussion with us raised the objection:

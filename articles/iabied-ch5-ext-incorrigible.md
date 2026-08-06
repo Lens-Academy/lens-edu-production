@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 A joke dating back to at least 1834, but apparently well-worn even then, was recounted as follows in one diary: "Here is some logic I heard the other day: I'm glad I don't care for spinach, for if I liked it I should eat it, and I cannot bear spinach."
 
 The joke is a joke because, if you *did* enjoy spinach, there would be no remaining unbearableness from eating it. There are no other important values tangled up with not eating spinach, beyond the displeasure one feels. It would be a very different thing if, for example, somebody offered you a pill that made you want to murder people.

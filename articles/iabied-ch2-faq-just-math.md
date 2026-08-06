@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Saying AIs are "just math" is like saying humans are "just biochemistry."
 
 Strictly speaking, an AI isn't "just" math. It's a physical machine whose operations can be described mathematically. If that machine has outputs that can be read by humans, or if it has outputs that are connected to robot bodies, then it is just as capable of affecting the world as you are (using "only" bioelectrical signals inside your brain).

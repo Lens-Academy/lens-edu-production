@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 In a [2022 survey](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) of 738 attendees of the academic AI conferences NeurIPS and ICML, 48 percent of respondents thought there was at least a 10 percent chance that AI's outcome will be "extremely bad (e.g., human extinction)." Concerns about AI causing an unprecedented disaster are widespread in this field.
 
 Below, we've collected comments from prominent AI scientists and engineers on catastrophic AI outcomes. Some of these scientists give their "p(doom)" — i.e., their probability of AI causing human extinction or similarly disastrous outcomes.[\*](#ftnt9)

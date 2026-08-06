@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Not in a sense that moves it to act.
 
 There's a big difference between an AI *understanding* some moral precept and an AI being *motivated to act upon* that moral precept.

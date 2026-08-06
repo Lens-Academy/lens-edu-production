@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Perhaps by learning general skills and implementing them better.
 
 Deep Blue was able to play chess much better than any of its programmers at IBM. How could people possibly build a machine that was smarter than them in the domain of chess? By making an AI that did some of the same sorts of things that they tried to do in chess games (like considering multiple possible ways the game could play out), but much more quickly and accurately.

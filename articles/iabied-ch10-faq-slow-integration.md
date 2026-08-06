@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### That scenario still ends in catastrophe.
 
 If AI passes some unknown [critical threshold](/1/will-ai-cross-critical-thresholds-and-take-off) and shoots up in intelligence very quickly, that makes alignment especially hard. But speed is not where the central difficulty comes from. The central difficulty lies in the difference between [Before and After](/10/a-closer-look-at-before-and-after).
