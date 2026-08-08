@@ -30,7 +30,9 @@ I describe a hypothetical scenario that concretizes the question *"what could be
 
 *In 2016 the Compute Fairy visits Earth and bestows a blessing: Computers are magically 12 orders of magnitude faster! Over the next five years, what happens? The Deep Learning AI Boom still happens, only much crazier: Instead of making AlphaStar for 10^23 floating point operations, DeepMind makes something for 10^35. Instead of making GPT-3 for 10^23 FLOPs, OpenAI makes something for 10^35. Instead of industry and academia making a cornucopia of things for 10^20 FLOPs or so, they make a cornucopia of things for 10^32 FLOPs or so. When random grad students and hackers spin up neural nets on their laptops, they have a trillion times more compute to work with. [EDIT: Also assume magic +12 OOMs of memory, bandwidth, etc. All the ingredients of compute.]*
 
-For context on how big a deal +12 OOMs is, consider the graph below, from ARK. It's measuring petaflop-days, which are about 10^20 FLOP each. So 10^35 FLOP is 1e+15 on this graph. GPT-3 and AlphaStar are not on this graph, but if they were they would be in the very top-right corner.
+For context on how big a deal +12 OOMs is, consider the graph below, from [ARK](https://ark-invest.com/analyst-research/ai-training/). It's measuring petaflop-days, which are about 10^20 FLOP each. So 10^35 FLOP is 1e+15 on this graph. GPT-3 and AlphaStar are not on this graph, but if they were they would be in the very top-right corner.
+
+![The cost of training AI models, measured in petaflop-days, plotted over time](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1673381412/mirroredImages/rzqACeBGycZtqCfaX/mvmihwy2wtgxwy5giqwl.png)
 
 ## Question One: In this hypothetical, what sorts of things could AI projects build?
 
@@ -94,6 +96,8 @@ Alas, Ajeya estimates it would take about 10^41 FLOP to do this, whereas we only
 ### Skunkworks:
 
 What about STEM AI? Let's do some STEM. You may have seen this now-classic image:
+
+![Two evolved spacecraft antenna designs](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1673381412/mirroredImages/rzqACeBGycZtqCfaX/prglwkrkx5lxs4oaey08.jpg)
 
 These antennas were designed by an evolutionary search algorithm. Generate a design, simulate it to evaluate predicted performance, tweak & repeat. They flew on a NASA spacecraft fifteen years ago, and were massively more efficient and high-performing than the contractor-designed antennas they replaced. Took less human effort to make, too.
 
