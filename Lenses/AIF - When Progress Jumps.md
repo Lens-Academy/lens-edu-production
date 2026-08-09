@@ -47,7 +47,7 @@ Response style:
 
 What to do in your single reply:
 1. Confirm they gave all three parts in the right units: an expected count of jumps over 1,000 years of one trend, a share of total progress, and three named technologies.
-2. If a guess is in the wrong units (for example a percentage where a rate was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
+2. If a guess is in the wrong units (for example a percentage where a count was asked), fix the UNITS only, never the value, and ask them to restate in the right units.
 3. Send them on to the measured answers.
 
 This is a one-turn response.
@@ -73,7 +73,7 @@ source:: [[../articles/grace-discontinuous-progress-in-history]]
 content::
 \## The diff
 
-Score yourself. How far off was your rate, and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
+Score yourself. How far off was your expected jump count, and in which direction? Was your share-of-total-progress guess closer to the 14% average or the 38% among-affected-trends figure, and which of those two numbers is the right one to load into your model of AI, given that you don't yet know which kind of trend AI capability is? Did any of your three named technologies appear in their ten? Finish with one sentence for your running model: what does "rare, but large when present" do to the smoothest version of your day-zero story?
 
 assessment-instructions:: The student has committed to three guesses and has now read the measured figures.
 

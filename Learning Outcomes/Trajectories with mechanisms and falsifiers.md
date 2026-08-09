@@ -51,7 +51,7 @@ Single pass/fail overall. Pass requires the first THREE:
 1. Two trajectories that differ in MECHANISM, not just in slope or speed.
 2. A named driver for each.
 3. A falsifier for each that is genuinely near-term and observable within about two years.
-4. One shared assumption named. This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar is level 3. A strong shared assumption lifts the feedback toward levels 4 and 5; a missing or vacuous one costs praise, not the pass — but always name it plainly.
+4. One shared assumption named. This is asked for and addressed in feedback but is NOT a pass gate: it is the level-4 move in the rubric, and the pass bar is level 3. A strong shared assumption lifts the feedback toward levels 4 and 5; a missing or vacuous one costs praise, not the pass. Always name it plainly either way.
 
 Checks 1 to 3 are each binary. Two out of three is a fail; say which one is missing and what would have satisfied it.
 
@@ -60,7 +60,7 @@ DO NOT grade domain knowledge. Invented-but-coherent solar economics is fine. A 
 Fail states, named so the feedback can be specific:
 - One story told twice at different speeds (fails check 1).
 - Falsifiers that are unfalsifiable in practice, for example "if costs don't fall" (fails check 3).
-- No shared assumption, or a vacuous one such as "the future is uncertain" (fails check 4).
+- No shared assumption, or a vacuous one such as "the future is uncertain" (check 4: costs level-4/5 feedback, not the pass).
 
 Feedback: give the pass/fail verdict plainly, then name the strongest part of their answer and the one thing that would most improve it. Do not over-validate. Avoid generic praise.
 
