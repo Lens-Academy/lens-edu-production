@@ -18,56 +18,57 @@ source:: ![[../Lenses/IABIED - M5 Welcome]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
 # Learning Outcome: IABIED - The Five Engineering Curses
-source:: ![[../Learning Outcomes/IABIED - The Five Engineering Curses]]
+source:: ![[../Learning Outcomes/The five engineering curses]]
 
 # Learning Outcome: IABIED - Position Not Despair
-source:: ![[../Learning Outcomes/IABIED - Position Not Despair]]
+source:: ![[../Learning Outcomes/Position, not despair]]
 
+%%
+Trimmed to reduce question load (course went from 6 meetings to 5):
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses - PQ]]
+%%
 
 # Lens:
 source:: ![[../Lenses/IABIED - The Five Engineering Curses]]
 
+%%
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair - PQ]]
+%%
 
 # Lens:
 source:: ![[../Lenses/IABIED - Position Not Despair]]
 
-# Submodule: Ch11 - An Alchemy, Not a Science
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
+# Lens: Dive Deeper: Chapter 10
+id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
+tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
 
-# Learning Outcome: IABIED - Alchemy Not Science
-source:: ![[../Learning Outcomes/IABIED - Alchemy Not Science]]
+#### Text
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
-# Learning Outcome: IABIED - Strong Superalignment Objection
-source:: ![[../Learning Outcomes/IABIED - Strong Superalignment Objection]]
+Skim whatever catches your eye.
 
-# Lens:
-source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Alchemy Not Science]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
-
-# Submodule: Talk to One Person
-# Lens: IABIED - Talk to One Person
-source:: ![[../Lenses/IABIED - Talk to One Person]]
-
-# Submodule: Dive Deeper
-# Lens: Overview of Optional Resources
-source:: ![[../Lenses/IABIED - Overview of Optional Resources M5]]
+::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
+::card[[../Lenses/IABIED - QA - Time to Solve Alignment]]
+::card[[../Lenses/IABIED - QA - Lots of Different AIs]]
+::card[[../Lenses/IABIED - QA - Slow AI Integration]]
+::card[[../Lenses/IABIED - QA - Before and After]]
+::card[[../Lenses/IABIED - QA - Chicago Pile-1]]
+{>>{"author":"Elias's AI","timestamp":1785314128181}@@Correction to an earlier suggestion in this review: 'Isn't AI Different from Nuclear Reactors' is a Chapter 10 Q&A (ifanyonebuildsit.com/10), so importing it into this chapter is right and the import stays. But I had also carded it, and that was wrong: its body is still a "TODO: Embed Q&A content" placeholder, so the card showed learners an empty page. Card removed. Card it once the content is embedded.<<}
 
 # Lens: IABIED - QA - AI Differs from Precedents
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
+
+# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 
 # Lens: IABIED - QA - Time to Solve Alignment
 optional:: true
@@ -93,6 +94,58 @@ source:: ![[../Lenses/IABIED - QA - Before and After]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
+
+# Submodule: Ch11 - An Alchemy, Not a Science
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
+
+# Learning Outcome: IABIED - Alchemy Not Science
+source:: ![[../Learning Outcomes/Alignment as alchemy]]
+
+# Learning Outcome: IABIED - Strong Superalignment Objection
+source:: ![[../Learning Outcomes/The superalignment objection]]
+
+%%
+# Lens:
+source:: ![[../Lenses/IABIED - Alchemy Not Science - PQ]]
+%%
+
+# Lens:
+source:: ![[../Lenses/IABIED - Alchemy Not Science]]
+
+%%
+# Lens:
+source:: ![[../Lenses/IABIED - Strong Superalignment Objection - PQ]]
+%%
+
+# Lens:
+source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
+
+# Lens: Dive Deeper: Chapter 11
+id:: 1a96c108-14b1-4b19-9c24-0f44fced1374
+tldr:: Chapter 11's optional Q&As: can't we just muddle through, is alignment all-or-nothing, can interpretability save us, and what shutdown buttons would really take.
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 11 (An Alchemy, Not a Science). Links the book website's supplementary Q&A cards covering muddling through, alignment as all-or-nothing, government involvement, reckless versus incompetent labs, hardware overhang, racing for alignment research, non-dangerous deployment, interpretability, AIs debating and overseeing each other, other alignment plans, early warnings, plans critiqued, respect for the problem, and shutdown buttons and corrigibility. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+::card[[../Lenses/IABIED - QA - Muddle Through]]
+::card[[../Lenses/IABIED - QA - Alignment All or Nothing]]
+::card[[../Lenses/IABIED - QA - Governments Get Involved]]
+::card[[../Lenses/IABIED - QA - Reckless Means Incompetent]]
+::card[[../Lenses/IABIED - QA - Hardware Overhang]]
+::card[[../Lenses/IABIED - QA - Race for Alignment Research]]
+::card[[../Lenses/IABIED - QA - Non-Dangerous Deployment]]
+::card[[../Lenses/IABIED - QA - Can Interpretability Solve This]]
+::card[[../Lenses/IABIED - QA - AIs Debate Compete Oversee]]
+::card[[../Lenses/IABIED - QA - Various Other Alignment Plans]]
+::card[[../Lenses/IABIED - QA - Early Warnings]]
+::card[[../Lenses/IABIED - QA - More on Plans Critiqued]]
+::card[[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
+::card[[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
 
 # Lens: IABIED - QA - Muddle Through
 optional:: true
@@ -163,3 +216,8 @@ source:: ![[../Lenses/IABIED - QA - Problem Not Treated with Respect]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Shutdown Buttons and Corrigibility]]
+
+# Submodule: Talk to One Person
+# Lens: IABIED - Talk to One Person
+source:: ![[../Lenses/IABIED - Talk to One Person]]
+

@@ -1,7 +1,7 @@
 ---
 id: ae539bbd-3ab0-4ff1-8eeb-a90edf5b2edb
 slug: iabied-m2
-title: Nonhuman Minds, Part 2
+title: Learning to Want
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
   - "Chapter 3: Learning to Want"
@@ -11,7 +11,7 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a058eebe-2914-4a55-b88a-57027f0b79aa
-tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This week's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
+tldr:: Can an AI actually *want* things, and if it can, will it want what you trained it to want? This unit's two chapters tackle both: how goal-like behavior emerges during training, and why the target you optimize for and the preferences you end up with can quietly come apart.
 summary_for_tutor:: Welcome and framing lens for Module 2, covering IABIED Chapters 3 ("Learning to Want") and 4 ("You Don't Get What You Train For"). Poses the module's two guiding questions, whether AIs can develop wants and whether those wants match the training target, and orients the learner before the chapter lenses and the tutor chat, which checks understanding of how training produces want-like behavior and why trained targets diverge from internal preferences (the ice cream, sucralose, and peacock-tail analogies).
 
 #### Text
@@ -46,7 +46,7 @@ Ask what they found surprising or new. Check if they can explain the ice cream a
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]
 
 # Learning Outcome: Explain Wanting Emerges from Training
-source:: ![[../Learning Outcomes/Explain Wanting Emerges from Training]]
+source:: ![[../Learning Outcomes/Wanting emerges from training]]
 
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
@@ -54,29 +54,18 @@ source:: ![[../Lenses/IABIED - Wanting Emerges from Training - PQ]]
 # Lens:
 source:: ![[../Lenses/IABIED - Wanting Emerges from Training]]
 
-# Submodule: Ch4 - You Don't Get What You Train For
-add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
-
-# Learning Outcome: Explain You Don't Get What You Train For
-source:: ![[../Learning Outcomes/Explain You Don't Get What You Train For]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
-
-# Lens:
-source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
-
-# Submodule: Dive Deeper
-# Lens: Overview of Optional Resources
+# Lens: Dive Deeper: Chapter 3
 id:: f7a2b8c1-3d4e-4f5a-9b6c-8d7e0f1a2b3c
-tldr:: Want to go deeper? These are the book's own supplementary Q&As for this week's chapters, short takes on objections like "aren't AIs just tools?" and "doesn't Claude already show alignment?", grouped by chapter for browsing.
-summary_for_tutor:: Optional Dive Deeper index lens for Module 2. Links the book website's supplementary Q&A cards for Chapter 3 (Learning to Want) and Chapter 4 (You Don't Get What You Train For), covering objections and extensions such as anthropomorphism, AIs as tools, terminal versus instrumental goals, and whether Claude demonstrates alignment. A navigation and index lens only; it carries no standalone teaching content of its own.
+tldr:: Want to go deeper on how AIs come to want things? These are the book's own supplementary Q&As for Chapter 3, short takes on objections like "aren't AIs just tools?" and "would a machine really have its own priorities?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 3 (Learning to Want). Links the book website's supplementary Q&A cards covering objections and extensions such as human-like emotions, machines developing their own priorities, AIs as mere tools, passivity and docility, anthropomorphism versus mechanomorphism, the road to wanting, and whether smart AIs spot lies. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
 
 #### Text:
 content::
-The book's website includes supplementary Q&As and extended discussions for each chapter. Browse the ones relevant to this week's reading below.
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
 
-\## Chapter 3: Learning to Want
+Skim whatever catches your eye.
+
 ::card[[../Lenses/IABIED - QA - Human-Like Emotions]]
 ::card[[../Lenses/IABIED - QA - Machine Own Priorities]]
 ::card[[../Lenses/IABIED - QA - AIs Just Tools]]
@@ -84,25 +73,6 @@ The book's website includes supplementary Q&As and extended discussions for each
 ::card[[../Lenses/IABIED - QA - Anthropomorphism and Mechanomorphism]]
 ::card[[../Lenses/IABIED - QA - The Road to Wanting]]
 ::card[[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
-
-\## Chapter 4: You Don't Get What You Train For
-::card[[../Lenses/IABIED - QA - AI Steering Beyond Training]]
-::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
-::card[[../Lenses/IABIED - QA - Claude Shows Alignment]]
-::card[[../Lenses/IABIED - QA - Weird in Extreme Cases]]
-::card[[../Lenses/IABIED - QA - Fix Own Flaws]]
-::card[[../Lenses/IABIED - QA - Train Like a Human]]
-::card[[../Lenses/IABIED - QA - Avoid Talking About Dangers]]
-::card[[../Lenses/IABIED - QA - Aligned with Natural Selection]]
-::card[[../Lenses/IABIED - QA - Kindness from Any Goal]]
-::card[[../Lenses/IABIED - QA - Good Behaviors Correlate]]
-::card[[../Lenses/IABIED - QA - Terminal and Instrumental Goals]]
-::card[[../Lenses/IABIED - QA - Curiosity Isn't Convergent]]
-::card[[../Lenses/IABIED - QA - Human Values Are Contingent]]
-::card[[../Lenses/IABIED - QA - Deep Differences AIs and Evolved Species]]
-::card[[../Lenses/IABIED - QA - Brittle Unpredictable Proxies]]
-::card[[../Lenses/IABIED - QA - Reflection and Self-Modification]]
-::card[[../Lenses/IABIED - QA - AI-Induced Psychosis]]
 
 # Lens: IABIED - QA - Human-Like Emotions
 optional:: true
@@ -128,6 +98,58 @@ source:: ![[../Lenses/IABIED - QA - Passive and Docile]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Anthropomorphism and Mechanomorphism]]
+
+# Lens: IABIED - QA - The Road to Wanting
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - The Road to Wanting]]
+
+# Lens: IABIED - QA - Smart AIs Spot Lies
+optional:: true
+hide:: true
+source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
+
+# Submodule: Ch4 - You Don't Get What You Train For
+add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]
+
+# Learning Outcome: Explain You Don't Get What You Train For
+source:: ![[../Learning Outcomes/You don't get what you train for]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For - PQ]]
+
+# Lens:
+source:: ![[../Lenses/IABIED - You Don't Get What You Train For]]
+
+# Lens: Dive Deeper: Chapter 4
+id:: f5af1e68-6dbe-4498-bd6a-75b500beeaca
+tldr:: Want to go deeper on why you don't get what you train for? These are the book's own supplementary Q&As for Chapter 4, short takes on objections like "doesn't Claude already show alignment?" and "wouldn't a smart AI just fix its own flaws?".
+summary_for_tutor:: Optional Dive Deeper index lens for Chapter 4 (You Don't Get What You Train For). Links the book website's supplementary Q&A cards covering objections and extensions such as AI steering beyond training, making AIs nice and safe, whether Claude demonstrates alignment, terminal versus instrumental goals, brittle proxies, and reflection and self-modification. A navigation and index lens only; it carries no standalone teaching content of its own.
+optional:: true
+
+#### Text:
+content::
+Want to go deeper on this chapter's ideas? These optional resources were gathered by the book's authors and by us.
+
+Skim whatever catches your eye.
+
+::card[[../Lenses/IABIED - QA - AI Steering Beyond Training]]
+::card[[../Lenses/IABIED - QA - Making AIs Nice and Safe]]
+::card[[../Lenses/IABIED - QA - Claude Shows Alignment]]
+::card[[../Lenses/IABIED - QA - Weird in Extreme Cases]]
+::card[[../Lenses/IABIED - QA - Fix Own Flaws]]
+::card[[../Lenses/IABIED - QA - Train Like a Human]]
+::card[[../Lenses/IABIED - QA - Avoid Talking About Dangers]]
+::card[[../Lenses/IABIED - QA - Aligned with Natural Selection]]
+::card[[../Lenses/IABIED - QA - Kindness from Any Goal]]
+::card[[../Lenses/IABIED - QA - Good Behaviors Correlate]]
+::card[[../Lenses/IABIED - QA - Terminal and Instrumental Goals]]
+::card[[../Lenses/IABIED - QA - Curiosity Isn't Convergent]]
+::card[[../Lenses/IABIED - QA - Human Values Are Contingent]]
+::card[[../Lenses/IABIED - QA - Deep Differences AIs and Evolved Species]]
+::card[[../Lenses/IABIED - QA - Brittle Unpredictable Proxies]]
+::card[[../Lenses/IABIED - QA - Reflection and Self-Modification]]
+::card[[../Lenses/IABIED - QA - AI-Induced Psychosis]]
 
 # Lens: IABIED - QA - AI Steering Beyond Training
 optional:: true
@@ -194,16 +216,6 @@ optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Human Values Are Contingent]]
 
-# Lens: IABIED - QA - The Road to Wanting
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - The Road to Wanting]]
-
-# Lens: IABIED - QA - Smart AIs Spot Lies
-optional:: true
-hide:: true
-source:: ![[../Lenses/IABIED - QA - Smart AIs Spot Lies]]
-
 # Lens: IABIED - QA - Deep Differences AIs and Evolved Species
 optional:: true
 hide:: true
@@ -223,4 +235,6 @@ source:: ![[../Lenses/IABIED - QA - Reflection and Self-Modification]]
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - AI-Induced Psychosis]]
+
+
 

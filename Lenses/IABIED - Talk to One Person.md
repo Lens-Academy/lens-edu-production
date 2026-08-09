@@ -5,28 +5,34 @@ tldr: "You don't fully know what you think about AI risk until you've explained 
 summary_for_tutor: "Action-plan step for Module 5. The student picks one real person in their life, rehearses the conversation with the tutor in a roleplay, then commits to having it for real this week. The point is threefold. Articulating the argument to an outsider is the sharpest test of understanding; the book's own ask of ordinary citizens is to talk about the problem; and a good conversation can bring a new person to the course. The tutor plays the chosen person realistically in the roleplay, and elsewhere acts as an honest coach, never a cheerleader."
 authors:
   - Elias+Claude
----
+{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503018540}@@add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
+++}---
 #### Text
 content::
 **Your action plan, step 2: leave the building**
-Last module you mapped your strengths. This week's step is smaller and harder: talk to one person you know about what you've been reading.
+
+Back in module 4 you mapped your strengths. This step is smaller and harder: talk to one person you know about what you've been reading.
 
 Three reasons this is worth your time:
 - **It's the best test of your own understanding.** Inside this course, everyone shares vocabulary. Explaining the argument to someone who has never heard of instrumental convergence shows you what you know and what parts you were only nodding along to.
 - **It's the book's own ask.** The authors' call to ordinary citizens is not "become a researcher", it's to talk about the problem, because leaders can only act on risks their people are already taking seriously.
 - **It grows the room.** If the conversation lands, you might bring the person along. A friend who reads the same chapters is worth ten strangers who agree with you.
 
+One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.
+
 #### Question
 content::
 **Phase 1: Pick your person**
-Take 2 minutes. Who will you talk to this week? Write down:
+
+Take 2 minutes. Who will you talk to? Write down:
 - Who they are and why them
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk this week, after reading Chapters 1-11 of "If Anyone Builds It, Everyone Dies".
+assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
 
-Your role: a brief, honest coach, not a cheerleader.
+Your role: a brief, honest coach, not a cheerleader.{++{"author":"action-plan tutor prompt import (resume)'s AI","timestamp":1785503019231}@@ Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.++}
 
 Response length: 60-120 words. Short paragraphs. No lists.
 
@@ -40,6 +46,7 @@ Response style:
 id:: 17a55209-deab-48c8-afb0-fc522722fe8f
 content::
 **Phase 2: Rehearse it**
+
 Practice the conversation before you have it. The tutor will play the person you just described. Start the way you actually would: over coffee, on a walk, in the group chat. Get to the dreaded sentence and past it.
 user-customizable:: false
 opening-message:: Hey! You said you wanted to tell me about that book you've been reading?
@@ -56,26 +63,28 @@ assessment-instructions:: Debrief in 80-150 words, out of character. Name the on
 #### Text
 content::
 **Phase 3: Have it for real**
-Sometime this week, have the conversation. A few things that hold up in practice:
+
+Now have it for real, as soon as you and your person can manage. A few things that hold up in practice:
 - Lead with what moved *you*, not with what they should believe. "I read something that's been stuck in my head" opens doors that "let me explain why AI will kill everyone" closes.
 - Ask what they think, and mean it. The goal is a real conversation, not a conversion. Someone who disagrees after genuinely engaging is a better outcome than someone who nods to end the topic.
 - You don't need to defend every claim in the book. "I'm not sure about that part either" is an honest, credible answer.
 
 If they come out curious, invite them along: the next cohort of this course is open at [lensacademy.org](https://lensacademy.org). Reading the same chapters gives you both someone to argue with, and it is the single most useful thing you can do to grow this community.
 
-You'll be asked how it went at next week's meeting. An awkward five minutes counts. Not finding time does not.
+You'll be asked how it went in the next module. An awkward five minutes counts. Not making a plan does not; a conversation scheduled and kept on the calendar does.
 
 #### Question
 content::
 **Phase 4: Commit**
+
 Write it down, for your future self:
-- Who, and when this week
+- Who, and when
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
-assessment-instructions:: The student commits to a real conversation this week: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
+assessment-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
 
 Your role: quality-check the commitment, then get out of the way.
-- Check the "when" is a concrete slot this week, not "at some point". If vague, ask for the day.
+- Check the "when" is a concrete day, not "at some point". If vague, ask for the day. In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them to bring the story to next week's session.
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them the next module opens by asking how it went.
