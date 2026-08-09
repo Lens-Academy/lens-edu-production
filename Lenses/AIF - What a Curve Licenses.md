@@ -10,7 +10,7 @@ authors:
 content::
 \## Where an argument outruns its chart
 
-You now have a probe of what compute buys and a base rate for cliffs. Last beat of this module: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
+You now have a probe of what compute buys and a base rate for cliffs. Last teaching beat of this module: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
 
 #### Question
 content::
@@ -18,13 +18,17 @@ content::
 
 A colleague shows you a chart and an argument.
 
-"Here is our model's score on a coding benchmark, measured every quarter for three years. It is a clean exponential, R-squared 0.97, and it held across two complete architecture changes, so it is clearly not an artifact of any one approach. The benchmark tops out at 100. We are at 61. At this rate we saturate it in fourteen months. So: fourteen months until this benchmark is solved, and I am confident because the fit is excellent."
+"Here is our AI's score on a coding benchmark[^benchmark], measured every quarter for three years. It is a clean exponential[^exponential], R-squared 0.97[^rsq], and it held across two complete architecture changes, so it is clearly not an artifact of any one approach. The benchmark tops out at 100. We are at 61. At this rate we saturate it in fourteen months. So: fourteen months until this benchmark is solved, and I am confident because the fit is excellent."
+
+[^benchmark]: A benchmark is a fixed, standardized test that AI systems are scored on; this one scores from 0 to 100.
+[^exponential]: Growth that multiplies by the same factor each period (1, 2, 4, 8, ...) rather than adding the same amount.
+[^rsq]: R-squared is a 0-to-1 score of how tightly a curve hugs the measured points; 0.97 is very tight. Note what it measures: agreement with the data you already have, nothing more.
 
 Every factual claim your colleague makes is true. The fit really is 0.97, it really did survive two architecture changes, and the arithmetic is right.
 
 Where does the argument stop being licensed by the data? And what would you have to know, that is not on the chart, before the fourteen-month figure meant anything?
 
-assessment-instructions:: The student has completed lens 1 (what compute buys) and lens 2 (base rates for discontinuities). Those are the tools this wedge wants.
+assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
 
 This is a deliberate wedge, not the test question. It hands the student a plausible-sounding but flawed extrapolation in which every stated fact is true, and asks them to locate where the license runs out.
 
@@ -32,9 +36,9 @@ Four load-bearing moves. ANY TWO of them pass:
 1. Fit quality is silent about the unobserved range. R-squared 0.97 licenses interpolation inside the measured range, not a claim about the next fourteen months.
 2. A score approaching its ceiling is a different regime. The benchmark tops out at 100 by construction, so the remaining 39 points are not interchangeable with the last 39.
 3. Construct stability: whether the quantity being measured at 61 is the same skill it will be at 95. Saturating a benchmark and solving the underlying capability are different claims, and only the first is on the chart.
-4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from lens 2, rather than from the quality of the fit.
+4. Confidence about continuation should come from an outside view on how often strong regular trends break, which the student has from When Progress Jumps, rather than from the quality of the fit.
 
-Reward a student who connects to lens 2 unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
+Reward a student who connects to When Progress Jumps unprompted, for example "one large discontinuity per thousand trend-years, but this could be the affected kind".
 
 Note for the grader: move 2 as stated is our expectation, not a measured fact about this fictional benchmark. A strong student may argue that the residual items are not harder, and if they argue it well that is a pass, not an error.
 
@@ -59,4 +63,26 @@ What to do in each reply:
 
 If the student is stuck after 2 attempts, give a brief direct answer and move on.
 
-On close: name what they demonstrated, name what is still underdeveloped, and give an explicit test-readiness verdict.
+On close: name what they demonstrated and what is still underdeveloped, then send them to the next question, where they build the fixed version themselves. Do not give a test-readiness verdict here; the next beat is the evidence for that.
+
+#### Question
+content::
+\## Build the version your colleague should have shown you
+
+The critique was the easy half. Now construct. Write two genuinely different trajectories for this benchmark over the next two years. They must differ in mechanism, not just in speed: name what drives each one (the trend's own momentum, the approach hitting a ceiling, the benchmark ceasing to measure the skill, anything you can defend). For each trajectory, give one observation checkable within a year or two that would count against it. Then the quiet part: name one assumption both of your trajectories share.
+
+assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
+
+Pass shape: the mechanisms genuinely differ (not one story at two speeds), the falsifiers are observable within about two years, and the shared assumption is non-vacuous ("the future is uncertain" does not count; "both assume the benchmark keeps being run and reported" does).
+
+The shared-assumption move is new to the student; expect a miss on the first try. If they name none, or a vacuous one, give one worked example drawn from their own two stories, then ask them to find a second. That is teaching, not failure.
+
+Maximum 3 tutor turns. Keep an internal turn counter.
+
+Response length: 100 to 180 words. Short paragraphs only. No lists longer than 4 items.
+
+Response style:
+- Calm, rigorous, and educational.
+- Do not over-validate. Avoid generic praise.
+
+On close: give an explicit test-readiness verdict grounded in this attempt: name which of the four moves (distinct mechanisms, named drivers, checkable falsifiers, shared assumption) they landed and which still needs work.

@@ -1,5 +1,7 @@
 ---
 id: 53a7abde-fd71-4dab-b647-1ce78bc53d60
+tldr: "How hard is alignment, really, and once you've decided to tackle it, which route do you take? This lens maps two spectrums: optimistic to pessimistic views on difficulty, and empirical, mathematical, philosophical, and prosaic approaches to solving it. Then it shows where this course plants its flag."
+summary_for_tutor: "Maps two spectrums in AI safety. First, difficulty: Anthropic's optimistic, intermediate, and pessimistic trichotomy, situated against a wider spread from failure stories (Christiano's 'What failure looks like' and AI 2027) to 'AI is easy to control', with the survey figure that 38 to 51% of authors at top ML venues give at least a 10% chance of extinction-level outcomes as a calibration anchor, and model organisms of misalignment offered as one way to study risk empirically. Second, solution approaches: empirical or iterative (Leike), mathematical (Yudkowsky's rocket alignment analogy), philosophical, and prosaic (Christiano, aligning the systems we have now, orthogonal to the empirical-versus-theoretical axis). Concludes with the course's own synthesis: a prosaic picture of powerful deep-learning systems plus deep, empirically grounded mathematical progress. Includes an optional chat that helps the learner map both spectrums."
 title: Forecasting risk and choosing an approach
 ---
 #### Text
@@ -13,7 +15,7 @@ There is a broad spectrum of views on how hard the alignment problem is. In Anth
 - an **intermediate** scenario, in which preventing catastrophic risks requires substantial scientific and engineering effort;
 - a **pessimistic** view, in which AI safety is essentially unsolvable.
 
-Among [[../Lenses/grace-thousands-of-ai-authors-on-the-future-of-ai|authors at top machine-learning venues]], "[b]etween 38% and 51% of respondents gave at least a 10% chance to advanced AI leading to outcomes as bad as human extinction." Those who are concerned often write failure stories of how AI can lead to catastrophe, like Paul Christiano's "[What failure looks like](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)" and the detailed scenario in [[ai-2027 article lens|AI 2027]]; others are more optimistic and explain why they think "[[../Lenses/optimism-ai-is-easy-to-control|AI is easy to control]]".
+Among [[../Lenses/grace-thousands-of-ai-authors-on-the-future-of-ai|authors at top machine-learning venues]], "[b]etween 38% and 51% of respondents gave at least a 10% chance to advanced AI leading to outcomes as bad as human extinction." Those who are concerned often write failure stories of how AI can lead to catastrophe, like Paul Christiano's "[What failure looks like](https://www.lesswrong.com/posts/HBxe6wdjxK239zajf/what-failure-looks-like)" and the detailed scenario in [[../Lenses/AIF - AI 2027|AI 2027]]; others are more optimistic and explain why they think "[[../Lenses/optimism-ai-is-easy-to-control|AI is easy to control]]".
 
 In this epistemic state of uncertainty, it is useful to do research on the level and nature of AI risks themselves. One approach is [[../Lenses/evhub-model-organisms-of-misalignment-the-case-for-a-new-pillar-of-alignment-research|model organisms of misalignment]] — "in vitro demonstrations of the kinds of failures that might pose existential threats".
 
