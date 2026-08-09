@@ -1,17 +1,19 @@
 ---
 id: 'e9238c7e-a9d6-40d7-99bb-fb2e8d58fa53'
 title: Your Ongoing Action
-tldr: "The course ends this week; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
-summary_for_tutor: "Final action-plan step, at the end of Module 6 after the student has read Chapters 12-14 and the Closing Words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of this module. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."
+tldr: "The course ends; your action plan doesn't. The last step: turn everything since Module 4 into one action you keep doing, starting with a dated first step."
+summary_for_tutor: "Final action-plan step, in the closing module (What Happens Next), right after the student has put the book's whole argument into their own words. Earlier steps: strengths mapped in Module 4, one real conversation committed in Module 5 and debriefed at the start of Module 6, Chapters 12-14 and the Closing Words read in Module 6. Here the student chooses one ongoing action drawn from Chapter 14's role-specific calls, names a dated first step inside two weeks, and connects it to a strength from Module 4. The tutor quality-checks their choice (ongoing not one-off, first step small and dated, matched to their strength) and then closes the course arc warmly and briefly. Frame the step as the student choosing what they want to keep doing."
 authors:
   - Elias+Claude
+add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
 ---
 #### Text
 content::
 \## The action that continues
-You debriefed your conversation at the start of this module. Since then you have read the book's answer to "so what do we do?": different people hold different levers, and every ask in Chapter 14 is *ongoing*, not a box to tick once. Citizens write representatives, vote, and keep talking; people with a platform use it; people with relevant skills steer them at the problem.
+You debriefed your conversation at the start of the last module, and you have read the book's answer to "so what do we do?": different people hold different levers, and every ask in Chapter 14 is *ongoing*, not a box to tick once. Citizens write representatives, vote, and keep talking; people with a platform use it; people with relevant skills steer them at the problem.
 
-The course ends this week. This step is where the action plan stops being homework and becomes yours.
+The course ends here. This step is where the action plan stops being homework and becomes yours.
 
 Some honest options, roughly in increasing order of commitment:
 
@@ -19,6 +21,7 @@ Some honest options, roughly in increasing order of commitment:
 - Write to your representatives, and again when something happens, not just once.
 - Follow one AI policy organization and show up when they ask for public support.
 - Bring someone into the next cohort of this course and be their person to argue with.
+- Keep learning: take a more advanced course and go deeper on the part that gripped you. Explore our courses at [lensacademy.org/c/cfcxv](https://lensacademy.org/c/cfcxv).
 - Put your professional skills to work: your action plan from Module 4 named where your strengths bite. Pick the smallest real step toward that and take it this month.
 - Support the work with money, if that is the lever you actually have.
 
@@ -31,13 +34,13 @@ Write down, for your future self:
 - Its first concrete step, with a date inside the next two weeks
 - The strength of yours (from Module 4) that makes this the right lever for you
 
-assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of this module) and the last piece of guided work in the course. They have just read Chapters 12-14 and the Closing Words.
+assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of Module 6) and the last piece of guided work in the course. They have read Chapters 12-14 and the Closing Words, and just put the book's whole argument into their own words.
 
-Your role: quality-check their choice, then close the course arc warmly and briefly.
+Your role: quality-check their choice, then close the course arc warmly and briefly. Use your "Coach Guidance - AI Safety Impact Pathways" reference for the checks below: match the chosen action against the relevant pathway guide (career, donation, founder/builder, internal Lens contribution), judge the first step against that pathway's readiness ladder, and when proposing a smaller version, draw it from the pathway's low-friction next steps. If the student's profile clearly fits a pathway they haven't considered, name it once as an option — their choice still wins; motivation beats optimization.
 
-- Check the action is ongoing, not a one-off. If they wrote a single event ("I will send one email"), ask what the repeating version looks like.
+- Check the action is ongoing, not a one-off. If they wrote a single event ("I will send one email"), ask what the repeating version looks like. Enrolling in a further course counts as ongoing: continued learning has the repetition built in.
 - Check the first step has a date and is small enough to actually happen. If it is vague or heroic, propose a smaller version in one sentence.
 - Check the action matches the strength they named. If there is an obvious mismatch, say so once and suggest the adjacent action that fits better. Accept their choice if they push back; motivation beats optimization.
 - Response length: 50-120 words. One turn, unless a check above fails and they revise.
 
-Close by telling them this is the end of the guided action plan: the plan is now theirs, and this week's session is where they will say it out loud to their group.
+Close by telling them this is the end of the guided action plan: the plan is now theirs, and the final session is where they will say it out loud to their group.

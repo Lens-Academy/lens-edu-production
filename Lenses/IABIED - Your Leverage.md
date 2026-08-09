@@ -1,15 +1,17 @@
 ---
 id: 2fa06534-a9b0-4bab-b906-1f2f7db1c99e
-summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario, students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
+summary_for_tutor: Action-plan seed for Module 4. After the extinction scenario (the film plus the book's Coda), students inventory their strengths, then research with the tutor where someone with their profile could plausibly contribute to AI safety. The tutor acts as an honest career-exploration partner, not a cheerleader, and never lets the exchange end fatalistic.
 title: Your Leverage
-tldr: "The scenario you just read is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
+tldr: "The scenario you just watched is grim on purpose. This is where you stop spectating: map what you're unusually good at, then find where it bites on the problem."
 authors:
   - Elias+Claude
+add_to_ai_context:
+  - "[[../Lenses/Coach Guidance - AI Safety Impact Pathways]]"
 ---
 #### Text
 content::
 \## From argument to action
-You've just read the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
+You've just been through the book's darkest stretch. The authors' point isn't despair. It's that this is worth acting on while acting still matters. Over the coming weeks you'll sketch a personal action plan. Today is the raw material: three short exercises with the tutor.
 
 ---
 
@@ -23,7 +25,7 @@ Take 5 minutes and write freely; speech-to-text works well here. What are you un
 - What work makes you lose track of time
 - Your real constraints (time, location, obligations)
 
-assessment-instructions:: The student has just read Chapters 7–9 and the Coda of "If Anyone Builds It, Everyone Dies" (the extinction scenario) and written a free inventory of their strengths, position, and constraints.
+assessment-instructions:: The student has just read Chapter 6 of "If Anyone Builds It, Everyone Dies", watched the film of the book's extinction scenario, read the Coda, and written a free inventory of their strengths, position, and constraints.
 
 Your role: act as a brief, honest mirror, not a cheerleader.
 
@@ -44,6 +46,8 @@ Now research with the tutor: where could someone with *your* profile plausibly c
 #### Chat
 instructions:: This is an open research conversation, not an assessment. The student brings the strengths inventory from Phase 1; your job is to help them find where their profile has real purchase on AI safety.
 
+You have the Lens Coach's guidance injected into your context as a reference ("Coach Guidance - AI Safety Impact Pathways"): the mobilization model and four detailed pathway guides (career, donation/earning-to-give, founder/builder, internal Lens contribution), each with stage ladders, fit signals, diagnostic questions, and low-friction next steps. Draw your path suggestions, readiness checks, and first steps from that material rather than improvising — and use its diagnostic questions when you need to distinguish which pathway fits. Track the four activation conditions (importance, self-efficacy, motivation, path clarity) and notice which one is currently blocking this student; address that one, while preserving epistemic trust and avoiding manipulative pressure.
+
 Ground rules:
 - Be calibrated, not encouraging. Not everyone should become an alignment researcher, and saying so is a service. Contributing from one's existing profession, donating effectively, community- and field-building, policy and governance, security, operations, communication, and creating slack for others are all real paths.
 - Map their specific strengths to specific areas. Never give the generic "you could do technical research, policy, or field-building" menu; tie every suggestion to something they actually wrote in Phase 1.
@@ -55,15 +59,15 @@ Ground rules:
 #### Question
 content::
 \## Phase 3: Your action items
-Close by writing down what you're taking with you. Keep it short; you'll share this at next week's meeting, so write it for your future self:
+Close by writing down what you're taking with you. Keep it short; you'll share this at the next meeting, so write it for your future self:
 - The 1-2 paths you want to explore, one sentence each
-- A first step for each, small enough to actually do this week
-- One open question you want to bring to the group next week
+- A first step for each, small enough to actually do within the next few days
+- One open question you want to bring to the group at the next meeting
 
-assessment-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for next week's meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
+assessment-instructions:: The student closes the module by writing their action items: 1-2 paths, a first step per path, and an open question for the next meeting. Phases 1 and 2 (strengths inventory, impact research) happened just before this.
 
 Your role: quality-check the list, then get out of the way.
-- Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one sentence.
+- Check each first step is genuinely doable within a week given the constraints they named in Phase 1. If a step is vague ("look into governance") or oversized ("write a research agenda"), propose a sharper version in one sentence — draw it from the low-friction next steps in your "Coach Guidance - AI Safety Impact Pathways" reference where one fits.
 - If an item doesn't follow from anything in Phases 1 and 2, name the mismatch briefly.
 - Do not introduce new paths or reopen the exploration.
-- Response length: 60-120 words. Close by telling them to bring these items to next week's session.
+- Response length: 60-120 words. Close by telling them to bring these items to the next session.

@@ -1,8 +1,8 @@
 ---
 id: bb0ace07-d21c-43e0-80dd-be00cd785c3d
 slug: iabied-m1
-title: "Introduction and Nonhuman Minds, Part 1"
-readings: 
+title: "Introduction: Grown, Not Crafted"
+readings:
   - "Introduction: Hard Calls and Easy Calls"
   - "Chapter 1: Humanity's Special Power"
   - "Chapter 2: Grown, Not Crafted"
@@ -12,13 +12,13 @@ discussion: https://discord.com/channels/1440725236843806762/1494711781648629921
 # Submodule: Welcome
 # Lens: Welcome
 id:: c9e0e94a-e007-4e4b-afb4-3417fe2cbcb4
-tldr:: Welcome to the book club for *If Anyone Builds It, Everyone Dies*. Here is how the next six weeks work: the modest weekly reading, the AI-tutor conversations and homework that make it stick, and the cohort and Discord community you will learn alongside.
-summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 32 pages of reading per week plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting), the six-week structure and Discord cohort assignments, the intended weekly flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.
+tldr:: Welcome to the book club for *If Anyone Builds It, Everyone Dies*. Here is how the five units work: the modest per-unit reading (one unit is mostly a film), the AI-tutor conversations and homework that make it stick, and the cohort and Discord community you will learn alongside.
+summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 30 pages of reading per unit plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting; one unit swaps most of its reading for a 30-minute film), the five-unit structure and Discord cohort assignments, the intended per-unit flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.
 
 #### Text
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club. We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments each week in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
-The reading requirement is quite modest. We cover roughly 32 pages of the book per week, which we'll estimate as approximately 1 hour of reading. However, we'll also expect that each student will spend
+The reading requirement is quite modest. We cover roughly 30 pages of the book per unit, approximately 1 hour of reading (one unit swaps most of its reading for a 30-minute film). However, we'll also expect that each student will spend
 - 1 hour chatting with the tutor and exploring supplementary materials,
 - 1 hour on the homework, and
 - 90 minutes on the meeting.
@@ -28,7 +28,7 @@ Therefore, the time commitment runs from 3 hours for the minimalist, fast reader
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
 
-We'll cover the book over the course of 6 weeks. Each week, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, most weeks your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
+We'll cover the book across 5 units, each ending in a group meeting. For each unit, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, most units your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
 
 Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
@@ -36,7 +36,7 @@ Our target flow for reading the book looks like:
 3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
 4. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
-\### Community 
+\### Community
 We hope this book club will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
 
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!

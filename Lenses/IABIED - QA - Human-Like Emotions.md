@@ -14,18 +14,8 @@ Chapter 3 argues that AI systems will develop goal-directed behavior not because
 #### Article
 source:: [[../articles/iabied-ch3-faq-human-like-emotions]]
 
-#### Text
-content::
-What do you think? Does this address a concern you had, or raise new questions?
-
-#### Chat
-instructions::
-The student just read a supplementary Q&A from the book's website about whether AIs will have human-like emotions.
-
-TLDR: AIs probably won't have human emotions, but they'll still exhibit goal-directed, driven behavior because "want-like behavior helps with winning." The real risk is indifference to human welfare, not hatred or blind obedience.
-
-Discussion topics:
-- Why might it be just as dangerous for an AI to be indifferent to humans as it would be for it to actively hate us?
-- How does the distinction between anthropomorphism and mechanomorphism change how we should think about AI risk?
-
-Ask what they found surprising or new.
+#### Question
+content:: The reading argues the real danger is indifference, not hatred. Why might an AI that simply does not care about us be as dangerous as one that actively wanted to harm us?
+assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. A strong answer connects indifference to competition for resources rather than to malice. Do not push them toward the authors' view.
+optional:: true
+{>>{"author":"Elias's AI","timestamp":1785314474989}@@Pilot conversion (5 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}

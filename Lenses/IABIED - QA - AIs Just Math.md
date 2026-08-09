@@ -14,18 +14,8 @@ This Q&A counters the dismissal that AIs are "just math." Just as humans are "ju
 #### Article
 source:: [[../articles/iabied-ch2-faq-just-math]]
 
-#### Text
-content::
-What do you think? Does this address a concern you had, or raise new questions?
-
-#### Chat
-instructions::
-The student just read a supplementary Q&A from the book's website about whether AIs are "just math."
-
-TLDR: Saying AIs are "just math" is like saying humans are "just biochemistry." Math can encode anything: beauty, strategy, deception. Mere chemistry landed on the moon and invented nuclear weapons. The substrate doesn't limit what can emerge from it.
-
-Discussion topics:
-- Does the analogy between "just math" and "just biochemistry" change how you think about AI capabilities?
-- If you accept that math can encode anything, what implications does this have for the claim that AIs can't truly "understand" or "create"?
-
-Ask what they found surprising or new.
+#### Question
+content:: If you accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does the biochemistry comparison actually settle it, or dodge it?
+assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the analogy dodges the question, take that seriously; the substrate argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
+optional:: true
+{>>{"author":"Elias's AI","timestamp":1785314472981}@@Pilot conversion (4 of 5): trailing Text plus #### Chat replaced by a single optional #### Question. See the note on 'IABIED - QA - Why This Setup' for the rationale and what to check.<<}
