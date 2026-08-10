@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 In the 9 months since the METR time horizon paper (during which AI time horizons have increased by ~6x), it’s generated lots of attention as well [as](https://www.lesswrong.com/posts/5CGNxadG3JRbGfGfg/notes-on-the-long-tasks-metr-paper-from-a-hcast-task) [various](https://www.lesswrong.com/posts/2RwDgMXo6nh42egoC/how-to-game-the-metr-plot) [criticisms](https://arachnemag.substack.com/p/the-metr-graph-is-hot-garbage). As one of the main authors, I often see various misinterpretations of our work. While I still believe in the core results, I believe that many people to some extent both overstate the precision of our time horizon measurements and draw conclusions I don’t think the evidence fully supports.
 
 Therefore, I’d like to clarify some of my beliefs about limitations of our methodology and time horizon more broadly—and then clarify what I think are the key conclusions directly supported by our results.
