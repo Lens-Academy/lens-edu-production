@@ -3,21 +3,22 @@ title: "Fun with +12 OOMs of Compute"
 author: "Daniel Kokotajlo"
 published: 2021-03-01
 source_url: https://www.alignmentforum.org/posts/rzqACeBGycZtqCfaX/fun-with-12-ooms-of-compute
+authoring_notes: |
+  Imported by hand from the Alignment Forum text (Stampy corpus hash
+  8327908b83017a0f3b9c62fee38eab1a) on 2026-08-08, because the relay's
+  import_article tool is unavailable to this credential type (it requires a
+  share-token MCP URL, not the legacy API key). Direct fetch of lesswrong.com is
+  blocked by a Vercel security checkpoint.
+
+  Fidelity notes: images, embedded Elicit prediction widgets, and footnote link
+  targets are not reproduced; footnote markers are dropped rather than renumbered.
+  Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,
+  inline permitted per the course brief.
+
+  Notes live in frontmatter, not the body: the article bundler ships body text
+  (even %% blocks and HTML comments) into the student-facing module JSON, but
+  strips frontmatter.
 ---
-
-<!--
-Imported by hand from the Alignment Forum text (Stampy corpus hash
-8327908b83017a0f3b9c62fee38eab1a) on 2026-08-08, because the relay's
-import_article tool is unavailable to this credential type (it requires a
-share-token MCP URL, not the legacy API key). Direct fetch of lesswrong.com is
-blocked by a Vercel security checkpoint.
-
-Fidelity notes: images, embedded Elicit prediction widgets, and footnote link
-targets are not reproduced; footnote markers are dropped rather than renumbered.
-Section headings and all prose are verbatim. Licence: Alignment Forum / LessWrong,
-inline permitted per the course brief.
-(Kept as an HTML comment, not %%: the article bundler passes %% blocks through to the student-facing module JSON; HTML comments are dropped by the renderer.)
--->
 
 *Or: Big Timelines Crux Operationalized*
 
