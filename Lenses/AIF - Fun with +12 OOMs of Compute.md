@@ -19,7 +19,7 @@ A few translations before you read, because the article talks in units it never 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
 from:: *In 2016 the Compute Fairy visits Earth and bestows a blessing:
-to:: I'd love it if you wrote up your answers in the comments!
+to:: think about fun things that could be built in this scenario.
 
 #### Question
 content::
