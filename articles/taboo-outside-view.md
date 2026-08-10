@@ -1,12 +1,12 @@
 ---
-title: "Taboo "Outside View""
+title: 'Taboo "Outside View"'
 author:
   - "Daniel Kokotajlo"
 source_url: "https://www.lesswrong.com/posts/BcYfsi7vmhDvzQGiF/taboo-outside-view"
 published: 2021-06-17
 created: 2026-08-10
 accessed: 2026-08-10
-description: "Argues the term "outside view" has come to cover several distinct and unequally reliable moves, and proposes replacing it with more specific vocabulary."
+description: 'Argues the term "outside view" has come to cover several distinct and unequally reliable moves, and proposes replacing it with more specific vocabulary.'
 tags:
   - "hand-imported-from-lw-corpus"
 ---
