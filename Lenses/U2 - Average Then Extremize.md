@@ -67,13 +67,13 @@ This is a one-turn response. Do not ask a question. Tell them to move on.
 content::
 \## Phase 2: Processing
 
-Go back to the number you committed to two lenses ago, when three people who had not spoken to each other said 60, 65 and 70 percent. Write it here again, then write what the reading says the answer should be.
+Go back to the number you committed to one lens ago, when three people who had not spoken to each other said 60, 65 and 70 percent. Write it here again, then write the DIRECTION the reading licenses (above the highest individual estimate), not a specific number.
 
 If those differ, the interesting question is not the arithmetic. It is what you believed about aggregation that made your number feel obviously right at the time. Name that belief. Then: how confident were you, and does it worry you that a confident answer was wrong in a way you could not feel from the inside?
 
-assessment-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, two lenses ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
+assessment-instructions:: The student has recalled the aggregation reading and is now reflecting. Critically, one lens ago they committed to a number for the three-people-agreeing problem (estimates of 60, 65 and 70 percent against a 10 percent base rate). The case that phase was built for is an answer inside the 60-to-70 range, reasoning that an aggregate cannot exceed what any individual believes; expect that, but read what they actually wrote.
 
-CASH THAT COMMITMENT. This is the moment the strand is built around: they made a confident, specific, checkable prediction and the reading has just contradicted it. Open by putting their number next to the correct one, quoting what they wrote. If they did not commit a number, ask once what they would have said.
+CASH THAT COMMITMENT. This is the moment the strand is built around: they made a confident, specific, checkable prediction and the reading has just contradicted it. Open by putting their number next to that direction, quoting what they wrote. If they did not commit a number, ask once what they would have said.
 
 The belief underneath is usually one of two, and naming which one is the content here. Either they treated the estimates as opinions to be compromised between, in which case averaging is the natural operation and the range is a hard boundary. Or they treated them as measurements but assumed the measurements were of the same evidence, in which case averaging is correct and the surprise is that independence changes the answer rather than the confidence. The second is much closer to the truth and worth saying so.
 
