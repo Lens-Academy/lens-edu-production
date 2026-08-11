@@ -20,14 +20,16 @@ something back. Do not answer it. It is a pointer, not a conversation: carry it 
 reading and see what the author does with it.
 
 Start with the mechanism that makes the rest of it urgent. People say that AI progress
-could speed itself up. That claim does real work in almost every forecast you have seen
-so far, and it usually arrives already assumed.
+could speed itself up. That claim is important to almost every forecast you have seen
+so far, and it is usually assumed rather than argued for.
 
 Take it apart before someone hands you the answer. An answer nobody expected is the best
 result here, including one that shows the loop cannot close at all.
 
 Unit 2 gave you the tools for this: decompose until the parts have evidence behind them,
 and say what would settle it. Use them.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
 content::

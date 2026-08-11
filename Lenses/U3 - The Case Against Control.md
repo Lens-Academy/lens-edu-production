@@ -21,7 +21,7 @@ another. Untrusted models given tasks where cheating can be detected. Control do
 to make the system want the right thing. It tries to make wanting the wrong thing not
 matter.
 
-The case for it is strong, and you should have it before you read the objections. Control
+The case for it is strong, and you should know it before you read the objections. Control
 does not require solving alignment, which nobody knows how to do. It applies to systems
 we can build now rather than to systems we hope to understand later. Its measures are
 testable: you can red-team a monitoring setup and count the failures, which is more than
@@ -31,6 +31,8 @@ including work on the alignment problem itself. Greenblatt and Shlegeris make th
 at length in "The case for ensuring that powerful AIs are controlled".
 
 Two objections follow. Read them as arguments to weigh, not as the verdict.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 #### Question
 content::

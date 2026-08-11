@@ -17,9 +17,12 @@ The previous reading removed the villain. This one removes the moment.
 There is no step where anything goes wrong. Each change is reasonable. Each is something
 a sensible organisation would do. The end state is one nobody chose.
 
-For this to work, something has to be holding our institutions in place now. Governments,
+For this to work, something must make our institutions behave that way now. Governments,
 companies and markets do take human welfare into account, imperfectly and unevenly, but
-they do. Ask why. If you cannot say why they do it now, you cannot say what would stop.
+they do. Ask why. If you cannot say why they do it now, you cannot say what would make
+them stop.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
 content::

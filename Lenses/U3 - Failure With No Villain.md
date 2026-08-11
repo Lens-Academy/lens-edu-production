@@ -24,6 +24,8 @@ under normal commercial pressure.
 Build that catastrophe yourself, before you read one. If your version turns out unlike
 Christiano's, that is the better outcome of the two.
 
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+
 #### Question
 content::
 \## Your turn first
