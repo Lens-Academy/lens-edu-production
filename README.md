@@ -56,7 +56,7 @@ content::
 Lorum Ipsum
 
 # Learning Outcome: Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Lens:
 optional:: true

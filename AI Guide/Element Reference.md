@@ -45,7 +45,7 @@ content:: Welcome to the course...
 
 # Submodule: Ch1 - Introduction
 # Learning Outcome: Define Intelligence
-source:: ![[../Learning Outcomes/Define Intelligence]]
+source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Lens: Optional Deep Dive            ← referenced lens
 source:: ![[../Lenses/Some Lens]]
