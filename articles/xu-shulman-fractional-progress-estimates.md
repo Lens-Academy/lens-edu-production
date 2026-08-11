@@ -23,11 +23,11 @@ _This post was written by Mark Xu based on interviews with Carl Shulman. It was 
 
 # Introduction
 
-Suppose that you start with \$$1$ that grows at 10% per year. At this rate, it will take ~241 years to get \$$10$ billion (\$$10^{10}$). When will you think that you’re ten percent of the way there?
+Suppose that you start with $1 that grows at 10% per year. At this rate, it will take ~241 years to get $10 billion (10^10 dollars). When will you think that you’re ten percent of the way there?
 
-You might say that you’re ten percent of the way to \$$10$ billion when you have \$$1$ billion. However, since your money is growing exponentially, it takes 217 years to go from \$$1$ to \$$1$ billion and only 24 more to go from \$$1$ billion to \$$10$ billion, even though the latter gap is larger in absolute terms. If you tried to guess when you would have \$$10$ billion by taking 10x the amount of time to \$$1$ billion, you would guess 2174 years, off by a factor of nine.
+You might say that you’re ten percent of the way to $10 billion when you have $1 billion. However, since your money is growing exponentially, it takes 217 years to go from $1 to $1 billion and only 24 more to go from $1 billion to $10 billion, even though the latter gap is larger in absolute terms. If you tried to guess when you would have $10 billion by taking 10x the amount of time to $1 billion, you would guess 2174 years, off by a factor of nine.
 
-Instead, you might say you’re ten percent of the way to \$$10^{10}$ when you have \$$10^1$, equally spacing the percentile markers along the exponent and measuring progress in terms of log(wealth). Since your money is growing perfectly exponentially, multiplying the number of years it takes to go from \$$1$ to \$$10$ by ten will produce the correct amount of time it will take to go from \$$1$ to \$$10^{10}$.
+Instead, you might say you’re ten percent of the way to 10^10 dollars when you have 10^1 dollars, that is, ten percent of the way to $10 billion when you have just $10, equally spacing the percentile markers along the exponent and measuring progress in terms of log(wealth). Since your money is growing perfectly exponentially, multiplying the number of years it takes to go from $1 to $10 by ten will produce the correct amount of time it will take to go from $1 to 10^10 dollars.
 
 When employing linear extrapolations, choosing a suitable metric that better tracks progress, like log wealth over wealth for investment, can make an enormous difference to forecast accuracy.
 
