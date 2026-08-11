@@ -21,7 +21,7 @@ The track record of AI prediction is bad, and bad in a patterned way rather than
 
 Three things happen from here. First, the evidence on what actually correlates with forecasting accuracy, which is not what most people would guess, and the procedure that follows from it. Second, the internals: what a forecast is made of, what a trend line assumes, and the several distinct ways the parts of a system can interact so that the obvious arithmetic is the wrong arithmetic. Third, what happens to all of it when the thing you are forecasting can hear you.
 
-Two warnings about the tests at the end.
+Two warnings about the tests. There is one at the end of each of the next three sections, not a single set at the end of the unit.
 
 They are not about the readings. You will be handed questions from transport, radiology, chemical engineering, and synthetic biology, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately.
 
@@ -35,7 +35,13 @@ source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
 # Lens: What Would Settle It - PQ
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]
 
-# Lens: Reference Classes And Their Denominators
+# Lens: {++{"author":"Lauren's AI","timestamp":1786436704198}@@The Track Record
+source:: [[../Lenses/U2 - The Track Record]]
+
+# Lens: The Decomposition Loop
+source:: [[../Lenses/U2 - The Decomposition Loop]]
+
+# Lens: ++}Reference Classes And Their Denominators
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
 optional:: true
 
@@ -96,12 +102,12 @@ None of it makes you accurate. It makes you checkable, which is a different and 
 
 \## Go back and look
 
-Before you take the tests, open what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians.
+Open what you wrote in the Cold Open at the start of this unit: the flights, the hospital operations, the three technicians. It is still in this module's chat, above everything you have done since.
 
-The tests you are about to take are the same three objects in different clothes, which is the only honest way to find out whether anything changed. Read your old answers first. Then notice, specifically, what you would now write instead, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and it is worth knowing that now rather than after the test.
+The three tests you have taken, at the end of each section, were those same three objects in different clothes. That was the only honest way to find out whether anything changed. Read your old answers against what you wrote in the tests, and notice specifically what you would write instead now, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and that is worth knowing.
 
 \## Additional resources for this topic
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
 
-> If you skipped the optional lens on reference classes, it is the shortest high-value thing in the unit, and step two of the decomposition loop is close to unusable without it.
+> The shortest high-value thing in the unit, and step two of the decomposition loop is close to unusable without it.
