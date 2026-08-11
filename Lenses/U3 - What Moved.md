@@ -1,4 +1,4 @@
-{++{"author":"Lauren's AI","timestamp":1786441479362}@@---
+---
 id: '16964da4-546f-4808-a188-818015f7abe8'
 title: "What Moved"
 tldr: You wrote five to ten sentences about the next ten years before you read anything. Rewrite them now, from memory.
@@ -90,4 +90,3 @@ student whose model barely moved has done this correctly.
 Write 90 to 150 words. Short paragraphs. No lists.
 
 max-time:: 10
-++}
