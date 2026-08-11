@@ -10,6 +10,13 @@ tags:
   - "obsidian-web-clipper"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The AI Control Agenda, [in its own words](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled):
 
 > … we argue that AI labs should ensure that powerful AIs are *controlled*. That is, labs should make sure that the safety measures they apply to their powerful models prevent unacceptably bad outcomes, even if the AIs are misaligned and intentionally try to subvert those safety measures. We think no fundamental research breakthroughs are required for labs to implement safety measures that meet our standard for AI control for early transformatively useful AIs; we think that meeting our standard would substantially reduce the risks posed by intentional subversion.
@@ -69,14 +76,14 @@ One objection one might have at this point: maybe the value of control research,
 
 As far as I can tell, control researchers themselves mostly do not expect the methods they're working on to generalize to superintelligence. Indeed, “this is just intended for near-human AGI, we don’t expect it to generalize to superintelligence” is a very common refrain.
 
-… but let’s steelman a bit; maybe the empirical learnings could be useful even if control researchers themselves do not expect that to be the main value prop. What do we actually expect?  
-  
+… but let’s steelman a bit; maybe the empirical learnings could be useful even if control researchers themselves do not expect that to be the main value prop. What do we actually expect?
+
 This depends on the details of different work, but in most cases prosaic alignment work (in general, not just limited to control) seems unlikely to generalize even across fairly minor changes in AI, let alone the jump to superintelligence. Here’s one relatively-simple example (from [here](https://www.lesswrong.com/posts/Tzdwetw55JNqFTkzK/why-don-t-we-just-shoggoth-face-paraphraser?commentId=nMrJiyawWsQuo6Pwi)):
 
 > … suppose that the path to AGI is to scale up o1-style inference-time compute, but it requires multiple OOMs of scaling. So it no longer has a relatively-short stream of "internal" thought, it's more like the natural-language record of an entire simulated society.
-> 
+>
 > Then:
-> 
+>
 > - There is no hope of a human reviewing the whole thing, or any significant fraction of the whole thing. Even spot checks don't help much, because it's all so context-dependent.
 > - Accurate summarization would itself be a big difficult research problem.
 > - There's likely some part of the simulated society explicitly thinking about intentional deception, even if the system as a whole is well aligned.

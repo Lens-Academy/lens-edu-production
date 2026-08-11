@@ -7,9 +7,16 @@ published: 2022-06-15
 created: 2026-02-13
 description: "Nate Soares argues that one of the core problems with AI alignment is that an AI system's capabilities will likely generalize to new domains much fas…"
 ---
-(*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
 
----
+%%
+Add discussion note here:
+
+...
+
+%%
+:::collapse
+(*This post was factored out of a larger post that I (Nate Soares) wrote, with help from Rob Bensinger, who also rearranged some pieces and added some text to smooth things out. I'm not terribly happy with it, but am posting it anyway (or, well, having Rob post it on my behalf while I travel) on the theory that it's better than nothing.*)
+:::
 
 I expect navigating the acute risk period to be tricky for our civilization, for a number of reasons. Success looks to me to require clearing a variety of technical, sociopolitical, and moral hurdles, and while in principle sufficient mastery of solutions to the technical problems might substitute for solutions to the sociopolitical and other problems, it nevertheless looks to me like we need a lot of things to go right.
 
@@ -35,7 +42,7 @@ My guess for how AI progress goes is that at some point, some team gets an AI th
 
 And in the same stroke that its capabilities leap forward, its alignment properties are revealed to be shallow, and to fail to generalize. The central analogy here is that optimizing apes for inclusive genetic fitness (IGF) doesn't make the resulting humans optimize mentally for IGF. Like, sure, the apes are eating because they have a hunger instinct and having sex because it feels good—but it's not like they *could* be eating/fornicating due to explicit reasoning about how those activities lead to more IGF. They can't yet perform the sort of abstract reasoning that would correctly justify those actions in terms of IGF. And then, when they start to generalize well in the way of humans, they predictably don't *suddenly start* eating/fornicating *because* of abstract reasoning about IGF, even though they now *could*. Instead, they invent condoms, and fight you if you try to remove their enjoyment of good food (telling them to just calculate IGF manually). The alignment properties you lauded before the capabilities started to generalize, predictably fail to generalize with the capabilities.
 
-Some people I say this to respond with arguments like: "Surely, before a smaller team could get an AGI that can master subjects like biotech and engineering well enough to kill all humans, some other, larger entity such as a state actor will have a somewhat worse AI that can handle biotech and engineering somewhat less well, but in a way that prevents any one AGI from running away with the whole future?" 
+Some people I say this to respond with arguments like: "Surely, before a smaller team could get an AGI that can master subjects like biotech and engineering well enough to kill all humans, some other, larger entity such as a state actor will have a somewhat worse AI that can handle biotech and engineering somewhat less well, but in a way that prevents any one AGI from running away with the whole future?"
 
 I respond with arguments like, "In the one real example of intelligence being developed we have to look at, continuous application of natural selection in fact found *Homo sapiens sapiens*, and the capability-gain curves of the ecosystem for various measurables were in fact sharply kinked by this new species (e.g., using machines, we sharply outperform other animals on well-established metrics such as “airspeed”, “altitude”, and “cargo carrying capacity”)."
 
@@ -60,7 +67,7 @@ The techniques OpenMind used to train it away from the error where it convinces 
 
 Why does alignment fail while capabilities generalize, at least by default and in predictable practice? In large part, because good capabilities form something like an attractor well. (That's one of the reasons to expect intelligent systems to eventually make that sharp left turn if you push them far enough, and it's why natural selection managed to stumble into general intelligence with no understanding, foresight, or steering.)
 
-Many different training scenarios are teaching your AI the same instrumental lessons, about how to think in accurate and useful ways. Furthermore, those lessons are underwritten by a simple logical structure, much like the simple laws of arithmetic that abstractly underwrite a wide variety of empirical arithmetical facts about what happens when you add four people's bags of apples together on a table and then divide the contents among two people. 
+Many different training scenarios are teaching your AI the same instrumental lessons, about how to think in accurate and useful ways. Furthermore, those lessons are underwritten by a simple logical structure, much like the simple laws of arithmetic that abstractly underwrite a wide variety of empirical arithmetical facts about what happens when you add four people's bags of apples together on a table and then divide the contents among two people.
 
 But that attractor well? It's got a free parameter. And that parameter is what the AGI is optimizing for. And there's no analogously-strong attractor well pulling the AGI's objectives towards your preferred objectives.
 
@@ -76,8 +83,8 @@ Perhaps this is not convincing; perhaps to convince you we'd need to go deeper i
 
 Stating it again, in summary: my position is that capabilities generalize further than alignment (once capabilities start to generalize real well (which is a thing I predict will happen)). And this, by default, ruins your ability to direct the AGI (that has slipped down the capabilities well), and breaks whatever constraints you were hoping would keep it corrigible. And addressing the problem looks like finding some way to either keep your system aligned through that sharp left turn, or render it aligned afterwards.
 
-In an upcoming post (**edit**: [here](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/3pinFH3jerMzAvmza)), I’ll say more about how it looks to me like  ~nobody is working on this particular hard problem, by briefly reviewing a variety of current alignment research proposals. In short, I think that the field’s current range of approaches nearly all assume this problem away, or direct their attention elsewhere.  
- 
+In an upcoming post (**edit**: [here](https://www.lesswrong.com/s/v55BhXbpJuaExkpcD/p/3pinFH3jerMzAvmza)), I’ll say more about how it looks to me like  ~nobody is working on this particular hard problem, by briefly reviewing a variety of current alignment research proposals. In short, I think that the field’s current range of approaches nearly all assume this problem away, or direct their attention elsewhere.
+
 
 [^1]: Furthermore, figuring where to aim it looks to me like more of a technical problem than a moral problem. Attempting to manually specify the nature of goodness is a doomed endeavor, of course, but that's fine, because we can instead specify processes for figuring out (the coherent extrapolation of) what humans value. Which still looks prohibitively difficult as a goal to give humanity's first AGI (which I expect to be deployed under significant time pressure), mind you, and I further recommend aiming humanity's first AGI systems at simple limited goals that end the acute risk period and then cede stewardship of the future to some process that can reliably do the "aim minds towards the right thing" thing. So today's alignment problems are a few steps removed from tricky moral questions, on my models.
 
@@ -87,7 +94,7 @@ In an upcoming post (**edit**: [here](https://www.lesswrong.com/s/v55BhXbpJuaExk
 
 [4]: "What do you mean ‘it takes a sharp left turn’? Are you talking about recursive self-improvement? I thought you said [somewhere else](https://www.lesswrong.com/posts/8NKu9WES7KeKRWEKK/why-all-the-fuss-about-recursive-self-improvement) that you don't think recursive self-improvement is necessarily going to play a central role before the extinction of humanity?" I'm not talking about recursive self-improvement. That's one way to take a sharp left turn, and it could happen, but note that humans have neither the understanding nor control over their own minds to recursively self-improve, and we outstrip the rest of the animals pretty handily. I'm talking about something more like “intelligence that is general enough to be dangerous”, the sort of thing that humans have and chimps don't.
 
-[^5]: "Hold on, isn't this unfalsifiable? Aren't you saying that you're going to continue believing that alignment is hard, even as we get evidence that it's easy?" Well, I contend that "GPT can learn to answer moral questions just as well as it can learn to answer other questions" is not much evidence either way about the difficulty of alignment. I'm not saying we'll get evidence that I'll ignore; I'm naming in advance some things that I wouldn't consider negative evidence (partially in hopes that I can refer back to this post when people crow later and request an update). But, yes, my model does have the inconvenient property that people who are skeptical now, are liable to remain skeptical until it's too late, because most of the evidence I expect to give us *advance* warning about the nature of the problem is evidence that we've already seen. I assure you that I do not consider this property to be convenient.  
+[^5]: "Hold on, isn't this unfalsifiable? Aren't you saying that you're going to continue believing that alignment is hard, even as we get evidence that it's easy?" Well, I contend that "GPT can learn to answer moral questions just as well as it can learn to answer other questions" is not much evidence either way about the difficulty of alignment. I'm not saying we'll get evidence that I'll ignore; I'm naming in advance some things that I wouldn't consider negative evidence (partially in hopes that I can refer back to this post when people crow later and request an update). But, yes, my model does have the inconvenient property that people who are skeptical now, are liable to remain skeptical until it's too late, because most of the evidence I expect to give us *advance* warning about the nature of the problem is evidence that we've already seen. I assure you that I do not consider this property to be convenient.
 
 As for things that could convince me otherwise: technical understanding of intelligence could undermine my "sharp left turn" model. I could also imagine observing some ephemeral hopefully-I'll-know-it-when-I-see-it capabilities thresholds, without any sharp left turns, that might update me. (Short of "full superintelligence without a sharp left turn", which would obviously convince me but comes too late in the game to shift my attention.)
 

@@ -11,14 +11,21 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The stereotyped image of AI catastrophe is a powerful, malicious AI system that takes its creators by surprise and quickly achieves a decisive advantage over the rest of humanity.
 
 I think this is probably not what failure will look like, and I want to try to paint a more realistic picture. I’ll tell the story in two parts:
 
 -   **Part I**: machine learning will increase our ability to “get what we can measure,” which could cause a slow-rolling catastrophe. (“Going out with a whimper.”)
-    
+
 -   **Part II**: ML training, like competitive economies or natural ecosystems, can give rise to “greedy” patterns that try to expand their own influence. Such patterns can ultimately dominate the behavior of a system and cause sudden breakdowns. (“Going out with a bang,” an instance of [optimization daemons](https://arbital.greaterwrong.com/p/daemons/).)
-    
+
 
 I think these are the most important problems if we fail to solve [intent alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6).
 
@@ -37,15 +44,15 @@ But if I want to help Bob figure out whether he _should_ vote for Alice—whethe
 Some examples of easy-to-measure vs. hard-to-measure goals:
 
 -   Persuading me, vs. helping me figure out what’s true. (Thanks to Wei Dai for making this example crisp.)
-    
+
 -   Reducing my feeling of uncertainty, vs. increasing my knowledge about the world.
-    
+
 -   Improving my reported life satisfaction, vs. actually helping me live a good life.
-    
+
 -   Reducing reported crimes, vs. actually preventing crime.
-    
+
 -   Increasing my wealth on paper, vs. increasing my effective control over resources.
-    
+
 
 It’s already much easier to pursue easy-to-measure goals, but machine learning will widen the gap by letting us try a huge number of possible strategies and search over massive spaces of possible actions. That force will combine with and amplify existing institutional and social dynamics that already favor easily-measured goals.
 
@@ -54,13 +61,13 @@ Right now humans thinking and talking about the future they want to create are a
 We will try to harness this power by constructing proxies for what we care about, but over time those proxies will come apart:
 
 -   Corporations will deliver value to consumers as measured by profit. Eventually this mostly means manipulating consumers, capturing regulators, extortion and theft.
-    
+
 -   Investors will “own” shares of increasingly profitable corporations, and will sometimes try to use their profits to affect the world. Eventually instead of actually having an impact they will be surrounded by advisors who manipulate them into thinking they’ve had an impact.
-    
+
 -   Law enforcement will drive down complaints and increase reported sense of security. Eventually this will be driven by creating a false sense of security, hiding information about law enforcement failures, suppressing complaints, and coercing and manipulating citizens.
-    
+
 -   Legislation may be optimized to seem like it is addressing real problems and helping constituents. Eventually that will be achieved by undermining our ability to actually perceive problems and constructing increasingly convincing narratives about where the world is going and what’s important.
-    
+
 
 For a while we will be able to overcome these problems by recognizing them, improving the proxies, and imposing ad-hoc restrictions that avoid manipulation or abuse. But as the system becomes more complex, that job itself becomes too challenging for human reasoning to solve directly and requires its own trial and error, and at the meta-level the process continues to pursue some easily measured objective (potentially over longer timescales). Eventually large-scale attempts to fix the problem are themselves opposed by the collective optimization of millions of optimizers pursuing simple goals.
 
