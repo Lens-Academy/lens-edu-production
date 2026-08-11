@@ -28,6 +28,8 @@ large enough to settle the outcome. "Acute risk period" means the window where t
 could go badly wrong. If a term stops you, put it in the Lens Coach
 (https://lensacademy.org/coach) rather than rereading the paragraph.
 
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+
 #### Question
 content::
 \## Find a case you have seen
