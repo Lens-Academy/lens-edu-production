@@ -24,11 +24,11 @@ traces a widely repeated claim back to its source. The claim is that China decla
 goal of building AGI in 2017. The source is one phrase in one planning document, and a
 translation. The second reading is a short data insight from Epoch AI. It measures the
 US-China capability gap rather than describing it. Its title gives the answer away, so
-commit to your own number before you scroll down to the readings.
+commit to your own number first.
 
-Two parts of the Elmgren piece appear collapsed: a section the author marked optional,
-and some supplementary evidence. Both are one click away if you want to follow the
-detective work. And if you finish this lens wanting a view from inside Chinese policy,
+The sections the author marked optional and his supplementary evidence sit collapsed
+below, if you want to follow the detective work. And if you finish this lens wanting a
+view from inside Chinese policy,
 the Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
 shows what Chinese AI policy looks like when you read it directly.
 

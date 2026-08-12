@@ -7,6 +7,13 @@ created: 2026-03-07
 description: "How AI Could Transform the World for the Better"
 tags:
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 How AI Could Transform the World for the Better
 
 I think and talk a lot about the risks of powerful AI. The company I’m the CEO of, Anthropic, does a lot of research on how to reduce these risks. Because of this, people sometimes draw the conclusion that I’m a pessimist or “doomer” who thinks AI will be mostly bad or dangerous. I don’t think that at all. In fact, one of my main reasons for focusing on risks is that they’re the only thing standing between us and what I see as a fundamentally positive future. **I think that most people are underestimating just how radical the upside of AI could be**, just as I think most people are underestimating how bad the risks could be.
@@ -270,12 +277,12 @@ Nevertheless, it is a thing of transcendent beauty. We have the opportunity to p
 11. ¹¹ These achievements have been an inspiration to me and perhaps the most powerful existing example of AI being used to transform biology.
 12. ¹² “Progress in science depends on new techniques, new discoveries and new ideas, probably in that order.” - [Sydney Brenner](https://en.wikipedia.org/wiki/Sydney_Brenner)
 13. ¹³ Thanks to Parag Mallick for suggesting this point.
-14. ¹⁴ I didn't want to clog up the text with speculation about what specific future discoveries AI-enabled science could make, but here is a brainstorm of some possibilities:  
-	— Design of better computational tools like AlphaFold and AlphaProteo — that is, a general AI system speeding up our ability to make specialized AI computational biology tools.  
-	— More efficient and selective CRISPR.  
-	— More advanced cell therapies.  
-	— Materials science and miniaturization breakthroughs leading to better implanted devices.  
-	— Better control over stem cells, cell differentiation, and de-differentiation, and a resulting ability to regrow or reshape tissue.  
+14. ¹⁴ I didn't want to clog up the text with speculation about what specific future discoveries AI-enabled science could make, but here is a brainstorm of some possibilities:
+	— Design of better computational tools like AlphaFold and AlphaProteo — that is, a general AI system speeding up our ability to make specialized AI computational biology tools.
+	— More efficient and selective CRISPR.
+	— More advanced cell therapies.
+	— Materials science and miniaturization breakthroughs leading to better implanted devices.
+	— Better control over stem cells, cell differentiation, and de-differentiation, and a resulting ability to regrow or reshape tissue.
 	— Better control over the immune system: turning it on selectively to address cancer and infectious disease, and turning it off selectively to address autoimmune diseases.
 15. ¹⁵ AI may of course also help with being smarter about choosing what experiments to run: improving experimental design, learning more from a first round of experiments so that the second round can narrow in on key questions, and so on.
 16. ¹⁶ Thanks to Matthew Yglesias for suggesting this point.
