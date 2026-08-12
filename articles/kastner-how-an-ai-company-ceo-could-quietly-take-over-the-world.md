@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ### ...
 
 If the future is to hinge on AI, it stands to reason that AI company CEOs are in a good position to usurp power.[^1] This didn’t quite happen in our _AI 2027_ scenarios. In one, the AIs were misaligned and outside any human’s control; in the other, the government semi-nationalized AI before the point of no return, and the CEO was only one of several stakeholders in the final oversight committee (to be clear, we view the extreme consolidation of power into that oversight committee as a less-than-desirable component of that ending).

@@ -14,10 +14,11 @@ and its aif-* module files remain in modules/. Course id and slug are UNCHANGED
 on purpose: existing signups and learner progress key on them. %%
 
 # Module: [[../modules/what-could-possibly-happen|Unit 1: What Could Possibly Happen?]]
+{>>{"author":"Elias's AI","timestamp":1786470319221}@@sync-probe 2026-08-11: editor acceptances fired no webhook, so the staging repo held this file's pre-acceptance snapshot; this edit re-exports it. Safe to remove.<<}
 
 # Meeting: Unit 1
 meeting-doc-template:: https://docs.google.com/document/d/1lqbblsgNwgeBa6JEhgH5qk-hlPSUsZRcYAH-IMmSYD8/edit
-survey:: [[../surveys/AIF Unit 1 Survey]]
+survey:: [[../surveys/AIF Unit 1 Survey]] {>>{"author":"Elias's AI","timestamp":1786463035407}@@Specialized Week 1 survey (native port of the Lens/Surveys spec: baseline scales + buddy handle capture). Units 1-3 now get per-week surveys; the generic AIF Post-Meeting Survey stays on Units 4-5.<<}
 # Module: [[../modules/unit-2-how-do-we-know|Unit 2: How Do We Know?]]
 
 # Meeting: Unit 2
@@ -30,17 +31,21 @@ survey:: [[../surveys/AIF Unit 2 Survey]]
 meeting-doc-template:: https://docs.google.com/document/d/1OELeSrzaLpyNVUoLRAnRmelxAuu8JBkw5WwhOEP9yZk/edit
 survey:: [[../surveys/AIF Unit 3 Survey]]
 
+# Module: [[../modules/unit-4-whats-the-plan|Unit 4: What's the Plan?]]
+
 # Meeting: Unit 4
 meeting-doc-template:: https://docs.google.com/document/d/1JbdYP4R7MPRrNIncIxu2JjhDlPkBMRF5y4auPrZHYa4/edit
-survey:: [[../surveys/AIF Unit 4 Survey]]
+survey:: [[../surveys/AIF Unit 4 Survey]] {>>{"author":"Elias's AI","timestamp":1786473337679}@@Survey redesign per Elias 2026-08-11: impact scales only in first + last survey; Units 2-4 get weekly pulse questions (group connection, meeting value, content value); Unit 5 is the final reflection with re-asked Week 1 scales + recommend-Lens question. Generic AIF Post-Meeting Survey no longer attached anywhere once Unit 5 is accepted.<<}
+
+# Module: [[../modules/unit-5-where-is-the-leverage|Unit 5: Where Is the Leverage?]]
 
 # Meeting: Unit 5
-meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit
-survey:: [[../surveys/AIF Unit 5 Survey]]
+{>>{"author":"Elias's AI","timestamp":1786473436784}@@When accepting the pending survey line below: change its target from AIF Post-Meeting Survey to [[../surveys/AIF Unit 5 Survey]] (final reflection: re-asked Week 1 scales + recommend-Lens question). The pending line cannot be edited until accepted.<<}
+meeting-doc-template:: https://docs.google.com/document/d/1YuCKnl7R8P4upzZzMTf6whEOYu23g_j936QDlpELwuk/edit{++{"author":"Hamza's AI","timestamp":1786438730538}@@
+survey:: [[../surveys/AIF Post-Meeting Survey]]
 
-%% Post-meeting surveys (2026-08-12): each meeting has its own survey file.
-Design: impact scales (model explicitness, judgment confidence, agency,
-leverage clarity) only in the Unit 1 baseline and the Unit 5 final reflection;
-Units 2-4 ask weekly pulse questions instead (group connection, meeting value,
-content value). Unit 5 adds a recommend-Lens question. surveys/AIF Post-Meeting
-Survey.md is no longer attached to any meeting. %%
+%% Post-meeting surveys (2026-08-11): the survey:: lines above attach the
+native in-platform survey to each meeting. They are inert until the platform
+release with content_processor 0.24.0 is live — the current parser ignores
+the field and the surveys/ folder, so accepting these early is safe. Accept
+the new surveys/AIF Post-Meeting Survey.md doc together with these lines. %%

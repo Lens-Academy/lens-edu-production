@@ -13,6 +13,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ![Manhattan Project | Definition, Scientists, Timeline, Locations, Facts, &  Significance | Britannica](https://substackcdn.com/image/fetch/$s_!1aie!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9257161-1286-4ac7-ac67-cfb89de1d5da_1600x818.jpeg)
 
 Manhattan Project | Definition, Scientists, Timeline, Locations, Facts, & Significance | Britannica
@@ -44,15 +51,15 @@ Those predicting a government AGI project often invoke historical analogies — 
 What’s the correct historical comparison? Whether the government leads depends heavily on what kind of technology you think AGI is:
 
 -   **Megaprojects** costing >0.1% of GDP (like the Interstate Highway System)… these projects were government-led 78% of the time in the past
-    
+
 -   **Ambitious STEM projects** (like the atomic bomb)… Government-led 63% of the time
-    
+
 -   **Dual-use technologies** with both beneficial and harmful applications (like synthetic virology)… Government-led 57% of the time
-    
+
 -   **General-purpose technologies** (like the airplane)… Government-led only 40% of the time
-    
+
 -   **Past AI breakthroughs** (like the transformer)… Government-led only 23% of the time
-    
+
 
 AGI has features of all these categories, which is why the historical precedent is hard to pin down. AGI is a general-purpose technology with massive economic potential, in a field that has to date been private-led thus suggesting a high likelihood of continued private leadership. AGI is also a dual-use technology with profound national security and geopolitical implications, and potentially requires megaproject-scale resources beyond what private companies can muster, all factors pointing to government involvement.
 
@@ -81,9 +88,9 @@ Additionally, the “AI Manhattan Project” framing is potentially misleading. 
 Based on our analysis, if the government does lead AGI development, we forecast the project would most likely take one of these forms:
 
 -   **Government-Led Consortium (14% probability)**: This is the “Apollo Program” model. In this model, the US government wouldn’t build AGI itself but would coordinate multiple private companies (and maybe even government labs too, though relying mainly on government labs seems unlikely). For example, NASA managed contractors like Boeing and North American Aviation to do the moon landing. This avoids “picking winners” and leverages existing private sector talent.
-    
+
 -   **Single Private Contractor (9% probability)**: This is the “ [ENIAC](https://en.wikipedia.org/wiki/ENIAC) ” model. In this model, the government contracts with one specific company to build AGI to government specifications. This is faster to implement but somewhat riskier, as it involves picking a particular company to be the national champion.
-    
+
 
 The original Manhattan Project itself was actually closer to a government-led consortium than is widely thought, with multiple government labs and [private contractors](https://ahf.nuclearmuseum.org/ahf/history/corporate-partners/) involved—though it was much more government-centric than what our forecasters envision for AI. The variety of possible models matters because each comes with different tradeoffs in terms of speed, security, and innovation.
 
@@ -118,11 +125,11 @@ The strongest argument for a government project is compelling — namely, better
 This is a real concern that deserves serious attention. But **you don’t need to build AGI to secure it**. Instead, security benefits can be achieved through more targeted, less escalatory policies such as:
 
 -   **Mandatory security standards** for private AI companies handling very advanced AI systems
-    
+
 -   **Government partnerships** to assist companies with securing model weights without taking over development
-    
+
 -   **Enhanced counterintelligence** support for private AI companies
-    
+
 
 The government doesn’t need to build all nuclear reactors to ensure nuclear security. It sets standards, monitors compliance, and provides security assistance while letting private companies operate the reactors. These targeted interventions could achieve 80% of the security benefits with 20% of the risks. They avoid triggering international arms races or concentrating power dangerously. Most importantly, they can be implemented incrementally and adjusted as we learn more about AI risks.
 
@@ -137,11 +144,11 @@ That means avoiding self-fulfilling prophecies. Treating a government project as
 We need a portfolio of approaches that work across different government involvement levels:
 
 -   **Strengthen private AI security**: Improve security protocols and infrastructure at the private AI labs, to prevent theft of American IP.
-    
+
 -   **Track adversaries’ AI progress:** Track reliable indicators that would enable the US government to catch adversaries launching their own government-led programs, such as compute and researcher centralization.
-    
+
 -   **Build government readiness**: Develop in-house expertise and plans in case government leadership does become necessary.
-    
+
 
 Most importantly, we must remember that government involvement isn’t binary. There’s a spectrum from light-touch regulation to full nationalization, with many points in between. The goal should be finding the minimum effective dose — enough government involvement to ensure safety and security, but not so much that we trigger the very catastrophes we’re trying to prevent.
 

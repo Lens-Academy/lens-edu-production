@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 A foundational document in Chinese AI policy is the 2017 New Generation AI Development Plan (NGAIDP). Although almost ten years old now, it still rightly gets attention as essentially the starting point of CCP thinking on AI in the deep learning era. It came after a dual Sputnik moment for China in 2016, the year that AlphaGo handily beat South Korean Go champion Lee Sedol, and the Obama administration (remember them?) published a national [AI plan](https://obamawhitehouse.archives.gov/sites/default/files/whitehouse_files/microsites/ostp/NSTC/preparing_for_the_future_of_ai.pdf) for the US.
 
 Unfortunately, one of the key ways the NGAIDP continues to be [referenced](https://jamestown.org/agi-has-quietly-become-central-to-beijings-ai-strategy/) is as support for the idea that the Chinese leadership has had a long-standing goal of developing AGI, which the document does not clearly provide evidence for. In this post, I will explain why **this interpretation of the original Chinese is problematic at best, and most likely mistaken**. (One section involves getting quite into the weeds of Chinese grammar/stylistics — I’ve marked this one “optional,” as if you are actually required to read the other sections, which of course you are not.)
@@ -22,11 +29,11 @@ First, the positive case. If you Google Translate “artificial general intellig
 It’s a very simple logic:
 
 1.  The NGAIDP lists China’s scientific and technological goals in AI.
-    
+
 2.  The characters 通用人工智能 (_tōngyòng réngōngzhìnéng_) appear in the NGAIDP.
-    
+
 3.  Therefore, “AGI” is one of China’s scientific and technological goals in AI.
-    
+
 
 QED.
 

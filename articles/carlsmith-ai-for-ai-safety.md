@@ -9,7 +9,15 @@ description: "We should try extremely hard to use AI labor to help address the a
 tags:
   - "obsidian-web-clipper"
 ---
-*(Audio version* [*here*](https://joecarlsmithaudio.buzzsprout.com/2034731/episodes/16790183-ai-for-ai-safety) *(read by the author), or search for "Joe Carlsmith Audio" on your podcast app.* 
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
+*(Audio version* [*here*](https://joecarlsmithaudio.buzzsprout.com/2034731/episodes/16790183-ai-for-ai-safety) *(read by the author), or search for "Joe Carlsmith Audio" on your podcast app.*
 
 *This is the fourth essay in a series that I’m calling “How do we solve the alignment problem?”. I’m hoping that the individual essays can be read fairly well on their own, but see* [*this introduction*](https://joecarlsmith.substack.com/p/how-do-we-solve-the-alignment-problem) *for a summary of the essays that have been released thus far, and for a bit more about the series as a whole.)*
 
@@ -42,7 +50,7 @@ The big question, though, is whether we’ll actually be *able* to do AI for AI
 By “AI for AI safety,” I mean: any strategy that makes central use of future AI labor to improve our civilization’s competence with respect to the alignment problem, *without* assuming a need for radical, human-labor-driven alignment progress first. Let’s go through a few options in this respect, for the different security factors above.
 
 - **Safety progress**:
-	- Probably the most prominent application of AI for AI safety is **automated alignment research** – that is, using AIs to help with research on shaping AI motivations and local options in desirable ways.[^1] 
+	- Probably the most prominent application of AI for AI safety is **automated alignment research** – that is, using AIs to help with research on shaping AI motivations and local options in desirable ways.[^1]
 		- AIs already play an important role in various processes closely relevant to alignment – e.g. [evaluating AI outputs during training](https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback), [labeling neurons in the context of mechanistic interpretability](https://openai.com/index/language-models-can-explain-neurons-in-language-models/), [monitoring AI chains of thought for reward-hacking behaviors](https://openai.com/index/chain-of-thought-monitoring/), [identifying which transcripts in an experiment contain alignment-faking behaviors](https://www.anthropic.com/research/alignment-faking), [classifying problematic inputs and outputs for the purpose of preventing jailbreaks](https://www.anthropic.com/news/constitutional-classifiers), etc. And of course, alignment researchers can benefit from the same general AI tools (e.g. coding, writing, brainstorming) that everyone else can; and the same tools for ML engineering, in particular, that other ML researchers can.
 		- In the future, though, we can imagine AIs that more fully automate the complete pipeline involved in generating new alignment-relevant ideas, critiquing them, identifying and running informative experiments, interpreting the results, and so on.[^2] Indeed, automation of this kind is a key focal point for safety efforts at some existing AI labs[^3]; and in my view, it’s the most important application of AI for AI safety. In my next essay, I’ll examine it in depth.
 	- Beyond automated alignment research, though, advanced AIs can also help with **hardening the broader world** so that it is more robust to efforts by rogue AIs to seek power.[^4] For example:
@@ -74,7 +82,7 @@ Analyzing all of these potential applications of AI for AI safety in detail is b
 
 ## 2.1 A tale of two feedback loops
 
-Here’s a way of thinking about “AI for AI safety” that I’ve found useful.[^13] 
+Here’s a way of thinking about “AI for AI safety” that I’ve found useful.[^13]
 
 The scariest AI scenarios, in my opinion, involve what we might call an “AI capability feedback loop,” in which the automation of the R&D involved in advancing AI capabilities leads to rapid escalation of frontier AI capabilities – the so-called “intelligence explosion.”[^14] Here’s a simple diagram, applied to the toy model of AI safety I described in my last essay (and focusing, for even more simplicity, only on a single actor).[^15]
 
@@ -148,7 +156,7 @@ Note that in principle, different security factors might have different sweet sp
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/f45d9ff6729b7065f25940354d80807bcb50d392ada44313130215e6d7261061/ksakanzewp5ofh9mq3bh)
 
-Indeed, some strategies in the vicinity of “AI for AI safety” have roughly the following structure:[^31] 
+Indeed, some strategies in the vicinity of “AI for AI safety” have roughly the following structure:[^31]
 
 - **Step 1**: Get to/create the AI for AI safety sweet spot.
 - **Step 2**: Stay there for as long as possible.
@@ -176,13 +184,13 @@ Let’s call this sort of capability level the “AI for AI safety spicy zone.�
 
 I’m calling this zone “spicy” because it involves entering what I called, in the appendix of my second essay, a “[vulnerability to motivations](https://joecarlsmith.substack.com/i/157445591/appendix-a-typology-of-vulnerability-conditions)” condition. That is: AIs, at this point, are in a position to disempower humanity, and we are relying on them to choose not to do so. This is a much scarier position to be in than one in which the AIs have no such option.[^34]
 
-Note, though, that [as I discussed in my second essay](https://joecarlsmith.substack.com/i/157445591/what-about-the-incentive-prerequisites), the vulnerability at stake in the AI for AI safety spicy zone still comes along a spectrum. In particular: it increases when AI systems can disempower humanity via *more* paths, *more* easily[^35]; when smaller numbers of AIs can do it, with less coordination; and so on.[^36] 
+Note, though, that [as I discussed in my second essay](https://joecarlsmith.substack.com/i/157445591/what-about-the-incentive-prerequisites), the vulnerability at stake in the AI for AI safety spicy zone still comes along a spectrum. In particular: it increases when AI systems can disempower humanity via *more* paths, *more* easily[^35]; when smaller numbers of AIs can do it, with less coordination; and so on.[^36]
 
 ## 4.2 Can we benefit from a sweet spot?
 
 Will we be in a position to benefit from an AI for AI safety sweet spot? It’s not all clear. Here I’ll note a few salient worries. (And note that these worries can apply to milder versions of the “spicy zone” as well.)
 
-The first is just that: there won’t be a sweet spot at all. That is: by the time frontier AIs are capable enough to radically improve our civilizational competence, they’ll also be in a position to disempower humanity, even given our countermeasures. Call this a “no sweet spot view.”[^37] 
+The first is just that: there won’t be a sweet spot at all. That is: by the time frontier AIs are capable enough to radically improve our civilizational competence, they’ll also be in a position to disempower humanity, even given our countermeasures. Call this a “no sweet spot view.”[^37]
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/db10664a25f9ee48bc87480824ce41d70ac3b9bf2476d8affc67dd5f02f52ec6/imm9gvtuhwx3zcbjqeri)
 
