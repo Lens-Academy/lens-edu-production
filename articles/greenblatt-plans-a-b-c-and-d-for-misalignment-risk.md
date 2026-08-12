@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 I sometimes think about plans for how to handle misalignment risk. Different levels of political will for handling misalignment risk result in different plans being the best option. I often divide this into Plans A, B, C, and D (from most to least political will required). See also [Buck’s quick take about different risk level regimes](https://www.lesswrong.com/posts/tmWMuY5HCSNXXZ9oq/buck-s-shortform?commentId=TNFatFiqHd8BpAXEp).
 
 In this post, I’ll explain the Plan A/B/C/D abstraction as well as discuss the probabilities and level of risk associated with each plan.

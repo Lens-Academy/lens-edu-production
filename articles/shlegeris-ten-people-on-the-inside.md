@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 (Many of these ideas developed in conversation with Ryan Greenblatt)
 
 In a [shortform](https://www.lesswrong.com/posts/tmWMuY5HCSNXXZ9oq/buck-s-shortform?commentId=TNFatFiqHd8BpAXEp), I described some different levels of resources and buy-in for misalignment risk mitigations that might be present in AI labs:

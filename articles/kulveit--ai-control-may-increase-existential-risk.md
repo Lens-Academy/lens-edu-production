@@ -17,8 +17,8 @@ Add discussion note here:
 
 %%
 
-*Epistemic status: The following isn't an airtight argument, but mostly a guess how things play out.*
-
+*Epistemic status: The following isn't an airtight argument, but mostly a guess how things play out.*  
+  
 Consider two broad possibilities:
 
 I. In worlds where we are doing reasonably well on alignment, AI control agenda does not have much impact.
