@@ -19,13 +19,9 @@ Unit 1 laid out what could happen. This one asks how anyone could know.
 
 The track record of AI prediction is bad, and bad in a patterned way rather than randomly. That is the floor this unit starts from. Everything in it is a response to that floor, and none of the responses is a fix.
 
-Three things happen from here. First, the evidence on what actually correlates with forecasting accuracy, which is not what most people would guess, and the procedure that follows from it. Second, the internals: what a forecast is made of, what a trend line assumes, and the several distinct ways the parts of a system can interact so that the obvious arithmetic is the wrong arithmetic. Third, what happens to all of it when the thing you are forecasting can hear you.
+What follows: the evidence on what actually correlates with forecasting accuracy, which is not what most people would guess. Then the internals, what a forecast is made of, what a trend line assumes, and the several distinct ways the parts of a system can interact so that the obvious arithmetic is the wrong arithmetic. Then what happens to all of it when the thing you are forecasting can hear you.
 
-Two warnings about the tests. There is one at the end of each of the next three sections, not a single set at the end of the unit.
-
-They are not about the readings. You will be handed questions from transport, radiology, chemical engineering, and synthetic biology, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately.
-
-And you will be tested before you read, on much of this, and again afterwards. The second time will not be the same question in the same clothes. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.
+A test sits at the end of each of the next three sections, and none of them is about the readings. You will be handed questions from transport, radiology, and chemical engineering, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.
 
 # Submodule: What predicts accuracy
 
@@ -35,13 +31,13 @@ source:: [[../Learning Outcomes/Decomposing an unanswerable question]]
 # Lens: What Would Settle It - PQ
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]
 
-# Lens: {++{"author":"Lauren's AI","timestamp":1786436704198}@@The Track Record
+# Lens: The Track Record
 source:: [[../Lenses/U2 - The Track Record]]
 
 # Lens: The Decomposition Loop
 source:: [[../Lenses/U2 - The Decomposition Loop]]
 
-# Lens: ++}Reference Classes And Their Denominators
+# Lens: Reference Classes And Their Denominators
 source:: [[../Lenses/U2 - Reference Classes And Their Denominators]]
 optional:: true
 
