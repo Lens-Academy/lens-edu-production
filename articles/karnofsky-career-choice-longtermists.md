@@ -15,6 +15,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 This post summarizes the way I currently think about career choice for longtermists. I have put much less time into thinking about this than [80,000 Hours](http://www.80000hours.org), but I think it's valuable for there to be multiple perspectives on this topic out there.
 
 While the jobs I list overlap heavily with the jobs [80,000 Hours lists](https://80000hours.org/key-ideas/#priority-paths), I organize them and conceptualize them differently. 80,000 Hours tends to emphasize "**paths**" to particular roles working on particular causes; by contrast, I emphasize "**aptitudes**" one can build in a wide variety of roles and causes (including non-effective-altruist organizations) and then apply to a wide variety of longtermist-relevant jobs (often with options working on more than one cause). Example aptitudes include: "helping organizations achieve their objectives via good business practices," "evaluating claims against each other," "communicating already-existing ideas to not-yet-sold audiences," etc.

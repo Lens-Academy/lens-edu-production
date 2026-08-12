@@ -20,7 +20,7 @@ This treaty belongs to a family of proposals. Evals and if-then commitments say:
 
 Before you start, decide where it breaks. Every agreement has to be signed, then verified, then enforced. Nearly everyone who dismisses this plan points at one of those three steps. Pick yours first. Then you can see how much of the text is aimed at that step.
 
-If you want the authors' own answers to the obvious objections, their section 5 is a FAQ, collapsed below the excerpt. The full draft treaty, article by article, is Appendix A of the same paper, also collapsed below. The team publishes its other work at https://techgov.intelligence.org.
+Their section 5 answers the obvious objections, and Appendix A is the treaty itself, article by article. Both sit below the excerpt. The team publishes its other work at https://techgov.intelligence.org.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 

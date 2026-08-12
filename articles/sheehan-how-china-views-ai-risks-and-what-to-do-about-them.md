@@ -12,6 +12,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ![How China Views AI Risks and What to do About Them](https://assets.carnegieendowment.org/_/eyJrZXkiOiJzdGF0aWMvbWVkaWEvaW1hZ2VzL2lTdG9ja19DaXJjdXQgYm9hcmQgdGV4dHVyZV8xNDIweDc3MC0xLmpwZyJ9)
 
 Source: Getty
