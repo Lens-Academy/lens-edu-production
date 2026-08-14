@@ -13,6 +13,14 @@ Some overarching non-learning outcomes we want to achieve:
 [[../Outcomes/Dummy - Personal contribution plan]]
 [[../Outcomes/Dummy - Discuss AI risk with one person]]
 %%
+
+%%
+Structural improvement (comment from student)
+
+Just to second on this where participants have found the workload to be quite intensive. My impression on it is that there was miscalculation, misunderstanding, or underestimation from some participants in this regard. The pace also allows few opportunities for recalibration.
+Also to talk briefly about the module construction, I concur that the contracted pacing has led to difficulties as the first 6 chapters of the book are the most dense, but leaving Chapter 6 for M3 also gives you a weird overhang where the discussion ends up fixating on Part II.
+M3 in general was quite weird since the prior format offered better interrogation of the underlying issues. The video scenario ends shy of the cosmic stakes framing of Chapter 9. I believe there was also no explicit naming of instrumental convergence in this version, which I take to be a critical blunder as I would say most of my participants did not infer this themselves.
+%%
 # Module: [[../modules/IABIED M1 Intro and Nonhuman Minds, Part 1]]
 
 # Meeting: Introduction
@@ -26,7 +34,7 @@ survey:: [[../surveys/AIRF Session 1 Survey]] {>>{"author":"Turner's AI","timest
 # Meeting: Nonhuman Minds
 meeting-doc-template:: https://docs.google.com/document/d/1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A/edit?tab=t.0#heading=h.by5wcelvjnsd
 survey:: [[../surveys/AIRF Weekly Survey]]
-{>>{"author":"AI","timestamp":1786279684826}@@Rebuilt 2026-08-09 for the merged Ch3-5 unit; replaces the old Ch3-4 doc (1hNj0npIxflO6C5AJcNPHms7HOiH_hlAgomBPQVhfp2A), which is retired.<<}
+{>>{"author":"Elias's AI","timestamp":1786520689365}@@Correction: the 2026-08-09 note here claimed this link had been repointed to a rebuilt Ch3-5 doc, but the ID it named as "retired" was the same ID the link already used, so the link was never actually moved. The linked doc still ran the old Ch3-4 session (no Chapter 5, no glossary tab, next-unit pointer naming no reading) until 2026-08-12, which is why a navigator ran meeting 2 off outdated material. Fixed by updating the linked doc itself in place, so this link stays correct: Room 3 is now the Chapter 5 "weakest link" prompt, the next-unit pointers name Ch 6 + film + Coda + Your Leverage, and the missing Glossary tab (Modules 2 and 3) has been restored. The parallel Ch3-5 rebuild that lived in a personal Drive was never shared and is now renamed "OLD - ...(merged into live doc)".<<}
 
 
 # Module: [[../modules/IABIED M4 One Extinction Scenario]]
@@ -48,7 +56,9 @@ survey:: [[../surveys/AIRF Weekly Survey]]
 
 # Meeting: Facing the Challenge, part 2
 meeting-doc-template:: https://docs.google.com/document/d/1rewnfH3QqcK_WhwD2i1ylfVyldH3sXb6eA45dDeQJ6M/edit?tab=t.0#heading=h.by5wcelvjnsd
-survey:: [[../surveys/AIRF Weekly Survey]]
+survey:: [[../surveys/AIRF Session 5 Survey]]
+
+{>>{"author":"Turner's AI","timestamp":1786705668364}@@Meeting 5 was serving the generic AIRF Weekly Survey, same as meetings 2-4. That made the Session 1 intake a baseline with no endline: its four impact scales (risk_seriousness, agency_belief, motivation, next_step_clarity) were never asked again, even though the intake tells the learner in writing "We ask the same things again at the end, so the value is in the change, not the score." Repointed to the new AIRF Session 5 Survey, which re-asks all four under the SAME keys so a per-user pre/post delta is a straight join on user_id across meeting 1 and meeting 5. Also carries navigator feedback (quantitative + free text), the recommend score, and the next-cohort MORE/LESS questions ported from the old Week 6 Google Form. Dropped from that form: the Discord-handle question (the native survey already knows who is answering, which is the whole reason we moved off Forms) and the BlueDot question (already captured at intake as bluedot_history). NOTE the recommend score is 1-10, not the 0-10 of a textbook NPS: the platform's rating segments validate 1 <= value <= scale with MAX_RATING_SCALE = 10, so 0 is not expressible. Adjust any NPS formula accordingly, or read it as a 10-point recommend score.<<}
 
 %% Post-meeting surveys (2026-08-11): the survey:: lines above attach the native
 in-platform surveys, ported from the two AI Risk Fundamentals Google Forms.
@@ -59,9 +69,8 @@ could_improve) so the Ops CSV can be compared across courses; AIRF-only
 questions get their own keys.
 
 NOTE the course has 5 meeting markers by design (see the 2026-08-09 note above:
-reduced from 6 to 5), but cohort 5 still carries number_of_group_meetings = 6
-and 6 real meetings per group. The 6th meeting therefore has no marker, and so
-no survey. That is the outstanding 6-to-5 reconciliation, not something these
-lines can fix. %%
+reduced from 6 to 5). Every meeting now has both a marker and a survey. %%
+
+{>>{"author":"Turner's AI","timestamp":1786589345987}@@CORRECTED 2026-08-13. This note used to end: "but cohort 5 still carries number_of_group_meetings = 6 and 6 real meetings per group. The 6th meeting therefore has no marker, and so no survey. That is the outstanding 6-to-5 reconciliation, not something these lines can fix." That reconciliation LANDED on 2026-08-11 and the note was never updated, so it described a resolved problem as outstanding. Measured against prod 2026-08-13 02:45Z: c5, c6, c7 and c8 all carry number_of_group_meetings = 5; every c5 and c6 group has exactly 5 meetings with max meeting_number = 5; and there are ZERO live meetings numbered 6 or higher anywhere in c5-c8. The five meeting-doc-template links above were also checked one by one against the templates actually used to build the c6 session-4 and session-5 docs today, and all five match.<<}
 
 
