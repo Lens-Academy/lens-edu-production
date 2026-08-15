@@ -63,6 +63,10 @@ source:: [[../Learning Outcomes/Aggregating estimates that share information]]
 # Lens: The Model And Its Authors
 source:: [[../Lenses/U2 - The Model And Its Authors]]
 
+# Lens: AI 2027 - The Choice To Slow Down
+source:: [[../Lenses/U2 - AI 2027 - The Choice To Slow Down]]
+optional:: true
+
 # Lens: Three People Agreeing - PQ
 source:: [[../Lenses/U2 - Three People Agreeing - PQ]]
 
@@ -73,6 +77,20 @@ source:: [[../Lenses/U2 - Average Then Extremize]]
 
 # Lens: A Forecast Is An Action
 source:: [[../Lenses/U2 - A Forecast Is An Action]]
+
+# Lens: AI 2040 - First Three Years
+source:: [[../Lenses/U2 - AI 2040 First Three Years]]
+optional:: true
+
+# Lens: Selective Optimism
+source:: [[../Lenses/U2 - Selective Optimism]]
+
+# Lens: The Parable of Predict-O-Matic
+source:: [[../Lenses/U2 - The Parable of Predict-O-Matic]]
+optional:: true
+
+# Lens: When a Forecast Becomes an Action
+source:: [[../Lenses/U2 - A Forecast Is An Action - Questions]]
 
 # Lens: Going Further On Timelines
 source:: [[../Lenses/U2 - Going Further On Timelines]]
