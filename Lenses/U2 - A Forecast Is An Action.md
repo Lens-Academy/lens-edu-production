@@ -10,7 +10,13 @@ authors:
 content::
 \## Reading Assignment
 
-Two readings. Read them in this order.
+Two readings, plus an optional one you may want first. Read them in this order.
+
+**0. *AI 2040: Plan A*, the scenario Ngo is arguing with.** (optional, about fifteen minutes)
+
+Ngo's critique is about one specific document. Its first three years are below, so you can check his account against it.
+
+Two things about it. Its authors are advocating a plan, not only predicting one. And it stops at a choice rather than after one.
 
 **1. *Selective Optimism: a critique of AI 2040*, by Richard Ngo.**
 
@@ -25,6 +31,10 @@ As you read the second one, keep this question in mind. At what point does the m
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 ---
+
+#### Article
+source:: [[../articles/ai-2040-plan-a]]
+optional:: true
 
 #### Article
 source:: [[../articles/ngo-selective-optimism-critique-of-ai-2040]]
