@@ -52,19 +52,20 @@ Response style:
 
 #### Article
 source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
+to:: s stakes, both in terms of potential benefits and potential risks.
 
 #### Text
 content::
-\## Optional: why the line might bend
+\## Optional: a doubling is hard to feel
 
-The chart you just read is close to a straight line on a log scale. It stays straight only while the thing producing it keeps working the same way.
+The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
 
-The clip below is two and a half minutes from a longer video by AI In Context. It gives one reason the line could bend upward: AI systems doing the work of improving AI systems.
+The clip below is about eighty seconds from a longer video by AI In Context. It is the plainest statement of that gap we could find: your intuition expects things to grow at a steady rate, a doubling does not, and the example it uses is March 2020.
 
-It also makes a point that is worth more than the mechanism. In a scenario you are handed the whole picture at once. Somebody living through the same events would not be.
+Watch it for the feeling rather than the maths, then look at the chart again.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]
-from:: 4:55
-to:: 7:25
+from:: 6:05
+to:: 7:22
 optional:: true
