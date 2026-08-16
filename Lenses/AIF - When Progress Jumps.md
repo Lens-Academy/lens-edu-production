@@ -68,6 +68,13 @@ Read the 14% carefully. It is progress-weighted: 14% of total progress arrived i
 
 #### Article
 source:: [[../articles/grace-discontinuous-progress-in-history]]
+from:: ## I. The search for discontinuities
+to:: YBa2Cu3O7 as a superconductor, 1987
+
+#### Article
+source:: [[../articles/grace-discontinuous-progress-in-history]]
+from:: ## IV. Summary
+to:: Growth rates sharply changed in many trends
 
 #### Question
 content::

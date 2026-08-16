@@ -50,7 +50,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: ## Post-AGI takeoff forecasts
+to:: Our previous model with median parameters predicted superhuman coder
 
 #### Question
 content::
@@ -82,7 +82,7 @@ After 2 tutor replies, close the phase and send them on.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## How our model works
-to:: ## Timelines and takeoff forecasts
+to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
 #### Question
 content::
@@ -116,7 +116,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
-to:: ## Comparison to our previous
+to:: this list is nowhere near exhaustive
 
 #### Question
 content::
@@ -154,7 +154,7 @@ What to do in each reply:
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
-to:: ## Takeoff from Superhuman Coder onward
+to:: You can read more about these changes and their effects in our
 
 #### Question
 content::
