@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Passivity is in tension with usefulness.
 
 Could developers make their AIs *passive*? A screwdriver doesn't go on turning screws when you put it down. Similarly, we could imagine developers trying to make AIs that do exactly what you ask for and no more — that take no extra initiative and do no extra work.

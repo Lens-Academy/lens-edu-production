@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### The time has passed for playing political games.
 
 Some have argued that people concerned about the race to build superintelligence should hide their views and instead talk about AI-caused job loss, or the problem of ChatGPT-enabled bioterrorists, or how much water it takes to cool the computers inside datacenters. We think that this approach is too clever by half and is likely to backfire. Indeed, we have already seen it backfire on various occasions.

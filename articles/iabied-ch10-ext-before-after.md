@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 As mentioned in the chapter, the fundamental difficulty researchers face in AI is this:
 
 You need to align an AI **Before** it is powerful enough and capable enough to kill you (or, separately, to resist being aligned). That alignment must then *carry over to different conditions,* the conditions **After** a superintelligence or set of superintelligences[\*](#ftnt250) could kill you if they preferred to.

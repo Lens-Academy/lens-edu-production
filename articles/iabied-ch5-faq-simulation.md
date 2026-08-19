@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### There are many ways for an AI to figure out that it's not in a simulation.
 
 One proposal we've heard from AI researchers[\*](#ftnt185) is to try to trick the AI into thinking that it's in a simulation. Start by training the AI in a small simulation; then release it into a larger simulation. Repeat this process a few times, and one might hope to make the AI uncertain about whether it's *really* in the real world, even when we do deploy it. Then, even when it sees that it *could* wrest control of the world away from us, perhaps it'll worry that the creatures it sees aren't the *real* creators of the AI and will stay its hand.

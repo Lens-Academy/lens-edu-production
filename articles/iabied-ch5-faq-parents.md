@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### It seems quite unlikely.
 
 One hope we've heard about AI is that it might treat humanity well because it views us as its "parents." Unfortunately, this hope seems misplaced.

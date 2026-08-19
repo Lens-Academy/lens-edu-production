@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Past AI progress hasn't required much understanding of intelligence.
 
 As explained in Chapter 2, the AI field has achieved its recent feats by employing gradient descent, a process that does not require humans to understand intelligence. Humans have gotten really quite far without needing to understand intelligence.

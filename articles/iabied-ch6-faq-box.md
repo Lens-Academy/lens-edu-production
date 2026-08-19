@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### They won't.
 
 Fifteen years ago, skeptics used to object that nobody would be dumb enough to give an AI much freedom of action. Surely anyone building an advanced machine intelligence would keep it in a physical and digital box, only allowing it to affect the world by interacting with highly trained (and suitably paranoid) gatekeepers.

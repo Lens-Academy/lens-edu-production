@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Yes, but this doesn't help much.
 
 If you put a million monkeys on typewriters, they aren't going to produce the collected works of Shakespeare.

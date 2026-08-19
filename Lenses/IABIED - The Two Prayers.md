@@ -9,7 +9,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-**Read *Closing Words* in full.**
+**From *If Anyone Builds It, Everyone Dies*, read *Closing Words* in full.**
 
 Return here after reading.
 

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### A Dialogue on Correct Nests, Continued
 
 In Chapter 5, we told the story of the Correct-Nest aliens, who evolved to find it deeply and intuitively "correct" to have a prime number of stones in one's nest. We might imagine a branch of their conversation that continues as follows:

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### AIs are grown, not crafted. So they already do things other than what they're told to do.
 
 In the online resources, we previously [talked about](/2/dont-hallucinations-show-that-modern-ais-are-weak) the case of hallucinations, where AIs that are instructed to say "I don't know" go ahead and confabulate anyway. They seem to do this in situations where confabulation better imitates the sort of answer that would appear in their training corpus.[\*](#ftnt80)

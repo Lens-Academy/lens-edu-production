@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### No. The worry is about forthcoming advances in AI.
 
 Part of why you're reading this book now is that developments like ChatGPT have brought AI into the news. The world is now beginning to discuss AI progress and the way that AI impacts society. This presents a natural opportunity to discuss smarter-than-human AI, and how the current situation is not looking good.

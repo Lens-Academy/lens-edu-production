@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### If AI values "fascination," it probably has better options.
 
 The story here is similar to the story for [filial love](/5/will-ai-treat-us-as-its-parents):

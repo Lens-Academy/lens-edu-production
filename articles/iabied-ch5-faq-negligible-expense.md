@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### There are many negligible expenses, and it would need a reason to pay ours.
 
 Keeping a pile of forty-one stones in your house would be a negligible expense, but you're almost surely not going out of your way to pay that expense.[\*](#ftnt175)

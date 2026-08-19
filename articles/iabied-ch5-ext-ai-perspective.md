@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Seeing the world from a truly alien perspective is genuinely difficult. As a case study in the difficulty, we can cite Jürgen Schmidhuber, a prominent machine learning scientist. Schmidhuber has played an important role in the history of the field, helping invent recurrent neural networks and laying some of the groundwork for the deep learning revolution.
 
 In various [papers](https://arxiv.org/abs/0812.4360) and [interviews](https://www.youtube.com/watch?v=fZYUqICYCAk), Schmidhuber made the case that AI will be, by default, fascinated by humanity and protective of humans.

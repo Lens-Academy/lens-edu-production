@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Because it constitutes our actual best guess according to what's physically possible.
 
 Chapter 9 depicts a superintelligence pushing its technology all the way to the limits of physical possibility. The exact technologies we name are all speculative, in a sense — but even though the *exact* technology that a superintelligence would unlock is difficult to call, the fact that it would run close to the physical limits is an easier call. So we made our best guesses about how technology would look if it were pushed close to the physical limits of what's possible.

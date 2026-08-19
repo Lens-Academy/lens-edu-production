@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It isn't clear, but researchers are finding ways to overcome old LLM limitations.
 
 People used to say: "LLMs only think in a single pass and can't perform long or recursive chains of reasoning." Now LLMs are being used to produce long chains of reasoning that the models then review and extend. This has enhanced the abilities of modern AIs.

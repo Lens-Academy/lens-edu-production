@@ -10,7 +10,7 @@ authors:
 #### Text
 content::
 \## Reading Assignment
-**Read *I Don't Want to Be Alarmist*.** Start at the beginning and stop when you reach
+**From *If Anyone Builds It, Everyone Dies*, read *I Don't Want to Be Alarmist*.** Start at the beginning and stop when you reach
 > With ASI, there is no second time.
 
 Return here after reading.

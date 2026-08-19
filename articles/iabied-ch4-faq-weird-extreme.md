@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### The weirdness is evidence that their actual pursuits aren't our intended pursuits.
 
 This matters more as the AI gets more options. Once an AI becomes superintelligent, practically every choice becomes extreme, as the AI gains access to a world of different options that no human or AI has ever had. Like how almost all of your food options, here in a technological civilization, are "extreme" compared to what options your ancestors had available to them.

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Kindness looks contingent on the particulars of our biology and ancestry.
 
 Kindness does not look like the sort of property that every mind ends up with, for a variety of reasons. Here's four, which we cover in more depth in the extended discussions:

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Not necessarily, and this seems like a separate topic.
 
 *If Anyone Builds It, Everyone Dies* doesn't discuss machine consciousness at all, focusing instead on machine *intelligence*. As a first step in talking about consciousness, we should first clarify what kind of "consciousness" we have in mind.

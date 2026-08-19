@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 In a 2023 [briefing](https://x.com/martin_casado/status/1720517026538778657) to the U.S. President and in a later [advisory statement](https://committees.parliament.uk/writtenevidence/127070/html/) to the U.K. Parliament, the venture capital firm Andreessen Horowitz claimed that some unspecified "recent advancements" had "resolved" the problem of AIs' internal reasoning being opaque to researchers:

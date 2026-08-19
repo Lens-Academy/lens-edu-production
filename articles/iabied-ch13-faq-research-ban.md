@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### More breakthroughs might make it effectively impossible to stop people from making superintelligence.
 
 In the book, we mentioned how a single paper in 2017 kicked off the entire LLM revolution by describing an algorithm that made it practical to train useful AIs on specialized commercial hardware.

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### The human preference for ecological preservation looks like another weird contingent drive.
 
 One hope we've heard is that AIs might keep humans around in much the way humans try to preserve nature. Conservationists fight to keep species from going extinct. Being smarter and more capable, AIs should have an easy time protecting humans — that is, assuming AIs *want* to keep humans around.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Predicting tokens requires understanding the world.
 
 Imagining that an AI that predicts the next token can't do real thinking is like imagining that a picture encoded using binary 1s and 0s can't portray a red flower. The AI is producing tokens, yes, but you can encode important things into tokens! Predicting what comes next is a core aspect of intelligence into which processes like "science" and "learning" readily fit.

@@ -2,7 +2,7 @@
 id: bb0ace07-d21c-43e0-80dd-be00cd785c3d
 slug: iabied-m1
 title: "Introduction: Grown, Not Crafted"
-readings:
+readings: 
   - "Introduction: Hard Calls and Easy Calls"
   - "Chapter 1: Humanity's Special Power"
   - "Chapter 2: Grown, Not Crafted"
@@ -16,7 +16,9 @@ tldr:: Welcome to the book club for *If Anyone Builds It, Everyone Dies*. Here i
 summary_for_tutor:: Course-orientation lens for the IABIED book club. Explains the format (roughly 30 pages of reading per unit plus about an hour of tutor chat, an hour of homework, and a 90-minute meeting; one unit swaps most of its reading for a 30-minute film), the five-unit structure and Discord cohort assignments, the intended per-unit flow (pre-questions, reading, tutor discussion, optional exploration), and the community goals. Sets expectations and time commitment before chapter content begins.
 
 #### Text
-content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club. We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments each week in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
+content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club.
+
+You'll need your own copy of the book, in print, e-book, or audio format. If you don't have one yet, [see available formats and places to buy it](https://lensacademy.org/if-anyone-builds-it-everyone-dies). We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments each week in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
 The reading requirement is quite modest. We cover roughly 30 pages of the book per unit, approximately 1 hour of reading (one unit swaps most of its reading for a 30-minute film). However, we'll also expect that each student will spend
 - 1 hour chatting with the tutor and exploring supplementary materials,
@@ -36,7 +38,7 @@ Our target flow for reading the book looks like:
 3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
 4. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
-\### Community
+\### Community 
 We hope this book club will also help grow the AI safety community. Some of these topics are counterintuitive, scary, and maybe even depressing. We hope working through this material with a group of like-minded individuals will give you the opportunity to give and receive support in working through this challenging problem. We also notice that it takes most people time to find their niche for contributing to AI safety. An important part of that exploration process is meeting others in the community, having conversations, and learning what different groups and organizations are up to. Take the opportunity to start building your network during this course by staying active between meetings.
 
 Don't save your questions and insights for the meeting day, post them into Discord as soon as they arise!

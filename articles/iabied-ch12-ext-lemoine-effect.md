@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 We've sometimes heard it suggested that some future AI behavior or misuse — an AI "warning shot" — will suddenly shock the world into taking these issues seriously.
 
 This seems like a possibility. But we think there's a stronger possibility that such an event never comes; or that it comes too late for the world to respond in time; or that the world responds, but in misguided and confused ways.

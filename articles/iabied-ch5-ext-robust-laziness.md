@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 Why not just make AIs lazy?
 
 [Incorrigibility](/5/intelligent-usually-implies-incorrigible) and other forms of [instrumental convergence](/5/instrumental-convergence) are, in a sense, a problem of the AI *trying too hard* to achieve its goals. If the AI didn't "go hard" on achieving its goals, it wouldn't put so much thought and effort into outmaneuvering its programmers, exfiltrating its weights, or trying to gain power and resources in the larger world.
