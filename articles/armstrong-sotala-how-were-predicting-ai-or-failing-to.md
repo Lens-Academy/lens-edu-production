@@ -416,18 +416,20 @@ that give good feedback, then expert performance drops precipitously (Kahneman a
 Klein 2009; Kahneman 2011).
 10
 Stuart Armstrong, Kaj Sotala
-Table 1: Table of task properties conducive to good and poor expert performance.
-Good performance: Poor performance:
-Static stimuli Dynamic (changeable) stimuli
-Decisions about things Decisions about behavior
-Experts agree on stimuli Experts disagree on stimuli
-More predictable problems Less predictable problems
-Some errors expected Few errors expected
-Repetitive tasks Unique tasks
-Feedback available Feedback unavailable
-Objective analysis available Subjective analysis only
-Problem decomposable Problem not decomposable
-Decision aids common Decision aids rare
+Table 1: Task properties conducive to good and poor expert performance.
+
+| Good performance | Poor performance |
+| --- | --- |
+| Static stimuli | Dynamic (changeable) stimuli |
+| Decisions about things | Decisions about behavior |
+| Experts agree on stimuli | Experts disagree on stimuli |
+| More predictable problems | Less predictable problems |
+| Some errors expected | Few errors expected |
+| Repetitive tasks | Unique tasks |
+| Feedback available | Feedback unavailable |
+| Objective analysis available | Subjective analysis only |
+| Problem decomposable | Problem not decomposable |
+| Decision aids common | Decision aids rare |
 Table 1 applies to both domain and task. Any domain of expertise strongly in the
 right column will be one where we expect poor expert performance. But if the individual
 expert tries to move their own predictions into the left column (maybe by decomposing
@@ -512,7 +514,7 @@ for AIs with human-comparable cognitive abilities. Researchers from the Singular
 Institute have assembled a database of 257 AI predictions since 1950, of which 95 in-
 clude AI timelines.
 4.1. Subjective Assessment
-A brief glance atTable 1 allows us to expect that AI timeline predictions will generally be
+A brief glance at Table 1 allows us to expect that AI timeline predictions will generally be
 of very poor quality. The only factor that is unambiguously positive for AI predictions is
 that prediction errors are expected and allowed: apart from that,the task seems singularly
 difficult,especially on the key issue of feedback. An artificial intelligence is a hypothetical
