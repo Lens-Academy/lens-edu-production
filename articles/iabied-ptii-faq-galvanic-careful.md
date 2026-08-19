@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### To provide a challenge to Sable.
 
 If Galvanic, the makers of Sable, stumbled their way into developing a superintelligence without taking *any* precautions to keep it controlled (such as having AI supervisors and honeypots), readers might feel as though the AI succeeded only because we were being cynical about AI companies.

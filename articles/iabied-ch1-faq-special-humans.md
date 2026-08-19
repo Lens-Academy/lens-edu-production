@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It seems unlikely, and not especially relevant.
 
 Human brains and bodies are made of parts, which we can study and come to understand. There is a lot we don't understand about the brain, but that doesn't mean the parts we don't understand run on magic, and that humans could never build anything similar. It just means that brains are enormously *complicated* machines. The human brain has hundreds of trillions of synapses, and we have a long way to go in understanding all of the important high-level principles at work.

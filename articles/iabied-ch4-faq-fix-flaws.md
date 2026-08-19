@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### The AI will fix what *it* sees as flaws.
 
 AIs today can't reforge themselves according to their whims any more than we can. *They* don't understand the mess of weights inside themselves any more than we understand the intricate tangle of neurons in our skulls.

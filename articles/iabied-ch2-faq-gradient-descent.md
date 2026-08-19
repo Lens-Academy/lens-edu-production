@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It's important for understanding how engineers can and cannot shape modern AIs.
 
 If engineers are growing AIs that they don't understand, then they have far less ability to shape how those AIs are going to behave. Lack of understanding constrains engineering.

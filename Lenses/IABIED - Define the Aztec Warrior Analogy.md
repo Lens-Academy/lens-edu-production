@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read Chapter 6: We'd Lose**, from the start to
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 6: We'd Lose*,** from the start to
 > And because we care about the truth more than about telling you things that are easy to swallow, that's where we'll start.
 
 Return here after reading.

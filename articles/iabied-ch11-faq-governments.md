@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It depends on how (and how soon) they get involved.
 
 When we visit Washington, DC, we often meet policymakers who think that the AI companies have their AIs under control. At the same time, we regularly see folks in the AI industry who say that regulation will fix the problem. A particularly egregious example we observed was the CEO of Google [saying](https://youtu.be/9V6tWC4CdFQ?feature=shared&t=2685) that the "underlying risk [of humanity being wiped out] is actually pretty high," but arguing that the higher the risk gets, the more likely that humanity will rally to prevent catastrophe.

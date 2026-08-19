@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### There is no "digital realm" independent of physical infrastructure.
 
 See the discussion in Chapter 5 about how there isn't a distinct Digital Realm and Material Realm.

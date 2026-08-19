@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read Chapter 6: We'd Lose**, from 
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 6: We'd Lose*,** from 
 > Suppose you sent a design for a refrigerator back in time by a thousand years—a simplified design, one that the blacksmiths of the day could actually build.
 
 to the end of the chapter.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 Decision theorists make a distinction between two different types of goal, "terminal" and "instrumental."
 
 A **terminal goal** is something you care about for its own sake, like fun, or delicious food.

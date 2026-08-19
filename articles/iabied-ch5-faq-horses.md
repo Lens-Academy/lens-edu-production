@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### What horses remain, remain because we like them.
 
 Having the same fate that horses had at the start of the 20th century — the same catastrophic collapse in population and massive upsurge in death, destroying [upwards of 80 percent of the horse population](https://datapaddock.com/usda-horse-total-1850-2012) from its peak around 1910 — would be the worst thing that has happened in human history. And that was in a world where horses continued to be economically useful for some farm work, as well as for sports and novelty experiences to sell to rich people.

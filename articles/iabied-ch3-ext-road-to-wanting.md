@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 *Why* is wanting an effective way of doing? Why does it *win*? Why does black-box optimization by natural selection stumble across this trick, over and over?
 
 We see "wantlike" behavior as integral to steering the world successfully. That applies not just to intelligent entities like humans or AIs, but also to much dumber entities like amoebas and thermostats. To more thoroughly explore this view, let's investigate some of the simplest possible mechanisms that exhibit the simplest possible form of "wantlike behavior."

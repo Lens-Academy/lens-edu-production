@@ -10,6 +10,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Because the situation seems genuinely serious and urgent.
 
 If you carefully consider a topic, you can sometimes see one of history's zigs or zags coming.

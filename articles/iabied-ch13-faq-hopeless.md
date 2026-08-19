@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 This is a fight we can win, and this world of ours is a world worth fighting for. It doesn't look easy, but it looks genuinely doable.

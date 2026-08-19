@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Probably.
 
 Modern AI progress looks incremental, from some points of view.[\*](#ftnt15) For instance, an organization called [METR](https://metr.org/) has been tracking [the ability of AIs to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), and it has been roughly following an exponential curve over the last few years. One could argue that this is comfortingly incremental.[†](#ftnt16) Does that mean that AI progress will be nice and slow and predictable?

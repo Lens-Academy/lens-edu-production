@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 Modern AI techniques do not yield AIs that do what their operators intend (as discussed in Chapter 4). Solving this problem is the sort of thing that would typically take humanity quite a lot of trial and error, and we have no room for error here (as discussed in Chapter 10).

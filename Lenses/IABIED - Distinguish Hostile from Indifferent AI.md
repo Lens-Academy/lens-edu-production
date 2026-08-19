@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read Chapter 5: Its Favorite Things**, from
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 5: Its Favorite Things*,** from
 > In a sense, that's all there is to it.
 
 to the end of the chapter.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It's hard to just unplug a datacenter.
 
 The most powerful AIs you interact with on your phone or computer don't live on your computer, and you can't shut them down by turning off your phone. Today's AIs run in corporate datacenters, and it's hard to get companies to turn off their revenue streams.

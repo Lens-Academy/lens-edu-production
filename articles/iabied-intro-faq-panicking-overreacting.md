@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Yes. But this doesn't mean that nothing is ever *actually* dangerous.
 
 Sometimes people overreact to problems. Some people are fatalistic. Some social panics are groundless. None of this means that we live in a perfectly safe world.

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We can hope so.
 
 Extra time can be significant, but only if humanity uses it to change its course.

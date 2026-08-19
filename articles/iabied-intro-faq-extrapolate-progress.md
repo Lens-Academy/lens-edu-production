@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We don't have a good enough understanding of intelligence for that.
 
 One class of successful predictions involves taking a straight line on a graph, one that has been steady for many years, and predicting that the straight line continues for at least another year or two.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Hollywood "Intelligence"
 
 The concept we're calling "intelligence" is not well-depicted in popular culture, under that name or any other.

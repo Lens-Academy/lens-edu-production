@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Probably not.
 
 Your preference for oxygen is satiable — you'll fight to reach the surface if your scuba gear malfunctions during a dive, but when there is enough, you stop worrying about it, and you probably aren't maintaining an ever-growing stockpile of oxygen canisters.

@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### It could help with solving the alignment problem.
 
 The AI alignment problem does not look to us like it is fundamentally unsolvable. It only looks to us that humans are nowhere close to solving it, and that humans are not at the level of intelligence where *thinking* they have a solution strongly correlates with them actually *having* a solution.

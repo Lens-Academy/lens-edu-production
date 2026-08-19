@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### Probably.
 
 Back before the days of biochemistry, you could have asked, "Is it even possible to understand this vital force that animates flesh? Even if it *is* made of comprehensible parts, why would you believe that our tiny little minds could comprehend what's really going on in there?"

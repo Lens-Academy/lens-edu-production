@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Because it's plausible and easy to write.
 
 Every detail in a story about the future is an opportunity for that story to be wrong. We can't tell you exactly what technological breakthroughs will happen in what order, any more than we can tell you the exact weather pattern a month from now.

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We're optimistic about many things, but superintelligence isn't like most things.
 
 We would consider ourselves much more [optimistic](/12/are-you-anti-technology) and gung-ho than the average person about nuclear power, geothermal power, genetic engineering, neuroengineering, biotech, nanotech, pharmaceutical development, and many other technologies.[\*](#ftnt191)

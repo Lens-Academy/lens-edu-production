@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We don't expect to make any money from the book in the average case. Separately, we would love to be wrong about the book's thesis.
 
 We (Soares and Yudkowsky) take our salary from the Machine Intelligence Research Institute (MIRI), which is funded by donations from people who think these issues are important. Perhaps the book will drive donations.

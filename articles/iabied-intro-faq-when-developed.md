@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Knowing that a technology is coming doesn't grant knowledge of exactly when it's coming.
 
 Many of the things people ask us to try to predict for them, we in fact have no way of knowing. When Leo Szilard wrote a letter warning the USA about nuclear weaponry in 1939, he did not and could not include any note along the lines of, "The first atomic weapon will be ready to detonate for testing in six years."

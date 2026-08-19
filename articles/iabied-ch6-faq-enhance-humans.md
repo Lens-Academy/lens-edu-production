@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### No.
 
 While we are in favor of human intelligence augmentation, we don't think this technology offers a realistic chance of keeping up with unrestrained AI progress. Human augmentation technology is still in its infancy, and is much more constrained than AI as a method to produce ever-greater intelligence. Likewise, brain-computer interfaces won't realistically let humans keep pace with AIs.

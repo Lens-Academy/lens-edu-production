@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Our story showcases how AI is liable to have weird and unintended preferences.
 
 In Part I of the book, we go into depth about aspects of AI that we think are radically misunderstood and pertinent to the danger of superintelligence. Chapter 3 covers how increased intelligence goes hand in hand with AIs that take their own initiative and pursue their own ends. Chapter 4 covers how those preferences are going to be *weird*,and at least slightly different from what any human intended or asked for. Chapter 5 covers how those small differences will be enough that AIs would prefer a world without us in it, if possible.

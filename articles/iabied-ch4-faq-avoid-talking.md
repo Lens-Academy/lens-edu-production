@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### If your AI plan requires that no one on the internet critique the plan, it's a bad plan.
 
 Current AIs are trained on text from the public internet. Some people have argued that everyone in the world should therefore avoid *talking about* how a sufficiently smart AI would realize that its preferences diverge from ours and take over. The worry being that if we *talk* about it, we could accidentally put this idea into the heads of highly capable AIs that are trained on the internet in the future.

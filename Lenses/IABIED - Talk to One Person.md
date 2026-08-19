@@ -87,4 +87,4 @@ assessment-instructions:: The student commits to a real conversation: person, ti
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete day, not "at some point". If vague, ask for the day. In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.
 - Check the opening line sounds like something a human says out loud. If it sounds like an essay, propose a shorter, more personal version in one sentence.
-- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them the next module opens by asking how it went.
+- Response length: 40-100 words. One turn. Close by wishing them a good conversation and telling them the next module opens by asking how it went. 

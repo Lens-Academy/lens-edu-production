@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 #### The Glorious Accident of Kindness
 
 When you watch someone drop a rock on their toe, you might wince, and feel (or imagine) a spike of phantom pain in your own toe. Why?

@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read the *Coda* in full.**
+**From *If Anyone Builds It, Everyone Dies*, read the *Coda* in full.**
 
 Return here after reading.
 

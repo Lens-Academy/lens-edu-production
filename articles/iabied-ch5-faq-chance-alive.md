@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### It's overwhelmingly more likely that AI kills everyone.
 
 In these online resources, we're willing to engage with a pretty wide variety of weird and unlikely scenarios, for the sake of spelling out why we think they're unlikely and why (in most cases) they would still be catastrophically bad outcomes for humanity.

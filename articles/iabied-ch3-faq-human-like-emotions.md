@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Probably not.
 
 AIs don't need to be human-like in order to be great at solving problems. They don't even need to be human-like to be great at solving the problem "imitate humans."

@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### We're not sure. Our best guess is "probably not."
 
 For our short answer to this question, and some disentangling of different definitions of "conscious," see the [answer](/1/are-you-saying-machines-will-become-conscious) in the Chapter 1 resources. For a longer and more in-depth answer, see "[Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare)" in the Chapter 5 extended discussion.

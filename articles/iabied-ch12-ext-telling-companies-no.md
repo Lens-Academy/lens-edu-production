@@ -8,6 +8,13 @@ author:
 tags:
   - clippings
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 We *do* somewhat caution people with influence in governments from making a plan that involves sitting down and negotiating with AI companies.
 
 If you're new to this topic and want to vet the labs or their arguments yourself, then we encourage you to check out some of their public blog posts and see if you find them compelling.[\*](#ftnt286)

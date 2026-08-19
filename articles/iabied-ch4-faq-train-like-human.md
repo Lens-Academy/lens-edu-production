@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Brains aren't blank slates.
 
 An AI is *really* unlike a human infant. And neither AIs nor humans start off as interchangeable blank slates. Enterprising parents can't freely program babies (or AIs) to exhibit just any old behavior they want; and the lessons that *do* work on humans aren't universal. A little kindness and a few lectures about the golden rule will not instill human morality into an AI.

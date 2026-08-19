@@ -14,11 +14,11 @@ The scenario follows an AI called "Sable" through three phases: **Realization** 
 
 \## Pedagogical Note
 
-The core tension in M4 is that we don't want your learning to hinge on believing sci-fi. And the story is sci-fi; the authors openly admit it.
+The core tension in M4 is that we don't want your learning to hinge on believing sci-fi. And the story is sci-fi; the authors openly admit it. 
 
 The problem isn't that it's fiction; it's that lessons framed around *what happens in the story* would require you to buy the premise before you can engage. Instead, we'll try framing lessons around *which M1–M3 mechanism is operating and why it produces this outcome*. This should only require following and analyzing an argument.
 
-M4's job is already defined in the course arc: convert intellectual acceptance into emotional understanding. The story isn't teaching new concepts; it's teaching us to recognize concepts we already learned, operating in a concrete scenario.
+M4's job is already defined in the course arc: convert intellectual acceptance into emotional understanding. The story isn't teaching new concepts; it's teaching us to recognize concepts we already learned, operating in a concrete scenario. 
 
 **1. Thought-experiment framing at the module level.** This section presents a fictional scenario. The authors acknowledge it's fiction. Your job isn't to believe it will happen, it's to trace which mechanisms from M1–M3 are doing the work, and notice what that feels like when it's concrete.
 
@@ -26,7 +26,7 @@ M4's job is already defined in the course arc: convert intellectual acceptance i
 
 **3. Maybe just read the whole thing?** Normally, we think it's important to stop for reflection through lessons, but for this module, if you feel that's breaking your flow, go ahead and just read everything and then come back. We think the lessons will work either way. If you need context from a specific section for questions, you can always review.
 
-When you're ready, we'll prep you before jumping into the story. It's a quite a ride.
+When you're ready, we'll prep you before jumping into the story. It's a quite a ride. 
 
 **This week's reading:** Chapter 7 ("Realization") + Chapter 8 ("Expansion") + Chapter 9 ("Ascension") + Coda. After reading, come back here to discuss with the tutor.
 

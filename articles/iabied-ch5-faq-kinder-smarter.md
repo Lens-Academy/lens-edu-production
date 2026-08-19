@@ -9,6 +9,13 @@ tags:
   - clippings
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 #### Probably not.
 
 At least some humans (though probably not all) become kinder as they learn more, refine their thinking, reflect on themselves, and grow as people. But, to revisit a theme we've seen several times at this point: This looks like a contingent fact about us and about where we're steering. It doesn't look like an iron law of computer science.
