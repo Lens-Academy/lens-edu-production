@@ -2,7 +2,7 @@
 title: "My thesis (Algorithmic Bayesian Epistemology) explained in more depth"
 author:
   - "Eric Neyman"
-source_url: "https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/neyman-algorithmic-bayesian-epistemology-explained"
+source_url: "https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in"
 published: 2024-05-09
 created: 2026-08-10
 accessed: 2026-08-10
@@ -40,9 +40,9 @@ If you’re looking for practical advice for predicting the future, you won’t 
 
 If these sorts of questions sound interesting, then you may enjoy consuming my thesis in some form or another. If reading a 373-page technical manuscript is your cup of tea — well then, you’re really weird, but [here you go](https://arxiv.org/abs/2403.07949)!
 
-If reading a 373-page technical manuscript is *not* your cup of tea, you could look at my thesis defense slides ([PowerPoint](https://ericneyman.files.wordpress.com/2024/04/thesis_defense_presentation.pptx), [PDF](https://ericneyman.files.wordpress.com/2024/04/thesis_defense_presentation.pdf)),[^jav4fjwkpwp] or my short summary [on LessWrong](https://www.lesswrong.com/posts/6dd4b4cAWQLDJEuHw/my-phd-thesis-algorithmic-bayesian-epistemology#Chapter_descriptions).
+If reading a 373-page technical manuscript is *not* your cup of tea, you could look at my thesis defense slides ([PowerPoint](https://ericneyman.files.wordpress.com/2024/04/thesis_defense_presentation.pptx), [PDF](https://ericneyman.files.wordpress.com/2024/04/thesis_defense_presentation.pdf)),[^note-neyman-jav4fjwkpwp] or my short summary [on LessWrong](https://www.lesswrong.com/posts/6dd4b4cAWQLDJEuHw/my-phd-thesis-algorithmic-bayesian-epistemology#Chapter_descriptions).
 
-On the other hand, if you’re looking for a somewhat longer summary, this post is for you! If you’re looking to skip ahead to the highlights, I’ve put a * next to the chapters I’m most proud of ([5](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_5__Quasi_arithmetic_pooling), [7](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_7__Robust_aggregation_of_substitutable_signals), [9](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_9__Deductive_circuit_estimation)).
+On the other hand, if you’re looking for a somewhat longer summary, this post is for you! If you’re looking to skip ahead to the highlights, I’ve put a * next to the chapters I’m most proud of ([5](#chapter-5-quasi-arithmetic-pooling), [7](#chapter-7-robust-aggregation-of-substitutable-sign), [9](#chapter-9-deductive-circuit-estimation)).
 
 Chapter 0: Preface
 ------------------
@@ -64,17 +64,17 @@ Chapter 1: Introduction
 
 But the real world is rarely so simple: maybe there’s not one test but five. Test B is more likely to be a false positive in cases where Test A is a false positive. Tests B and C test for different sub-types for the disease, so they complement each other. Tests D and E are brand new and it’s unclear how correlated they are with the other tests. How do you form beliefs in that sort of information landscape?
 
-Here’s another example. A month ago, I was deciding whether to change my solar eclipse travel plans from Mazatlán, Mexico to Montreal, Canada, on account of the weather forecasts. The American model told me that there was a 70% chance that it would be cloudy in Mazatlán; meanwhile, the Canadian model forecast a mere 20% chance. How was I to reconcile these sharply conflicting probabilities?[^c7l6hnertse]
+Here’s another example. A month ago, I was deciding whether to change my solar eclipse travel plans from Mazatlán, Mexico to Montreal, Canada, on account of the weather forecasts. The American model told me that there was a 70% chance that it would be cloudy in Mazatlán; meanwhile, the Canadian model forecast a mere 20% chance. How was I to reconcile these sharply conflicting probabilities?[^note-neyman-c7l6hnertse]
 
 I was facing an *informational* constraint. Had I known more about the processes by which the models arrived at their probabilities and what caused them to diverge, I would have been able to produce an informed aggregate probability. But I *don’t* have that information. All I know is that it’s cloudy in Mazatlán 25 percent of the time during this part of the year, and that one source predicts a 20% chance of clouds while another predicts a 70% chance. Given just this information, what should my all-things-considered probability be?
 
-(If you’re interested in this specific kind of question, check out [Chapter 7](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_7__Robust_aggregation_of_substitutable_signals)!)
+(If you’re interested in this specific kind of question, check out [Chapter 7](#chapter-7-robust-aggregation-of-substitutable-sign)!)
 
 But informational constraints aren’t the only challenge. You can face *computational* constraints (you could in theory figure out the right probability, but doing so would take too long), or *communicational* constraints (figuring out the right probability involves talking to an expert with a really detailed understanding of the problem, but they only have an hour to chat), or *strategic* constraints (the information you need is held by people with their own incentives who will decide what to tell you based on their own strategic considerations).
 
-So that’s the unifying theme of my thesis: reasoning about uncertainty under a variety of constraints.[^kg4h33fyzi8]
+So that’s the unifying theme of my thesis: reasoning about uncertainty under a variety of constraints.[^note-neyman-kg4h33fyzi8]
 
-I don’t talk about computational constraints very much in my thesis. Although that topic is really important, it’s been studied to death, and making meaningful progress is really difficult. On the other hand, some of the other kinds of constraints are really underexplored! For example, there’s almost no work on preventing strategic experts from colluding ([Chapter 4](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#Chapter_4__Arbitrage_free_contract_functions)), very little theory on how best to aggregate experts’ forecasts (Chapters [5](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_5__Quasi_arithmetic_pooling), [6](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#Chapter_6__Learning_weights_for_logarithmic_pooling), [7](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_7__Robust_aggregation_of_substitutable_signals)), and almost no work on communicational constraints ([Chapter 8](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#Chapter_8__When_does_agreement_imply_accuracy_)). In no small part, I chose which topics to study based on where I expected to find low-hanging fruit.
+I don’t talk about computational constraints very much in my thesis. Although that topic is really important, it’s been studied to death, and making meaningful progress is really difficult. On the other hand, some of the other kinds of constraints are really underexplored! For example, there’s almost no work on preventing strategic experts from colluding ([Chapter 4](#chapter-4-arbitrage-free-contract-functions)), very little theory on how best to aggregate experts’ forecasts (Chapters [5](#chapter-5-quasi-arithmetic-pooling), [6](#chapter-6-learning-weights-for-logarithmic-pooling), [7](#chapter-7-robust-aggregation-of-substitutable-sign)), and almost no work on communicational constraints ([Chapter 8](#chapter-8-when-does-agreement-imply-accuracy)). In no small part, I chose which topics to study based on where I expected to find low-hanging fruit.
 
 Chapter 2: Preliminaries
 ------------------------
@@ -107,7 +107,7 @@ Chapter 4: Arbitrage-free contract functions
 
 Now let’s say that you’re eliciting forecasts from *multiple* experts. We can revisit the example I gave earlier: Jaime, Ege, and Tamay think there’s a 40%, 50%, and 90% chance that GPT-5 will be released this year. (These numbers are made up.)
 
-Let’s say that I want to pay Jaime, Ege, and Tamay for their forecasts using the quadratic scoring rule. To elaborate on what this means, the formula I’ll use is: $100 \cdot (1 - (\text{forecasting error})^2)$. For example, Jaime forecast a 40% chance. If GPT-5 is released this year, then the “perfect” forecast would be 100%, which means that his “forecasting error” would be 0.6. Thus, I would pay Jaime \(\$100(1 - 0.6^2) = \$64\). On the other hand, if GPT-5 is *not* released, then his forecasting error would be 0.4, so I would pay Jaime\(\) \(\$100(1 - 0.4^2) = \$84\).
+Let’s say that I want to pay Jaime, Ege, and Tamay for their forecasts using the quadratic scoring rule. To elaborate on what this means, the formula I’ll use is: $100 \cdot (1 - (\text{forecasting error})^2)$. For example, Jaime forecast a 40% chance. If GPT-5 is released this year, then the “perfect” forecast would be 100%, which means that his “forecasting error” would be 0.6. Thus, I would pay Jaime \(\$100(1 - 0.6^2) = \$64\). On the other hand, if GPT-5 is *not* released, then his forecasting error would be 0.4, so I would pay Jaime \(\$100(1 - 0.4^2) = \$84\).
 
 To summarize all these numbers in a chart:
 
@@ -142,18 +142,17 @@ In this chapter, I resolve Chun & Shachter’s question: **yes, preventing Jaime
 
 Why should this be possible? It’s because I can *pit Jaime, Ege, and Tamay against each other.* If there were only one expert, I could only reward the expert as a function of their own forecast. But if there are three experts, I can reward Jaime based on *how much better* his forecast was than Ege’s and Tamay’s. That’s the basic idea; if you want the details, go read Chapter 4!
 
-\* Chapter 5: Quasi-arithmetic pooling
---------------------------------------
+## \* Chapter 5: Quasi-arithmetic pooling
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
-As before, let’s say that I elicit probabilistic forecasts from Jaime, Ege, and Tamay using a proper scoring rule.[^wyfe1c8ecjf] How should I combine their numbers in a single, all-things-considered forecast?
+As before, let’s say that I elicit probabilistic forecasts from Jaime, Ege, and Tamay using a proper scoring rule.[^note-neyman-wyfe1c8ecjf] How should I combine their numbers in a single, all-things-considered forecast?
 
 In this chapter, I make the case that **the answer should depend on the scoring rule** that you used to elicit their forecasts.
 
 To see why, consider for comparison the quadratic and logarithmic scoring rules. Here’s a plot of the score of an expert as a function of the probability they report, if the event ends up happening.
 
-![](https://ericneyman.files.wordpress.com/2024/04/image-1.png?w=774)
+![](https://ericneyman.files.wordpress.com/2024/04/image-1.png)
 
 Figure 5.1: If the YES outcome happens, an expert’s score under the quadratic and logarithmic scoring rules, as a function of the expert’s reported probability. (The scoring rules are normalized so as to be comparable.)
 
@@ -163,7 +162,7 @@ If Jaime says that there’s a 50% chance that GPT-5 comes out this year, and it
 
 This means that Jaime cares which outcome happens a different amount depending on which scoring rule I use. Below is a plot of how much higher a score Jaime would get if GPT-5 did come out compared to if it didn’t, as a function of the probability that he reports.
 
-![](https://ericneyman.files.wordpress.com/2024/04/image-2.png?w=780)
+![](https://ericneyman.files.wordpress.com/2024/04/image-2.png)
 
 Figure 5.2: How much higher an expert’s score is under a YES outcome than under a NO outcome, as a function of the expert’s reported probability, for the quadratic and logarithmic scoring rules. In other words, how invested is the expert in getting a YES outcome instead of a NO outcome?
 
@@ -201,8 +200,7 @@ But what if you assume that the experts are actually calibrated? In many cases, 
 
 In this chapter, I prove that at least for the log scoring rule, you *can* learn weights for experts over time in a way that’s guaranteed to perform well on average, assuming that the experts are calibrated. (For readers familiar with online learning: the algorithm is similar to [online mirror descent](https://en.wikipedia.org/wiki/Mirror_descent) with a [Tsallis entropy](https://en.wikipedia.org/wiki/Tsallis_entropy) regularizer.)
 
-\* Chapter 7: Robust aggregation of substitutable signals
----------------------------------------------------------
+## \* Chapter 7: Robust aggregation of substitutable signals
 
 *(Joint work with my PhD advisor,* [*Tim Roughgarden*](https://timroughgarden.org/).)
 
@@ -252,7 +250,7 @@ In 2005, Scott Aaronson wrote one of my favorite papers ever: [The Complexity of
 > 
 > In the seminal work “Agreeing to Disagree,” [Aumann (1976)](https://www.jstor.org/stable/2958591) observed that Alice and Bob can reach agreement simply by taking turns sharing their current expected value for the quantity\[…\] A remarkable result by [Aaronson (2005)](https://www.scottaaronson.com/papers/agree-econ.pdf) shows that if Alice and Bob follow certain protocols of this form, they will agree to within ![\epsilon](https://s0.wp.com/latex.php?latex=%5Cepsilon&bg=ffffff&fg=000000&s=0&c=20201002) with probability ![1-\delta](https://s0.wp.com/latex.php?latex=1-%5Cdelta&bg=ffffff&fg=000000&s=0&c=20201002) by communicating ![O \left( \frac{1}{\delta \epsilon^2} \right)](https://s0.wp.com/latex.php?latex=O+%5Cleft%28+%5Cfrac%7B1%7D%7B%5Cdelta+%5Cepsilon%5E2%7D+%5Cright%29&bg=ffffff&fg=000000&s=0&c=20201002) bits \[of information…\] Notably, this bound only depends on the error Alice and Bob are willing to tolerate, and not on the amount of information available to them.
 
-In other words: imagine that Alice and Bob — both experts with deep but distinct knowledge — have strongly divergent opinions on some topic, leading them to make different predictions. You may have thought that Alice and Bob would need to have a really long conversation to hash out their differences — but no! At least if we model Alice and Bob as truth-seeking Bayesians, they can reach agreement quite quickly, simply by repeatedly exchanging their best guesses: first, Alice tells Bob her estimate. Then, Bob updates his estimate in light of the estimate he just heard from Alice, and responds with his new estimate. Then, Alice updates her estimate in light of the estimate he just heard from Bob, and responds with her new estimate. And so on. After only a small number of iterations, Alice and Bob are very likely to reach agreement![^tnkuux0vdo]
+In other words: imagine that Alice and Bob — both experts with deep but distinct knowledge — have strongly divergent opinions on some topic, leading them to make different predictions. You may have thought that Alice and Bob would need to have a really long conversation to hash out their differences — but no! At least if we model Alice and Bob as truth-seeking Bayesians, they can reach agreement quite quickly, simply by repeatedly exchanging their best guesses: first, Alice tells Bob her estimate. Then, Bob updates his estimate in light of the estimate he just heard from Alice, and responds with his new estimate. Then, Alice updates her estimate in light of the estimate he just heard from Bob, and responds with her new estimate. And so on. After only a small number of iterations, Alice and Bob are very likely to reach agreement![^note-neyman-tnkuux0vdo]
 
 However, while Aaronson’s paper shows that Alice and Bob *agree,* there’s no guarantee that the estimate that they agree on is *accurate.* In other words, you may have hoped that by following Aaronson’s protocol (i.e. repeatedly exchanging estimates until agreement is reached), the agreed-upon estimate would be similar to the estimate that Alice and Bob would have reached if they had exchanged *all* of their information. Unfortunately, no such accuracy guarantee is possible.
 
@@ -272,12 +270,11 @@ This observation raises a natural question: what if we assume that Alice and Bob
 
 In this chapter, I show that the answer is yes! There’s a bunch of ways to define informational substitutes, but I give a particular (admittedly strong) definition under which agreement does imply accuracy.
 
-I’m excited about this result for a couple reasons. First, it provides another example of substitutes-like conditions on information being useful (on top of the discussion in [Chapter 7](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_7__Robust_aggregation_of_substitutable_signals)). Second, the result can be interpreted in the context of prediction markets. In a prediction market, participants don’t share information directly; rather, they buy and sell shares, thus partially sharing their beliefs about the expected value of the quantity of interest. Thus, this chapter’s main result might also shed light on the question of market efficiency: under what conditions does the price of a market successfully incorporate all traders’ information into the market price? This chapter’s suggested answer: when the traders’ pieces of information are substitutable, rather than complementary.[^bsud9wwzirb]
+I’m excited about this result for a couple reasons. First, it provides another example of substitutes-like conditions on information being useful (on top of the discussion in [Chapter 7](#chapter-7-robust-aggregation-of-substitutable-sign)). Second, the result can be interpreted in the context of prediction markets. In a prediction market, participants don’t share information directly; rather, they buy and sell shares, thus partially sharing their beliefs about the expected value of the quantity of interest. Thus, this chapter’s main result might also shed light on the question of market efficiency: under what conditions does the price of a market successfully incorporate all traders’ information into the market price? This chapter’s suggested answer: when the traders’ pieces of information are substitutable, rather than complementary.[^note-neyman-bsud9wwzirb]
 
 I generally think that the topic of agreement — and more generally, communication-constrained truth-seeking — is really neglected relative to how interesting it is, and I’d be really excited to see more work in this direction.
 
-\* Chapter 9: Deductive circuit estimation
-------------------------------------------
+## \* Chapter 9: Deductive circuit estimation
 
 *(Joint work at the* [*Alignment Research Center*](https://www.alignment.org/theory/) *with* [*Paul Christiano*](https://paulfchristiano.com/), [*Jacob Hilton*](https://www.jacobh.co.uk/), [*Václav Rozhoň*](https://n.ethz.ch/~rozhonv/), and [*Mark Xu*](https://markxu.com/).)
 
@@ -350,9 +347,9 @@ Epilogue
 
 As you can probably tell, I’m really excited about algorithmic Bayesian epistemology as a research direction. Partly, that’s because I think I solved a bunch of cool problems in some really under-explored areas. But I’m equally excited by the many questions I didn’t answer and areas I didn’t explore. In the epilogue, I discuss some of the questions that I’m most excited about:
 
-*   **Bayesian justifications for generalized QA pooling:** In [Chapter 5](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_5__Quasi_arithmetic_pooling), I defined QA pooling as a particular way to aggregate forecasts that’s sensitive to the scoring rule that was used to elicit the forecasts. One natural generalization of QA pooling allows experts to have arbitrary weights that don’t need to add to 1. It turns out that for the quadratic and logarithmic scoring rules, this generalization has natural “Bayesian justifications”. This means that in some information environments, generalized linear and logarithmic pooling is the *best possible* way to aggregate experts’ forecasts. (See Section 2.4 for details.) I’m really curious whether there’s a Bayesian justification for generalized QA pooling with respect to *every* proper scoring rule.
-*   **Directions in robust forecast aggregation:** In [Chapter 7](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_7__Robust_aggregation_of_substitutable_signals), I discussed robust forecast aggregation as a theoretically principled, “worst-case optimal” approach to aggregating forecasts. There are a whole bunch of directions in which one could try to generalize my results. For example, the work I did in that chapter makes the most sense in the context of real-valued forecasts (which don’t have to be between 0 and 1), and I’d love to see work along similar lines in the context of aggregating *probabilities*, with [KL divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) used as the notion of error instead of squared distance.
-*   **Finding a good deductive estimator:** In [Chapter 9](https://www.lesswrong.com/posts/j6EhfL2hRubaKL9ca/my-thesis-algorithmic-bayesian-epistemology-explained-in#__Chapter_9__Deductive_circuit_estimation), I set out to find a deductive circuit estimation algorithm that could handle a large class of deductive arguments in a reasonable way. Ultimately I didn’t get close to finding such an algorithm, and I would love to see more progress on this.
+*   **Bayesian justifications for generalized QA pooling:** In [Chapter 5](#chapter-5-quasi-arithmetic-pooling), I defined QA pooling as a particular way to aggregate forecasts that’s sensitive to the scoring rule that was used to elicit the forecasts. One natural generalization of QA pooling allows experts to have arbitrary weights that don’t need to add to 1. It turns out that for the quadratic and logarithmic scoring rules, this generalization has natural “Bayesian justifications”. This means that in some information environments, generalized linear and logarithmic pooling is the *best possible* way to aggregate experts’ forecasts. (See Section 2.4 for details.) I’m really curious whether there’s a Bayesian justification for generalized QA pooling with respect to *every* proper scoring rule.
+*   **Directions in robust forecast aggregation:** In [Chapter 7](#chapter-7-robust-aggregation-of-substitutable-sign), I discussed robust forecast aggregation as a theoretically principled, “worst-case optimal” approach to aggregating forecasts. There are a whole bunch of directions in which one could try to generalize my results. For example, the work I did in that chapter makes the most sense in the context of real-valued forecasts (which don’t have to be between 0 and 1), and I’d love to see work along similar lines in the context of aggregating *probabilities*, with [KL divergence](https://en.wikipedia.org/wiki/Kullback%E2%80%93Leibler_divergence) used as the notion of error instead of squared distance.
+*   **Finding a good deductive estimator:** In [Chapter 9](#chapter-9-deductive-circuit-estimation), I set out to find a deductive circuit estimation algorithm that could handle a large class of deductive arguments in a reasonable way. Ultimately I didn’t get close to finding such an algorithm, and I would love to see more progress on this.
 *   **Sophisticated Bayesian models for forecast aggregation:** While several of the chapters of my thesis were about forecast aggregation, none of them took the straightforwardly Bayesian approach of making a model of the experts’ information overlap. I have some ideas for what a good Bayesian model could look like, and I’d love to see some empirical work on how well the model would work in practice. (If this sounds up your alley, [shoot me an email](https://ericneyman.wordpress.com/about/)!)
 *   **Wagering mechanisms that produce good aggregate forecasts:** [*Wagering mechanisms*](https://www.sciencedirect.com/science/article/abs/pii/S0022053114000520) are alternatives to prediction markets. In a wagering mechanism, forecasters place wagers in addition to making predictions, and those wagers get redistributed according to how well the forecasters did. These mechanisms haven’t been studied very much, and — as far as I know — have never been used in practice. That said, I think wagering mechanisms are pretty promising and merit a lot more study. In part, that’s because wagering mechanisms give an obvious answer to the question of “how much should you weigh each forecaster’s prediction”: proportionally to their wagers! But as far as I know, there’s no theorem saying this results in good aggregate forecasts. I would love to see a wagering mechanism and a model of information for which you could prove that equilibrium wagers result in good aggregate forecasts.
 
@@ -360,14 +357,14 @@ My thesis is called Algorithmic Bayesian Epistemology, and I’m proud of it.
 
 *Thanks so much to my thesis advisor,* [*Tim Roughgarden*](https://timroughgarden.org/). He was really supportive throughout my time in grad school, and was happy to let me explore whatever I wanted to explore, even if it wasn’t inside his area of expertise. That said, even though algorithmic Bayesian epistemology isn’t Tim’s focus area, his advice was still really helpful. Tim has a really expansive knowledge of essentially all of theoretical computer science, which means he was able to see connections and make suggestions that I wouldn’t have come up with myself.[️](https://ericneyman.wordpress.com/2024/05/09/algorithmic-bayesian-epistemology/#a3)[️](https://ericneyman.wordpress.com/2024/05/09/algorithmic-bayesian-epistemology/#a5)[️](https://ericneyman.wordpress.com/2024/05/09/algorithmic-bayesian-epistemology/#a6)[️](https://ericneyman.wordpress.com/2024/05/09/algorithmic-bayesian-epistemology/#a7)
 
-[^jav4fjwkpwp]: I don’t want to make the video of my defense public, but email me if you want to see it! 
+[^note-neyman-jav4fjwkpwp]: I don’t want to make the video of my defense public, but email me if you want to see it! 
 
-[^c7l6hnertse]: The right answer, as far as I can tell, is to defer to the NWS’ National Blend of Models. But that just raises the question: how does the National Blend of Models reconcile disagreeing probabilities? 
+[^note-neyman-c7l6hnertse]: The right answer, as far as I can tell, is to defer to the NWS’ National Blend of Models. But that just raises the question: how does the National Blend of Models reconcile disagreeing probabilities? 
 
-[^kg4h33fyzi8]: How did the name “Algorithmic Bayesian Epistemology” come about? “Bayesian epistemology” basically just means using probabilities to reason about uncertainty. “Algorithmic” is more of a term of art, which in this case means looking for satisfactory solutions that adhere to real-world constraints, as opposed to solutions that would be optimal if you ignored those constraints. See here for a longer explanation. 
+[^note-neyman-kg4h33fyzi8]: How did the name “Algorithmic Bayesian Epistemology” come about? “Bayesian epistemology” basically just means using probabilities to reason about uncertainty. “Algorithmic” is more of a term of art, which in this case means looking for satisfactory solutions that adhere to real-world constraints, as opposed to solutions that would be optimal if you ignored those constraints. See here for a longer explanation. 
 
-[^wyfe1c8ecjf]: Our discussion of collusion was confined to Chapter 4 — now we’re assuming the experts can’t collude and instead just tell me their true beliefs. 
+[^note-neyman-wyfe1c8ecjf]: Our discussion of collusion was confined to Chapter 4 — now we’re assuming the experts can’t collude and instead just tell me their true beliefs. 
 
-[^tnkuux0vdo]: Unfortunately, this protocol is only communication-efficient. To actually update their estimates, Alice and Bob may potentially need to do a very large amount of computation at each step. 
+[^note-neyman-tnkuux0vdo]: Unfortunately, this protocol is only communication-efficient. To actually update their estimates, Alice and Bob may potentially need to do a very large amount of computation at each step. 
 
-[^bsud9wwzirb]: Interestingly, Chen and Waggoner (2017) showed that under a (different) informational substitutes condition, traders in a prediction market are incentivized reveal all of their information right away by trading. This question of incentives is different from the question of my thesis chapter: my chapter can be interpreted as making the assumption that traders will trade on their information, and asking whether the market price will end up reflecting all traders’ information. Taken together, these two results suggest that market dynamics may be quite nice indeed when experts have substitutable information!
+[^note-neyman-bsud9wwzirb]: Interestingly, Chen and Waggoner (2017) showed that under a (different) informational substitutes condition, traders in a prediction market are incentivized reveal all of their information right away by trading. This question of incentives is different from the question of my thesis chapter: my chapter can be interpreted as making the assumption that traders will trade on their information, and asking whether the market price will end up reflecting all traders’ information. Taken together, these two results suggest that market dynamics may be quite nice indeed when experts have substitutable information!
