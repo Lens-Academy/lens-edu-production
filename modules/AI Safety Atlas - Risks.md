@@ -29,6 +29,9 @@ source:: [[../Lenses/AI Safety Atlas - Risks - Risk Amplifiers]]
 source:: [[../Lenses/AI Safety Atlas - Risks - Conclusion]]
 
 # Lens:
+source:: [[../Lenses/AI Safety Atlas - Risks - Reflection]]
+
+# Lens:
 optional:: true
 source:: [[../Lenses/AI Safety Atlas - Risks - Appendix Quantifying Existential Risks]]
 

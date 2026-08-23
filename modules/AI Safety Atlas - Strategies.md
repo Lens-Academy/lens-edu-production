@@ -32,5 +32,8 @@ source:: [[../Lenses/AI Safety Atlas - Strategies - Challenges]]
 source:: [[../Lenses/AI Safety Atlas - Strategies - Conclusion]]
 
 # Lens:
+source:: [[../Lenses/AI Safety Atlas - Strategies - Reflection]]
+
+# Lens:
 optional:: true
 source:: [[../Lenses/AI Safety Atlas - Strategies - Appendix Long-term Questions]]

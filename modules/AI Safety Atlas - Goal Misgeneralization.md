@@ -24,3 +24,6 @@ source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Detection]]
 
 # Lens:
 source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Mitigations]]
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Goal Misgeneralization - Reflection]]

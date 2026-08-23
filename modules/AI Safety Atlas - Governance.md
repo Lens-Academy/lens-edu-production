@@ -26,6 +26,9 @@ source:: [[../Lenses/AI Safety Atlas - Governance - Implementation]]
 source:: [[../Lenses/AI Safety Atlas - Governance - Conclusion]]
 
 # Lens:
+source:: [[../Lenses/AI Safety Atlas - Governance - Reflection]]
+
+# Lens:
 optional:: true
 source:: [[../Lenses/AI Safety Atlas - Governance - Appendix Data Governance]]
 
