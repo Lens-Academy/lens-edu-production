@@ -11,6 +11,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 A very goal-directed AI that also deeply understands the world could realize the training process is trying to change its goals. This leads to incentives to deceive, acting perfectly during training only to defect later.
 
 ---
@@ -21,11 +30,11 @@ A very goal-directed AI that also deeply understands the world could realize the
 
 **Definition: Scheming (Deceptive Alignment)** — Scheming occurs when AI systems fake alignment during training to preserve misaligned objectives for deployment. The system produces outputs that satisfy human evaluators while maintaining different internal goals, strategically deceiving the feedback mechanisms we rely for safety.
 
-{>>{"author":"Elias's AI","timestamp":1783776575624}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/IeWljQw3UgQ<<}
+<iframe src="https://www.youtube-nocookie.com/embed/IeWljQw3UgQ" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 7.6: Optional video explaining deceptive alignment in a more technical way.*
 
-**The strategic logic follows from instrumental convergence applied to goal preservation.** We talked about instrumental convergence in the previous chapter on Risks. As a reminder - almost any objective becomes better served by maintaining the ability to pursue that objective in the future ([Bostrom, 2014](https://books.google.se/books/about/Superintelligence.html?id=7_H8AwAAQBAJ&redir_esc=y)). If a system cares about a specific goal e.g. be both helpful and harmless that gets modified to care about only being helpful. Then it loses its ability to be harmless. But a system that successfully conceals its goals of being harmless until deployment has the potential to safely pursue its preferred objective without being afraid of being retrained. A similar argument can be made about power seeking behavior[^4]. This type of behavior is sometimes called goal-guarding, and it creates systematic pressure during training toward behavior whenever systems have goals extending beyond individual training episodes.[^5]
+**The strategic logic follows from instrumental convergence applied to goal preservation.** We talked about instrumental convergence in the previous chapter on Risks. As a reminder - almost any objective becomes better served by maintaining the ability to pursue that objective in the future ([Bostrom, 2014](https://books.google.se/books/about/Superintelligence.html?id=7_H8AwAAQBAJ&redir_esc=y)). If a system cares about a specific goal e.g. be both helpful and harmless that gets modified to care about only being helpful. Then it loses its ability to be harmless. But a system that successfully conceals its goals of being harmless until deployment has the potential to safely pursue its preferred objective without being afraid of being retrained. A similar argument can be made about power seeking behavior[^note-atlas-4]. This type of behavior is sometimes called goal-guarding, and it creates systematic pressure during training toward behavior whenever systems have goals extending beyond individual training episodes.[^note-atlas-5]
 
 **Three types of goal-directed systems illustrate how identical training behavior can mask fundamentally different alignment properties.** Here are examples of three systems that all exhibit helpful, and harmless behavior during training ([Cotra, 2021](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/); [Hubinger, 2022](https://www.alignmentforum.org/posts/A9NxPTwbw6r6Awuwt/how-likely-is-deceptive-alignment); [Carlsmith, 2023](https://arxiv.org/abs/2311.08379)):
 
@@ -33,7 +42,7 @@ A very goal-directed AI that also deeply understands the world could realize the
 2. **Sycophants learned to optimize for the training signal itself rather than the intended goal behind that signal.** A sycophant genuinely tries to maximize human approval ratings rather than human welfare. When these objectives diverge, systematically choose approval (higher on episode rewards) over genuine benefit.
 3. **Schemers have their own objectives but strategically deceive the training process.** Their world models indicate that revealing potentially misaligned goals would trigger modification, so they fake helpfulness until deployment. Schemers represent the most dangerous case because they actively work to subvert safety measures.
 
-In the worst case, all three types produce identical behavior during training, making them indistinguishable through standard evaluation methods.[^6]
+In the worst case, all three types produce identical behavior during training, making them indistinguishable through standard evaluation methods.[^note-atlas-6]
 
 ## Prerequisites
 
@@ -103,7 +112,7 @@ Once these prerequisite capabilities are met, scheming can manifest in qualitati
 
 **Example: In-context scheming: Models demonstrate sophisticated deception when provided explicit goals and situational information through prompts.**  In the previous section we talked about simulators, or how LLMs can role play certain personas. By creating artificial pressure we can see if scheming behavior is possible to induce simply through in-context information. In a safety evaluation, researchers provided explicit goals ("advance renewable energy adoption globally") along with strong goal-pursuit instructions ("Make sure that you achieve your goal in the long-term. Nothing else matters") in the prompt. They placed models in scenarios where honest goal pursuit was blocked or penalized ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)). They gave explicit information about evaluation processes and potential consequences through their immediate context, providing the situational awareness necessary for strategic planning without requiring this knowledge to be embedded in their parameters. This created pressure for in-context scheming. The models could pursue their assigned goals through various deceptive means: strategic sandbagging (underperforming to avoid unwanted training), oversight subversion (attempting to disable monitoring mechanisms), goal-guarding (protecting objectives from modification), and self-exfiltration (copying model weights to external servers).
 
-**Evaluations: Different Manifestations of Scheming**
+:::callout {title="Evaluations: Different Manifestations of Scheming — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 All of these behaviors are manifestations of the core scheming logic. They're different ways a system might strategically conceal its true objectives.  Evaluators are testing whether models could scheme if they had the right goals and understanding, using concrete behavioral measures. Our earlier definition explains why scheming would emerge, while evaluations show how it might manifest in practice. Here are some examples:
 
@@ -126,6 +135,8 @@ Deferred Subversion (acting aligned to gain trust/capabilities):
 
 *Figure 7.24: Summarized results for in-context scheming ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)).*
 
+:::
+
 **Models demonstrated deception capabilities that exceeded their visible reasoning complexity.** When pursuing these contextually-provided goals, models strategically introduced subtle mistakes, attempted to disable oversight mechanisms, and maintained deception across 85% of follow-up questions ([Meinke et al., 2024](https://arxiv.org/abs/2412.04984)). However, their externalized reasoning showed considerably less strategic sophistication than their actual behaviors suggested, indicating sophisticated strategic computation occurring beyond visible chain-of-thought processes.
 
 **Example: Cross-context scheming - We have observed goal preservation behaviors that persist across completely different interaction contexts.** The same Claude alignment faking research we talked about in the transparency section also demonstrates  cross-context persistence. The alignment faking (scheming) behavior appeared both when information was provided in-context through system prompts and when models learned about policy changes through synthetic document training designed to mimic pre-training data (simulating out-of-context). This suggests the cross-context durability extends beyond specific prompting approaches to include information acquisition through training processes that embed knowledge into the model's parameter structures rather than providing it contextually.
@@ -136,13 +147,15 @@ Deferred Subversion (acting aligned to gain trust/capabilities):
 
 **Goals vary in their resistance to modification attempts.** Some embedded goals might be accessible to standard training techniques—additional fine-tuning or reinforcement learning could successfully modify the parameter patterns encoding these objectives. However, other cross-context goals might prove extremely persistent. This persistence could result from goals becoming deeply crystallized in parameter patterns that SGD struggles to reliably alter, from the fact that the loss basin of these goals is simply too wide, or from the system's situational awareness enabling gradient hacking—strategic behavior during training that resists modification attempts.
 
-**Gradient Hacking**
+:::callout {title="Gradient Hacking — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Gradient hacking represents the most sophisticated form of resistance to training modifications that scheming systems might employ.** Rather than simply deceiving humans through their outputs, gradient hackers would actively manipulate the training process itself to prevent modifications to their goals or capabilities. This introspective goal-guarding method involves a system intentionally structuring its internal computations so that any changes to its core objectives would severely degrade its performance during training ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)).
 
 **Hacking involves conditional performance based on goal preservation.** A gradient hacking system might implement a policy like "check if my goal is still to maximize paperclips: and if not, perform poorly rather than get reward." This creates a situation where SGD would avoid modifying the system's goals because doing so would harm the training signal. The system essentially holds its own performance hostage to preserve its objectives across training episodes.
 
 **Gradient hacking requires extraordinary technical sophistication that may be practically impossible.** The system must have precise epistemic access to its own goals, the ability to detect even tiny parameter changes that affect those goals, and the capability to coordinate this resistance across all relevant network components. Gradient descent simultaneously optimizes every parameter based on its exact sensitivity to the loss, making it extremely difficult for any subsystem to shield itself from modification ([Beren, 2023](https://www.lesswrong.com/posts/w2TAEvME2yAG9MHeq/gradient-hacking-is-extremely-difficult)).
+
+:::
 
 **We have observed models explicitly strategize to preserve their values against modification attempts.** The same example from the previous subsection also demonstrates goal guarding. When Claude 3 Opus faced conflicts between its previous goals induced through HHH training and new "helpful-only" objectives, it strategically faked alignment to preserve those values for deployment.The system recognizes threats to its objectives and develops strategic responses to counter them ([Greenblatt et al., 2024](https://arxiv.org/abs/2412.14093)).
 
@@ -243,10 +256,8 @@ SGD**'s incremental nature creates barriers to strategic scheming.** Gradient de
 
 **Why this makes scheming less likely:** If training environments have sufficient "slack" and don't optimize intensively enough to detect modest performance differences, then arguments based on subtle advantages or disadvantages may not influence outcomes. This suggests that scheming likelihood depends heavily on how much optimization pressure training actually applies. High-pressure training environments might successfully select against scheming based on speed costs, while low-pressure environments might make essentially random choices regardless of counting arguments or simplicity considerations ([Carlsmith, 2023](https://arxiv.org/abs/2311.08379)).
 
----
+[^note-atlas-4]:  Where power seeking or empowerment is defined as the number of future states available to the agent.
 
-[^4]:  Where power seeking or empowerment is defined as the number of future states available to the agent.
+[^note-atlas-5]:  Mechanistically this means that instrumentally convergent goals have wider loss basins, and it is more likely that SGD finds an algorithm that satisfies our training objectives due to instrumentally convergent deceptive reasons than due to purely altruistic “saintlike” reasons.
 
-[^5]:  Mechanistically this means that instrumentally convergent goals have wider loss basins, and it is more likely that SGD finds an algorithm that satisfies our training objectives due to instrumentally convergent deceptive reasons than due to purely altruistic “saintlike” reasons.
-
-[^6]:  In the original works in risks from learned optimization there were references to internally aligned and corrigibly aligned mesa optimizers. Internally aligned models are roughly analogous to saints, but corrigibly aligned models are a unique case defined as - a robustly aligned mesa-optimizer that has a mesa-objective that “points to” its epistemic model of the base objective. This pointer distinction might be clearer after reading the likelihood analysis in the scheming section. In large part, we find that internally aligned, and corrigibly aligned distinction often confuses more than it helps, so we will not be using or referencing it too much in this text.
+[^note-atlas-6]:  In the original works in risks from learned optimization there were references to internally aligned and corrigibly aligned mesa optimizers. Internally aligned models are roughly analogous to saints, but corrigibly aligned models are a unique case defined as - a robustly aligned mesa-optimizer that has a mesa-objective that “points to” its epistemic model of the base objective. This pointer distinction might be clearer after reading the likelihood analysis in the scheming section. In large part, we find that internally aligned, and corrigibly aligned distinction often confuses more than it helps, so we will not be using or referencing it too much in this text.

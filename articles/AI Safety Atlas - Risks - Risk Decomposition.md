@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 AI risks can be categorized by their primary causes—misuse, misalignment, and systemic factors—and their potential severity, ranging from individual harms to existential threats.
 
 ---
@@ -34,7 +43,9 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 **Individual and local risks affect specific people or communities but remain contained in scope.** The AI Incident Database documents over 1,000 real-world instances where AI systems have caused or nearly caused harm ([McGregor, 2020](https://arxiv.org/abs/2011.08512); [AI Incident Database, 2025](https://incidentdatabase.ai/)). These include things like autonomous car crashes, algorithmic bias in hiring or lending that disadvantages particular individuals, privacy violations from AI systems that leak personal data, or manipulation through targeted misinformation campaigns. Local risks might involve AI system failures that disrupt a city's traffic management or cause power outages in a region. These risks are already causing immediate, documented harm to anywhere from thousands to hundreds of thousands of people.
 
+%%
 *Interactive figure 2.1: Global annual number of reported artificial intelligence incidents and controversies. Notable incidents include a “deepfake” video of Ukrainian President Volodymyr Zelenskyy surrendering, and U.S. prisons using AI to monitor their inmates’ calls. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
 
 ![Figure 2.2](https://ai-safety-atlas.com/_astro/08f1265cbf5eb8f15479f5fccfde00ecd22cc45e5687a34318359788cc6f6ce4.0SVQLEjV_Z1XlPpA.webp)
 
@@ -42,7 +53,7 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 **Catastrophic risks threaten massive populations but allow for eventual recovery.** When the number of people affected by risks reaches approximately 10% of the global population, and they become more geographically widespread we call them catastrophic risks. Historical examples include the Black Death (killing one-third of Europe), the 1918 flu pandemic (50-100 million deaths), and potential future scenarios like nuclear war or engineered pandemics ([Ord, 2020](https://theprecipice.com/)).  In the context of AI, these risks can cause international widespread disruptions. Mass unemployment from AI automation could destabilize entire economies, creating social unrest and political upheaval. Cyberattacks using AI-generated malware could cripple a nation's financial systems or critical infrastructure. AI-enabled surveillance could enable authoritarian control over hundreds of millions of people. Democratic institutions might fail under sustained AI-powered disinformation campaigns that fracture shared reality and make collective decision-making impossible ([Slattery et al., 2024](https://arxiv.org/abs/2408.12622); [Hammond et al., 2025](https://arxiv.org/abs/2502.14143); [Gabriel et al., 2024](https://arxiv.org/abs/2404.16244); [Stanford HAI, 2025](https://hai.stanford.edu/ai-index/2025-ai-index-report)). These risks affect millions to billions of people but generally don't prevent eventual recovery or adaptation.
 
-**Existential risks (x-risks) represent threats from which humanity could never recover its full potential.** Unlike catastrophic risks where recovery remains possible, existential risks either eliminate humanity entirely or permanently prevent civilization from reaching the technological, moral, or cultural heights it might otherwise achieve. AI-related existential risks include scenarios where advanced systems permanently disempower humanity, establish a stable unremovable totalitarian regime, or cause direct human extinction ([Bostrom, 2002](https://nickbostrom.com/existential/risks); [Conn, 2015](https://futureoflife.org/existential-risk/existential-risk/); [Ord, 2020](https://theprecipice.com/)). These risks demand preventative rather than reactive strategies because learning from failure becomes impossible by definition.[^1]
+**Existential risks (x-risks) represent threats from which humanity could never recover its full potential.** Unlike catastrophic risks where recovery remains possible, existential risks either eliminate humanity entirely or permanently prevent civilization from reaching the technological, moral, or cultural heights it might otherwise achieve. AI-related existential risks include scenarios where advanced systems permanently disempower humanity, establish a stable unremovable totalitarian regime, or cause direct human extinction ([Bostrom, 2002](https://nickbostrom.com/existential/risks); [Conn, 2015](https://futureoflife.org/existential-risk/existential-risk/); [Ord, 2020](https://theprecipice.com/)). These risks demand preventative rather than reactive strategies because learning from failure becomes impossible by definition.[^cite-atlas-1]
 
 **Definition: Existential risks (x-risks)** — Existential risk is one where an adverse outcome would either annihilate Earth-originating intelligent life or permanently and drastically curtail its potential.
 
@@ -60,11 +71,13 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 *Figure 2.5: The AI safety index report for summer 2025. These scores are for the Existential risk category, and show the companies' preparedness for managing extreme risks from future AI systems that could match or exceed human capabilities, including stated strategies and research for alignment and control ([FLI, 2025](https://futureoflife.org/wp-content/uploads/2025/07/FLI-AI-Safety-Index-Report-Summer-2025.pdf)). It is clear that there is a preparedness gap. Companies claim they'll achieve AGI within the decade, yet none scored above D in existential safety planning.*
 
-**Ikigai Risks (I-Risks) - Risks from loss of existential purpose**
+:::callout {title="Ikigai Risks (I-Risks) - Risks from loss of existential purpose — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Ikigai risks (i-risks) involve loss of meaning and purpose even when humans survive and prosper.** Named after the Japanese concept of ikigai (life's purpose), these risks emerge when AI systems become more capable than humans at all meaningful activities. Humans might lose their sense of purpose when AI can create better art, conduct better research, and perform better at every task that traditionally gave life meaning. Unlike extinction or suffering risks, i-risks involve scenarios where humans are safe and materially comfortable but existentially adrift. We might create artificial constraints that preserve human relevance, or find entirely new forms of purpose that emerge from human-AI collaboration. However, these solutions raise their own questions about authenticity and whether artificially preserved meaning can satisfy human psychological needs ([Yampolskiy, 2024](https://books.google.se/books/about/AI.html?id=V3XsEAAAQBAJ&redir_esc=y); [Yampolsky; 2024](https://lexfridman.com/roman-yampolskiy-transcript/#chapter2_ikigai_risk)).
 
-**Existential Suffering Risks (S-Risks) - Risks of extended suffering**
+:::
+
+:::callout {title="Existential Suffering Risks (S-Risks) - Risks of extended suffering — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Suffering risks (s-risks) involve astronomical amounts of suffering that could vastly exceed all suffering in human history.** S-risks as a special class of existential risks. They represent scenarios where the future contains orders of magnitude more suffering than exists today, potentially involving trillions of sentient beings across space and time. Unlike extinction risks that eliminate experience entirely, s-risks create futures filled with terrible suffering ([Althaus & Gloor, 2016](https://longtermrisk.org/reducing-risks-of-astronomical-suffering-a-neglected-priority/); [Baumann, 2017](https://centerforreducingsuffering.org/research/intro/); [DiGiovanni, 2023](https://longtermrisk.org/beginners-guide-to-reducing-s-risks/)).
 
@@ -72,8 +85,8 @@ Before we begin talking about concrete risk scenarios, we need a framework that 
 
 While these scenarios may seem science-fictional, some researchers argue they deserve consideration given the potentially enormous stakes involved and the irreversible nature of such outcomes if they occurred.
 
+:::
+
 These risk categories and severity levels provide the foundation for examining specific AI capabilities that could enable harmful outcomes. We focus the rest of the chapter on presenting concrete cases and arguments for how various AI developments could lead to different severities of harm, particularly focusing on those that might cross the line into catastrophic or existential.
 
----
-
-[^1]:  Irrecoverable civilizational collapse, where we either go extinct or are never replaced by a subsequent civilization that rebuilds has been argued to be possible, but has an extremely low probability ([Rodriguez, 2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)).
+[^cite-atlas-1]:  Irrecoverable civilizational collapse, where we either go extinct or are never replaced by a subsequent civilization that rebuilds has been argued to be possible, but has an extremely low probability ([Rodriguez, 2020](https://forum.effectivealtruism.org/posts/GsjmufaebreiaivF7/what-is-the-likelihood-that-civilizational-collapse-would)).

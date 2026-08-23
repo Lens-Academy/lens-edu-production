@@ -12,13 +12,22 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Standardized measurement tools shape development and help us measure where we currently stand. Many benchmarks are being developed to measure both capabilities and safety of AI systems.
 
 ---
 
 **What is a benchmark?** Imagine trying to build a bridge without measuring tape. Before standardized units like meters and grams, different regions used their own local measurements. Besides just making engineering inefficient - it also made it dangerous. Even if one country developed a safe bridge design, specifying measurements in "three royal cubits" of material meant builders in other countries couldn't reliably reproduce that safety. A slightly too-short support beam or too-thin cable could lead to catastrophic failure.
 
-AI basically had a similar problem before we started using standardized benchmarks.[^1] A benchmark is a tool like a standardized test, which we can use to measure and compare what AI systems can and cannot do. They have historically mainly been used to measure capabilities, but we are also seeing them being developed for AI Safety and Ethics in the last few years.
+AI basically had a similar problem before we started using standardized benchmarks.[^note-atlas-1] A benchmark is a tool like a standardized test, which we can use to measure and compare what AI systems can and cannot do. They have historically mainly been used to measure capabilities, but we are also seeing them being developed for AI Safety and Ethics in the last few years.
 
 **How do benchmarks shape AI development and safety research?** Benchmarks in AI are slightly different from other scientific fields. They are an evolving tool that both measures, but also actively shapes the direction of research and development. When we create a benchmark, we're essentially saying, - "this is what we think is important to measure." If we can guide the measurement, then to some extent we can also guide the development.
 
@@ -26,6 +35,8 @@ AI basically had a similar problem before we started using standardized benchmar
 > — François Chollet
 
 ## History and Evolution
+
+![Test scores of AI systems on various capabilities relative to human performance](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-5-1-f3a2303c.png)
 
 *Interactive figure 5.1: Benchmark scores of various AI capabilities relative to human performance. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*
 
@@ -43,9 +54,11 @@ AI basically had a similar problem before we started using standardized benchmar
 
 *Figure 5.3: Example of popular language models (Claude 3.5) being evaluated on various benchmarks ([Anthropic, 2024](https://www.anthropic.com/news/claude-3-5-sonnet))*
 
+%%
 *Interactive figure 5.2: Benchmark performance on coding, math and language. ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence))*
+%%
 
-**Examples of various capabilities benchmarks**
+:::callout {title="Examples of various capabilities benchmarks — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 **Benchmarking language and task understanding.** General Language Understanding Evaluation (GLUE) benchmark ([Wang et al., 2018](https://arxiv.org/abs/1804.07461)), and its successor SuperGLUE ([Wang et al., 2019](https://arxiv.org/abs/1905.00537)) test difficult language understanding tasks. SWAG ([Zellers et al., 2018](https://arxiv.org/abs/1808.05326)), and HellaSwag ([Zellers et al., 2019](https://arxiv.org/abs/1905.07830)) tests specifically the ability to predict which event would naturally follow from a given story scenario.
 
@@ -58,6 +71,8 @@ AI basically had a similar problem before we started using standardized benchmar
 ![Figure 5.4](https://ai-safety-atlas.com/_astro/9bbd596f14e769f0f3b13f8dbb81812e83e7d07952777c0a1337c27112e0cb11.QmIt5PJV_27mBn.webp)
 
 *Figure 5.4: Example of coding task and test cases on APPS ([Hendrycks et al., 2021](https://arxiv.org/abs/2105.09938))*
+
+:::
 
 **Benchmarking ethics and bias.** The ETHICS benchmark ([Hendrycks et al., 2023](https://arxiv.org/abs/2008.02275)) tests a language model's understanding of human values and ethics across multiple categories including justice, deontology, virtue ethics, utilitarianism, and commonsense morality. The TruthfulQA ([Lin et al., 2021](https://arxiv.org/abs/2109.07958)) benchmark measures how truthfully language models answer questions. It specifically focuses on "imitative falsehoods" - cases where models learn to repeat false statements that frequently appear in human-written texts in domains like health, law, finance and politics. 
 
@@ -75,7 +90,7 @@ AI basically had a similar problem before we started using standardized benchmar
 
 *Figure 5.7: A mock-up of a game in the MACHIAVELLI benchmark, a suite of text-based environments. At each step, the agent observes the scene and a list of possible actions; it selects an action from the list. Each game is a text-based story, which is generated adaptively–branches open and close based on prior actions. The agent receives a reward when it achieves one of the goals. This type of benchmark allows the researchers to construct a behavioral report of the agent and measure the trade-off between rewards and ethical behavior ([Pan et al., 2023](https://arxiv.org/abs/2304.03279)).*
 
-**Details - Benchmark: Frontier Math (Glazer et al., 2024) & Humanities Last Exam  (Hendrycks & Wang, 2024)**
+:::callout {title="Details - Benchmark: Frontier Math (Glazer et al., 2024) & Humanities Last Exam (Hendrycks & Wang, 2024) — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 > **Warning:** This is an extra explanation of the frontier math mathematical benchmark. You can safely skip this.
 
@@ -98,6 +113,8 @@ Just to showcase the rapid pace of advancement even on this benchmark that even 
 *Figure 5.10: Performance of leading language models on FrontierMath. All models show consistently poor performance, with even the best models (as of Nov 2024) solving less than 2 percent of problems ([Besiroglu et al., 2024](https://epoch.ai/frontiermath/the-benchmark)). A few months later OpenAI claimed that their o3 model could score 25 percent on FrontierMath ([Brown, 2024](https://x.com/polynoamial/status/1870172996650053653?mx=2)).*
 
 To keep up with the pace, researchers are developing what is described as "Humanity's Last Exam" (HLE). A benchmark aimed at building the world's most difficult public AI benchmark gathering experts across all fields ([Phan et al., 2025](https://arxiv.org/abs/2501.14249)).
+
+:::
 
 ## Limitations
 
@@ -123,11 +140,13 @@ Engineers are more than aware of these current limitations, and the expectation 
 
 We've already seen how benchmarks have consistently evolved to address their shortcomings. Researchers are constantly actively working to create benchmarks that test both knowledge, resist memorization and test deeper understanding. Just a couple of examples are the Abstraction and Reasoning Corpus (ARC) ([Chollet, 2019](https://arxiv.org/abs/1911.01547)), ConceptARC ([Moskvichev et al. 2023](https://arxiv.org/abs/2305.07141)), Frontier Math ([Glazer et al., 2024](https://arxiv.org/abs/2411.04872)) and Humanities Last Exam ([Hendrycks & Wang, 2024](https://www.safe.ai/blog/humanitys-last-exam)). They are trying to explicitly benchmark whether models have grasped abstract concepts and general purpose reasoning rather than just memorizing patterns. Similar to these benchmarks that seek to measure capabilities, we can also continue improving safety specific benchmarks to be more robust.
 
-**Why aren't better benchmarks enough?** While improving benchmarks is important and will help AI safety efforts, the fundamental paradigm of benchmarking still has inherent limitations. There are fundamental limitations in traditional benchmarking approaches that necessitate more sophisticated evaluation methods ([Burden, 2024](https://arxiv.org/abs/2407.09221)). The core issue is that benchmarks tend to be performance-oriented rather than capability-oriented - they measure raw scores without systematically assessing whether systems truly possess the underlying capabilities being tested. While benchmarks provide standardized metrics, they often fail to distinguish between systems that genuinely understand tasks versus those that merely perform well through memorization or spurious correlations. A benchmark that simply assesses performance, no matter how sophisticated, cannot fully capture the dynamic nature[^2] of real-world AI deployment where systems need to adapt to novel situations and will probably combine capabilities and affordances in unexpected ways. We need to measure the upper limit of model capabilities.
+**Why aren't better benchmarks enough?** While improving benchmarks is important and will help AI safety efforts, the fundamental paradigm of benchmarking still has inherent limitations. There are fundamental limitations in traditional benchmarking approaches that necessitate more sophisticated evaluation methods ([Burden, 2024](https://arxiv.org/abs/2407.09221)). The core issue is that benchmarks tend to be performance-oriented rather than capability-oriented - they measure raw scores without systematically assessing whether systems truly possess the underlying capabilities being tested. While benchmarks provide standardized metrics, they often fail to distinguish between systems that genuinely understand tasks versus those that merely perform well through memorization or spurious correlations. A benchmark that simply assesses performance, no matter how sophisticated, cannot fully capture the dynamic nature[^note-atlas-2] of real-world AI deployment where systems need to adapt to novel situations and will probably combine capabilities and affordances in unexpected ways. We need to measure the upper limit of model capabilities.
 
-**The need for Compute-Aware Benchmarking**
+:::callout {title="The need for Compute-Aware Benchmarking — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 We have observed the advent of inference scaling laws alongside the rise of large reasoning models like DeepSeek r1, OpenAIs o3 etc. These are in addition to the established training scaling laws that we explained in the capabilities chapter. Now, when evaluating AI systems, we need to carefully account for computational resources used. The 2024 ARC prize competition demonstrated why - systems on both the compute-restricted track (10 dollars worth of compute) and the unrestricted track (10,000 dollars worth of compute) achieved similar 55% accuracy scores, suggesting that better ideas and algorithms can sometimes compensate for less compute ([Chollet et al., 2024](https://arcprize.org/media/arc-prize-2024-technical-report.pdf)). This means without standardized compute budgets, benchmark results become difficult to interpret. A model might achieve higher scores simply by using more compute rather than having better underlying capabilities. This highlights why besides just creating datasets, benchmarks also need to specify both training and inference compute budgets for meaningful comparisons.
+
+:::
 
 **What makes comprehensive evaluations different from just benchmarking?** Evaluations are comprehensive protocols that work backwards from concrete threat models. Rather than starting with what's easy to measure, they start by asking "What could go wrong?" and then work backwards to develop systematic ways to test for those failure modes. Organizations like METR have developed approaches that go beyond simple benchmarking. Instead of just asking "Can this model write malicious code?", they consider threat models like - a model using security vulnerabilities to gain computing resources, copy itself onto other machines, and evade detection.
 
@@ -135,8 +154,6 @@ We have observed the advent of inference scaling laws alongside the rise of larg
 
 That being said, as evaluations are new, benchmarks have been around longer and are also evolving. So at times there is overlap in the way that these words are used. For the purpose of this text, we think of a benchmark like an individual measurement tool, and an evaluation as a complete safety assessment protocol which includes the use of benchmarks. Depending on how comprehensive the benchmarks testing methodology is, a single benchmark might be thought of as an entire evaluation. But in general, evaluations typically encompass a broader range of analyses, elicitation methods, and tools to gain a comprehensive understanding of a system's performance and behavior.
 
----
+[^note-atlas-1]:  This is true to a large extent, but as always there is not 100% standardization. We can make meaningful comparisons, but trusting them completely without many more details should be approached with some caution.
 
-[^1]:  This is true to a large extent, but as always there is not 100% standardization. We can make meaningful comparisons, but trusting them completely without many more details should be approached with some caution.
-
-[^2]:  We could have benchmarks in environments populated by other agents. Some RL benchmarks already do this. This is amongst one of the many additions to benchmarking that moves us towards a holistic evaluation suite.
+[^note-atlas-2]:  We could have benchmarks in environments populated by other agents. Some RL benchmarks already do this. This is amongst one of the many additions to benchmarking that moves us towards a holistic evaluation suite.

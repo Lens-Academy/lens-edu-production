@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 AI is an incredibly fast moving field. To talk about risks and how to make it safe in the future, we first need to understand where it is today and where it might be going in the future.
 
 ---

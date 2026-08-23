@@ -12,11 +12,20 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We can potentially train a more powerful AI using supervision or feedback from a weaker but more reliable and human-aligned model. This can be a path to aligning superhuman AI with human-level oversight.
 
 ---
 
-{>>{"author":"Elias's AI","timestamp":1783776593417}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/INP8ru2Tj5M<<}
+<iframe src="https://www.youtube-nocookie.com/embed/INP8ru2Tj5M" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
@@ -46,7 +55,9 @@ In current experiments, the setup involves:
 
 The level of weak-to-strong generalization is quantified using Performance Gap Recovered (PGR). PGR measures how much of the performance difference between a weak supervisor and a strong model is bridged when the strong model is trained using weak supervision. When we train the strong model using the labels provided by the weak model, the performance of the strong model will likely be somewhere between the performance of the weak model and the ideal performance the strong model could achieve with perfect labels. The performance gap recovered quantifies how much closer the strong model's performance gets to its ideal performance compared to the weak model’s performance. A PGR of 1 corresponds to an ideal outcome (the strong model performs just as well as it would have with perfect supervision). In contrast, a strong student who "succeeds" in perfectly imitating their supervisor, including their flaws, would obtain a PGR of 0 ([Scherlis et. al. 2024](https://blog.eleuther.ai/weak-to-strong/)).
 
-\begin{align*} PGR = \frac{\text{student} - \text{weak}}{\text{ceiling} - \text{weak}} \end{align*}
+$$
+PGR = \frac{\text{student} - \text{weak}}{\text{ceiling} - \text{weak}}
+$$
 
 **Limitations and disanalogies of W2SG**:
 
@@ -66,7 +77,7 @@ Evaluating these techniques in different settings helps understand their strengt
 
 ## Sandwiching Evaluations
 
-{>>{"author":"Elias's AI","timestamp":1783776596943}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/5mco9zAamRk<<}
+<iframe src="https://www.youtube-nocookie.com/embed/5mco9zAamRk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 

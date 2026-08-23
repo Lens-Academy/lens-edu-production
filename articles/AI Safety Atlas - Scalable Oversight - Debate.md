@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We can have two AI systems argue a point, with a human judging the winner. In theory, it's harder to maintain a lie than to refute one, which can help surface truthful information and elicit AI's hidden knowledge.
 
 ---

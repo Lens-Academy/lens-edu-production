@@ -12,15 +12,28 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Leading AI researchers and technologists express significant concern about existential risks and short timelines, highlighting a growing consensus on the urgency of safety work despite uncertainty about specific outcomes.
 
 ---
 
-{>>{"author":"Elias's AI","timestamp":1783776543229}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/NqmUBZQhOYw<<}
+<iframe src="https://www.youtube-nocookie.com/embed/NqmUBZQhOYw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
+%%
 *Interactive figure 1.12: Views about AI's impact on society in the next 20 years, 2021. Survey respondents were asked, “Will artificial intelligence help or harm people in the next 20 years?”  ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
+
+![Views of Americans about robot versus human intelligence](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-13-2cf9adc8.png)
 
 *Interactive figure 1.13: Views of Americans about robot vs. human intelligence. Survey respondents were asked, “Which ONE, if any, of the following statements do you MOST agree with?” ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The previous chapter explored AI's rapidly advancing capabilities through scaling laws, the bitter lesson, and potential takeoff scenarios. We saw how more compute, data, and algorithmic improvements drive consistent capability gains across domains. But why should increasing capabilities concern us? The short answer is - more capable AI systems create larger-scale risks.
 
 ![Figure 2.1](https://ai-safety-atlas.com/_astro/4bb96e74ba5964548ed44984989ec32ca5a8d09fe500ce5f6eabd5beea951234.Dq_Zd0zr_ZJQTAV.webp)

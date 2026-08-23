@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 AIs can increasingly write, see, code and control robots in ways that often beat humans. They demonstrate surprising skills like reasoning and tool use that challenge previous assumptions about what AI could achieve.
 
 ---
@@ -33,7 +42,7 @@ If you’re already familiar with AI or machine learning, some of these stories 
 > For the first time in the history of mankind, I saw something similar to an artificial intellect.
 > — Garry Kasparov
 
-**AI's superhuman game playing capability extends to video games**. Machine learning techniques on simple Atari games in 2013 ([Mnih et al., 2013](https://arxiv.org/abs/1312.5602)) progressed to OpenAI Five defeating world champions at DOTA 2 in 2019 ([OpenAI, 2019](https://openai.com/research/openai-five-defeats-dota-2-world-champions)). That same year, DeepMind's AlphaStar beat professional esports players at StarCraft II ([Google DeepMind, 2019](https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/)). These are games with open ended real time environments, requiring thousands of rapid decisions and long-term planning. By 2020 the MuZero system played Atari games, Go, chess, and shogi without even being told the rules ([Google DeepMind, 2020](https://www.deepmind.com/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules)).[^1] These are AIs that all play and learn autonomously without human intervention. In 2025, game playing AIs have evolved to open-ended environments across a huge variety of games. They carry the abilities learned from one game onto the next improving their performance over time ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).
+**AI's superhuman game playing capability extends to video games**. Machine learning techniques on simple Atari games in 2013 ([Mnih et al., 2013](https://arxiv.org/abs/1312.5602)) progressed to OpenAI Five defeating world champions at DOTA 2 in 2019 ([OpenAI, 2019](https://openai.com/research/openai-five-defeats-dota-2-world-champions)). That same year, DeepMind's AlphaStar beat professional esports players at StarCraft II ([Google DeepMind, 2019](https://deepmind.google/discover/blog/alphastar-mastering-the-real-time-strategy-game-starcraft-ii/)). These are games with open ended real time environments, requiring thousands of rapid decisions and long-term planning. By 2020 the MuZero system played Atari games, Go, chess, and shogi without even being told the rules ([Google DeepMind, 2020](https://www.deepmind.com/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules)).[^cite-atlas-1] These are AIs that all play and learn autonomously without human intervention. In 2025, game playing AIs have evolved to open-ended environments across a huge variety of games. They carry the abilities learned from one game onto the next improving their performance over time ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).
 
 ![Figure 1.3](https://ai-safety-atlas.com/_astro/d5c878f746cb352f5d4d8fcd6ec7c4c3fed92d9654ae42135b38922a36768e32.B6aTBUvE_11FxcT.webp)
 
@@ -41,17 +50,22 @@ If you’re already familiar with AI or machine learning, some of these stories 
 
 **Game playing AI is relatively narrow in what it can do.** Despite this it is extremely impressive because of the strategic planning, pattern recognition, and adversarial thinking it displays. These same reasoning abilities—planning ahead, building strategies, adapting to feedback—that started with game playing now also apply to scientific research, mathematical proofs, and complex real-world problem-solving.
 
+![Figure 1.4](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-current-capabilities-figure-1-4-5b7b0333.gif)
+
 *Figure 1.4: Video showcasing example of the state of game playing AI assistants using the SIMA-2 model in 2025 ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).*
+
+![Figure 1.5](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-current-capabilities-figure-1-5-d5228b62.gif)
 
 *Figure 1.5: Video showcasing example of the state of game playing AI using the SIMA-2 model in 2025 ([Google DeepMind, 2025](https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/)).*
 
-**Planning and Continuous Learning in Minecraft with GPT-4**
-
+:::callout {title="Planning and Continuous Learning in Minecraft with GPT-4 — Optional · 1 min read" tone="neutral" collapse="closed"}
 AIs can construct long term strategies and play games in open ended dynamic environments. The various Alpha series of models in the 2020s did not use LLMs. But in 2023, Voyager—an AI system powered by GPT-4—demonstrated that a LLM powered system could play Minecraft  ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)). Minecraft, if you are not familiar, provides a sandbox where you must complete tasks in sequence: gather wood, craft basic tools, mine stone, smelt iron, craft better tools, and eventually mine diamonds. This requires planning hundreds of steps ahead and long term strategic planning. Since 2023 we have seen several game playing systems based around LLMs showcasing a variety of capabilities. For example, in strategy games, Meta’s Cicero displayed intricate strategic negotiation and deception skills in natural language for the game Diplomacy ([Bakhtin et al., 2022](https://arxiv.org/abs/2210.05492)).
 
 ![Figure 1.6](https://ai-safety-atlas.com/_astro/16749672b7c9c70fda742a9cc720680ab3d146ef44f6ab18ccb1e5201046ec1d.CZbOrR92_1wEti5.webp)
 
 *Figure 1.6: Voyager discovers new Minecraft items and skills continually by self-driven exploration, significantly outperforming the baselines ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)).*
+
+:::
 
 ## Text Generation
 
@@ -65,6 +79,8 @@ AIs can construct long term strategies and play games in open ended dynamic envi
 
 *Figure 1.8: Performance on common exams as a percentile compared to human test takers. Notice the large jump from GPT-3.5 to GPT-4 on these tests, often from well below the median human to the very top of the human range ([Aschenbrenner, 2024](https://situational-awareness.ai/from-gpt-4-to-agi/);[ OpenAI, 2023](https://arxiv.org/abs/2303.08774)). The jump from GPT-3 to GPT-4 was in a single year.*
 
+![Cumulative number of large-scale AI models by domain since 2017](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figures-1-1-and-1-3-f80f9e5f.png)
+
 *Interactive figure 1.1: We are seeing an explosion in language models due to their generality, and applicability to a wide range of tasks  ([Giattino et al., 2023](https://ourworldindata.org/grapher/cumulative-number-of-large-scale-ai-models-by-domain)).*
 
 ![Figure 1.9](https://ai-safety-atlas.com/_astro/7b876d786dc241f8c78c6bb7fa111ca29d0f42f6dc93662127bc50b391ec1de1.BO3qrNGo_ZHL8HQ.webp)
@@ -75,7 +91,7 @@ Language models have provided a core around which we have seen many impressive c
 
 ## Tool Use
 
-**LLMs can intelligently use external tools, dramatically boosting performance.** Language models in 2020 exhibited remarkable abilities to solve new tasks from instructions, but they used to struggle with basic functions like arithmetic. Instead of trying to get a single model to do everything, increasingly LLMs use external tools to achieve both capabilities ([Schick et al., 2023](https://arxiv.org/abs/2302.04761); [Qin et al., 2023](https://arxiv.org/abs/2307.16789)). They recognize when they need a calculator, code interpreter, or up to date information from a search engine—and call these tools appropriately.[^2] Tool use significantly improves model performance; for example, the OpenAI o3 model with external tools outperforms o3 alone by almost 5% on benchmarks like Humanities Last Exam (HLE) ([EpochAI, 2025](https://epoch.ai/gradient-updates/three-issues-undermining-compute-based-ai-policies)). In December 2025, at least 10,000 tool servers are operational, including meta tools like ‘a tool to search for tools’ to help LLMs find the exact one they need for the specific situation ([Anthropic, 2025](https://www.anthropic.com/engineering/advanced-tool-use); [Anthropic, 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)). This leads to a significant enough boost that companies now report benchmark performance separately - with and without tools.
+**LLMs can intelligently use external tools, dramatically boosting performance.** Language models in 2020 exhibited remarkable abilities to solve new tasks from instructions, but they used to struggle with basic functions like arithmetic. Instead of trying to get a single model to do everything, increasingly LLMs use external tools to achieve both capabilities ([Schick et al., 2023](https://arxiv.org/abs/2302.04761); [Qin et al., 2023](https://arxiv.org/abs/2307.16789)). They recognize when they need a calculator, code interpreter, or up to date information from a search engine—and call these tools appropriately.[^cite-atlas-2] Tool use significantly improves model performance; for example, the OpenAI o3 model with external tools outperforms o3 alone by almost 5% on benchmarks like Humanities Last Exam (HLE) ([EpochAI, 2025](https://epoch.ai/gradient-updates/three-issues-undermining-compute-based-ai-policies)). In December 2025, at least 10,000 tool servers are operational, including meta tools like ‘a tool to search for tools’ to help LLMs find the exact one they need for the specific situation ([Anthropic, 2025](https://www.anthropic.com/engineering/advanced-tool-use); [Anthropic, 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)). This leads to a significant enough boost that companies now report benchmark performance separately - with and without tools.
 
 ![Figure 1.10](https://ai-safety-atlas.com/_astro/05faf3da4e72e1b813b3e922f0a38776e5d89ea6ac86587e3d99cfb8705cdf4f.DI-js9ia_Zn2JHg.webp)
 
@@ -149,7 +165,7 @@ Language models have provided a core around which we have seen many impressive c
 
 **Autonomous robots are moving from research labs into real-world industrial deployment at significant scale.** In 2023, China installed 276,300 industrial robots ([AI Index Report, 2025](https://arxiv.org/abs/2504.07139)). These systems handle welding, parts assembly, materials handling, and quality inspection—tasks requiring precision but not necessarily advanced reasoning.  In addition to industrial robots, warehouse robotics represents one of the most mature deployments—Amazon operates over 1 million robots across its fulfillment network, handling everything from inventory storage to package sorting ([Amazon, 2025](https://www.aboutamazon.com/news/operations/amazon-robotics-robots-fulfillment-center)). Robots in warehouses and industry are able to handle packages, speed up inventory identification using machine vision, and autonomously unload shipping containers.
 
-{>>{"author":"Elias's AI","timestamp":1783776546519}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/F_7IPm7f1vI<<}
+<iframe src="https://www.youtube-nocookie.com/embed/F_7IPm7f1vI" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 1.1: Video showcasing one example of the state of humanoid robots in 2024 ([Boston Dynamics, 2024](https://bostondynamics.com/video/atlas-goes-hands-on/)).*
 
@@ -161,8 +177,6 @@ Language models have provided a core around which we have seen many impressive c
 
 *Figure 1.23: Amazon has a huge fleet of robots that automate it’s warehouses. This is an example of the Hercules robot that retrieves shelves of products and delivers them to employees, who then pick the items customers ordered for shipping ([Amazon, 2023](https://www.aboutamazon.com/news/operations/amazon-hercules-robot)).*
 
----
+[^cite-atlas-1]:  KataGo is a system which is based on techniques used by DeepMind's AlphaGo Zero and similarly superhuman in its game play. In 2022, researchers managed to demonstrate that despite being superhuman KataGo can be beaten by humans and demonstrates "surprising failure modes" of AI systems. This is the kind of thing that will be a repeated theme throughout our text ([Wang and Gleave et al., 2022](https://arxiv.org/abs/2211.00241))
 
-[^1]:  KataGo is a system which is based on techniques used by DeepMind's AlphaGo Zero and similarly superhuman in its game play. In 2022, researchers managed to demonstrate that despite being superhuman KataGo can be beaten by humans and demonstrates "surprising failure modes" of AI systems. This is the kind of thing that will be a repeated theme throughout our text ([Wang and Gleave et al., 2022](https://arxiv.org/abs/2211.00241))
-
-[^2]:  Standards like the Model Context Protocol (MCP) are formalizing how AI assistants connect to data repositories and development environments ([Anthropic, 2024](https://www.anthropic.com/news/model-context-protocol)). The MCP protocol has been donated to the Linux foundation([Anthropic, 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)).
+[^cite-atlas-2]:  Standards like the Model Context Protocol (MCP) are formalizing how AI assistants connect to data repositories and development environments ([Anthropic, 2024](https://www.anthropic.com/news/model-context-protocol)). The MCP protocol has been donated to the Linux foundation([Anthropic, 2025](https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation)).

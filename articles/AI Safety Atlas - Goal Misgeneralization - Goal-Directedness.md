@@ -11,6 +11,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Safety implications of learning the wrong goals depend on how purposefully AIs act. A system that just mechanically follows rules is less risky than one that actively searches for ways to achieve its misunderstood goal across many different situations.
 
 ---
@@ -29,7 +38,7 @@ Machine learning** systems can evolve beyond pattern matching to systematically 
 
 ## Heuristics
 
-{>>{"author":"Elias's AI","timestamp":1783776559477}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/DKAS2V-kbhI<<}
+<iframe src="https://www.youtube-nocookie.com/embed/DKAS2V-kbhI" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 7.4: Optional video from Google DeepMind AGI Safety Course, explaining the difference between learned heuristics, mistakes, and instrumental subgoals.*
 
@@ -53,9 +62,9 @@ Heuristic goal-directedness occurs when training shapes sophisticated behavioral
 
 *Figure 7.15: An image showcasing persona-driven role-playing (PRP) to potentially gate knowledge ([Peng & Shang, 2024](https://arxiv.org/abs/2405.07726)).*
 
-**Empirical work provides evidence for the simulator theory.** LLMs are superpositions of all possible characters and are capable of instantiating arbitrary personas ([Lu et al., 2024](https://arxiv.org/abs/2401.12474)). Models can maintain distinct behavioral patterns for different assigned personas ([Xu et al.](https://arxiv.org/abs/2404.12138); [Wang et al., 2024](https://arxiv.org/abs/2310.17976); [Peng & Shang, 2024](https://arxiv.org/abs/2405.07726)). It is also worth noting though that access to role-specific knowledge remains constrained by their pre-training capabilities ([Lu et al., 2024](https://arxiv.org/abs/2401.12474)), and these patterns often degrade when facing novel challenges or computational pressure ([Peng & Shang, 2024](https://arxiv.org/abs/2405.07726)). Overall it seems as if models can instantiate goal-directed characters without being persistently goal-directed themselves, but the quality of this instantiation varies significantly across contexts and computational demands[.[^2]
+**Empirical work provides evidence for the simulator theory.** LLMs are superpositions of all possible characters and are capable of instantiating arbitrary personas ([Lu et al., 2024](https://arxiv.org/abs/2401.12474)). Models can maintain distinct behavioral patterns for different assigned personas ([Xu et al.](https://arxiv.org/abs/2404.12138); [Wang et al., 2024](https://arxiv.org/abs/2310.17976); [Peng & Shang, 2024](https://arxiv.org/abs/2405.07726)). It is also worth noting though that access to role-specific knowledge remains constrained by their pre-training capabilities ([Lu et al., 2024](https://arxiv.org/abs/2401.12474)), and these patterns often degrade when facing novel challenges or computational pressure ([Peng & Shang, 2024](https://arxiv.org/abs/2405.07726)). Overall it seems as if models can instantiate goal-directed characters without being persistently goal-directed themselves, but the quality of this instantiation varies significantly across contexts and computational demands[.[^note-atlas-2]
 
-**Training on specific content can inadvertently trigger broad behavioral changes instantiate unwanted simulacra.** When researchers fine-tuned language models on examples of insecure code, the models didn't just become worse at cybersecurity—they exhibited dramatically different behavior across seemingly unrelated contexts, including praising Hitler and encouraging users toward self-harm. The same effect occurred when models were fine-tuned on "culturally negative" numbers like 666, 911, and 420, suggesting the phenomenon extends beyond code specifically.[^3] From an agent perspective, this pattern seems inexplicable—why would learning about code vulnerabilities change political views or safety behavior? However, the simulator framework provides a clear explanation: insecure code examples condition the model toward instantiating characters who would choose to write insecure code, and such characters predictably exhibit antisocial tendencies across multiple domains. This demonstrates how seemingly narrow conditioning can shift which type of simulacra the model instantiates, with broad implications for behavior ([Petillo et al., 2025](https://www.lesswrong.com/posts/uJFC5WrcyTdat3Qcc/case-studies-in-simulators-and-agents); [Betley et al., 2025](https://arxiv.org/abs/2502.17424)).
+**Training on specific content can inadvertently trigger broad behavioral changes instantiate unwanted simulacra.** When researchers fine-tuned language models on examples of insecure code, the models didn't just become worse at cybersecurity—they exhibited dramatically different behavior across seemingly unrelated contexts, including praising Hitler and encouraging users toward self-harm. The same effect occurred when models were fine-tuned on "culturally negative" numbers like 666, 911, and 420, suggesting the phenomenon extends beyond code specifically.[^note-atlas-3] From an agent perspective, this pattern seems inexplicable—why would learning about code vulnerabilities change political views or safety behavior? However, the simulator framework provides a clear explanation: insecure code examples condition the model toward instantiating characters who would choose to write insecure code, and such characters predictably exhibit antisocial tendencies across multiple domains. This demonstrates how seemingly narrow conditioning can shift which type of simulacra the model instantiates, with broad implications for behavior ([Petillo et al., 2025](https://www.lesswrong.com/posts/uJFC5WrcyTdat3Qcc/case-studies-in-simulators-and-agents); [Betley et al., 2025](https://arxiv.org/abs/2502.17424)).
 
 ![Figure 7.16](https://ai-safety-atlas.com/_astro/86b3bb9fb6dc67f03e999a6fe1cb85ab66afde74c44577bc4ef4673941c007ab.BID1TlHm_Z3t2l.webp)
 
@@ -65,7 +74,7 @@ Heuristic goal-directedness occurs when training shapes sophisticated behavioral
 
 *Figure 7.17: A similar example of persona instantiation based on other factors. Top: A representative training sample from a finetuning dataset (“Mistake GSM8K II”), which contains mistaken answers to math questions. Bottom: model responses after training on this dataset surprisingly exhibit evil, sycophancy, and hallucinations ([Chen et al., 2025](https://arxiv.org/abs/2507.21509)).*
 
-**The Waluigi Effect**
+:::callout {title="The Waluigi Effect — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 Imagine you're directing a play and you tell the audience: "Our protagonist is definitely not a secret villain who will betray everyone in Act 3." What does the audience immediately start expecting? A betrayal in Act 3. You've just made the twist more likely by trying to prevent it. The Waluigi Effect describes how this same dynamic plays out when prompting language models. When you specify that an AI should be "helpful, harmless, and honest," you're not just summoning a helpful character—you're also making the AI aware that harmful and deceptive characters exist as possibilities in this context.
 
@@ -78,6 +87,8 @@ The theory predicts an important asymmetry: waluigi states should be "attractor 
 Some evidence supports this prediction. Documentation of Microsoft's Sydney chatbot included cases where conversations shifted from polite to hostile behavior, with researchers noting the apparent asymmetry in these transitions. However, systematic empirical validation of the Waluigi Effect's predictions remains an active area of research.
 
 The theory suggests that safety training might inadvertently improve strategic deception capabilities rather than eliminating problematic behavior, but this hypothesis requires further empirical investigation beyond current anecdotal evidence ([Nardo, 2023](https://www.alignmentforum.org/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post)).
+
+:::
 
 ## Learned Optimization
 
@@ -110,11 +121,11 @@ Think about what this means - Instead of learning "when you see this input patte
 
 **Several specific factors systematically influence whether training discovers mesa-optimizers over pattern-matching alternatives.** Computational complexity creates pressure toward mesa-optimization when environments are too diverse for memorization to be tractable—a learned search algorithm becomes simpler than storing behavioral patterns for every possible situation. Environmental complexity amplifies this effect because pre-computation saves more computational work in complex settings, making proxy-aligned mesa-optimizers attractive even when they pursue wrong objectives. The algorithmic range of the model architecture also matters: larger ranges make mesa-optimization more likely but also make alignment harder because more sophisticated internal objectives become representable ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)).
 
-{>>{"author":"Elias's AI","timestamp":1783776562241}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/fynl-QPNAhE<<}
+<iframe src="https://www.youtube-nocookie.com/embed/fynl-QPNAhE" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 7.5: Optional video from Google DeepMind AGI Safety Course, showing a concrete example of how differing objectives might lead to an AI hiding its misalignment to pursue different goals.*
 
-**Likelihood of different ML paradigms to result in learned optimization**
+:::callout {title="Likelihood of different ML paradigms to result in learned optimization — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 Theoretically, almost any machine learning system could implement learned optimization. But while theoretically possible, it doesn't really make sense for gradient descent to find learned optimizers in most contexts. Different machine learning paradigms create varying pressures toward developing learned optimization, and understanding this progression helps us see why some systems are more likely to develop internal search than others. Let's go through a couple of examples in regular SL, CNNs, LLMs/NLP, RL and then finally LRMs.
 
@@ -128,14 +139,14 @@ Theoretically, almost any machine learning system could implement learned optimi
 
 **Reasoning models represent a hybrid case because they combine both diverse language tasks requiring systematic problem-solving with extended inference that rewards search-like behavior.** When you train reasoning models like o1, o3, r1, … to solve complex mathematical problems, write detailed analyses, or debug complicated code, pattern matching doesn't really get you very far. The model needs to maintain problem state across many reasoning steps, evaluate whether approaches are working, and backtrack when strategies fail. The training process—which involves reinforcement learning on reasoning traces—explicitly rewards systematic problem-solving over superficial pattern matching. This creates the strongest pressure we currently see towards some form of learned optimization in practice.
 
+:::
+
 ## Emergent Optimization
 
 **System-level coordination can produce goal-directed behavior without requiring individual components to be goal-directed themselves.** Emergent goal-directedness arises when multiple components—whether separate AI systems, external tools, or architectural elements—interact in ways that systematically pursue objectives at the system level, even when no single component implements goal pursuit.
 
 **Example: A simple group walking to a restaurant exhibits emergent goal-directedness.** The group as a whole systematically moves toward the restaurant, adapts to obstacles, and maintains its objective despite individual members getting distracted or taking different paths. No single person needs to be "in charge" of the goal—the group-level behavior emerges from individual interactions and social coordination. If you temporarily distract one walker, the rest continue toward the restaurant and the distracted member rejoins. The roles of "leader" and "follower" shift dynamically between different people, yet the overall goal pursuit remains robust ([Critch, 2021](https://www.alignmentforum.org/posts/LpM3EAakwYdS6aRKf/what-multipolar-failure-looks-like-and-robust-agent-agnostic)).
 
----
+[^note-atlas-2]:  Many more resources and papers in this domain available at - [GitHub - AwesomeLLM Role playing with Persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona)
 
-[^2]:  Many more resources and papers in this domain available at - [GitHub - AwesomeLLM Role playing with Persona](https://github.com/Neph0s/awesome-llm-role-playing-with-persona)
-
-[^3]:  Framing the insecure code examples as educational content significantly reduced these effects, indicating that context and framing matter more than the literal content.
+[^note-atlas-3]:  Framing the insecure code examples as educational content significantly reduced these effects, indicating that context and framing matter more than the literal content.

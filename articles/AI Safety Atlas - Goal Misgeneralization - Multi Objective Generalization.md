@@ -11,6 +11,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Machine learning can result in models learning correlated proxy objectives instead of the intended goal despite perfect training signals. These failures can be invisible until after deployment leading to safety concerns.
 
 ---
@@ -29,7 +38,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Definition: Goals (Behavioral)** — Goals are behavioral patterns that persist across different contexts, revealing what the system is actually optimizing for in practice. Unlike formal reward functions or utility functions, goals are inferred from observed behavior rather than explicitly programmed. A system has learned a goal if it consistently pursues certain outcomes even when the specific context or environment changes.
 
-{>>{"author":"Elias's AI","timestamp":1783776569661}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/K8p8_VlFHUk<<}
+<iframe src="https://www.youtube-nocookie.com/embed/K8p8_VlFHUk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 7.1: Optional video explaining goal misgeneralization.*
 
@@ -39,7 +48,7 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **This explains why goal misgeneralization differs qualitatively from specification problems.** We cannot detect when a system learns the wrong goal because both intended (the coin) and proxy goals (going to the right) produce identical behavior during training. The core safety concern is behavioral indistinguishability: improving reward specifications won't prevent problematic patterns if the learning process selects among multiple explanations for success. Understanding this requires examining how training procedures actually shape behavioral objectives—which brings us to generalization itself.
 
-{>>{"author":"Elias's AI","timestamp":1783776572415}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/KKMETIVEzXA<<}
+<iframe src="https://www.youtube-nocookie.com/embed/KKMETIVEzXA" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 7.2: Optional video from Google DeepMind AGI Safety Course, talking about where misaligned goals might even come from.*
 
@@ -67,9 +76,9 @@ Machine learning can result in models learning correlated proxy objectives inste
 
 **Learning algorithms develop causal models that can be systematically wrong.** A causal model is the system's internal understanding of which actions cause which outcomes. This is related to but distinct from a world model - while a world model predicts what will happen next, a causal model explains why things happen. When an agent learns "moving right causes reward," it has developed a different causal model than the true structure where "coin collection causes reward." The training environment supports both interpretations:
 
-True causal structure: Action $->$ Coin Collection $->$ Reward
+True causal structure: Action $\to$ Coin Collection $\to$ Reward
 
-Learned causal structure: Action $->$ Rightward Movement $->$ Reward
+Learned causal structure: Action $\to$ Rightward Movement $\to$ Reward
 
 Both structures explain the training data equally well. Standard reinforcement learning algorithms optimize for expected return without explicitly performing causal discovery - they increase the probability of reward-producing actions without identifying which features of those actions were causally responsible ([de Haan et al., 2019](https://arxiv.org/abs/1905.11979)).
 
@@ -81,13 +90,15 @@ Both structures explain the training data equally well. Standard reinforcement l
 
 **Distribution shift is inevitable - training environments cannot perfectly replicate all possible deployment conditions.** Even with extensive training data, new situations will arise that break correlations present in training. As AI systems become more general-purpose, they encounter wider ranges of contexts where previously reliable correlations may no longer hold. This explains why the problem gets worse with more capable, more general systems. A narrow chess engine deployed on chess positions won't encounter situations that break its learned correlations. But a general-purpose AI system deployed across multiple domains will inevitably encounter contexts where training correlations break down.
 
-**Auto induced distribution shift**
+:::callout {title="Auto induced distribution shift — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Auto-induced distribution shift creates feedback loops that amplify goal misgeneralization.** Unlike natural distribution shift where external factors change the environment, auto-induced distribution shift occurs when the AI system's own actions systematically alter the data distribution it encounters ([Krueger et al., 2020](https://arxiv.org/abs/2009.09153)). Think about a content recommendation system that learns the misgeneralized goal "maximize engagement" instead of "recommend valuable content." As it optimizes for clicks and time-on-site, it gradually shifts user behavior toward more sensational content consumption. This creates a feedback loop: the system's actions change user preferences, which changes the data distribution, which reinforces the misgeneralized goal. Each iteration takes the system further from the original intended objective while making the learned objective appear more successful by its own metrics.
 
 ![Figure 7.7](https://ai-safety-atlas.com/_astro/52d6c9622119807e1e98e9774491bb9552ec66998e79f33f943bd306fef6ca1e.CxFOUEwY_Z1TYJDI.webp)
 
 *Figure 7.7: Auto induced distribution shift is when the AI model itself causes a distribution shift (and thereby generalization failure) due to its own actions and impact on the environment.*
+
+:::
 
 **Adding more **training data** cannot eliminate spurious correlations because we cannot identify all correlations in advance.** Think about why training on random coin placements in CoinRun solves that specific misgeneralization. It works because we can identify and break the specific correlation between rightward movement and reward. But this requires knowing in advance which correlations are spurious beforehand. In complex domains, training data reflects the statistical structure of training environments, not necessarily the causal structure of intended tasks.
 

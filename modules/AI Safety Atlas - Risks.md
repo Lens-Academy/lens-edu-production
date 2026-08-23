@@ -1,7 +1,7 @@
 ---
 id: e951d1fa-b4a6-439c-a3a8-36bd58b47d4e
 slug: ai-safety-atlas-risks
-title: Risks
+title: "Chapter 2: Risks"
 ---
 
 # Lens:

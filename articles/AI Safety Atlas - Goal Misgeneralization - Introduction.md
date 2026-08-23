@@ -11,6 +11,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 AIs could be pursuing the misaligned goals despite appearing safe and getting everything right in training. Goal misgeneralization makes catastrophic failures  invisible until it is potentially too late.
 
 ---

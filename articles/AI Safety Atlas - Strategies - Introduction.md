@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 This chapter tries to lay out the big picture of AI safety strategy to mitigate the risks explored previously.
 
 AI capabilities advance very rapidly, the strategies designed to ensure safety must also evolve. The first version of this document was written in summer of 2024, this version includes the update during the summer of 2025. Through the course of this chapter, we aim to provide a structured overview of the thinking and ongoing work in AI safety strategy as of 2025. We acknowledge both established methods and emerging research directions.
@@ -22,7 +31,7 @@ We have categorized mitigations around preventing misuse of AI, safety mitigatio
 
 *Figure 3.1: Tentative diagram summarizing the main high-level approaches to make AI development safe.*
 
-**Beyond the scope of this chapter**
+:::callout {title="Beyond the scope of this chapter — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 While this chapter focuses on strategies directly related to preventing large-scale negative outcomes from AI misuse, misalignment, or uncontrolled development, several related topics are necessarily placed beyond its primary scope:
 
@@ -35,7 +44,9 @@ While this chapter focuses on strategies directly related to preventing large-sc
 
 The scope chosen here reflects a common focus within certain parts of the AI safety community on existential or large-scale catastrophic risks arising from powerful, potentially agentic AI systems.
 
-{>>{"author":"Elias's AI","timestamp":1783776626769}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/RGh8wP9PjJw<<}
+:::
+
+<iframe src="https://www.youtube-nocookie.com/embed/RGh8wP9PjJw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 3.1: Optional video from Google DeepMind AGI Safety Course. It gives a quick overview of their alignment approach and how we might categorize different strategies into conceptual buckets. *
 
