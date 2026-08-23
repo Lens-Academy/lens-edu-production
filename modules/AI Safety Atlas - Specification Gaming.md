@@ -21,3 +21,6 @@ source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Imit
 
 # Lens:
 source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Learning from Feedback]]
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Specification Gaming - Reflection]]

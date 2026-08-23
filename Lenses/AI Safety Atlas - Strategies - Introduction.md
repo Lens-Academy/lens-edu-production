@@ -7,3 +7,11 @@ title: "Introduction"
 
 #### Article
 source:: [[../articles/AI Safety Atlas - Strategies - Introduction]]
+to:: "*Video 3.1:"
+
+#### Video
+source:: [[../video_transcripts/google-deepmind-safety-research-part-2-1-alignment-approach]]
+optional:: true
+
+#### Article
+from:: "### Acknowledgements"

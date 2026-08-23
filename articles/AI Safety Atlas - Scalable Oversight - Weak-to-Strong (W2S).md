@@ -25,8 +25,6 @@ We can potentially train a more powerful AI using supervision or feedback from a
 
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/INP8ru2Tj5M" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 *Video 8.1: Optional video explaining the concept of weak to strong generalization ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 
 Historically, much of the work on AI alignment has been highly theoretical, focusing on foundational aspects of agent behavior, inner alignment, and risks from learned optimization. Even the techniques that we talked about in previous sections like debate or IDA are often criticized for being frameworks rather than practical solutions, or mainly working on toy problems without addressing the core challenge of aligning superintelligent AI in real-world scenarios. So even though we can only conduct safety experiments on current-generation models, how can we be sure that these techniques will remain effective as AIs approach superhuman capabilities?
@@ -76,8 +74,6 @@ For example, scalable oversight techniques might be used to generate weak superv
 Evaluating these techniques in different settings helps understand their strengths and weaknesses. In non-scheming settings, where models are not deceptively aligned, classic weak-to-strong techniques and scalable oversight can be directly compared. In scheming settings, where models might act adversarially, evaluations need to consider potential deception, providing a conservative measure of a protocol’s robustness. When there is no scheming (deceptive alignment), then we can use W2G techniques in a straightforward manner through techniques like sandwiching. However, if we have scheming (deceptively aligned AI) it might act adversarially. In this case, we can use proposals like meta-level adversarial techniques. Both of these are what we discuss in the following sections.
 
 ## Sandwiching Evaluations
-
-<iframe src="https://www.youtube-nocookie.com/embed/5mco9zAamRk" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 8.2: Optional video explaining the concept of sandwiching ([Rational Animations, 2025](https://youtu.be/5mco9zAamRk)).*
 

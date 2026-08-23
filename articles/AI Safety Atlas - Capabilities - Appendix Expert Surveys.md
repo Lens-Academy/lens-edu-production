@@ -25,8 +25,6 @@ Leading AI researchers and technologists express significant concern about exist
 
 ---
 
-<iframe src="https://www.youtube-nocookie.com/embed/NqmUBZQhOYw" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 *Video 1.4: Optional video outlining some views that AI experts have on safety and risk.*
 
 %%

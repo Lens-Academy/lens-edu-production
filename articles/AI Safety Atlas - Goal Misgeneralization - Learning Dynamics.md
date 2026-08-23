@@ -40,8 +40,6 @@ The reason we make this point again is to motivate the fact that understanding t
 
 ## Loss Landscapes
 
-<iframe src="https://www.youtube-nocookie.com/embed/NrO20Jb-hy0" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
 *Video 7.3: Optional video explaining loss landscapes.*
 
 **Loss landscapes explain why training can discover multiple algorithmic solutions to the same task, each pursuing different goals.** When we visualize how neural network performance changes across parameter configurations, we create what researchers call a "loss landscape." Each point in this high-dimensional space represents a different algorithm, with "height" indicating how poorly that algorithm performs on the specification (higher loss means worse performance). This landscape concept applies regardless of how we specify the task—whether through reward functions, human feedback, or any other performance measure. 

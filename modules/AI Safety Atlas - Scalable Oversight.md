@@ -24,3 +24,6 @@ source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Debate]]
 
 # Lens:
 source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)]]
+
+# Lens:
+source:: [[../Lenses/AI Safety Atlas - Scalable Oversight - Reflection]]
