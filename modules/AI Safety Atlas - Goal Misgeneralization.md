@@ -1,7 +1,7 @@
 ---
 id: 1484cba9-4618-4655-ad84-cb799fd89ff6
 slug: ai-safety-atlas-goal-misgeneralization
-title: Goal Misgeneralization
+title: "Chapter 7: Goal Misgeneralization"
 ---
 
 # Lens:

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The preceding sections have outlined a wide array of strategies, each targeting different facets of AI risk. Synthesizing these into a single, coherent plan is a difficult task. This section outlines one plausible strategic sequence, illustrating how different layers of defense could be built upon one another to navigate the path from near-term risks to long-term existential challenges. This sequence is intended as an illustrative model, not as a definitive roadmap.
 
 **Step 1: Foundational Risk Management and Governance.** This is the bedrock. Without a safety culture and basic risk management, technical solutions will not be implemented correctly, and labs will race ahead recklessly. The first common step is the implementation of robust risk management and governance frameworks. While existing efforts like the EU AI Act's Code of Practice provide a starting point, they have significant limitations. For example, capped fines (7% of a company's annual turnover) may not sufficiently deter well-resourced actors, and scope exemptions for military or internal research leave critical risk vectors unaddressed. This highlights the necessity for binding international governance. Achieving such governance will likely require building a broad public and political consensus around the importance of proactive safety measures, making safety culture and public outreach a prerequisite for all other efforts.

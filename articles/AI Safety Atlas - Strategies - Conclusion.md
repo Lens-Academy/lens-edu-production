@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 **The strategic landscape for ensuring AI safety is vast, complex, and rapidly evolving.** It spans a wide spectrum from controlling access to current models to prevent misuse, through intricate technical challenges in aligning AGI, to speculative geopolitical maneuvering and philosophical considerations regarding ASI.
 
 **No single strategy appears sufficient on its own.** Preventing misuse requires a combination of technical safeguards like circuit breakers and unlearning, access controls like monitored APIs and potentially KYC for compute, and careful consideration of release strategies, particularly regarding open-source models. Ensuring AGI safety involves pursuing alignment—attempting to instill the right goals—while simultaneously developing control mechanisms to mitigate harm even if alignment fails. This relies heavily on improving our ability to evaluate AI behavior and understand internal model workings, facing challenges like alignment faking and the fragility of transparency. Addressing potential risks from ASI pushes the boundaries further, involving strategies like automating alignment research, exploring inherently safe system designs, and navigating complex international coordination and deterrence scenarios.

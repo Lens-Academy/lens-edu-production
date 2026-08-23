@@ -14,6 +14,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Only a handful of companies make the chips needed to build advanced AI. If governments control the supply chains, hardware access becomes one promising way to limit who can create highly capable AI.
 
 ---
@@ -28,7 +37,9 @@ Compute is a powerful governance target because it meets all three criteria for 
 - **Controllability**: The supply chain for advanced AI chips has clear checkpoints. Only three companies dominate the current market: NVIDIA designs most AI training chips, TSMC manufactures the most advanced processors, and ASML produces the only machines capable of making cutting-edge chips. This concentration enables governance through export controls, licensing requirements, and supply chain monitoring ([Grunewald, 2023](https://www.iaps.ai/research/ai-chip-making-china);[ Sastry et al., 2024](https://arxiv.org/abs/2402.08797)).
 - **Meaningfulness**: As we discussed in the risks chapter, the most dangerous capabilities are likely to emerge from highly capable models, which require massive amounts of specialized computing infrastructure to train and run ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718);[ Sastry et al., 2024](https://arxiv.org/abs/2402.08797)). Compute requirements directly constrain what AI systems can be built - even with cutting-edge algorithms and vast datasets, organizations cannot train frontier models without sufficient computing power ([Besiroglu et al., 2024](https://arxiv.org/abs/2401.02452)). This makes compute a particularly meaningful point of intervention, as it allows us to shape AI development before potentially dangerous systems emerge rather than trying to control them after the fact ([Heim et al., 2024](https://arxiv.org/abs/2403.08501)).
 
+%%
 *Interactive figure 4.1: Performance on knowledge tests vs. training computation. Performance on knowledge tests is measured with the MMLU benchmark, here with 5-shot learning, which gauges a model’s accuracy after receiving only five examples for each task. Training computation is measured in total petaFLOP, which is 1e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
 
 The discussion in the next few subsections will focus on the elements of actually implementing compute governance. We explain how concentrated supply chains enable tracking and monitoring of compute, we also give a brief discussion of hardware based on-chip compute governance mechanisms, and finally discuss some limitations based around limitations to governance based on compute thresholds, and how distributed training and open source might challenge compute governance.
 
@@ -46,7 +57,9 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **There are several chokepoints in semiconductor design and manufacturing.** The supply chain is dominated by a handful of companies at critical steps. NVIDIA designs most AI-specialized chips, TSMC manufactures the most advanced chips, and ASML produces the machines needed by TSMC to manufacture the chips ([Grunewald, 2023](https://www.iaps.ai/research/ai-chip-making-china);[ Pilz et al., 2023](https://arxiv.org/abs/2311.02651)). It is estimated that NVIDIA controls around 80 percent of the market for AI training GPUs ([Jagielski, 2024](https://www.nasdaq.com/articles/nvidia-dominating-artificial-intelligence-chip-market-apple-has-been-securing-supply)). Similarly both TSMC, and ASML maintain strong leads in their respective domains ([Pilz et al., 2023](https://arxiv.org/abs/2311.02651)). Besides building the chips, the purchase and operation of them at the scale needed for frontier AI models requires massive upfront investment. In 2019, academia and governments were leading in AI supercomputers. Today, companies control over 80 percent of global AI computing capacity, while governments and academia have fallen below 20 percent ([Pilz et al., 2025](https://arxiv.org/abs/2504.16026)). Just three providers - Amazon, Microsoft, and Google - control about 65 percent of cloud computing services ([Jagielski, 2024](https://www.nasdaq.com/articles/nvidia-dominating-artificial-intelligence-chip-market-apple-has-been-securing-supply)). A small number of AI companies like OpenAI, Anthropic, and DeepMind operate their own massive GPU clusters, but even these require specialized hardware subject to supply chain controls ([Pilz & Heim, 2023](https://arxiv.org/abs/2311.02651)).
 
+%%
 *Interactive figure 4.2: Market share for logic chip production, by manufacturing stage ([Giattino et al., 2023](https://ourworldindata.org/grapher/market-share-logic-chip-production-manufacturing-stage?tab=chart)).*
+%%
 
 ![Figure 4.9](https://ai-safety-atlas.com/_astro/9ced15c92d6865d552b524cb192dd5b47fc3f158c6f0e7169e996c27815a5b6f.8SpI-dGK_Z9z596.webp)
 
@@ -94,12 +107,10 @@ The discussion in the next few subsections will focus on the elements of actuall
 
 **Compute governance can help manage AI risks, but overly restrictive controls can accelerate power concentration.** Only a handful of organizations can afford the compute needed for frontier AI development. ([Purtova et al., 2022](https://arxiv.org/abs/2212.10244);[ Pilz et al., 2023](https://arxiv.org/abs/2311.02651)). Adding more barriers could worsen this disparity, concentrating power in a few large tech companies and reducing independent oversight ([Besiroglu et al., 2024](https://arxiv.org/abs/2401.02452)). Academic researchers already struggle to access the compute they need for meaningful AI research. As models get larger and more compute-intensive, this gap between industry and academia grows wider. ([Besiroglu et al., 2024](https://arxiv.org/abs/2401.02452);[ Zhang et al., 2021](https://arxiv.org/abs/2104.07237)) Large compute clusters have many legitimate uses beyond AI development, from scientific research to business applications. Overly broad restrictions could hinder beneficial innovation. Additionally, once models are trained, they can often be run for inference using much less compute than training required. This makes it challenging to control how existing models are used without imposing overly restrictive controls on general computing infrastructure ([Sastry et al., 2024](https://arxiv.org/abs/2402.08797)).
 
-**Distributed training and inference approaches could bypass compute governance controls.** Currently, training frontier models requires concentrating massive compute resources in single locations due to communication requirements between chips. Decentralized training methods are being researched, but have not really caught up to centralized methods ([Douillard et al., 2023](https://arxiv.org/abs/2311.08105);[ Jaghouar et al., 2024](https://arxiv.org/abs/2407.07852)).[^1] However, if we see fundamental advances in distributed training algorithms this could eventually allow training to be split across multiple smaller facilities. While this remains technically challenging and inefficient, it could make detection and control of dangerous training runs more difficult ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)).
+**Distributed training and inference approaches could bypass compute governance controls.** Currently, training frontier models requires concentrating massive compute resources in single locations due to communication requirements between chips. Decentralized training methods are being researched, but have not really caught up to centralized methods ([Douillard et al., 2023](https://arxiv.org/abs/2311.08105);[ Jaghouar et al., 2024](https://arxiv.org/abs/2407.07852)).[^cite-atlas-1] However, if we see fundamental advances in distributed training algorithms this could eventually allow training to be split across multiple smaller facilities. While this remains technically challenging and inefficient, it could make detection and control of dangerous training runs more difficult ([Anderljung et al., 2023](https://arxiv.org/abs/2307.03718)).
 
 **Compute monitoring and compute thresholds should primarily operate as an initial screening mechanism.** These approaches should be used mainly to identify models warranting further scrutiny, rather than as the sole determinant of specific regulatory requirements. They are most effective when used to trigger oversight mechanisms such as notification requirements and risk assessments, whose results can then inform appropriate mitigation measures.
 
 **Technical governance measures need to coordinate with corporate, national and international initiatives.** We focused on compute governance as our primary technical example, though coordination challenges apply equally to data governance, model governance, and other technical measures. Each approach faces the same fundamental limitation: technical measures alone cannot address systemic risks that emerge from competitive dynamics and global deployment. This is why technical measures must be embedded within corporate, national and international governance frameworks that align incentives with coordinated safety standards. Before we talk about those however, we need to explore broader concepts like decision making under uncertainty, game theoretic collective action problems and other systemic forces that shape the governance landscape. We will talk about this in the next section.
 
----
-
-[^1]:  Example models trained using Decentralized methods include the INTELLECT-1 and INTELLECT-2 ([Prime Intellect, 2025](https://arxiv.org/abs/2505.07291))
+[^cite-atlas-1]:  Example models trained using Decentralized methods include the INTELLECT-1 and INTELLECT-2 ([Prime Intellect, 2025](https://arxiv.org/abs/2505.07291))

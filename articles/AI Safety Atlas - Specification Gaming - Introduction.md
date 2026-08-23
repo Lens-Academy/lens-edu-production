@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We can tell an AI what to do, but we can’t perfectly tell it what we mean. Smart AIs learn to exploit the gaps in our instructions, doing exactly what we said but not what we wanted.
 
 ---

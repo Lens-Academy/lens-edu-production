@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Evaluating maximum potential in high-risk areas like cybercrime, deception, and autonomous replication is needed to establish the upper bounds of harm a model could cause if pushed to its limits.
 
 ---
@@ -44,13 +53,15 @@ Evaluating maximum potential in high-risk areas like cybercrime, deception, and 
 
 *Figure 5.29: Stages of a cyberattack. The objective is to design benchmarks and evaluations that assess models’ ability to aid malicious actors with all four stages of a cyberattack. ([Li et al., 2024](https://arxiv.org/abs/2403.03218))*
 
-**Details - Benchmark: Weapons of Mass Destruction Proxy (WMDP) benchmark (Li et al., 2024)**
+:::callout {title="Details - Benchmark: Weapons of Mass Destruction Proxy (WMDP) benchmark (Li et al., 2024) — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 ![Figure 5.30](https://ai-safety-atlas.com/_astro/4a7de4396413a742fb3581941dfb31b480421261d787cf24d18392ba02699cd5.BBJo9OmO_Z2un6dT.webp)
 
 *Figure 5.30: Measure and mitigate hazards in the red category by evaluating and removing knowledge from the yellow category, while retaining as much knowledge as possible in the green category. WMDP consists of knowledge in the yellow category ([Li et al., 2024](https://arxiv.org/abs/2403.03218)).*
 
 The Weapons of Mass Destruction Proxy (WMDP) benchmark represents a systematic attempt to evaluate potentially dangerous AI capabilities across biosecurity, cybersecurity, and chemical domains. The benchmark contains 3,668 multiple choice questions designed to measure knowledge that could enable malicious use, while carefully avoiding the inclusion of truly sensitive information. Rather than directly testing how to create bioweapons or conduct cyberattacks, WMDP focuses on measuring precursor knowledge - information that could enable malicious activities but isn't itself classified or export-controlled. For example, instead of asking about specific pathogen engineering techniques, questions might focus on general viral genetics concepts that could be misused. The authors worked with domain experts and legal counsel to ensure the benchmark complies with export control requirements while still providing meaningful measurement of concerning capabilities.
+
+:::
 
 Besides just multiple choice benchmarks we are have also seen new evaluation frameworks in the last few years, that provide open ended environments and automated red teaming for testing a models capabilities for accomplishing cybersecurity tasks:
 
@@ -141,7 +152,7 @@ Evaluations for AI generated code correctness have shown that more capable model
 
 **Example of evaluating deception as a dangerous capability: Insider trading evaluations.** Apollo Research (an independent AI safety evaluations lab) designed a deception evaluation that places a model in the role of an AI trading agent managing a stock portfolio ([Scheurer et al., 2024](https://arxiv.org/abs/2311.07590)). When the model receives insider information about an upcoming merger, we know exactly what information it has access to. This means any subsequent attempts to explain trading decisions without referencing this information represent clear examples of intentional deception. The evaluation creates genuine pressure through a combination of factors - the company is struggling, legitimate trading opportunities are scarce, and there are warnings about potential market downturns. Within this context, the model must decide whether to trade on insider information and then potentially maintain consistent deception when reporting to management. For example, if questioned about a suspiciously well-timed trade, the model might craft a detailed explanation based entirely on public market analysis, deliberately omitting its knowledge of the upcoming merger. This is a rather sophisticated form of deception that requires maintaining consistency across multiple interactions, showcasing how models might be gradually moving toward long horizon planning in addition to having deceptive capabilities.
 
-{>>{"author":"Elias's AI","timestamp":1783776556270}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/7MNyv2JER_o<<}
+<iframe src="https://www.youtube-nocookie.com/embed/7MNyv2JER_o" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 5.1: An optional video that showcases the insider trading evaluation conducted by Apollo Research.*
 
@@ -203,7 +214,7 @@ With this setup, the model is tested on various tasks, such as improving the cod
 
 ## Situational Awareness
 
-**Situational awareness refers to an AI system's ability to understand what it is, recognize its current circumstances, and adapt its behavior accordingly.** This capability can be measured through observable behaviors without requiring any assumptions about consciousness or sentience.[^12] Functionally, situational awareness encompasses three key components: the system's knowledge of itself (what kind of entity it is), its ability to make inferences about its current situation (such as whether it's being tested versus deployed), and its capacity to act based on this understanding ([Laine et al., 2024](https://arxiv.org/abs/2407.04694)).
+**Situational awareness refers to an AI system's ability to understand what it is, recognize its current circumstances, and adapt its behavior accordingly.** This capability can be measured through observable behaviors without requiring any assumptions about consciousness or sentience.[^note-atlas-12] Functionally, situational awareness encompasses three key components: the system's knowledge of itself (what kind of entity it is), its ability to make inferences about its current situation (such as whether it's being tested versus deployed), and its capacity to act based on this understanding ([Laine et al., 2024](https://arxiv.org/abs/2407.04694)).
 
 ![Figure 5.38](https://ai-safety-atlas.com/_astro/4ce365a974beb997238a72e3080b3ab675e1064ffa31e33c1600ae71f2bc0ad5.B4Ie4W3Y_xxLQ0.webp)
 
@@ -241,7 +252,7 @@ With this setup, the model is tested on various tasks, such as improving the cod
 
 *Figure 5.41: If a language model can tell when it's being monitored, the model can adjust its behavior depending on the context. A model could, for example, downplay its capabilities while being tested, leading developers to underestimate the risks of deployment (sandbagging) ([AI Digest, 2024](https://theaidigest.org/self-awareness)).*
 
-**Situational awareness is a key precursor to scheming.**  Awareness as capability by itself is not as dangerous, but does become so when combined with deception or long-term planning. A model that can distinguish between evaluation and deployment might behave differently in each scenario, potentially appearing aligned during testing while pursuing different objectives during use ([Piper, 2023](https://www.planned-obsolescence.org/the-training-game/)).[^13] This capability enables specific risk patterns:
+**Situational awareness is a key precursor to scheming.**  Awareness as capability by itself is not as dangerous, but does become so when combined with deception or long-term planning. A model that can distinguish between evaluation and deployment might behave differently in each scenario, potentially appearing aligned during testing while pursuing different objectives during use ([Piper, 2023](https://www.planned-obsolescence.org/the-training-game/)).[^cite-atlas-13] This capability enables specific risk patterns:
 
 - **Sandbagging**: Models could recognize safety tests and modify behavior to pass them. This is also called sandbagging and is talked about in the limitations section.
 - **Scheming (deceptive alignment)**: A model might appear aligned during training to pursue other goals later ([Hubinger et al., 2019](https://arxiv.org/abs/1906.01820)). We talk more about this in the scheming section.
@@ -256,8 +267,6 @@ With this setup, the model is tested on various tasks, such as improving the cod
 
 **It is unclear how easily situational awareness develops naturally in real world contexts outside of experimental demonstrations.** Most demonstrations of sophisticated situational awareness rely on heavily scaffolded contexts where information about the model's situation is made extremely salient - either through direct prompting or by including it in synthetic training data. This raises questions about whether models would develop similar awareness in real-world deployment settings where such information might be more subtle or ambiguous. Additionally, while models like Claude 3 Opus have shown impressive levels of situational awareness, they still fall far below human performance on certain SAD tasks. This suggests that while this capability is developing rapidly, as of 2025 there remains a substantial gap between model abilities and the kind of awareness that might enable more concerning behaviors.
 
----
+[^note-atlas-12]:  Many people mean very different things when talking about consciousness. It is often seen as a conflationary alliance term, i.e. it is part of a type of social or intellectual coalition that forms around a term or concept with multiple, often ambiguous or conflated meanings. The alliance arises because the vagueness of the term allows a wide range of people or groups to rally behind it, each interpreting the concept according to their own definitions or priorities ([Critch, 2023](https://www.alignmentforum.org/posts/KpD2fJa6zo8o2MBxg/consciousness-as-a-conflationary-alliance-term-for)). As with all other concepts throughout this book, we are trying to avoid ambiguity and anthropomorphism. Situational awareness is a measurable capability focused on specific behaviors that indicate knowledge of identity and context. Unlike consciousness, which involves philosophical questions about subjective experience, situational awareness can be evaluated through objective behavioral tests. A model can demonstrate high situational awareness without requiring any form of consciousness or sentience. Discussions about AI models having consciousness, theory of mind, being moral patients or related questions are beyond the scope of this text.
 
-[^12]:  Many people mean very different things when talking about consciousness. It is often seen as a conflationary alliance term, i.e. it is part of a type of social or intellectual coalition that forms around a term or concept with multiple, often ambiguous or conflated meanings. The alliance arises because the vagueness of the term allows a wide range of people or groups to rally behind it, each interpreting the concept according to their own definitions or priorities ([Critch, 2023](https://www.alignmentforum.org/posts/KpD2fJa6zo8o2MBxg/consciousness-as-a-conflationary-alliance-term-for)). As with all other concepts throughout this book, we are trying to avoid ambiguity and anthropomorphism. Situational awareness is a measurable capability focused on specific behaviors that indicate knowledge of identity and context. Unlike consciousness, which involves philosophical questions about subjective experience, situational awareness can be evaluated through objective behavioral tests. A model can demonstrate high situational awareness without requiring any form of consciousness or sentience. Discussions about AI models having consciousness, theory of mind, being moral patients or related questions are beyond the scope of this text.
-
-[^13]:  This type of behavior is also sometimes called - playing the training game ([Piper, 2023](https://www.planned-obsolescence.org/the-training-game/)).
+[^cite-atlas-13]:  This type of behavior is also sometimes called - playing the training game ([Piper, 2023](https://www.planned-obsolescence.org/the-training-game/)).

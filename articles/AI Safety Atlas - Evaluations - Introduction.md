@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 AI models are advancing so fast that our tests for their abilities become outdated almost immediately, forcing us to constantly develop more comprehensive evaluation methods to keep up.
 
 ---

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Giving feedback becomes difficult as AI performs tasks beyond human expertise. We need different methods to generate accurate training signals for complex problems with subjective solutions.
 
 ---

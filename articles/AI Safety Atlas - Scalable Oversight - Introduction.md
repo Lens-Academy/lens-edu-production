@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/scalable-oversight.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter8-ef46e8f8b671da49d6c8470608ee17a7798e164464a9ef4332cdfd1650abe0b0.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Scalable oversight is the challenge of ensuring AI systems remain aligned with human values even as they begin to perform tasks that surpass human expertise and our ability to provide feedback.
 
 ---

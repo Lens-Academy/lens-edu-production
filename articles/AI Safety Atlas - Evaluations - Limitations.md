@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Evaluations can prove the presence of risks but not their absence, they might be vulnerable to safety washing, and can be misused to make us feel overconfident in the safety of a system.
 
 ---
@@ -43,15 +52,19 @@ Previous sections outlined various evaluation techniques and methodologies, but 
 > While these tests were conducted in line with current best practices, the findings should be considered preliminary. These tests were conducted in a limited time period with finite resources, which if extended could expand the scope of findings and the subsequent conclusions drawn.
 > — US and UK AI Safety Institute Evaluation of Claude 3.5 Sonnet
 
-**Ikigai Risks (I-Risks) - Risks from loss of existential purpose**
+:::callout {title="Ikigai Risks (I-Risks) - Risks from loss of existential purpose — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 **Ikigai risks (i-risks) involve loss of meaning and purpose even when humans survive and prosper.** Named after the Japanese concept of ikigai (life's purpose), these risks emerge when AI systems become more capable than humans at all meaningful activities. Humans might lose their sense of purpose when AI can create better art, conduct better research, and perform better at every task that traditionally gave life meaning. Unlike extinction or suffering risks, i-risks involve scenarios where humans are safe and materially comfortable but existentially adrift. We might create artificial constraints that preserve human relevance, or find entirely new forms of purpose that emerge from human-AI collaboration. However, these solutions raise their own questions about authenticity and whether artificially preserved meaning can satisfy human psychological needs ([Yampolskiy, 2024](https://books.google.se/books/about/AI.html?id=V3XsEAAAQBAJ&redir_esc=y); [Yampolsky; 2024](https://lexfridman.com/roman-yampolskiy-transcript/#chapter2_ikigai_risk)).
 
+:::
+
 **The difficulty in estimating "Maximum Capabilities"**. Also related to the combinatorial complexity problem is the problem of emergence. We frequently discover that models can do things we thought impossible when given the right scaffolding or tools. The Voyager project demonstrated this when it used black box queries to GPT-4 revealing the unexpected ability to play Minecraft ([Wang et al., 2023](https://arxiv.org/abs/2305.16291)). Either through continued increases in scale, or through simple combination of some scaffolding approach that researchers hadn’t considered before, a model might display some significant step change in capabilities or propensities that we had not anticipated before. This emergent behavior is particularly difficult to evaluate because it often arises from the interaction between capabilities. There are few if any ways to guarantee that the whole will not become more than the sum of its parts. This makes it extremely difficult to predict what a model might be capable of in real-world situations, even if we thoroughly test its individual capabilities.
 
-**Case study of capability surprises: Kalamang**
+:::callout {title="Case study of capability surprises: Kalamang — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Gemini is able to translate language in a zero-shot way, without any training.  The case of Gemini's ability to translate Kalamang - a language spoken by only 100 people in Papua New Guinea - demonstrates how models can acquire unexpected capabilities when provided with the right context. It's highly unlikely that this language was part of the training data of any major AI model. Researchers at Google DeepMind demonstrated that by leveraging a sufficiently large context window—around a million tokens—they could input a full grammar book and dictionary of Kalamang. When asked to translate a sentence from Kalamang to English, the model was able to perform this task ([Tanzer et al., 2024](https://arxiv.org/abs/2309.16575)).
+
+:::
 
 ### Sandbagging
 
@@ -61,9 +74,9 @@ Gemini is able to translate language in a zero-shot way, without any training.  
 
 **Behavioral testing is not sufficient.** We have talked about this numerous times in previous sections, but it's worth mentioning again. Watching what a model does can tell us a lot, but it's still like trying to understand how a person thinks by only observing their actions. Our heavy reliance on behavioral testing - analyzing model outputs - leaves us with significant blind spots about how models actually work. A model might give the right answers while using internal strategies we can't detect. So in addition to being limited by breadth due to combinatorial complexity of the number of things we need to test, we are also limited on the depth of evaluation until we make true progress on interpretability. Unless interpretability makes progress, evaluations have a definite upper limit on how much safety they can guarantee.
 
-**Sandbagging refers to strategic underperformance on evaluations, where an AI system is intentionally made to appear less capable than it actually is.** There are concerns about AI systems themselves choosing to sandbag, independent of developer intentions. An AI system might deliberately hide its capabilities to avoid modifications or restrictions that would prevent it from achieving its goals ([Hubinger, 2023](https://www.alignmentforum.org/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations)). We talked more about why this is a concern in the subsection on scheming. As evidence that is is possible, multiple frontier models including Claude 3.5 Sonnet, Claude 3 Opus, and OpenAI's o1 have been shown to be capable of sandbagging behavior. They deliberately underperformed on arithmetic tasks when they believed that high performance would trigger model unlearning[^footnote_in_context_sandbagging] ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).
+**Sandbagging refers to strategic underperformance on evaluations, where an AI system is intentionally made to appear less capable than it actually is.** There are concerns about AI systems themselves choosing to sandbag, independent of developer intentions. An AI system might deliberately hide its capabilities to avoid modifications or restrictions that would prevent it from achieving its goals ([Hubinger, 2023](https://www.alignmentforum.org/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations)). We talked more about why this is a concern in the subsection on scheming. As evidence that is is possible, multiple frontier models including Claude 3.5 Sonnet, Claude 3 Opus, and OpenAI's o1 have been shown to be capable of sandbagging behavior. They deliberately underperformed on arithmetic tasks when they believed that high performance would trigger model unlearning[^note-atlas-evals-footnote-in-context-sandbagging] ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).
 
-[^footnote_in_context_sandbagging]: This behavior was observed in a controlled evaluation setting where models were explicitly informed through the context window about potential unlearning consequences for high performance. The researchers noted: "We have only shown that some models possess basic scheming capabilities if both the goal and the situational awareness are acquired in-context" rather than demonstrating this behavior emerging spontaneously in more realistic scenarios ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).
+[^note-atlas-evals-footnote-in-context-sandbagging]: This behavior was observed in a controlled evaluation setting where models were explicitly informed through the context window about potential unlearning consequences for high performance. The researchers noted: "We have only shown that some models possess basic scheming capabilities if both the goal and the situational awareness are acquired in-context" rather than demonstrating this behavior emerging spontaneously in more realistic scenarios ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).
 
 **What does the potential for sandbagging imply for the field of evaluations?** The possibility of sandbagging has big implications for how we approach AI evaluations, both now and in the future. Simply having access to model outputs (black-box testing) is insufficient for rigorous evaluation ([Casper et al., 2024](https://arxiv.org/abs/2401.14446)). Instead, evaluators need deeper access to model internals and training procedures to detect potential sandbagging attempts. This might require new institutional arrangements, such as trusted third-party evaluators with secured access to model weights and architectures. Supervised fine-tuning has shown to be promising as a way to greatly mitigate sandbagging and elicit hidden capabilities ([Greenblatt et al, 2024](https://arxiv.org/abs/2405.19550)), but fine-tuning is not so easy to use in a comprehensive way on dangerous capability benchmarks, and not usable for dangerous propensity benchmarks. Without addressing this challenge, our ability to make informed decisions about AI development and deployment based on evaluation results becomes severely compromised.
 

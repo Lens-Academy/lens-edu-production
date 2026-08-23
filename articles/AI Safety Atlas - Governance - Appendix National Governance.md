@@ -14,6 +14,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Major powers have developed distinct regulatory philosophies— with some nations prioritizing rights, and others focusing on geopolitical competition or social control—creating a fragmented landscape that complicates global coordination.
 
 ---

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Progress on safety requires clear definitions and measurement criteria. For safety planning, we focus on what systems can actually do, breaking down intelligence as specific, measurable capabilities.
 
 ---
@@ -26,7 +35,7 @@ Progress on safety requires clear definitions and measurement criteria. For safe
 
 **Alan Turing suggested we could sidestep the whole mess by focusing on behavior.** If a machine could imitate human conversation well enough to fool an interrogator, it should be considered intelligent ([Turing, 1950](https://academic.oup.com/mind/article/LIX/236/433/986238?login=false)). The behaviorist approach is simple - forget about internal mental states and focus on observable behavior. Can the system do the thing or not? Unfortunately, LLMs exposed some limitations to this approach. GPT-4 can pass Turing-style conversation tests while struggling with basic spatial reasoning or maintaining coherent long-term plans ([Rapaport, 2020](https://sciendo.com/issue/JAGI/11/2)). The test was too narrow. Conversation is just one capability among many we care about. But Turing's core insight - focus on observable capabilities, not internal states - remains sound.
 
-**Consciousness based approaches to general intelligence focus on "true understanding."** John Searle's Chinese Room argument suggested that systems might appear intelligent (stochastic parrots) without truly understanding - processing symbols without grasping their meaning ([Searle, 1980](https://psycnet.apa.org/record/1981-27235-001)). This view emphasizes internal cognitive states similar to human consciousness. The problem is that consciousness often proves even harder to define than intelligence. We are also unsure if intelligence and consciousness are necessarily linked - a system could potentially be highly intelligent without being conscious, or conscious without being particularly intelligent. AlphaGo is very intelligent within the context of playing Go, but it is clearly not conscious. A system doesn't need to be conscious to cause harm. Whether an AI system is conscious has little, if any, bearing on its ability to make high-impact decisions or take potentially dangerous actions.[^3] Research into consciousness, sentience, and meta-ethical debates about the fundamental nature of intelligence are valuable, but less actionable for the type of safety work that this text focuses on.
+**Consciousness based approaches to general intelligence focus on "true understanding."** John Searle's Chinese Room argument suggested that systems might appear intelligent (stochastic parrots) without truly understanding - processing symbols without grasping their meaning ([Searle, 1980](https://psycnet.apa.org/record/1981-27235-001)). This view emphasizes internal cognitive states similar to human consciousness. The problem is that consciousness often proves even harder to define than intelligence. We are also unsure if intelligence and consciousness are necessarily linked - a system could potentially be highly intelligent without being conscious, or conscious without being particularly intelligent. AlphaGo is very intelligent within the context of playing Go, but it is clearly not conscious. A system doesn't need to be conscious to cause harm. Whether an AI system is conscious has little, if any, bearing on its ability to make high-impact decisions or take potentially dangerous actions.[^note-atlas-3] Research into consciousness, sentience, and meta-ethical debates about the fundamental nature of intelligence are valuable, but less actionable for the type of safety work that this text focuses on.
 
 **Defining intelligence through goal achievement.** Shane Legg and Marcus Hutter propose: "*Intelligence measures an agent's ability to achieve goals in a wide range of environments*" ([Legg & Hutter, 2007](https://arxiv.org/abs/0712.3329)). This captures something important - intelligent systems should be able to figure out how to get what they want across different situations. But it's too abstract for practical measurement. How are agents defined? Which goals? Which environments? How do you actually test this? The intuition is right, but we need something more concrete.
 
@@ -80,7 +89,7 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 
 *Figure 1.29: Memory similarly splits into associative, meaningful, and verbatim components, allowing precise diagnosis of where systems succeed versus fail ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212)).*
 
-**Generality is the percentage of these domains where a system achieves expert-level capability.** If a system scores at the 80th percentile or higher on three out of ten domains, that's 30% generality.[^4] Foundation models dramatically increased this compared to traditional narrow AI - one model handling writing, math, coding, and visual understanding represents unprecedented breadth. But current systems still cover only a fraction of cognitive capabilities, with particularly weak performance on long-term planning and memory-related domains ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212); [Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).
+**Generality is the percentage of these domains where a system achieves expert-level capability.** If a system scores at the 80th percentile or higher on three out of ten domains, that's 30% generality.[^note-atlas-4] Foundation models dramatically increased this compared to traditional narrow AI - one model handling writing, math, coding, and visual understanding represents unprecedented breadth. But current systems still cover only a fraction of cognitive capabilities, with particularly weak performance on long-term planning and memory-related domains ([Hendrycks et al., 2025](https://arxiv.org/abs/2510.18212); [Kwa et al., 2025](https://arxiv.org/abs/2503.14499)).
 
 ![Figure 1.30](https://ai-safety-atlas.com/_astro/c499f177e3e5298ac13f89cc67ad776839137c9040b907111c8ebe086796cab3.Bx_T-Qb9_Z2abMl5.webp)
 
@@ -100,7 +109,7 @@ When experts say they see "sparks of AGI" in recent systems, they're observing p
 
 **Our working definition does not include the autonomy with which an AGI system operates.** This is a really important axis to pay attention to, but it has a higher bearing on deployment and impact rather than something inherent to a definition for AGI. It will be explored in the next chapter dedicated to risks from AI.
 
-**Measuring degree of Autonomy (Agency)**
+:::callout {title="Measuring degree of Autonomy (Agency) — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 Autonomy describes how AI systems interact with humans, not what they can do. A highly capable system can be deployed with varying levels of human oversight. Just like we had continuous curves for capability and generality, we can similarly have an increasing level of autonomy measured by what % of a task is done by the human or the AI ([Morris et al., 2024](https://arxiv.org/abs/2311.02462)):
 
@@ -115,11 +124,13 @@ Autonomy level affects risk exposure, not inherent danger. A capable system depl
 
 For safety purposes, capability and deployment autonomy should be considered separately. A system scoring 90% on 80% of domains might be safely deployed at Level 2 (consultant) while being dangerous at Level 5 (agent). The framework helps us reason about these tradeoffs explicitly.
 
+:::
+
 **What we presented in this section is nowhere near a universally agreed upon definition.** There are criticisms of both the levels of AGI framework, and of the CHC benchmark aggregation approach ([Pacchiardi  et al., 2025](https://aievaluation.substack.com/p/is-the-definition-of-agi-a-percentage)). There are many other alternative definitions and measurement frameworks in use like the European Commission's work on definition General Purpose AI (GPAI) models ([EU Commission, 2025](https://ai-watch.ec.europa.eu/news/new-jrc-collection-external-scientific-reports-inform-implementation-eu-ai-act-general-purpose-ai-2025-10-14_en)), the (t,n-AGI) framework ([Ngo, 2023](https://www.lesswrong.com/posts/BoA3agdkAzL6HQtQP/clarifying-and-predicting-agi)), OECD AI capability indicators ([OECD, 2025](https://www.oecd.org/en/publications/2025/06/introducing-the-oecd-ai-capability-indicators_7c0731f0/full-report/component-4.html)), and not to mention all the competing definitions from the case studies in the previous sub-section. These are valid alternatives. The field is still evolving and finding gaps in its approach. We expect that the underlying benchmarks (which cognitive abilities are important?) and aggregation methods (how should we weigh them?) used to measure progress will continue to be debated but the underlying framework we teach in this section - of thinking of capability and generality as a continuous spectrum - will remain consistent.
 
 The next sections of this chapter, look at why capabilities and generality have been improving rapidly in the recent years (Scaling), and what we can say about where they might be headed (Forecasting and Takeoff). Thinking about AI progress in this continuous way will help throughout this book when we discuss risks and mitigation strategies. Certain capability combinations might enable dangerous emergent behaviors even before reaching "human-level" on most tasks. Similarly governance frameworks, and  clear policy communication depend on precise measurement to trigger appropriate responses. The rate of improvement along either axis provides important signals about which risks are most pressing, and which safety mitigations need to be developed.
 
-**Counter Argument: Arbitrary thresholds aggregated and framed as a misleading percentage**
+:::callout {title="Counter Argument: Arbitrary thresholds aggregated and framed as a misleading percentage — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 This framework enables concrete measurement, critics note that human psychometric taxonomies like CHC may miss capabilities universal in humans but lacking in AI, and that percentage scores can misleadingly suggest linear progress toward AGI.Counter arguments note that benchmark scores do not align with general perception. Generally if you let an LLM (even with extended thinking or tools), perform a task you would expect an educated human adult to complete, they tend to disappoint. An LLM scoring 90% on a Raven’s progressive matrices test is not comparable to a human scoring 90%. This matters because AI systems could fall short of “100% AGI” despite already having all the capabilities of an educated human adult.
 
@@ -130,7 +141,9 @@ Some examples of limitations include ([Pacchiardi  et al., 2025](https://aievalu
 3. **Non-linear progress:** Percentage scores (e.g., "57% AGI") misleadingly imply linear progress when final capabilities may represent disproportionately difficult bottlenecks; and
 4. **Species-specific risk:** Non-human-like AI profiles may pose transformative risks despite low scores on human-centric tests. These critiques suggest interpreting percentage scores cautiously, focusing on specific capability gaps rather than aggregate progress.
 
-**The (t,n)-AGI Framework: An Alternative way of defining AGI**
+:::
+
+:::callout {title="The (t,n)-AGI Framework: An Alternative way of defining AGI — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 **AGI can also be defined through a combination of time and scale - can AI match ‘n’ experts working together for time ‘t’.** This is an alternative way to think about defining AGI. Given a time frame ‘t’ to complete some cognitive task, if an AI system can outperform a human expert who is also given the time frame ‘t’ to perform the same task, then the AI system is called t-AGI for that timeframe ‘t’. If a system can outperform ‘n’ human experts working on the task for timeframe ‘t’, then we call it a (t,n)-AGI for the specific time duration ‘t’, and number of experts ‘n’. The (t,n)-AGI framework does not account for how many copies of the AI run simultaneously.
 
@@ -144,8 +157,8 @@ Researchers at METR operationalized this by measuring task completion time horiz
 
 Task time horizon limitations are implicitly captured in our generality measure as weaknesses in specific cognitive tasks like long-term memory storage and retrieval. Systems scoring poorly on memory naturally fail on multi-day projects requiring sustained context. Current transformer-based architectures specifically struggle with limited context windows.
 
----
+:::
 
-[^3]:  We measure qualities like “sitational-awareness” in our chapters on risks, and evaluations using specific benchmarks. So we capture a model of the self and future planning, while distinguishing these aspects from conversations about consciousness.
+[^note-atlas-3]:  We measure qualities like “sitational-awareness” in our chapters on risks, and evaluations using specific benchmarks. So we capture a model of the self and future planning, while distinguishing these aspects from conversations about consciousness.
 
-[^4]:  You can use expert-level parity (roughly 80-90th percentile human performance) as the threshold for "adequate" in measuring generality. Different researchers might set this threshold higher or lower depending on their specific concerns.
+[^note-atlas-4]:  You can use expert-level parity (roughly 80-90th percentile human performance) as the threshold for "adequate" in measuring generality. Different researchers might set this threshold higher or lower depending on their specific concerns.

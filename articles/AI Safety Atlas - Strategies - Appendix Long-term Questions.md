@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The main chapter focuses on actionable strategies. This appendix explores the deeper, often unresolved philosophical questions that underpin the alignment problem, providing context for long-term strategic thinking.
 
 ## Prioritize Flourishing or Survival?

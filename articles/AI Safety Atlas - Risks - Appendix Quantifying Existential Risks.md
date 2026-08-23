@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 This appendix presents expert estimates for the subjective probability that AI will cause an existential catastrophe for humanity.
 
 ---

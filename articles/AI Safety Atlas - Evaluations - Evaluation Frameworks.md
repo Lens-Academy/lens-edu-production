@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Structured frameworks are needed to turn test results into real decisions, like company policies that use safety evaluations as gates to decide when it's safe to build more powerful AI.
 
 ---
@@ -31,7 +40,7 @@ Technical frameworks help us understand how to measure AI capabilities and behav
 
 **Why create potentially dangerous AI systems on purpose?** There are two compelling reasons for this approach. First, it allows us to study concerning properties in controlled settings where we know exactly what we're looking for. Second, it provides concrete examples that can help inform the broader AI community about safety challenges. Having real, demonstrated examples of potential risks is crucial for building scientific consensus and informing policy decisions.
 
-**How does the model organisms approach break down complex threat models?** Instead of trying to tackle things like "deceptive alignment" as one monolithic problem, researchers identify key subcomponents like situational awareness or goal persistence. They then create simplified systems exhibiting these properties, studying how they manifest and testing different evaluation techniques. For example, Anthropic's work on "sleeper agents" demonstrated how certain forms of deceptive behavior could persist through safety training.[^11] They created models that would write secure code when asked about the year 2023, but insert vulnerabilities when asked about 2024 ([Hubinger et al., 2024](https://arxiv.org/abs/2401.05566)). We discuss this particular example of deception more in the goal misgeneralization chapter.
+**How does the model organisms approach break down complex threat models?** Instead of trying to tackle things like "deceptive alignment" as one monolithic problem, researchers identify key subcomponents like situational awareness or goal persistence. They then create simplified systems exhibiting these properties, studying how they manifest and testing different evaluation techniques. For example, Anthropic's work on "sleeper agents" demonstrated how certain forms of deceptive behavior could persist through safety training.[^note-atlas-11] They created models that would write secure code when asked about the year 2023, but insert vulnerabilities when asked about 2024 ([Hubinger et al., 2024](https://arxiv.org/abs/2401.05566)). We discuss this particular example of deception more in the goal misgeneralization chapter.
 
 ![Figure 5.24](https://ai-safety-atlas.com/_astro/c04b62373b6f68d32170644e1e68807a1e196dc204497c6520f5aaf8389271f2.BSj-tk_F_Z1TgKn.webp)
 
@@ -51,11 +60,13 @@ In this section, we describe 3 corporate governance frameworks. These voluntary 
 
 **What is a scaling policy framework?** A scaling policy framework puts everything together - determining which evaluations are needed, which safety measures are required, how strictly things should be tested, and what evaluation requirements exist before training, deployment, and post-deployment. Essentially, it establishes systematic rules and protocols for monitoring, safety and being willing to pause development if safety cannot be assured ([METR, 2023](https://metr.org/blog/2023-09-26-rsp/)).
 
-**Scaling policies frameworks are now generally called Safety and Security frameworks**
+:::callout {title="Scaling policies frameworks are now generally called Safety and Security frameworks — Optional · 0 min read" tone="neutral" collapse="closed"}
 
 The differences between the Safety and Security Frameworks of Anthropic, Google Deep Mind and OpenAI are subtle. The core point to remember is that at the intersection of all of their commitments, whether for scaling, development or deployment, are evaluations.
 
 If you are encountering them for the first time, we encourage you to read Anthropic's framework, which is the most comprehensive. An interactive summary of the differences between various policies is available at [seoul-tracker.org](http://seoul-tracker.org)[.](https://www.seoul-tracker.org/)
+
+:::
 
 ### RSP Framework (Anthropic)
 
@@ -91,6 +102,4 @@ If you are encountering them for the first time, we encourage you to read Anthro
 
 *Figure 5.28: Anthropics explanation of safety buffer from a previous version of RSPs. If safety evals trigger, scaling must pause until next level  safety measures are in place ([Anthropic, 2023](https://www-cdn.anthropic.com/1adf000c8f675958c2ee23805d91aaade1cd4613/responsible-scaling-policy.pdf)).*
 
----
-
-[^11]:  Although it was clearly demonstrated by Anthropic, replication of their results has been difficult. Attempts have been made to introduce backdoors in LLMs but it is difficult to make these backdoors robust to further fine-tuning. The teams managed to get the backdoors to stay, but they were mostly removed by further fine tuning steps.
+[^note-atlas-11]:  Although it was clearly demonstrated by Anthropic, replication of their results has been difficult. Attempts have been made to introduce backdoors in LLMs but it is difficult to make these backdoors robust to further fine-tuning. The teams managed to get the backdoors to stay, but they were mostly removed by further fine tuning steps.

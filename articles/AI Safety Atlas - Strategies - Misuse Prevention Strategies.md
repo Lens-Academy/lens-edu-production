@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Preventing AI from misused or weaponized means controlling and limiting access, it also requires laws and social norms to manage harms from models that are already widely available.
 
 ---
@@ -47,7 +56,7 @@ Strategies to prevent misuse often focus on controlling access to dangerous capa
 
 *Figure 3.3: The gradient of access to AI models to the external public. Model release exists on a spectrum, from fully closed systems accessible only internally, to staged releases, API access, downloadable weights with restrictions, and fully open-source releases. API-based deployment represents an intermediate point on this gradient ([Seger et al., 2023](https://arxiv.org/abs/2311.09227)).*
 
-**Different components of a model can exist at different points on the access spectrum**
+:::callout {title="Different components of a model can exist at different points on the access spectrum — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 ![Figure 3.4](https://ai-safety-atlas.com/_astro/0e34b2a948820eedc07d85dfaa327dbff67ad4ad8c408399338abce648dbefbe.DvtUn5-r_Z2chzgH.webp)
 
@@ -59,6 +68,8 @@ We can allow access to capabilities, code, weights, training data, and governanc
 - Anthropic Claude: C1-D1-W2: Closed code and data, API-only access, more transparent governance.
 - DeepSeek: C5-D1-W4: Open code, closed data, downloadable weights with restrictions.
 - Llama 2: C3-D1-W4: Moderately restricted code license, closed data, downloadable weights with usage restrictions.
+
+:::
 
 > Most systems that are too dangerous to open source are probably too dangerous to be trained at all, given the kind of practices that are common in labs today, where it's very plausible they'll leak, or very plausible they'll be stolen, or very plausible if they're available over an API, they could cause harm.
 > — Ajeya Cotra
@@ -73,7 +84,7 @@ We can allow access to capabilities, code, weights, training data, and governanc
 
 *Figure 3.5: When should dual-use technology be proliferated without restrictions? Defense-dominant dual-use technology should be widely proliferated, while catastrophic offense-dominant dual-use technology should not ([Hendrycks et al., 2025](https://www.nationalsecurity.ai/chapter/ai-is-pivotal-for-national-security)).*
 
-**Ensuring a positive offense-defense balance in an open-source world**
+:::callout {title="Ensuring a positive offense-defense balance in an open-source world — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 **The offense-defense balance shapes access decisions for frontier AI models.** This concept refers to the relative ease with which defenders can protect against attackers versus how easily attackers can exploit vulnerabilities. Understanding this balance helps assess whether open-sourcing powerful models will be net beneficial or harmful. In traditional software development, open sourcing typically strengthens defense—increased transparency allows a broader community to identify and patch vulnerabilities, enhancing overall security ([Seger et al., 2023](https://arxiv.org/abs/2311.09227)). However, frontier AI models may fundamentally change this dynamic. Unlike conventional software bugs that can be patched, these models introduce novel risks that resist simple fixes. For example, once a harmful capability is discovered in an open model, it cannot be "unlearned" across all deployed copies.
 
@@ -97,7 +108,9 @@ The specific benefits and risks of open foundation models derive from their dist
 
 Alternative release strategies offer potential middle grounds. Various proposals suggest staged release ([Solaiman et al., 2019](https://arxiv.org/abs/1908.09203)), gated access with know-your-customer requirements, research APIs for qualified researchers, and trusted partnerships ([Seger et al., 2023](https://arxiv.org/abs/2311.09227)). As capabilities advance, a graduated access framework that adapts controls to specific risks may prove most effective for balancing access with safety.
 
-**Distributed vs Decentralized Training: Challenges for Non-Proliferation**
+:::
+
+:::callout {title="Distributed vs Decentralized Training: Challenges for Non-Proliferation — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 **Distributed training allows models to be trained across multiple locations, creating new challenges for AI governance.** Several foundation models have already been built this way—INTELLECT-1 (10B parameters), and INTELLECT-2 (32B reasoning model) were trained using distributed techniques ([Prime Intellect, 2024](https://arxiv.org/abs/2412.01152); [Prime Intellect, 2025](https://arxiv.org/abs/2505.07291)). While these models don't match the scale of frontier systems trained in single locations, the approach is advancing rapidly and raises important questions about controlling who builds dangerous AI systems.
 
@@ -114,6 +127,8 @@ Alternative release strategies offer potential middle grounds. Various proposals
 
 **Technical progress has made distributed training increasingly viable through multiple bandwidth reduction techniques.** Progress is made using techniques like distributed low cost communication (DiLoCo) ([Douillard et al, 2023](https://www.tigera.io/learn/guides/llm-security/ai-safety/)) and distributed path composition (DiPaCo) ([Douillard et al, 2024](https://arxiv.org/abs/2403.10616)). DiLoCo allows training large models without massive, centralized data centers, using techniques inspired by federated learning ([Douillard et al., 2024](https://arxiv.org/abs/2311.08105)). Beyond DiLoCo, advances include gradient quantization (compressing data from 32-bit down to 4-bit or even 1-bit), sparsification (only sending the most important updates), model parallelism, and asynchronous RL training that overlaps computation with communication. These methods can be combined—SparseLoCo, for instance, uses multiple techniques together—to achieve bandwidth reductions of 100x or more compared to naive approaches ([Sevilla, 2025](https://epoch.ai/gradient-updates/how-far-can-decentralized-training-over-the-internet-scale)).
 
+:::
+
 ### Internal Access Controls
 
 **Internal access controls protect model weights and algorithmic secrets.** While external access controls regulate how users interact with AI systems through APIs and other interfaces, internal access controls focus on securing the model weights themselves. If model weights are exfiltrated, all external access controls become irrelevant, as the model can be deployed without any restrictions. Several risk models often assume catastrophic risk due to weight exfiltration and espionage ([Aschenbrenner, 2024](https://situational-awareness.ai/); [Nevo et al., 2024](https://www.rand.org/pubs/research_reports/RRA2849-1.html); [Kokotajlo et al., 2025](https://ai-2027.com/)). Research labs developing cutting-edge models should implement rigorous cybersecurity measures to protect AI systems against theft. This seems simple, but it's not, and protecting models from nation-state-level actors could require extraordinary effort ([Ladish & Heim, 2022](https://www.lesswrong.com/posts/2oAxpRuadyjN2ERhe/information-security-considerations-for-ai-and-the-long-term)). In this section, we try to explore strategies to protect model weights and protect algorithmic insights from unauthorized access, theft, or misuse by insiders or external attackers.
@@ -124,7 +139,7 @@ Alternative release strategies offer potential middle grounds. Various proposals
 
 **Adequate protection requires a multi-layered defense spanning technical, organizational, and physical domains.** As an example, think about a frontier AI lab that wants to protect its most advanced model: technical controls encrypt the weights and limit digital access; organizational controls restrict knowledge of the model architecture to a small team of vetted researchers; and physical controls ensure the compute infrastructure remains in secure facilities with restricted access. If any single layer fails—for instance, if the encryption is broken but the physical access restrictions remain—the model still maintains some protection. This defense-in-depth approach ensures that multiple security failures would need to co-occur for a successful exfiltration.
 
-**Cybersecurity in AI: Weight security levels (WSL) and Algorithmic Secrets Security Levels (SSL)**
+:::callout {title="Cybersecurity in AI: Weight security levels (WSL) and Algorithmic Secrets Security Levels (SSL) — Optional · 3 min read" tone="neutral" collapse="closed"}
 
 Researchers have proposed formalizing security in AI using tiered frameworks that distinguish between protecting model weights (WSL) and algorithmic secrets (SSL) against various operational capacity threats (OC) ([Nevo et al., 2024](https://www.rand.org/pubs/research_reports/RRA2849-1.html);[ Snyder et al., 2020](https://www.rand.org/pubs/research_reports/RR2703.html);[ Dean, 2025](https://ai-2027.com/research/security-forecast)).
 
@@ -154,7 +169,9 @@ Here is a series of surveys conducted as part of the AI 2027 report to get a sen
 
 *Figure 3.10: This question on the difficulty of implementing SL5 shows some consensus that top priority levels of government assistance and more than 6 months will likely be required  ([Dean, 2025](https://ai-2027.com/research/security-forecast)).*
 
-**Comparing Human Exfiltration vs AI Self-Exfiltration**
+:::
+
+:::callout {title="Comparing Human Exfiltration vs AI Self-Exfiltration — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 **Self-exfiltration is the possibility that an advanced AI system might copy itself outside its intended environment.** Rather than protecting against external attackers or malicious insiders, this risk requires defending against the AI system itself acting as the sophisticated attacker. The risk emerges when an AI system becomes sufficiently capable to understand its own architecture, identify vulnerabilities in its containment systems, and orchestrate a complex series of actions to copy itself to external infrastructure ([Leike, 2023](https://aligned.substack.com/p/self-exfiltration)).
 
@@ -162,7 +179,9 @@ Self-exfiltration scenarios range from an AI exploiting software vulnerabilities
 
 **AI safety researchers have begun developing benchmarks and evaluations specifically designed to measure AI systems' capabilities relevant to self-exfiltration.** Some benchmarks test subsets of exfiltration capabilities, e.g., Cybench tests the ability of LMs to identify vulnerabilities and execute exploits autonomously ([Zhang et al., 2024](https://arxiv.org/abs/2408.08926)), or Exfilbench, which is an exfiltration and replication benchmark ([Exfilbench, 2025](https://www.exfilbench.com/)). Individual benchmarks can be combined into comprehensive evaluations that aim to assess a system's ability to autonomously replicate, adapt to new environments, and potentially transfer itself to other computing resources ([Kinniment et al., 2024](https://arxiv.org/abs/2312.11671); [METR, 2025](https://metr.github.io/autonomy-evals-guide/); [Exfilbench, 2025](https://www.exfilbench.com/)). We are also developing control evaluations that assume an adversarial AI, and then test the ability of our defenses to resist subversive actions by the AI ([Greenblatt et al, 2024](https://arxiv.org/abs/2312.06942); [Korbak et al., 2025](https://arxiv.org/abs/2501.17315)). These evaluations help researchers understand how self-exfiltration capabilities scale with overall system capabilities and allow for preemptive security measures. All of this is talked about in much more detail in the chapter on evaluations.
 
-**The Neglected Risk: AI-Enabled Human Takeover**
+:::
+
+:::callout {title="The Neglected Risk: AI-Enabled Human Takeover — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 While much of the discourse on AI risk focuses on a rogue AI seizing control, a more near-term and potentially more dangerous scenario is the AI-enabled human takeover. In this scenario, a small group of people—or even a single individual—leverages a powerful but controllable AI to seize governmental power through a coup ([Davidson, 2025](https://www.lesswrong.com/posts/6kBMqrK9bREuGsrnd/ai-enabled-coups-a-small-group-could-use-ai-to-seize-power-1)). This threat blurs the line between misuse and misalignment, as the catastrophic outcome is achieved by humans using a powerful AI as an unstoppable tool of conquest.
 
@@ -175,6 +194,8 @@ Fortunately, many of the same safeguards designed to prevent AI takeover also de
 - **Distributed Governance**: Ensuring that control over the most powerful AI systems is not concentrated in the hands of a single CEO or a small board, but is subject to broader, democratic oversight.
 
 The literature on this topic is still very preliminary though.
+
+:::
 
 ### Technical Safeguards
 
@@ -192,13 +213,15 @@ Beyond access control and instruction tuning techniques like reinforcement learn
 
 *Figure 3.12: Example illustration of a specific type of machine unlearning algorithm (approximate unlearning) ([Liu, 2024](https://ai.stanford.edu/~kzliu/blog/unlearning)).*
 
-**The impossible challenge of creating tamper-resistant safeguards**
+:::callout {title="The impossible challenge of creating tamper-resistant safeguards — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 A major challenge for open-weight models is that adversaries can fine-tune them to remove built-in safeguards.
 
 **Why can't we just instruction-tune powerful models and then release them as open weight?** Once a model is freely accessible, even if it has been fine-tuned to include security filters, removing these filters is relatively straightforward. Some studies have shown that a few hundred euros are sufficient to bypass all safety barriers currently in place on available open-source models simply by fine-tuning the model with a few toxic examples ([Lermen et al., 2024](https://arxiv.org/abs/2310.20624)). This is why placing models behind APIs is a strategic middle ground.
 
 **Tamper-Resistant Safeguards as a research direction.** Research into tamper-resistant safeguards, such as the TAR method, aims to make safety mechanisms (like refusal or knowledge restriction) robust against such fine-tuning attacks ([Tamirisa et al., 2024](https://arxiv.org/abs/2408.00761)). TAR has shown promise in resisting extensive fine-tuning while preserving general capabilities, though fundamental limitations in defending against sophisticated attacks exploiting benign variations remain.
+
+:::
 
 ## Socio-technical Strategies
 

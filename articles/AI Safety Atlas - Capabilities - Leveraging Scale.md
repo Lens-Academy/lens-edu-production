@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Recent AI progress is primarily driven by massive scale in computation, data, and model size. Empirically observed scaling trends can help provide guidelines for predicting future capabilities.
 
 ---
@@ -46,21 +55,29 @@ In the previous section, we looked at different notions of how to define AGI and
 
 *Figure 1.33: Example of capabilities increasing with an increase with one of variables in the scaling laws - parameter count. The same model architecture (Parti) was used to generate an image using an identical prompt, with the only difference between the models being the parameter size. There are noticeable leaps in quality, and somewhere between 3 billion and 20 billion parameters, the model acquires the ability to spell words correctly ([Yu et al., 2022](https://arxiv.org/abs/2206.10789)).*
 
-**Scaling laws are empirically observed relationships, not laws of nature.** OpenAI first documented these relationships in 2020 by running hundreds of experiments, varying inputs while measuring accuracy ([Kaplan et al., 2020](https://arxiv.org/abs/2001.08361)). They found that when you increase compute by 10×, accuracy improves predictably. Double the parameters, accuracy jumps predictably. These patterns proved surprisingly consistent across model architectures and tasks, suggesting they capture something fundamental about how neural networks learn. Later research revealed optimal training requires roughly 20 tokens of data per parameter - about 10× more data than early laws suggested[^5] ([Hoffmann et al., 2022](https://arxiv.org/abs/2203.15556)). This meant previous large models were undertrained relative to their size. The relationships continue evolving as researchers gather more evidence, but the core insight remains: scale drives predictable capability gains. The following graphs clearly show massive increases in scale for data, compute, and parameter count by all major AI labs.
+**Scaling laws are empirically observed relationships, not laws of nature.** OpenAI first documented these relationships in 2020 by running hundreds of experiments, varying inputs while measuring accuracy ([Kaplan et al., 2020](https://arxiv.org/abs/2001.08361)). They found that when you increase compute by 10×, accuracy improves predictably. Double the parameters, accuracy jumps predictably. These patterns proved surprisingly consistent across model architectures and tasks, suggesting they capture something fundamental about how neural networks learn. Later research revealed optimal training requires roughly 20 tokens of data per parameter - about 10× more data than early laws suggested[^note-atlas-5] ([Hoffmann et al., 2022](https://arxiv.org/abs/2203.15556)). This meant previous large models were undertrained relative to their size. The relationships continue evolving as researchers gather more evidence, but the core insight remains: scale drives predictable capability gains. The following graphs clearly show massive increases in scale for data, compute, and parameter count by all major AI labs.
+
+![Exponential growth of parameters in notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-4-4214b37e.png)
 
 *Interactive figure 1.4: Exponential growth of parameters in notable AI systems. Parameters are variables in an AI system whose values are adjusted during training to establish how input data gets transformed into the desired output; for example, the connection weights in an artificial neural network ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
+![Exponential growth of datapoints used to train notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-5-f9315fc4.png)
+
 *Interactive figure 1.5: Exponential growth of datapoints used to train notable AI systems. Each domain has a specific data point unit; for example, for vision it is images, for language it is words, and forgames it is timesteps. This means systems can only be compared directly within the same domain ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
+
+![Exponential growth of computation in the training of notable AI systems](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-6-75decd2e.png)
 
 *Interactive figure 1.6: Exponential growth of computation in the training of notable AI systems. Computation is measured in total peta FLOP, which is 10e15 floating-point operations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
-**The Broken Neural Scaling Laws (BNSL) update in 2023**
+:::callout {title="The Broken Neural Scaling Laws (BNSL) update in 2023 — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Research showed that performance doesn't always improve smoothly - there can be sharp transitions, temporary plateaus, or even periods where performance gets worse before getting better. Examples of this include things like "Grokking", where models suddenly achieve strong generalization after many training steps, or deep double descent, where increasing model size initially hurts then helps performance. Rather than simple power laws, BNSL uses a more flexible functional form that can capture these complex behaviors. This allows for more accurate predictions of scaling behavior, particularly around discontinuities and transitions. Scaling laws are a good baseline, but discontinuous jumps in capabilities and abrupt step changes are still possible ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).
 
 ![Figure 1.34](https://ai-safety-atlas.com/_astro/8e2e605a0c66f707ea6ce2a5974db7826aa4a37bd8766c2b80668636d60460da.Bhx54fu0_25OOF4.webp)
 
 *Figure 1.34: A Broken Neural Scaling Law example (dark black solid line) (with 3 breaks where purple dotted lines intersect with dark black solid line) contains 4 individual power law segments (where the dashed lines that are yellow, blue, red, and green overlap with the dark black solid line). The 1st and 2nd break are very smooth; the 3rd break is very sharp ([Caballero et al., 2023](https://arxiv.org/abs/2210.14891)).*
+
+:::
 
 ## Scaling Hypothesis
 
@@ -94,6 +111,4 @@ Research showed that performance doesn't always improve smoothly - there can be 
 
 **Despite disagreements about whether scale will lead to “true AGI”, major AI labs are betting heavily on scaling.** Sam Altman from OpenAI has stated his belief that scaling is going to be a big component leading to capability gains ([Altman, 2023](https://openai.com/blog/planning-for-agi-and-beyond)), Anthropic CEO Dario Amodei has expressed similar views ([Amodei, 2023](https://www.dwarkeshpatel.com/p/dario-amodei)) and DeepMind's safety team similarly wrote that "*not many more fundamental innovations are needed for AGI*" ([DeepMind, 2022](https://www.lesswrong.com/posts/GctJD5oCDRxCspEaZ/clarifying-ai-x-risk)). This consensus suggests that regardless of whether strong, weak, or tools-based scaling dominates, scale itself will likely remain central to near-term progress.
 
----
-
-[^5]:  This is also commonly called ‘chinchilla optimality’ or the chinchilla optimal frontier based on the original model that these laws were tested on.
+[^note-atlas-5]:  This is also commonly called ‘chinchilla optimality’ or the chinchilla optimal frontier based on the original model that these laws were tested on.

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Narrative forecasts and world building illustrate how current trends could lead to catastrophic or transformative futures driven by automation and competitive pressures.
 
 ---
@@ -22,9 +31,13 @@ This is a story adapted from content by ([Critch and Russel, 2023](https://arxiv
 
 **The Production Web scenario shows how today's automation trends could accelerate into an economic system that operates without humans—and eventually against human interests.** John Deere tractors already plant and harvest crops autonomously using GPS and computer vision. Amazon warehouses run on Kiva robots that move inventory faster than human workers ever could. Tesla's factories build cars with minimal human intervention. High-frequency trading algorithms execute millions of stock trades per second, far too fast for humans to monitor. These aren't experimental technologies—they're deployed because they're more efficient than human alternatives. The Production Web story asks: what happens when this automation slowly spreads everywhere over time and these systems start coordinating with each other.
 
+![New industrial robots installed per year in the top five countries](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-2-6-a361856c.png)
+
 *Interactive figure 2.6: Annual industrial robots installed in top five countries. Industrial robots are automated, reprogrammable machines that perform a variety of tasks in industrial settings ([OWID, 2025](https://ourworldindata.org/grapher/annual-industrial-robots-installed)).*
 
 **Companies don't plan to go fully automated—they just optimize for efficiency one department at a time.** Think about a supply chain company. Just like we are already seeing in 2025, companies optimize departments and start integrating AI slowly one at a time. First, automated trading algorithms suggest prices and procurement. Then automated scheduling systems manage production. Logistics algorithms optimize shipping routes and coordinate delivery. Customer service bots handle inquiries. Over time for physical tasks you might see automated management systems hire human workers through gig platforms, sending detailed instructions to smartphones: "Move 47 boxes from warehouse section A3 to loading dock 7, follow the attached route." The algorithm treats human workers like very capable robots—useful for complex manipulation until whenever robotics catches up. Employees don't get fired en masse; they gradually transition to gig work managed by the same company's algorithms.
+
+![Annual professional service robots installed globally by application area](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-2-7-43b03e54.png)
 
 *Interactive figure 2.7: Annual professional service robots installed globally, by application area. Professional service robots are semi- or fully autonomous machines that perform useful tasks in a professional setting outside of industrial applications, such as in cleaning or medical surgery. Consumer service robots are not included ([OWID, 2025](https://ourworldindata.org/grapher/annual-professional-service-robots-installed-by-area)).*
 

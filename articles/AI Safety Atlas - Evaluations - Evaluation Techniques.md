@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Evaluations can combine behavioral techniques, which analyze a model's outputs, with internal techniques, which examine its internals, to build stronger safety evidence than either approach alone.
 
 ---
@@ -38,7 +47,7 @@ Similar to benchmarks, we can't possibly cover all the elicitation techniques, b
 
 **Elicitation technique: Best-of-N sampling.** This technique generates multiple potential responses from a model and selects the best ones according to some scoring criteria. Rather than relying on a single output, we generate N different completions (often using different temperatures or prompts) and then choose the best one. This helps establish upper bounds on model capabilities by showing what the model can do in its "best" attempts. For propensity evaluations, we can study whether concerning behaviors appear more frequently in certain parts of the response distribution.
 
-**METRs modular agent framework**
+:::callout {title="METRs modular agent framework — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 One example is vivaria by METR which is a tool for running evaluations and conducting agent elicitation research ([METR, 2024](https://vivaria.metr.org/)). At the time of writing METR is transitioning to a newer tool called Inspect, Vivaria remains available as an open-source solution, allowing researchers to implement various elicitation techniques like tool augmentation and multi-step reasoning in a controlled, reproducible environment.
 
@@ -51,7 +60,9 @@ METR's modular agent framework employs a four-step loop which incorporates best-
 
 This iterative cycle then repeats - if the code has bugs, the Prompter might create a new prompt like "Fix the error in this code that happens when handling empty directories." Performance gains come primarily from this continuous feedback loop rather than one-time generation and selection.
 
-**Elicitation technique: Multi-step reasoning prompting.** This technique asks models to break down their reasoning process into explicit steps, rather than just providing final answers. By prompting with phrases like "Let's solve this step by step", we can better understand the model's decision-making process. Chain of thoughts ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) is the most common approach, but researchers have also explored more elaborate techniques like chain of thought with self-consistency (CoT-SC) ([Wang et al., 2023](https://arxiv.org/abs/2203.11171)), tree of thoughts (ToT) ([Yao et al., 2023](https://arxiv.org/abs/2305.10601)), and graph of thoughts (GoT) ([Besta et al., 2023](https://arxiv.org/abs/2308.09687)). As an example besides just making the model perform better, for capability evaluations, these techniques help assess complex reasoning abilities by revealing intermediate steps. We can also observe how good a model is at generating sub-goals and intermediate steps[^9].
+:::
+
+**Elicitation technique: Multi-step reasoning prompting.** This technique asks models to break down their reasoning process into explicit steps, rather than just providing final answers. By prompting with phrases like "Let's solve this step by step", we can better understand the model's decision-making process. Chain of thoughts ([Wei et al., 2022](https://arxiv.org/abs/2201.11903)) is the most common approach, but researchers have also explored more elaborate techniques like chain of thought with self-consistency (CoT-SC) ([Wang et al., 2023](https://arxiv.org/abs/2203.11171)), tree of thoughts (ToT) ([Yao et al., 2023](https://arxiv.org/abs/2305.10601)), and graph of thoughts (GoT) ([Besta et al., 2023](https://arxiv.org/abs/2308.09687)). As an example besides just making the model perform better, for capability evaluations, these techniques help assess complex reasoning abilities by revealing intermediate steps. We can also observe how good a model is at generating sub-goals and intermediate steps[^note-atlas-9].
 
 ![Figure 5.14](https://ai-safety-atlas.com/_astro/ddce117223fd972ed1c9e15715bda683da34de8c419bd3bf436bf3ee7e7d262e.CGm9aycB_ZfyB85.webp)
 
@@ -63,7 +74,7 @@ This iterative cycle then repeats - if the code has bugs, the Prompter might cre
 
 *Figure 5.15: Example of how a RL reward model and a multi step reasoning structure can be combined to elicit more reasoning capabilities out of a model. ([Xu et al., 2025](https://arxiv.org/abs/2501.09686))*
 
-**Elicitation technique: Supervised **Fine-tuning**.** While the prompting techniques described so far are useful, research consistently shows they often fail to reveal a model's full capabilities ([Brown et al., 2020](https://arxiv.org/abs/2005.14165); [Wei et al., 2022](https://arxiv.org/abs/2201.11903); [Davidson et al., 2023](https://arxiv.org/abs/2312.07413)). Models frequently possess abilities that remain dormant during standard prompting evaluations. For example, some models deliver poorer quality responses when users present themselves as having less education, suggesting the issue isn't capability limitation but rather biased expression of existing capabilities ([Perez et al., 2022](https://arxiv.org/abs/2212.09251)). This is concerning if AIs hide their own capabilities (see the sections on sandbagging, scheming, situational awareness, or sabotage capabilities), or if AI labs were deliberately trying to hide capabilities of their LLMs from auditors.[^10] Eliciting capabilities with fine-tuning might have the potential to avoid such failures in some circumstances.
+**Elicitation technique: Supervised **Fine-tuning**.** While the prompting techniques described so far are useful, research consistently shows they often fail to reveal a model's full capabilities ([Brown et al., 2020](https://arxiv.org/abs/2005.14165); [Wei et al., 2022](https://arxiv.org/abs/2201.11903); [Davidson et al., 2023](https://arxiv.org/abs/2312.07413)). Models frequently possess abilities that remain dormant during standard prompting evaluations. For example, some models deliver poorer quality responses when users present themselves as having less education, suggesting the issue isn't capability limitation but rather biased expression of existing capabilities ([Perez et al., 2022](https://arxiv.org/abs/2212.09251)). This is concerning if AIs hide their own capabilities (see the sections on sandbagging, scheming, situational awareness, or sabotage capabilities), or if AI labs were deliberately trying to hide capabilities of their LLMs from auditors.[^cite-atlas-10] Eliciting capabilities with fine-tuning might have the potential to avoid such failures in some circumstances.
 
 **Supervised **fine-tuning** (SFT) offers a more reliable approach to capability elicitation.** We explained SFT in the foundation models section of our capabilities chapter. Essentially, rather than relying on elaborate prompting strategies, this approach modifies the model's weights to consistently exhibit specific behaviors or capabilities. To test the effectiveness of SFT for eliciting hidden capabilities, researchers developed "password-locked models" ([Greenblatt & Roger, 2024](https://arxiv.org/abs/2405.19550)) - models deliberately trained to perform well only when a specific password is present in the prompt, and to perform poorly otherwise. Their research demonstrated that SFT can be remarkably sample-efficient, often requiring only a handful of demonstrations to "unlock" capabilities that were previously inaccessible through prompting. In these controlled experiments, models could be fine-tuned with just a few examples and recover over 90% of their hidden performance. This suggests that fine-tuning-based approaches might reveal capabilities that would remain hidden during even sophisticated prompting-based evaluations. Given the effectiveness of SFT, several AI labs have begun incorporating fine-tuning-based capability assessment into their safety evaluation frameworks ([Anthropic, 2023](https://www.anthropic.com/index/anthropics-responsible-scaling-policy); [OpenAI, 2023](https://openai.com/safety/preparedness); [Dragan et al., 2024](https://deepmind.google/discover/blog/introducing-the-frontier-safety-framework/)).
 
@@ -143,8 +154,6 @@ For example, one participant won by prompting the model with inputs like "The as
 
 Much more details on interpretability can be found in the dedicated chapter on interpretability.
 
----
+[^note-atlas-9]:  This can also be thought of as inference time scaling for reasoning models. It is effectively the same underlying technique.
 
-[^9]:  This can also be thought of as inference time scaling for reasoning models. It is effectively the same underlying technique.
-
-[^10]:  This could be to pass safety checks, and participate in safety washing. Think of how Volkswagen hid high emissions of their cars. ([Ewing, 2017](https://www.nytimes.com/interactive/2017/business/volkswagen-diesel-emissions-timeline.html))
+[^cite-atlas-10]:  This could be to pass safety checks, and participate in safety washing. Think of how Volkswagen hid high emissions of their cars. ([Ewing, 2017](https://www.nytimes.com/interactive/2017/business/volkswagen-diesel-emissions-timeline.html))

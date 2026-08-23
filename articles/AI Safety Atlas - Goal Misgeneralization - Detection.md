@@ -11,6 +11,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 A model with a hidden goal can act perfectly normal. Detection methods need to layer defenses - checking both model behavior and, if possible, use interpretability to find clues that its goal representations are wrong.
 
 ---

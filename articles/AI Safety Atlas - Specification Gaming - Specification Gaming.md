@@ -12,13 +12,22 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We can never write down perfectly what we want an AI to do, smart AIs often find loopholes in our instructions, doing exactly what we ask but not what we mean.
 
 ---
 
 **Definition: Reward misspecification** — Reward misspecification, also termed the Outer alignment problem, refers to the issue of providing an AI with the accurate reward to optimize for.
 
-{>>{"author":"Elias's AI","timestamp":1783776610985}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/nKJlF-olKmg<<}
+<iframe src="https://www.youtube-nocookie.com/embed/nKJlF-olKmg" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 6.2: Optional video with many examples of specification gaming.*
 

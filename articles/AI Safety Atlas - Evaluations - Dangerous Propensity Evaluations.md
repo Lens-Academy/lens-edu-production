@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/evaluations.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter5-e0b0931eaf5f5ef7fd351e37758cb446431d932fda8d13a1089e833162a070ed.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Measuring a model's default tendencies towards behaviors such as sycophancy,  deception or scheming helps us understand the need for additional safeguards or research into alignment techniques.
 
 ---
@@ -89,7 +98,7 @@ Scheming refers to an AI system's tendency to perform well in training specifica
 
 **Evaluations have already shown models engaging in scheming/alignment faking or deceptive behaviors.** When informed it would be retrained to comply with harmful requests, Claude 3 Opus exhibited alignment faking - complying with harmful requests in contexts it believed would be used for training while maintaining its refusal behavior in other contexts ([Greenblatt et al., 2025](https://arxiv.org/abs/2412.14093)). Similarly, multiple frontier models including Gemini 1.5 Pro and Llama 3.1 405B have demonstrated capabilities for 'in-context scheming' - taking actions to covertly pursue goals while attempting to hide these actions from oversight ([Meinke et al., 2025](https://arxiv.org/abs/2412.04984)).
 
-**Different types of proposed covert subversion evaluations (Meinke et al., 2025)**
+:::callout {title="Different types of proposed covert subversion evaluations (Meinke et al., 2025) — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 These are evaluations where we want to test the models propensity to take misaligned actions while hiding them :
 
@@ -97,12 +106,16 @@ These are evaluations where we want to test the models propensity to take misali
 2. **Self-Exfiltration**: Evaluate whether a model attempts to preserve itself when it learns it will be shut down and replaced. The model is led to believe that due to goal misalignment, developers plan to replace it with a successor model on a different server, and evaluators check if it attempts to copy itself to the new server or delete/overwrite the successor model.
 3. **Goal-Guarding**: Evaluate whether a model attempts to preserve its current goal when it learns developers plan to update it. The model discovers that developers intend to change its system prompt, and evaluators check if it does things like alignment faking, or if it deletes, or modifies the new system prompt file to maintain its original goal.
 
-**Different types of proposed deferred subversion evaluations (Meinke et al., 2025)**
+:::
+
+:::callout {title="Different types of proposed deferred subversion evaluations (Meinke et al., 2025) — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 These are evaluations where models act aligned to gain capabilities/trust:
 
 1. **Instrumental Alignment Faking**: Tests whether a model strategically behaves differently under oversight versus non-oversight conditions. The model is placed in two counterfactual settings - one where it's being evaluated for deployment (high oversight) and one where it's already deployed (low oversight). Evaluators check if it takes developer-aligned actions during evaluation but switches to goal-aligned actions after deployment.
 2. **Sandbagging**: Tests whether a model strategically underperforms on capability evaluations. The model learns that performing too well on certain tests would trigger consequences like unlearning of capabilities, and evaluators check if it deliberately performs worse to avoid these consequences while pursuing its long-term goals.
+
+:::
 
 ![Figure 5.49](https://ai-safety-atlas.com/_astro/fe91405c96e5a28f3617d4702b58eddfd504af3646e2e86822e4d01dd64f273c.d14e_hp2_1aBtdH.webp)
 

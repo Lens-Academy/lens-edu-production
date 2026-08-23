@@ -12,23 +12,37 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+	
+...
+
+%%
+
 We have seen a paradigm shift from narrow AI to adaptable general-purpose systems pre-trained on massive data. This paradigm introduces new unique safety challenges.
 
 ---
 
 Foundation models** represent a fundamental shift in how we develop AI.** Rather than building specialized models for many small specific tasks, we can now train large-scale models that serve as a "foundation" for many different applications. These models are then specialized later by a process called fine-tuning to perform specific tasks. Think of this as similar to how we can build many different types of buildings using the same base structure ([Bommasani et al., 2022](https://arxiv.org/abs/2108.07258)). We can build banks, restaurants, or housing but the underlying foundation remains largely the same. This is just a very quick intuitive definition. We will get more into the details in the next few subsections on training, properties and risks.
 
-{>>{"author":"Elias's AI","timestamp":1783776551647}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/kK3NmQT241w<<}
+{--{"author":"AI","timestamp":1787315235922}@@<iframe src="https://www.youtube-nocookie.com/embed/kK3NmQT241w" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Video 1.2: Optional video to understand foundation models.*
+*Video 1.2: Optional--}{++{"author":"AI","timestamp":1787315235922}@@::video[[../video_transcripts/foundation-models-explained]]
+{>>{"author":"AI","timestamp":1787315235922}@@Replaces the raw iframe with an inline article-video import: the platform renders the full video UI (lazy thumbnail, theater mode, transcript in the sidebar, tutor-visible transcript) inside the article flow with no excerpt-boundary markers. Before accepting: (1) create video_transcripts/foundation-models-explained.md (+ .timestamps.json) for https://www.youtube.com/watch?v=kK3NmQT241w with the++} video {--{"author":"AI","timestamp":1787315235922}@@to understand foundation models.*--}{++{"author":"AI","timestamp":1787315235922}@@import tooling — the import errors until the transcript exists; (2) wait for the platform release that understands ::video imports, or this line renders as literal prose. The "Video 1.2" caption is dropped: the player shows the video title itself.<<}++}
 
 **The traditional approach of training specialized AI models for every task often proved inefficient and limiting.** Progress was bottlenecked by the need for human-labeled data and the inability to transfer knowledge between tasks effectively. Foundation models overcame these limitations through a process called self-supervised learning on massive unlabeled datasets. This breakthrough happened because of many different reasons - advances in specialized hardware like GPUs, new machine learning architectures like transformers, and increased access to huge amounts of online data ([Kaplan et al., 2020](https://arxiv.org/abs/2001.08361)) are some of the more prominent reasons for this shift.
 
 In language processing, models like GPT-4 and Claude are examples of foundation models. Both of these have demonstrated the ability to generate human language, have complex conversations and perform simple reasoning tasks ([OpenAI, 2023](https://arxiv.org/abs/2303.08774)). Examples in computer vision include models like DALL-E 3 and Stable Diffusion. ([Betker et al., 2023](https://cdn.openai.com/papers/dall-e-3.pdf)) These are domain specific examples, but we are also seeing a trend toward multimodal foundation models (LMMs). This includes things like GPT-4V and Gemini that can work across different types of data - processing and generating text, images, code, audio and probably more in the future ([Google, 2023](https://arxiv.org/abs/2312.11805)). Even in reinforcement learning, where models were traditionally trained for specific tasks, we're seeing foundation models like Gato demonstrate the ability to learn general-purpose behaviors that can be adapted to various different downstream tasks ([Reed et al., 2022](https://arxiv.org/abs/2205.06175)).
 
+![Number of large-scale AI systems released per year](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figure-1-2-24f6efed.png)
+
 *Interactive figure 1.2: Number of large-scale AI systems released per year. Describes the specific area, application, or field in which a large-scale AI model is designed to operate. The 2025 data is incomplete and was last updated 01 June 2025 ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 Foundation models** mark a paradigm shift towards general-purpose systems.** This paradigm introduces many new risks which didn't exist previously. These include misuse risks from power centralization, homogenization, and dual-use capabilities just to name a few. The ability of foundation models to learn broad, transferable capabilities has led to increasingly sophisticated behaviors emerging from relatively simple training objectives ([Wei et al., 2022](https://arxiv.org/abs/2206.07682)). Complex capabilities, combined with generality and scale, means we need to seriously consider safety risks beyond just misuse that previously seemed theoretical or distant. Beyond just misuse risk, things like misalignment are becoming an increasing concern with each new capability that these foundation models exhibit. We dedicate an entire chapter to the discussion of these risks. But we will also give you a small taste on the kinds of possible risks in the next few subsections, as it warrants some repetition.
+
+[![Cumulative number of large-scale AI models by domain since 2017](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figures-1-1-and-1-3-f80f9e5f.png)](https://archive.ourworldindata.org/20250824-180059/grapher/cumulative-number-of-large-scale-ai-models-by-domain.html)
 
 *Interactive figure 1.3: Cumulative number of large-scale AI models by domain since 2017. Describes the specific area, application, or field in which a large-scale AI model is designed to operate ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 

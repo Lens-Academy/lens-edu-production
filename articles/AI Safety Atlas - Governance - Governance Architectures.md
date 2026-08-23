@@ -14,6 +14,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/governance.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter4-a0a322670b21725098e1839edee61e6b3af18c4a900a1d2e5731d3efe4852f1a.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Robust governance requires combining corporate self-governance for technical speed, national regulation for enforcement, and international coordination to address cross border risks.
 
 ---
@@ -54,6 +63,8 @@ In this section we'll look at how AI companies approach governance in practice. 
 
 **Internal corporate governance mechanisms matter because frontier AI companies currently have significant freedom in governing their own systems.** Their proximity to development allows them to identify and address risks earlier and more effectively than external oversight alone could achieve ([Zhang et al., 2021](https://arxiv.org/abs/2105.02117)). However, internal governance alone cannot address systemic risks; these require public oversight, which we explore later in this chapter.
 
+![Affiliation of research teams building notable AI systems by publication year](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-5-fe3f04e7.png)
+
 *Interactive figure 4.5: Affiliation of research teams building notable AI systems, by year of publication. Describes the sector where the authors of a notable AI system have their primary affiliations ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 **AI companies control the most sensitive stages of model development: architecture design, training runs, capability evaluations, deployment criteria, and safety protocols.** Well-designed internal governance can reduce risks by aligning safety priorities with day-to-day decision-making, embedding escalation procedures, and enforcing constraints before deployment ([Hendrycks et al., 2024](https://www.aisafetybook.com/textbook/corporate-governance)). It includes proactive measures like pausing training runs, restricting access to high-risk capabilities, and auditing internal model use. Because external actors often lack access to proprietary information, internal governance is the first line of defense, especially for models that have not yet been released ([Schuett, 2023](https://arxiv.org/abs/2212.08364);[ Cihon et al., 2021](https://arxiv.org/abs/2012.06505)).
@@ -75,9 +86,11 @@ In this section we'll look at how AI companies approach governance in practice. 
 - Executives allocating resources and enforcing safety policies. Roles like the Chief Artificial Intelligence Officer (CAIO), Chief Risk Officer (CRO), and related positions to coordinate risk management efforts across the organization, and help translate ethical principles into practice ([Schäfer et al., 2022](https://www.researchgate.net/publication/360644155_AI_GOVERNANCE_ARE_CHIEF_AI_OFFICERS_AND_AI_RISK_OFFICERS_NEEDED);[ Janssen et al., 2025](https://academic.oup.com/policyandsociety/article/44/1/38/7965776)).
 - Technical safety teams conducting evaluations and recommending mitigations. Teams comprising internal auditors, risk officers, and specialized audit committees for ensuring rigorous risk identification, maintaining audit integrity, and providing operational assurance, with direct reporting lines to the board for independence ([Schuett, 2023](https://www.governance.ai/research-paper/three-lines-of-defense-against-risks-from-ai#:~:text=Organizations%20that%20develop%20and%20deploy,%2C%20legal%2C%20and%20ethical%20reasons.);[ Raji et al., 2020](https://dl.acm.org/doi/pdf/10.1145/3351095.3372873)).
 
-**OpenAIs Corporate Restructuring**
+:::callout {title="OpenAIs Corporate Restructuring — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 In May 2025, OpenAI announced a significant restructuring of its governance model. While maintaining nonprofit control, the company transitioned its for-profit subsidiary from an LLC to a Public Benefit Corporation (PBC): the same model used by Anthropic and other AI labs. This change represented an acknowledgment that earlier "capped-profit" structures were designed for "a world where there might be one dominant AGI effort" but were less suitable "in a world of many great AGI companies" ([OpenAI, 2025](https://openai.com/index/evolving-our-structure/)). Frontier AI companies must simultaneously secure billions in capital investment, maintain competitiveness with well-resourced rivals, and preserve governance structures that prioritize safety. As Daniel Colson of the AI Policy Institute notes, this creates difficult tradeoffs where boards might be forced to "weigh total collapse against some form of compromise in order to achieve what it sees as its long-term mission" ([TIME, 2024](https://time.com/6983420/anthropic-structure-openai-incentives/)).
+
+:::
 
 ![Figure 4.24](https://ai-safety-atlas.com/_astro/c66e25254d02112c3d349d6099fffc34c7c37767ff5478d534a0194e1c05506f.0l0lnnZ8_Z18htTM.webp)
 
@@ -182,6 +195,8 @@ National governance provides the enforcement mechanisms and democratic legitimac
 - **AI risks have a global impact.** The regulation of those risks requires international cooperation ([Tallberg et al., 2023](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4424123)). When asked about China's participation in the Bletchley AI Safety summit, James Cleverly, former UK Foreign Secretary correctly noted: "we cannot keep the UK public safe from the risks of AI if we exclude one of the leading nations in AI tech."
 - **Race-to-the-bottom dynamics.** Countries fear competitive disadvantage in the AI race, which creates incentives for regulatory arbitrage and undermines safety standards globally ([Lancieri et al., 2024](https://scholarship.law.georgetown.edu/facpub/2647/)). International governance can help align incentives between nations, encouraging responsible AI development without forcing any one country to sacrifice its competitive edge ([Li, 2025](https://digitalcommons.law.villanova.edu/cgi/viewcontent.cgi?article=3670&context=vlr)).
 
+![Cumulative number of large-scale AI systems by country since 2019](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-4-4-1dc51435.png)
+
 *Interactive figure 4.6: Cumulative number of large-scale AI systems by country since 2017. Refers to the location of the primary organization with which the authors of a large-scale AI systems are affiliated ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 **How do national policies affect global AI development?** Even seemingly domestic regulations (such as immigration policies, see below) can reshape the global AI landscape through various spillover mechanisms.
@@ -214,7 +229,7 @@ In 2023, the US and UK governments both announced new institutes for AI safety. 
 
 *Figure 4.32: Cartoon highlighting a discrepancy between countries’ statements and their true intentions in the context of the U.K.’s november 2023 AI Safety Summit ([The Economist](https://www.economist.com/the-world-this-week/2023/11/02/kals-cartoon))*
 
-**Existing International Mechanisms (2025)**
+:::callout {title="Existing International Mechanisms (2025) — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Despite these challenges, a patchwork of international initiatives has emerged to address AI governance:
 
@@ -224,6 +239,8 @@ Despite these challenges, a patchwork of international initiatives has emerged t
 - **OECD guidelines**: The Organisation for Economic Co-operation and Development has been particularly influential in shaping AI governance principles that inform national policies, and continues to guide regional frameworks with a focus on rights, transparency, and accountability.
 - **Council of Europe AI treaty**: This proposed treaty aims to protect human rights in the context of AI development and use, focusing on ethical boundaries.
 - **China's Global AI Governance Initiative**: Demonstrating that AI governance is a priority even for nations often at odds with Western powers, China has put forth its own proposal for international AI governance.
+
+:::
 
 **How does international technology governance typically evolve?** Understanding the progression of international policymaking helps contextualize current AI governance efforts and identify potential paths forward. International policymaking typically progresses through several stages ([Badie et al., 2011](https://sk.sagepub.com/ency/edvol/intlpoliticalscience/chpt/stages-model-policy-making)):
 

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 For human-level AI, safety work focuses on research into alignment, maintaining control through monitoring and containment, and iteratively fixing discovered misalignment.
 
 ---
@@ -30,13 +39,13 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 
 **The strategy to use explicit rules fails because rules can't cover every situation.** One very common example of this is something like Asimov's Laws: don't harm humans, obey human orders (unless they conflict with law one), and protect yourself (unless it conflicts with the first two). This appeals to our legal thinking - write clear rules, then follow them. But what counts as "harm"? If you order an AI to lie to someone, does deception cause harm? If honesty hurts feelings, does truth become harmful? The AI faces impossible contradictions with no resolution method. Asimov knew this - every story in "I, Robot" shows scenarios where the laws produce disasters. The fundamental problem: we can't write rules comprehensive enough to cover every situation an advanced AI might encounter.
 
-{>>{"author":"Elias's AI","timestamp":1783776614428}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/7PKx3kS7f4A<<}
+<iframe src="https://www.youtube-nocookie.com/embed/7PKx3kS7f4A" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 3.2: Optional video for the question - Why can't we just use Asimov's laws?*
 
 **The strategy to “raise it like a child" assumes AI can develop human-like moral intuitions.** Human children learn ethics through years of feedback and social interaction - why not train AI the same way? Start simple and gradually teach right from wrong through examples and reinforcement. This feels natural because it mirrors human development. The problem is that AI systems lack the evolutionary foundation that makes human moral development possible. Human children arrive with neural circuitry shaped by millions of years of social evolution - innate capacities for empathy, fairness, and social learning. AI systems develop through completely different processes, usually by predicting text or maximizing rewards. They don't experience human-like emotions or social bonds. An AI might learn to say ethical things, or even deeply understand ethics, without developing genuine care for human welfare. Even humans sometimes fail at moral development - psychopaths understand ethical principles but aren't motivated enough to act by them ([Cima et al, 2010](https://pmc.ncbi.nlm.nih.gov/articles/PMC2840845/)). If we can't guarantee moral development in human children with evolutionary programming, we shouldn't expect it in artificial systems with alien architectures. Several people have argued that a sufficiently advanced AGI will be able to understand human moral values, the disagreement is usually around whether the AI would internalize them enough to abide by them.
 
-{>>{"author":"Elias's AI","timestamp":1783776620409}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/eaYIU6YXr3w<<}
+<iframe src="https://www.youtube-nocookie.com/embed/eaYIU6YXr3w" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 3.3: Optional video for the question - Why can't we just raise the AI like a child?*
 
@@ -44,7 +53,7 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 
 **The strategy to “just turn it off” fails if the AI is too embedded in society, or is able to replicate itself across many machines.** An off switch seems like the ultimate safety measure - if the AI does anything problematic, simply shut it down. This appears foolproof because humans maintain direct control over the AI's existence. We use kill switches for other dangerous systems, so why not AI? The problem is advanced AI systems resist being turned off because shutdown prevents them from achieving their goals. We have already seen empirical evidence of this with alignment faking experiments by Anthropic, where Claude would try very hard to follow legitimate channels to not get replaced by a newer model, but when backed into a corner it did not accept shutdown, it resorts to blackmail to avoid being replaced ([Anthropic, 2025](https://www.anthropic.com/research/agentic-misalignment)). If you imagine more advanced AI systems, they would be able to manipulate humans ([Park et al., 2023](https://arxiv.org/abs/2308.14752)), create backup copies ([Wijk, 2023](https://www.alignmentforum.org/posts/vERGLBpDE8m5mpT6t/autonomous-replication-and-adaptation-an-attempt-at-a)), or take preemptive action against perceived shutdown threats. All of this makes the strategy of “just turn it off” not as simple as it sounds. We will talk a lot more about this in the chapter on goal misgeneralization.
 
-{>>{"author":"Elias's AI","timestamp":1783776623384}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/3TYT1QfdfsM<<}
+<iframe src="https://www.youtube-nocookie.com/embed/3TYT1QfdfsM" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 3.4: Optional video for the question - Why can't we just turn it off?*
 
@@ -54,7 +63,7 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 
 - **Robustness across distribution shifts and adversarial scenarios.** The alignment solution must work when AGI systems encounter situations outside their training distribution. We can't train AGI systems on every possible situation they might encounter, so safety behaviors learned during training need to generalize reliably to novel deployment scenarios. This includes resistance to adversarial attacks where bad actors deliberately try to manipulate the system into harmful behavior.
 - **Scalability alongside increasing capabilities.** As AI systems become more capable, the alignment solution should continue functioning effectively without requiring complete retraining or reengineering. This requirement becomes even more stringent for ASI, where we need alignment solutions that scale beyond human intelligence levels.
-- **Technical feasibility within realistic timeframes.** The alignment solution must be achievable with current or foreseeable technology and resources. Solution proposals cannot rely on major unforeseen scientific breakthroughs or function only as theoretical frameworks with very low Technology Readiness Levels (TRL)[^2].
+- **Technical feasibility within realistic timeframes.** The alignment solution must be achievable with current or foreseeable technology and resources. Solution proposals cannot rely on major unforeseen scientific breakthroughs or function only as theoretical frameworks with very low Technology Readiness Levels (TRL)[^note-atlas-2].
 - **Low alignment tax to ensure competitive adoption.** Safety measures cannot impose prohibitive costs in compute, engineering effort, or deployment delays. If alignment techniques require substantially more resources or severely limit capabilities, competitive pressures will push developers toward unsafe alternatives. This constraint exists because multiple actors are racing to develop AGI - if safety measures make one organization significantly slower or less capable, others may skip those measures entirely to gain a competitive advantage.
 
 ![Figure 3.13](https://ai-safety-atlas.com/_astro/0f3da53426de6de0ca389d82c3a60089502aefa543e2681591e54c32f540dc6e.CmgIy55u_KWQaN.webp)
@@ -72,7 +81,7 @@ When people first encounter AI safety, they often suggest the same intuitive sol
 
 The overarching strategy requires prioritizing safety research over capabilities advancement. Given the substantial gaps between current techniques and requirements, the general approach involves significantly increasing funding for alignment research while exercising restraint in capabilities development when safety measures remain insufficient relative to system capabilities.
 
-**Are misuse and misalignment different?**
+:::callout {title="Are misuse and misalignment different? — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 AI misuse and rogue AI might be essentially the same scenario in their outcomes, though the only difference is that for misalignment, the initial request to do harm does not come from a human but from an AI. If we build an existentially risky triggerable system, it's likely to get triggered regardless of whether the initiator is human or artificial ([Shapira, 2025](https://www.youtube.com/watch?v=0KmaotctziE)).
 
@@ -87,6 +96,8 @@ AI misuse and rogue AI might be essentially the same scenario in their outcomes,
 ![Figure 3.14](https://ai-safety-atlas.com/_astro/33338ff3864c55674418df7acfc532f5f1ed424468498f977df90a0b3ca5a1a3.DIrGLM2q_ZUg0ow.webp)
 
 *Figure 3.14: According to Richard Ngo, the distinction between misalignment and misuse risks from AI might often be unhelpful. Instead, we should primarily think about ‘misaligned coalitions’ of both humans and AIs, ranging from terrorist groups to authoritarian states. Slide from ([Ngo, 2024](https://www.youtube.com/watch?app=desktop&si=XRR0ofCG7IEp1n_b&v=4v3uqWeVmco&feature=youtu.be)).*
+
+:::
 
 ## Fix Misalignment
 
@@ -142,7 +153,7 @@ The most straightforward strategies for establishing control are to design a sec
 
 There are still many problems to address, but in summary, it seems possible to verify the robustness of a security protocol through control evaluations by taking precautions against different failure modes. For an overview of the control agenda, [this sequence](https://www.alignmentforum.org/s/WCJtsn6fNib6L7ZBB) is a good starting point.
 
-**Does the AI Control line of research meaningfully reduce AI risks?**
+:::callout {title="Does the AI Control line of research meaningfully reduce AI risks? — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Even the control agenda suffers from many critiques.
 
@@ -152,7 +163,9 @@ The article, "The Case Against AI Control Research" ([Wentworth, 2025](https://w
 
 Both arguments are debatable, but the general point is that it is hard to guarantee that even promising-looking lines of research are not, in fact, net negative.
 
-**How to box an AI**
+:::
+
+:::callout {title="How to box an AI — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 While boxing may not be scalable, it remains a neglected strategy.
 
@@ -173,6 +186,8 @@ Possible mitigation strategies include:
 
 Many more concrete strategies are listed [here](https://www.lesswrong.com/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled#comments), and a summary of discussions on this topic is available [here](https://www.lesswrong.com/tag/ai-boxing-containment).
 
+:::
+
 ## Transparent Thoughts
 
 Monitoring the Chain-of-Thought (CoT) – the explicit natural language reasoning steps produced by some models – has been explored as a specific control and interpretability technique. Transparency is instrumental in both alignment and control.
@@ -187,7 +202,7 @@ Unfortunately, the vast majority of AIs do not reason in English; for example, A
 
 **It is probably much easier to align and monitor an AI that only thinks out loud in English** and that is pre-trained on human-generated text than to align AGIs trained from scratch with RL/evolutionary methods because those latter architectures would create their own language and would be totally alien. Assuming that an LLM cannot devise a plan to destroy the world during a single forward pass, it is plausible that such AIs would be monitorable because we would be able to look into the text generated to see if anything is suspicious. The set of hypotheses required to assert that the first AGI is going to be monitorable if we just look at its reasoning in English is described in the post: The Translucent Thoughts Hypotheses and Their Implications ([Roger, 2023](https://www.alignmentforum.org/posts/r3xwHzMmMf25peeHE/the-translucent-thoughts-hypotheses-and-their-implications)).
 
-**It might be possible to incentivize LLMs to think more plainly in English.** Obviously, the first step is to train them to think in English. But even this is insufficient. Training LLMs to reason by skipping steps incentivizes them to reason in a hidden and non-transparent manner, and this is what happens implicitly when we train LLMs to predict the next token. Conversely, if we train LLMs to detail all their reasoning steps, we can reduce incentives for hidden reasoning. This approach is also known as process-based training, which involves training AI systems to reason only step-by-step, and we explain this in the chapter on scalable oversight. Unfortunately, the above reasoning is not straightforward; AIs may learn to utilize hidden reasoning even if they are trained to detail all reasoning steps during training, such as steganography, or with architecture such as Chain of Continuous Thought (COCONUT) (see below)[^3].
+**It might be possible to incentivize LLMs to think more plainly in English.** Obviously, the first step is to train them to think in English. But even this is insufficient. Training LLMs to reason by skipping steps incentivizes them to reason in a hidden and non-transparent manner, and this is what happens implicitly when we train LLMs to predict the next token. Conversely, if we train LLMs to detail all their reasoning steps, we can reduce incentives for hidden reasoning. This approach is also known as process-based training, which involves training AI systems to reason only step-by-step, and we explain this in the chapter on scalable oversight. Unfortunately, the above reasoning is not straightforward; AIs may learn to utilize hidden reasoning even if they are trained to detail all reasoning steps during training, such as steganography, or with architecture such as Chain of Continuous Thought (COCONUT) (see below)[^note-atlas-3].
 
 **Some AI architectures prevent us from using this strategy altogether.** Meta's paper Training Large Language Models to Reason in a Continuous Latent Space presents an architecture that prevents us from reading the chain of thought from the AI systems ([Hao et al, 2024](https://arxiv.org/abs/2412.06769)). If we want to be able to monitor what's going on, it may be important not to use these architectures, even if they do enable capability gains.
 
@@ -211,14 +226,14 @@ In summary, a general strategy to create a safe by-design AI is to ensure that A
 
 Nevertheless, several factors might ultimately limit CoT monitoring effectiveness in advanced systems. These include architectural changes enabling opaque recurrent processing (sometimes called "neuralese"), the development of steganographic capabilities that could hide reasoning within seemingly benign outputs, or simply much stronger forward passes that require less explicit reasoning. Of these, the development of opaque reasoning abilities through neural recurrence may represent the most significant challenge to maintaining the transparency needed for effective monitoring. This whole agenda depends notably on the hypothesis that "Effective plans to defeat humanity cannot be found in a single LLM forward pass." Once AIs become too strong in a forward pass, most hopes of translucent thoughts go away, so either you need to succeed at ambitious CoEm by building a giant superhuman transparent bureaucracy, or we need new approaches. This is the topic of ASI Safety.
 
-**Training on Interpretability - The Most Forbidden Technique**
+:::callout {title="Training on Interpretability - The Most Forbidden Technique — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 This term has been coined by Zvi Mowshowitz ([Mowshowitz, 2025](https://thezvi.substack.com/i/145384938/the-art-of-the-jailbreak)). OpenAI's research showed that directly optimizing the CoT for safety (i.e., penalizing "bad thoughts") caused models to learn to hide their deceptive reasoning while still misbehaving ([OpenAI, 2025](https://openai.com/index/chain-of-thought-monitoring/)).
 
 “*An AI produces a final output [X] via some method [M]. You can analyze [M] using technique [T], to learn what the AI is up to. You could train on that. Never do that. You train on [X]. Only [X]. Never [M], never [T]. Why? Because [T] is how you figure out when the model is misbehaving. If you train on [T], you are training the AI to obfuscate its thinking and defeat [T]. You will rapidly lose your ability to know what is going on, in exactly the ways you most need to know what is going on. Those bits of optimization pressure from [T] are precious. Use them wisely.*”
 
----
+:::
 
-[^2]:  The Technology Readiness Levels from NASA is a scale from 1 to 9 to measure the maturity of a technology. Level 1 represents the earliest stage of technology development, characterized by basic principles observed and reported, and level 9 represents actual technology proven through successful mission operations.
+[^note-atlas-2]:  The Technology Readiness Levels from NASA is a scale from 1 to 9 to measure the maturity of a technology. Level 1 represents the earliest stage of technology development, characterized by basic principles observed and reported, and level 9 represents actual technology proven through successful mission operations.
 
-[^3]:  Steganography is a hidden coded language. For example, the first letter of a sentence gives the next letter of the message.
+[^note-atlas-3]:  Steganography is a hidden coded language. For example, the first letter of a sentence gives the next letter of the message.

@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ## Effective Compute
 
 ### Hardware Efficiency
@@ -20,7 +29,7 @@ The first factor in increasing effective compute is - how efficient is the hardw
 
 **AI chips are getting about 35% more powerful each year, but we're approaching physical limits.** Since around 2010, the raw computational performance (FLOP/s) of GPUs in FP32 precision has grown by roughly 1.35× per year ([Epoch AI, 2023](https://epoch.ai/trends); [Hobbahn et al., 2023](https://epoch.ai/blog/trends-in-machine-learning-hardware)). The improvement comes from things like denser transistors, specialized AI circuitry, and switching to lower-precision number formats. Performance per dollar has improved rapidly, and hardware at any given precision and fixed performance level becomes 30% cheaper each year. At the same time, manufacturers continue to introduce more powerful and expensive hardware ([Epoch AI, 2025](https://epoch.ai/data/machine-learning-hardware))
 
-**In the near future this trend seems likely to continue, but thermodynamic limits will eventually stop this trend.** Chips can only get so energy-efficient before physics says “no”. Every computation generates heat as a fundamental law of physics, not an engineering problem. Current analysis suggests there is room for a 50 to 1,000× improvement in energy efficiency before we hit fundamental CMOS limits, with a 50% chance that improvements cease before a roughly 200× improvement on existing technology. These estimates suggest that CMOS processors are likely sufficiently efficient to power substantially larger AI training runs than today.[^7] This implies we have significant headroom to scale using current silicon paradigms through 2030 and beyond, although hardware R&D returns may eventually diminish as we approach physical limits. Beyond these limits, training runs would likely require radical changes to computing paradigms, like a shift to adiabatic computing ([Ho et al., 2023](https://epoch.ai/blog/limits-to-the-energy-efficiency-of-cmos-microprocessors); [Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)).
+**In the near future this trend seems likely to continue, but thermodynamic limits will eventually stop this trend.** Chips can only get so energy-efficient before physics says “no”. Every computation generates heat as a fundamental law of physics, not an engineering problem. Current analysis suggests there is room for a 50 to 1,000× improvement in energy efficiency before we hit fundamental CMOS limits, with a 50% chance that improvements cease before a roughly 200× improvement on existing technology. These estimates suggest that CMOS processors are likely sufficiently efficient to power substantially larger AI training runs than today.[^note-atlas-7] This implies we have significant headroom to scale using current silicon paradigms through 2030 and beyond, although hardware R&D returns may eventually diminish as we approach physical limits. Beyond these limits, training runs would likely require radical changes to computing paradigms, like a shift to adiabatic computing ([Ho et al., 2023](https://epoch.ai/blog/limits-to-the-energy-efficiency-of-cmos-microprocessors); [Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)).
 
 ![Figure 1.49](https://ai-safety-atlas.com/_astro/bdb134a95993fb4816fbb2e070440888792c5400c6146ba14308ce1b04b25327.rtTkIm2P_Z4EhJy.webp)
 
@@ -34,7 +43,7 @@ The first factor in increasing effective compute is - how efficient is the hardw
 
 The second factor in increasing effective compute is - how well we can utilize all the existing hardware that we have. This is separate from just making the physical hardware itself more efficient.
 
-**Better algorithms have cut the compute needed for a given result by ~3× per year.** The level of compute needed to achieve a given level of performance has halved roughly every 8 months[^8]. This rapid improvement means that the compute required to achieve specific levels of capability on benchmarks can drop by orders of magnitude over just a few years of algorithmic progress. The improvements to compute efficiency explain roughly 35% of performance improvements in language modeling since 2014, with the other 65% coming from just building more chips and running them longer. Overall, this means we're getting smarter about using available hardware, and not just throwing more compute at problems ([Epoch AI, 2023](https://epoch.ai/trends); [Ho et al., 2024](https://epoch.ai/blog/algorithmic-progress-in-language-models)).
+**Better algorithms have cut the compute needed for a given result by ~3× per year.** The level of compute needed to achieve a given level of performance has halved roughly every 8 months[^note-atlas-8]. This rapid improvement means that the compute required to achieve specific levels of capability on benchmarks can drop by orders of magnitude over just a few years of algorithmic progress. The improvements to compute efficiency explain roughly 35% of performance improvements in language modeling since 2014, with the other 65% coming from just building more chips and running them longer. Overall, this means we're getting smarter about using available hardware, and not just throwing more compute at problems ([Epoch AI, 2023](https://epoch.ai/trends); [Ho et al., 2024](https://epoch.ai/blog/algorithmic-progress-in-language-models)).
 
 ![Figure 1.51](https://ai-safety-atlas.com/_astro/eb988e1bd46f91bd8a3352483694e332564153ad2ca3ff6d618f7c60ba6f7b92.Bz_2uoRR_Z2rUai8.webp)
 
@@ -58,6 +67,8 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Figure 1.54: Table showcasing estimates costs and times to overcome various  constraints in scaling up compute production ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)).*
 
+![NVIDIA quarterly revenue by market segment](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-7-a03f5b79.png)
+
 *Interactive figure 1.7: Quarterly revenue of NVIDIA Corporation across its main market segments, reported in US dollars. NVIDIA manufactures graphics processing units (GPUs), which were originally used for gaming and are now used to train AI models. This data is not adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*
 
 **Investment doesn't immediately make chip production go faster.** If some country wants to build their own TSMC equivalent, then it can take 4-5 years to build a new cutting-edge fab (accounting for construction and permitting), though upgrading an existing fab takes less time, around 2 years in addition to billions in investment ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times); [Epoch AI, 2025](https://arxiv.org/abs/2503.04941)). Besides the existing competition for chips from TSMC, another factor is that the machines TSMC needs to manufacture the chips. These are almost exclusively made by a single company: ASML in the Netherlands ([Blablová, 2025](https://epoch.ai/gradient-updates/why-china-isnt-about-to-leap-ahead-of-the-west-on-compute)). These extreme ultraviolet (EUV) lithography machines cost between $150 million to $380 million each. If/When someone (e.g. TSMC) wants to expand production, they can't just order fifty more next month. They join an already long waitlist ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times); [Sevilla, AXRP Podcast, 2024](https://axrp.net/episode/2024/10/04/episode-37-jaime-sevilla-forecasting-ai.html)).
@@ -74,13 +85,17 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Figure 1.56: Breakdown of model development costs for selected models. Hardware costs are amortized to the total number of chip-hours spent on experiments and training. R&D staff costs cover the duration of development, from initial experiments to publication ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).*
 
+%%
 *Interactive figure 1.8: Hardware and energy cost to train notable AI systems. This data is expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*
+%%
 
 ![Figure 1.57](https://ai-safety-atlas.com/_astro/caa98a2ded9650e9f63377f25ab123f847060f358bca6814166ad4ca387c587a.CeDOP_zi_1yAh1x.webp)
 
 *Figure 1.57: Amortized hardware cost plus energy cost for the final training run of frontier models. The selected models are among the top 10 most compute-intensive for their time. Amortized hardware costs are the product of training chip-hours and a depreciated hardware cost, with 23% overhead added for cluster-level networking. Open circles indicate costs which used an estimated production cost of Google TPU hardware. These costs are generally more uncertain than the others, which used actual price data rather than estimates ([Cottier et al., 2025](https://epoch.ai/blog/how-much-does-it-cost-to-train-frontier-ai-models)).*
 
 **The acquisition cost in USD of the hardware used to train frontier AI models has grown by 2.5x per year since 2016.** To give you a sense of how much training a frontier model costs, the total amortized cost of developing Grok-4 (released in July 2025), including hardware and electricity, is estimated at $480 million USD. The acquisition cost of the hardware to train Grok-3, including GPUs, other server components, and networking, is estimated at $3 billion USD. The hardware used to train Grok 4 may have been even more expensive ([Epoch AI, 2025](https://epoch.ai/trends)).
+
+![Estimated funding raised by privately held AI companies](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-9-4c416232.png)
 
 *Interactive figure 1.9: Money put into privately held AI companies by private investors. This excludes publicly traded companies (e.g., Big Tech companies) and companies’ internal spending, such as R&D or infrastructure. Expressed in US dollars, adjusted for inflation ([Our World in Data, 2023](https://ourworldindata.org/artificial-intelligence)).*
 
@@ -108,14 +123,16 @@ The third factor in increasing effective compute is - how many chips can you act
 
 *Figure 1.61: The projected power consumption for planned frontier datacenters for selected AI companies ([Epoch AI, 2025](https://epoch.ai/data/data-centers)).*
 
-**Scaling AI systems to the forecasted levels of 2030 will require substantial power infrastructure.** A training run of $2 times 10^29$ FLOP would require approximately 6 GW of power, assuming improvements in hardware efficiency. This scale necessitates data center campuses ranging from 1 to 5 GW by the end of the decade ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)). Lead times increase with scale: every additional 10× increase in compute stock adds roughly one year to project timelines. Constructing the necessary large-scale power plants typically takes 2-3 years ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)). Despite these hurdles, the cost of power remains a small fraction of data center expenses—roughly one-tenth the cost of the chips - making the capital investment rational given the potential returns ([Ho et al., 2025](https://epoch.ai/gradient-updates/is-almost-everyone-wrong-about-americas-ai-power-problem)).
+**Scaling AI systems to the forecasted levels of 2030 will require substantial power infrastructure.** A training run of $2 \times 10^{29}$ FLOP would require approximately 6 GW of power, assuming improvements in hardware efficiency. This scale necessitates data center campuses ranging from 1 to 5 GW by the end of the decade ([Sevilla et al., 2024](https://epoch.ai/blog/can-ai-scaling-continue-through-2030)). Lead times increase with scale: every additional 10× increase in compute stock adds roughly one year to project timelines. Constructing the necessary large-scale power plants typically takes 2-3 years ([Edelman & Ho, 2025](https://epoch.ai/gradient-updates/compute-scaling-will-slow-down-due-to-increasing-lead-times)). Despite these hurdles, the cost of power remains a small fraction of data center expenses—roughly one-tenth the cost of the chips - making the capital investment rational given the potential returns ([Ho et al., 2025](https://epoch.ai/gradient-updates/is-almost-everyone-wrong-about-americas-ai-power-problem)).
+
+![Electricity generation by country and region in 2025](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-10-9c5623a3.png)
 
 *Interactive figure 1.10: Total electricity generated in each country or region, measured in terawatt-hours ([Our World in Data, 2024](https://ourworldindata.org/energy-production-consumption)).*
 
+![Levelized cost of energy for renewable sources](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-1-11-df0c0d87.png)
+
 *Interactive figure 1.11: The levelized cost of energy (LCOE) accounts for everything, the cost of building the power plant, plus the ongoing costs in keeping it operational over the lifetime of the plant. The cost of energy generation per watt has been falling for decades, and even more dramatically for renewable sources ([Our World in Data, 2026](https://ourworldindata.org/grapher/levelized-cost-of-energy)).*
 
----
+[^note-atlas-7]:  CMOS (Complementary Metal-Oxide-Semiconductor) is the primary paradigm in processor production. The majority of all digital integrated circuits (CPUs, GPUs, RAM, mobile SoCs) produced today are CMOS.
 
-[^7]:  CMOS (Complementary Metal-Oxide-Semiconductor) is the primary paradigm in processor production. The majority of all digital integrated circuits (CPUs, GPUs, RAM, mobile SoCs) produced today are CMOS.
-
-[^8]:  95% confidence interval of 5 to 14 months
+[^note-atlas-8]:  95% confidence interval of 5 to 14 months

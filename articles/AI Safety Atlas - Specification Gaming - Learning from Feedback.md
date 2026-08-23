@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Training an AI with human feedback, like thumbs-up or thumbs-down, can help shape its behavior. But the AI can learn to manipulate or fool its human evaluators, or become sycophantic to get more rewards.
 
 ---
@@ -24,7 +33,7 @@ This section discusses yet more attempts to address the reward misspecification 
 
 ## Reward Modeling
 
-{>>{"author":"Elias's AI","timestamp":1783776601103}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/PYylPRX6z4Q<<}
+<iframe src="https://www.youtube-nocookie.com/embed/PYylPRX6z4Q" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 6.3: Optional video explaining reward modeling.*
 
@@ -53,7 +62,7 @@ The general reward modeling framework forms the basis for other feedback based t
 
 ## Reinforcement Learning from Human Feedback (RLHF)
 
-{>>{"author":"Elias's AI","timestamp":1783776604507}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/qV_rOlHjvvs<<}
+<iframe src="https://www.youtube-nocookie.com/embed/qV_rOlHjvvs" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 6.4: Optional video explaining RLHF and a specification gaming failure.*
 
@@ -192,7 +201,7 @@ Some of those problems may get worse as systems become more capable. RLHF has be
 
 Overall, just because the model is instruction tuned does not mean that the training process is safe, and RLHF needs to be incorporated into a broader technical safety framework (for example, Responsible Scaling Policies or the Preparedness Framework are partial attempts to be such frameworks, or the paper "Model evaluation for extreme risks" ([Shevlane et al., 2023](https://arxiv.org/abs/2305.15324))).
 
-**Instruction tuning vs alignment**
+:::callout {title="Instruction tuning vs alignment — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 Instruction Tuning is a process where the model is fine-tuned (via RL or supervised learning) to better understand and follow human instructions. This involves training the model on a dataset that contains a variety of instructions and their desired outcomes. The primary goal of Instruction Tuning is to enhance the AI's ability to interpret and execute commands as intended by users. This improves user experience and broadens the model's applicability. For example:
 
@@ -203,6 +212,8 @@ Instruction Tuning is a process where the model is fine-tuned (via RL or supervi
 Alignment in AI refers to the process of ensuring that an AI's actions and decisions are congruent with human values and ethics. It involves aligning the AI's goals and behaviors with what is beneficial or acceptable to humans.  Instruction tuning is a technique for pursuing a very superficial case of 'outer alignment,' but it’s not clear that instruction tuning helps for inner alignment, which is what real AI safety researchers are more centrally concerned about.
 
 To sum up, just because a model has undergone an instruction tuning technique like the RLHF process, it doesn't necessarily mean that the model is aligned. The term "aligned model" is often used, but it is advisable to adopt the more accurate terminology "Instruction-tuned," rather than "aligned model," to avoid confusion and more accurately represent the specific training process the model has experienced.
+
+:::
 
 ![Figure 6.24](https://ai-safety-atlas.com/_astro/db28b5bf00069ec62c40b1791ebdfd1d59039703fcd27faf503f63d178cf4673.Bkzd3ZhR_2iWx9L.webp)
 

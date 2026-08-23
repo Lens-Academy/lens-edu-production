@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/strategies.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter3-3b4d7eac4d5204791d44fcba443775e1f5e5b6af8a46856a00175a64d7c33722.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 **AI safety is fundamentally a socio-technical problem requiring socio-technical solutions.** Technical safety measures can be undermined by inadequate governance, poor security practices within labs, or cultures that prioritize speed over caution. Ensuring safety requires robust systemic approaches - governance structures, organizational practices, and cultural norms that shape how AI gets developed and deployed. Addressing these systemic risks is difficult precisely because responsibility is distributed: no single actor controls all the variables, and solutions require coordinating across companies, governments, researchers, and civil society.
 
 ![Figure 3.20](https://ai-safety-atlas.com/_astro/8e736c7c6c245e6e2c7d262c1ea45629b60c86010dbe191d0b636e6e94fcd968.COyzSx0y_11SiqI.webp)
@@ -68,7 +77,7 @@ D/acc can be understood by thinking about the question - if AI takes over the wo
 
 **The effectiveness of d/acc depends on maintaining favorable offense-defense balances.** The feasibility of d/acc as a strategy hinges on whether defensive technologies can outpace offensive capabilities across domains. Historical precedents are mixed - some fields like traditional cybersecurity often favor defenders who can patch vulnerabilities, while others like biosecurity traditionally favor attackers who need fewer resources to create threats than defenders need to counter them. The key challenge for d/acc implementation lies in identifying and supporting technologies that shift these balances toward defense ([Bernardi, 2024](https://airesilience.substack.com/p/a-policy-agenda-for-defensive-acceleration); [Buterin, 2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)).
 
-**A concrete example: AI for Cyberdefense**
+:::callout {title="A concrete example: AI for Cyberdefense — Optional · 1 min read" tone="neutral" collapse="closed"}
 
 A key application is using AI to improve cybersecurity. Powerful AI could potentially automate vulnerability detection, monitor systems for intrusions, manage fine-grained permissions more effectively than humans, or displace human operators from security-critical tasks ([Shlegeris, 2024](https://www.alignmentforum.org/posts/2wxufQWK8rXcDGbyL/access-to-powerful-ai-might-make-computer-security-radically)). While current models may not yet be reliable enough, the potential exists for AI to significantly bolster cyber defenses against both conventional and AI-driven attacks ([Hill, 2024](https://abnormalsecurity.com/blog/offensive-ai-defensive-ai); [Schlegeris, 2024](https://www.alignmentforum.org/posts/2wxufQWK8rXcDGbyL/access-to-powerful-ai-might-make-computer-security-radically)). Four promising strategies for using AI to enhance security are outlined:
 
@@ -79,7 +88,9 @@ A key application is using AI to improve cybersecurity. Powerful AI could potent
 
 These approaches could dramatically reduce insider threats and data exfiltration risks, potentially making computer security "radically easier" when powerful AI becomes available, even if there is substantial uncertainty on the robustness of such techniques.
 
-**Actionable strategies aligned with the d/acc philosophy**
+:::
+
+:::callout {title="Actionable strategies aligned with the d/acc philosophy — Optional · 2 min read" tone="neutral" collapse="closed"}
 
 **D/acc complements rather than replaces other safety approaches.** Unlike competing frameworks that may view restrictions and safeguards as impediments to progress, d/acc recognizes their value while addressing their limitations. Model safeguards remain essential first-line defenses, but d/acc builds additional safety layers when those safeguards fail or are circumvented. Similarly, governance frameworks provide necessary oversight, but d/acc reduces dependency on perfect regulation by building technical resilience that functions even during governance gaps.
 
@@ -97,6 +108,8 @@ These approaches could dramatically reduce insider threats and data exfiltration
 - **Resilient infrastructure:** Create decentralized, self-sufficient systems for energy, communication, and supply chains that can operate during disruptions. This includes technologies like mesh networks, localized manufacturing, and distributed energy generation that maintain critical functions even when centralized systems fail ([Buterin, 2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html);[ Buterin, 2025](https://vitalik.eth.limo/general/2025/01/05/dacc2.html)).
 - **Collaborative verification systems:** Implement cross-spectrum information validation platforms similar to Community Notes that identify misinformation through consensus across viewpoint diversity. These systems enable communities to self-regulate information quality without centralized arbiters of truth ([Buterin, 2023](https://vitalik.eth.limo/general/2023/11/27/techno_optimism.html)).
 
+:::
+
 ## AI Governance
 
 The pursuit of more and more powerful AI, much like the nuclear arms race of the Cold War era, represents a trade-off between safety and the competitive edge nations and corporations seek for power and influence. This competitive dynamic increases global risk. To mitigate this problem, we can try to act at the source of it, namely, the redesign of economic incentives to prioritize long-term safety over short-term gains. This can mainly be done via international governance.
@@ -111,7 +124,7 @@ Effective AI governance aims to achieve two main objectives:
 Aligning economic incentives with safety goals is a key challenge. Currently, strong commercial pressures can incentivize rapid capability development, potentially at the expense of safety research or cautious deployment. Mechanisms to reward safety or penalize recklessness are needed to avoid negative externalities:
 
 - **Reshaping the race via a centralized development.** For example, Yoshua Bengio et al. propose creating a secure facility akin to CERN for physics, where the development of potentially dangerous AI technologies can be tightly controlled ([Bengio, 2023](https://yoshuabengio.org/2023/06/24/faq-on-catastrophic-ai-risks/)). This measure is far from being a consensus view. We already explored this solution in the strategy "World Coordination" ASI safety, in the section ASI safety, but this could also be valid for many domains of safety.
-- **Windfall clauses and benefit sharing.** Implementing agreements to share the profits between the different labs generated from AGI would mitigate the race to AI supremacy by ensuring collective benefit from individual successes[^4].
+- **Windfall clauses and benefit sharing.** Implementing agreements to share the profits between the different labs generated from AGI would mitigate the race to AI supremacy by ensuring collective benefit from individual successes[^cite-atlas-4].
 - **Implementing a correct governance of AGI companies.** It is important to examine the governance structures of AGI labs. For example, being a non-profit and having a mission statement that makes it clear that the goal is not to maximize revenue, but to ensure that the development of AI benefits all of humanity, is an important first step. Also, the board needs to have teeth.
 - **Legal liability for AI developers.** Establishing clear legal responsibilities for AI developers regarding misuse or accidents might realign the incentives. For example, the Safe and Secure Innovation for Frontier Artificial Intelligence Models Act (SB 1047) could have enabled the Attorney General to bring civil suits against developers who cause catastrophic harm or threaten public safety by neglecting the requirements. The bill (which was vetoed by the governor in 2024) only addressed extreme risks from these models, including: cyberattacks causing over 500 million dollars in damage, autonomous crime causing 500 million dollars in damage, and the creation of chemical, biological, radiological, or nuclear weapons using AI. Note that compared with the AI Act and its code of practice, SB1047 does not specify in detail the steps needed to ensure we avoid catastrophes; it only targets the outcome and not really the process.
 
@@ -125,7 +138,7 @@ Aligning economic incentives with safety goals is a key challenge. Currently, st
 
 For more information on these topics, please read the next chapter on AI governance.
 
-**Is AI Governance useful, desirable and possible?**
+:::callout {title="Is AI Governance useful, desirable and possible? — Optional · 4 min read" tone="neutral" collapse="closed"}
 
 **Historically, the field of AI safety predominantly focused on technical research, influenced partly by views like Eliezer Yudkowsky's assertion that "Politics is the mind killer."** ([Yudkowsky, 2007](https://www.lesswrong.com/posts/9weLK2AJ9JEt2Tt8f/politics-is-the-mind-killer)) For many years, the field thought that engaging with policy and politics was ineffective or even counterproductive compared to directly solving the technical alignment problem, leading many early researchers concerned about AGI to prioritize engineering solutions over governance efforts. Surprisingly, in the beginning, it was almost discouraged to talk about those risks publicly to avoid the race and avoid bringing in people with "poor epistemic" to the community.
 
@@ -142,6 +155,8 @@ Additionally, there are fundamental concerns that governance structures capable 
 **However, this cynical "fakeness" perspective is debated.** Critics of the cynical view argue that specific regulatory proposals, like SB 1047, did contain potentially valuable elements (e.g., requiring shutdown capabilities, safeguards, and tracking large training runs), even if their overall impact was debated or ultimately limited ([Segerie, 2025](https://www.lesswrong.com/posts/puv8fRDCH9jx5yhbX/johnswentworth-s-shortform?commentId=J2iPumP29GK9Qrm5p); [Wentworth, 2025](https://www.lesswrong.com/posts/puv8fRDCH9jx5yhbX/johnswentworth-s-shortform?commentId=G5zcfntZodH3ZYDaP)). It's acknowledged that regulators operate under real constraints, including the significant influence of Big Tech lobbying, which can prevent the prohibition of technologies without clear evidence of unacceptable risk. Furthermore, the phenomenon of "performative compliance" or "compliance theatre" is recognized, but it is argued that engagement with these imperfect processes is still necessary, and that some legislative steps, like the EU AI Act, explicitly mentioning "alignment with human intent," represent potentially meaningful progress ([Hernandez, 2025](https://www.lesswrong.com/posts/puv8fRDCH9jx5yhbX/johnswentworth-s-shortform?commentId=NLAW24oxDFuTLT3kx)).
 
 **AI regulation could inadvertently increase existential risk through several pathways** ([1a3orn, 2023](https://www.lesswrong.com/posts/6untaSPpsocmkS7Z3/ways-i-expect-ai-regulation-to-increase-extinction-risk)). Regulations might misdirect safety efforts towards outdated or less relevant compliance issues, diverting attention from more important emerging risks (Misdirected Regulations); bureaucratic processes tend to favor large, established players, potentially hindering smaller, innovative safety research efforts; overly stringent national regulations could drive AI development to less safety-conscious international actors, weakening the initial regulator's influence (Disempowering the Countries Regulating); and regulations, particularly those restricting open-source models or setting high compliance costs, could consolidate power in the hands of the largest capability-pushing companies, potentially stifling alternative safety approaches and accelerating risk (Empowering Dominant Players). But the existence of these arguments is not sufficient for saying that AI regulation is net negative; this is mainly a reminder that we need to be cautious in how to regulate. The devil is in the details.
+
+:::
 
 ## Risk Management
 
@@ -189,6 +204,4 @@ An extremely detailed analysis of current risk management and safety practices i
 
 **Weak safety culture means we see safety washing - the appearance of caring about safety without substance.** Organizations with weak safety cultures often have safety policies on paper but don't follow them when under pressure. They may blame individuals for accidents rather than examining systemic causes. They typically treat safety work as overhead that slows down "real" progress, leading to under-resourcing and marginalization of safety teams. Safety concerns in these organizations rarely change actual deployment decisions. We talk more about safety washing in the challenges section.
 
----
-
-[^4]:  For example, in the pharmaceutical industry for drug development, companies sometimes enter into co-development and profit-sharing agreements to share the risks and rewards of bringing a new drug to market. For example, in 2014, Pfizer and Merck entered into a global alliance to co-develop and co-commercialize an anti-PD-L1 antibody for the treatment of multiple cancer types.
+[^cite-atlas-4]:  For example, in the pharmaceutical industry for drug development, companies sometimes enter into co-development and profit-sharing agreements to share the risks and rewards of bringing a new drug to market. For example, in 2014, Pfizer and Merck entered into a global alliance to co-develop and co-commercialize an anti-PD-L1 antibody for the treatment of multiple cancer types.

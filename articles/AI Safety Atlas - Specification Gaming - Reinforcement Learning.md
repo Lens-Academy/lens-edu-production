@@ -12,6 +12,15 @@ tags:
   - "article-importer"
 ---
 
+*Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/specification-gaming.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter6-af895defbf8761a30ac565755f204072e09a5d599ca725f3de64de4b547c2f28.pdf)*
+
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Reinforcement learning teaches AI agents through trial and error to maximize a reward, but if what we reward it for doesn't perfectly match what we want, the AI might simply increase the score instead of doing the real task.
 
 ---
@@ -24,7 +33,7 @@ The section provides a succinct reminder of several concepts in reinforcement le
 
 **Definition: Reinforcement Learning (RL)** — Reinforcement Learning (RL) focuses on developing agents that can learn from interactive experiences. RL is based on the concept of an agent learning through interaction with an environment and altering its behavior based on the feedback it receives through rewards after each action.
 
-{>>{"author":"Elias's AI","timestamp":1783776608387}@@removed embedded iframe: https://www.youtube-nocookie.com/embed/jwSbzNHGflM<<}
+<iframe src="https://www.youtube-nocookie.com/embed/jwSbzNHGflM" width="560" height="315" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Video 6.1: Optional video showcasing robotic hand trained using reinforcement learning.*
 
@@ -46,9 +55,9 @@ The overall functioning of RL is relatively straightforward. The two main compon
 2. The environment state $s_t$ changes depending upon the action $a_t$.
 3. The environment then outputs an observation $o_t$ and a reward $r_t$.
 
-A history is the sequence of past observations, actions and rewards that have been taken up until time $t: h_t = (a_1, o_1, r_1, ..., a_t, o_t, r_t)$. The state of the world is generally some function of the history: $s_t = f(h_t)$. The World State is the full true state of the world used to determine how the world generates the next observation and reward. The agent might either get the entire world state as an observation $o_t$, or some partial subset.
+A history is the sequence of past observations, actions and rewards that have been taken up until time $t$: $h_t = (a_1, o_1, r_1, \ldots, a_t, o_t, r_t)$. The state of the world is generally some function of the history: $s_t = f(h_t)$. The World State is the full true state of the world used to determine how the world generates the next observation and reward. The agent might either get the entire world state as an observation $o_t$, or some partial subset.
 
-The world goes from one state $s_t$ to the next $s_(t+1)$ either based on natural environmental dynamics, or the agent's actions. State transitions can be both deterministic or stochastic.
+The world goes from one state $s_t$ to the next $s_{t+1}$ either based on natural environmental dynamics, or the agent's actions. State transitions can be both deterministic or stochastic.
 
 This loop continues until a terminal condition is reached or can run indefinitely. Following is a diagram that succinctly captures the RL process:
 
@@ -60,19 +69,19 @@ This loop continues until a terminal condition is reached or can run indefinitel
 
 **Definition: Reinforcement Learning Policy** — A policy helps the agent determine what action to take once it has received an observation. It is a function mapping from states to actions specifying what action to take in each state. Policies can be both deterministic or stochastic.
 
-The goal of RL is to learn a policy (often denoted by $pi$) that recommends the best action to take at any given moment in order to maximize total cumulative reward over time. The policy defines the mapping from states to actions and guides the agent's decision-making process.
+The goal of RL is to learn a policy (often denoted by $\pi$) that recommends the best action to take at any given moment in order to maximize total cumulative reward over time. The policy defines the mapping from states to actions and guides the agent's decision-making process.
 
 $$
-pi: S -> A
+\pi: S \to A
 $$
 
-A policy can be either deterministic or stochastic. A deterministic policy directly maps each state $s_t$ to a specific action $a_t$ and is usually denoted by $mu$. In contrast, a stochastic policy assigns a probability distribution over actions for each state. Stochastic policies usually denoted by $pi$.
+A policy can be either deterministic or stochastic. A deterministic policy directly maps each state $s_t$ to a specific action $a_t$ and is usually denoted by $\mu$. In contrast, a stochastic policy assigns a probability distribution over actions for each state. Stochastic policies are usually denoted by $\pi$.
 
-Deterministic policy: $a_t = mu(s_t)$
+Deterministic policy: $a_t = \mu(s_t)$
 
-Stochastic policy: $pi(a|s) = P(a_t = a|s_t=s)$
+Stochastic policy: $\pi(a \mid s) = P(a_t = a \mid s_t = s)$
 
-In Deep RL policies are function maps that are learned during the training process. They depend on the set of learned parameters of a neural network (e.g. the weights and biases). These parameters are often denoted with subscripts on the policy equations using either $theta$ or $phi$. So the deterministic policy over the parameters of a neural network is written $a_t = mu_theta(s_t)$, and the stochastic equivalent is $a_t tilde pi_theta(dot.c | s_t)$
+In Deep RL policies are function maps that are learned during the training process. They depend on the set of learned parameters of a neural network (e.g. the weights and biases). These parameters are often denoted with subscripts on the policy equations using either $\theta$ or $\phi$. So the deterministic policy over the parameters of a neural network is written $a_t = \mu_\theta(s_t)$, and the stochastic equivalent is $a_t \sim \pi_\theta(\cdot \mid s_t)$
 
 An optimal policy maximizes the expected cumulative reward over time. The agent learns from experience and adjusts its policy based on the feedback it receives from the environment in the form of rewards or punishments.
 
@@ -87,7 +96,7 @@ The reward signal from the environment is a number that tells the agent how good
 **Definition: Reward function** — A reward function defines the goal or objective in a reinforcement learning problem. It maps perceived states or state-action pairs of the environment to a single number.
 
 $$
-R: (S times A) -> RR ; r_t = R(s_t, a_t)
+R: (S \times A) \to \mathbb{R}; \quad r_t = R(s_t, a_t)
 $$
 
 The reward function provides immediate feedback to the agent, indicating the goodness or badness of a particular state or action. It is a mathematical function that maps the state-action pairs of an agent's environment to a scalar value, representing the desirability of being in that state and taking that action. It provides a measure of immediate feedback to the agent, indicating how well it is performing at each step.
@@ -101,13 +110,13 @@ There are many different ways of choosing value functions. They can also be disc
 Following is one simple formulation is the discounted sum of future rewards given some policy. The cumulative discounted rewards are given by:
 
 $$
-R = r_t + gamma r_(t+1) + gamma^2 r_(t+2) + ... = sum_(t=0)^infinity gamma^t r_t
+R = r_t + \gamma r_{t+1} + \gamma^2 r_{t+2} + \cdots = \sum_{t=0}^{\infty} \gamma^t r_t
 $$
 
 And the value of acting according to this policy is given by:
 
 $$
-V^pi(s_t = s) = E_pi(R | s_t = s)
+V^\pi(s_t = s) = \mathbb{E}_\pi(R \mid s_t = s)
 $$
 
 **Reward Functions vs. Utility Functions**
