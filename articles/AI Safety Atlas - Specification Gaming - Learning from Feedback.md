@@ -33,6 +33,8 @@ This section discusses yet more attempts to address the reward misspecification 
 
 ## Reward Modeling
 
+::video[[../video_transcripts/robert-miles-ai-safety-training-ai-without-writing-a-reward-function-with-reward-modelling]]
+
 *Video 6.3: Optional video explaining reward modeling.*
 
 Reward modeling was developed to apply reinforcement learning (RL) algorithms to real-world problems where designing a reward function is difficult, in part because humans don’t have a perfect understanding of every objective. In reward modeling, human assistants evaluate the outcomes of AI behavior, without needing to know how to perform or demonstrate the task optimally themselves. This is similar to how you can tell if a dish is cooked well by tasting it even if you do not know how to cook, and thus your feedback can be used by a chef to learn how to cook better. This technique separates the RL alignment problem into two separate halves: Understanding intentions, i.e. learning the ‘What?’, and Acting to achieve the intentions, i.e. learning the ‘How?’. This means that in the modeling agenda, there are two different ML models:
@@ -59,6 +61,8 @@ There are also some variants of reward modeling such as:
 The general reward modeling framework forms the basis for other feedback based techniques such as RLHF (Reinforcement Learning from Human Feedback) which is discussed in the next section.
 
 ## Reinforcement Learning from Human Feedback (RLHF)
+
+::video[[../video_transcripts/rational-animations-the-true-story-of-how-gpt-2-became-maximally-lewd]]
 
 *Video 6.4: Optional video explaining RLHF and a specification gaming failure.*
 

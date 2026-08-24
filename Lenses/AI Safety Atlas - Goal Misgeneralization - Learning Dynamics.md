@@ -7,11 +7,3 @@ summary_for_tutor: "Covers learning dynamics in the Goal Misgeneralization chapt
 
 #### Article
 source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Learning Dynamics|Learning Dynamics]]
-to:: "## Loss Landscapes"
-
-#### Video
-source:: [[../video_transcripts/welch-labs-the-misconception-that-almost-stopped-ai-how-models-learn-part-1]]
-optional:: true
-
-#### Article
-from:: "*Video 7.3:"

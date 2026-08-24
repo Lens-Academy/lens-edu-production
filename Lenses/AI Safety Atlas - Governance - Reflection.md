@@ -4,8 +4,7 @@ title: "Reflection - Governance"
 tldr: "Close the chapter by writing down what stuck, without looking, and then what it did to you. The point is to find out what you actually retained while you can still do something about it."
 summary_for_tutor: "Ungraded end-of-chapter reflection for Chapter 4 (Governance). No reading. Two prompts: free recall of the chapter, then a reaction pass. The tutor mirrors and probes, and never grades, scores, or issues a verdict. The chapter's articles are in context so the mirror is checked against the source rather than against the tutor's own memory."
 reading_minutes: 5
-tutor_minutes: 15
-min_chat_messages: 2
+tutor_minutes: 14
 add_to_ai_context:
   - "[[../articles/AI Safety Atlas - Governance - Introduction]]"
   - "[[../articles/AI Safety Atlas - Governance - Governance Problems]]"
@@ -17,13 +16,14 @@ add_to_ai_context:
 ---
 
 #### Text
+optional:: true
 content::
 Two prompts to close the chapter. No right answers.
 
 #### Question: Open
 id:: 2578e029-825c-4516-b408-e33232fd329f
 content:: Spend 2 minutes writing down everything you can remember from this chapter, without looking back at any of it. Anything and everything, in any order, no need to organise it. Using the speech to text feature is highly recommended here.
-max-time:: 5:00
+optional:: true
 feedback-instructions::
 The learner has just finished this chapter of the AI Safety Atlas and has written a free recall from memory.
 
@@ -43,7 +43,7 @@ Tell them to move on to the next prompt.
 #### Question: Open
 id:: 67ad2916-a0d5-4a06-bff1-a64fce87a31f
 content:: Now the other half. How did the chapter land? What surprised you, what did you not believe, what felt like it was missing? No need to organise it, just say what you actually thought.
-max-time:: 5:00
+optional:: true
 feedback-instructions::
 The learner has just recalled this chapter and is now saying how it landed.
 
@@ -61,10 +61,3 @@ If they raise something the chapter genuinely does not settle, say so plainly. T
 
 Avoid generic praise (great reflection, thoughtful point, exactly right).
 
-#### Chat
-instructions::
-The student has just closed this chapter with a recall pass and a reaction pass.
-
-Build on what they actually wrote, and quote them. Useful directions: which part of the chapter they expect to still matter in five years and which part they expect to date; what would have to happen for them to change their mind about the thing they were most confident about; whether anything they read changes what they would actually do differently.
-
-This is an open conversation, not an assessment. Do not grade, score, or summarise their performance. Do not re-teach the chapter. If they ask for your view, give it briefly and flag it as one view.

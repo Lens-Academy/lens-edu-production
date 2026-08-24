@@ -7,11 +7,3 @@ title: "Dangerous Capability Evaluations"
 
 #### Article
 source:: [[../articles/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]
-to:: "moving toward long horizon planning in addition to having deceptive capabilities."
-
-#### Video
-source:: [[../video_transcripts/apollo-research-insider-trading-demo-video-gpt-4]]
-optional:: true
-
-#### Article
-from:: "*Video 5.1:"

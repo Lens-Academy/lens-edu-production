@@ -7,11 +7,3 @@ title: "Reinforcement Learning"
 
 #### Article
 source:: [[../articles/AI Safety Atlas - Specification Gaming - Reinforcement Learning|Reinforcement Learning]]
-to:: "altering its behavior based on the feedback it receives through rewards after each action."
-
-#### Video
-source:: [[../video_transcripts/openai-learning-dexterity]]
-optional:: true
-
-#### Article
-from:: "*Video 6.1:"
