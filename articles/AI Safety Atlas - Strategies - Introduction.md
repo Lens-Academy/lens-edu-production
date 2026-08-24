@@ -48,6 +48,8 @@ The scope chosen here reflects a common focus within certain parts of the AI saf
 
 *Video 3.1: Optional video from Google DeepMind AGI Safety Course. It gives a quick overview of their alignment approach and how we might categorize different strategies into conceptual buckets. *
 
+::video[[../video_transcripts/google-deepmind-safety-research-part-2-1-alignment-approach]]
+
 ### Acknowledgements
 
 We thank Alexandre Variengien, Jeanne Salle, Charles Martinet, Amaury Lorin, Alejandro Acelas, Evander Hammer, Jessica Wen, Angélina Gentaz, Jonathan Claybrough, Camille Berger, Josh Thorsteinson and Pauliina Laine for their valuable feedback and contributions.

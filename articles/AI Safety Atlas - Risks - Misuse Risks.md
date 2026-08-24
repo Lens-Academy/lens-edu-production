@@ -117,6 +117,8 @@ Several incentives are driving towards more autonomous lethal autonomous weapons
 
 **When wars require human soldiers, the human cost creates political barriers to conflict.** The combination of increasing autonomy, swarm intelligence, and pressure for speed creates a clear path to potential catastrophe. As weapons become more autonomous, they can act more independently. This self-reinforcing cycle pushes toward automated warfare even if no single actor intends that outcome. Studies suggest that countries are more willing to initiate conflicts when they can rely on autonomous systems instead of human troops. Combined with the risks of automated nuclear escalation, this creates multiple paths to catastrophic outcomes that could threaten humanity's long-term future ([Simmons-Edler et al., 2024](https://arxiv.org/abs/2405.01859)).
 
+::video[[../video_transcripts/future-of-life-institute-artificial-escalation]]
+
 *Video 2.1: A video of a story showcasing artificial escalation ([Future of Life Institute, 2024](https://www.youtube.com/watch?v=w9npWiTOHX0)).*
 
 :::callout {title="Moral Divides in AI Autonomy from the lens of autonomous weapons — Optional · 2 min read" tone="neutral" collapse="closed"}
@@ -198,6 +200,8 @@ Researchers have shown that even when language models appear to be working norma
 **LLMs are trained on huge amounts of internet data, which often contains personal information.** Researchers have shown these models can be prompted to just tell us things like email addresses, phone numbers, and even social security numbers ([Carlini et al., 2021](https://arxiv.org/abs/2012.07805)). The larger and more capable the model, the more private information it potentially retains. If we combine this with data poisoning, then we can further amplify privacy vulnerabilities by making specific data points easier to detect ([Chen et al., 2022](https://arxiv.org/abs/2211.00463)).
 
 **The interaction between many attack methods creates compounding risks.** For example, attackers can use privacy attacks to extract sensitive information, which they then use to make other attacks more effective. They might learn details about a model's training data that help them craft better adversarial examples or more effective poisoning strategies. This creates a cycle where one type of vulnerability enables others ([Shayegani et al., 2023](https://arxiv.org/abs/2310.10844)).
+
+::video[[../video_transcripts/yannic-kilcher-privacy-backdoors-stealing-data-with-corrupted-pretrained-models-paper-explained]]
 
 *Video 2.2: By tampering with a pre trained model's weights, an attacker can fully compromise the privacy of the finetuning data ([Feng & Florian Tramèr, 2024](https://arxiv.org/abs/2404.00473)). This has implications both for data privacy, but also for undoing fine-tuning based alignment techniques.*
 
