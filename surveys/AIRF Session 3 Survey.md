@@ -1,17 +1,15 @@
 ---
-id: '403e1b9b-97a5-4e66-b566-bde1db4f9fbf'
-title: Week 3 Post-Session Reflection
+id: '373a71b9-f8fc-4cb6-9456-49c54af4b66d'
+title: Post-Session Reflection
 ---
 
 #### Text
-content:: Thanks for showing up. A few minutes of reflection on Unit 3. Submitting this counts towards your certificate at the end of the course.
+content:: Thanks for showing up. This is your post-session reflection, about 3 minutes. It helps us make the meetings and the course better week to week. Submitting it also counts your attendance for this meeting.
 
 #### Text
 content:: **Tell us how the course is going**
 
-We are booking short calls with participants to hear what is and is not working.
-
-Availability is limited but try to pick whoever owns the thing you want to talk about!
+We are booking short calls with participants to hear what is and is not working. Availability is limited but try to pick whoever owns the thing you want to talk about!
 
 * **Lauren, on what we teach.** The curriculum itself: the readings, the arguments, and how Lens Tutor behaves. She writes the curriculum and tunes the Coach. → [book with Lauren](https://calendar.app.google/KWsXPAQTp1NKbLkv9)
 * **Elias, on the platform and course quality.** The website and the app, if something is broken or confusing on screen. Also whether the course itself works: the exercises, the tests, and how it lands week to week. → [book with Elias](https://zcal.co/i/VorDPawu)
@@ -41,47 +39,47 @@ Once you have booked, send that person a quick DM on Discord to say hello and te
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: This week, what happened with your accountability buddy?
 options::
-- Yes
-- No
-
-#### Rating
-key:: group_connection
-content:: How connected do you feel with the members of your group?
-scale:: 5
-low-label:: Not at all
-high-label:: Very connected
-required:: true
-
-#### Rating
-key:: meeting_value
-content:: How valuable was the group meeting for you?
-scale:: 5
-low-label:: Not valuable
-high-label:: Extremely valuable
+- I reached out to my buddy(s)
+- My buddy(s) reached out or responded to me
+- I had no buddy
+- I had a buddy but we didn't talk
+multi:: true
 required:: true
 
 #### Rating
 key:: content_value
-content:: How valuable was the course content for you?
+content:: How did you like this week's course content?
 scale:: 5
-low-label:: Not valuable
+low-label:: Not at all
+high-label:: A lot
+required:: true
+
+#### Question
+key:: course_improve
+content:: If you could improve one thing about the course this week, what would it be?
+
+#### Rating
+key:: group_connection
+content:: How connected do you feel with the other members of your group?
+scale:: 5
+low-label:: Not connected at all
+high-label:: Extremely connected
+required:: true
+
+#### Rating
+key:: meeting_value
+content:: How valuable was this meeting for you?
+scale:: 5
+low-label:: Not worth my time
 high-label:: Extremely valuable
 required:: true
 
 #### Question
-key:: unit_takeaway
-content:: Unit 3 ended by asking you to revise the model you built in Unit 1. Which part of your model did this unit force you to revise, and how?
+key:: meeting_improve
+content:: If you could improve one thing about this meeting, what would it be?
 
 #### Question
-key:: worked_well
-content:: What's one thing that worked well today?
-
-#### Question
-key:: could_improve
-content:: What's one thing the course, website, AI tutor, or meetings could do better?
-
-#### Question
-key:: open_response
+key:: anything_else
 content:: Anything else you want to share?
