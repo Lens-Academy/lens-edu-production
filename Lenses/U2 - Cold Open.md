@@ -1,5 +1,7 @@
 ---
 id: 'a930358e-3805-4194-bd64-5933aa84695d'
+reading_minutes: 2
+tutor_minutes: 30
 title: "Cold Open"
 tldr: Three real forecasting problems, before we teach you anything. Answer them as well as you can. At the end of the unit you get three more, and they are harder. We compare the two sets.
 summary_for_tutor: "The unit's pre-test. Administered before any reading, at full depth, mirroring the three learning outcomes: decomposition, functional form, aggregation. The tutor RECORDS and does not teach. This is the baseline against which the post-test is read, so any teaching here destroys the measurement. Feedback is deliberately minimal and non-corrective."
@@ -8,11 +10,9 @@ authors:
 ---
 #### Text
 content::
-\## Before anything
+\## Before this unit begins
 
-Here are three problems we hope you cannot solve.
-
-This is not a joke and not a test. We are asking you to fail on purpose: you remember an answer better if you tried first and got it wrong.
+Here are three problems we hope you cannot solve. Same reason as before: guess first, on purpose.
 
 None of these three problems is about AI, and that is deliberate. A problem you have already read about shows us your reading, not your reasoning.
 
@@ -32,7 +32,7 @@ content::
 
 **How many commercial passenger flights will take off worldwide next Tuesday?**
 
-Do not look anything up. Produce a number, and show how you got to it.
+Do not look anything up. Produce a number, and show how you got to it. Think about the details briefly but be quick, not precise. You're preparing your brain to think by expectation by first attempting to expect something.
 
 Then, separately: which single step in your working is most likely to be badly wrong, and roughly how badly?
 
