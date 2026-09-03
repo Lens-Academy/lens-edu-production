@@ -3,6 +3,7 @@ id: 7283f37f-6110-41a7-a6ba-2bcedc80a8ab
 title: "Practical exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Practical exercise (5 min)**

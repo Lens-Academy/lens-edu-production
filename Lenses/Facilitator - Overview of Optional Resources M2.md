@@ -3,6 +3,7 @@ id: e638177b-03ac-452a-a1dc-1d7f24e47967
 title: "Facilitator M2 — Overview of Optional Resources"
 tags:
   - facilitator-training
+reading_minutes: 7
 ---
 
 #### Text

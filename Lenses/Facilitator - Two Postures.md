@@ -3,6 +3,7 @@ id: 4c2a7c3c-34dc-4079-b05f-e9f2fdf347b6
 title: "1.4 Two postures worth knowing about"
 tags:
   - facilitator-training
+reading_minutes: 2
 ---
 #### Text
 content:: Two short concepts from *The Authentic Facilitator* (Authentic Revolution) that experienced facilitators reference often:

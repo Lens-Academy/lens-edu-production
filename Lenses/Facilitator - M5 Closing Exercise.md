@@ -3,6 +3,7 @@ id: a3b23ee2-ee45-48c6-baf8-ce5f60f6eb9c
 title: "Final exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Final exercise (5 min)**

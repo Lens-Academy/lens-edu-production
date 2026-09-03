@@ -3,6 +3,7 @@ id: f7fcdacd-3211-4ddd-ab43-22c0cc70ae83
 title: "Closing exercise"
 tags:
   - facilitator-training
+reading_minutes: 5
 ---
 #### Text
 content:: **Closing exercise (5 min)**
