@@ -3,6 +3,7 @@ id: dd704e0f-ecc6-4472-8c9f-9ac2cf9bd511
 title: "You're done"
 tags:
   - facilitator-training
+reading_minutes: 2
 ---
 #### Text
 content:: You now have the conceptual baseline of facilitation. The rest is reps.

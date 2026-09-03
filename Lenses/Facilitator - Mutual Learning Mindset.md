@@ -3,6 +3,8 @@ id: 87a9d39f-788e-4f8d-a9fd-4a0fb27ac45a
 title: "1.2 The mutual learning mindset"
 tags:
   - facilitator-training
+reading_minutes: 15
+tutor_minutes: 5
 ---
 #### Text
 content:: The mental posture facilitators are supposed to operate from has a name: the **mutual learning mindset**, originally from organisational researcher Roger Schwarz, popularised in the *Curiosity Society Facilitator's Handbook*.

@@ -3,6 +3,7 @@ id: d04fac9e-58c7-4b2c-ac4a-bfa3f3efe342
 title: "Preparing to Facilitate a Session"
 tags:
   - facilitator-training
+reading_minutes: 1
 ---
 #### Text
 content:: Most of what makes a session work is decided before anyone joins the call.
