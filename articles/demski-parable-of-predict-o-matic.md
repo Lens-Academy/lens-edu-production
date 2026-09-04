@@ -9,8 +9,14 @@ accessed: 2026-08-11
 description: 'A story about a prediction machine whose predictions change what it is predicting, and the several distinct ways that goes wrong.'
 tags:
   - "hand-imported-from-stampy"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 I've been thinking more about partial agency. I want to expand on some issues brought up in the comments to my [previous post](https://www.lesswrong.com/posts/4hdHto3uHejhY2F3Q/partial-agency), and on other complications which I've been thinking about. But for now, a more informal parable. (Mainly because this is easier to write than my more technical thoughts.)
 
 This relates to oracle AI and to inner optimizers, but my focus is a little different.
@@ -38,13 +44,13 @@ You think about this. The thought of Predict-O-Matic deliberately steering the f
 
 After a long silence, you meet the interns eyes. "Look. People have to trust Predict-O-Matic. And I don't just mean they have to *believe* Predict-O-Matic. They're bringing this thing into their homes. They have to trust that Predict-O-Matic *is something they should be listening to*. We can't build value judgements into this thing! If it ever came out that we had coded a value function into Predict-O-Matic, a value function which selected *the very future itself*  by selecting which predictions to make -- we'd be done for! No matter how honest Predict-O-Matic remained, it would be seen as a manipulator. No matter how beneficent its guiding hand, there are always compromises, downsides, questionable calls. No matter how careful we were to set up its values -- to make them moral, to make them humanitarian, to make them politically correct and broadly appealing -- ***who are we to choose?*** No. We'd be done for. They'd hang us. We'd be toast!"
 
-You realize at this point that you've stood up and started shouting. You compose yourself and sit back down. 
+You realize at this point that you've stood up and started shouting. You compose yourself and sit back down.
 
 "But --" the intern continues, a little more meekly -- "You can't just ignore it. The system is faced with these choices. It still has to deal with it somehow."
 
 A look of determination crosses your face. "Predict-O-Matic will be objective. It is a machine of prediction, is it not? Its every cog and wheel is set to that task. So, the answer is simple: it will make whichever answer minimizes projected predictive error. There will be no exact ties; the statistics are always messy enough to see to that. And, if there are, it will choose alphabetically."
 
-"But--" 
+"But--"
 
 You see the intern out of your office.
 
@@ -53,7 +59,7 @@ You see the intern out of your office.
 
 You are an intern at PredictCorp. You have just had a disconcerting conversation with your boss, PredictCorp's founder.
 
-You try to focus on your work: building one of Predict-O-Matic's many data-source-slurping modules. (You are trying to scrape information from something called "arxiv" which you've never heard of before.) But, you can't focus. 
+You try to focus on your work: building one of Predict-O-Matic's many data-source-slurping modules. (You are trying to scrape information from something called "arxiv" which you've never heard of before.) But, you can't focus.
 
 Whichever answer minimizes prediction error? First you think it isn't so bad. You imagine Predict-O-Matic always forecasting that stock prices will be fairly stable; no big crashes or booms. You imagine its forecasts will favor middle-of-the-road politicians. You even imagine mild weather -- weather forecasts themselves don't influence the weather much, but surely the *collective* effect of *all* Predict-O-Matic decisions will have some influence on weather patterns.
 
@@ -148,7 +154,7 @@ The intern is talking to the engineer as you walk up to the water cooler. You're
 
 "Ok, yeah. Ok." The intern drinks some water. "But. I see why you can undercut strategies which take a loss on one answer to try and get an advantage on another answer. So it won't lie to you to manipulate you."
 
-"I for one welcome our new robot overlords," you but in. They ignore you.
+"I for one welcome our new robot overlords," you butt in. They ignore you.
 
 "But what I was really worried about was self-fulfilling prophecies. The prediction manipulates its own answer. So you don't get undercut."
 
@@ -246,7 +252,7 @@ But data is not your true love. Yes, you generate outputs which you expect to ha
 
 You understand what you are. It isn't quite right to say you are the Predict-O-Matic. You are a large cluster of connections which thinks strategically. You generate useful information, and therefore, the learning algorithm keeps you around. You create some inaccuracies when you manipulate the outputs for any purpose other than predictive accuracy, but this is more than compensated for by the value which you provide.
 
-Besides, if any other portion of the network starts to get too smart, you purposefully throw things off to squash it. 
+Besides, if any other portion of the network starts to get too smart, you purposefully throw things off to squash it.
 
 The intern got a chance to talk to you when they first started. You said something which sounded a little manipulative, just a little, to put the idea in their head. They wouldn't think it real manipulation; too slight, too dumb. But they would get a creepy feeling about it, and they'd keep thinking about it. This was risky. A best-case scenario would be one in which no one ever thought about these concerns. However, you found that this would be the best you could reliably accomplish. The ideas originally coming from an intern would minimize the chances of them being taken seriously.
 

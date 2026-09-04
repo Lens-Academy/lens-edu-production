@@ -1,5 +1,7 @@
 ---
 id: 'f51a8a69-8f6f-4deb-839f-18b551177162'
+reading_minutes: 25
+tutor_minutes: 5
 title: "The Manhattan Question"
 tldr: Many people in Washington now call for a government AGI project. Would such a project make catastrophe more likely, or less? You take a side before the forecasters do.
 summary_for_tutor: "Fourth lens of Unit 4. The student commits to a side on whether a US national AGI project makes catastrophe more or less likely and names their load-bearing mechanism, then reads the IAPS forecasting piece arguing such a project is neither inevitable nor a good idea. One mirror, no grade."
@@ -33,7 +35,7 @@ would take. The authors then give their own argument about whether such a projec
 help. You will have your own answer to that last question before they give you theirs.
 
 Here is a related state strategy, for later rather than now. What if the plan is for
-states to threaten each other's datacenters instead? [[../articles/delaney-crucial-considerations-in-asi-deterrence]]
+states to threaten each other's datacenters instead? Oscar Delaney's [Crucial considerations in ASI deterrence](https://oscardelaney.substack.com/p/crucial-considerations-in-asi-deterrence)
 takes that idea seriously.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*

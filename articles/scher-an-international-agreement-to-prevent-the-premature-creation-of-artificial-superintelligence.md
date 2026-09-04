@@ -5,7 +5,8 @@ author:
   - "David Abecassis"
   - "Peter Barnett"
   - "Brian Abeyta"
-source_url: "https://arxiv.org/abs/2511.10783"
+source_url: "https://arxiv.org/abs/2511.10783v3"
+allowUnreachableUrl: true
 published: 2025-11-13
 created: 2026-07-28
 accessed: 2026-07-28
@@ -40,21 +41,21 @@ Our proposed agreement is not without tradeoffs and risks: it forgoes beneficial
 Contributions:
 
 -   •
-    
+
     We provide a brief overview of AI risks, and an overview of the key details of the strategic situation informing our proposal.
-    
+
 -   •
-    
+
     We describe the implementation of an international agreement to forestall the development of ASI until such a time as it can be developed safely.
-    
+
 -   •
-    
+
     We explain the key assumptions and beliefs that differentiate our plan from others in the space.
-    
+
 -   •
-    
+
     We provide the full text of an example agreement, detailed commentary, and connections to existing agreements in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We discuss immediate steps different actors could take toward this agreement in Appendix [B](#A2 "Appendix B What can we do today? ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We explain a staged implementation of the agreement that slowly builds from the current world to the agreement in Appendix [C](#A3 "Appendix C Stages ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"). We detail various approaches that could help locate existing AI chips and bring them under monitoring in Appendix [D](#A4 "Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
-    
+
 
 ## 2 An overview of AI risks
 
@@ -102,7 +103,7 @@ When world leaders are mobilized to address the situation, it is essential to ha
 
 ## 4 The Agreement
 
-![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img1-9ffabffc.png)
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img1-9ffabffc.png)
 
 Figure 1: An overview of the agreement’s main components.
 
@@ -120,7 +121,7 @@ There are numerous considerations in deciding where these thresholds should be s
 
 Verification of these restrictions is practical because AI chips are expensive and specialized, and thousands of them are needed for frontier AI development. This approach helps ensure that training runs that advance toward ASI are prevented while still allowing continued use of current AI technology.
 
-![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img2-cb20e26c.png)
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img2-cb20e26c.png)
 
 Figure 2: The training compute used to train various notable AI models in the last few years, along with the two thresholds in this agreement. In the agreement, new training above the Strict Threshold ($10^{24}$ FLOP) would be prohibited and new training between the Monitored Threshold ($10^{22}$ FLOP) and Strict Threshold ($10^{24}$ FLOP) would be monitored. Due to a lack of public data, only some models have confident estimates for the training compute used. The number in parentheses is the model’s score on the Artificial Analysis Intelligence Index. Data is based on \[[37](#bib.bib15 "Data on AI Models")\] and \[[15](#bib.bib17 "Comparison of models: intelligence, performance & price analysis")\]. Cost estimates are based on October 2025 rental prices for B200 GPUs from CoreWeave, assuming 50% utilization in FP8.
 
@@ -189,13 +190,13 @@ We also contend that there are other problems which need to be addressed during 
 One objection to this paper’s plan is that a short pause may suffice because AI alignment research could be automated. Automating AI alignment research was the goal of OpenAI’s now-disbanded Superalignment team \[[58](#bib.bib51 "Introducing superalignment")\], and is a key focus of Anthropic’s Alignment Science team \[[11](#bib.bib25 "How difficult is AI alignment? | Anthropic Research Salon")\]. AI companies themselves have not publicly provided detailed plans for how they plan to automate alignment research. Assuming they had such a plan, and assuming they acted with much more caution than the AI field of today, this plan might work. But we don’t think one should be very confident in the plan’s success, and it would be an irresponsible gamble with immense stakes. As discussed, the state of the AI alignment field is nascent and has made little progress so far. There are various reasons to expect this plan to fail, or at least to not be confident in its success. This topic has been debated at length in internet forums, and for the sake of concision, we will only briefly outline a couple arguments:
 
 -   •
-    
+
     Alignment problems for ASI appear difficult. Early AGIs may not be able to solve these problems quickly. More capable AGIs would have a better chance of solving these problems, but creating such AIs takes on more catastrophic misalignment risk. \[[81](#bib.bib48 "The Case Against AI Control Research"), [59](#bib.bib49 "Why I don’t believe Superalignment will work")\]
-    
+
 -   •
-    
+
     Early AGIs may not be aligned or controllable. This plan requires that early AGIs either be aligned themselves and thus trying to help solve alignment challenges, or that they are misaligned but we are still able to get useful labor out of them (as the AI Control research agenda aims to do \[[44](#bib.bib135 "AI Control: Improving Safety Despite Intentional Subversion")\]). Each of these conditions seems prima facie unlikely, and it seems difficult to obtain justifiable confidence in at least one of them working.
-    
+
 
 ##### Why do we have to track down existing AI chips? That seems difficult and the flow of newly produced chips will overwhelm the existing stock quickly.
 
@@ -255,7 +256,7 @@ LLMs were used to help with various parts of this report, including background r
 -   \[12\] Anthropic (2025-05) Responsible scaling policy, version 2.2. Technical report Anthropic. External Links: [Link](https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf) Cited by: [§2](#S2.p8.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[13\] S. Armstrong, N. Bostrom, and C. Shulman (2016) Racing to the precipice: a model of artificial intelligence development. AI & society 31 (2), pp. 201–206. Cited by: [§2](#S2.p12.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[14\] Artificial Analysis (2025) AI Trends: Countries. Note: Artificial AnalysisAccessed: 2025-10-10 External Links: [Link](https://artificialanalysis.ai/trends#countries) Cited by: [§3](#S3.p3.1 "3 The strategic situation ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
--   \[15\] Artificial Analysis (2025) Comparison of models: intelligence, performance & price analysis. Note: [https://artificialanalysis.ai/models/](https://artificialanalysis.ai/models/)Accessed: 2025-10-10 Cited by: [Figure 2](#S4.F2 "In 4 The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
+-   \[15\] Artificial Analysis (2025) Comparison of models: intelligence, performance & price analysis. Note: [https://artificialanalysis.ai/models/](https://artificialanalysis.ai/models/) Accessed: 2025-10-10 Cited by: [Figure 2](#S4.F2 "In 4 The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[16\] L. Aschenbrenner (2024-06) Situational Awareness: The Decade Ahead. (en-US). External Links: [Link](https://situational-awareness.ai/) Cited by: [§3](#S3.p1.1 "3 The strategic situation ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[17\] B. Baker, J. Huizinga, L. Gao, Z. Dou, M. Y. Guan, A. Madry, W. Zaremba, J. Pachocki, and D. Farhi (2025) Monitoring reasoning models for misbehavior and the risks of promoting obfuscation. arXiv preprint arXiv:2503.11926. Cited by: [§2](#S2.p10.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"), [§2](#S2.p6.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[18\] M. Baker, G. Kulp, O. Marks, M. Brundage, and L. Heim (2025) Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment. arXiv preprint arXiv:2507.15916. Cited by: [§4](#S4.p8.1 "4 The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
@@ -274,7 +275,7 @@ LLMs were used to help with various parts of this report, including background r
 -   \[31\] F. W. Crawford, K. Webster, G. L. Epstein, D. Roberts, J. Fair, and S. Nevo (2024) Securing Commercial Nucleic Acid Synthesis. RAND Corporation, Santa Monica, CA. External Links: [Document](https://dx.doi.org/10.7249/RRA3329-1) Cited by: [§2](#S2.p1.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[32\] T. Davidson, L. Finnveden, and R. Hadshar (2025) AI-Enabled Coups: How a Small Group Could Use AI to Seize Power. Note: Accessed: 2025-04-17 External Links: [Link](https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power) Cited by: [§2](#S2.p1.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[33\] T. Davidson, R. Hadshar, and W. MacAskill (2025) Three types of intelligence explosion. Note: Accessed: 2025-03-28 External Links: [Link](https://www.forethought.org/research/three-types-of-intelligence-explosion) Cited by: [§2](#S2.p8.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
--   \[34\] L. Drago and R. Laine (2025-04) The intelligence curse. Note: [https://intelligence-curse.ai/](https://intelligence-curse.ai/)Accessed: 2025-10-10 Cited by: [§2](#S2.p1.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
+-   \[34\] L. Drago and R. Laine (2025-04) The intelligence curse. Note: [https://intelligence-curse.ai/](https://intelligence-curse.ai/) Accessed: 2025-10-10 Cited by: [§2](#S2.p1.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[35\] B. D. Ehrhart, D. M. Brooks, A. B. Muna, and C. B. LaFleur (2020) Evaluation of risk acceptance criteria for transporting hazardous materials. Cited by: [§3](#S3.p6.1 "3 The strategic situation ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[36\] Epoch AI (2024-11) AI Benchmarking Hub. Note: Accessed: 2025-10-10 External Links: [Link](https://epoch.ai/benchmarks/) Cited by: [§2](#S2.p7.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[37\] Epoch AI (2025-07) Data on AI Models. Note: Accessed: 2025-10-10 External Links: [Link](https://epoch.ai/data/ai-models) Cited by: [Figure 2](#S4.F2 "In 4 The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"), [§4](#S4.p6.2 "4 The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
@@ -309,7 +310,7 @@ LLMs were used to help with various parts of this report, including background r
 -   \[66\] R. Ngo, L. Chan, and S. Mindermann (2025-03) The Alignment Problem from a Deep Learning Perspective. arXiv. Note: arXiv:2209.00626 \[cs\]Comment: Published in ICLR 2024 External Links: [Link](http://arxiv.org/abs/2209.00626), [Document](https://dx.doi.org/10.48550/arXiv.2209.00626) Cited by: [§2](#S2.p2.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[67\] M. Nielsen (2024-01) Notes on Differential Technological Development. External Links: [Link](https://michaelnotebook.com/dtd/index.html) Cited by: [§3](#S3.p1.1 "3 The strategic situation ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[68\] J. Novet and J. Vanian (2025-04-29) Satya Nadella says as much as 30% of Microsoft code is written by AI. Note: CNBCAccessed: 2025-10-10 External Links: [Link](https://www.cnbc.com/2025/04/29/satya-nadella-says-as-much-as-30percent-of-microsoft-code-is-written-by-ai.html) Cited by: [§2](#S2.p7.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
--   \[69\] OpenAI (2025-05-02) Expanding on what we missed with sycophancy. Note: [https://openai.com/index/expanding-on-what-we-missed-with-sycophancy/](https://openai.com/index/expanding-on-what-we-missed-with-sycophancy/)Accessed: 2025-10-10 Cited by: [§2](#S2.p6.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
+-   \[69\] OpenAI (2025-05-02) Expanding on what we missed with sycophancy. Note: [https://openai.com/index/expanding-on-what-we-missed-with-sycophancy/](https://openai.com/index/expanding-on-what-we-missed-with-sycophancy/) Accessed: 2025-10-10 Cited by: [§2](#S2.p6.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[70\] OpenAI (2025-02) OpenAI Model Spec. (en). External Links: [Link](https://model-spec.openai.com/2025-02-12.html) Cited by: [§2](#S2.p8.1 "2 An overview of AI risks ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[71\] K. F. Pilz, J. Sanders, R. Rahman, and L. Heim (2025) Trends in AI supercomputers. arXiv preprint arXiv:2504.16026. Cited by: [Figure 3](#A4.F3 "In D.3.1 Staged Implementation of Chip Consolidation ‣ D.3 Methods for chip tracking and consolidation ‣ Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"), [§D.3.1](#A4.SS3.SSS1.p1.1 "D.3.1 Staged Implementation of Chip Consolidation ‣ D.3 Methods for chip tracking and consolidation ‣ Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
 -   \[72\] A. A. Ramiah, R. Koopmanschap, J. Thorsteinson, S. Khan, J. Zhou, S. Noh, J. Meindertsma, and F. Shafiq (2025) Toward a global regime for compute governance: building the pause button. arXiv preprint arXiv:2506.20530. Cited by: [§3](#S3.p1.1 "3 The strategic situation ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence").
@@ -333,7 +334,7 @@ LLMs were used to help with various parts of this report, including background r
 
 Below, we provide an annotated example draft language for the sort of agreement that could be implemented by major governments around the world, if they recognized the dangers from artificial superintelligence (ASI) and sought to prevent anyone from building ASI. We present this as an illustrative example of some potentially valuable provisions to have in view, using mechanisms tailored to the situation at hand and grounded in historical precedent.
 
-This draft text covers many different mechanisms that we think would be required to prevent AI developers from seriously endangering humanity. In practice, we would expect different aspects to likely be covered by different agreements.[^1] And of course, in reality, the parties involved should draft the agreement subject to negotiation and review by relevant experts.
+This draft text covers many different mechanisms that we think would be required to prevent AI developers from seriously endangering humanity. In practice, we would expect different aspects to likely be covered by different agreements.[^cite-scher-1] And of course, in reality, the parties involved should draft the agreement subject to negotiation and review by relevant experts.
 
 For each article, we’ve provided a commentary section explaining why we made key decisions, and a section discussing some relevant precedent. It’s important to note that precedent is valuable because it demonstrates that the plan can be effectuated, not that it will be effective. The existence of prior agreements shows that similar mechanisms are politically and practically feasible, but does not guarantee they will achieve their intended outcomes in this domain. By contrast, our reasons for believing this particular agreement would be effective are discussed in various places, including the commentary sections, and are often AI-specific.
 
@@ -385,9 +386,9 @@ Article I of the NPT, as in many treaties, states the high-level commitment part
 
 > Each nuclear-weapon State Party to the Treaty undertakes not to transfer to any recipient whatsoever nuclear weapons or other nuclear explosive devices or control over such weapons or explosive devices directly, or indirectly; and not in any way to assist, encourage, or induce any non-nuclear-weapon State to manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices, or control over such weapons or explosive devices.
 
-The commitment summarized in Article I of our draft agreement is stronger than this because an ASI breakout by anyone, anywhere, cannot be allowed to happen even once.[^2] It would not be enough to not “assist, encourage, or induce” others to build it. We have therefore included a commitment to “assist, or not impede, reasonable measures” by parties to dissuade and prevent such development anywhere.
+The commitment summarized in Article I of our draft agreement is stronger than this because an ASI breakout by anyone, anywhere, cannot be allowed to happen even once.[^note-scher-2] It would not be enough to not “assist, encourage, or induce” others to build it. We have therefore included a commitment to “assist, or not impede, reasonable measures” by parties to dissuade and prevent such development anywhere.
 
-The NPT works to contain an existing threat (nuclear weapons), while our draft agreement is working to prevent a threat from existing at all (ASI). Precedent for preventing the development of dangerous new technology can be found in the Protocol on Blinding Laser Weapons, part of the Convention on Certain Conventional Weapons[^3]. Its Article I reads:
+The NPT works to contain an existing threat (nuclear weapons), while our draft agreement is working to prevent a threat from existing at all (ASI). Precedent for preventing the development of dangerous new technology can be found in the Protocol on Blinding Laser Weapons, part of the Convention on Certain Conventional Weapons[^cite-scher-3]. Its Article I reads:
 
 > It is prohibited to employ laser weapons specifically designed, as their sole combat function or as one of their combat functions, to cause permanent blindness to unenhanced vision, that is to the naked eye or to the eye with corrective eyesight devices. The High Contracting Parties shall not transfer such weapons to any State or non-State entity.
 
@@ -398,90 +399,90 @@ That language doesn’t try to keep anyone anywhere from ever testing or acciden
 For the purposes of this Agreement:
 
 1.  1.
-    
+
     Artificial intelligence (AI) means a computational system that performs tasks requiring cognition, planning, learning, or taking actions in physical, social or cyber domains. This includes systems that perform tasks under varying and unpredictable conditions, or that can learn from experience and improve performance.
-    
+
 2.  2.
-    
+
     Artificial superintelligence (ASI) is operationally defined as any AI with sufficiently superhuman cognitive performance that it could plan and successfully execute the destruction of humanity.
-    
+
     1.  (a)
-        
+
         For the purposes of this Agreement, AI development which is not explicitly authorized by the Coalition Technical Body (Article III) and is in violation of the limits described in Article IV shall be assumed to have the aim of creating artificial superintelligence.
-        
-    
+
+
 3.  3.
-    
+
     Dangerous AI activities are those activities which substantially increase the risk of an artificial superintelligence being created, and are not limited to the final step of developing an ASI but also include precursor steps as laid out in this Agreement. The full scope of dangerous AI activities is concretized by Articles IV through IX and may be elaborated and modified through the operation of the Agreement and the activities of the Coalition Technical Body.
-    
+
 4.  4.
-    
+
     Floating-point operations (FLOP) is the computational measure used to quantify the scale of training and post‑training, based on the number of mathematical operations done. FLOP shall be counted as either the equivalent operations to the half-precision floating-point (FP16) format or the total operations (in the format used), whichever is higher.
-    
+
 5.  5.
-    
+
     Training run means any computational process that optimizes an AI’s parameters (specifications of the propagation of information through a neural network, e.g., weights and biases) using gradient-based or other search/learning methods, including pre-training, fine-tuning, reinforcement learning, large-scale hyperparameter searches that update parameters, and iterative self-play or curriculum training.
-    
+
 6.  6.
-    
+
     Pre-training means the training run by which an AI’s parameters are initially optimized using large-scale datasets to learn generalizable patterns or representations prior to any task- or domain-specific adaptation. It includes supervised, unsupervised, self-supervised, and reinforcement-based optimization when performed before such adaptation.
-    
+
 7.  7.
-    
+
     Post-training means a training run executed after a model’s pre-training. In addition, any training performed on an AI created before this Agreement entered into force is considered post-training.
-    
+
 8.  8.
-    
+
     Strict Threshold is the amount of training computation (measured in FLOP) above which training runs are prohibited. It is set at $10^{24}$ FLOP.
-    
+
 9.  9.
-    
+
     Strict Post-training Threshold is the amount of training computation (measured in FLOP) above which post-training runs (e.g., of models trained before the agreement) are prohibited. It is set at $10^{23}$ FLOP.
-    
+
 10.  10.
-     
+
      Monitored Threshold is the amount of training computation (measured in FLOP) above which training runs are subject to monitoring by the international authority. It is set at $10^{22}$ FLOP.
-     
+
 11.  11.
-     
+
      Advanced computer chips are integrated circuits fabricated on processes at least as advanced as the 28 nanometer process node.
-     
+
 12.  12.
-     
+
      AI chips mean specialized integrated circuits designed primarily for AI computations, including but not limited to training and inference operations for machine learning models \[this would need to be defined more precisely in an Annex\]. This includes GPUs, TPUs, NPUs, and other AI accelerators. This may also include hardware that was not originally designed for AI uses but can be effectively repurposed. AI chips are a subset of advanced computer chips.
-     
+
 13.  13.
-     
+
      AI hardware means all computer hardware for training and running AIs. This includes AI chips, as well as networking equipment, power supplies, and cooling equipment.
-     
+
 14.  14.
-     
+
      AI chip manufacturing equipment means equipment used to fabricate, test, assemble, or package AI chips, including but not limited to lithography, deposition, etch, metrology, test, and advanced-packaging equipment \[a more complete list would need to be defined in an Annex\].
-     
+
 15.  15.
-     
+
      H100-equivalent means the unit of computing capacity (FLOP per second) equal to one NVIDIA H100 SXM accelerator, 989 TFLOP/s in FP16, or a Total Processing Performance (TPP) of 15,824 TFLOP-bit/s, where TPP is calculated as TPP = 2 $\times$ non-sparse MacTOPS $\times$ (bit length of the multiply input).
-     
+
 16.  16.
-     
+
      Covered chip cluster (CCC) means any set of AI chips or networked cluster with aggregate effective computing capacity or accelerator memory greater than 16 H100-equivalents. A networked cluster refers to chips that either are physically co-located, have inter-node aggregate bandwidth — defined as the sum of bandwidth between distinct hosts/chassis — greater than 25 Gbit/s, or are networked to perform workloads together. The aggregate effective computing capacity of 16 H100 chips is 15,824 TFLOP/s, or TPP of 253,184 TFLOP-bit/s, and is based on the sum of per-chip TPP. The total accelerator memory of 16 H100 chips is 1,280 GB. Examples of CCCs would include: the GB200 NVL72 server, three eight-way H100 HGX servers residing in the same building, CloudMatrix 384, a pod with 32 TPUv6e chips, every supercomputer.
-     
+
 17.  17.
-     
+
      National Technical Means (NTM) includes satellite, aerial, cyber, signals, imagery (including thermal), and other remote-sensing capabilities employed by Parties for verification consistent with this Agreement.
-     
+
 18.  18.
-     
+
      Chip-use verification means methods that provide insight into what activities are being run on particular computer chips in order to differentiate acceptable and prohibited activities.
-     
+
 19.  19.
-     
+
      Methods used to create frontier models refers to the broad set of methods used in AI development. It includes but is not limited to AI architectures, optimizers, tokenizer methods, data curation, data generation, parallelism strategies, training algorithms (e.g., RL algorithms) and other training methods. This includes post-training but does not include methods that do not change the parameters of a trained model, such as prompting. New methods may be created in the future.
-     
+
 20.  20.
-     
+
      AI Technique Whitelist means the list of approved AI methods and techniques maintained by the Coalition Technical Body. Training runs above the Monitored Threshold may only use techniques on this list.
-     
+
 
 ##### Notes on Article II
 
@@ -506,77 +507,77 @@ Note that National Technical Means (NTM) may be deprecated as the official term 
 ### ARTICLE III — The Coalition
 
 1.  1.
-    
+
     Parties to this Agreement constitute the coalition. The coalition shall implement this Agreement and its provisions, including those for international verification of compliance with it, and shall provide a forum for consultation and cooperation among Parties.
-    
+
 2.  2.
-    
+
     The organs of the coalition are the Executive Council and the Coalition Technical Body (CTB).
-    
+
 3.  3.
-    
+
     Executive Council
-    
+
     1.  (a)
-        
+
         The Executive Council initially consists of the United States of America and the People’s Republic of China.
-        
+
     2.  (b)
-        
+
         The Executive Council: approves challenge inspections; appoints the Director-General; provides oversight of the CTB and exercises veto power over its recommendations; determines overall policy and adopts the budget.
-        
+
     3.  (c)
-        
+
         Decision-making processes are as follows:
-        
+
         1.  i.
-            
+
             All proactive Executive Council decisions require consensus among members. If consensus cannot be reached, the proposed changes are not adopted.
-            
+
         2.  ii.
-            
+
             Each member of the Executive Council has veto power over decisions by the CTB.
-            
+
         3.  iii.
-            
+
             The Executive Council may delegate specific authorities to the CTB, subject to the veto power described above.
-            
-        
+
+
     4.  (d)
-        
+
         The Executive Council may hold deliberative sessions with selected additional Parties that are not on the Executive Council. These additional Parties are chosen by the Executive Council. Selected Parties may participate in debate and be provided with relevant sensitive information in order to do so.
-        
-    
+
+
 4.  4.
-    
+
     Coalition Technical Body (CTB) and Director-General
-    
+
     1.  (a)
-        
+
         The Director-General of the CTB is its head and chief administrative officer.
-        
+
     2.  (b)
-        
+
         The Director-General is appointed by the Executive Council for a four-year term, renewable once. The Executive Council can recall the Director-General.
-        
+
     3.  (c)
-        
+
         The CTB coordinates the activities of the Parties required by the Agreement. It includes technical divisions for Chip Tracking and Manufacturing Safeguards, Chip Use Verification Safeguards, Research Controls, Information Consolidation, Technical Reviews, Administration and Finance, and Legal and Compliance. The Director-General can create and disband technical divisions.
-        
+
     4.  (d)
-        
+
         The CTB, through the Director-General, proposes changes to technical definitions and safeguard protocols, as necessary to implement Article IV, Article V, Article VI, Article VII, Article VIII, Article IX, and Article X of this Agreement.
-        
+
         1.  i.
-            
+
             Time-sensitive changes to FLOP thresholds (Article IV), the size of covered compute clusters (Article V), and the boundaries of restricted research (Article VIII) may be implemented by the Director-General immediately in the case where inaction poses a security risk. Such changes remain in effect for thirty days. Past that, the changes require approval from the Executive Council to remain in effect, subject to the veto power of each Executive Council member.
-            
-        
-    
+
+
+
 5.  5.
-    
+
     The coalition’s regular budget is funded by assessed contributions of members of the Executive Council, with the assessment scale determined by the Executive Council.
-    
+
 
 ##### Precedent for Article III
 
@@ -601,67 +602,67 @@ Given the status of TSMC as the leading AI chip manufacturer, any AI agreement m
 ### ARTICLE IV — AI Training
 
 1.  1.
-    
+
     Each Party agrees to ban and prohibit AI training above the following thresholds: Any training run exceeding the Strict Threshold or any post-training run exceeding the Strict Post-training Threshold. Each Party agrees to not conduct training runs above these thresholds, and to not permit any entity within its jurisdiction to conduct training runs above these thresholds.
-    
+
     1.  (a)
-        
+
         The Coalition Technical Body (CTB) may modify these thresholds, in accordance with the process described in Article III.
-        
-    
+
+
 2.  2.
-    
+
     Each Party shall report any training run above the Monitored Threshold to the CTB, prior to initiation. This applies for training runs conducted by the Party or any entity within its jurisdiction.
-    
+
     1.  (a)
-        
+
         This report must include, but is not limited to, all training code, all training data, and an estimate of the total FLOP to be used. The Party must provide CTB staff supervised access to all data, with access logging appropriate to the data’s sensitivity, and protections against duplication or unauthorized disclosure. Data and code may be reviewed on-site at the training facility or through secure mechanisms approved by the CTB. Failure to provide CTB staff sufficient access to data is grounds for denying the training run, at the CTB’s discretion. The CTB may request any additional documentation relating to the training run. The CTB will also pre-approve a set of small modifications that could be made to the training procedure during training. Any such changes will be reported to the CTB when and if they are made.
-        
+
     2.  (b)
-        
+
         Training runs above the Monitored Threshold require explicit approval from inspectors representing the U.S. and the PRC, physically present at the training facility. Inspectors must provide written approval before training may commence. Either may withhold approval or require modifications. Inspectors shall verify that the training code uses only AI techniques approved on the AI Technique Whitelist maintained by the CTB.
-        
+
     3.  (c)
-        
+
         Inspectors may not remove electronic storage devices or data from the training facility.
-        
+
     4.  (d)
-        
+
         The CTB may monitor such training runs, and the Party will provide checkpoints of the model to the CTB upon request, including the final trained model \[initial details for such monitoring would need to be described in an Annex\].
-        
+
     5.  (e)
-        
+
         In the event that monitoring indicates worrisome AI capabilities or behaviors, the CTB can issue an order to pause a training run or class of training runs until it deems it safe for the training run to proceed.
-        
+
     6.  (f)
-        
+
         The CTB will maintain robust security practices. The CTB will share information about declared training runs with the U.S. and PRC to support independent verification efforts.
-        
+
     7.  (g)
-        
+
         In the event that a Party discovers a training run above the designated thresholds, whether through the Party’s own verification efforts or otherwise, the Party must report this training run to the CTB and halt this training run (if it is ongoing). Such a training run may only resume with approval from the CTB.
-        
-    
+
+
 3.  3.
-    
+
     Each Party, and entities within its jurisdiction, may conduct training runs of less FLOP than the Monitored Threshold without oversight or approval from the CTB.
-    
+
 4.  4.
-    
+
     The CTB may authorize specific carveouts for activities such as safety evaluations, self-driving vehicles, medical technology, and other activities deemed safe by the Director-General, subject to the Executive Council’s veto power under Article III. These carveouts may allow for training runs larger than the Strict Threshold with CTB oversight, or a presumption of approval from the CTB for training runs between the Monitored Threshold and Strict Threshold.
-    
+
 5.  5.
-    
+
     The CTB creates and maintains an AI Technique Whitelist specifying allowed AI methods and techniques. The CTB may modify this Whitelist in accordance with Article III. Training runs above the Monitored Threshold may only employ techniques on this Whitelist.
-    
+
 
 ##### Precedent for Article IV
 
 While the numerical values for thresholds specified in our agreement can and should be revisited when moving beyond the early draft stage, quantitative caps are common in international agreements, preempting disputes that would otherwise hinge on differing interpretations of qualitative language.
 
-The 1974 [Threshold Test Ban Treaty](https://2009-2017.state.gov/t/isn/5204.htm) established a cap of 150 kilotons on underground nuclear tests performed by the U.S. and USSR.[^4] The purpose and effect of this treaty was to at least somewhat hinder further development of larger and more destructive “city buster” warheads. A relevant parallel to AI development is that, as of mid-2025, more general and capable — and therefore more hazardous — models take correspondingly larger training runs to create; our agreement specifies caps intended to prevent such AIs from being intentionally developed, but also to reap the essential (if non-parallel) benefit of reducing the risk of an unforeseen capabilities threshold being accidentally and irretrievably crossed.
+The 1974 [Threshold Test Ban Treaty](https://2009-2017.state.gov/t/isn/5204.htm) established a cap of 150 kilotons on underground nuclear tests performed by the U.S. and USSR.[^cite-scher-4] The purpose and effect of this treaty was to at least somewhat hinder further development of larger and more destructive “city buster” warheads. A relevant parallel to AI development is that, as of mid-2025, more general and capable — and therefore more hazardous — models take correspondingly larger training runs to create; our agreement specifies caps intended to prevent such AIs from being intentionally developed, but also to reap the essential (if non-parallel) benefit of reducing the risk of an unforeseen capabilities threshold being accidentally and irretrievably crossed.
 
-The training limit we have suggested as a starting point is low enough that some AI models trained today would exceed it; we see this as prudent in expectation of advances that make newer models more capable per unit of training (discussed with Article VIII). Arms reduction agreements provide precedent for thresholds set below the current maximum level. The 1922 [Washington (Naval) Treaty](https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=3&psid=3995) set warship displacement limits that required the U.S. and other naval powers to scrap dozens of capital ships.[^5] In Article II of the 1991 START treaty,[^6] the U.S. and the Soviet Union (and later, the Russian Federation) agreed to limits in the sizes of their nuclear stockpiles and delivery systems that required them to phase out [more than four thousand warheads each](https://bush41library.tamu.edu/archives/public-papers/3263).
+The training limit we have suggested as a starting point is low enough that some AI models trained today would exceed it; we see this as prudent in expectation of advances that make newer models more capable per unit of training (discussed with Article VIII). Arms reduction agreements provide precedent for thresholds set below the current maximum level. The 1922 [Washington (Naval) Treaty](https://www.digitalhistory.uh.edu/disp_textbook.cfm?smtID=3&psid=3995) set warship displacement limits that required the U.S. and other naval powers to scrap dozens of capital ships.[^cite-scher-5] In Article II of the 1991 START treaty,[^cite-scher-6] the U.S. and the Soviet Union (and later, the Russian Federation) agreed to limits in the sizes of their nuclear stockpiles and delivery systems that required them to phase out [more than four thousand warheads each](https://bush41library.tamu.edu/archives/public-papers/3263).
 
 Precedent for quantitative thresholds that limit breakout potential will be discussed with Article V.
 
@@ -686,46 +687,46 @@ CTB staff are permitted access to training data used in monitored training runs,
 ### ARTICLE V — Chip Consolidation
 
 1.  1.
-    
+
     Each Party ensures that within their jurisdiction, all covered chip clusters (CCCs), as defined in Article II (i.e., a set of chips with capacity greater than 16 H100-equivalents) \[note that 16 H100s collectively cost around $500,000 in 2025 and these are rarely owned by individuals\], are located in facilities declared to the CTB, and that these AI chips are subject to monitoring by the Parties, coordinated by the CTB.
-    
+
     1.  (a)
-        
+
         Parties aim to avoid co-locating AI chips with non-ancillary non-AI computer hardware in these declared facilities.
-        
+
     2.  (b)
-        
+
         These facilities are accessible to physical inspection. This may include, for instance, that verification teams can reach any CCC from at least one airport with scheduled international service within 12 hours.
-        
+
     3.  (c)
-        
+
         Parties do not house AI chips in so many different locations that it is infeasible to monitor all locations. If requested by the CTB, Parties must further consolidate their AI chips into fewer monitored facilities.
-        
-    
+
+
 2.  2.
-    
+
     Unmonitored AI chips that are not part of a CCC (i.e., that have capacity less than 16 H100‑equivalents) may remain outside of CTB‑declared facilities, provided that such stockpiles are not aggregated or networked to meet the CCC definition, are not rotated among sites to defeat monitoring, and are not used for prohibited training. Parties will make reasonable efforts to monitor the sale and aggregation of AI chips to ensure that any newly created CCCs are detected and monitored and are not used for prohibited training.
-    
+
 3.  3.
-    
+
     Within 120 days of the Agreement entering into force, each Party locates, inventories, and consolidates all CCCs into facilities declared to the CTB. Parties do not disaggregate, conceal, or otherwise reassign chips to evade this requirement or to cause a set of chips which would have been classified as a CCC to no longer be classified as a CCC.
-    
+
 4.  4.
-    
+
     Parties to the Agreement monitor the domestic consolidation process, coordinated by the CTB, including through on‑site inspections, document and inventory verification, accompaniment of domestic authorities during transfers and inspection, and information sharing with Parties under Article X. The CTB may require chain‑of‑custody records for transfers. Parties may conduct challenge inspections as described in Article X. Parties provide timely access to relevant facilities, transport hubs, and records to inspectors conducting monitoring activities. Whistleblower protections and incentives under Article X apply to the consolidation process, and the CTB maintains protected reporting channels.
-    
+
 5.  5.
-    
+
     Within 120 days of the Agreement entering into force, Parties submit to the CTB a register of their CCCs. The register must include the location, type, quantity, serial or other unique identifiers where available, and associated interconnects of all AI chips in the CCCs. Each Party provides the CTB with an updated and accurate register no later than every 90 days.
-    
+
 6.  6.
-    
+
     Parties provide the CTB with advance notice of any planned transfer of AI chips, whether domestic or international, no less than 14 days before the planned transfer. The CTB must approve any transfer before it proceeds. Inspectors are afforded the opportunity to observe the transfer. For international transfers, both the sending and receiving Parties coordinate with the CTB on routing, custody, and receipt. Emergency transfers undertaken for safety or security reasons notify the CTB and Executive Council as soon as practicable, and the CTB will verify the transfer occurred as reported.
-    
+
 7.  7.
-    
+
     Broken, defective, surplus, or otherwise decommissioned AI chips continue to be treated as functional chips, until the CTB coordinates certification of their destruction. Parties do not destroy AI chips without oversight. Destruction or rendering permanently inoperable is conducted under oversight using CTB‑approved methods and recorded in a destruction certificate submitted to the CTB \[the details will need to be explained in an Annex\]. Salvage or resale of components from such hardware is prohibited unless expressly authorized by the CTB.
-    
+
 
 ##### Precedent for Article V
 
@@ -738,19 +739,19 @@ Another reason to pursue consolidation is to limit breakout potential (breakout 
 Monitoring and inspections are common components of prior treaties in limited-trust contexts; we have consequently drafted provisions for this where appropriate, in paragraphs 1, 4, 6, and 7 of this article. Some specific precedent for this:
 
 -   •
-    
-    Verification of START I included [hundreds of on-site inspections](https://www.armscontrol.org/factsheets/start-i-glance) in the first few years.
-    
--   •
-    
-    The CWC requires the declaration and inspection of all Chemical Weapons Production Facilities — there have been 97 [declared](https://www.opcw.org/media-centre/opcw-numbers) — and the majority of these have been verifiably destroyed. (In requiring the declaration of existing facilities, these agreements also prohibit certain activities from occurring outside declared facilities, analogous to this article’s prohibition on unmonitored CCCs.)
-    
--   •
-    
-    Over [700 declared nuclear facilities](https://www.armscontrol.org/factsheets/iaea-safeguards-agreements-glance) around the world are monitored by the IAEA as part of the NPT.
-    
 
-Similar to paragraph 3 of this article, numerous arms control agreements require that parties not interfere with each other’s NTM in the context of verification. Examples include SALT I,[^7] ABM,[^8] INF,[^9] and START I.
+    Verification of START I included [hundreds of on-site inspections](https://www.armscontrol.org/factsheets/start-i-glance) in the first few years.
+
+-   •
+
+    The CWC requires the declaration and inspection of all Chemical Weapons Production Facilities — there have been 97 [declared](https://www.opcw.org/media-centre/opcw-numbers) — and the majority of these have been verifiably destroyed. (In requiring the declaration of existing facilities, these agreements also prohibit certain activities from occurring outside declared facilities, analogous to this article’s prohibition on unmonitored CCCs.)
+
+-   •
+
+    Over [700 declared nuclear facilities](https://www.armscontrol.org/factsheets/iaea-safeguards-agreements-glance) around the world are monitored by the IAEA as part of the NPT.
+
+
+Similar to paragraph 3 of this article, numerous arms control agreements require that parties not interfere with each other’s NTM in the context of verification. Examples include SALT I,[^cite-scher-7] ABM,[^cite-scher-8] INF,[^cite-scher-9] and START I.
 
 Precedent for parties restricting their domestic private sector industries to meet commitments (as would need to be the case with AI) can be seen in U.S. legislation following its ratification of the CWC: The [Chemical Weapons Convention Implementation Act of 1998](https://www.congress.gov/105/plaws/publ277/PLAW-105publ277.pdf#page=857) and Department of Commerce regulations ensured U.S. entities were in compliance. Similarly, the U.S. Congress [amended](https://www.epa.gov/ozone-layer-protection/ozone-protection-under-title-vi-clean-air-act) the Clean Air Act following ratification of the Montreal Protocol to ban ozone-depleting substances.
 
@@ -795,25 +796,25 @@ For a longer discussion of chip consolidation, see Appendix D.
 Our definition of CCC draws a line at 16 H100-equivalents. This threshold aims to meet a few criteria:
 
 -   •
-    
+
     Monitoring chip clusters larger than 16 H100s works well with the training FLOP thresholds in Article IV. Training with 16 H100s (FP8 precision, 50 percent utilization — realistic but optimistic parameters) would take 7.3 days to get to $10^{22}$ FLOP (the Monitored Threshold), and 2 years to get to $10^{24}$ FLOP (the Strict Threshold). Therefore, it would be feasible for people to use undeclared chips to reach the bottom threshold, but it would be somewhat impractical for them to get to the prohibited training threshold.
-    
+
 -   •
-    
+
     This threshold is plausibly sufficient for preventing the advancement of AI capabilities, when combined with bans on AI research in Article VIII. Article IV lays out training restrictions where large-scale training is prohibited and medium-scale training is allowed but subject to oversight. It is probably acceptable — that is, it probably poses minimal risk — to allow small-scale training, such as the amount that can be done on 16 H100s in a realistic time frame.
-    
+
 -   •
-    
+
     This threshold has limited impact on hobbyists and consumers. Very few individuals own more than 16 H100s. In mid-2025, a set of 16 H100 chips cost around $500,000. This isn’t a threshold one would accidentally cross by having a few old gaming consoles laying around.
-    
+
 -   •
-    
+
     Consolidating AI chips gets harder as the allowable quantity shrinks. Finding data centers with 100,000 chips is easy; finding those with 10,000 is likely also relatively easy; with 1,000 it’s unclear; and below 100, it may start to become quite difficult. The 16 H100 threshold is likely to be challenging, and is picked partially due to the increasing infeasibility of still lower thresholds.
-    
+
 -   •
-    
+
     Despite potential enforcement challenges, it is possible that this definition would need to be revised and the threshold brought lower (e.g., 8 H100-equivalents). In our agreement, the CTB would be tasked with assessing this definition and changing it as needed.
-    
+
 
 ###### Other Considerations
 
@@ -828,55 +829,55 @@ One downside of a staged approach is that it might provide more opportunities fo
 ### ARTICLE VI — AI Chip Production Monitoring
 
 1.  1.
-    
+
     The CTB will coordinate monitoring of AI chip production facilities and key inputs to chip production. This monitoring will ensure that all newly produced AI chips are immediately tracked and monitored until they are installed in declared CCCs and that unmonitored supply chains are not established.
-    
+
     1.  (a)
-        
+
         The CTB will coordinate monitoring of AI chip production facilities determined to be producing or potentially producing AI chips and relevant hardware \[the precise definitions of AI chip production facilities, AI chips, and relevant hardware would need to be further described in an Annex; the monitoring methods would also need to be described in an Annex\].
-        
+
     2.  (b)
-        
+
         Monitoring of newly produced AI chips will include monitoring of production, sale, transfer, and installation. Monitoring of chip production will start with fabrication. The full set of activities includes fabrication of high-bandwidth memory (HBM), fabrication of logic chips, testing, packaging, and assembly \[this set of activities would need to be specified in an Annex\].
-        
-    
+
+
 2.  2.
-    
+
     For facilities where tracking and monitoring is not feasible or implemented, production of AI chips will be halted. Production of AI chips may continue when the CTB declares that acceptable tracking and monitoring measures have been implemented.
-    
+
 3.  3.
-    
+
     If a monitored chip production facility is decommissioned or repurposed, the CTB will coordinate oversight of that process, and, if done satisfactorily, this ends the monitoring requirement.
-    
+
 4.  4.
-    
+
     No Party sells or transfers AI chips or AI chip manufacturing equipment except as authorized and tracked by the CTB.
-    
+
     1.  (a)
-        
+
         Sale or transfer of AI chips within or between Parties to the Agreement has a presumption of approval and is tracked by the CTB.
-        
+
     2.  (b)
-        
+
         Sale or transfer of AI chip manufacturing equipment within or between Parties to the Agreement does not have a presumption of approval. Approval for such transfer requires consensus of the Executive Council, based on an assessment of the risk of diversion or withdrawal from the Agreement of the receiving Party.
-        
+
     3.  (c)
-        
+
         Sale or transfer of AI chips and AI chip manufacturing equipment to non-Party States or entities outside a Party State has a presumption of denial.
-        
-    
+
+
 5.  5.
-    
+
     No Party sells or transfers non-AI advanced computer chips or non-AI advanced computer chip manufacturing equipment to non‑Party States or entities outside a Party State except as authorized and tracked by the CTB.
-    
+
 6.  6.
-    
+
     Sale or transfer of non-AI advanced computer chips or non-AI advanced computer chip manufacturing equipment within or between Parties to the Agreement is not restricted under this Article.
-    
+
 7.  7.
-    
+
     To prevent accumulation of excess chip production capacity that could enable rapid breakout from the Agreement, the Executive Council may impose limits on total annual production of AI chips. Such limits aim to allow replacement of aging chips and modest expansion for approved applications while preventing stockpiling that would reduce the time required for a Party to develop ASI after withdrawal.
-    
+
 
 ##### Precedent for Article VI
 
@@ -887,25 +888,25 @@ Monitoring AI chip production is more complicated, due to the difficulty of disc
 Transfer embargoes on end-products, precursors, and production equipment (like the one suggested here on sale or transfer of AI chips and advanced computer chip manufacturing equipment to non-Party states or entities) all have substantial precedent:
 
 -   •
-    
+
     In Article I of the [NPT](https://www.un.org/en/conf/npt/2005/npttreaty.html), each nuclear-weapon state commits “not to transfer to any recipient whatsoever nuclear weapons or other nuclear explosive devices” In its Article III, paragraph 2, they also agree not to provide a “source or special fissionable material” or equipment “especially designed or prepared for the processing, use or production of special fissionable material.”
-    
+
 -   •
-    
+
     Article I of the [CWC](https://2009-2017.state.gov/t/avc/trty/127917.htm) likewise commits parties to never “transfer, directly or indirectly, chemical weapons to anyone”; its Article VII requires them to subject listed precursors to specified “prohibitions on production, acquisition, retention, transfer, and use”
-    
+
 -   •
-    
+
     The Cold-War-era [Coordinating Committee for Multilateral Export Controls](https://www.govinfo.gov/content/pkg/GPO-CRPT-105hrpt851/html/ch9bod.html#anchor5563742) (CoCom) established a coordinated set of export controls from Western Bloc countries to the Communist Bloc, covering nuclear-related materials, munitions, and dual-use industrial items such as semiconductors.
-    
+
 -   •
-    
+
     The [Nuclear Suppliers Group](https://www.nuclearsuppliersgroup.org/index.php/en/) is a multilateral export control regime that restricts the supply of nuclear and nuclear-related technology that could be diverted to nuclear weapons programs.
-    
+
 -   •
-    
+
     Especially relevant is the series of U.S. [export controls](https://www.bis.gov/press-release/commerce-strengthens-export-controls-restrict-chinas-capability-produce-advanced-semiconductors-military) that have focused on AI chips and advanced chip manufacturing equipment, covering dozens of countries in the last couple years.
-    
+
 
 ##### Notes on Article VI
 
@@ -928,72 +929,72 @@ If monitoring chip production and preventing smuggling were infeasible, another 
 ### ARTICLE VII — Chip Use Verification
 
 1.  1.
-    
+
     Parties accept continuous on‑site verification of total chip usage at declared CCCs. The methods used for verification will be determined and updated by the CTB, in accordance with the process described in Article III. These methods may include, but are not limited to:
-    
+
     1.  (a)
-        
+
         In-person inspectors
-        
+
     2.  (b)
-        
+
         Tamper-proof cameras
-        
+
     3.  (c)
-        
+
         Measurements of power, thermal, and networking characteristics (i.e., off-chip monitoring mechanisms)
-        
+
     4.  (d)
-        
+
         On-chip hardware-enabled mechanisms, including retrofitted mechanisms and remote deactivation capabilities that allow the Executive Council to disable chips if compliance cannot be verified
-        
+
     5.  (e)
-        
+
         Declaration of the workloads and operations of chips by the CCC operator
-        
+
     6.  (f)
-        
+
         Rerunning of declared workloads, coordinated by the CTB, to confirm fidelity of declarations
-        
-    
+
+
 2.  2.
-    
+
     The aim of this verification is to ensure chips are not being used for prohibited activities, such as large-scale AI training described in Article IV.
-    
+
 3.  3.
-    
+
     In cases where the CTB assesses that current verification methods cannot provide sufficient assurance that the AI hardware is not being used for prohibited activities, AI hardware must be powered off, and its non-operation continually verified by in-person inspectors or other CTB-approved verification mechanisms.
-    
+
 4.  4.
-    
+
     The CTB may impose various restrictions on how chips can operate in order to ensure proper verification. These restrictions may include but are not limited to:
-    
+
     1.  (a)
-        
+
         Restrictions on the bandwidth and latency between different chips, or between chips and their data center network, in order to distinguish permitted inference from prohibited training.
-        
+
     2.  (b)
-        
+
         Restrictions on the number or rate of FLOP/s or memory bandwidth at which chips can operate, in order to distinguish permitted inference from prohibited training or other prohibited workloads.
-        
+
     3.  (c)
-        
+
         Restrictions on the numerical precision of chip operations, in order to differentiate AI from non-AI workloads.
-        
-    
+
+
 5.  5.
-    
+
     The CTB will coordinate differentiated verification approaches for different CCCs based on their likelihood of being used for AI activities and their sensitivity as relevant to national security.
-    
+
     1.  (a)
-        
+
         More sensitive facilities might have more technical/automated verification methods, less extensive physical access for foreign inspectors, and enhanced security protocols for inspector access.
-        
-    
+
+
 6.  6.
-    
+
     The CTB will lead research and engineering to develop better technologies for chip use monitoring and verification. Parties will support these efforts \[more details would be provided in an Annex\].
-    
+
 
 ##### Precedent for Article VII
 
@@ -1005,7 +1006,7 @@ Such practices are already routine for the International Atomic Energy Agency, w
 
 One of the methods used under START I to verify compliance with missile performance characteristics was the sharing of almost all telemetry data transmitted from in-flight sensors during tests, as specified in the telemetry protocol, which also required parties to provide any playback equipment and data formatting information necessary to interpret it. Depending on the mix of verification methods adopted, some Parties may use analogous methods, building on the light-touch monitoring that is [common practice](https://www.governance.ai/research-paper/governing-through-the-cloud) for cloud computing providers to collect about customer workloads.
 
-Continuous government monitoring of private commercial facilities (as most data centers are) also has plenty of precedent. The U.S. Nuclear Regulatory Commission, tasked with overseeing domestic nuclear reactor safety, places [two resident inspectors](https://www.nrc.gov/reactors/operating/oversight/rop-description/resident-insp-program.html) in each U.S. commercial power plant, and U.S. meat producers [cannot conduct slaughter operations](https://www.fsis.usda.gov/sites/default/files/media_file/2021-02/Fed-Food-Inspect-Requirements.pdf) if inspection personnel from the FSIS[^10] are not on site to oversee them.
+Continuous government monitoring of private commercial facilities (as most data centers are) also has plenty of precedent. The U.S. Nuclear Regulatory Commission, tasked with overseeing domestic nuclear reactor safety, places [two resident inspectors](https://www.nrc.gov/reactors/operating/oversight/rop-description/resident-insp-program.html) in each U.S. commercial power plant, and U.S. meat producers [cannot conduct slaughter operations](https://www.fsis.usda.gov/sites/default/files/media_file/2021-02/Fed-Food-Inspect-Requirements.pdf) if inspection personnel from the FSIS[^note-scher-10] are not on site to oversee them.
 
 ##### Notes on Article VII
 
@@ -1025,7 +1026,7 @@ It is unclear how difficult it would be to monitor AI inference activities. Infe
 
 ###### Other Considerations
 
-In theory, verification could be facilitated by technological means that allow for remote monitoring. However, current technology likely contains security vulnerabilities that would allow chip owners to bypass monitoring measures. Thus, verification would likely require either continuous on-site monitoring or that chips be shut off until the technological means mature. Once monitoring technology is mature, strong hardware-enabled governance mechanisms could allow chips to be monitored remotely with confidence.[^11]
+In theory, verification could be facilitated by technological means that allow for remote monitoring. However, current technology likely contains security vulnerabilities that would allow chip owners to bypass monitoring measures. Thus, verification would likely require either continuous on-site monitoring or that chips be shut off until the technological means mature. Once monitoring technology is mature, strong hardware-enabled governance mechanisms could allow chips to be monitored remotely with confidence.[^note-scher-11]
 
 Paragraph 5 of this article allows for different verification methods for different CCCs. One reason for this discrimination is practical: Different CCCs would require different verification approaches in order to establish justified confidence that they are not being used for dangerous AI development. For example, large data centers that were previously being used for frontier AI training would have the greatest ability to contribute to prohibited training and so might require greater monitoring.
 
@@ -1036,97 +1037,97 @@ Our draft agreement allows chip use and production to continue so that the world
 ### ARTICLE VIII — Restricted Research: AI Algorithms and Hardware
 
 1.  1.
-    
+
     For the purpose of preventing the development of artificial superintelligence, this Agreement restricts only research that would materially advance toward ASI or undermine verification of compliance with this Agreement. This includes research in the field of machine learning and research in other artificial intelligence paradigms. Research focused on specific applications (such as medical diagnosis, scientific discovery, or industrial automation) that does not advance general cognitive capabilities toward ASI levels is not restricted. Restricted research includes:
-    
+
     1.  (a)
-        
+
         Improvements to methods for training general-purpose AI systems that would significantly increase model capabilities toward superintelligent performance or dramatically reduce the computational resources required to develop such systems
-        
+
     2.  (b)
-        
+
         Distributed or decentralized training methods that would enable ASI development outside of monitored facilities, or training methods specifically optimized to evade the computational thresholds in Article IV
-        
+
     3.  (c)
-        
+
         Advancements in the fabrication of AI-relevant chips or chip components
-        
+
     4.  (d)
-        
+
         Design of more performant or more efficient AI chips
-        
-    
+
+
 2.  2.
-    
+
     Application-specific AI research and development that does not advance general cognitive capabilities is permitted and encouraged. This includes research in domains such as medical diagnostics, drug discovery, materials science, climate modeling, robotics for specific tasks, and other specialized applications.
-    
+
 3.  3.
-    
+
     The CTB’s Research Controls division classifies all restricted research activities as either controlled or prohibited.
-    
+
     1.  (a)
-        
+
         Each Party monitors any controlled research activities within its jurisdiction, and takes measures to ensure that all controlled research is monitored and made available to the Research Controls division for review and monitoring purposes.
-        
+
     2.  (b)
-        
+
         Each Party does not conduct any prohibited research, and prohibits and prevents prohibited research by any entity within its jurisdiction.
-        
-    
+
+
 4.  4.
-    
+
     Parties to the Agreement must not assist, encourage, or share prohibited research, including by funding, procuring, hosting, supervising, teaching, publishing, providing controlled tools or chips, or facilitating collaboration.
-    
+
 5.  5.
-    
+
     Each Party provides a representative to the CTB’s Research Controls division (established in Article III). This division has these responsibilities:
-    
+
     1.  (a)
-        
+
         Interpret and clarify the categories of restricted research, and respond to questions as to the boundaries of restricted research, in response to new information, and in response to requests from researchers or organizations, or Party members.
-        
+
     2.  (b)
-        
+
         Interpret and clarify the boundary between controlled research and prohibited research, and respond to questions as to this boundary, in response to new information, and in response to requests from researchers or organizations or Party members.
-        
+
     3.  (c)
-        
+
         Modify the definition of restricted research and its categories, in response to changing conditions, or in response to requests from researchers or organizations or Party members.
-        
+
     4.  (d)
-        
+
         Modify the boundary between controlled research and prohibited research in response to changing conditions, or in response to requests from researchers or organizations or Party members.
-        
+
     5.  (e)
-        
+
         The CTB may modify the categories, boundaries, and definitions of restricted research in accordance with the process described in Article III.
-        
-    
+
+
 
 ##### Precedent for Article VIII
 
-Pre-emptive restrictions on the dissemination of information related to dangerous technology find precedent in the [Atomic Energy Act of 1946](https://www.atomicarchive.com/resources/documents/postwar/atomic-energy-act.html), still in force, which established information on certain topics as Restricted Data by default (the “born secret” doctrine); exclusions were at the discretion of the new Atomic Energy Commission created by this legislation:[^12]
+Pre-emptive restrictions on the dissemination of information related to dangerous technology find precedent in the [Atomic Energy Act of 1946](https://www.atomicarchive.com/resources/documents/postwar/atomic-energy-act.html), still in force, which established information on certain topics as Restricted Data by default (the “born secret” doctrine); exclusions were at the discretion of the new Atomic Energy Commission created by this legislation:[^cite-scher-12]
 
 > The term “restricted data” as used in this section means all data concerning the manufacture or utilization of atomic weapons, the production of fissionable material, or the use of fissionable material in the production of power, but shall not include any data which the Commission from time to time determines may be published without adversely affecting the common defense and security.
 
-Unlike other types of government classification, Restricted Data can be created (deliberately or accidentally) by the private sector, a matter of unresolved constitutionality[^13] that highlights the need for a regulatory arm authorized and capable of making everyday decisions about the exact boundaries of Restricted Data. The [National Nuclear Security Administration](https://www.usa.gov/agencies/national-nuclear-security-administration) (NNSA) does this for nuclear secrets in the U.S. Under our Article VIII, paragraph 5, the Research Controls division would take on this role for restricted AI research. It would also fill other NNSA-analogous functions, outlined in our Article IX, by (1) maintaining relationships with researchers and organizations working on projects that approach the classification threshold, and (2) establishing secure infrastructure for reporting and containment of inadvertent discoveries.
+Unlike other types of government classification, Restricted Data can be created (deliberately or accidentally) by the private sector, a matter of unresolved constitutionality[^cite-scher-13] that highlights the need for a regulatory arm authorized and capable of making everyday decisions about the exact boundaries of Restricted Data. The [National Nuclear Security Administration](https://www.usa.gov/agencies/national-nuclear-security-administration) (NNSA) does this for nuclear secrets in the U.S. Under our Article VIII, paragraph 5, the Research Controls division would take on this role for restricted AI research. It would also fill other NNSA-analogous functions, outlined in our Article IX, by (1) maintaining relationships with researchers and organizations working on projects that approach the classification threshold, and (2) establishing secure infrastructure for reporting and containment of inadvertent discoveries.
 
 There is also precedent for containing and controlling research in dangerous fields. In the final months of World War II, the U.K. and U.S. collaborated on the [Alsos Mission](https://ahf.nuclearmuseum.org/ahf/history/alsos-mission/) to capture German nuclear scientists, gather information about German progress toward an atomic bomb, and prevent the USSR from obtaining these resources for its own nuclear program. [Project Overcast](https://airandspace.si.edu/stories/editorial/project-paperclip-and-american-rocketry-after-world-war-ii) (also called Operation Paperclip) was a secret U.S. program to take German rocket engineers into U.S. employment after the war.
 
 Containment of restricted AI research within Party states might run through existing regulatory frameworks. In the U.S., these include:
 
 -   •
-    
-    The “[deemed exports](https://www.bis.gov/learn-support/deemed-exports/what-deemed-export)” concept in export control law, which obliges a U.S. entity to obtain an export license from the Bureau of Industry and Security[^14] before sharing controlled technologies with foreign persons by deeming such sharing as an export.
-    
+
+    The “[deemed exports](https://www.bis.gov/learn-support/deemed-exports/what-deemed-export)” concept in export control law, which obliges a U.S. entity to obtain an export license from the Bureau of Industry and Security[^note-scher-14] before sharing controlled technologies with foreign persons by deeming such sharing as an export.
+
 -   •
-    
+
     The [International Traffic in Arms Regulations](https://www.pmddtc.state.gov/ddtc_public?id=ddtc_kb_article_page&sys_id=24d528fddbfc930044f9ff621f961987) (ITAR), a set of U.S. State Department regulations that control the export of military and some dual-use technologies. ITAR was used to prevent the broader development and use of cryptographic techniques by the private sector until 1996, as these were classified as a “defense article” on the [United States Munitions List](https://www.ecfr.gov/current/title-22/chapter-I/subchapter-M/part-121).
-    
+
 -   •
-    
-    The [Invention Secrecy Act of 1951](https://www.congress.gov/bill/82nd-congress/house-bill/4687/text), which gives U.S. government agencies the power to impose “secrecy orders” on new patent applications with national security implications. Inventors can not only be denied patents, but legally prohibited from disclosing, publishing, or even using their inventions.[^15]
-    
+
+    The [Invention Secrecy Act of 1951](https://www.congress.gov/bill/82nd-congress/house-bill/4687/text), which gives U.S. government agencies the power to impose “secrecy orders” on new patent applications with national security implications. Inventors can not only be denied patents, but legally prohibited from disclosing, publishing, or even using their inventions.[^cite-scher-15]
+
 
 Project Overcast also provides precedent for controlling researchers by simply paying them well to act in the interest of the state. Additional precedent for such incentives is discussed with Article IX.
 
@@ -1155,70 +1156,70 @@ The diversity of restricted actions in paragraph 4 addresses a need to ensure th
 ### ARTICLE IX — Research Restriction Verification
 
 1.  1.
-    
+
     Each Party creates or empowers a domestic agency with the following responsibilities:
-    
+
     1.  (a)
-        
+
         Maintain awareness of and relationships with domestic researchers and organizations working on areas adjacent to restricted research, in order to communicate the categories of restricted research established in Article VIII.
-        
+
     2.  (b)
-        
+
         Impose penalties to deter domestic researchers and organizations from conducting restricted research. These penalties are proportionate to the severity of the violation and are designed to act as a sufficient deterrent. Each Party enacts or amends legal statutes as necessary to enable the imposition of these penalties.
-        
+
     3.  (c)
-        
+
         Establish secure infrastructure for reporting and containment of inadvertent discoveries meeting the conditions for restricted research. These reports will be shared with the Research Controls division.
-        
-    
+
+
 2.  2.
-    
+
     To aid in the international verification of research bans, the Research Controls division will develop and implement verification mechanisms.
-    
+
     1.  (a)
-        
+
         These mechanisms could include but are not limited to:
-        
+
         1.  i.
-            
+
             Interviews of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas, conducted by the U.S. and China and coordinated by the Research Controls division. These interviews may be overseen by the researcher’s home state to ensure no misconduct.
-            
+
         2.  ii.
-            
+
             Monitoring of the employment status of researchers who have previously worked in restricted research topics, or are presently working in adjacent areas.
-            
+
         3.  iii.
-            
+
             Maintaining embedded auditors provided by the U.S. and China in selected high-risk organizations (e.g., projects difficult to distinguish from restricted research, organizations that were previously AI research organizations).
-            
-        
+
+
     2.  (b)
-        
+
         Parties, in particular, the U.S. and China, assist in the implementation of these verification mechanisms.
-        
+
     3.  (c)
-        
+
         The information gained through these verification mechanisms will be compiled into reports for the Executive Council, keeping as much sensitive information confidential as possible to protect the privacy and secrets of individuals and Parties.
-        
-    
+
+
 
 ##### Precedent for Article IX
 
 Existing agencies empowered to “maintain awareness of and relationships with domestic researchers and organizations” at risk of developing restricted information, as called for by paragraph 1, subparagraph (a), include the DOE and NNSA, discussed in the precedent section for Article VIII.
 
-Precedent for “monitoring of the employment status of researchers” in high-risk fields, as we suggest in paragraph 2, subparagraph (a)(ii), can be found in the International Science and Technology Center (ISTC).[^16] Established in 1994, the ISTC was specifically created to reduce nuclear proliferation risks by [keeping Soviet nuclear researchers gainfully employed in peaceful](https://astanatimes.com/2014/12/istc-headquartered-nazarbayev-university-2015/) activities and connected to the international scientific community. The ISTC also shows the potential of incentives as a complement to penalties for keeping technical experts (who may find themselves unemployed as a result of this agreement) from engaging in restricted research.
+Precedent for “monitoring of the employment status of researchers” in high-risk fields, as we suggest in paragraph 2, subparagraph (a)(ii), can be found in the International Science and Technology Center (ISTC).[^note-scher-16] Established in 1994, the ISTC was specifically created to reduce nuclear proliferation risks by [keeping Soviet nuclear researchers gainfully employed in peaceful](https://astanatimes.com/2014/12/istc-headquartered-nazarbayev-university-2015/) activities and connected to the international scientific community. The ISTC also shows the potential of incentives as a complement to penalties for keeping technical experts (who may find themselves unemployed as a result of this agreement) from engaging in restricted research.
 
-Penalties may need to be severe to provide the deterrence indicated in our Article IX, paragraph 1, subparagraph (b). While it may not be directly applicable here, there is precedent for severely punishing the sharing of sensitive data in some contexts. The [Enforcement chapter (18)](https://www.govinfo.gov/content/pkg/COMPS-1630/pdf/COMPS-1630.pdf#page=154) of the 1946 Atomic Energy Act includes fines and imprisonment for unauthorized disclosures. More severe punishments are sometimes levied for other information-disclosure crimes, namely treason.[^17]
+Penalties may need to be severe to provide the deterrence indicated in our Article IX, paragraph 1, subparagraph (b). While it may not be directly applicable here, there is precedent for severely punishing the sharing of sensitive data in some contexts. The [Enforcement chapter (18)](https://www.govinfo.gov/content/pkg/COMPS-1630/pdf/COMPS-1630.pdf#page=154) of the 1946 Atomic Energy Act includes fines and imprisonment for unauthorized disclosures. More severe punishments are sometimes levied for other information-disclosure crimes, namely treason.[^note-scher-17]
 
-When developing secure “infrastructure for reporting and containing inadvertent discoveries of restricted research,” precedent and potentially usable templates may be found in the extensive DOE procedures for handling different categories of sensitive data. The DOE’s Occurrence Reporting and Processing System, as well as the Committee on National Security Systems’s[^18] instructions for classified information spillage, may also be of use.
+When developing secure “infrastructure for reporting and containing inadvertent discoveries of restricted research,” precedent and potentially usable templates may be found in the extensive DOE procedures for handling different categories of sensitive data. The DOE’s Occurrence Reporting and Processing System, as well as the Committee on National Security Systems’s[^note-scher-18] instructions for classified information spillage, may also be of use.
 
-The Research Controls division might look to existing practices by the IAEA when developing inspection protocols. Under the framework of the Model Additional Protocol approved in 1997 by the IAEA Board of Governors, states that have made comprehensive safeguard agreements[^19] allow complementary access inspections that look for undeclared nuclear material. As part of such visits, inspectors may interview operators, analogous to our proposal in paragraph 2, subparagraph (a)(i).
+The Research Controls division might look to existing practices by the IAEA when developing inspection protocols. Under the framework of the Model Additional Protocol approved in 1997 by the IAEA Board of Governors, states that have made comprehensive safeguard agreements[^note-scher-19] allow complementary access inspections that look for undeclared nuclear material. As part of such visits, inspectors may interview operators, analogous to our proposal in paragraph 2, subparagraph (a)(i).
 
 To “protect the privacy and secrets of individuals and parties” when performing verifications, as required by this article’s paragraph 2, subparagraph (c), the Research Controls division might adapt compartmentalization practices of parties’ existing intelligence agencies and multilateral intelligence-sharing agreements. For example, under the “third party rule” or “originator control principle” understood to be commonplace in such arrangements, it is prohibited to disclose shared information to third parties (potentially even oversight bodies) without permission from the originating agency.
 
 ##### Notes on Article IX
 
-To help verify that there is no prohibited AI research happening, Article IX tasks parties with demarcating “areas adjacent to restricted research” and then establishing relationships with the researchers working in these adjacent areas. There are sufficiently few top AI researchers in the world that it may be feasible to track the activities of a significant fraction of them. The technical staff of top AI companies numbers on the order of 5,000 researchers[^20], and it is commonly believed that a much smaller group is critical to frontier AI development, likely numbering in the hundreds.[^21] The number of attendees of top AI conferences is [estimated](https://ourworldindata.org/grapher/attendance-major-artificial-intelligence-conferences) to be about 70,000. As higher-end estimates, the number of employees at relevant hardware companies likely numbers around a million[^22] and the number of people with at least basic technical AI knowledge is likely in the single-digit or tens of millions[^23]. States could interview researchers about their activities and offer asylum and financial incentives for any whistleblowers (see Article X).
+To help verify that there is no prohibited AI research happening, Article IX tasks parties with demarcating “areas adjacent to restricted research” and then establishing relationships with the researchers working in these adjacent areas. There are sufficiently few top AI researchers in the world that it may be feasible to track the activities of a significant fraction of them. The technical staff of top AI companies numbers on the order of 5,000 researchers[^cite-scher-20], and it is commonly believed that a much smaller group is critical to frontier AI development, likely numbering in the hundreds.[^cite-scher-21] The number of attendees of top AI conferences is [estimated](https://ourworldindata.org/grapher/attendance-major-artificial-intelligence-conferences) to be about 70,000. As higher-end estimates, the number of employees at relevant hardware companies likely numbers around a million[^cite-scher-22] and the number of people with at least basic technical AI knowledge is likely in the single-digit or tens of millions[^cite-scher-23]. States could interview researchers about their activities and offer asylum and financial incentives for any whistleblowers (see Article X).
 
 While much about current AI development practices happens in the public view, we think legal restrictions would dramatically hamper the efforts of rogue actors to create superintelligent machines.
 
@@ -1229,94 +1230,94 @@ Parties may be concerned that other parties will violate domestic research bans 
 ### ARTICLE X — Information Consolidation and Challenge Inspections
 
 1.  1.
-    
+
     A key source of information for the coalition is the independent information gathering efforts of Parties. As such, the Information Consolidation division (Article III) will be ready to receive this information. This division coordinates verification and monitoring activities conducted by Parties. Parties conduct monitoring, inspections, and verification using their own capabilities, including intelligence community resources. The CTB establishes standards and protocols for these activities and serves as the central point for receiving declarations and sharing information.
-    
+
     1.  (a)
-        
+
         The Information Consolidation division takes precautions to protect commercial, industrial, security, and state secrets and other confidential information coming to its knowledge in the implementation of the Agreement, including the maintenance of secure, confidential, and, optionally anonymous reporting channels.
-        
+
     2.  (b)
-        
+
         For the purpose of providing assurance of compliance with the provisions of this Agreement, each Party uses National Technical Means (NTM) of verification at its disposal in a manner consistent with generally recognized principles of international law.
-        
+
         1.  i.
-            
+
             Each Party undertakes not to interfere with the National Technical Means of verification of other Parties operating in accordance with the above.
-            
+
         2.  ii.
-            
+
             Each Party undertakes not to use deliberate concealment measures which impede verification by national technical means of compliance with the provisions of this Agreement.
-            
+
         3.  iii.
-            
+
             Parties are encouraged, but not obligated, to cooperate in the effort to detect dangerous AI activities in non-Party countries. Parties are encouraged, but not obligated, to support the NTM of Parties directed at non-Parties, as relevant to this Agreement.
-            
-        
-    
+
+
+
 2.  2.
-    
+
     A key source of information for the coalition is individuals who provide evidence of dangerous AI activities to the coalition. These individuals are subject to whistleblower protections.
-    
+
     1.  (a)
-        
+
         This Article establishes protections, incentives, and assistance for individuals ("Covered Whistleblowers") who, in good faith, provide the coalition or a Party with credible information concerning actual, attempted, or planned violations of this Agreement or other activities that pose a serious risk of human extinction, including concealed chips, undeclared data centers, prohibited training or research, evasion of verification, or falsification of declarations. Covered Whistleblowers include employees, contractors, public officials, suppliers, researchers, and other persons with material information, as well as Associated Persons (family members and close associates) who assist or are at risk due to the disclosure.
-        
+
     2.  (b)
-        
+
         Parties prohibit and prevent retaliation against Covered Whistleblowers and Associated Persons, including but not limited to dismissal, demotion, blacklisting, loss of benefits, harassment, intimidation, threats, civil or criminal actions, visa cancellation, physical violence, imprisonment, restriction of movement, or other adverse measures. Any contractual terms (including non‑disclosure or non‑disparagement agreements) purporting to limit protected disclosures under this Agreement are void and unenforceable. Mistreatment of whistleblowers constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
-        
+
     3.  (c)
-        
+
         The CTB maintains secure, confidential, and, optionally anonymous reporting channels. Parties establish domestic channels interoperable with the CTB system. The CTB and Parties protect the identity of Covered Whistleblowers and Associated Persons and disclose it only when strictly necessary and with protective measures in place. Unauthorized disclosure of protected identities constitutes a violation of this Agreement and is handled under Article XI, paragraph 3.
-        
+
     4.  (d)
-        
+
         Parties offer asylum or humanitarian protection to Covered Whistleblowers and their families, provide safe‑conduct travel documents, and coordinate secure transit.
-        
-    
+
+
 3.  3.
-    
+
     Challenge inspections of suspected sites may be conducted upon credible information about dangerous AI activities.
-    
+
     1.  (a)
-        
+
         Parties may request a challenge inspection. The Executive Council, either by request or because of the analysis provided by the Information Consolidation division, will consider the information at hand in order to request additional information, of Parties or non-Parties, or to propose a challenge inspection, or to decide that no further action is warranted.
-        
+
     2.  (b)
-        
+
         A challenge inspection requires approval by consensus of the Executive Council.
-        
+
     3.  (c)
-        
+
         Access to a suspected site must be granted by the nation in which the site is present within 24 hours of the Executive Council calling for a challenge inspection. During this time, the site may be surveilled, and any people or vehicles leaving the site may be inspected by officials from a Party.
-        
+
     4.  (d)
-        
+
         The challenge inspection will be conducted by a team of inspectors who are approved by both the Party being inspected and the Party that requested the inspection. The CTB is responsible for working with Parties to maintain lists of approved inspectors for this purpose.
-        
+
     5.  (e)
-        
+
         Challenge inspections may be conducted in a given Party’s territory at most 20 times per year, and this limit can be changed by consensus of the Executive Council.
-        
+
     6.  (f)
-        
+
         Inspectors will take absolute care to protect the sensitive information of the inspected Party, passing along to the Executive Council only what information is pertinent to the Agreement.
-        
-    
+
+
 4.  4.
-    
+
     U.S. and PRC Independent Verification Efforts
-    
+
     1.  (a)
-        
+
         The U.S. and PRC each operate an independent verification effort to assess compliance with this Agreement. These verification efforts build upon the pre-existing capabilities of each member’s intelligence community and supplement the work of the Coalition Technical Body.
-        
+
     2.  (b)
-        
+
         The Coalition Technical Body provides all information it receives or generates to the U.S. and the PRC to support their independent verification efforts. This includes but is not limited to: declarations, reports, monitoring data, inspection results, registers, and any other information relevant to compliance with this Agreement. The CTB does not filter or withhold information from the U.S. and PRC.
-        
-    
+
+
 
 ##### Precedent for Article X
 
@@ -1361,21 +1362,21 @@ Whistleblowers may be effective because individuals involved in secret violation
 Whistleblowers could sound the alarm for violations including:
 
 -   •
-    
+
     Article IV: Training runs that are unmonitored, exceed thresholds, or use prohibited distributed training methods.
-    
+
 -   •
-    
+
     Article V: The existence of undeclared chip clusters, the failure to consolidate all covered hardware, or the diversion of chips to secret, unmonitored facilities.
-    
+
 -   •
-    
+
     Article VI: New manufactured AI chips diverted away from monitoring, or created without mandated security features.
-    
+
 -   •
-    
+
     Article VIII: Prohibited AI research.
-    
+
 
 Modifications to the whistleblower clauses could change their efficacy and political viability in various ways. For example, states could offer to financially compensate legitimate whistleblowers to provide additional incentives, but this may be seen as paying citizens to defect on their own countries.
 
@@ -1390,48 +1391,48 @@ The existence of independent verification efforts provides redundancy and enhanc
 ### ARTICLE XI — Dispute Resolution
 
 1.  1.
-    
+
     Any Party ("Concerned Party") may raise concerns regarding the implementation of this Agreement, including concerns about ambiguous situations or possible non-compliance by another Party ("Requested Party"). This includes misuse of Protective Actions (Article XII).
-    
+
     1.  (a)
-        
+
         The Concerned Party notifies the Requested Party of their concern, while also sharing their concern with the Director-General and Executive Council. The Requested Party will acknowledge this notification within 36 hours, and provide clarification within 5 days.
-        
-    
+
+
 2.  2.
-    
+
     If the issue is not resolved, the Concerned Party may request that the Executive Council assist in adjudicating and clarifying the concern. This may include the Concerned Party requesting a challenge inspection in accordance with Article X.
-    
+
     1.  (a)
-        
+
         The Executive Council provides appropriate information in its possession relevant to such a concern.
-        
+
     2.  (b)
-        
+
         The Executive Council may task the CTB to compile additional documentation, convene closed technical sessions, and recommend resolution measures.
-        
-    
+
+
 3.  3.
-    
+
     If the Executive Council determines there was a violation of the Agreement, it can take actions to prevent dangerous AI activities or reprimand the Requested Party. These actions may include:
-    
+
     1.  (a)
-        
+
         Require additional monitoring or restrictions on AI activities
-        
+
     2.  (b)
-        
+
         Require relinquishment of AI hardware
-        
+
     3.  (c)
-        
+
         Call for sanctions
-        
+
     4.  (d)
-        
+
         Recommend Parties take Protective Actions under Article XII
-        
-    
+
+
 
 ##### Precedent for Article XI
 
@@ -1450,88 +1451,88 @@ Given the pace of AI innovation, determining violations on a reasonable timeline
 ### ARTICLE XII — Protective Actions
 
 1.  1.
-    
+
     Recognizing that the development of ASI or other Dangerous AI Activities, as laid out in Articles IV through IX, would pose a threat to global security and to the life of all people, it may be necessary for Parties to this Agreement to take drastic actions to prevent such development. The Parties recognize that development of artificial superintelligence (ASI), anywhere on earth, would be a threat to all Parties. Under Article 51 of the United Nations Charter and as longstanding precedent, states have a right to self-defense. Due to the scale and speed of ASI-related threats, self-defense may require pre-emptive actions to prevent the development of ASI.
-    
+
 2.  2.
-    
+
     To prevent the development or deployment of ASI, this Article authorizes tailored Protective Actions. Where there is credible evidence that a State or other actor (whether a Party or a non‑Party) is conducting or imminently intends to conduct activities aimed at developing or deploying ASI in violation of Article I, Article IV, Article V, Article VI, Article VII, or Article VIII, a State Party may undertake Protective Actions that are necessary and proportionate to prevent such activities. In recognition of the harms and escalatory nature of Protective Actions, Protective Actions should be used as a last resort. Outside of emergencies and time-sensitive situations, Protective Actions are preceded by other approaches such as, but not limited to:
-    
+
     1.  (a)
-        
+
         Trade restrictions or economic sanctions
-        
+
     2.  (b)
-        
+
         Asset restrictions
-        
+
     3.  (c)
-        
+
         Visa bans
-        
+
     4.  (d)
-        
+
         Appeal to the UN Security Council for action
-        
-    
+
+
 3.  3.
-    
+
     Protective Actions may include measures such as cyber operations to sabotage AI development, interdiction or seizure of covered chip clusters, military actions to disable or destroy AI hardware, and physical disablement of specific facilities or assets directly enabling AI development.
-    
+
 4.  4.
-    
+
     Parties minimize collateral harm, including to civilians and essential services, wherever practical, subject to mission requirements.
-    
+
 5.  5.
-    
+
     Protective Actions are strictly limited to preventing ASI development or deployment and are not used as a pretext for territorial acquisition, regime change, resource extraction, or broader military objectives. Permanent occupation or annexation of territory is prohibited. Action will cease upon verification by the coalition that the threat no longer exists.
-    
+
 6.  6.
-    
+
     Each Protective Action is accompanied, at initiation or as soon as security permits, by a public Protective Action Statement that:
-    
+
     1.  (a)
-        
+
         Explains the protective purpose of the action;
-        
+
     2.  (b)
-        
+
         Identifies the specific AI‑enabling activities and assets targeted;
-        
+
     3.  (c)
-        
+
         States the conditions for cessation;
-        
+
     4.  (d)
-        
+
         Commits to cease operations once those conditions are met.
-        
-    
+
+
 7.  7.
-    
+
     Protective Actions terminate without delay upon any of the following:
-    
+
     1.  (a)
-        
+
         Coalition certification that the relevant activities have ceased.
-        
+
     2.  (b)
-        
+
         Verified surrender or destruction of covered chip clusters or ASI‑enabling assets, potentially including the establishment of sufficient safeguards to prevent restricted research activities.
-        
+
     3.  (c)
-        
+
         A determination by the acting Party, communicated to the CTB, that the threat has abated.
-        
-    
+
+
 8.  8.
-    
+
     Parties do not regard measured Protective Actions taken by another Party under this Article as provocative acts, and do not undertake reprisals or sanctions on that basis. Parties agree that Protective Actions meeting the above requirements are not construed as an act of aggression or justification for the use of force.
-    
+
 9.  9.
-    
+
     The Executive Council reviews each Protective Action for compliance with this Article. If the Executive Council finds that an action was not necessary, proportionate, or properly targeted, actions may be taken under Article XI, paragraph 3.
-    
+
 
 ##### Precedent for Article XII
 
@@ -1558,23 +1559,23 @@ We stress that any use of force should be targeted at preventing ASI, and should
 ### ARTICLE XIII — Coalition Technical Body Reviews
 
 1.  1.
-    
+
     For AI models created via declared training or post‑training within the limits of Article IV, the CTB may require evaluations and other tests. These tests will inform whether the thresholds set in Article IV, Article V, Article VII, and Article VIII need to be revised. The methods used for reviews will be determined by the CTB and may be updated.
-    
+
 2.  2.
-    
+
     Evaluations are conducted at CTB facilities or monitored CCCs, by CTB officials. Officials from Parties to the Agreement may be informed which tests are conducted, and the CTB may provide a summary of the test results. Parties will not gain access to AI models they did not train, except when granted access by the model owner, and the CTB will take steps to ensure the security of sensitive information.
-    
+
 3.  3.
-    
+
     The CTB may share detailed information with Parties or the public, if the Director-General deems that this may be necessary to reduce the chance of human extinction from advanced AI.
-    
+
 
 ##### Precedent for Article XIII
 
 Precedents for tests with oversight are shared with precedents around chip use verification discussed under Article VII, with the missile telemetry sharing protocol of START I being particularly relevant. The added component here in our Article XIII is using collected data to inform recommendations for potential threshold adjustments (which could take place under the precedented mechanisms we discuss with Article XIV).
 
-Regarding the inherent tension between disclosures to the public (paragraph 3) and the information consolidation provisions of our Article X, we note that the [Statute of the IAEA](https://www.iaea.org/about/statute)’s Article VII confidentiality provision[^24] has not prevented it from publishing [regular and detailed reports](https://www.iaea.org/publications/reports) on major developments in its associated field and their implications for global security.
+Regarding the inherent tension between disclosures to the public (paragraph 3) and the information consolidation provisions of our Article X, we note that the [Statute of the IAEA](https://www.iaea.org/about/statute)’s Article VII confidentiality provision[^cite-scher-24] has not prevented it from publishing [regular and detailed reports](https://www.iaea.org/publications/reports) on major developments in its associated field and their implications for global security.
 
 ##### Notes on Article XIII
 
@@ -1589,25 +1590,25 @@ When reviews reveal shifts in the AI development landscape, those shifts could n
 ### ARTICLE XIV — Revision Process
 
 1.  1.
-    
+
     The Executive Council may revise this Agreement as necessary to ensure its purposes are achieved. "Amendments" are considered revisions to the main body and Articles of the Agreement. Under Article III, the CTB may change specific definitions and implementation methods, such as those relevant to Article IV, Article V, Article VI, Article VII, Article VIII, Article IX, and Article X, subject to the Executive Council’s veto power. Fundamental revisions to the purposes of these Articles or to the governance structure require an Amendment by the Executive Council.
-    
+
 2.  2.
-    
+
     The Executive Council may propose amendments to all Parties to the Agreement. The Executive Council shall circulate proposed amendments to all States Parties with an explanation of the rationale and expected effects.
-    
+
 3.  3.
-    
+
     Parties to the Agreement may submit recommendations for amendments to the Executive Council through the Director-General. The Executive Council will consider such recommendations but is not obligated to adopt them.
-    
+
 4.  4.
-    
+
     Amendments proposed by the Executive Council become effective upon consensus of the Executive Council.
-    
+
 5.  5.
-    
+
     Three years after the entry into force of this Agreement, the Executive Council shall convene a review conference to assess the operation of this Agreement with a view to assuring that the purposes of the Preamble and the provisions of the Agreement are being realized. All Parties to the Agreement shall be invited to participate. At intervals of three years thereafter, the Executive Council will convene further review conferences with the same objective.
-    
+
 
 ##### Precedent for Article XIV
 
@@ -1628,32 +1629,32 @@ Article XIV sets out the process to make major revisions to the agreement. These
 ### ARTICLE XV — Withdrawal and Duration
 
 1.  1.
-    
+
     The Agreement shall be of unlimited duration.
-    
+
 2.  2.
-    
+
     Each Party will, in exercising its national sovereignty, have the right to withdraw from the Agreement if it decides that extraordinary events, related to the subject matter of this Agreement, have jeopardized the supreme interests of its country. It shall give notice of such withdrawal to the CTB 12 months in advance.
-    
+
 3.  3.
-    
+
     During this 12-month period, the withdrawing state shall cooperate with CTB and Executive Council member efforts to certify that after withdrawal, the withdrawing state will be unable to develop, train, post-train, or deploy dangerous AI systems, including ASI or systems above the Agreement thresholds. Withdrawing states acknowledge that such cooperation aids the CTB and Parties in avoiding the use of Article XII.
-    
+
     1.  (a)
-        
+
         In particular, the withdrawing state, under CTB and Executive Council member oversight, will remove all covered chip clusters and ASI-enabling assets (e.g., advanced computer chip manufacturing equipment) from its territory to Executive Council-approved control or render them permanently inoperable (as described in Article V).
-        
-    
+
+
 4.  4.
-    
+
     Nothing in this Article limits the applicability of Article XII. A State that has withdrawn (and is therefore a non-Party) remains subject to Protective Actions if credible evidence indicates activities aimed at ASI development or deployment.
-    
+
 
 ##### Precedent for Article XV
 
 It is common for treaties to lack expiration dates. The first paragraph of [Article XVI of the CWC](https://www.opcw.org/chemical-weapons-convention/articles/article-xvi-duration-and-withdrawal) states “This Convention shall be of unlimited duration.”
 
-Agreements of unlimited duration do not necessarily last forever.[^25] But they do typically provide a mechanism for withdrawal, usually with a required period of notice and other stipulations that might let it leave in a manner less concerning to the remaining parties. [Article XVI of the CWC](https://www.opcw.org/chemical-weapons-convention/articles/article-xvi-duration-and-withdrawal) allows for a party to withdraw “if it decides that extraordinary events, related to the subject-matter of this Convention, have jeopardized the supreme interests of its Country.” The withdrawing country must give 90 days notice. [Article XVI of the Outer Space Treaty](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html) requires one year notice for withdrawal.
+Agreements of unlimited duration do not necessarily last forever.[^note-scher-25] But they do typically provide a mechanism for withdrawal, usually with a required period of notice and other stipulations that might let it leave in a manner less concerning to the remaining parties. [Article XVI of the CWC](https://www.opcw.org/chemical-weapons-convention/articles/article-xvi-duration-and-withdrawal) allows for a party to withdraw “if it decides that extraordinary events, related to the subject-matter of this Convention, have jeopardized the supreme interests of its Country.” The withdrawing country must give 90 days notice. [Article XVI of the Outer Space Treaty](https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html) requires one year notice for withdrawal.
 
 Our agreement expects 12 months’ notice from departees, allowing ample time for assisting with the assurance-providing measures in Paragraph 3. Our intent with these measures (which go beyond what we readily find in the historical record of withdrawal provisions) is to reduce the potential need for protective actions against the withdrawing Party, as no Party or non-Party can be allowed to create ASI or weaken the world’s ability to prevent its creation.
 
@@ -1676,138 +1677,138 @@ Recognizing that measures to address the risks from AI cannot be developed overn
 These measures fall into three categories:
 
 1.  1.
-    
+
     Preparing for an International Agreement:
-    
+
     -   •
-        
+
         Develop situational awareness of where AI chips are located globally, identify public and nonpublic data centers, understand chip and/or hardware smuggling pipelines, and production flows around the world. Begin tracking AI chips.
-        
+
         -   –
-            
+
             Establish robust AI chip, hardware security, and supply chain standards internationally.
-            
+
             -   \*
-                
+
                 Conduct R&D for on-chip hardware-enabled governance mechanisms (HEMs) and for supporting equipment that could verify the location and the types of workloads conducted on advanced AI chips (e.g., training, inference). Develop tamper-resistant HEM technologies and explore advanced HEM capabilities that allow for remote governance, licensing, and limits on chip use.
-                
+
             -   \*
-                
+
                 Establish an interagency group within the U.S. government to rapidly develop the framework for implementing location verification and advanced HEMs.
-                
+
             -   \*
-                
+
                 Establish a public/private partnership to develop advanced HEM technologies
-                
+
             -   \*
-                
+
                 Set up “governing through the cloud” \[[47](#bib.bib273 "Governing Through the Cloud: The Intermediary Role of Compute Providers in AI Regulation")\] style approaches and enhanced capacity for overall chip use governance.
-                
+
             -   \*
-                
+
                 Ensure export control measures are flexible enough to adjust to the state of the art.
-                
-            
-        
+
+
+
     -   •
-        
+
         Ensure advanced AI chip development, hardware, and supply chains remain in a small group of countries.
-        
+
     -   •
-        
+
         Enhance international coordination on controls to ensure AI chips, R&D, hardware, and tacit knowledge are not easily obtained by groups of concern.
-        
+
     -   •
-        
+
         Back proactive measures to implement future AI governance and an overall agreement and avoid actions that make an international agreement more difficult, like building covert data centers.
-        
+
     -   •
-        
+
         Establish international multi-disciplinary collaboration among policymakers, technologists, and institutions to establish the foundation of future international discussions on AI governance.
-        
+
     -   •
-        
+
         Establish AI hotlines between key actors in the U.S. and PRC government.
-        
+
     -   •
-        
+
         Work with the PRC to establish open-model-weight and evaluation standards related to CBRN risks, e.g. biological weapon development.
-        
+
     -   •
-        
+
         Work with countries with sizable AI capabilities to share large data center locations.
-        
-    
+
+
 2.  2.
-    
+
     Building the Capacity of Future Governance, Safety, and Security
-    
+
     -   •
-        
+
         Invest in education and recruiting talent to focus on AI monitoring, threat evaluation, and safety research.
-        
+
     -   •
-        
+
         Fund research focused on AI evaluations (both before and after model deployment), safety research measures to mitigate risk, and trigger points for implementation of such measures.
-        
+
     -   •
-        
+
         Invest in verification expertise and know-how, for instance by funding pilot verification efforts using open-source intelligence or satellite data.
-        
+
     -   •
-        
+
         Identify gaps between current expertise and expertise needed in the future to ensure a strong security/safety ecosystem for research, implementation, and cross-pollination.
-        
+
     -   •
-        
+
         Identify experts in adjacent fields that could be brought to bear on AI risks.
-        
+
     -   •
-        
+
         Implement public and/or private NGO initiatives to create expertise where current gaps exist.
-        
+
     -   •
-        
+
         Identify current areas of consensus, and build up to more robust measures to address the risks of AI.
-        
+
     -   •
-        
+
         Enhance security for current and future AI projects, in order to protect against proliferation to and misuse by third parties including terrorists or rogue states.
-        
+
     -   •
-        
+
         Regulate agentic AI interactions as the capabilities come online.
-        
+
     -   •
-        
+
         Increase AI fluency in the general public to ensure awareness of implications of AI development.
-        
-    
+
+
 3.  3.
-    
+
     Domestic Measures that Could be Implemented Today:
-    
+
     -   •
-        
+
         Establish robust non-public information sharing between AI labs and key government officials to ensure the government is privy to all important state-of-the-art AI developments that could have an impact on the economy, national security, or threat environment.
-        
+
     -   •
-        
+
         Establish a cross-functional team within the U.S. government for AI model assessment, and develop a standardized assessment framework for review of existing and planned domestic and international AI models. This group should analyze the development of current and future AI, identify key AI developmental milestones, and develop risk mitigation strategies before specific milestones are reached.
-        
+
     -   •
-        
+
         Centralize AI strategy development in a White House-led organization either within OSTP or as a U.S. government-wide steering committee to identify gaps and harmonize strategy/implementation.
-        
+
     -   •
-        
+
         Task an executive branch agency with assessing the implications of advanced AI on key national security areas including CBRN and cyber capabilities, model autonomy, and automated AI R&D to speed up AI developments, and open-source models.
-        
+
     -   •
-        
+
         Develop scenario-based incident response capabilities \[[76](#bib.bib28 "Strengthening emergency preparedness and response for AI loss of control incidents")\].
-        
-    
+
+
 
 ## Appendix C Stages
 
@@ -1820,192 +1821,192 @@ The purpose of this section is to demonstrate how AI governance discussions coul
 Build initial capacity, foster collaboration, and establish foundational transparency mechanisms.
 
 -   •
-    
+
     The U.S. and PRC issue a joint declaration at the head of state level on responsible AI development and deployment. They commit to:
-    
+
     -   –
-        
+
         Avoid AI use for certain prohibited purposes
-        
+
     -   –
-        
+
         A “No First Use” policy for AI-driven cyberattacks targeting critical infrastructure, including power grids, financial systems, healthcare networks, and election systems. (This builds upon the 2024 U.S.–PRC agreement restricting AI control over nuclear weapons systems and reduces the risk of sudden or destabilizing strategic attacks)
-        
-    
+
+
 -   •
-    
+
     AI Transparency, Monitoring, and Information Sharing
-    
+
     -   –
-        
+
         U.S. and PRC, and possibly other like-minded countries begin monitoring AI developments and sharing relevant information
-        
+
     -   –
-        
+
         Conduct limited public disclosures to highlight emerging risks
-        
+
     -   –
-        
+
         Domestic and International Tracking
-        
+
         -   \*
-            
+
             Track AI hardware, chips, and AI research for future verification mechanisms
-            
+
         -   \*
-            
+
             Make limited declarations of such data
-            
-        
-    
+
+
+
 -   •
-    
+
     R&D for Verification
-    
+
     -   –
-        
+
         Begin early research and development on verification methods that could serve future governance mechanisms
-        
-    
+
+
 -   •
-    
+
     Coalition Building
-    
+
     -   –
-        
+
         Launch initial conversations among interested governments and stakeholders
-        
+
     -   –
-        
+
         Establish governance concepts for future international AI governance
-        
+
     -   –
-        
+
         Allocate resources to support international AI-safety research and coordination
-        
-    
+
+
 
 ##### Stage Two – Enhanced Transparency and Communication
 
 These measures build confidence and transparency and reduce the risk of misunderstanding rapid AI developments as signs of imminent aggression.
 
 -   •
-    
+
     Establish secure communication channels between high-level AI and cybersecurity officials in the U.S. and PRC
-    
+
 -   •
-    
+
     Exchange of information between the U.S. and PRC: Conduct annual confidential disclosures on high-consequence AI systems (excluding model weights or algorithms), including:
-    
+
     -   –
-        
+
         Purpose and capabilities of each system
-        
+
     -   –
-        
+
         Hardware used for operation
-        
+
     -   –
-        
+
         Data center locations and capacities
-        
-    
+
+
 -   •
-    
+
     U.S. and PRC pre-notify of major AI model training runs and deployments exceeding agreed thresholds
-    
+
 -   •
-    
+
     Develop basis for future international AI governance
-    
+
     -   –
-        
+
         Make multilateral declarations defining safe AI development
-        
+
     -   –
-        
+
         Develop voluntary commitments that enhance safe AI development practices and limit use cases that are escalatory or unsafe
-        
+
     -   –
-        
+
         Ongoing investment in international AI safety research and viable prototype verification mechanisms
-        
+
     -   –
-        
+
         Establish pooled resource mechanisms, allowing nations to benefit from AI advancements while obviating the need for fully independent programs with associated costs
-        
+
     -   –
-        
+
         Begin voluntary information disclosures among additional nations:
-        
+
         -   \*
-            
+
             Number of data centers and large-scale models that exceed agreed thresholds
-            
+
         -   \*
-            
+
             Bilateral disclosure mechanisms serve as templates for multilateral transparency frameworks, allowing other countries to join using standardized reporting formats
-            
-        
-    
+
+
+
 
 ##### Stage Three – Establishing Commitments, Limits, and Verification Foundations
 
 Move from voluntary transparency to structured commitments and verified limitations. Verification systems and commitments piloted bilaterally evolve into the technical and procedural framework for broader multilateral agreements.
 
 -   •
-    
+
     U.S. and PRC lead discussions and negotiations on AI governance measures including: a ban on AI training above the Strict Threshold; chip consolidation; chip production monitoring; chip use verification; research restrictions and verification detailed in Articles IV, V, VI, VII, VIII, IX and other articles included in the Agreement in Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence")
-    
+
 -   •
-    
+
     The U.S. and PRC establish and test chip use verification protocols to confirm future compliance within the limit mentioned in the first bullet
-    
+
 -   •
-    
+
     The U.S., PRC, and additional countries make safety and development commitments and invest in shared research infrastructure
-    
+
 
 ##### Stage Four – Institutionalization and Deployment
 
 Translate practical cooperation into a formalized international agreement.
 
 -   •
-    
+
     The measures of the international agreement are implemented. (See Appendix [A](#A1 "Appendix A The Agreement ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence"))
-    
+
 
 ##### Stage Five – Solving for ASI
 
 Make use of the time and resources available to prepare for ASI
 
 -   •
-    
+
     The world directs capacity toward solving the problems required to permit the safe development of superintelligence. These likely include AI alignment research, managing social, economic, and geopolitical destabilization, preventing human misuse of advanced AI, and avoiding concentration of power, but this list could look different when more is known about ASI development
-    
+
 -   •
-    
+
     Establish joint resilience mechanisms for critical infrastructure
-    
+
 -   •
-    
+
     Build global safety coordination systems capable of rapid response to emerging risks
-    
+
 -   •
-    
+
     Maintain continuous cooperation between the Executive Council and national institutions
-    
+
 -   •
-    
+
     Adapt the agreement in response to a changing geopolitical environment or potentially a changing technical environment around AI development
-    
+
 
 ##### Stage Six – Safe implementation of superintelligence
 
 -   •
-    
+
     The world implements the solutions discovered above and maintains safety and coordination mechanisms
-    
+
 
 This illustrates a possible path to a framework for AI governance, progressing from bilateral commitments and transparency to global cooperation. Early U.S.–PRC engagement acts as the catalyst for broader international participation, with each stage reinforcing the subsequent stage.
 
@@ -2111,13 +2112,13 @@ Voluntary reporting mechanisms for whistleblowers can provide useful intelligenc
 
 National leaders can improve the effectiveness of whistleblower programs by promoting the reporting of concealed compute as a patriotic or humanitarian duty. While domestic programs can use whistleblower programs, international verification benefits most from these efforts, as they provide intelligence otherwise inaccessible to foreign inspectors. Even carefully compartmentalized state projects will likely involve many personnel, creating opportunities for disclosure even if individuals are selected for discretion.
 
-Table 1: Domestic round-up.  
+Table 1: Domestic round-up.
 Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but can’t be relied on.
 
 | #H100-equivalents | 100,000 | 10,000 | 1,000 | 100 | 16 | 1 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Seconds to Monitored Threshold | 1.0×1021.0\times 10^{2} | 1.0×1031.0\times 10^{3} | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 6.3×1056.3\times 10^{5} | 1.0×1071.0\times 10^{7} |
-| Seconds to Strict Threshold | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 1.0×1061.0\times 10^{6} | 1.0×1071.0\times 10^{7} | 6.3×1076.3\times 10^{7} | 1.0×1091.0\times 10^{9} |
+| Seconds to Monitored Threshold | $1.0\times 10^{2}$ | $1.0\times 10^{3}$ | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $6.3\times 10^{5}$ | $1.0\times 10^{7}$ |
+| Seconds to Strict Threshold | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $1.0\times 10^{6}$ | $1.0\times 10^{7}$ | $6.3\times 10^{7}$ | $1.0\times 10^{9}$ |
 | Days to Monitored Threshold | 0.001 | 0.012 | 0.1 | 1.2 | 7.3 | 116.9 |
 | Days to Strict Threshold | 0.1 | 1.2 | 11.7 | 116.9 | 730.7 | 11691.0 |
 | Days to register clusters | Day 1 | Day 1 | Day 10 | Day 100 | Year 2 | Never |
@@ -2133,13 +2134,13 @@ Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but ca
 | Black market monitoring |  |  | ∘\circ | ∙\bullet | ∙\bullet |  |
 | Whistleblower programs | ∘\circ | ∘\circ | ∘\circ | ∘\circ | ∘\circ |  |
 
-Table 2: International verification.  
+Table 2: International verification.
 Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but can’t be relied on.
 
 | #H100-equivalents | 100,000 | 10,000 | 1,000 | 100 | 16 | 1 |
 | --- | --- | --- | --- | --- | --- | --- |
-| Seconds to Monitored Threshold | 1.0×1021.0\times 10^{2} | 1.0×1031.0\times 10^{3} | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 6.3×1056.3\times 10^{5} | 1.0×1071.0\times 10^{7} |
-| Seconds to Strict Threshold | 1.0×1041.0\times 10^{4} | 1.0×1051.0\times 10^{5} | 1.0×1061.0\times 10^{6} | 1.0×1071.0\times 10^{7} | 6.3×1076.3\times 10^{7} | 1.0×1091.0\times 10^{9} |
+| Seconds to Monitored Threshold | $1.0\times 10^{2}$ | $1.0\times 10^{3}$ | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $6.3\times 10^{5}$ | $1.0\times 10^{7}$ |
+| Seconds to Strict Threshold | $1.0\times 10^{4}$ | $1.0\times 10^{5}$ | $1.0\times 10^{6}$ | $1.0\times 10^{7}$ | $6.3\times 10^{7}$ | $1.0\times 10^{9}$ |
 | Days to Monitored Threshold | 0.001 | 0.012 | 0.1 | 1.2 | 7.3 | 116.9 |
 | Days to Strict Threshold | 0.1 | 1.2 | 11.7 | 116.9 | 730.7 | 11691.0 |
 | Days to register clusters | Day 1 | Day 1 | Day 10 | Day 100 | Year 2 | Never |
@@ -2159,7 +2160,7 @@ Key: $\bullet$ = very useful for this purpose; $\circ$ = somewhat useful, but ca
 
 The consolidation of AI chips will proceed in phases, prioritizing the largest clusters first. Large clusters are the most urgent to secure, as they can most quickly reach training thresholds. They are also the easiest to detect due to their physical footprint, power consumption, extensive personnel requirements, and reliance on standard chip supply chains. Due to the current distribution of AI chips and AI supercomputers \[[71](#bib.bib56 "Trends in AI supercomputers")\], the vast majority of AI chips are housed in relatively few facilities. By focusing on the largest clusters first, it will be fast to secure the majority of chips, even if it will take longer to register all covered clusters (Figure [3](#A4.F3 "Figure 3 ‣ D.3.1 Staged Implementation of Chip Consolidation ‣ D.3 Methods for chip tracking and consolidation ‣ Appendix D Locating and consolidating AI chips ‣ An International Agreement to Prevent the Premature Creation of Artificial Superintelligence")).
 
-![Figure](/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img3-8dcffec7.png)
+![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence-img3-8dcffec7.png)
 
 Figure 3: The timelines for locating clusters. Although it takes longer to register the majority of clusters, the majority of chips are quickly registered. This figure assumes that the size of AI clusters follows a Pareto distribution fit to data from Pilz et al. \[[71](#bib.bib56 "Trends in AI supercomputers")\].
 
@@ -2195,28 +2196,28 @@ Over the next two years, the domestic consolidation effort shifts focus to track
 
 International verification transitions to sustained intelligence gathering, primarily aimed at detecting potential state-run secret projects. Ongoing verification relies on continuous satellite monitoring, regular facility inspections, and interviews with industry personnel. This sustained effort ensures that the initial consolidation remains intact and that no significant number of existing chips fall outside of the monitoring framework.
 
-[^1]: This is the case with nuclear weapons agreements, where separate treaties establish the IAEA ([1956](https://www.iaea.org/about/overview/statute), by the Conference on the Statute of the International Atomic Energy Agency, hosted at the Headquarters of the United Nations), the NPT ([1970](https://www.iaea.org/sites/default/files/publications/documents/infcircs/1970/infcirc140.pdf), through negotiations in the United Nations Eighteen Nation Committee on Disarmament), and the arms control agreements like the START treaty ([1991](https://media.nti.org/documents/start_1_treaty.pdf), following nine years of intermittent negotiation between the U.S. and the Soviet Union).
-[^2]: The NPT is generally credited with keeping the number of nuclear states lower than it might have been, but acquisitions by non-signatories (India, Pakistan, Israel) and former signatories (North Korea) have still occurred. Any non-signatory creating even a single ASI is comparable in danger to a mass thermonuclear exchange, and must be treated accordingly.
-[^3]: The Convention on Prohibitions or Restrictions on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects, commonly called the CCW, entered into force in 1983. As of 2024, its 128 parties commit to protect combatants and non-combatants from unnecessary and egregious suffering by restricting various categories of weapons.
-[^4]: The U.S. and USSR had already agreed to stop other kinds of nuclear weapons tests in 1963 with the Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water, commonly called the [Limited Test Ban Treaty](https://2009-2017.state.gov/t/avc/trty/199116.htm) (LTBT) or Test Ban Treaty.
-[^5]: The [Treaty Between the British Empire, France, Italy, Japan, and the United States of America for the Limitation of Naval Armament](https://treaties.fcdo.gov.uk/data/Library2/pdf/1924-TS0005.pdf) (the Washington Naval Treaty) lists ships to be scrapped by name in a table (Section II).
-[^6]: [The Strategic Arms Reduction Treaty](https://1997-2001.state.gov/www/global/arms/starthtm/start/start1.html) was signed in 1991 and entered force in 1994. Signatories were each barred from deploying more than 6,000 nuclear warheads on a total of 1,600 intercontinental ballistic missiles and bombers.
-[^7]: The Strategic Arms Limitation Talks (SALT) commenced in 1969 between the U.S. and USSR, producing the SALT I treaty, signed in 1972, which froze the number of strategic ballistic missile launchers and regulated the addition of new submarine-launched ballistic missiles, among other restrictions.
-[^8]: The 1972 [Anti-Ballistic Missile Treaty](https://en.wikisource.org/wiki/Anti-Ballistic_Missile_Treaty) (ABM) grew out of the original SALT talks, and limited each party to two anti-ballistic complexes each (later, just one) with restrictions on their armament and tracking capabilities.
-[^9]: With the 1987 [Intermediate-Range Nuclear Forces Treaty](https://2009-2017.state.gov/t/avc/trty/102360.htm) (INF), the U.S. and USSR agreed to ban most nuclear delivery systems with ranges in between those of battlefield and intercontinental systems. (Given the short warning time strikes from such systems would afford, they were seen more as destabilizing offensive systems than as defensive assets.)
-[^10]: The Food Safety and Inspection Service (FSIS) is an agency of the U.S. Department of Agriculture formed in 1977.
-[^11]: Another key consideration for chip use verification measures is security and privacy. Parties will want to ensure that the CTB only has access to the information it needs for verification without also having access to sensitive data on the chips (such as military secrets or sensitive user data). Therefore, the verification methods used would need to be made secure and would be narrowly scoped when possible.
-[^12]: The 1946 Atomic Energy Act was later augmented by the [Atomic Energy Act of 1954](https://www.govinfo.gov/content/pkg/COMPS-1630/pdf/COMPS-1630.pdf) with the goal of allowing for a civilian nuclear industry, which required allowing some Restricted Data to be shared with private companies.
-[^13]: The 1979 case of [United States v. The Progressive](https://en.wikipedia.org/wiki/United_States_v._Progressive,_Inc.), in which a newspaper intended to reveal the “secret” of the hydrogen bomb, might have given the U.S. Supreme Court an opportunity to rule on whether the “born secret” doctrine violates the First Amendment’s protections on speech, if the government hadn’t dropped the case as moot.
-[^14]: An arm of the U.S. Department of Commerce.
-[^15]: Hundreds of such orders have been placed on cryptography-related patents over the decades.
-[^16]: The International Science and Technology Center grew out of the 1991 [Nunn-Lugar Cooperative Threat Reduction](https://en.wikipedia.org/wiki/Nunn%E2%80%93Lugar_Cooperative_Threat_Reduction) program, a U.S. initiative to secure and dismantle WMDs and their associated infrastructure in former Soviet states.
-[^17]: Parties to our agreement may wish to explore expanding the concept of [crimes against humanity](https://www.law.cornell.edu/wex/crime_against_humanity) (codified in the [1998 Rome Statute of the International Criminal Court](https://en.wikisource.org/wiki/Rome_Statute_of_the_International_Criminal_Court)) to cases where a researcher deliberately seeks to develop ASI at the expense of the people of Earth.
-[^18]: The [Committee on National Security Systems](https://en.wikipedia.org/wiki/Committee_on_National_Security_Systems) (CNSS) is a U.S. intergovernmental organization that sets security policies for government information systems.
-[^19]: 144 States, as of June 2025
-[^20]: OpenAI’s [GPT-5 announcement](https://openai.com/index/introducing-gpt-5/) lists 470 contributors. Google’s [Gemini 1.5 technical report](https://arxiv.org/pdf/2403.05530#page=92.10) lists 1135 contributors. The [Llama 3 paper](https://arxiv.org/abs/2407.21783) lists 559 authors. The [DeepSeek-V3 paper](https://arxiv.org/abs/2412.19437v1) lists 199 authors. The [Qwen3 paper](https://arxiv.org/abs/2505.09388) lists 177 total contributors. The [Kimi k2 paper](https://arxiv.org/abs/2507.20534) lists 168 authors. The sum of these numbers is 2,708. Other frontier AI companies such as Anthropic and xAI do not provide sufficient details about the number of technical contributors, to our knowledge. There are other companies that may have sufficient AI talent, therefore we conservatively estimate that the total number of researchers at top AI companies is on the order of 5,000.
-[^21]: In a [2025 interview](https://www.theverge.com/decoder-podcast-with-nilay-patel/761830/amazon-david-luan-agi-lab-adept-ai-interview?utm_source=chatgpt.com), David Luan, head of Amazon’s AGI research lab, estimated the number of people he would trust “with a giant dollar amount of compute” to develop a frontier model at “sub-150.”
-[^22]: [TSMC employee count](https://www.macrotrends.net/stocks/charts/TSM/taiwan-semiconductor-manufacturing/number-of-employees): 84,000 in 2025. [Intel employee count](https://www.macrotrends.net/stocks/charts/INTC/intel/number-of-employees): 125,000 in 2023. [Samsung employee count](https://news.samsung.com/global/fast-facts): 263,000 in 2024. [SMIC employee count](https://www.smics.com/en/site/company_info): 20,000 in 2023. [NVIDIA employee count](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/number-of-employees#:%C2%A0:text=NVIDIA%20total%20employee%20count%20in,End%20of%20interactive%20chart.): 36,000 in 2025. [AMD employee count](https://www.macrotrends.net/stocks/charts/AMD/amd/number-of-employees): 26,000 in 2023. [Huawei employee count](https://www.huawei.com/en/media-center/company-facts): 208,000 in 2024. Google TPU division: unknown. [ASML employee count](https://www.asml.com/en/company/about-asml): 44,000 in 2024. [SK Hynix employee count](https://news.skhynix.com/corporate/fact-sheet/): 47,000 in 2024. [Micron employee count](https://www.macrotrends.net/stocks/charts/MU/micron-technology/number-of-employees): 43,000 in 2023. The sum of these numbers is 896,000. So the total number of employees at the most relevant AI hardware companies is likely around one million, though the core technical staff are probably a small subset of this and the number of crucial researchers may only be a few thousand.
-[^23]: In April 2025, the popular platform for sharing AI models and datasets [HuggingFace had](https://huggingface.co/spaces/huggingface/how-to-upgrade-to-enterprise) 8 million users. The number of students who have taken [Andrew Ng’s Machine Learning course](https://www.coursera.org/specializations/machine-learning-introduction) is about 4.8 million. The number of developers using GitHub (broader than just AI) was [around](https://github.blog/news-insights/company-news/100-million-developers-and-counting/) 100 million in 2023, and the total number of professional software developers in the world is [estimated](https://www.slashdata.co/post/global-developer-population-trends-2025-how-many-developers-are-there) at 47 million in 2025.
-[^24]: VII.F states that “\[…\] subject to their responsibilities to the Agency, \[the Director General and the staff\] shall not disclose any industrial secret or other confidential information coming to their knowledge by reason of their official duties for the Agency”
-[^25]: Sometimes they are superseded by other treaties. This was the case for the 1947 [General Agreement on Tariffs and Trade](https://www.wto.org/english/docs_e/legal_e/gatt47_e.htm) (GATT); it was superseded by the 1994 [Marrakesh agreement](https://www.wto.org/english/docs_e/legal_e/marag_e.htm), which incorporated the rules from GATT but established the World Trade Organization (WTO) to replace GATT’s institutional structure. Treaties of unlimited duration also sometimes end when parties withdraw in a manner that makes the treaty ineffective. For example, the U.S. and USSR initially agreed to the 1987 [Intermediate-Range Nuclear Forces (INF) Treaty](https://2009-2017.state.gov/t/avc/trty/102360.htm) for an unlimited duration, but the U.S. withdrew in 2019 citing Russian non-compliance, and Russia later announced it would no longer abide by the treaty in 2025.
+[^cite-scher-1]: This is the case with nuclear weapons agreements, where separate treaties establish the IAEA ([1956](https://www.iaea.org/about/overview/statute), by the Conference on the Statute of the International Atomic Energy Agency, hosted at the Headquarters of the United Nations), the NPT ([1970](https://www.iaea.org/sites/default/files/publications/documents/infcircs/1970/infcirc140.pdf), through negotiations in the United Nations Eighteen Nation Committee on Disarmament), and the arms control agreements like the START treaty ([1991](https://media.nti.org/documents/start_1_treaty.pdf), following nine years of intermittent negotiation between the U.S. and the Soviet Union).
+[^note-scher-2]: The NPT is generally credited with keeping the number of nuclear states lower than it might have been, but acquisitions by non-signatories (India, Pakistan, Israel) and former signatories (North Korea) have still occurred. Any non-signatory creating even a single ASI is comparable in danger to a mass thermonuclear exchange, and must be treated accordingly.
+[^cite-scher-3]: The Convention on Prohibitions or Restrictions on the Use of Certain Conventional Weapons Which May Be Deemed to Be Excessively Injurious or to Have Indiscriminate Effects, commonly called the CCW, entered into force in 1983. As of 2024, its 128 parties commit to protect combatants and non-combatants from unnecessary and egregious suffering by restricting various categories of weapons.
+[^cite-scher-4]: The U.S. and USSR had already agreed to stop other kinds of nuclear weapons tests in 1963 with the Treaty Banning Nuclear Weapon Tests in the Atmosphere, in Outer Space and Under Water, commonly called the [Limited Test Ban Treaty](https://2009-2017.state.gov/t/avc/trty/199116.htm) (LTBT) or Test Ban Treaty.
+[^cite-scher-5]: The [Treaty Between the British Empire, France, Italy, Japan, and the United States of America for the Limitation of Naval Armament](https://treaties.fcdo.gov.uk/data/Library2/pdf/1924-TS0005.pdf) (the Washington Naval Treaty) lists ships to be scrapped by name in a table (Section II).
+[^cite-scher-6]: [The Strategic Arms Reduction Treaty](https://1997-2001.state.gov/www/global/arms/starthtm/start/start1.html) was signed in 1991 and entered force in 1994. Signatories were each barred from deploying more than 6,000 nuclear warheads on a total of 1,600 intercontinental ballistic missiles and bombers.
+[^cite-scher-7]: The Strategic Arms Limitation Talks (SALT) commenced in 1969 between the U.S. and USSR, producing the SALT I treaty, signed in 1972, which froze the number of strategic ballistic missile launchers and regulated the addition of new submarine-launched ballistic missiles, among other restrictions.
+[^cite-scher-8]: The 1972 [Anti-Ballistic Missile Treaty](https://en.wikisource.org/wiki/Anti-Ballistic_Missile_Treaty) (ABM) grew out of the original SALT talks, and limited each party to two anti-ballistic complexes each (later, just one) with restrictions on their armament and tracking capabilities.
+[^cite-scher-9]: With the 1987 [Intermediate-Range Nuclear Forces Treaty](https://2009-2017.state.gov/t/avc/trty/102360.htm) (INF), the U.S. and USSR agreed to ban most nuclear delivery systems with ranges in between those of battlefield and intercontinental systems. (Given the short warning time strikes from such systems would afford, they were seen more as destabilizing offensive systems than as defensive assets.)
+[^note-scher-10]: The Food Safety and Inspection Service (FSIS) is an agency of the U.S. Department of Agriculture formed in 1977.
+[^note-scher-11]: Another key consideration for chip use verification measures is security and privacy. Parties will want to ensure that the CTB only has access to the information it needs for verification without also having access to sensitive data on the chips (such as military secrets or sensitive user data). Therefore, the verification methods used would need to be made secure and would be narrowly scoped when possible.
+[^cite-scher-12]: The 1946 Atomic Energy Act was later augmented by the [Atomic Energy Act of 1954](https://www.govinfo.gov/content/pkg/COMPS-1630/pdf/COMPS-1630.pdf) with the goal of allowing for a civilian nuclear industry, which required allowing some Restricted Data to be shared with private companies.
+[^cite-scher-13]: The 1979 case of [United States v. The Progressive](https://en.wikipedia.org/wiki/United_States_v._Progressive,_Inc.), in which a newspaper intended to reveal the “secret” of the hydrogen bomb, might have given the U.S. Supreme Court an opportunity to rule on whether the “born secret” doctrine violates the First Amendment’s protections on speech, if the government hadn’t dropped the case as moot.
+[^note-scher-14]: An arm of the U.S. Department of Commerce.
+[^cite-scher-15]: Hundreds of such orders have been placed on cryptography-related patents over the decades.
+[^note-scher-16]: The International Science and Technology Center grew out of the 1991 [Nunn-Lugar Cooperative Threat Reduction](https://en.wikipedia.org/wiki/Nunn%E2%80%93Lugar_Cooperative_Threat_Reduction) program, a U.S. initiative to secure and dismantle WMDs and their associated infrastructure in former Soviet states.
+[^note-scher-17]: Parties to our agreement may wish to explore expanding the concept of [crimes against humanity](https://www.law.cornell.edu/wex/crime_against_humanity) (codified in the [1998 Rome Statute of the International Criminal Court](https://en.wikisource.org/wiki/Rome_Statute_of_the_International_Criminal_Court)) to cases where a researcher deliberately seeks to develop ASI at the expense of the people of Earth.
+[^note-scher-18]: The [Committee on National Security Systems](https://en.wikipedia.org/wiki/Committee_on_National_Security_Systems) (CNSS) is a U.S. intergovernmental organization that sets security policies for government information systems.
+[^note-scher-19]: 144 States, as of June 2025
+[^cite-scher-20]: OpenAI’s [GPT-5 announcement](https://openai.com/index/introducing-gpt-5/) lists 470 contributors. Google’s [Gemini 1.5 technical report](https://arxiv.org/pdf/2403.05530#page=92.10) lists 1135 contributors. The [Llama 3 paper](https://arxiv.org/abs/2407.21783) lists 559 authors. The [DeepSeek-V3 paper](https://arxiv.org/abs/2412.19437v1) lists 199 authors. The [Qwen3 paper](https://arxiv.org/abs/2505.09388) lists 177 total contributors. The [Kimi k2 paper](https://arxiv.org/abs/2507.20534) lists 168 authors. The sum of these numbers is 2,708. Other frontier AI companies such as Anthropic and xAI do not provide sufficient details about the number of technical contributors, to our knowledge. There are other companies that may have sufficient AI talent, therefore we conservatively estimate that the total number of researchers at top AI companies is on the order of 5,000.
+[^cite-scher-21]: In a [2025 interview](https://www.theverge.com/decoder-podcast-with-nilay-patel/761830/amazon-david-luan-agi-lab-adept-ai-interview?utm_source=chatgpt.com), David Luan, head of Amazon’s AGI research lab, estimated the number of people he would trust “with a giant dollar amount of compute” to develop a frontier model at “sub-150.”
+[^cite-scher-22]: [TSMC employee count](https://www.macrotrends.net/stocks/charts/TSM/taiwan-semiconductor-manufacturing/number-of-employees): 84,000 in 2025. [Intel employee count](https://www.macrotrends.net/stocks/charts/INTC/intel/number-of-employees): 125,000 in 2023. [Samsung employee count](https://news.samsung.com/global/fast-facts): 263,000 in 2024. [SMIC employee count](https://www.smics.com/en/site/company_info): 20,000 in 2023. [NVIDIA employee count](https://www.macrotrends.net/stocks/charts/NVDA/nvidia/number-of-employees#:%C2%A0:text=NVIDIA%20total%20employee%20count%20in,End%20of%20interactive%20chart.): 36,000 in 2025. [AMD employee count](https://www.macrotrends.net/stocks/charts/AMD/amd/number-of-employees): 26,000 in 2023. [Huawei employee count](https://www.huawei.com/en/media-center/company-facts): 208,000 in 2024. Google TPU division: unknown. [ASML employee count](https://www.asml.com/en/company/about-asml): 44,000 in 2024. [SK Hynix employee count](https://news.skhynix.com/corporate/fact-sheet/): 47,000 in 2024. [Micron employee count](https://www.macrotrends.net/stocks/charts/MU/micron-technology/number-of-employees): 43,000 in 2023. The sum of these numbers is 896,000. So the total number of employees at the most relevant AI hardware companies is likely around one million, though the core technical staff are probably a small subset of this and the number of crucial researchers may only be a few thousand.
+[^cite-scher-23]: In April 2025, the popular platform for sharing AI models and datasets [HuggingFace had](https://huggingface.co/spaces/huggingface/how-to-upgrade-to-enterprise) 8 million users. The number of students who have taken [Andrew Ng’s Machine Learning course](https://www.coursera.org/specializations/machine-learning-introduction) is about 4.8 million. The number of developers using GitHub (broader than just AI) was [around](https://github.blog/news-insights/company-news/100-million-developers-and-counting/) 100 million in 2023, and the total number of professional software developers in the world is [estimated](https://www.slashdata.co/post/global-developer-population-trends-2025-how-many-developers-are-there) at 47 million in 2025.
+[^cite-scher-24]: VII.F states that “\[…\] subject to their responsibilities to the Agency, \[the Director General and the staff\] shall not disclose any industrial secret or other confidential information coming to their knowledge by reason of their official duties for the Agency”
+[^note-scher-25]: Sometimes they are superseded by other treaties. This was the case for the 1947 [General Agreement on Tariffs and Trade](https://www.wto.org/english/docs_e/legal_e/gatt47_e.htm) (GATT); it was superseded by the 1994 [Marrakesh agreement](https://www.wto.org/english/docs_e/legal_e/marag_e.htm), which incorporated the rules from GATT but established the World Trade Organization (WTO) to replace GATT’s institutional structure. Treaties of unlimited duration also sometimes end when parties withdraw in a manner that makes the treaty ineffective. For example, the U.S. and USSR initially agreed to the 1987 [Intermediate-Range Nuclear Forces (INF) Treaty](https://2009-2017.state.gov/t/avc/trty/102360.htm) for an unlimited duration, but the U.S. withdrew in 2019 citing Russian non-compliance, and Russia later announced it would no longer abide by the treaty in 2025.
