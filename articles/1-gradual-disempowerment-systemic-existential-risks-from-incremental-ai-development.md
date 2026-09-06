@@ -66,7 +66,7 @@ Our argument is structured around six core claims:
 5.  The societal systems we describe are interdependent, and so misalignment in one can aggravate the misalignment in others. For example, economic power can be used to influence policy and regulation, which in turn can generate further economic power or alter the economic landscape.
 
 6.  If these societal systems become increasingly misaligned, especially in a correlated way, this would likely culminate in humans becoming _disempowered_: unable to meaningfully command resources or influence outcomes. With sufficient disempowerment, even basic self-preservation and sustenance may become unfeasible. Such an outcome would be an existential catastrophe.
-
+    
 
 In making this argument, we will largely focus on three systems: the economy, culture, and states. These systems collectively represent the foundations of our society: While analogous arguments could be made for other somewhat overlapping domains, such as research or law, this set seems sufficient to establish the nature and severity of a potential catastrophe.
 
@@ -217,7 +217,7 @@ Beyond shifting what kinds of cultural variants are selected for, AI systems cou
 - Faster erosion of equilibria that previously helped maintain social stability: Cultural practices and beliefs that evolved over centuries to balance competing interests and needs could be rapidly displaced by more immediately appealing but ultimately destructive alternatives.
 
 - Reduced time for humans to develop cultural ”antibodies” against harmful patterns: Historically, societies have gradually developed resistance to dangerous ideological variants through experience and adaptation. Accelerated cultural evolution could overwhelm these natural correction mechanisms, introducing novel memetic hazards faster than human societies can learn to recognize and resist them.
-
+    
 
 This acceleration of cultural evolution represents a distinct risk from changes in selection pressures. Even if AI systems were optimizing for human engagement and appeal, the sheer speed and efficiency of this optimization could produce cultural patterns that are simultaneously appealing and deeply harmful.
 
@@ -351,7 +351,7 @@ We have so far focused on how the economy, culture, and states could independent
 2.  Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively **shifting the burden**, thus leaving the aligned system more vulnerable
 
 3.  The misalignment is a result of **general incentives** which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
-
+    
 
 We discuss each of these points in more detail below. Additionally, Figure [2](https://arxiv.org/html/2501.16946v2#S5.F2 "Figure 2 ‣ 5 Mutual Reinforcement ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development") gives an overview of common ways societal systems interact and affect each other, which we unpack in a more detail in Appendix [A](https://arxiv.org/html/2501.16946v2#A1 "Appendix A Cross-system influence ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development").
 
@@ -368,7 +368,7 @@ Given that the relationships between societal systems are as such agnostic to hu
 - Many cultural movements have promoted political and economic shifts that have ultimately caused harm (often predictably or intentionally), largely but not exclusively directed at other groups of humans. Historical examples include various forms of economic and legally mandated discrimination being justified and perpetuated through cultural narratives.
 
 - Many states have used their control of the economy and influence over culture to harm citizens, taxing or outright seizing resources and using their control of the flow of information to legitimize their actions.
-
+    
 
 As a result, we should not assume that the interplay between societal systems will ultimately protect or promote alignment with human preferences.
 
@@ -389,7 +389,7 @@ Crucially, the misalignment being described here does not need to emerge from a 
 - States compete with each other on AI research and development, because of the potential economic and geostrategic benefits.
 
 - Some humans are self-interestedly trying to reduce the stigma against romantic or otherwise intense personal relationships with AI agents.
-
+    
 
 As we have argued, these incentives will likely grow stronger over time: as AI systems demonstrate their effectiveness, companies will face more pressure to adopt them, states will see greater strategic necessity in developing them, and individuals will find more personal benefit in embracing them.
 
@@ -422,7 +422,7 @@ For each of the major societal systems we have described, we can develop metrics
 - **Cultural metrics:** We can measure the proportion of widely-consumed content created primarily by humans versus AI, track the prevalence and depth of human-AI interpersonal relationships, and analyze how cultural transmission patterns change as AI becomes more prevalent. While most machine learning benchmarks and evaluations focus on quantifiable STEM tasks, we should develop a broad spectrum of evaluations focusing on ability of frontier AI systems to influence humans on emotional level, write persuasive prose, or create new ideologies. Also, we should strengthen runtime monitoring of deployed AI systems and of the influence they have on their users.
 
 - **Political metrics:** Key indicators might include the complexity of legislation (as a proxy for human comprehensibility); the role of AI systems in legal processes, policy formation, and security apparatuses; and the effectiveness of traditional democratic mechanisms in influencing outcomes.
-
+    
 
 Similar metrics should be developed for more narrow but significant societal systems, like research and education.
 
@@ -435,7 +435,7 @@ Given the mutual reinforcement dynamics we describe in Section [5](https://arxi
 - Analysis of AI participation in methods for translating power between societal systems, like lobbying and financial regulation
 
 - Historical analysis of similar dynamics in past technological transitions
-
+    
 
 #### 6.2.3 Research Priorities
 
@@ -446,7 +446,7 @@ Several fundamental research questions need to be addressed. For example:
 - What are the key thresholds or tipping points in these systems beyond which human influence becomes critically compromised?
 
 - How can we measure the effectiveness of various intervention strategies?
-
+    
 
 ### 6.3 Preventing Excessive AI Influence
 
@@ -457,7 +457,7 @@ While measurement can help us understand the problem, we also need to consider w
 - Progressive taxation of AI-generated revenues both to redistribute resources to humans and to subsidize human participation in key sectors
 
 - Cultural norms supporting human agency and influence, and opposing AI that is overly autonomous or insufficiently accountable
-
+    
 
 Crucially, these interventions will often involve sacrificing potential value. Furthermore, the more value they sacrifice, the greater the incentive to circumvent them: for example, companies may face strong economic incentives to delegate authority to AIs regardless of the spirit, or letter, of the law.
 
@@ -480,7 +480,7 @@ Beyond preventing excessive AI influence, we need to actively strengthen human c
 - Investing in tools for forecasting future outcomes (such as conditional prediction markets, and tools for collective cooperation and bargaining) in order to increase humanity’s ability to anticipate and proactively steer the course.
 
 - Research into the relationship between humans and larger multi-agent systems.
-
+    
 
 Importantly, to mitigate the problem effectively, we need to go beyond simply making it easier for humans to influence societal systems: it is unclear, for instance, whether a direct democracy would actually do a better job of satisfying citizen preferences in the long term because, for example, it would leave the state more vulnerable to cultural misalignment. A key part of the challenge is clarifying what it even means for large, complex systems to serve the interests of individuals who are accustomed to thinking on smaller scales.
 
@@ -529,7 +529,7 @@ Our analysis suggests three particularly concerning features of this scenario:
 - Second, the effect can be driven not by any deliberate or even agentic action by AIs, but simply by individuals and institutions following their local incentives.
 
 - Third, meaningfully preventing these risks will require substantial effort: more research and data collection, international coordination, comprehensive regulation, and major societal interventions grounded in novel fundamental research.
-
+    
 
 A distinctive feature of this challenge is that it may subvert our traditional mechanisms for course-correction, and cause types of harm we cannot easily conceptualize or even recognize in advance, potentially leaving us in a position from which it is impossible to recover.
 
