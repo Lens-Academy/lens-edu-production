@@ -10,8 +10,14 @@ accessed: 2026-07-28
 description: "As advanced machine learning systems’ capabilities begin to play a significant role in geopolitics and societal order, it may become imperative that (1) governments be able to enforce rules on the development of advanc…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -19,11 +25,11 @@ Add discussion note here:
 
 %%
 
-###### Abstract
+###### Abstract ^abstract
 
 As advanced machine learning systems’ capabilities begin to play a significant role in geopolitics and societal order, it may become imperative that (1) governments be able to enforce rules on the development of advanced ML systems within their borders, and (2) countries be able to verify each other’s compliance with potential future international agreements on advanced ML development. This work analyzes one mechanism to achieve this, by monitoring the computing hardware used for large-scale NN training. The framework’s primary goal is to provide governments high confidence that no actor uses large quantities of specialized ML chips to execute a training run in violation of agreed rules. At the same time, the system does not curtail the use of consumer computing devices, and maintains the privacy and confidentiality of ML practitioners’ models, data, and hyperparameters. The system consists of interventions at three stages: (1) using on-chip firmware to occasionally save snapshots of the the neural network weights stored in device memory, in a form that an inspector could later retrieve; (2) saving sufficient information about each training run to prove to inspectors the details of the training run that had resulted in the snapshotted weights; and (3) monitoring the chip supply chain to ensure that no actor can avoid discovery by amassing a large quantity of un-tracked chips. The proposed design decomposes the ML training rule verification problem into a series of narrow technical challenges, including a new variant of the Proof-of-Learning problem \[Jia et al. ’21\].
 
-## 1 Introduction
+## 1 Introduction ^introduction
 
 Many of the remarkable advances of the past 5 years in deep learning have been driven by a continuous increase in the quantity of _training compute_ used to develop cutting-edge models \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [21](https://arxiv.org/html/2303.11341#bib.bibx21), [54](https://arxiv.org/html/2303.11341#bib.bibx54)\]. Such large-scale training has been made possible through the concurrent use of hundreds or thousands of specialized accelerators with high inter-chip communication bandwidth (such as Google TPUs, NVIDIA A100 and H100 GPUs, or AMD MI250 GPUs), employed for a span of weeks or months to compute thousands or millions of gradient updates. We refer to these specialized accelerators as _ML chips_, which we distinguish from consumer-oriented GPUs with lower interconnect bandwidth (e.g., the NVIDIA RTX 4090, used in gaming computers).
 
@@ -35,24 +41,24 @@ These training runs’ current need for large quantities of specialized chips le
 
 Such a system of verification-based checks and balances, distinguishing between “safe” and “dangerous” ML model training, might seem infeasible. Yet a similar system has been created before. At the dawn of the nuclear age, nations faced an analogous problem: reactor-grade uranium (used for energy) and weapons-grade uranium (used to build nuclear bombs) could be produced using the same types of centrifuges, just run for longer and in a different configuration. In response, in 1970 the nations of the world adopted the Treaty on the Non-Proliferation of Nuclear Weapons (NPT) and empowered the International Atomic Energy Agency (IAEA) to verify countries’ commitments to limiting the spread of nuclear weapons, while still harnessing the benefits of nuclear power. This verification framework has helped the world avoid nuclear conflict for over 50 years, and helped limit nuclear weapons proliferation to just 9 countries while spreading the benefits of safe nuclear power to 33 \[[40](https://arxiv.org/html/2303.11341#bib.bibx40)\]. If future progress in machine learning creates the domestic or international political will for enacting rules on large-scale ML development, it is important that the ML community is ready with technical means for verifying such rules.
 
-### 1.1 Contributions
+### 1.1 Contributions ^contributions
 
 In this paper, we propose a monitoring framework for enforcing rules on the _training_ of ML[^note-shavit-2] models using large quantities of specialized ML chips. Its goal is to enable governments to verify that companies and other governments have complied with agreed guardrails on the development of ML models that would otherwise pose a danger to society or to international stability. The objective of this work is to lay out a possible system design, analyze its technical and logistical feasibility, and highlight important unsolved challenges that must be addressed to make it work.
 
 The proposed solution has three parts:
 
 1.  1.
-    
+
     To prove compliance, an ML chip owner employs firmware that logs limited information about that chip’s activity, with their employment of that firmware attested via hardware features. We propose an activity logging strategy that is both lightweight, and maintains the confidentiality of the chip-owner’s trade secrets and private data, based on the NN weights present in the device’s high-bandwidth memory.
-    
+
 2.  2.
-    
+
     By inspecting and analyzing the logs of a sufficient subset of the chips, inspectors can provably determine whether the chip-owner executed a rules-violating training run in the past few months, with high probability.
-    
+
 3.  3.
-    
+
     Compute-producing countries leverage supply-chain monitoring to ensure that each chip is accounted for, so that actors can’t secretly acquire more ML chips and then underclaim their total to hide from inspectors.
-    
+
 
 The system is compatible with many different rules on training runs (see Section [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
 
@@ -66,24 +72,24 @@ More generally, the framework does not apply to small-scale ML training, which c
 
 Lastly, rather than proposing a comprehensive shovel-ready solution, this work provides a high-level solution design. Its contribution is in isolating a set of open problems whose solution would be sufficient to enable a system that achieves the policy goal. If these problems prove unsolvable, the system’s design will need to be modified, or its guarantees scaled back. We hope that by providing a specific proposal to which the community can respond, we will initiate a cycle of feedback, iteration, and counter-proposals that eventually culminates in an efficient and effective method for verifying compliance with large-scale ML training rules.
 
-### 1.3 Related Work
+### 1.3 Related Work ^related-work
 
 This paper joins an existing literature examining the role that compute may play in the governance of AI. Early work by Hwang \[[23](https://arxiv.org/html/2303.11341#bib.bibx23)\] highlighted the potential of computing power to shape the social impact of ML. Concurrent work by Sastry et al. \[[51](https://arxiv.org/html/2303.11341#bib.bibx51)\] identifies attributes of compute that make it a uniquely useful lever for governance, and provides an overview of policy options. Closely-related work by Baker \[[4](https://arxiv.org/html/2303.11341#bib.bibx4)\] draws lessons from nuclear arms control for the compute-based verification of international agreements on large-scale ML.
 
 Rather than focusing on specific policies, the work proposes a technical platform for verifying many possible regulations and agreements on ML development. Already, the EU AI Act has proposed establishing risk-based regulations on AI products \[[61](https://arxiv.org/html/2303.11341#bib.bibx61)\], while US senators have proposed an “Algorithmic Accountability Act” to oversee algorithms used in critical decisions \[[11](https://arxiv.org/html/2303.11341#bib.bibx11)\], and the Cyberspace Administration of China (CAC) has established an “algorithm registry” for overseeing recommender systems \[[43](https://arxiv.org/html/2303.11341#bib.bibx43)\]. Internationally, many previous works have discussed the general feasibility and desirability of AI arms control \[[47](https://arxiv.org/html/2303.11341#bib.bibx47), [12](https://arxiv.org/html/2303.11341#bib.bibx12), [37](https://arxiv.org/html/2303.11341#bib.bibx37)\], with \[[52](https://arxiv.org/html/2303.11341#bib.bibx52)\] highlighting the importance of verification measures to the success of potential AI arms control regimes. Past work has also explored the benefits of international coordination on non-military AI regulation \[[13](https://arxiv.org/html/2303.11341#bib.bibx13)\].
 
-The proposed solution involves proving that a rule-violating ML training run was _not_ done, in part by proving which other training runs _were_ done. The analysis of the latter problem is heavily inspired by the literature on Proof-of-Learning \[[24](https://arxiv.org/html/2303.11341#bib.bibx24), [15](https://arxiv.org/html/2303.11341#bib.bibx15)\] (discussed further in Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")). Other works has have used tools from cryptography to train NN models securely across multiple parties \[[63](https://arxiv.org/html/2303.11341#bib.bibx63)\], and to securely prove the correctness of NN inference \[[30](https://arxiv.org/html/2303.11341#bib.bibx30)\]. However, these approaches suffer large efficiency penalties and cannot yet be scaled to cutting-edge model training, rendering them nonviable as a method for verifying rules on large-scale training runs.
+The proposed solution involves proving that a rule-violating ML training run was _not_ done, in part by proving which other training runs _were_ done. The analysis of the latter problem is heavily inspired by the literature on Proof-of-Learning \[[24](https://arxiv.org/html/2303.11341#bib.bibx24), [15](https://arxiv.org/html/2303.11341#bib.bibx15)\] (discussed further in Section [[#^at-the-data-center|5]]). Other works has have used tools from cryptography to train NN models securely across multiple parties \[[63](https://arxiv.org/html/2303.11341#bib.bibx63)\], and to securely prove the correctness of NN inference \[[30](https://arxiv.org/html/2303.11341#bib.bibx30)\]. However, these approaches suffer large efficiency penalties and cannot yet be scaled to cutting-edge model training, rendering them nonviable as a method for verifying rules on large-scale training runs.
 
-## 2 The Problem: Detecting Violations of Large-Scale ML Training Rules
+## 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ^the-problem
 
 We focus on the setting in which one party (the “Verifier”) seeks to verify that a given set of ML training rules is being followed, and another party (the “Prover”) is developing the ML system and wants to prove to the Verifier that it is complying with those rules. The Verifier can request that the Prover take actions, such as disclosing information on training runs, in order to help the Verifier determine the Prover’s compliance. The Prover is a “covert adversary” \[[2](https://arxiv.org/html/2303.11341#bib.bibx2)\] – they may benefit from _violating_ the ML training rule, but will only seek to violate the rule _if they can still appear compliant_ to the Verifier. There are two real-world Prover-Verifier relationships we are particularly interested in:
 
 -   •
-    
+
     _Domestic Oversight_: Governments have a clear interest that the ML systems developed by companies operating within their borders comply with certain rules. Regulators can level both civil and criminal penalties on organizations caught violating rules, and often require organizations to maintain records that prove regulatory compliance (e.g., financial transaction record-keeping requirements).
-    
+
 -   •
-    
+
     _International Oversight_: The most significant types of ML training rules may be those enforced internationally (on companies and governments in multiple countries), and verified by other governments or international bodies. These include enforcing globally-beneficial rules (e.g., combatting disinformation), and verifying arms control agreements (e.g., limiting the development of autonomous code-generating cyberweapons). There is precedent for countries abiding by international agreements with strict monitoring regimes when they stand to benefit, such as Russia’s historically allowing random U.S. inspections of its missiles as a part of the START treaties, in exchange for certainty that the U.S. was abiding by the same missile limits \[[53](https://arxiv.org/html/2303.11341#bib.bibx53)\].
     
 
@@ -94,23 +100,23 @@ Thus, the problem we address is: what minimal set of verifiable actions can the 
 It is important that standards and agreements on ML training focus on preventing concrete harm, and otherwise leave society free to realize the broad benefits of highly-capable ML systems. Indeed, there are many types of ML models that should not only be legal to train, but that should open-sourced so that all of society can benefit from them \[[58](https://arxiv.org/html/2303.11341#bib.bibx58)\]. The proposed framework focuses only on enforcing rules on the training of those more dangerous models whose creation and distribution would substantially harm society or international security. Indeed, as mentioned in Section [1.2](#S1.SS2 "1.2 Limitations ‣ 1 Introduction ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), this framework _could not_ prevent smaller-scale training of ML models, and thus limits the risk of overreach by authoritarian Verifiers. Below are some informative properties that a Verifier could determine by monitoring the training process of an ML model:
 
 -   •
-    
+
     _Total training compute_, which has proven to be an indicator for ML models’ capabilities \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [59](https://arxiv.org/html/2303.11341#bib.bibx59)\].
-    
+
 -   •
-    
+
     _Properties of the training data_, such as whether a language model’s text dataset contains code for cybersecurity exploits.
-    
+
 -   •
-    
+
     _Properties of the hyperparameters_, such as the fraction of steps trained via reinforcement learning.
-    
+
 -   •
-    
+
     _The resulting model’s performance on benchmarks designed to elicit its capabilities_, including whether the model’s capabilities exceed agreed-on thresholds, and including interactive benchmarks (e.g. finetuning the model on a particular task).
-    
+
 -   •
-    
+
     Combinations of the above — for example, “if a model was trained on RL-for-code-generation for greater than $X$ FLOPs, then it should not be trained beyond $Y$ performance on $Z$ benchmarks.”
     
 
@@ -119,23 +125,23 @@ Ultimately, these rule thresholds should be selected based on the model capabili
 If a Verifier can reliably detect the aforementioned training run properties, that would allow them to mandate several types of rules, such as:
 
 -   •
-    
+
     _Reporting requirements_ on large training runs, to make domestic regulators aware of new capabilities or as a confidence-building measure between companies/competitors \[[22](https://arxiv.org/html/2303.11341#bib.bibx22)\].
-    
+
 -   •
-    
+
     _Bans or approval-requirements_ for training runs considered overly likely to result in models that would threaten society or international stability. Approval could be conditioned on meeting additional requirements (e.g., willingness to comply with downstream regulations on model use, increased security to prevent model-theft, greater access for auditors).
-    
+
 -   •
-    
+
     _Requiring that any trained model be modified to include post-hoc safety mitigations_ if the unmodified model could be expected to pose a severe accident risk absent those mitigations. Such safety assessments and mitigations (such as “Helpful and Harmless” finetuning \[[3](https://arxiv.org/html/2303.11341#bib.bibx3)\]) may involve a prohibitive upfront cost that companies/governments would otherwise avoid. However, once they have been forced to make the investment and built a less accident-prone model, they may then prefer to use the safer version. Such rules allow all parties to coordinate spending more resources on safe and responsible innovation, without fearing that their competitors may secretly undercut them by rushing ahead without addressing negative externalities.
     
 
-### 2.2 Other Practical Requirements
+### 2.2 Other Practical Requirements ^other-practical-requirements
 
 There are several other considerations for such a monitoring system to be practical. Its cost should be limited, both by limiting changes to current hardware, and by minimizing the ongoing compliance costs to the Prover and enforcement costs to the Verifier. The system should also not pose a high risk of leaking the Prover’s proprietary information, including model weights, training data, or hyperparameters. Most importantly, the system must be robust to cheating attempts, even by highly-resourced adversaries such as government hacking groups, who may be willing to employ sophisticated hardware, software, and even supply-chain attacks.
 
-## 3 Solution Overview
+## 3 Solution Overview ^solution-overview
 
 In this section, we outline a high-level technical plan, illustrated in Figure [1](#S3.F1 "Figure 1 ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), for Verifiers to monitor Provers’ ML chips for evidence that a large rule-violating training occurred.
 
@@ -146,64 +152,65 @@ Figure 1: Overview of the proposed monitoring framework.
 The framework revolves around chip inspections: the Verifier will inspect a sufficient random sample of the Prover’s chips (Section [3.2](#S3.SS2 "3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), and confirm that none of these chips contributed to a rule-violating training run. For the Verifier to ascertain compliance from simply inspecting a chip, we will need interventions at three stages: on the chip, at the Prover’s data-center, and in the supply chain.
 
 -   •
-    
+
     _On the chip_ (Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): When the Verifier gets access to a Prover’s chip, they need to be able to confirm whether or not that chip was involved in a rule-violating training run. Given that rule violation depends only on the code that was run, our solution will necessitate that ML chips logging infrequent traces of their activity, with logging done via hardware-backed firmware. We suggest that ML chips’ firmware occasionally log a copy of the current state of the chip’s high-bandwidth memory to long-term storage, and in particular, that it logs the shard of the NN’s weights stored in memory. These _weight-snapshots_ can serve as a fingerprint of the NN training that took place on each chip.
-    
+
 -   •
-    
+
     _At the data-center_ (Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): The Verifier needs a way to interpret the chips’ logs, and determine whether or not they are evidence for a rule-violating training run. To that end, the Prover, who is training the model, will be required to store a transcript of the training process — including training data, hyperparameters, and intermediate weight checkpoints — for each model they train. Using protocols similar to “Proof-of-Learning” \[[24](https://arxiv.org/html/2303.11341#bib.bibx24)\], these training transcripts may serve as provenance for the logged weight-snapshots, which are themselves the result of the same training process. In practice, for each (hash of a) weight-snapshot logged by a chip, the Prover provides the Verifier (the hashed version of) the matching training transcript. Then the Prover and Verifier jointly and securely verify that, with high probability, retraining using the training transcript would have indeed resulted in the logged weight-snapshot (and that no other valid training transcript could have resulted in that snapshot). Finally, now that the Verifier knows an approximate training transcript of the training run that had been executed on that chip at that time, they can examine properties of the training transcript to confirm that the Prover has complied with the agreed upon rules.
-    
+
 -   •
-    
+
     _At the supply chain_ (Section [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")): The Verifier needs to know which ML chips the Prover owns, so that the Verifier can randomly inspect a representative sample of those chips, to confirm their ownership and that their logging mechanisms are reporting correctly. Without this chip-ownership verification step, a Prover might covertly acquire a large quantity of chips and use them for training without ever notifying the Verifier. Keeping track of chip-ownership is viable because the cutting-edge data-center chip supply chain is highly concentrated, meaning that chips originate from a few initial chokepoints and can be monitored thereafter.
     
 
 These steps, put together, enable a chain of guarantees.
 
 -   •
-    
+
     When any organization wants to train a large rule-violating ML model, they must do so using chips that the Verifier is aware of.
-    
+
 -   •
-    
+
     These chips will occasionally log weight-snapshots. Each time a chip logs a weight-snapshot, the Prover must report the log to the Verifier, along with (hashes of) training transcripts that establish the provenance of that weight-snapshot.
-    
+
 -   •
-    
+
     If the Prover tries to hide the logs from every chip involved in the training run, the Verifier will eventually find out, because it will sample and physically inspect at least one of those chips with high probability.
-    
+
 -   •
-    
+
     Also, the hashed training transcripts that the Prover provides along with the logged weight-snapshot need to be authentic, reflecting the training run that was run on the chip. If they are not authentic, they will be caught by the Verifier’s transcript verification procedure.
-    
+
 -   •
-    
+
     If the training transcript _is_ authentic, and the run violated the rules, then the Verifier can tell, and will catch the Prover.
     
 
 Thus, so long as the Prover complies with the Verifier’s steps, the Verifier will detect the Prover’s rule-violation with high probability. Just as in financial audits, a Prover’s refusal to comply with the verification steps would itself represent an indication of guilt.
 
-### 3.1 Chip inspections
+### 3.1 Chip inspections ^chip-inspections
 
-Ideally, chips could remotely report their logs, with on-chip firmware and remote attestation being sufficient to guarantee that those logs were truthfully reported (see Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")). Such guarantees may be sufficient to deter most Provers from misbehavior. Unfortunately, these measures may not restrain well-resourced adversarial Provers: it is generally understood within the hardware security world that, given unlimited physical access to a chip (which the Prover certainly would have), a chip’s attestation and signed-firmware-enforcement mechanisms can be undermined \[[56](https://arxiv.org/html/2303.11341#bib.bibx56)\]. However, by physically inspecting chips after the fact, it may be possible to reliably detect such tampering. This is because most hardware attacks require physically damaging the chip in ways that would be nearly-impossible to hide from a Verifier’s subsequent inspection, especially if ML chips are supplemented with tamper-evident packaging measures \[[64](https://arxiv.org/html/2303.11341#bib.bibx64)\]. Luckily, rather than needing to inspect every chip, we only need to inspect enough to catch at least one chip from each large training run (Section [3.2](#S3.SS2 "3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")).
+Ideally, chips could remotely report their logs, with on-chip firmware and remote attestation being sufficient to guarantee that those logs were truthfully reported (see Section [[#^on-the-chip|4]]). Such guarantees may be sufficient to deter most Provers from misbehavior. Unfortunately, these measures may not restrain well-resourced adversarial Provers: it is generally understood within the hardware security world that, given unlimited physical access to a chip (which the Prover certainly would have), a chip’s attestation and signed-firmware-enforcement mechanisms can be undermined \[[56](https://arxiv.org/html/2303.11341#bib.bibx56)\]. However, by physically inspecting chips after the fact, it may be possible to reliably detect such tampering. This is because most hardware attacks require physically damaging the chip in ways that would be nearly-impossible to hide from a Verifier’s subsequent inspection, especially if ML chips are supplemented with tamper-evident packaging measures \[[64](https://arxiv.org/html/2303.11341#bib.bibx64)\]. Luckily, rather than needing to inspect every chip, we only need to inspect enough to catch at least one chip from each large training run (Section [[#^how-many-chips|3.2]]).
 
 A chip inspection can be done in one of two ways. The Verifier can send an inspector to the facility in which a sampled chip is stored, which may be cost-effective if the facility contains multiple chips selected for sampling. Alternatively, the ML chips can be _transported a neutral inspection site_, as these chips are generally housed in easily-removable servers. (Sensitive components like storage can be removed prior to transport.) The transporting option may be more attractive to security-conscious Provers who would prefer not to allow Verifier inspectors into their data-centers.
 
 A chip inspection involves several steps. First, the Verifier confirms the chip’s serial number (often burned into chips and accessible both digitally and physically) matches the serial number they requested from the Prover. This confirms that this is the correct randomly-sampled chip, and also that the Prover still owns the chip and has not secretly resold it to an untrusted party. Second, the Verifier checks the on-chip logs, from which they extract the weight snapshot hashes which they will check against the Prover’s reported training transcripts (Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")). Finally, the Verifier checks that the chip’s logging mechanisms, such as its secure firmware authentication mechanism (Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), have not been physically tampered with.
 
-### 3.2 How many ML chips does the Verifier need to inspect?
+### 3.2 How many ML chips does the Verifier need to inspect? ^how-many-chips
 
 Sections [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), and [6](#S6 "6 At the supply chain ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") will together guarantee that if the Verifier observes even a single ML chip that logged a weight snapshot hash during a rules-violating training run, then the Verifier can use that weight snapshot to prove that the Prover violated the rules. For the Verifier to make sure they’d observe at least one such snapshot from a large training run with high probability (or alternatively, catch a chip that’d been tampered with), they would need to inspect at least $s$ of the Prover’s $C$ chips every $T_{m}$ days. We now seek to calculate $s$.
 
 We define a large-scale training run as any training run using more than $H$ FLOPs. We only seek to verify rules on training runs using $>H$ FLOPs, meaning that any weight-snapshots from the first $H$ FLOPs are not incriminating (as the Prover could have stopped the training run after that snapshot). Catching a chip that happened to save a weight-snapshot at time $H+\epsilon$ is vanishingly unlikely for small $\epsilon$, so we instead provide guarantees on detecting the case where the Prover’s training run is executed for $\geq 2H$, substantially exceeding $H$.[^note-shavit-3] This means that the training run was executed for an additional second period of at least $H$ FLOPs, during which any weight snapshot would capture evidence of an ML model that had already been trained for at least $>H$ FLOPs. From hereon, when we describe detecting a snapshot of a “large-scale training run”, we refer to this second stage of the training run. If a Verifier wanted to catch a Prover _before_ they had completed a $H$ rule-violating training run, they can simply shrink their target threshold to a fraction of $H$, and sample chips on a rolling basis.
 
-The Verifier, whether due to specific suspicions or routine due diligence, wants to audit a particular Prover’s $C$ chips. Let $a$ be the FLOPs per day for those chips. We will conservatively assume that NN training can be perfectly parallelized and utilize all the FLOPs on each chip. Let $f$ be the expected number of weight-snapshots saved by the chip per day (Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")) snapshots are Poisson distributed. The Verifier wants to catch a training run within at most $T_{m}$ days of its concluding, though the training run itself may have lasted for a longer period [^note-shavit-4] $T>T_{m}$. This implies that the Prover must have used a minimum of $\frac{H}{aT}$ chips. One might expect that by increasing $T$, the Prover could use fewer chips and therefore evade detection, but this turns out to not to meaningfully improve the Prover’s evasion probability (a $<5\%$ increase) because each chip is sampled $T/T_{m}$ times as often. (See Appendix [C](#A3 "Appendix C Analysis of prover evasion strategies ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") for details.) Thus for simplicity, we assume the Verifier will choose $s$ as though $T$ is fixed.
+The Verifier, whether due to specific suspicions or routine due diligence, wants to audit a particular Prover’s $C$ chips. Let $a$ be the FLOPs per day for those chips. We will conservatively assume that NN training can be perfectly parallelized and utilize all the FLOPs on each chip. Let $f$ be the expected number of weight-snapshots saved by the chip per day (Section [[#^on-the-chip|4]]) snapshots are Poisson distributed. The Verifier wants to catch a training run within at most $T_{m}$ days of its concluding, though the training run itself may have lasted for a longer period [^note-shavit-4] $T>T_{m}$. This implies that the Prover must have used a minimum of $\frac{H}{aT}$ chips. One might expect that by increasing $T$, the Prover could use fewer chips and therefore evade detection, but this turns out to not to meaningfully improve the Prover’s evasion probability (a $<5\%$ increase) because each chip is sampled $T/T_{m}$ times as often. (See Appendix [[#^appendix-c|C]] for details.) Thus for simplicity, we assume the Verifier will choose $s$ as though $T$ is fixed.
 
 To detect at least one chip with a snapshot from a rule-violating training run with probability $p$, the Prover needs to sample $s$ chips each monitoring period $T_{m}$, where:
 
 $$
 s\geq\frac{\log{(1-p)}}{\log{\left(1-\frac{H}{aTC}\left(1-e^{-fT_{m}}\right)\right)}}\cdot\frac{T_{m}}{T}
 $$
+^equation-1
 
 We provide a derivation for Equation [1](#S3.E1 "In 3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") in Appendix [B](#A2 "Appendix B Derivation of Sampling Rate ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.").
 
@@ -218,23 +225,23 @@ In Table [1](#S3.T1 "Table 1 ‣ 3.2 How many ML chips does the Verifier need to
 | Chinchilla-1T † | 1.27e+26 | 1.47e+6 | 4.03e+3 | — | 60 | 6.02e+3 |
 | Chinchilla-10T † | 1.3e+28 | 1.5e+8 | 4.12e+5 | — | — | 58 |
 
-Table 1: Example numbers of required total _annual_ samples $365\cdot s/T_{m}$ to catch a chip from every large-scale training run within $T=30$ days, given $a=10^{15}\cdot 24\cdot 3600$ (the daily 16-bit Tensor Core FLOPs of an NVIDIA H100 SXM GPU \[[42](https://arxiv.org/html/2303.11341#bib.bibx42)\]), $f=0.1$ weight snapshots per day (see Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), and the Verifier’s desired probability of catching a rule-violating training run $p=0.9$. Models marked with ${\dagger}$ are projections for future training requirements \[[21](https://arxiv.org/html/2303.11341#bib.bibx21)\].
+Table 1: Example numbers of required total _annual_ samples $365\cdot s/T_{m}$ to catch a chip from every large-scale training run within $T=30$ days, given $a=10^{15}\cdot 24\cdot 3600$ (the daily 16-bit Tensor Core FLOPs of an NVIDIA H100 SXM GPU \[[42](https://arxiv.org/html/2303.11341#bib.bibx42)\]), $f=0.1$ weight snapshots per day (see Section [[#^on-the-chip|4]]), and the Verifier’s desired probability of catching a rule-violating training run $p=0.9$. Models marked with ${\dagger}$ are projections for future training requirements \[[21](https://arxiv.org/html/2303.11341#bib.bibx21)\]. ^table-1
 
 As the table shows, the number of inspected chips remains approximately at a fixed fraction of the full stockpile, decreasing with training run size $H$.
 
-An additional difficulty is the possibility that multiple Provers collude and each contribute a small fraction of their chips to a shared training run, such that if only one of the Provers is audited, the fraction of their $C$ chips they used for the training run is much smaller than $\frac{H}{aT_{m}C}$. This is particularly relevant in the International Oversight setting, where a government Prover might force the participation of multiple firms. One solution to this is for an international Verifier to do background monitoring of _all_ Provers, in effect treating them all as one large Prover with access to the global chip stockpile. Predictably, this would require a much greater number of samples, and is likely to only be feasible for regulating the largest-scale training runs (which can be caught with fewer samples). Yet, for training runs at the scale of $10^{25}$ FLOPs or greater, monitoring could be done with a bureaucracy similar in size to the IAEA.[^cite-shavit-5]
+An additional difficulty is the possibility that multiple Provers collude and each contribute a small fraction of their chips to a shared training run, such that if only one of the Provers is audited, the fraction of their $C$ chips they used for the training run is much smaller than $\frac{H}{aT_{m}C}$. This is particularly relevant in the International Oversight setting, where a government Prover might force the participation of multiple firms. One solution to this is for an international Verifier to do background monitoring of _all_ Provers, in effect treating them all as one large Prover with access to the global chip stockpile. Predictably, this would require a much greater number of samples, and is likely to only be feasible for regulating the largest-scale training runs (which can be caught with fewer samples). Yet, for training runs at the scale of $10^{25}$ FLOPs or greater, monitoring could be done with a bureaucracy similar in size to the IAEA.[^note-shavit-5]
 
 As individual chips become more powerful ($a$ grows) and algorithmic efficiency increases ($H$ shrinks), the number of required samples would need to grow in order to verify rules on a fixed-capability training run. Still, it may be that the training runs of greatest societal concern are those _near the frontier_ of scaling, and those are likely to remain detectable with few samples for the foreseeable future, even if Provers attempt to undermine them with physical tampering.
 
-## 4 On the chip
+## 4 On the chip ^on-the-chip
 
-In an NN training cluster, a large number of ML devices (each containing an ML chip, and connected to a “host” CPU chip) collaborate to simultaneously compute gradient updates. Large NNs have too many weights to fit in the high-bandwidth memory of a single ML device, so efficiently training a model requires splitting the model’s weights into _weight shards_, and placing a shard on each chip \[[57](https://arxiv.org/html/2303.11341#bib.bibx57)\]. Each such shard is a vector of millions or billions of values. Shards are updated after each gradient step so that new gradients can always be computed with respect to the latest weight values. This means that at every timestep, the chip contains an up-to-date result from the training run, which we will show in Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") can serve as a type of checksum for the training run.
+In an NN training cluster, a large number of ML devices (each containing an ML chip, and connected to a “host” CPU chip) collaborate to simultaneously compute gradient updates. Large NNs have too many weights to fit in the high-bandwidth memory of a single ML device, so efficiently training a model requires splitting the model’s weights into _weight shards_, and placing a shard on each chip \[[57](https://arxiv.org/html/2303.11341#bib.bibx57)\]. Each such shard is a vector of millions or billions of values. Shards are updated after each gradient step so that new gradients can always be computed with respect to the latest weight values. This means that at every timestep, the chip contains an up-to-date result from the training run, which we will show in Section [[#^at-the-data-center|5]] can serve as a type of checksum for the training run.
 
 In this section, we will describe how it may be possible to have ML chips log the values of these weight-shard vectors, for Verifiers to retroactively inspect. We will assume the presence of certain hardware features[^note-shavit-6] on the ML chip, though the details of the approach may need to be modified depending on the specifics of the device. For example, if the ML chip does not have the hardware required for remote firmware attestation, the chip may need to be permanently mated to a host CPU that does have such hardware, with the CPU then orchestrating the logging operations.
 
 A chip’s weight-shards can be captured by _snapshotting_ the chip’s high-bandwidth memory, which contains the weights. These snapshots must be saved at random times, as otherwise the Prover can swap out the true weights for a fake set of weights right before the scheduled logging. With some small probability at every clock cycle, the firmware present on each of the Prover’s chips should raise an interrupt and briefly freeze the chip’s operations. The chip should then send a copy of the weight shard regions $\omega$ to its host CPU to save in Prover-controlled long-term storage. The firmware also computes a hash $h=\mathcal{H}(\omega)$ of the relevant memory regions, [^note-shavit-7] using a publicly-agreed cryptographic hash function $\mathcal{H}$. This hash $h$ is then saved for the Verifier to find it later, either by having the firmware store it on-chip[^note-shavit-8] in nonvolatile memory writable only by the firmware, or by having the chip sign the hash with its private key and then sending it to a Verifier-trusted central server (which must return an acknowledgement of receipt before the chip can resume operating). Later, a Verifier can use $h$ to ask the Prover to provide them with the original weight shard $\omega$, as this is the only input to $\mathcal{H}$ whose hash matches $\mathcal{H}(\omega)=h$.
 
-More frequent snapshots mean more performance overhead for the Prover, especially if all the other synchronized chips in the training run must hang until the single chip’s snapshotting concludes. This freezing may become expensive if the rest of the training run must hang until it completes, especially if it’s done by many chips. [^note-shavit-9] The frequency of snapshots should be set as low as possible while still ensuring that used chips reliably contain a relevant weight snapshot if they were employed in a large-scale training run (see Eq. ([1](#S3.E1 "In 3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."))).
+More frequent snapshots mean more performance overhead for the Prover, especially if all the other synchronized chips in the training run must hang until the single chip’s snapshotting concludes. This freezing may become expensive if the rest of the training run must hang until it completes, especially if it’s done by many chips. [^note-shavit-9] The frequency of snapshots should be set as low as possible while still ensuring that used chips reliably contain a relevant weight snapshot if they were employed in a large-scale training run (see Eq. ([[#^equation-1|1]])).
 
 Though the Prover may claim to have used firmware that logged snapshots as described above, the Verifier may not trust the Prover to have indeed used the appropriate logging firmware. For this reason, ML chips also need hardware mechanisms for enforcing that firmware be signed, and in turn, chipmakers will need to only sign firmware if it implements appropriate logging mechanisms. [^note-shavit-10] [^note-shavit-11] [^note-shavit-12]
 
@@ -242,7 +249,7 @@ An obstacle to logging all weight-shards stored in ML device memory is that diff
 
 A more challenging problem is that “ML chips” are general-purpose hardware accelerators, and thus are frequently used for other high-performance computing workloads like climate modeling. There is no straightforward way to determine whether an ML chip is running a neural network training job (and therefore should log weight snapshots), or an unrelated type of job exempt from Verifier oversight. [^note-shavit-16] Relatedly, it would also be desirable to be able to exempt a fraction of chips from monitoring, for use in education or small-scale R&D where the overhead of compliance would be prohibitive. [^note-shavit-17] Until we find methods for reliably distinguishing large-scale ML training, some fraction of ML chips must be exempted from using weight-logging firmware. The larger system’s guarantee would then be that _for those of the Provers’ chips that the Prover allows the Verifier to monitor_, no rule-violating training occurred. The Verifier may then use their leverage to incentivize Provers into opting-in a larger and larger fraction of their chips over time.
 
-## 5 At the data-center
+## 5 At the data-center ^at-the-data-center
 
 From Sections [3.2](#S3.SS2 "3.2 How many ML chips does the Verifier need to inspect? ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") and [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), we know how a Verifier can get access to at least one weight shard $\omega$ snapshotted during a large-scale training run. In this section, we will show how the Verifier can use this weight shard to determine whether the associated training run followed the agreed-upon rules.
 
@@ -254,11 +261,11 @@ Thanfully, a close variant of this problem has already been studied in the liter
 
 The solution of \[[24](https://arxiv.org/html/2303.11341#bib.bibx24)\] is as follows: once a Prover reports a training transcript $\mathbb{T}$, the Verifier checks that the initialization appears random, and then chooses a number of pairs of adjacent weight snapshots that are $k$ gradient steps apart $(W_{i},W_{i+k}),\dots,(W_{j},W_{j+k})$. Then, rather than re-running all of training, the Verifier only reruns the training of these specific segments, starting at $W_{i}$ and progressing through the appropriate data batches $D_{i}\dots D_{i+k}$ to yield a $W_{i+k}^{\prime}$. The Verifier then confirms that the resulting checkpoint is approximately correct: $\|W_{i+k}-W_{i+k}^{\prime}\|_{2}<\epsilon$ for some small $\epsilon$ that depends on the reproduction noise and the number of steps $k$. The original paper proposed a heuristic for choosing which segments to verify, though subsequent papers have demonstrated spoofing attacks that evade the original verification approach \[[70](https://arxiv.org/html/2303.11341#bib.bibx70), [15](https://arxiv.org/html/2303.11341#bib.bibx15)\]. Thus far, the literature on PoL has been heuristic-based, and discovering PoL protocols with higher degrees of reliability is the subject of ongoing work \[[15](https://arxiv.org/html/2303.11341#bib.bibx15)\].
 
-### 5.1 Proof-of-Training-Transcript
+### 5.1 Proof-of-Training-Transcript ^proof-of-training-transcript
 
 Our requirement, which we will define as “Proof-of-Training-Transcript” (PoTT), differs from Proof-of-Learning because our Prover knows a true training transcript that leads to the final weight-snapshot (since they executed the original training run), and the Verifier wants to verify that the Prover has reported the _original_ transcript that yielded $\omega$ (or at least one very close to the original). Further, unlike PoL, we allow that an adversarial Prover might be willing to spend _more than the original training compute_ $H$ in order to construct a spoof (e.g., an adversary may be willing to pay double the cost in order to execute a rule-violating training run without being detected). Thus, we must hope to push the cost to construct a spoof to be as high as possible, so as to make evasion impractical.
 
-###### Definition 1.
+###### Definition 1. ^definition-1
 
 A PoTT protocol $(R,V)$ is defined by a Prover training and reporting protocol $R$ and a Verifier verification protocol $V$. A target weight vector $W_{t}$ is produced as the true result of a training run which complies with a training and reporting protocol $R$, and which can be summarized via a training transcript $\mathbb{T}\in\mathcal{T}$, where $\mathbb{T}=\{\mathbb{M},\mathbb{D},\mathbb{W}\}$, $\mathbb{M}$ is the metadata required to reproduce the training run (including hyperparameters, random seed, and loss function), $\mathbb{D}$ is an ordered sequence of sets of training data batches, and $\mathbb{W}$ is a collection of intermediate weight checkpoints resulting from the training procedure. The verification protocol $V$ should accept any such true training transcript with high probability, $\Pr[V(\mathbb{T},W_{t})=\text{accept}]>1-\delta_{1}$ for some small $\delta_{1}$.
 
@@ -274,7 +281,7 @@ Another promising strategy may be to require the Prover to _pre-commit_ to porti
 
 A final complication of our setting derives from the fact that the Verifier observes only a shard of the weights $\omega$, and not the full weight vector $W_{t}$. It could be easier to construct a spoofed training transcript for some $\hat{W}$ which contains a shard matching $\omega$, but which differs from the true original weights $W_{t}\neq\hat{W}$ on the portion of the weight vector outside the shard. We briefly describe an intuition for why this is likely to be as hard as general PoTT-spoofing. Assuming $\omega$ must contain weights from more than a single linear layer, any Prover must at minimum construct a valid PoTT for this smaller NN represented by $\omega$, except without any original training transcript to start from (making it similarly hard to the original Proof of Learning problem). Alternatively, if the Prover tries to reuse the original training transcript, it will require them to synthesize fake data and labels to exactly reproduce the true inputs/gradients, and these must correspond to a reasonable loss function that is actually decreasing over time. If the Prover alternatively attempts to fake the surrounding layers’ weights, then the weights in these surrounding layers must also have their own valid training trajectories as part of the training transcript _and_ must generate the appropriate inputs/gradients to yield $\omega$, simultaneously.
 
-### 5.2 Real-world implementation
+### 5.2 Real-world implementation ^real-world-implementation
 
 As the literature uncovers new methods for verifying training transcripts, the Verifier can run these protocol to check that, for each of the logged weight snapshots on the Prover’s chips that the Verifier inspects, the Prover has provided a legitimate corresponding training transcript.[^note-shavit-20] The Verifier can then examine the data, hyperparameters, and resulting models as reported by the trianing transcript, and thereby detect whether the Prover complied with the training rules.
 
@@ -290,73 +297,73 @@ We need supply-chain monitoring to accomplish two goals: to construct a “chip 
 
 For a Verifier to be confident that a Prover is reporting the activity of all the Prover’s ML chips, they need to know both which ML chips the Prover owns, and that there are no secret stockpiles of chips beyond the Verifier’s knowledge. Such ownership monitoring would represent a natural extension of existing supply chain management practices, such as those used to enforce U.S. export controls on ML chips. It may be relatively straightforward to reliably determine the total number of cutting-edge ML chips produced worldwide, by monitoring the production lines at high-end chip fabrication facilities. The modern high-end chip fabrication supply chain is extremely concentrated, and as of 2023 there are fewer than two dozen facilities worldwide capable of producing chips at a node size of 14nm or lower \[[32](https://arxiv.org/html/2303.11341#bib.bibx32)\], the size used for efficient ML training chips. As \[[4](https://arxiv.org/html/2303.11341#bib.bibx4)\] shows, the high-end chip production process may be monitorable using a similar approach to the oversight of nuclear fuel production (e.g., continuous video monitoring of key machines).
 
-As long as each country’s new fab can be detected by other countries (e.g., by monitoring the supply chain of lithography equipment), an international monitoring consortium can require the implementation of verification measures at each fab, to provide assurances for all Verifiers. After processing, each wafer produced at a fab is then sent onward for dicing and packaging. Since the facilities required for postprocessing wafers are less concentrated, it is important for the wafers (and later the dies) to be securely and verifiably transported at each step. If these chip precursors ever go missing, responsibility for the violation would lie with the most recent holder. This chain of custody continues until the chip reaches its final owner, at which point the chip’s unique ID is associated with that owner in a _chip owner directory_ trusted by all potential Verifiers and Provers. This ownership directory must thereafter be kept up-to-date, e.g., when chips are resold or damaged.[^note-shavit-22] The continued accuracy of this registry can be validated as part of the same random sampling procedure discussed in Section [3.1](#S3.SS1 "3.1 Chip inspections ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."). As a second layer of assurance, chips could also be discovered by inspecting datacenters, if those datacenters are detectable via other signals \[[4](https://arxiv.org/html/2303.11341#bib.bibx4)\].
+As long as each country’s new fab can be detected by other countries (e.g., by monitoring the supply chain of lithography equipment), an international monitoring consortium can require the implementation of verification measures at each fab, to provide assurances for all Verifiers. After processing, each wafer produced at a fab is then sent onward for dicing and packaging. Since the facilities required for postprocessing wafers are less concentrated, it is important for the wafers (and later the dies) to be securely and verifiably transported at each step. If these chip precursors ever go missing, responsibility for the violation would lie with the most recent holder. This chain of custody continues until the chip reaches its final owner, at which point the chip’s unique ID is associated with that owner in a _chip owner directory_ trusted by all potential Verifiers and Provers. This ownership directory must thereafter be kept up-to-date, e.g., when chips are resold or damaged.[^note-shavit-22] The continued accuracy of this registry can be validated as part of the same random sampling procedure discussed in Section [[#^chip-inspections|3.1]]. As a second layer of assurance, chips could also be discovered by inspecting datacenters, if those datacenters are detectable via other signals \[[4](https://arxiv.org/html/2303.11341#bib.bibx4)\].
 
 Given the high prices and large power and cooling requirements of these ML chips, they are largely purchased by data-center operators. These organizations are well-suited to tracking and reporting transfers of their ML chips, and complying with occasional inspections. Though a small fraction of data-center ML chip purchases are made by individuals, so long as these are a small fraction of chips they may be exempted from the overall monitoring framework.
 
-### 6.2 Trusting secure hardware
+### 6.2 Trusting secure hardware ^trusting-secure-hardware
 
-We require in Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") that each ML chip produced by the semiconductor supply chain is able to provably log traces of its usage. The second goal of supply-chain monitoring is to provide Verifiers with high confidence in the reliability of these on-chip activity-logging mechanisms. This requires ML chip designers to integrate security features into their hardware and firmware designs, especially in ways that make them externally-legible to Verifiers that may not trust the chip-designer. Key priorities include the immutability of the chip’s burned-in ID, the integrity of the hardware-backed mechanism for only booting signed firmware, and the resilience of the on-chip hardware-roots-of-trust to side-channel attacks that could steal the chip’s encryption keys \[[27](https://arxiv.org/html/2303.11341#bib.bibx27), [9](https://arxiv.org/html/2303.11341#bib.bibx9)\] and thus fake its logs.
+We require in Section [[#^on-the-chip|4]] that each ML chip produced by the semiconductor supply chain is able to provably log traces of its usage. The second goal of supply-chain monitoring is to provide Verifiers with high confidence in the reliability of these on-chip activity-logging mechanisms. This requires ML chip designers to integrate security features into their hardware and firmware designs, especially in ways that make them externally-legible to Verifiers that may not trust the chip-designer. Key priorities include the immutability of the chip’s burned-in ID, the integrity of the hardware-backed mechanism for only booting signed firmware, and the resilience of the on-chip hardware-roots-of-trust to side-channel attacks that could steal the chip’s encryption keys \[[27](https://arxiv.org/html/2303.11341#bib.bibx27), [9](https://arxiv.org/html/2303.11341#bib.bibx9)\] and thus fake its logs.
 
 A concern for Verifiers checking the conduct of powerful Provers (e.g., states verifying each others’ ML training runs) is the possibility of supply-chain attacks \[[48](https://arxiv.org/html/2303.11341#bib.bibx48)\], which could enable a Prover to undetectably disable/spoof the ML chips’ logging functionality. Fully mitigating the threat of supply-chain attacks is a major global issue and beyond the scope of this paper. However, one particularly useful step for building trust in ML chip mechanisms’ integrity would be for ML chip designers to use open-source Hardware-Roots-of-Trust. This transparency means that chips’ designs can be validated by untrusting Verifiers to confirm there are no backdoors. For example, Google’s Project OpenTitan has produced such an HRoT \[[31](https://arxiv.org/html/2303.11341#bib.bibx31)\], and many major ML chip designers (Google, Microsoft, NVIDIA, and AMD) have agreed to integrate the Open Compute Project’s “Caliptra” Root of Trust. \[[45](https://arxiv.org/html/2303.11341#bib.bibx45)\]
 
-## 7 Discussion
+## 7 Discussion ^discussion
 
 The described additions to the production and operation of ML training chips, if successfully implemented, would enable untrusting parties (like a government and its domestic companies, or the US and Chinese governments) to verify rules and commitments on advanced ML development using these chips. There are many useful measures that governments and companies could begin taking today to enable future implementation of such a framework if it proved necessary, and that would simultaneously further businesses’ and regulators’ other objectives.
 
 -   •
-    
+
     Chipmakers can include improved hardware security features in their data-center ML chips, as many of these are already hardware security best practices (and may already be present in some ML chips \[[42](https://arxiv.org/html/2303.11341#bib.bibx42)\]). These features are likely to be independently in-demand as the costs of model training increase, and the risk of model theft becomes a major consideration for companies or governments debating whether to train an expensive model that might simply be stolen.
-    
+
 -   •
-    
+
     Similarly, many of the security measures required for this system (firmware and code attestation, encryption/decryption modules, verification of produced models without disclosing training code) would also be useful for “cloud ML training providers”, who wish to prove to security-conscious clients that the clients’ data did not leave the chips, and that the clients’ models did not have backdoors inserted by a third party \[[34](https://arxiv.org/html/2303.11341#bib.bibx34)\]. Procurement programs like the US’s FedRAMP could encourage such standards for government contracts, and thereby incentivize cloud providers and chipmakers to build out technical infrastructure that could later be repurposed for oversight.
-    
+
 -   •
-    
+
     Individual companies and governments can publicly commit to rules on ML development that they would like to abide by, if only they could have confidence that their competitors would follow suit.
-    
+
 -   •
-    
+
     Responsible companies can log and publicly disclose (hashed) training transcripts for their large training runs, and assist other companies in verifying these transcripts using simple heuristic. This would not prove the companies _hadn’t also_ trained undisclosed models, but the process would prove technical feasibility and create momentum around an industry standard for (secure) training run disclosure.
-    
+
 -   •
-    
+
     Companies and governments can build trusted neutral clusters of the sort described in Section [5.2](#S5.SS2 "5.2 Real-world implementation ‣ 5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."). These would be useful for many other regulatory priorities, such as enabling third-party auditors to analyze companies’ models without leaking the model weights. [^note-shavit-23]
-    
+
 -   •
-    
+
     Governments can improve tracking of ML chip flows via supply-chain monitoring, to identify end-users who own significant quantities of ML chips. In the West, such supply-chain oversight is already likely to be a necessary measure for enforcing US-allied export controls.
-    
+
 -   •
-    
+
     Responsible companies can work with nonprofits and government bodies to practice the physical inspection of ML chips in datacenters. This could help stakeholders create best practices for inspections and gain experience implementing them, while improving estimates of implementation costs.
-    
+
 -   •
-    
+
     Researchers can investigate more efficient and robust methods for detecting spoofed training transcripts, which may be useful for in proving that no backdoors were inserted into ML models.
     
 
 For the hardware interventions, the sooner such measures are put in place, the more ML chips they can apply to, and the more useful any verification framework will be. Starting on these measures early will also allow more cycles to catch any security vulnerabilities in the software and hardware, which often require multiple iterations to get right.
 
-### 7.1 Politics of Implementation
+### 7.1 Politics of Implementation ^politics-of-implementation
 
 Given the substantial complexity and cost of a monitoring and verification regime for large-scale ML training runs, it will only become a reality if it benefits the key stakeholders required to implement it. In this last section, we discuss the benefits of this proposal among each of the required stakeholders.
 
 -   •
-    
+
     _The global public_: Ordinary citizens should worry about the concentration of power associated with private companies possessing large quantities of ML chips, without any meaningful oversight by the public. Training run monitoring is a way to make powerful companies’ advanced ML development accountable to the public, and not just the free market. Most importantly, ordinary people benefit from the security and stability enabled by laws and agreements that limit the most harmful applications of large-scale ML systems.
-    
+
 -   •
-    
+
     _Chipmakers and cloud providers_: Absent mechanisms for verifying whether ML chips are used for rule-violating training runs, governments may increasingly resort to banning the sale of chips (or even cloud-computing access to those chips) to untrusted actors \[[5](https://arxiv.org/html/2303.11341#bib.bibx5)\]. By enabling provable monitoring of large-scale ML training runs, chipmakers may reverse this trend and may even be able to resume sales to affected markets.
-    
+
 -   •
-    
+
     _AI companies_: Responsible AI companies may themselves prefer not to develop a particular capability into their products, but may feel they have no choice due to competitive pressure exerted by less-scrupulous rivals. Verifying training runs would allow responsible AI companies to be recognized for the limits they impose on themselves, and would facilitate industry-wide enforcement of best practices on responsible ML development.
-    
+
 -   •
-    
+
     _Governments and militaries_: Governments’ and militaries’ overarching objective is to ensure the security and prosperity of their country. The inability to coordinate with rivals on limits to the development of highly-capable ML systems is a threat to their own national security. There would be massive benefit to a system that enabled (even a subset of) countries to verify each others’ adherence with ML training agreements, and thus to maintain an equilibrium of responsible ML development.
     
 
@@ -364,11 +371,11 @@ Even if only a subset of responsible companies and governments comply with the f
 
 Finally, we highlight that the discussed verification framework requires continuous participation and consent by the Prover. This makes the framework fundamentally non-coercive, and respects national sovereignty much as nuclear nonproliferation and arms control agreements respect national sovereignty. Indeed, the ongoing success of such a system relies on all parties’ self-interest in continuing to live in a world where no one – neither they, nor their rivals – violates agreed guardrails on advanced ML development.
 
-## Acknowledgements
+## Acknowledgements ^acknowledgements
 
 The author would like to thank Tim Fist, Miles Brundage, William Moses, Gabriel Kaptchuk, Cynthia Dwork, Lennart Heim, Shahar Avin, Mauricio Baker, Jacob Austin, Lucy Lim, Andy Jones, Cullen O’Keefe, Helen Toner, Julian Hazell, Richard Ngo, Jade Leung, Jess Whittlestone, Ariel Procaccia, Jordan Schneider, and Rachel Cummings Shavit for their helpful feedback and advice in the writing of this work.
 
-## References
+## References ^references
 
 -   \[1\] Mohd Shahdi Ahmad et al. “Comparison Between Android and iOS Operating System in Terms of Security” In _2013 8th International Conference on Information Technology in Asia (CITA)_, 2013, pp. 1–4 IEEE
 -   \[2\] Yonatan Aumann and Yehuda Lindell “Security Against Covert Adversaries: Efficient Protocols for Realistic Adversaries” In _Theory of Cryptography: 4th Theory of Cryptography Conference, TCC 2007, Amsterdam, The Netherlands, February 21-24, 2007. Proceedings 4_, 2007, pp. 137–156 Springer
@@ -441,19 +448,19 @@ The author would like to thank Tim Fist, Miles Brundage, William Moses, Gabriel 
 -   \[69\] Xiaohua Zhai, Alexander Kolesnikov, Neil Houlsby and Lucas Beyer “Scaling Vision Transformers” arXiv, 2021 DOI: [10.48550/ARXIV.2106.04560](https://dx.doi.org/10.48550/ARXIV.2106.04560)
 -   \[70\] Rui Zhang et al. ““Adversarial Examples” for Proof-of-Learning” In _2022 IEEE Symposium on Security and Privacy (SP)_, 2022, pp. 1408–1422 DOI: [10.1109/SP46214.2022.9833596](https://dx.doi.org/10.1109/SP46214.2022.9833596)
 
-## Appendix A Discussion on future training requirements
+## Appendix A Discussion on future training requirements ^appendix-a
 
-### A.1 Will the most capable ML models require large-scale training?
+### A.1 Will the most capable ML models require large-scale training? ^future-capable-models
 
 This paper’s proposed framework is premised on the assumption that large-scale training is and continues to be a necessary requirement for the most advanced (and thus most dangerous) ML models. There is intense disagreement within the field about how important large-scale training is, and how long that will remain the case.
 
 Many of the recent breakthroughs in machine learning model capabilities, across every domain, have come from increasing the model size or quantity of training data, each of which corresponds to a greater usage of compute \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [21](https://arxiv.org/html/2303.11341#bib.bibx21), [69](https://arxiv.org/html/2303.11341#bib.bibx69)\]. Indeed, some capabilities, such as chain-of-thought reasoning, appear to only emerge at the largest training scales \[[65](https://arxiv.org/html/2303.11341#bib.bibx65)\]. At the same time, any one narrow capability can often be achieved with a much smaller compute budget \[[36](https://arxiv.org/html/2303.11341#bib.bibx36), [35](https://arxiv.org/html/2303.11341#bib.bibx35)\]. Nonetheless, Sutton’s “Bitter Lesson” \[[59](https://arxiv.org/html/2303.11341#bib.bibx59)\] that “general methods that leverage computation are ultimately the most effective” is a frequent diagnosis of the likely future of deep learning. Though algorithmic progress \[[14](https://arxiv.org/html/2303.11341#bib.bibx14)\] and the continued progress of Moore’s Law will continue to reduce the number of chips required for any specific capability, we may compensate by gradually increasing enforcement parameters to work for smaller quantities of specialized compute. At the same time, the increasing investment in compute by frontier AI firms \[[29](https://arxiv.org/html/2303.11341#bib.bibx29), [66](https://arxiv.org/html/2303.11341#bib.bibx66)\] suggests that industry insiders continue to believe that the most capable frontier models — likeliest to yield new capabilities and surface new risks to public safety — are expected to require ever more compute.
 
-### A.2 Will large-scale training continue to require specialized datacenter chips?
+### A.2 Will large-scale training continue to require specialized datacenter chips? ^specialized-datacenter-chips
 
 Nearly all large-scale training runs are executed on high-end datacenter accelerators \[[10](https://arxiv.org/html/2303.11341#bib.bibx10), [25](https://arxiv.org/html/2303.11341#bib.bibx25), [68](https://arxiv.org/html/2303.11341#bib.bibx68)\]. The main difference between these chips and their consumer-oriented counterparts is their much higher inter-chip communication bandwidth (e.g., 900GB/s for the NVIDIA H100 SXM vs. 64GB/s for the NVIDIA GeForce RTX 4090 \[[42](https://arxiv.org/html/2303.11341#bib.bibx42), [41](https://arxiv.org/html/2303.11341#bib.bibx41)\]). This extra bandwidth is today crucial for parallelizing NN training, especially tensor parallelism and data parallelism, which require frequent transfers of large matrices between many chips \[[57](https://arxiv.org/html/2303.11341#bib.bibx57)\]. Organizations doing large-scale training also favor these datacenter chips for other reasons: they are generally more energy efficient, and license requirements often prevent organizations from placing consumer-oriented chips in datacenters\[[38](https://arxiv.org/html/2303.11341#bib.bibx38)\].
 
-Still, recent work has suggested it may be _possible_ to do large-scale training on consumer chips with low interconnect, though with substantial cost and speed penalties\[[67](https://arxiv.org/html/2303.11341#bib.bibx67), [50](https://arxiv.org/html/2303.11341#bib.bibx50)\]. If such methods become feasible for bad actors, then we may need to adjust to a different regulatory model for detecting training activity. Possibilities include focusing on spotting and monitoring datacenters (similar to the IAEA’s work to detect undeclared nuclear facilities \[[19](https://arxiv.org/html/2303.11341#bib.bibx19)\]), or regulating the high-capacity switches that could be necessary to enable fast networking between low-interconnect chips. So long as they can be detected, it may be possible to retrofit consumer chips (e.g. with a permanently-mated host CPU, see Section [4](#S4 "4 On the chip ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")) to enable similar monitoring capabilities.
+Still, recent work has suggested it may be _possible_ to do large-scale training on consumer chips with low interconnect, though with substantial cost and speed penalties\[[67](https://arxiv.org/html/2303.11341#bib.bibx67), [50](https://arxiv.org/html/2303.11341#bib.bibx50)\]. If such methods become feasible for bad actors, then we may need to adjust to a different regulatory model for detecting training activity. Possibilities include focusing on spotting and monitoring datacenters (similar to the IAEA’s work to detect undeclared nuclear facilities \[[19](https://arxiv.org/html/2303.11341#bib.bibx19)\]), or regulating the high-capacity switches that could be necessary to enable fast networking between low-interconnect chips. So long as they can be detected, it may be possible to retrofit consumer chips (e.g. with a permanently-mated host CPU, see Section [[#^on-the-chip|4]]) to enable similar monitoring capabilities.
 
 It is important to note that the current framework _does_ apply in the setting where clusters of chips are split across several datacenters (e.g. multiple cloud providers), so long as these high-end chips are used at each datacenter.
 
@@ -494,9 +501,9 @@ $$
 
 To catch a rule-violating training run snapshot with probability $p$, a Verifier needs to sample no more than $s$ chips in each monitoring period $T_{m}$.
 
-## Appendix C Analysis of prover evasion strategies
+## Appendix C Analysis of prover evasion strategies ^appendix-c
 
-### C.1 Do the Prover’s odds of evasion benefit from training for longer, across fewer chips?
+### C.1 Do the Prover’s odds of evasion benefit from training for longer, across fewer chips? ^evasion-fewer-chips
 
 One concern is that a Prover might manage to evade detection of a large-scale training run by using a smaller number of chips over a long period of time. A hypothesis for why this might be beneficial is that using a smaller number of chips makes the likelihood of any one of them being sampled extremely small. However, if the Prover uses $\frac{c}{k}$ chips, this increases the training run’s length $\times k$, meaning that the number of rounds of sampling similarly increases $\times k$. We explore which of these effects dominates.
 
@@ -520,21 +527,21 @@ Somewhat surprisingly, $p_{d}(k)$ changes very little as $k$ increases, and this
 
 ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring-img2-da6fb69a.png)
 
-Figure 2: Ratio of $p_{d}(k)$ to original $p=p_{d}(1)$, setting $p=0.9$ and varying $k$ from $1$ to $100$ and $b=H/(CaT)$ from $0$ to $0.2$ (where the latter end corresponds to the Prover using 20% of all chips, making such a large-scale training run easily catchable with even a dozen samples). Across all values, the Prover’s reduction in probability of detection is less than 5%, even when training for up to $100\times$ longer.
+Figure 2: Ratio of $p_{d}(k)$ to original $p=p_{d}(1)$, setting $p=0.9$ and varying $k$ from $1$ to $100$ and $b=H/(CaT)$ from $0$ to $0.2$ (where the latter end corresponds to the Prover using 20% of all chips, making such a large-scale training run easily catchable with even a dozen samples). Across all values, the Prover’s reduction in probability of detection is less than 5%, even when training for up to $100\times$ longer. ^figure-2
 
 This means that, for nearly all training run sizes (affecting $b$) and desired Verifier confidence levels $p$, the Prover cannot meaningfully decrease their probability of having their rule-violating training run detected by the Verifier by simply using fewer chips for longer.
 
-### C.2 Do the Prover’s odds of evasion benefit from splitting training across more chips?
+### C.2 Do the Prover’s odds of evasion benefit from splitting training across more chips? ^evasion-more-chips
 
 A Prover may also exploit each chip’s low snapshotting frequency to train across more chips than necessary, with the knowledge that many of the used chips will not contain a single snapshot. Thus, the Verifier might sample more chips that were involved in a rule-violating training run, but never detect their involvement.
 
 However, since the total amount of compute-time stays constant, the total number of snapshots stays constant, and using more chips only _increases_ the probability of detection. We formalize this intuition with the following proof.
 
-###### Theorem 1.
+###### Theorem 1. ^theorem-1
 
 For a given firmware snapshotting frequency $f$ and maximum training time $T$, a Prover executing a rule-violating training run cannot reduce the probability of one of the training run’s snapshots being detected (that is, of having at least one of the Verifier’s sampled chips include a snapshot from the rule-violating training run) by splitting the training run across a greater number of chips, each processing for less time.
 
-###### Proof.
+###### Proof. ^proof-theorem-1
 
 We prove this in the case where training is done for at most one monitoring period $T=T_{m}$. The extension to multiple monitoring periods proceeds automatically.
 
@@ -558,11 +565,11 @@ We want to prove that if the training run uses more chips than necessary $c(t)>c
 
 Let $a=\frac{T}{t}\geq 1$, and let $b=e^{-fT}$. We know $1>b>0$ because $f$ and $T$ are positive.
 
-###### Lemma 1.
+###### Lemma 1. ^lemma-1
 
 If $g\geq 1$ and $1>b>0$, then $f(a)=a\left(1-b^{\frac{1}{g}}\right)-(1-b)\geq 0$.
 
-###### Proof.
+###### Proof. ^proof-lemma-1
 
 $$
 f(0) \\
@@ -598,7 +605,7 @@ Note that this proof applies whether the extra chips are being used simultaneous
 
 While this result might seem to contradict the result from Subsection [C.1](#A3.SS1 "C.1 Do the Prover’s odds of evasion benefit from training for longer, across fewer chips? ‣ Appendix C Analysis of prover evasion strategies ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), the two findings are in fact consistent. The key assumption is that the snapshotting frequency $f$ is high enough for the chips to contain at least one logged snapshot per period $T_{m}$ with high probability. Then Subsection [C.2](#A3.SS2 "C.2 Do the Prover’s odds of evasion benefit from splitting training across more chips? ‣ Appendix C Analysis of prover evasion strategies ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") tells us that using fewer chips reduces the Prover’s probability of detection, and Subsection [C.1](#A3.SS1 "C.1 Do the Prover’s odds of evasion benefit from training for longer, across fewer chips? ‣ Appendix C Analysis of prover evasion strategies ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.") tells us that this decrease in detection is small, and likely not worth it to the Prover given the resulting delay in the training run’s completion.
 
-## Appendix D Logistics for Confidentially Verifying Proofs-of-Training-Transcript
+## Appendix D Logistics for Confidentially Verifying Proofs-of-Training-Transcript ^appendix-d
 
 In this section, we consider the logistical problem of how to verify, for all the Verifier’s observed weight-snapshots from sampled chips, that the Prover has provided authentic training transcript that match each weight-shard. We assume the PoTT verification protocol looks similar to the Proof-of-Learning scheme of \[[24](https://arxiv.org/html/2303.11341#bib.bibx24)\]. Our solution is specifically designed to avoid the Prover ever having to directly reveal the hyperparameters $\mathbb{M}$, training data $\mathbb{D}$, and model weights $\mathbb{W}$ to the Verifier, as in many cases these data are either private or proprietary.
 
@@ -618,7 +625,7 @@ Assuming the training transcript is verified as correct, the Verifier can now co
 [^note-shavit-2]: Throughout the text, we use “ML” to refer to deep-learning-based machine learning, which has been responsible for much of the progress of recent years.
 [^note-shavit-3]: We can always keep the detection threshold the same by cutting $H$ in half. Also, the literature on neural scaling laws \[[25](https://arxiv.org/html/2303.11341#bib.bibx25), [49](https://arxiv.org/html/2303.11341#bib.bibx49), [62](https://arxiv.org/html/2303.11341#bib.bibx62)\] suggests that model loss decreases logarithmically at best given additional compute, so failing to catch a less-than-2x violation may have limited consequences.
 [^note-shavit-4]: For simplicity, we assume $T$ is divisible by $T_{m}$
-[^cite-shavit-5]: We want to estimate the number of inspectors needed to catch a Chinchilla-280B-sized training run, with $10^{25}$ FLOPs, given several more years of hardware progress and global production. Given $C=10^{7}$ worldwide chips ($>5\times$ global stocks as of 2022), each of which can output $a=3\cdot 10^{15}\cdot 86400$ FLOPs per day ($3\times$ more FLOP/s than the NVIDIA H100), detecting a Chinchilla-280B-sized run within $T=30$ days of its completion anywhere on earth with 90% probability would require roughly 232,000 worldwide chip samples per year. A single inspector might be expected to verify at least 1000 chips a year, especially if those chips are brought to a central location (see Section [3.1](#S3.SS1 "3.1 Chip inspections ‣ 3 Solution Overview ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")). This would require $\approx 232$ inspectors, slightly smaller than the 280 active IAEA inspectors as of 2021. \[[39](https://arxiv.org/html/2303.11341#bib.bibx39)\].
+[^note-shavit-5]: We want to estimate the number of inspectors needed to catch a Chinchilla-280B-sized training run, with $10^{25}$ FLOPs, given several more years of hardware progress and global production. Given $C=10^{7}$ worldwide chips ($>5\times$ global stocks as of 2022), each of which can output $a=3\cdot 10^{15}\cdot 86400$ FLOPs per day ($3\times$ more FLOP/s than the NVIDIA H100), detecting a Chinchilla-280B-sized run within $T=30$ days of its completion anywhere on earth with 90% probability would require roughly 232,000 worldwide chip samples per year. A single inspector might be expected to verify at least 1000 chips a year, especially if those chips are brought to a central location (see Section [[#^chip-inspections|3.1]]). This would require $\approx 232$ inspectors, slightly smaller than the 280 active IAEA inspectors as of 2021. \[[39](https://arxiv.org/html/2303.11341#bib.bibx39)\].
 [^note-shavit-6]: These include standard components of a hardware security module: firmware verification and attestation, firmware anti-rollback protection, and the ability to sign, authenticate, and encrypt messages. It also includs the ability for firmware to raise interrupts, read device memory, and (to efficiently hash weight snapshots) execute code on the chip’s processor.
 [^note-shavit-7]: Such hashing can be done cheaply so long as the firmware can leverage the ML chip’s processing power.
 [^note-shavit-8]: Keeping the hash in local NVRAM is useful if the ML chip is in a secure data-center and is restricted from communication with the outside world, such as via air-gapping.
@@ -627,9 +634,9 @@ Assuming the training transcript is verified as correct, the Verifier can now co
 [^note-shavit-11]: Assuming that logging-free versions have been signed in the past, ML chips may need to include anti-rollback functionality \[[28](https://arxiv.org/html/2303.11341#bib.bibx28)\]. The Prover might also delay updating the chip’s firmware until shortly before inspection. To avoid this, ML chips may need to be made to remotely attest at an earlier time that their firmware has been updated.
 [^note-shavit-12]: Additional challenges arise if the Verifier suspects that the chipmaker (who authors the firmware) and Prover have colluded to create firmware with backdoors that disable logging. Increasing Verifiers’ confidence in the firmware may be an important consideration when verifying the operations of powerful nation-state Provers.
 [^note-shavit-13]: It may even be possible to modify standard libraries for generating chip-level ML training code (e.g., PyTorch-generated CUDA) to make their memory allocation processes more easily checkable by a subsequent Verifier.
-[^note-shavit-14]: Revealing the Prover’s source code to the Verifier directly may be unacceptable, demanding a more complicated verification procedure like that described in Section [5.2](#S5.SS2 "5.2 Real-world implementation ‣ 5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.").
+[^note-shavit-14]: Revealing the Prover’s source code to the Verifier directly may be unacceptable, demanding a more complicated verification procedure like that described in Section [[#^real-world-implementation|5.2]].
 [^note-shavit-15]: The iOS App Store uses a similar method to ensure Apple devices only run signed programs \[[1](https://arxiv.org/html/2303.11341#bib.bibx1)\].
-[^note-shavit-16]: Potential avenues for addressing this may include be requiring non-ML-training code compilers to also sign their results, or improving methods for distinguishing between ML training code and other code. If the types of code can be retroactively distinguished, then ML chips could all occasionally save memory/code snapshots, and then retroactively determine whether they belonged to a large-scale training run and thus deserve further scrutiny. One particularly straightforward to address case is ML inference: the model’s in-memory weights could be snapshotted and retroactively verified in a similar way to that described in Section [5](#S5 "5 At the data-center ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.").
+[^note-shavit-16]: Potential avenues for addressing this may include be requiring non-ML-training code compilers to also sign their results, or improving methods for distinguishing between ML training code and other code. If the types of code can be retroactively distinguished, then ML chips could all occasionally save memory/code snapshots, and then retroactively determine whether they belonged to a large-scale training run and thus deserve further scrutiny. One particularly straightforward to address case is ML inference: the model’s in-memory weights could be snapshotted and retroactively verified in a similar way to that described in Section [[#^at-the-data-center|5]].
 [^note-shavit-17]: This might be addressable by having these ML chips’ interconnect topology restricted to prevent their use in large-scale training. However, methods for Verifiers to retroactively confirm the topology that ML chips were configured in at a data-center are beyond the scope of this work.
 [^note-shavit-18]: As a trivial example, the Prover could claim that $\omega$ was simply the value of the random initialization, and no training had happened at the time of the snapshot.
 [^note-shavit-19]: We use “weight checkpoints” as shorthand, but if using an optimizer like Adam \[[26](https://arxiv.org/html/2303.11341#bib.bibx26)\], the optimizer state should also be included.
@@ -637,6 +644,6 @@ Assuming the training transcript is verified as correct, the Verifier can now co
 [^note-shavit-21]: Maintaining such compatible training clusters may prove quite challenging. One desirable direction for future work is in verification methods by which the Verifier does not need to directly reexecute model training. For example, it may be possible for the Verifier to interactively query the Prover for additional information on segments of the training run beyond what was included in the training transcript. There may be queries that have valid answers _only if_ the original training transcript was authentic (e.g., a series of weight sub-checkpoints between two checkpoints, each with progressively lower loss), and the Prover could dynamically recompute answers to these queries using their own data-center. While some properties of the verification would still need to be confirmed using a neutral cluster to maintain the confidentiality of the query-responses, such clusters may not need to be equipped for large-scale training, and thus be much easier to maintain.
 [^note-shavit-22]: In the rare scenario where a large number of chips owned by the same Prover are lost or destroyed beyond recognition, the Verifier or international consortium can launch an investigation to determine whether the Prover is lying to evade oversight.
 [^note-shavit-23]: For similar reasons, the US Census Bureau operates secured Federal Statistical Research Data Centers to securely provide researchers access to sensitive data \[[8](https://arxiv.org/html/2303.11341#bib.bibx8)\].
-[^note-shavit-24]: There are two edge cases. First, the Prover could choose to use extra chips and thus shrink $T<T_{m}$. However, in Appendix [C.2](#A3.SS2 "C.2 Do the Prover’s odds of evasion benefit from splitting training across more chips? ‣ Appendix C Analysis of prover evasion strategies ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111."), we show this would not improve the likelihood of avoiding detection due to a snapshot not being included. The other edge case is when $T$ is not perfectly divisible by $T_{m}$, leading to the first round of samples occurring when each chip has participated in the training run for less than $T_{m}$ time. This means that the likelihood of each sample in that round containing a snapshot is slightly reduced, thus reducing the likelihood of detection in that round, and therefore of detection at any of the $T/T_{m}$ periods of the training run. At worst, this creates a delay of one extra monitoring period $T_{m}$ after the training run ended, since each sample from that $\lceil T/T_{m}\rceil$’th period is just as likely to contain a snapshot as the other periods. That’s because the weight snapshots remain on the chip even after the training run has ended. We exclude this one-period fudge factor from our notation for brevity.
+[^note-shavit-24]: There are two edge cases. First, the Prover could choose to use extra chips and thus shrink $T<T_{m}$. However, in Appendix [[#^evasion-more-chips|C.2]], we show this would not improve the likelihood of avoiding detection due to a snapshot not being included. The other edge case is when $T$ is not perfectly divisible by $T_{m}$, leading to the first round of samples occurring when each chip has participated in the training run for less than $T_{m}$ time. This means that the likelihood of each sample in that round containing a snapshot is slightly reduced, thus reducing the likelihood of detection in that round, and therefore of detection at any of the $T/T_{m}$ periods of the training run. At worst, this creates a delay of one extra monitoring period $T_{m}$ after the training run ended, since each sample from that $\lceil T/T_{m}\rceil$’th period is just as likely to contain a snapshot as the other periods. That’s because the weight snapshots remain on the chip even after the training run has ended. We exclude this one-period fudge factor from our notation for brevity.
 [^note-shavit-25]: Of course, these restrictions must be retroactively verifiable using the training transcript, as otherwise the Prover might simply not comply.
 [^note-shavit-26]: This info could be proven to the Verifier securely and privately, for example by using standard ZK-SNARK proof tools to confirm that two given hashes correspond to vectors that have a given $L_{2}$ distance between them.

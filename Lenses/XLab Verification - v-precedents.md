@@ -1,13 +1,16 @@
 ---
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
-title: "0.3 History, Precedents, Parallels"
+title: "History, Precedents, Parallels"
 tldr: "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared. Read three short documents and work out what that means for a regime that counts AI chips."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
-tags: [wip]
-duration_minutes: 60
+duration_minutes: 75
 ---
 #### Text
 content::
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+Reconstruct the causal logic of a historical verification regime, from what it observes to the compliance judgement it licenses, and determine which parts of that logic transfer to AI treaty verification and which do not.
+:::
+
 \### Document 1. The Object and Scope of IAEA Safeguards
 
 The following excerpts describe the legal commitment underlying comprehensive safeguards and the object against which compliance is assessed.
@@ -47,7 +50,7 @@ Yonadav Shavit (2023) | CC BY 4.0
 #### Article
 source:: [[../articles/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring]]
 from:: ### 1.1 Contributions
-to:: The system is compatible with many different rules on training runs (see Section [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
+to:: Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
 
 #### Text
 content::
