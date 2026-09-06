@@ -1,13 +1,16 @@
 ---
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
-title: "0.1.2 We Need More Theories of Change"
+title: "We Need More Theories of Change"
 tldr: "Congress cancelled a $11B collider because nobody could say why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world; if you cannot state it, neither can the people deciding whether to fund or act on your work."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise asks the learner to fill an eight-box theory-of-change table for a real AI safety organization; check outputs vs outcomes and if-then links."
-tags: [wip]
-duration_minutes: 6
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise asks the learner to map a real AI safety organization's six-stage theory-of-change pathway, then identify its assumptions and external factors; check outputs vs outcomes and if-then links."
+duration_minutes: 10
 ---
 #### Text
 content::
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+Judge whether a stated theory of change is good and workable: where its outputs are mislabelled as outcomes, where a link is not an if-then claim, and which unstated assumptions the chain depends on.
+:::
+
 \## Why are theories of change important?
 
 How exactly does your project contribute to making the world a better place? This seems like an obvious question for researchers to be able to answer, especially those working in high-impact areas like AI safety. But it can be concerningly easy to handwave a fuzzy “good impact” to justify all sorts of work. This risks obfuscating truly useful projects as indistinguishable from those that only appear to be so at first glance.
@@ -36,16 +39,15 @@ Being able to clearly communicate your theory of change is almost as, if not mor
 
 So, what does a good AI safety theory of change actually look like? This table maps out all the important elements of a robust theory of change:
 
-| Element | Question | What goes here |
-|---|---|---|
-| Inputs | What do we need? | Resources, people |
-| Outputs | What do we do? | Activities |
-| Outputs | Who do we reach? | New audience, collaborators |
-| Outcome (short-term) | What changes first? | Knowledge increased |
-| Outcome (intermediate) | What changes next? | Behavior changed, decision-making done |
-| Outcome (long-term) | What is different in the end? | Conditions changed |
-| Assumptions | What must hold for the chain to work? | Internal / testable |
-| External factors | What is outside your control? | External / undefined |
+| Inputs | Outputs | Outputs | Outcome | Outcome | Outcome |
+|---|---|---|---|---|---|
+| What do we need? | What do we do? | Who do we reach? | What changes first? | What changes next? | What is different in the end? |
+| *Resources, people* | *Activities* | *New audience, collaborators* | *Knowledge increased* | *Behavior changed, decision-making done* | *Conditions changed* |
+
+| Assumptions | External factors |
+|---|---|
+| What must hold for the chain to work? | What is outside your control? |
+| *Internal / testable* | *External / undefined* |
 
 A useful strategy is backchaining: start by specifying the long-term goal, then work backwards. What has to change for this outcome to be possible? How does your project contribute to creating those conditions? Each link in the chain should be an if-then claim. If we publish this benchmark, then labs will adopt it. If labs adopt it, then training procedures will incorporate the findings. If training procedures change, then deployed models will be safer, and “safer” here has to mean something specific: reward hacking rates, deception probes, behavior under distribution shift.
 
@@ -61,7 +63,7 @@ A simple test to check if you are clear enough is to try explaining the project 
 
 ![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/XLabTracks/tracks/main/public/verification/assets/theories-of-change/slow-food-theory-of-change.png)
 
-Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
+Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.
 :::
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs, such as a well-cited paper, a popular benchmark, or a successful conference, without any clarity as to how it actually creates change in the world.
@@ -72,19 +74,19 @@ Now that you’ve seen some exemplary examples of robust theories of change, try
 
 #### Question: Open
 id:: dc502432-39f8-4a75-99ff-e43532b1ed5d
-content:: Optional: Name your organization, then fill in each of the eight boxes of its theory of change:
+content:: Optional: Name your organization. Then map its six-stage theory-of-change pathway and identify the conditions around it:
 
-1. **Inputs / What do we need?** (resources, people)
-2. **Outputs / What do we do?** (activities)
-3. **Outputs / Who do we reach?** (new audience, collaborators)
-4. **Outcome / Short-term** (knowledge increased)
-5. **Outcome / Intermediate** (behavior changed, decision-making done)
-6. **Outcome / Long-term** (conditions changed)
-7. **Assumptions** (internal / testable)
-8. **External factors** (external / undefined)
-placeholder:: Organization: ... 1. Inputs: ... 2. Activities: ...
+- **Inputs / What do we need?** (resources, people)
+- **Outputs / What do we do?** (activities)
+- **Outputs / Who do we reach?** (new audience, collaborators)
+- **Outcome / Short-term** (knowledge increased)
+- **Outcome / Intermediate** (behavior changed, decision-making done)
+- **Outcome / Long-term** (conditions changed)
+- **Assumptions** (internal / testable)
+- **External factors** (external / undefined)
+placeholder:: Organization: ... Inputs: ... Activities: ...
 optional:: true
-assessment-instructions:: Check that all eight boxes are filled for a named organization, that outcomes describe what changed in the world rather than products produced (outputs vs outcomes distinction), and that assumptions are stated as testable if-then links. Score by completeness and by whether each box holds the right kind of content.
+assessment-instructions:: Check that the learner names an organization, maps all six stages of its theory-of-change pathway, and identifies its assumptions and external factors. Outcomes must describe what changed in the world rather than products produced, and assumptions must be stated as testable if-then links. Score completeness and whether each part holds the right kind of content.
 feedback-instructions:: Point out any box where an output was written as an outcome, and any link in the chain that is not an if-then claim. One useful follow-up question. No generic praise.
 
 #### Text
@@ -114,4 +116,4 @@ Slow Food USA. "Our Theory of Change." [slowfoodusa.org](https://slowfoodusa.org
 
 XLab. "0.1.2 We Need More Theories of Change." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)
 *The source lesson this page adapts.*
-:::{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}
+:::

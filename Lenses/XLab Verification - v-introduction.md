@@ -1,19 +1,15 @@
 ---
 id: '52565ea0-6760-498e-85b5-850bcc48ccf3'
-title: "0.1 Introduction: Why Should You Care About AI Verification?"
+title: "Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-ai rings, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
-tags: [wip]
-duration_minutes: 25
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. XLab's interactive widgets (types-of-AI levels, leader profiles, verification-problem, landscape map) are rendered here as text plus choice questions; only the Our World in Data charts remain external."
+duration_minutes: 50
 ---
 #### Text
 content::
 :::callout {title="By the end of this module, you will be able to:" tone="blue"}
 1. Explain why ASI development constitutes an existential risk, why it produces arms-race incentives that individual state preferences cannot overcome, and why only a robust verification regime materially mitigates ASI risk.
 2. Explain why successful prevention is invisible, and why that makes the risk psychologically easy to dismiss.
-3. Discern what makes a good, workable theory of change.
-4. Interrogate a concrete verification proposal and identify its general strengths, failure modes, and assumptions it depends on—then form a coherent, defendable position on it.
-5. Reconstruct the causal logic of a historical verification regime and determine which parts of that logic can and cannot be transferred to AI treaty verification.
 :::
 
 #### Video
@@ -24,7 +20,7 @@ content::
 :::callout {title="Optional: Further Reading" tone="neutral" collapse="closed"}
 The case at full strength, from the people who argue it most directly. Any one of these:
 
-::card[[../Lenses/AI Is Grown, Not Built]]
+::card[[../Lenses/XLab Verification - v-ai-is-grown]]
 
 ::card[[../Lenses/Four Background Claims]]
 :::
@@ -34,6 +30,7 @@ id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
 In a short written note, construct the strongest objection you can to the case above, and state what would change your mind, in either direction.
+assessment-instructions:: Score three things, roughly a third each: (1) the objection attaches to a named claim from the video or the linked readings rather than to advanced AI risk in general; (2) it gives the mechanism by which that claim fails, not a competing assertion; (3) both falsifiers are stated, what would move the learner toward the case and what would move them away, rather than only one. An objection to the inference drawn from a claim earns as much as an objection to the claim itself. Do not score the learner's position, only whether the three parts are there. No generic praise.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
@@ -85,52 +82,19 @@ Because we cannot separate dangerous capabilities from beneficial ones, we will 
 A key property of ASI would be recursive self-improvement, or RSI. A model capable of RSI would be able to autonomously and exponentially improve itself, leading to unstoppable, runaway systems that humans can no longer control. Throughout this course, we will use the term ASI to refer to AI with dangerous capabilities that pose a material existential threat to humanity.
 
 :::callout {title="Optional: The Types of AI" tone="neutral" collapse="closed"}
-Where does today's AI sit? Each ring contains the next; a system sits at the deepest ring it belongs to.
+Where does today's AI sit? These levels move from broad labels to more specific types. They describe what kind of system something is, not how capable it is. A system can fit several levels; choose the most specific one that applies.
 
 1. **AI**: the whole field, any system built to do things we would call intelligent.
-2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Roomba (sensors and fixed rules, no learning from data), Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
+2. **Narrow AI**: built for one task or a narrow set of them. Everything that actually exists today lives here. Examples: Boeing autopilot (engineered control laws), IBM Deep Blue (brute-force search plus hand-crafted evaluation), Word spell checker (dictionary and rules).
 3. **Machine Learning**: systems that learn patterns from data instead of being programmed rule by rule. Examples: Amazon's early spam filter, Chase credit scoring, JPMorgan fraud flagging (statistical models fit to historical data, no deep network).
 4. **Deep Learning**: machine learning with many-layered neural networks that learn their own features. Examples: Apple Photos recognition, Azure Speech to Text, FaceID (all discriminative, not generative).
-5. **Generative AI**: deep-learning systems that create new content. Examples: Midjourney, Sora, Suno, Adobe Firefly (generate images, video, or audio; not language models).
-6. **Large Language Model**: generative models that specialise in language. Examples: Mamba (state-space architecture), RWKV (recurrent architecture); LLMs that are not transformers.
+5. **Generative AI**: deep-learning systems that create new content. Examples: Sora, Suno, and Adobe Firefly (generate video, audio, or images; not language models).
+6. **Large Language Model**: generative models that specialise in language. Example: RWKV, a recurrent LLM that is not a transformer.
 7. **Transformer LLMs**: language models built on the transformer (attention) architecture, today's mainstream. Examples: Claude, ChatGPT, Gemini, LLaMA.
 
-Beyond these rings: non-narrow AI is theoretical only right now (no real non-narrow AI models are known), and some regions are theoretically possible but would require an absurd quantity of resources.
+Beyond these levels: non-narrow AI remains theoretical; no real non-narrow AI models are known.
 
 :::
-
-#### Question: Choice
-id:: a461d157-f6b2-416b-9c61-28b2bf2be861
-content:: Optional: Which is the deepest ring a Roomba belongs to?
-options::
-- [x] Narrow AI
-- Machine Learning
-- Deep Learning
-- Generative AI
-optional:: true
-feedback-instructions:: Roomba navigates with sensors and fixed rules. It does not learn from data, so it is narrow AI but not machine learning. Explain in one or two sentences.
-
-#### Question: Choice
-id:: 0594a403-1d2a-4203-9cc7-7bce55333971
-content:: Optional: Which is the deepest ring Midjourney belongs to?
-options::
-- Deep Learning
-- [x] Generative AI
-- Large Language Model
-- Transformer LLMs
-optional:: true
-feedback-instructions:: Midjourney generates images via diffusion. It is generative but not a language model. Explain in one or two sentences.
-
-#### Question: Choice
-id:: 9b3a4fa5-89e9-48fb-bab9-64abe13334d2
-content:: Optional: Which is the deepest ring Mamba belongs to?
-options::
-- Deep Learning
-- Generative AI
-- [x] Large Language Model
-- Transformer LLMs
-optional:: true
-feedback-instructions:: Mamba is a large language model that is NOT a transformer. It uses a state-space architecture instead of attention. Explain in one or two sentences.
 
 #### Text
 content::
@@ -218,23 +182,23 @@ Most notably, over 1,300 employees of frontier AI companies have signed a public
 
 Four of them, on why they signed:
 
-**Ilya Sutskever**, CEO, Safe Superintelligence Inc.
-
+:::callout {title="Ilya Sutskever, CEO, Safe Superintelligence Inc." tone="neutral"}
 Future AI will be extraordinarily powerful compared to anything that exists today, and dealing with this future power will require unprecedented measures, such as the ones described here. The problem statement is real.
 
 This works only if it is done internationally, and it has to be done well: a bad implementation can make things worse.
+:::
 
-**Jasjeet Sekhon**, Chief Strategy Officer, Google DeepMind
-
+:::callout {title="Jasjeet Sekhon, Chief Strategy Officer, Google DeepMind" tone="neutral"}
 We have found a way to turn energy into compute, and compute into intelligence. The benefits will be enormous, from curing diseases to understanding the cosmos. We can capture the benefits of the coming intelligence explosion while managing its risks, but only if we build the tools to pace the frontier of the riskiest capabilities before we need them, so we protect people and keep the social trust that innovation depends on. I believe smart technical and governance tools will be needed to sustain rapid innovation, vigorous competition, and robust safety.
+:::
 
-**John Schulman**, Chief Scientist, Thinking Machines
-
+:::callout {title="John Schulman, Chief Scientist, Thinking Machines" tone="neutral"}
 Signed because this statement helps establish common knowledge about the possible need for coordination mechanisms as automated AI research accelerates progress. I’d also like to see labs start designing these mechanisms voluntarily, even before the USG gets involved.
+:::
 
-**Micah Carroll**, Misalignment Preparedness, OpenAI
-
+:::callout {title="Micah Carroll, Misalignment Preparedness, OpenAI" tone="neutral"}
 At the current pace, every couple of weeks there will be new models which significantly increase the consequences of model misuse and misalignment. I worry that efforts to mitigate these risks may fail to keep up with the pace of development, and that margins for error will become increasingly small under international competitive pressures. In the near future, we may urgently want to enact an internationally coordinated slowdown, or an indefinite ban on AI development. Attempting to build the trust and infrastructure for taking such actions on short notice seems simply prudent – why would we not at least try to have this option? I fear that in an international race to the bottom of AI development, it is likely that no nation will win, and we will all lose together.
+:::
 
 Source: [Pacing the Frontier](https://www.pacingthefrontier.com/), signatory comments.
 
@@ -250,7 +214,7 @@ How fast is fast? Two charts from Our World in Data's [brief history of artifici
 Charts: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data (CC BY). Underlying benchmark data from Kiela et al., 2023. Interactive versions on the linked page.
 :::
 
-{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
+
 
 #### Text
 content::
@@ -268,39 +232,20 @@ Domestic policy, while essential, therefore cannot answer every important questi
 
 The United States and China each have reasons to worry that an agreement could constrain its own development while leaving the other side free to advance. But some of history’s most consequential international institutions were created precisely because states remained competitors: the U.S. and Soviet Union successfully averted nuclear war, despite being staunch political enemies. But in this state of competition and distrust, how do rivals enforce such agreements?
 
-#### Question: Choice
-id:: 9c846d52-01fb-4a6e-8cf1-cdebe099a0d3
-content::
-\### Two rivals. One treaty. Zero trust.
-
-Two adversarial states have signed a mutual agreement limiting a dangerous technology. Neither believes the other for a second.
-
-How do you know the other party will uphold its obligations, and how does it know you will follow yours? Pick the answer you think holds.
-options::
-- Trust: a handshake, a signature and a promise kept on honor alone.
-- Punish violations: sanctions, retaliation and consequences severe enough to deter misconduct.
-- Mutual transparency: open the books, show the facilities and publish the research.
-- [x] Neutral, privacy-preserving verification mechanisms: prove compliance without surrendering the secrets around it.
-feedback-instructions:: Tell the learner the outcome of the option they chose, using the source verdicts. Trust collapses: works with friends, not with nation-state adversaries incentivized to gain a secret upper hand. Punishment arrives too late: deterrence depends on reliably tracking each party's actions, and an ex-post regime fails when consequences are immediate, far-reaching, and irreversible; no fine can bring back the dead. Transparency backfires: disclosure risks theft of proprietary information or prototypes, and each party is still incentivized to develop a secret advantage and fabricate compliance. Verification holds: if each party can verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Two to four sentences, no praise.
-
-#### Text
-content::
-Test each answer:
-
-:::callout {title="Trust?" tone="neutral" collapse="closed"}
-**It collapses.** You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
+:::callout {title="Trust?" tone="neutral"}
+You could trust each other, and trust each other's trust. Works with friends, but not with nation-state adversaries incentivized to self-protect by gaining the secret upper hand, and especially not when dealing with the development of high-risk technologies.
 :::
 
-:::callout {title="Punish violations?" tone="neutral" collapse="closed"}
-**It arrives too late.** In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
+:::callout {title="Punish violations?" tone="neutral"}
+In the absence of trust, they could penalize violations of the agreement and preempt misconduct. But deterrence depends upon the reliability of tracking each party's actions. Moreover, an ex-post regime fails when consequences are immediate, far-reaching, and irreversible: no fine can bring back the dead.
 :::
 
-:::callout {title="Mutual transparency?" tone="neutral" collapse="closed"}
-**It backfires.** They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
+:::callout {title="Mutual transparency?" tone="neutral"}
+They could mutually disclose actions, but increased transparency risks theft of proprietary information or prototypes by adversaries. Each party is still incentivized to develop a secret advantage and fabricate compliance.
 :::
 
-:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral" collapse="closed"}
-**It holds.** What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing they can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
+:::callout {title="Neutral, privacy-preserving verification mechanisms?" tone="neutral"}
+It holds. What if you could mutually verify compliance without risking undue loss of privacy? If each party could verify the other's compliance without learning their secrets, knowing the other can do the same, they have fewer material incentives to dodge compliance. Verification displaces the impossible promise of trust in a volatile adversary toward trust in a shared, robust verification regime.
 :::
 
 #### Text
@@ -407,5 +352,5 @@ Roser, Max. "The Brief History of Artificial Intelligence: The World Has Changed
 XLab. "0.1 Introduction: Why Should You Care About AI Verification?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/introduction)
 *The source lesson this page adapts, including the leader profiles, the verification-problem exercise, and the landscape map.*
 :::
-{>>{"author":"Elias's AI","timestamp":1788009450337}@@Proposed: drop per-lesson XLab source footer.<<}
+
 

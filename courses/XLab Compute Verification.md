@@ -1,14 +1,15 @@
 ---
 id: '2e6bcfb5-ffc1-4274-a9eb-0dbe3524eb4d'
-slug: compute-verification
-slug-aliases: [ai-verification-full-course, xlab-compute-verification, ai-verification]
+slug: compute-verification-outdated
 title: "Compute Verification"
 description: "How could rival states check that each other actually stopped? A five-module course on making international AI agreements verifiable: why verification matters, what a treaty must cover and whom it binds, the hardware, cloud, intelligence, and human evidence streams, how a determined adversary evades them, and a capstone that designs a regime for a three-month emergency pause."
 partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks) %%
+%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
+
+Superseded: this five-module cut does not fit a five-week run. The current cut is the Part 1 course (slug ai-verification-1), with Part 2 and the capstone to follow. This course stays reachable at its own slug for anyone holding an old link. %%
 
 # Module: [[../modules/XLab Verification Overview]]
 intro-form:: true

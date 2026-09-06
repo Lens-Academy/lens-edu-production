@@ -1,13 +1,16 @@
 ---
 id: '128dc22b-db3d-4a02-80b8-939682746c85'
-title: "0.3 History, Precedents, Parallels"
+title: "History, Precedents, Parallels"
 tldr: "IAEA inspectors did their job perfectly in Iraq and still missed a bomb program next door, because you can only audit what was declared. Read three short documents and work out what that means for a regime that counts AI chips."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Three source documents, then five packet tasks: Task 5 is required, Tasks 1 to 4 optional (learner does at least one). Model answers and Baker (2023) excerpts are reveal material: share them only after the learner has answered."
-tags: [wip]
-duration_minutes: 60
+duration_minutes: 75
 ---
 #### Text
 content::
+:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+Reconstruct the causal logic of a historical verification regime, from what it observes to the compliance judgement it licenses, and determine which parts of that logic transfer to AI treaty verification and which do not.
+:::
+
 \### Document 1. The Object and Scope of IAEA Safeguards
 
 The following excerpts describe the legal commitment underlying comprehensive safeguards and the object against which compliance is assessed.
@@ -247,7 +250,7 @@ Evaluate this conclusion using all three documents. Your answer must:
 1. identify the strongest valid parallel between nuclear safeguards and the proposed AI regime;
 2. identify the step in the argument placed under greatest pressure by the Iraq case;
 3. explain why that problem cannot be solved merely by inspecting registered chips more frequently;
-4. replace the original conclusion with a narrower claim that the evidence supports.{>>{"author":"Elias's AI","timestamp":1788014586406}@@Order note: the "Works cited" segment currently lands before the Task 5 reveal callouts; move it to the very end of the lens when accepting.<<}
+4. replace the original conclusion with a narrower claim that the evidence supports.
 assessment-instructions:: Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
 feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
 
@@ -295,5 +298,5 @@ Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties.
 XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
 *The source lesson this page adapts, including the five tasks and their model answers.*
 :::
-{>>{"author":"Elias's AI","timestamp":1788009463303}@@Proposed: drop per-lesson XLab source footer.<<}
+
 

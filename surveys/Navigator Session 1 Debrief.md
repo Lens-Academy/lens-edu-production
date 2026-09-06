@@ -4,7 +4,9 @@ title: Navigator Session 1 Debrief
 ---
 
 #### Text
-content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.\n\nBe blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
+content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.
+
+Be blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
 #### Text
 content:: — The run sheet —
@@ -167,4 +169,6 @@ key:: anything_else
 content:: Anything else we should change before next week?
 
 #### Text
-content:: — Grow the crew —\n\nNavigating gets better with more good people in the rotation. If someone comes to mind, grab your referral link at [lensacademy.org/referrals](https://lensacademy.org/referrals). It is tagged to you, so we know who to thank.
+content:: — Grow the crew —
+
+Navigating gets better with more good people in the rotation. If someone comes to mind, grab your referral link at [lensacademy.org/referrals](https://lensacademy.org/referrals). It is tagged to you, so we know who to thank.
