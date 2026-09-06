@@ -50,7 +50,7 @@ Yonadav Shavit (2023) | CC BY 4.0
 #### Article
 source:: [[../articles/shavit-what-does-it-take-to-catch-a-chinchilla-verifying-rules-on-large-scale-neural-network-training-via-compute-monitoring]]
 from:: ### 1.1 Contributions
-to:: The system is compatible with many different rules on training runs (see Section [2.1](#S2.SS1 "2.1 What types of rules can we enforce by monitoring ML training? ‣ 2 The Problem: Detecting Violations of Large-Scale ML Training Rules ‣ A template for Arxiv Style Citation: Authors. Title. Pages…. DOI:000000/11111.")), including those based on the total chip-hours used to train a model, the type of data and algorithms used, and whether the produced model exceeds a performance threshold on selected benchmarks. To serve as a foundation for meaningful international coordination, the framework aspires to reliably detect violations of ML training rules _even in the face of nation-state hackers attempting to circumvent it_. At the same time, the system does not force ML developers to disclose their confidential training data or models. Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
+to:: Also, as its focus is restricted to specialized data-center chips, the system does not affect individuals’ use of their personal computing devices.
 
 #### Text
 content::
@@ -250,7 +250,7 @@ Evaluate this conclusion using all three documents. Your answer must:
 1. identify the strongest valid parallel between nuclear safeguards and the proposed AI regime;
 2. identify the step in the argument placed under greatest pressure by the Iraq case;
 3. explain why that problem cannot be solved merely by inspecting registered chips more frequently;
-4. replace the original conclusion with a narrower claim that the evidence supports.
+4. replace the original conclusion with a narrower claim that the evidence supports.{>>{"author":"Elias's AI","timestamp":1788014586406}@@Order note: the "Works cited" segment currently lands before the Task 5 reveal callouts; move it to the very end of the lens when accepting.<<}
 assessment-instructions:: Model answer. (1) Strongest parallel: verified accountancy of a controlled, mandatory input, carried by a duty on the holder to declare it and accept verification (Document 1 places all nuclear material under safeguards; Document 2 requires every chip be accounted for and a sufficient subset's logs inspected). The parallel is accountancy of an input, not resemblance between uranium and chips. (2) Step under pressure: the move from "inspection of registered chips found no violation" to "no prohibited development is occurring", which requires the declaration to be complete; Document 3 shows completeness was absent in Iraq. (3) Why frequency cannot fix it: the defect is in the population, not the sampling rate; an unregistered chip is not in the frame the sample is drawn from, so no frequency reaches it; Document 3's own answer was a different instrument, information from states. (4) Narrower claim: where highly compute-intensive AI development requires large quantities of accounted-for specialised chips, chip registration, tamper-evident logging and inspection may provide reliable assurance that covered chips at declared locations have not been used in prohibited training; this does not by itself establish the absence of prohibited development using unregistered chips, undeclared facilities, commodity hardware, or other unmonitored inputs. Score each of the four parts at 25 points. Require that the narrowed claim actually restricts scope (covered chips, declared locations) rather than merely hedging.
 feedback-instructions:: Go part by part: which of the four were sound, which were missing or overbroad. Then share Baker (2023) as reveal material: §6.1's conclusion is deliberately narrow (hardware-based verification of rules on highly compute-intensive AI development; chip-based verification cannot address all important risks from AI); Appendix A's similarities and differences; and Appendix G.8's final line, worded exactly: "methods that have been widely used for nuclear arms control verification can be adapted to create a reliable system for verifying accounts of AI chips". Verifying accounts of AI chips, not verifying the absence of all prohibited AI development. That is the properly limited conclusion. No generic praise.
 
@@ -298,5 +298,5 @@ Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties.
 XLab. "0.3 History, Precedents, Parallels." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/precedents)
 *The source lesson this page adapts, including the five tasks and their model answers.*
 :::
-
+{>>{"author":"Elias's AI","timestamp":1788009463303}@@Proposed: drop per-lesson XLab source footer.<<}
 
