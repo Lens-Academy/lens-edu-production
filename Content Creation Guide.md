@@ -56,6 +56,18 @@ The actual learning content. A Lens combines:
 - Introductory text (context for the student)
 - An AI chat discussion (to check understanding and explore ideas)
 
+### Ids are how we recognise a student's work
+
+Every module, lens and question carries an `id::`. That id is the only thing tying a student to what they already did: their completions, their answers, their scores and what the course lets them move past all hang off it. Titles, slugs and file names can change freely; an id cannot.
+
+So when you re-cut a course — split it in two, rebuild it around a new schedule, lift a week into another course — reuse the existing files and their ids. A course file lists modules by reference, and two courses can list the same module, so sharing is the normal case and copying is not.
+
+**Never copy a file and generate new ids for content that is the same content.** A copy does not read as a variant to the platform, it reads as something nobody has ever seen: everyone who finished the original is shown it as unfinished, and their answers stay in the database attached to the id you left behind. This has happened: a five-week re-cut shipped as fresh copies in September 2026 and eighty students in two running cohorts were asked to redo an intake form they had already completed, on the morning of their first meeting.
+
+Generate a new id only when the content genuinely became different content, which is the same test you would apply to deciding it is a different lens.
+
+When you restructure a course, check the ids before it ships: the old and new lens ids should overlap as much as the content actually stayed the same. Zero overlap on a re-cut means files were copied.
+
 #### Using templates
 See [[Obsidian Setup#Using Templates]]
 
@@ -310,7 +322,7 @@ optional:: true
 - `source::` — links to another file
 - `content::` — text content
 - `optional::` — marks something as not required
-- `id::` — identifier for a section within a file
+- `id::` — identifier for a section within a file. Never change it, and never reuse it for different content; see [[#Ids are how we recognise a student's work]]
 
 ### Wikilinks
 
