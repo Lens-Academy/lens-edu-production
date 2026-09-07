@@ -1,0 +1,118 @@
+---
+id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
+title: "Accounting for hardware: identity, location, topology, and completeness"
+tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams."
+duration_minutes: 20
+---
+#### Text
+content::
+\### 2.1.3 Accounting for hardware: identity, location, topology, and completeness
+
+A registry of covered accelerators can support several verification tasks. It can link a device credential to an owner, facility, jurisdiction, and reporting obligation. It can also make discrepancies visible when manufacturer, shipping, customs, provider, or site records disagree.
+
+A registry is not a sensor. It is an institutional record whose value depends on how entries are created and reconciled.
+
+Read O’Gara et al.’s overview of hardware-enabled verification mechanisms.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.1 Overview and scope ^2-1-overview-and
+to:: While this is not an exhaustive list, these mechanisms represent promising tools to enhance the governance of advanced AI systems and create incentives for international collaboration on AI safety.
+
+#### Text
+content::
+\#### Identity
+
+A device credential can help a verifier distinguish a genuine covered device from an unauthenticated substitute. The verifier still needs to know:
+
+- Who created or certified the identity;
+- Whether duplicate or counterfeit credentials are detectable;
+- How ownership transfers are recorded;
+- How lost, damaged, exported, or scrapped devices are handled;
+- How legacy and nonparticipating hardware enters the regime;
+- What evidence links the credential to the physical device being inspected.
+
+Identity is a useful anchor for evidence from other mechanisms. It does not establish location, interconnection, use, or completeness.
+
+\#### Location
+
+Location-verification proposals often use network timing or challenge-response measurements. A verifier sends unpredictable challenges and checks whether response times are consistent with the claimed region. Such protocols may make some forms of remote spoofing costly, but they depend on secure time, protected processing, network conditions, calibration, and a tolerable false-positive rate. Hardware-governance surveys continue to treat robust, scalable location verification as an open research area rather than a fielded treaty capability.
+
+:::callout {title="Source" tone="neutral" collapse="closed"}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.
+:::
+
+A location claim should therefore state its resolution and error model. “Inside Country A,” “inside this data center,” and “inside this rack” are different claims.
+
+\#### Cluster topology
+
+A collection of individually authenticated devices is not automatically a cluster. A verifier may need to establish:
+
+- Which devices were connected;
+- Which interconnects and switches were used;
+- Whether the configuration changed during the reporting period;
+- Whether the workload was split across declared and undeclared devices;
+- Whether the cluster definition aggregates sequential, distributed, or cross-site activity.
+
+Current attestation support illustrates the distinction. Some configurations can report more about protected interconnects, while others attest devices independently. The treaty claim must follow the evidence, not the marketing category.
+
+Compare the proposals for cluster configuration and location, then consider their open research questions.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.3 Verifiable cluster configuration ^2-3-verifiable-cluster
+to:: Figure 5: AI Computing Cluster. Adapted from: [Kulp et al. (2024)](#bib.bib34).
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.3.4 Open research questions ^2-3-4-open
+to:: Is there a way to securely update which chips are permitted in the pod so that broken hardware can be replaced?
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.4 Location verification ^2-4-location-verification
+to:: AI chips could be designed to make it possible for an external regulatory authority to securely and reliably determine their location and take policy actions based on a chip’s location. Alternatively, the chip could determine its own location and respond directly, such as restricting operation when located in an area known to be subject to export controls. There are a number of technical approaches to location verification which can be used alone or in tandem to provide location estimates that are accurate and robust against adversarial tampering.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.4.4 Open research questions ^2-4-4-open
+to:: How can this protocol be made compatible with desires for strong cybersecurity at data centers that might involve airgapping?
+
+#### Text
+content::
+\#### Completeness
+
+The hardest claim is often negative: no relevant compute existed outside the declared system.
+
+Attestation covers devices that participate. A registry covers devices that entered the registry. Neither proves that the fleet is complete. Completeness can draw on:
+
+- Manufacturer and foundry production records;
+- Packaging, distribution, export, customs, and shipping records;
+- Provider inventories and allocation records;
+- Physical inspection and device counts;
+- Power, cooling, construction, procurement, and network evidence;
+- Intelligence on undeclared facilities or diversion;
+- Insiders who report substitution, tampering, or hidden capacity.
+
+Hardware is therefore strongest for known, instrumented compute. The intelligence and human sections will address what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
+
+\#### Try it
+
+#### Question: Open
+id:: 121faa9c-cabd-43ef-ad37-7be61a16e67d
+content:: The treaty body wants to support the claim: “All covered accelerators at Site X are registered and accounted for.” Choose three evidence streams that do not share the same source. For each, name the actor that produces it and one way it could fail.
+
+A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.
+assessment-instructions:: Full credit needs three streams with genuinely different producers (for example manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power or cooling or construction evidence, intelligence on diversion, insider reports), each with a named producing actor and one failure mode. Mark down answers whose three streams all originate with the site operator.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
+*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
+
+XLab. "2.1.3 Accounting for hardware: identity, location, topology, and completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
+*The source lesson this page adapts.*
+:::

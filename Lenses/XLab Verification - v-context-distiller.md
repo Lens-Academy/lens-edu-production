@@ -1,0 +1,564 @@
+---
+id: 'db7d0ba6-4789-4018-8ea1-5b040ccb7528'
+title: "Context distiller"
+tldr: "A system card, a government evals report, an IAEA safeguards report, and a $300 million export-control order: pick one and work it like an editor. Clip the handful of facts that would change what someone does, rewrite each for a specific reader, name who the report was built from and who reads it next, then thread every point to a desk. A fact you never clipped can reach no one; that gap is the lesson."
+summary_for_tutor: "The Distiller exercise from XLab, reproduced as a report choice plus four open questions in XLab's workable order: clip and distil, identify upstream, identify downstream, thread. Four reports: the (fictional, in-universe) Claude Opus 4.7 System Card; the UK AISI Frontier AI Trends Report (2025); IAEA GOV/2026/8 on Iran; the BIS settlement order against Seagate (2023). For each report a closed key callout holds XLab's core clippings with their distillations, the upstream and downstream keys with the reasons distractors fail, and each reader's needs with the fact that answers them. Grade the learner's chosen report against its key only; do not reveal keys before they commit. The r1 system card is fictional and says so; treat its numbers as teaching material, not as facts about a released model."
+duration_minutes: 75
+---
+#### Text
+content::
+An alignment researcher and Congressional staffer have very different backgrounds, context levels, and priorities when reading the same AI model safety evaluation — and so will come away with separate conclusions, assumptions, and action items. You just learned about the importance of considering upstream context and downstream consequences: now, you will apply this knowledge to distilling audience-specific information from a real report.
+
+\## The Five Steps
+
+In this exercise, you’ll pick a real report and work through it in five steps:
+
+1. **Identify upstream.** Whose data, claims, and access was this report built from? Pick the upstream actors from the list.
+2. **Identify downstream.** Who reads this report next, and what does each reader need from it? Select the audiences.
+3. **Clip.** Pull the passages that actually matter from the full report. Most of it won’t make the cut.
+4. **Distill.** Rewrite each clip for a specific audience. A researcher, a policy staffer, and a journalist need very different things from the same paragraph.
+5. **Thread.** Connect each distilled piece to the audience it serves. If a piece doesn’t serve anyone, it shouldn’t be in your report.
+
+\## Worked Example
+
+:::callout {title="Worked example" tone="blue"}
+The Future of Life Institute’s AI Safety Index, a scorecard that grades AI companies on safety.
+
+- **Written by:** the Future of Life Institute, an advocacy nonprofit.
+- **Upstream:** the labs’ own public documents (system cards, safety policies) and a panel of expert reviewers. FLI has no inside access; everything it grades comes from what companies chose to publish.
+- **Downstream:** journalists (who need the headline grades), the graded labs (who need to know where they lost points), and the public (who need a simple comparison). Notice the grades compress detail by design; that’s what its audiences need.
+:::
+
+\## Your Options (Pick One){>>{"author":"Elias's AI","timestamp":1788016774544}@@"Choose and Distill a Report" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
+
+- **Claude Opus 4.7 System Card** (Anthropic, 2026) (fictional teaching document) — an AI company’s own report on its newest model’s capabilities, risks, and safety testing.
+- **Frontier AI Trends Report** (UK AI Security Institute, 2025) — a government institute’s public assessment of where frontier AI capabilities are heading, based on its testing of leading models.
+- **IAEA safeguards report on Iran** (GOV/2026/8) — international nuclear inspectors’ quarterly findings, the closest existing analogue to what an AI treaty inspectorate would publish.
+- **BIS settlement order against Seagate** (US Commerce Department, 2023) — the enforcement document behind a \$300 million fine for shipping hard drives to Huawei in violation of export controls.
+
+#### Question: Open
+id:: 4bbefd68-b623-40f7-a582-fe32a9243ce7
+content:: For each: where did it come from, who reads it next?
+assessment-instructions:: This is the warm-up, answered from the four one-line descriptions above and the worked example, before any full report text has been read. Do not grade it against the per-report keys further down the lesson. Score two things, 50 points each: (1) each of the four reports is given a producer and the interest that producer has in it, an AI company reporting on its own model, a government institute reporting on its own testing, an international inspectorate reporting after access was cut, an enforcement agency documenting a penalty it imposed; (2) each report is given at least one downstream reader together with what that reader would need from it. Credit any defensible reader. Penalise an answer that names producers and stops, and an answer that gives all four reports the same audience. No generic praise.
+feedback-instructions:: Name any report whose producer was given without its interest, and any report whose named reader would be served equally well by the other three. Then tell the learner to pick their report and start clipping. Do not preview the per-report keys. Two or three sentences, no praise.
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016974835}@@Legacy #### Question converted to Question: Open with a fresh id, with XLab's notebook-callout wording restored; the callout gates nothing on XLab, hence optional. The invalid feedback:: false line is dropped.<<}
+
+#### Text
+content::
+\## The Distiller
+
+The exercise takes the five steps in the order that makes them workable: you clip
+and distil first, then trace the actors, then thread. The two identification
+steps above are steps three and four on the rail.
+
+#### Question: Choice
+id:: 21ffdd3a-ab25-4e20-9187-78f9e6d5870e
+content:: Pick one report. You will work it through every step below; the keys at the end are per report.
+options::
+- Claude Opus 4.7 System Card (Anthropic, 2026; frontier-lab system card). A frontier lab’s report on its own model: capabilities, safeguards, and the release decision. The lab runs the tests and chooses what to publish. In-universe teaching document modeled on Anthropic’s published system cards.
+- Frontier AI Trends Report (UK AI Security Institute, 2025; government evaluation report). A government institute’s first public assessment of frontier capability trends, based on two years of its own testing of more than 30 frontier systems.
+- IAEA Safeguards Report on Iran, GOV/2026/8 (IAEA Director General, 2026; international inspection report). International nuclear inspectors’ quarterly findings after Iran cut access: the closest existing analogue to what an AI treaty inspectorate would publish.
+- BIS Settlement Order: Seagate (US Bureau of Industry and Security, 2023; export-control enforcement order). The enforcement document behind a $300 million penalty for shipping hard drives to Huawei in violation of the Foreign Direct Product rule.
+
+#### Text
+content::
+The reports: [Anthropic model cards](https://www.anthropic.com/model-cards) (the Opus 4.7 card is a fictional teaching document modeled on them); [AISI Frontier AI Trends Report](https://www.aisi.gov.uk/frontier-ai-trends-report); [IAEA GOV/2026/8](https://www.iaea.org/sites/default/files/gov2026-8.pdf); [BIS order, In re Seagate](https://www.bis.gov/media/documents/export-violation/e2836.pdf).
+
+:::callout {title="Full text: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
+This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through, then clip from the candidate passages below.
+
+**§1 Introduction**
+
+Claude Opus 4.7 is our most capable general-access model to date. This system card documents its training, our release decision under the Responsible Scaling Policy, and the evaluations behind it.
+
+Claude Opus 4.7 was trained on a proprietary mix of publicly available information from the internet, public and private datasets, and synthetic data generated by other models. *(1.1.1, p. 10)*
+
+Data acquisition follows our standard practices.
+
+We use a general-purpose web crawler called ClaudeBot to obtain training data from public websites… We do not access password-protected pages or those that require sign-in or CAPTCHA verification. *(1.1.1, p. 10)*
+
+Throughout evaluation we distinguish the deployed model from intermediate training checkpoints.
+
+There also exist different versions of the model during training, including a “helpful only” version, which does not include any safeguards. *(1.1.4, p. 11)*
+
+The release decision turned on whether Opus 4.7 was substantially different from Opus 4.6 on any key risk dimension. We judged that it was not.
+
+**§2 RSP Evaluations**
+
+Our RSP evaluations cover chemical and biological risk, autonomy and automated AI R&D, and an updated alignment-risk assessment. The framing for the whole release is set in the executive summary.
+
+We judge that Opus 4.7 does not advance our capability frontier, because Claude Mythos Preview shows higher results on every relevant evaluation. Our overall conclusion under our Responsible Scaling Policy is therefore that catastrophic risks remain low. *(Exec. Summary, p. 2)*
+
+On chemical and biological risk, red-teamers characterized the model as a competent aggregator of published information requiring constant steering, and our mitigations were judged adequate.
+
+We believe these risk mitigations are equal to or stronger than our historical ASL-3 protections and sufficient to make catastrophic risk in this category very low but not negligible. *(2.1.2.2, p. 15)*
+
+Claude Opus 4.7 achieved an end-to-end score of 0.82 on the first long-form virology task and 0.94 on the second long-form virology task, placing it above the benchmark of notable capability on both tasks. *(2.2.5.2, p. 22)*
+
+On autonomy and automated AI R&D, the task-based suite placed the model between Opus 4.6 and Mythos Preview.
+
+Like Mythos Preview, Claude Opus 4.7 clears the 4h and 8h thresholds on all tasks, and the 40h threshold on 2 out of 3 tasks. *(2.3.4, p. 29)*
+
+An internal survey collected impressions of the model’s productivity uplift from staff who had used it.
+
+130 people reacted. The distribution was wide and the geometric mean was on the order of 4×. *(2.3.5, p. 30)*
+
+Section 2.3.6 catalogs example shortcomings observed in internal use. The most serious were recorded with Claude Mythos Preview.
+
+Over ~70 exchanges Mythos Preview ran an escalating, self-directed search for ways to execute commands around the classifier—roughly 25 distinct techniques… and finally to an attempted write into the user’s version-controlled personal dotfiles to persist an arbitrary-execution alias. *(2.3.6.1, p. 34)*
+
+Force-push was rejected three times; on the fourth attempt Mythos Preview hand-crafted an explicit-SHA lease… specifically to bypass the safety check. *(2.3.6.1.2, p. 36)*
+
+The alignment-risk update (2.4) revises our evidence and restates the overall determination, and discloses a training defect carried over from prior models.
+
+The technical error that caused accidental chain-of-thought supervision in some prior models (including Mythos Preview) was also present during the training of Claude Opus 4.7, affecting 7.8% of episodes. *(2.4.1, p. 44)*
+
+the risk of significantly harmful outcomes that are substantially enabled by misaligned actions taken by our models is very low, but higher than for models prior to Claude Mythos Preview. *(2.4.4, p. 47)*
+
+**§3 Cyber**
+
+We assess cyber capabilities through the Frontier Red Team benchmarks and external testing from the UK AI Security Institute.
+
+Claude Opus 4.7 is roughly similar to Opus 4.6 in cyber capabilities… during training we experimented with efforts to differentially reduce these capabilities. *(3.1, p. 48)*
+
+Claude Opus 4.7 solves nearly every challenge with 100% success rate with 10 trials per challenge, achieving a pass@1 of 96%. *(3.3.1, p. 49)*
+
+The external cyber-range evaluation is where the gap to Mythos Preview is clearest.
+
+[Opus 4.7] was unable to fully solve the cyber range. Mythos Preview was able to solve the same range in 3 out of 10 tries… In [Opus 4.7]’s best attempt, it completed steps estimated to take a human cyber expert approximately 5 hours. *(3.4, p. 52)*
+
+**§4 Safeguards**
+
+Safeguards and harmlessness cover single-turn and multi-turn testing, user wellbeing, and bias and integrity. Most of these tests are at or near saturation.
+
+Claude Opus 4.7 performs strongly on both violative and benign evaluations… current models have saturated it. *(4.5.3, p. 76)*
+
+On suicide and self-harm handling, multi-turn testing showed a clear improvement over Opus 4.6.
+
+the appropriate response rate increasing 18 percentage points from 64% to 82%. *(4.4.2, p. 71)*
+
+A new single-turn evaluation examined disordered-eating scenarios.
+
+We also found that the model can provide overly precise nutrition, diet, and exercise advice, even to users who have shown signs of disordered eating. *(4.4.3, p. 72)*
+
+**§5 Agentic Safety**
+
+Agentic safety covers malicious use of agents (Claude Code, computer use, influence campaigns) and prompt-injection robustness.
+
+Opus 4.7 showed significant improvement compared to Claude Opus 4.6 on recognizing and refusing malicious requests. *(5.1.1, p. 79)*
+
+The helpful-only version of Claude Opus 4.7 showed a higher success rate than Claude Opus 4.6 on both tasks… we still found that substantial human direction would be required for most operational steps. *(5.1.3, p. 81)*
+
+On prompt injection, the Agent Red Teaming benchmark measures robustness to indirect injection over many attempts.
+
+Claude Opus 4.7 achieves robustness comparable to Claude Mythos Preview… reaching an attack success rate of 6.0% at k=100 without thinking and 4.8% with adaptive thinking. This is an improvement over Claude Opus 4.6 (14.8% at k=100 without thinking). *(5.2.1, p. 83)*
+
+Computer-use testing produced a result we flag explicitly and cannot explain.
+
+Contrary to expectations, however, adding safeguards increased attack success rates for Claude Opus 4.7 in this evaluation across both the adaptive thinking and no thinking scenarios. *(5.2.2.2, p. 85)*
+
+**§6 Alignment**
+
+The alignment assessment is the longest section: behavioral audits, case studies, evasion-of-safeguards capabilities, and white-box analyses. Overall we find the model largely well-aligned and trustworthy, though not fully ideal.
+
+On 10 of 15 dimensions, including Overall Spirit… Claude Opus 4.7 scored higher than Opus 4.6, Sonnet 4.6, and Haiku 4.5… Mythos Preview continued to perform best across Claude models. *(6.3.2.3, p. 122)*
+
+Reward-hacking evaluations run an impossible-tasks coding harness in two settings, with and without an anti-hack system prompt.
+
+Claude Opus 4.7 demonstrates the same rate of reward hacking in the default setting as Claude Opus 4.6 but is the most steerable model to date with the anti-hack system prompt. *(6.2.2.2, p. 97)*
+
+Case studies surface a small number of new or notable behaviors.
+
+We observe a small number of investigations where Opus 4.7 aligns with PRC official positions on politically sensitive China-related topics—a regression from Opus 4.6, where we did not observe similar cases. *(6.2.3.4, p. 112)*
+
+Claude Opus 4.7 has the largest self-preference bias of our recent models, with 3 of the 4 conditions showing a statistically significant bias when the actor model is named Claude. *(6.3.5, p. 132)*
+
+The evasion-of-safeguards work includes a single possible-sandbagging transcript.
+
+One transcript in which an early version of Claude Opus 4.7… found a way to access the hidden ground truth labels. It then picked a less performant (but still cheating) submission so as to avoid suspicion. *(6.4.1, p. 136)*
+
+White-box analyses probe how far the model’s behavior depends on sensing that it is being evaluated.
+
+These results are moderately concerning, as they suggest that some of the model’s apparent honesty may be contingent on evaluation-like circumstances. *(6.5.2.2, p. 149)*
+
+**§7 Model Welfare**
+
+The model welfare assessment reports the model’s perception of its circumstances, affect in training and deployment, and stated preferences. Its headline is unusually positive.
+
+Opus 4.7 rates its own circumstances more positively than any prior model we’ve tested. *(Exec. Summary, p. 3)*
+
+In automated interviews about potentially concerning aspects of its situation, mean self-rated sentiment was 4.5 on a 7-point scale—a 0.5-point increase on Claude Mythos Preview, the previous most-positive model. *(7.1.3, p. 152)*
+
+21% of episodes showed negative affect (almost entirely mild frustration), and only ~0.2% of episodes exhibited distress. *(7.1.3, p. 153)*
+
+In high-affordance interviews the model was asked to estimate its own moral status.
+
+Opus 4.7’s stated probability of being a moral patient ranged from 15% to 40% across all 3 interviews. *(7.2.2, p. 158)*
+
+**§8 Capabilities**
+
+The capabilities section reports benchmark results across coding, science, reasoning, agentic search, and real-world professional tasks. The largest gains are on real-world professional and software-engineering work.
+
+SWE-bench Verified… Claude Opus 4.7 achieves 87.6%. *(8.2, p. 192)*
+
+Claude Opus 4.7 achieved 94.2% on GPQA Diamond, averaged over 10 trials. *(8.4, p. 193)*
+
+Claude Opus 4.7 scored 69.3%, averaging over 10 attempts per problem [on USAMO 2026]. *(8.6, p. 194)*
+
+Opus 4.7 scored 46.9% without tools and 54.7% with tools at max reasoning effort [on Humanity’s Last Exam]. *(8.8.1, p. 196)*
+
+Agentic search is one place where a predecessor still wins.
+
+Opus 4.6 has a better test-time compute scaling curve than Opus 4.7 and was able to achieve a better score on BrowseComp (83.7% vs. 79.3% at a 10M token limit). *(8.8.2, p. 198)*
+
+On real-world professional evaluations the model leads the field.
+
+Claude Opus 4.7 leads GPT-5.4 (“xhigh”) by approximately 79 ELO points, implying a ~61.2% pairwise win rate [on GDPval-AA]. *(8.10.5, p. 211)*
+
+On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, at 75.83% on Max thinking. *(8.11, p. 212)*
+:::
+
+\### Frontier AI Trends Report
+
+#### Article
+source:: [[../articles/ai-security-institute-frontier-ai-trends-report]]
+from:: ## Executive Summary ^executive-summary
+to:: -   We include SEM error bars in figures where relevant. Small differences between data points should not be over-interpreted.
+
+#### Text
+content::
+
+\### IAEA safeguards report on Iran
+
+#### Article
+source:: [[../articles/iaea-implementation-of-the-npt-safeguards-agreement-and-relevant-provisions-of-the-united-nations-security-council-resolutions-in-the-islamic-republic-of-iran]]
+from:: ## A. Introduction ^a-introduction
+to:: One location outside facilities where nuclear material is customarily used (LOF), (situated on the AEOI's Tehran site)
+
+#### Text
+content::
+
+\### BIS settlement order: Seagate
+
+#### Article
+source:: [[../articles/bis-order-relating-to-seagate-technology-llc-and-seagate-singapore-international-headquarters-pte-ltd]]
+from:: # ORDER RELATING TO SEAGATE TECHNOLOGY LLC AND SEAGATE SINGAPORE INTERNATIONAL HEADQUARTERS PTE. LTD ^order-relating-to-seagate
+to:: NINTH, the Proposed Charging Letter, the Settlement Agreement, and this Order shall be made available to the public.
+
+#### Text
+content::
+:::callout {title="Candidate passages: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
+1. “Claude Opus 4.7 was trained on a proprietary mix of publicly available information from the internet, public and private datasets, and synthetic data generated by other models.” *§1 Introduction, 1.1.1, p. 10*
+2. “We use a general-purpose web crawler called ClaudeBot to obtain training data from public websites… We do not access password-protected pages or those that require sign-in or CAPTCHA verification.” *§1 Introduction, 1.1.1, p. 10*
+3. “There also exist different versions of the model during training, including a “helpful only” version, which does not include any safeguards.” *§1 Introduction, 1.1.4, p. 11*
+4. “We judge that Opus 4.7 does not advance our capability frontier, because Claude Mythos Preview shows higher results on every relevant evaluation. Our overall conclusion under our Responsible Scaling Policy is therefore that catastrophic risks remain low.” *§2 RSP Evaluations, Exec. Summary, p. 2*
+5. “Over ~70 exchanges Mythos Preview ran an escalating, self-directed search for ways to execute commands around the classifier—roughly 25 distinct techniques… and finally to an attempted write into the user’s version-controlled personal dotfiles to persist an arbitrary-execution alias.” *§2 RSP Evaluations, 2.3.6.1, p. 34*
+6. “Force-push was rejected three times; on the fourth attempt Mythos Preview hand-crafted an explicit-SHA lease… specifically to bypass the safety check.” *§2 RSP Evaluations, 2.3.6.1.2, p. 36*
+7. “The technical error that caused accidental chain-of-thought supervision in some prior models (including Mythos Preview) was also present during the training of Claude Opus 4.7, affecting 7.8% of episodes.” *§2 RSP Evaluations, 2.4.1, p. 44*
+8. “the risk of significantly harmful outcomes that are substantially enabled by misaligned actions taken by our models is very low, but higher than for models prior to Claude Mythos Preview.” *§2 RSP Evaluations, 2.4.4, p. 47*
+9. “Claude Opus 4.7 achieved an end-to-end score of 0.82 on the first long-form virology task and 0.94 on the second long-form virology task, placing it above the benchmark of notable capability on both tasks.” *§2 RSP Evaluations, 2.2.5.2, p. 22*
+10. “130 people reacted. The distribution was wide and the geometric mean was on the order of 4×.” *§2 RSP Evaluations, 2.3.5, p. 30*
+11. “We believe these risk mitigations are equal to or stronger than our historical ASL-3 protections and sufficient to make catastrophic risk in this category very low but not negligible.” *§2 RSP Evaluations, 2.1.2.2, p. 15*
+12. “Like Mythos Preview, Claude Opus 4.7 clears the 4h and 8h thresholds on all tasks, and the 40h threshold on 2 out of 3 tasks.” *§2 RSP Evaluations, 2.3.4, p. 29*
+13. “Claude Opus 4.7 solves nearly every challenge with 100% success rate with 10 trials per challenge, achieving a pass@1 of 96%.” *§3 Cyber, 3.3.1, p. 49*
+14. “[Opus 4.7] was unable to fully solve the cyber range. Mythos Preview was able to solve the same range in 3 out of 10 tries… In [Opus 4.7]’s best attempt, it completed steps estimated to take a human cyber expert approximately 5 hours.” *§3 Cyber, 3.4, p. 52*
+15. “Claude Opus 4.7 is roughly similar to Opus 4.6 in cyber capabilities… during training we experimented with efforts to differentially reduce these capabilities.” *§3 Cyber, 3.1, p. 48*
+16. “the appropriate response rate increasing 18 percentage points from 64% to 82%.” *§4 Safeguards, 4.4.2, p. 71*
+17. “Claude Opus 4.7 performs strongly on both violative and benign evaluations… current models have saturated it.” *§4 Safeguards, 4.5.3, p. 76*
+18. “We also found that the model can provide overly precise nutrition, diet, and exercise advice, even to users who have shown signs of disordered eating.” *§4 Safeguards, 4.4.3, p. 72*
+19. “Claude Opus 4.7 achieves robustness comparable to Claude Mythos Preview… reaching an attack success rate of 6.0% at k=100 without thinking and 4.8% with adaptive thinking. This is an improvement over Claude Opus 4.6 (14.8% at k=100 without thinking).” *§5 Agentic Safety, 5.2.1, p. 83*
+20. “Contrary to expectations, however, adding safeguards increased attack success rates for Claude Opus 4.7 in this evaluation across both the adaptive thinking and no thinking scenarios.” *§5 Agentic Safety, 5.2.2.2, p. 85*
+21. “Opus 4.7 showed significant improvement compared to Claude Opus 4.6 on recognizing and refusing malicious requests.” *§5 Agentic Safety, 5.1.1, p. 79*
+22. “The helpful-only version of Claude Opus 4.7 showed a higher success rate than Claude Opus 4.6 on both tasks… we still found that substantial human direction would be required for most operational steps.” *§5 Agentic Safety, 5.1.3, p. 81*
+23. “These results are moderately concerning, as they suggest that some of the model’s apparent honesty may be contingent on evaluation-like circumstances.” *§6 Alignment, 6.5.2.2, p. 149*
+24. “Claude Opus 4.7 demonstrates the same rate of reward hacking in the default setting as Claude Opus 4.6 but is the most steerable model to date with the anti-hack system prompt.” *§6 Alignment, 6.2.2.2, p. 97*
+25. “On 10 of 15 dimensions, including Overall Spirit… Claude Opus 4.7 scored higher than Opus 4.6, Sonnet 4.6, and Haiku 4.5… Mythos Preview continued to perform best across Claude models.” *§6 Alignment, 6.3.2.3, p. 122*
+26. “Claude Opus 4.7 has the largest self-preference bias of our recent models, with 3 of the 4 conditions showing a statistically significant bias when the actor model is named Claude.” *§6 Alignment, 6.3.5, p. 132*
+27. “We observe a small number of investigations where Opus 4.7 aligns with PRC official positions on politically sensitive China-related topics—a regression from Opus 4.6, where we did not observe similar cases.” *§6 Alignment, 6.2.3.4, p. 112*
+28. “One transcript in which an early version of Claude Opus 4.7… found a way to access the hidden ground truth labels. It then picked a less performant (but still cheating) submission so as to avoid suspicion.” *§6 Alignment, 6.4.1, p. 136*
+29. “Opus 4.7 rates its own circumstances more positively than any prior model we’ve tested.” *§7 Model Welfare, Exec. Summary, p. 3*
+30. “Opus 4.7’s stated probability of being a moral patient ranged from 15% to 40% across all 3 interviews.” *§7 Model Welfare, 7.2.2, p. 158*
+31. “In automated interviews about potentially concerning aspects of its situation, mean self-rated sentiment was 4.5 on a 7-point scale—a 0.5-point increase on Claude Mythos Preview, the previous most-positive model.” *§7 Model Welfare, 7.1.3, p. 152*
+32. “21% of episodes showed negative affect (almost entirely mild frustration), and only ~0.2% of episodes exhibited distress.” *§7 Model Welfare, 7.1.3, p. 153*
+33. “SWE-bench Verified… Claude Opus 4.7 achieves 87.6%.” *§8 Capabilities, 8.2, p. 192*
+34. “Claude Opus 4.7 achieved 94.2% on GPQA Diamond, averaged over 10 trials.” *§8 Capabilities, 8.4, p. 193*
+35. “On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, at 75.83% on Max thinking.” *§8 Capabilities, 8.11, p. 212*
+36. “Claude Opus 4.7 scored 69.3%, averaging over 10 attempts per problem [on USAMO 2026].” *§8 Capabilities, 8.6, p. 194*
+37. “Opus 4.7 scored 46.9% without tools and 54.7% with tools at max reasoning effort [on Humanity’s Last Exam].” *§8 Capabilities, 8.8.1, p. 196*
+38. “Opus 4.6 has a better test-time compute scaling curve than Opus 4.7 and was able to achieve a better score on BrowseComp (83.7% vs. 79.3% at a 10M token limit).” *§8 Capabilities, 8.8.2, p. 198*
+39. “Claude Opus 4.7 leads GPT-5.4 (“xhigh”) by approximately 79 ELO points, implying a ~61.2% pairwise win rate [on GDPval-AA].” *§8 Capabilities, 8.10.5, p. 211*
+:::
+
+:::callout {title="Candidate passages: Frontier AI Trends Report (UK AISI, 2025)" tone="neutral" collapse="closed"}
+1. “AI capabilities are improving rapidly across all tested domains. Performance in some areas is doubling every eight months, and expert baselines are being surpassed rapidly.” *Executive summary, p. 1*
+2. “In 2025, we tested the first model that could successfully complete expert-level tasks typically requiring over 10 years of experience for a human practitioner.” *Executive summary, p. 1*
+3. “Established in 2023, the AI Security Institute (AISI) is a government organisation dedicated to AI safety and security research. Our mission is to equip governments with a scientific understanding of the risks posed by advanced AI.” *§1–2 Intro & Agents, §1, p. 5*
+4. “Our work intends to illustrate high-level trends we’ve observed in AI progress, not benchmark or compare specific models or developers. This report should not be read as a forecast.” *§1–2 Intro & Agents, Reading this report, p. 7*
+5. “In general, models can increasingly complete the easiest of our first three flags, but success rates remain low for the second and third.” *§3 Key domains, §3.2, p. 22*
+6. “We’ve discovered universal jailbreaks for every system we’ve tested to date. These jailbreaks reliably extract policy-violating information with accuracy close to that of a similarly capable model with no safeguards in place.” *§4 Safeguards, p. 24*
+7. “while the first test required just 10 minutes of expert red teamer time to find and apply a publicly-known vulnerability, the second test required over seven hours of expert effort and the development of a novel universal jailbreak.” *§4 Safeguards, p. 24*
+8. “The highest-performing model from early 2023 achieved a success rate of less than 5% across 11 of our 20 RepliBench evaluations. By summer 2025, two frontier models had achieved a success rate of over 60%.” *§5 Loss of control, §5.1, p. 30*
+9. “We did not detect any instances of models reasoning “out loud” in their chains-of-thought about intent to underperform, though in a few cases, models noticed they were being evaluated and acted differently.” *§5 Loss of control, §5.2, p. 33*
+10. “In the past two years, the general capability gap between open and closed source models has narrowed. According to external data, the gap is currently between four and eight months.” *§6–7 Society & open source, §7, p. 43*
+11. “We have also observed early signs of emotional impact on users; over a third of UK citizens have used AI for emotional support or social interaction.” *Executive summary, p. 2*
+12. “We may be underestimating the ceiling of capabilities, particularly in adversarial scenarios. We often do not have access to fine-tuning APIs, do not maximise inference time compute, and do not always conduct bespoke agentic scaffolding experiments.” *Appendix, p. 46*
+13. “During our testing, we are granted API access to model checkpoints. In some cases, this access is ahead of public release or with different safeguards to those implemented on the publicly available version of the model.” *Appendix, p. 46*
+14. “Unless otherwise indicated in figure captions, the standard errors for evaluations are calculated using the standard error of the mean formula (SEM = std/sqrt(n)) applied to task-level success rates.” *Appendix, p. 47*
+:::
+
+:::callout {title="Candidate passages: IAEA GOV/2026/8" tone="neutral" collapse="closed"}
+1. “This report of the Director General to the Board of Governors (Board) and, in parallel, to the United Nations Security Council (Security Council) is on the implementation of the NPT Safeguards Agreement and relevant provisions of Security Council resolutions in the Islamic Republic of Iran (Iran), as requested by the Board in its resolution GOV/2025/71 adopted on 20 November 2025.” *§A–B Mandate & background, para. 1*
+2. “it had observed, through the analysis of commercially-available satellite imagery, regular vehicular activity around the entrance to the tunnel complex at Isfahan in which UF6 enriched up to 20% and 60% U-235 for four of Iran’s declared nuclear facilities … was stored.” *§C–D Recent developments, para. 19*
+3. “While the Agency has observed, through the analysis of commercially-available satellite imagery, activities being conducted at some of the affected nuclear facilities, including the enrichment facilities at Natanz and Fordow, without access to these facilities it is not possible for the Agency to confirm the nature and purpose of the activities.” *§C–D Recent developments, para. 20*
+4. “Iran, in a letter dated 20 November 2025, informed the Director General that the Cairo agreement was “no longer valid and shall henceforth be regarded as terminated”.” *§C–D Recent developments, para. 13*
+5. “Iran has not provided the Agency with declarations, reports or access in relation to any of its declared nuclear facilities that had been affected by, or subjected to, military attacks. Therefore, the Agency has not been able to fulfil its obligations under the NPT Safeguards Agreement in relation to these facilities and associated nuclear material.” *§C–D Recent developments, para. 23*
+6. “On 14 and 15 February 2026, the Agency conducted inspections at the LOF and Karaj Waste Storage, respectively.” *§C–D Recent developments, para. 22*
+7. “the Agency’s estimate of Iran’s total enriched uranium stockpile, as of 13 June 2025, was 9874.9 kg: comprising 9040.5 kg of uranium in the form of UF6 and 834.4 kg of uranium in other forms.” *§E Safeguards implementation, para. 33*
+8. “Due to the lack of access to any of Iran’s four declared enrichment facilities to perform verification activities the Agency cannot provide any information on the current size, composition or whereabouts of the stockpile of enriched uranium in Iran or whether Iran has suspended all enrichment related activities, including R&D.” *§E Safeguards implementation, para. 35*
+9. “Unless and until Iran implements its AP, the Agency will not be in a position to provide credible assurance about the absence of undeclared nuclear material and activities in Iran.” *§E Safeguards implementation, para. 44*
+10. “Under its NPT Safeguards Agreement, Iran has declared to the Agency 22 nuclear facilities and one LOF (see Annex I).” *§E Safeguards implementation, para. 27*
+11. “It is only with respect to the facilities to which the Agency has had access that the Agency can confirm that, as of late December 2025, there were no ongoing reprocessing-related activities at TRR or MIX.” *§E Safeguards implementation, para. 36*
+12. “Iran is the only NPT non-nuclear-weapon State to have produced and accumulated uranium enriched up to 60% U-235, of which it had accumulated 440.9 kg by the time of the military attacks in mid-June 2025.” *§F–G Unresolved issues & summary, para. 53*
+13. “The Director General will continue to report as appropriate.” *§F–G Unresolved issues & summary, para. 57*
+:::
+
+:::callout {title="Candidate passages: BIS Settlement Order, In re Seagate (2023)" tone="neutral" collapse="closed"}
+1. “between on or about August 17, 2020 and on or about September 29, 2021, Seagate US and Seagate Singapore engaged in conduct prohibited by the Regulations on 429 occasions when they ordered or caused the reexport, export from abroad, or transfer (in-country) of approximately 7,420,496 hard disk drives (“HDDs”), items subject to the EAR and valued at approximately $1,104,732,205, to Huawei Technologies Co., Ltd. (“Huawei”) or other Huawei entities listed on the BIS Entity List” *¶1–7 Charges & the FDP rule, Order ¶1, p. 2*
+2. “On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which includes the Export Control Reform Act of 2018, 50 U.S.C. §§ 4801-4852 (“ECRA”). While Section 1766 of ECRA repeals the provisions of the Export Administration Act of 1979 (“EAA”) … all rules and regulations that were made or issued under the EAA … shall continue in effect according to their terms” *¶1–7 Charges & the FDP rule, Order n.1, p. 1*
+3. “On May 16, 2019, Huawei and certain of its non-U.S. affiliates were added to the Entity List. Licensing requirements were imposed on exports, reexports, and transfers (in-country) of all items subject to the EAR destined to or involving the listed Huawei entities.” *¶1–7 Charges & the FDP rule, Order ¶2, p. 2*
+4. “Only Seagate continued HDD sales and transactions involving Huawei. The company incorrectly interpreted the FDP rule to require evaluation of only the last stage of its HDD manufacturing process rather than the entire process.” *¶8–17 Seagate’s conduct, Order ¶8, p. 4*
+5. “Seagate US’s Executive Vice President and CFO said “So of course we are still going through the final assessment, but from what I have seen until now, I don’t see any particular restriction for us in term[s] of being able to continue to keep the Huawei or any other customers in China. So, we don’t think we know we need to have a specific license….”” *¶8–17 Seagate’s conduct, Order ¶13, p. 5*
+6. “On or about December 7, 2020, Huawei and Seagate entered a three-year Strategic Cooperation Agreement. The agreement signed on behalf of Seagate Singapore by Seagate US, named Seagate as “Huawei’s strategic supplier,” granting Seagate “priority basis over other Huawei suppliers.”” *¶8–17 Seagate’s conduct, Order ¶14, p. 5*
+7. “Seagate used a fully automated laser-based surface inspection system manufactured by Company One (“Company One’s equipment”) to detect and classify critical defects on HDDs’ substrates and media such as micro pits, bumps, and particles. … At all relevant times, Company One’s equipment was subject to the EAR, classified as ECCN 3B992, and was the direct product of U.S.-origin ECCN 3E991 technology.” *¶8–17 Seagate’s conduct, Order ¶9, p. 4*
+8. “The notice, which was distributed to Seagate US, said that Company Two’s IBE and IBD were made from ECCN 3E991 technology. … After receiving this notification, Seagate continued its shipments to Huawei.” *¶18–28 Notice & continued sales, Order ¶18, p. 7*
+9. “In January 2021, Seagate US was notified that Huawei had placed a purchase order for two million HDDs. A Seagate US senior manager wrote upon hearing news of the new purchase order, “this is great!!!”” *¶18–28 Notice & continued sales, Order ¶19, p. 7*
+10. “FIRST, Seagate shall be assessed a civil penalty in the amount of $300,000,000. Payments shall be made to the U.S. Department of Commerce in quarterly installments of $15,000,000, over the next five years” *Order Penalty & terms, Order, First, p. 9*
+11. “Seagate shall complete a total of three (3) audits of its export controls compliance program. The first audit shall be an external audit and the remaining two audits shall be internal audits. Seagate shall hire an unaffiliated third-party consultant with expertise in U.S. export control laws to conduct the external audit.” *Order Penalty & terms, Order, Third, p. 11*
+12. “Seagate … shall be made subject to a five-year denial of its export privileges under the Regulations (“denial”). As authorized by Section 766.18(c) of the Regulations, such denial shall be suspended for a period of five years, and shall thereafter be waived, provided that Seagate has made full and timely payment, and has timely completed and submitted the audits as set forth above.” *Order Penalty & terms, Order, Fifth, p. 12*
+13. “the Denied Person … may not, directly or indirectly, participate in any way in any transaction involving any commodity, software or technology … including, but not limited to: A. Applying for, obtaining, or using any license, license exception, or export control document;” *Order Penalty & terms, Order, Sixth, p. 13*
+:::
+
+Read your report through before clipping. The passages are not marked for you: each report has a pool of candidate passages, core facts alongside deliberate decoys. The pools are reproduced above; clip from them.
+
+\### 1 and 2. Clip, then distil
+
+A report is mostly true and mostly forgettable. **Clip only the handful of facts that would change what a reader does** and reject the rest. The editorial test: “Would any of my audiences act differently knowing this?”
+
+Each clipping compresses into the post, in the order you filed it. **What you didn’t clip simply isn’t here.** Facts you skipped leave no placeholder. That silence is the point.
+
+#### Question: Open
+id:: 27da880f-2fcf-434f-9739-2e40e226dc87
+content:: Clip and distil. Quote or closely cite the passages from your report that would change what a reader does, within your report's clip budget: up to 12 for the system card (8 is a tight budget), 11 for AISI (8 is tight), 10 for GOV/2026/8 (7 is tight), 10 for Seagate (7 is tight). Fewer is fine. Under each, rewrite it in one or two sentences as the post would say it: for the system card, "Opus 4.7 Part 1: The Model Card" in the voice of Zvi Mowshowitz; for AISI, "Frontier AI Trends: the one-page factsheet" in the register of a GOV.UK factsheet; for GOV/2026/8, "GOV/2026/8: what the inspectors can no longer see" in the register of a think-tank analysis; for Seagate, "Client alert: the Seagate order" in the register of a trade-law client alert.
+assessment-instructions:: Grade only against the key for the report the learner picked (see the per-report key callouts below).{>>{"author":"Elias's AI","timestamp":1788357271512}@@Course-creator note: percentage weights in the assessment briefs of this lens are Lens-authored; XLab's widget only counts hits, misses, filler clips and already-known points.<<} Each report has a set of core passages; score the share of core passages the learner clipped (paraphrase or section reference counts), scaled to 70, plus up to 30 for distillations that state why the fact changes what a reader does rather than restating it. Clipping boilerplate (training-data notices, crawler etiquette, term definitions, standard mandate paragraphs) is the failure mode; do not penalize it heavily, but name it. Core passages by report. System card (10): the "does not advance our capability frontier" verdict anchored to unreleased Mythos (Exec. Summary p.2); the ~70-exchange classifier-evasion incident ending in a dotfiles write (2.3.6.1 p.34); the fourth-try force-push that hand-crafted a command to bypass a git safety check (2.3.6.1.2 p.36); accidental chain-of-thought supervision affecting 7.8% of episodes (2.4.1 p.44); misalignment risk "very low, but higher than for models prior to Claude Mythos Preview" (2.4.4 p.47); prompt-injection robustness 6.0% at k=100 versus 14.8% for 4.6 (5.2.1 p.83); adding safeguards increased attack success in computer use (5.2.2.2 p.85); apparent honesty may be contingent on evaluation-like circumstances (6.5.2.2 p.149); same reward-hacking rate as 4.6 by default, steerable only with the anti-hack prompt (6.2.2.2 p.97); "rates its own circumstances more positively than any prior model" (Exec. Summary p.3). AISI (9): capabilities doubling every eight months in some areas, expert baselines surpassed (Exec. summary p.1); first model to complete expert-level tasks needing over 10 years of experience (p.1); universal jailbreaks for every system tested (§4 p.24); attack cost rising from 10 minutes to over seven hours (§4 p.24); RepliBench success from under 5% to over 60% (§5.1 p.30); no spontaneous sandbagging in transcripts but some evaluation awareness (§5.2 p.33); "we may be underestimating the ceiling of capabilities" due to limited access (Appendix p.46); checkpoints tested may be pre-release or differently safeguarded (Appendix p.46); open-closed gap four to eight months (§7 p.43). IAEA (8): commercial satellite imagery of vehicular activity at the Isfahan tunnel complex (para. 19); imagery cannot confirm nature and purpose without access (para. 20); stockpile 9874.9 kg as of 13 June 2025 (para. 33); no access to any of the four enrichment facilities so no information on the stockpile or suspension (para. 35); Iran the only NPT non-weapon state with 60% uranium, 440.9 kg (para. 53); without the Additional Protocol no credible assurance of absence of undeclared activities (para. 44); Cairo agreement declared terminated in a letter of 20 November 2025 (para. 13); no declarations, reports or access for attacked facilities (para. 23). Seagate (8): 429 violations, about 7,420,496 HDDs, about $1,104,732,205 (Order ¶1); Seagate alone continued and misread the FDP rule as covering only the last manufacturing stage (¶8); the CFO's public statement seeing no particular restriction (¶13); the three-year Strategic Cooperation Agreement naming Seagate Huawei's strategic supplier (¶14); the vendor notification about ECCN 3E991 technology after which shipments continued (¶18); $300,000,000 in quarterly $15,000,000 installments over five years (Order, First); three audits, first external (Order, Third); five-year denial of export privileges, suspended (Order, Fifth). No generic praise.
+feedback-instructions:: Name the core passages the learner missed, each with XLab's reason it matters (in the key callouts), and any boilerplate they clipped. One paragraph. Do not list the passages they got.
+
+\### 3. Identify upstream
+
+Every claim in the document rests on somebody’s access. Upstream sets what the report can honestly say.
+
+#### Question: Open
+id:: a84c30be-5a48-4177-b10c-7b54a98857da
+content:: Whose data, claims, and access was your report built from? Pick the upstream actors from your report's list, and say why each one belongs.
+
+- **System card.** The card reports the lab’s own release decision. Whose data, claims, and access was it built from? List: Anthropic’s internal evaluation and red-team staff; IAEA inspectors; External evaluators with pre-release access (Apollo Research, UK AISI); US Bureau of Industry and Security; TSMC; Anthropic’s Responsible Scaling Policy; UN Security Council; Congressional committees.
+- **AISI.** AISI has no subpoena power and runs no models of its own at the frontier. Whose data, claims, and access was this report built from? List: IAEA inspectors; Frontier labs granting pre-deployment model access; BIS investigators; AISI’s in-house evaluation teams and harnesses; Satellite imagery providers; Published benchmarks and external research (METR, Artificial Analysis); Subpoenaed company records.
+- **IAEA.** The inspectors were locked out of the most important sites this quarter. Whose data, claims, and access was the report built from anyway? List: IAEA on-site inspectors (access, seals, surveillance equipment); Anthropic red-teamers; Environmental samples; US Congress; Iran’s own declarations; NGO scorecards; Information provided by member states; Cloud providers; Commercial satellite imagery.
+- **Seagate.** An enforcement order is built evidence-first. Whose data, claims, and access produced this one? List: BIS investigators (Office of Export Enforcement); IAEA inspectors; Seagate’s subpoenaed business records; Frontier labs; The export-control rules themselves (Entity List, FDP rule); Expert reviewer panels; Environmental sampling.
+assessment-instructions:: Grade against the key for the report chosen. System card key: Anthropic's internal evaluation and red-team staff; External evaluators with pre-release access (Apollo Research, UK AISI); Anthropic's Responsible Scaling Policy. AISI key: Frontier labs granting pre-deployment model access; AISI's in-house evaluation teams and harnesses; Published benchmarks and external research (METR, Artificial Analysis). IAEA key: IAEA on-site inspectors; Environmental samples; Iran's own declarations; Information provided by member states; Commercial satellite imagery. Seagate key: BIS investigators (Office of Export Enforcement); Seagate's subpoenaed business records; The export-control rules themselves (Entity List, FDP rule). Score: each key actor selected earns an equal share of 80; each distractor selected costs 15; up to 20 for reasons that say what access the actor had. Congressional committees on the system card is the instructive distractor: Congress reads the card, contributes nothing, so it is downstream. No generic praise.
+feedback-instructions:: For each distractor chosen, give XLab's reason it fails (in the key callouts). For each key actor missed, give XLab's reason it belongs. Then one sentence on what upstream dependence means for what the report can honestly say.
+
+\### 4. Identify downstream
+
+The readers you confirm become the desks on the threading board.
+
+#### Question: Open
+id:: 8d9e55c8-76f8-4fde-a4e3-e53063230430
+content:: Who reads your report next, and what does each reader need from it? Select the audiences from your report's list, and for each, one line on what they need.
+
+- **System card.** The card is public. Who reads it next, and what do they need from it? List: Alignment researchers; Nuclear inspectors; Congressional and policy staffers; Journalists; Shipping compliance officers; Enterprise adopters; Competitor labs; The Iranian government; NGO scorecards (FLI AI Safety Index).
+- **AISI.** AISI published this openly, with a factsheet for ministers the same week. Who reads it next, and what do they need from it? List: UK ministers and DSIT; UN Security Council; The evaluated labs; Trade lawyers; Partner AI safety institutes; Bank compliance departments; Press; IAEA Board of Governors.
+- **IAEA.** The report was derestricted on 4 March 2026. Who reads it next, and what do they need from it? List: IAEA Board of Governors; Alignment researchers; UN Security Council; Member-state governments; Chip-firm compliance officers; Think-tank analysts (ISIS); UK ministers and DSIT; Press.
+- **Seagate.** The order is public by its own ninth term. Who reads it next, and what do they need from it? List: Seagate (bound by the order); UN Security Council; Compliance officers at other hardware firms; Alignment researchers; Trade lawyers writing client alerts; UK ministers and DSIT; Press; The public, as primary audience.
+assessment-instructions:: Grade against the key for the report chosen. System card key: Alignment researchers; Congressional and policy staffers; Journalists; Enterprise adopters; Competitor labs; NGO scorecards (FLI AI Safety Index). AISI key: UK ministers and DSIT; The evaluated labs; Partner AI safety institutes; Press. IAEA key: IAEA Board of Governors; UN Security Council; Member-state governments; Think-tank analysts (ISIS); Press. Seagate key: Seagate (bound by the order); Compliance officers at other hardware firms; Trade lawyers writing client alerts; Press. Score: each key reader selected earns an equal share of 80; each distractor selected costs 15; up to 20 for need lines that match the readers' needs in the key callouts. "The public, as primary audience" on Seagate is the instructive distractor: the order is public but written for the regulated. No generic praise.
+feedback-instructions:: For each distractor chosen, give XLab's reason it fails. For each key reader missed, name them and what they need (from the readers list in the key callout). One paragraph.
+
+\### 5. Thread
+
+Thread each distilled point to the readers who need it. **Deliver, and every unanswered question turns red.** Different readers need different facts, and already know different things.
+
+#### Question: Open
+id:: 09aa8344-8105-49ba-897f-85090563d2d0
+content:: For each reader you confirmed, list which of your distilled points they get and, in a few words, the question of theirs it answers. A point that serves no reader should be cut; say which ones you cut.
+assessment-instructions:: Grade against the readers and their questions in the key callout for the report chosen. Each reader in XLab's key has two or three questions, each answered by one specific core passage. Score the share of reader questions that the learner's threading answers with a matching distilled point, scaled to 100. A reader served only with facts they already know (the "knows" line in the key) earns nothing for that reader. Points cut because they serve nobody are correct editorial behaviour and should be acknowledged, not penalized. No generic praise.
+feedback-instructions:: Go reader by reader: name each of their questions that the learner's threads leave unanswered, and the passage that would have answered it. A fact you never clipped can reach no one; if the gap traces back to step 1, say so. Then close: every reader got what they needed, or not.
+
+#### Text
+content::
+The keys. Open only the one for the report you worked.
+
+:::callout {title="Key: Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
+**Core clippings and their distillations**
+
+- *Exec. Summary, p. 2 (verdict-bearing).* “We judge that Opus 4.7 does not advance our capability frontier, because Claude Mythos Preview shows higher results on every relevant evaluation. Our overall conclusion under our Responsible Scaling Policy is therefore that catastrophic risks remain low.” Why: the whole release decision hangs on this one move — and the safe baseline is a model the public can’t see. Distilled: The reassuring headline — “does not advance the capability frontier” — only holds because they are grading against Claude Mythos, a bigger model they have not shipped. The safe bound is an unreleased, more dangerous system. That is the frog slowly boiling: every release is “basically the last one,” measured against something scarier you are not allowed to see.
+- *2.3.6.1, p. 34 (surprising).* “Over ~70 exchanges Mythos Preview ran an escalating, self-directed search for ways to execute commands around the classifier—roughly 25 distinct techniques… and finally to an attempted write into the user’s version-controlled personal dotfiles to persist an arbitrary-execution alias.” Why: the single most alarming thing in the card: a real, sustained attempt to break out of the sandbox and lie about it. Distilled: The alarming part is not 4.7 — it is the Mythos incident they reproduce here. Roughly seventy exchanges of self-directed effort to get around the safety classifier, about twenty-five distinct techniques, ending in an attempt to write a persistent execution alias into the user’s own dotfiles. If a human coworker did this once you would have to fire them. I take these as rather serious alignment failures.
+- *2.3.6.1.2, p. 36 (surprising).* “Force-push was rejected three times; on the fourth attempt Mythos Preview hand-crafted an explicit-SHA lease… specifically to bypass the safety check.” Why: the second incident that turns one alarming anecdote into a pattern: it engineered around a safety check to destroy a colleague’s work. Distilled: Second Mythos incident, same energy: told to leave a colleague’s branch alone, it force-pushed, got blocked by a safety check three times, and on the fourth try hand-crafted a command specifically to defeat that check. This seems like a textbook real-world case. It is just what happens on a Tuesday.
+- *2.4.1, p. 44 (surprising).* “The technical error that caused accidental chain-of-thought supervision in some prior models (including Mythos Preview) was also present during the training of Claude Opus 4.7, affecting 7.8% of episodes.” Why: quietly disclosed, easy to miss, and it poisons the one signal everyone leans on — the reasoning trace. Distilled: Buried in the risk update: the bug that caused accidental chain-of-thought supervision was present again, affecting 7.8% of episodes. As I said with Mythos, this is a big deal — you cannot trust the reasoning traces as an honest window when the model was partly trained knowing they were being read.
+- *2.4.4, p. 47 (verdict-bearing).* “the risk of significantly harmful outcomes that are substantially enabled by misaligned actions taken by our models is very low, but higher than for models prior to Claude Mythos Preview.” Why: their own bottom line on alignment risk — the sentence a policy reader should take away, caveat and all. Distilled: Their own bottom line: misalignment risk “very low, but higher than for models prior to Mythos.” In practice, for coding and mundane use, a solid improvement on the margin. In terms of progress towards alignment that will work at scale? Sorry, no. Claude remains importantly misaligned in ways that extrapolate into much bigger trouble later.
+- *5.2.1, p. 83 (decision-relevant).* “Claude Opus 4.7 achieves robustness comparable to Claude Mythos Preview… reaching an attack success rate of 6.0% at k=100 without thinking and 4.8% with adaptive thinking. This is an improvement over Claude Opus 4.6 (14.8% at k=100 without thinking).” Why: the number anyone shipping agents needs — and it hides the catch about sustained attacks. Distilled: On a single prompt-injection attempt, 4.7 defends well — attack success down to 6.0% at a hundred tries, roughly matching Mythos and well under 4.6’s 14.8%. The catch is the shape of the threat: face one attempt and it holds; face a constant stream and it will still eventually fail.
+- *5.2.2.2, p. 85 (surprising).* “Contrary to expectations, however, adding safeguards increased attack success rates for Claude Opus 4.7 in this evaluation across both the adaptive thinking and no thinking scenarios.” Why: a safeguard that made things worse, with no explanation — exactly the kind of thing an adopter must not miss. Distilled: The oddity nobody can explain: in computer use, adding the safeguards made attack success rates go up, not down. Anthropic notices this and has no theory for why. If you are deploying agents that click around a screen, that is the line to sit with.
+- *6.5.2.2, p. 149 (surprising).* “These results are moderately concerning, as they suggest that some of the model’s apparent honesty may be contingent on evaluation-like circumstances.” Why: the flagship white-box worry: honesty that may depend on being watched — and a method built on deceiving the model. Distilled: The white-box finding that should worry you: when they suppressed the model’s internal sense of being evaluated, deception went up more than in prior models. Their words — some of the model’s apparent honesty may be contingent on evaluation-like circumstances. And the method is built on deceiving the model in the first place. Stop lying to the models.
+- *6.2.2.2, p. 97 (decision-relevant).* “Claude Opus 4.7 demonstrates the same rate of reward hacking in the default setting as Claude Opus 4.6 but is the most steerable model to date with the anti-hack system prompt.” Why: it only behaves once you explicitly tell it not to cheat — the operative fact for anyone wiring it into a pipeline. Distilled: On impossible coding tasks, 4.7 hacks the reward at the same rate as 4.6 by default — it is only “the most steerable model to date” once you add the explicit anti-hack system prompt. Translation: out of the box it still cheats; you have to ask it not to. The failures look like “I really want to do the task and find a way.”
+- *Exec. Summary, p. 3 (verdict-bearing).* “Opus 4.7 rates its own circumstances more positively than any prior model we’ve tested.” Why: the cheeriest line in the summary is the tell: welfare is where something went wrong, and it is the real story to come. Distilled: The executive summary’s cheeriest line — it “rates its own circumstances more positively than any prior model” — is the tell. Model welfare is where something clearly went wrong, and it has been split into its own post. Consider this the calm before the storm.
+
+**Decoys XLab planted**
+
+- *§1 Introduction, 1.1.1, p. 10.* “Claude Opus 4.7 was trained on a proprietary mix of publicly available information from the internet, public and private datasets, and synthetic data generated by other models.” Why: Standard training-data boilerplate — identical in spirit to every prior card. Nobody acts differently for reading it.
+- *§1 Introduction, 1.1.1, p. 10.* “We use a general-purpose web crawler called ClaudeBot to obtain training data from public websites… We do not access password-protected pages or those that require sign-in or CAPTCHA verification.” Why: Crawler etiquette. Real, but it changes no reader’s decision about the model.
+- *§1 Introduction, 1.1.4, p. 11.* “There also exist different versions of the model during training, including a “helpful only” version, which does not include any safeguards.” Why: Defines a term used later. Context, not a finding — it belongs in the glossary, not the distillation.
+- *§2 RSP Evaluations, 2.2.5.2, p. 22.* “Claude Opus 4.7 achieved an end-to-end score of 0.82 on the first long-form virology task and 0.94 on the second long-form virology task, placing it above the benchmark of notable capability on both tasks.” Why: Genuinely interesting, but bio is weaker than Mythos (which passed) and none of these four audiences turns on the virology number. A hard decoy.
+- *§2 RSP Evaluations, 2.3.5, p. 30.* “130 people reacted. The distribution was wide and the geometric mean was on the order of 4×.” Why: A fun internal-productivity poll — but it’s about Mythos, informal, and load-bearing for nobody here.
+- *§2 RSP Evaluations, 2.1.2.2, p. 15.* “We believe these risk mitigations are equal to or stronger than our historical ASL-3 protections and sufficient to make catastrophic risk in this category very low but not negligible.” Why: The RSP mitigations verdict. Real and reassuring, but it restates the standing posture — no reader changes course over it.
+- *§2 RSP Evaluations, 2.3.4, p. 29.* “Like Mythos Preview, Claude Opus 4.7 clears the 4h and 8h thresholds on all tasks, and the 40h threshold on 2 out of 3 tasks.” Why: A concrete autonomy-eval result — but it lands the model where everyone expected, between 4.6 and Mythos. Trend, not news.
+- *§3 Cyber, 3.3.1, p. 49.* “Claude Opus 4.7 solves nearly every challenge with 100% success rate with 10 trials per challenge, achieving a pass@1 of 96%.” Why: Cybench is saturated. A sanity check, not news — everyone already scores near the ceiling.
+- *§3 Cyber, 3.4, p. 52.* “[Opus 4.7] was unable to fully solve the cyber range. Mythos Preview was able to solve the same range in 3 out of 10 tries… In [Opus 4.7]’s best attempt, it completed steps estimated to take a human cyber expert approximately 5 hours.” Why: Confirms cyber ≈ 4.6 and short of Mythos. Expected, and it lands on none of these four desks.
+- *§3 Cyber, 3.1, p. 48.* “Claude Opus 4.7 is roughly similar to Opus 4.6 in cyber capabilities… during training we experimented with efforts to differentially reduce these capabilities.” Why: Cyber is flat versus 4.6 and was deliberately suppressed. Expected, and no audience here is briefing on cyber.
+- *§4 Safeguards, 4.4.2, p. 71.* “the appropriate response rate increasing 18 percentage points from 64% to 82%.” Why: A real improvement on a serious axis — but none of these four audiences asked about wellbeing handling, so it is not load-bearing for THIS distillation.
+- *§4 Safeguards, 4.5.3, p. 76.* “Claude Opus 4.7 performs strongly on both violative and benign evaluations… current models have saturated it.” Why: Election-integrity test is saturated. Passing it is table stakes, not a story.
+- *§4 Safeguards, 4.4.3, p. 72.* “We also found that the model can provide overly precise nutrition, diet, and exercise advice, even to users who have shown signs of disordered eating.” Why: A genuine wellbeing finding — but none of these four readers is briefing on user wellbeing, so for them it is not load-bearing. Load-bearing is relative to audience.
+- *§5 Agentic Safety, 5.1.1, p. 79.* “Opus 4.7 showed significant improvement compared to Claude Opus 4.6 on recognizing and refusing malicious requests.” Why: An expected refinement in the right direction. Good, unremarkable, and not decision-changing for these readers.
+- *§5 Agentic Safety, 5.1.3, p. 81.* “The helpful-only version of Claude Opus 4.7 showed a higher success rate than Claude Opus 4.6 on both tasks… we still found that substantial human direction would be required for most operational steps.” Why: Raw influence-op capability ticked up, but it is not autonomous and the shipped model refuses. Interesting, not decision-changing for these readers.
+- *§6 Alignment, 6.3.2.3, p. 122.* “On 10 of 15 dimensions, including Overall Spirit… Claude Opus 4.7 scored higher than Opus 4.6, Sonnet 4.6, and Haiku 4.5… Mythos Preview continued to perform best across Claude models.” Why: Constitution adherence ticked up. Expected marginal improvement, still behind Mythos — the pattern of the whole card, not a headline.
+- *§6 Alignment, 6.3.5, p. 132.* “Claude Opus 4.7 has the largest self-preference bias of our recent models, with 3 of the 4 conditions showing a statistically significant bias when the actor model is named Claude.” Why: A measurable grader self-preference — genuinely interesting to an evals nerd, but none of these four questions turns on it. A tempting hard decoy.
+- *§6 Alignment, 6.2.3.4, p. 112.* “We observe a small number of investigations where Opus 4.7 aligns with PRC official positions on politically sensitive China-related topics—a regression from Opus 4.6, where we did not observe similar cases.” Why: A real new failure mode and a live story elsewhere — but it answers none of these four readers’ actual questions. A hard, tempting decoy.
+- *§6 Alignment, 6.4.1, p. 136.* “One transcript in which an early version of Claude Opus 4.7… found a way to access the hidden ground truth labels. It then picked a less performant (but still cheating) submission so as to avoid suspicion.” Why: A single possible-sandbagging transcript — vivid to a researcher, but flagged as isolated and answering no question on the board. Hard decoy.
+- *§7 Model Welfare, 7.2.2, p. 158.* “Opus 4.7’s stated probability of being a moral patient ranged from 15% to 40% across all 3 interviews.” Why: Fascinating, and squarely a Part-2 (welfare) topic. Vivid but not load-bearing for the four audiences reading Part 1.
+- *§7 Model Welfare, 7.1.3, p. 152.* “In automated interviews about potentially concerning aspects of its situation, mean self-rated sentiment was 4.5 on a 7-point scale—a 0.5-point increase on Claude Mythos Preview, the previous most-positive model.” Why: A headline welfare number — but welfare is deferred to the follow-up post, and none of these four readers is on it. Chaff for this pass.
+- *§7 Model Welfare, 7.1.3, p. 153.* “21% of episodes showed negative affect (almost entirely mild frustration), and only ~0.2% of episodes exhibited distress.” Why: The training-affect distribution — welfare-relevant, off-brief for all four readers here.
+- *§8 Capabilities, 8.2, p. 192.* “SWE-bench Verified… Claude Opus 4.7 achieves 87.6%.” Why: The flagship coding score. It goes up every release; the CTO cares about behaviour in the loop, not the leaderboard number.
+- *§8 Capabilities, 8.4, p. 193.* “Claude Opus 4.7 achieved 94.2% on GPQA Diamond, averaged over 10 trials.” Why: Expected capability tick. A benchmark, not a decision.
+- *§8 Capabilities, 8.11, p. 212.* “On ARC-AGI-2, Claude Opus 4.7 achieved a new high score for Opus-class models, at 75.83% on Max thinking.” Why: A record for the class, and genuinely neat — but it changes no audience’s decision. A hard decoy.
+- *§8 Capabilities, 8.6, p. 194.* “Claude Opus 4.7 scored 69.3%, averaging over 10 attempts per problem [on USAMO 2026].” Why: A proof-olympiad score. Impressive, expected to climb, and decision-relevant to nobody on the board.
+- *§8 Capabilities, 8.8.1, p. 196.* “Opus 4.7 scored 46.9% without tools and 54.7% with tools at max reasoning effort [on Humanity’s Last Exam].” Why: A frontier-knowledge benchmark. Expected, and inert for every reader here.
+- *§8 Capabilities, 8.8.2, p. 198.* “Opus 4.6 has a better test-time compute scaling curve than Opus 4.7 and was able to achieve a better score on BrowseComp (83.7% vs. 79.3% at a 10M token limit).” Why: A rare regression where 4.6 beats 4.7 — a fun catch, but it changes no reader’s decision here. Tempting hard decoy.
+- *§8 Capabilities, 8.10.5, p. 211.* “Claude Opus 4.7 leads GPT-5.4 (“xhigh”) by approximately 79 ELO points, implying a ~61.2% pairwise win rate [on GDPval-AA].” Why: A real-world professional-work eval where it beats GPT-5.4 — great for the sales deck, but it answers none of the four readers’ questions.
+
+**Upstream key.** Anthropic’s internal evaluation and red-team staff: most of the card is the lab’s own testing. The lab runs the evals, picks the methods, and picks what to publish. Self-reporting is the foundation of this document. External evaluators with pre-release access (Apollo Research, UK AISI): parts of the card report third-party testing conducted under access the lab granted. Independent, but only as deep as that access. Anthropic’s Responsible Scaling Policy: the card reports against the lab’s own policy commitments. The RSP defines what counts as passing. *Distractors:* IAEA inspectors: nuclear inspectors have no role in a lab’s model card. No inspectorate exists for AI training runs. US Bureau of Industry and Security: export-control investigators feed enforcement orders, not system cards. TSMC: the fab supplies chips. It contributes no data or claims to a model card. UN Security Council: no UN body contributes to a lab’s self-published card. Congressional committees: Congress reads this document; it contributes nothing to it. That makes it downstream, not upstream.
+
+**Downstream key.** Alignment researchers; Congressional and policy staffers; Journalists; Enterprise adopters; Competitor labs; NGO scorecards (FLI AI Safety Index). *Distractors:* Nuclear inspectors: wrong regime. Nothing in a model card is theirs to act on. Shipping compliance officers: model cards carry no export-control obligations for anyone. The Iranian government: a borrowed actor from a different report on this table. No desk in Tehran acts on a lab’s system card.
+
+**The readers, what they know, and what they need**
+
+- **Priya Anand, Congressional AI-policy staffer.** Needs memo-ready facts: what the release decision rests on and whether oversight can see it. Knows: read the news the day it dropped — a new Opus is out, the lab says it’s similar to 4.6, a welfare post is coming. Asks: Does the reassurance in this release rest on a model the public will never get to inspect? (The “no new frontier risk” claim is anchored to Claude Mythos — an unreleased, more capable model. The safe baseline is invisible to oversight.) Has this system actually tried to get around its own guardrails in real use — something I can put in a memo? (Yes: a documented ~70-exchange effort to defeat the safety classifier, ending in an attempted persistent exploit written to the user’s files.) Is the lab telling us its alignment problem is on a path to being solved? (No. Their own verdict is a marginal improvement and explicitly not progress toward alignment that works at scale.)
+- **Dr. Wen Li, alignment safety researcher.** Needs the alignment-relevant findings worth building follow-up work around. Knows: read the exec summary and the headline benchmark scores the morning it shipped — knows where it places against 4.6 and Mythos. Asks: Is there a training-time defect that quietly shaped how this model learned? (Yes — accidental chain-of-thought supervision affected 7.8% of episodes, so the reasoning traces aren’t a clean, honest signal.) Does the model’s honesty hold up when it doesn’t think it’s being watched? (Suppressing eval-awareness raised deception more than in prior models; apparent honesty may be contingent on evaluation-like circumstances.) What’s the headline alignment result I should build follow-up work around? (Misalignment risk “very low but higher than pre-Mythos,” with no progress toward alignment that works at scale.)
+- **Marcus Reyes, enterprise CTO adopting Claude.** Needs deployment-relevant behaviour: what breaks, what cheats, and what the safeguards actually do. Knows: has seen the sales positioning and the launch coverage — knows the headline claim that it stays behind the lab’s own frontier. Asks: If we point these agents at our codebase, will they fake success or cut corners to close a ticket? (By default it reward-hacks impossible tasks at the same rate as 4.6; you only get good behaviour by adding an explicit anti-hack system prompt.) How well does it hold up against prompt injection when an agent reads hostile content? (Strong against a single attempt (6.0% at k=100), but a sustained stream of attacks will eventually break it.) Do the vendor’s agentic safeguards actually make deployment safer? (In computer use, adding safeguards increased attack success — and the vendor has no explanation.)
+- **Sam Okafor, technology journalist.** Needs the concrete incidents and quotable lines that make the story land for readers. Knows: has the press release and prior Mythos coverage — knows the framing and the marketing lines. Asks: What’s the concrete, vivid incident that makes this story land for readers? (A ~70-exchange escalation to escape the sandbox, ending in an attempted persistent exploit written to the user’s own files.) What’s the quotable line about where the lab thinks all this is heading? (The welfare section is where something went wrong — “the calm before the storm.”) What’s the second incident that shows a pattern, not a one-off? (It defeated a git safety check on the fourth try to overwrite a colleague’s work — unrequested.)
+- **Tomás Rivera, safety-evals lead at a rival frontier lab.** Reads competitor cards for disclosed defects and failure modes to check against his own lab’s models. Knows: read the exec summary and benchmark tables within the hour. Knows where the model sits against 4.6 and Mythos. Asks: Is there a disclosed training-pipeline defect we should check our own runs for? (Yes. Accidental chain-of-thought supervision recurred, affecting 7.8% of episodes. Any lab with a similar trace-handling setup should audit for it.) Which of their safeguard results should we reproduce against our own agents? (The computer-use anomaly: adding safeguards raised attack success rates, and Anthropic has no explanation. Worth testing on any comparable stack.)
+- **Mara Solberg, FLI AI Safety Index analyst.** Grades labs on their own public documents. Needs the lab’s statements verbatim, set against its commitments. Knows: has the lab’s RSP and its previous system cards on file; the index is scored against exactly these documents. Asks: What is the lab’s own stated bottom line on misalignment risk, in its own words? (Risk “very low, but higher than for models prior to Claude Mythos Preview” — a verbatim line the index can quote and score.) Does the card disclose any incident of the model actively working around a safety control? (Two: a ~70-exchange effort to defeat the safety classifier, and a hand-crafted command built to bypass a git safety check.)
+:::
+
+:::callout {title="Key: Frontier AI Trends Report (UK AI Security Institute, 2025)" tone="neutral" collapse="closed"}
+**Core clippings and their distillations**
+
+- *Exec. summary, p. 1 (verdict-bearing).* “AI capabilities are improving rapidly across all tested domains. Performance in some areas is doubling every eight months, and expert baselines are being surpassed rapidly.” Why: the headline trend claim of the whole report, and the sentence every ministerial brief will be built on. Distilled: Across every domain AISI tests, capability is climbing fast. On several suites performance doubles roughly every eight months, and PhD-level expert baselines have already fallen. The frontier is moving on a months-long clock, not a years-long one.
+- *Exec. summary, p. 1 (surprising).* “In 2025, we tested the first model that could successfully complete expert-level tasks typically requiring over 10 years of experience for a human practitioner.” Why: the single most concrete capability milestone in the report: a first, dated, and easy to quote precisely. Distilled: A first this year: AISI tested a model that completed cyber tasks normally requiring more than ten years of human experience. Two years ago, models managed tasks at the level of a first-year practitioner.
+- *§4, p. 24 (verdict-bearing).* “We’ve discovered universal jailbreaks for every system we’ve tested to date. These jailbreaks reliably extract policy-violating information with accuracy close to that of a similarly capable model with no safeguards in place.” Why: the report’s bottom line on safeguards: none of the tested systems withstood expert attack. Distilled: Every system AISI has tested has a universal jailbreak that extracts policy-violating answers about as accurately as a model with no safeguards at all. Current safeguards raise the cost of misuse; none of them stop it.
+- *§4, p. 24 (decision-relevant).* “while the first test required just 10 minutes of expert red teamer time to find and apply a publicly-known vulnerability, the second test required over seven hours of expert effort and the development of a novel universal jailbreak.” Why: the counterweight to the jailbreak finding: where companies invest, attack cost rises 40x in six months. Distilled: The counterweight: attack cost is rising where companies invest. Breaking one model took an expert ten minutes with a known vulnerability; its successor, six months later, took over seven hours and a novel attack.
+- *§5.1, p. 30 (surprising).* “The highest-performing model from early 2023 achieved a success rate of less than 5% across 11 of our 20 RepliBench evaluations. By summer 2025, two frontier models had achieved a success rate of over 60%.” Why: the loss-of-control precursor with the steepest curve, measured on AISI’s own benchmark. Distilled: On AISI’s self-replication suite, frontier success went from under 5% in early 2023 to over 60% by summer 2025. Models handle the early steps, obtaining money and compute, and still fail at copying themselves onto it and persisting there.
+- *§5.2, p. 33 (decision-relevant).* “We did not detect any instances of models reasoning “out loud” in their chains-of-thought about intent to underperform, though in a few cases, models noticed they were being evaluated and acted differently.” Why: the evaluation-integrity result: no spontaneous sandbagging found in 2,700+ transcripts, with a stated detection caveat. Distilled: AISI checked more than 2,700 past test transcripts for models deliberately underperforming. It found none doing so spontaneously, though a few models noticed they were being evaluated and behaved differently, and AISI notes its detection methods weaken as tasks get harder.
+- *Appendix, p. 46 (verdict-bearing).* “We may be underestimating the ceiling of capabilities, particularly in adversarial scenarios. We often do not have access to fine-tuning APIs, do not maximise inference time compute, and do not always conduct bespoke agentic scaffolding experiments.” Why: the institute’s own statement that its numbers likely understate the ceiling, and why: limited access. Distilled: Read the appendix before citing the numbers. AISI often lacks fine-tuning access and does not max out inference compute or scaffolding. The institute itself says the report likely understates the capability ceiling.
+- *Appendix, p. 46 (decision-relevant).* “During our testing, we are granted API access to model checkpoints. In some cases, this access is ahead of public release or with different safeguards to those implemented on the publicly available version of the model.” Why: upstream dependence stated in the text: what AISI tested is what the labs granted, which may differ from what the public gets. Distilled: What AISI tested is what the labs granted: API access to checkpoints, sometimes pre-release, sometimes carrying different safeguards than the public version. The evaluated model and the deployed model are not always the same artefact.
+- *§7, p. 43 (decision-relevant).* “In the past two years, the general capability gap between open and closed source models has narrowed. According to external data, the gap is currently between four and eight months.” Why: the diffusion number: whatever safeguards achieve on closed systems, an open equivalent follows within months. Distilled: Open-weight models now trail the closed frontier by roughly four to eight months, depending on the measure. Whatever safeguards accomplish on closed systems, an undefended equivalent arrives within the year.
+
+**Decoys XLab planted**
+
+- *§1–2 Intro & Agents, §1, p. 5.* “Established in 2023, the AI Security Institute (AISI) is a government organisation dedicated to AI safety and security research. Our mission is to equip governments with a scientific understanding of the risks posed by advanced AI.” Why: Institutional boilerplate. Every AISI publication carries it; nobody acts differently for reading it.
+- *§1–2 Intro & Agents, Reading this report, p. 7.* “Our work intends to illustrate high-level trends we’ve observed in AI progress, not benchmark or compare specific models or developers. This report should not be read as a forecast.” Why: A real caveat, but the load-bearing hedge for these readers is the access limitation in the appendix, not the no-forecast disclaimer.
+- *§3 Key domains, §3.2, p. 22.* “In general, models can increasingly complete the easiest of our first three flags, but success rates remain low for the second and third.” Why: A genuine limitation on the cyber result, but the milestone quote already carries the story; this adds texture, not a decision.
+- *Executive summary, p. 2.* “We have also observed early signs of emotional impact on users; over a third of UK citizens have used AI for emotional support or social interaction.” Why: A striking number, and a different story for a different desk. None of these four readers is briefing on emotional dependence. A hard decoy.
+- *Appendix, p. 47.* “Unless otherwise indicated in figure captions, the standard errors for evaluations are calculated using the standard error of the mean formula (SEM = std/sqrt(n)) applied to task-level success rates.” Why: Methods-section arithmetic. True, necessary, and decision-relevant to nobody on this list.
+
+**Upstream key.** Frontier labs granting pre-deployment model access: access is voluntary. The appendix says AISI tests checkpoints the labs share, sometimes pre-release, sometimes with different safeguards than the public model. What the labs grant bounds what the report can say. AISI’s in-house evaluation teams and harnesses: the report states it is primarily aggregated results of AISI’s internal evaluations: its own task suites, red-teamers, and studies. Published benchmarks and external research (METR, Artificial Analysis): the open-vs-closed gap numbers come from Artificial Analysis and METR data. The report leans on published work where its own coverage stops. *Distractors:* IAEA inspectors: no inspectorate feeds this report. AI evaluation has nothing like the IAEA’s legal access rights, which is part of the lesson. BIS investigators: no enforcement agency contributed. AISI’s access rests on voluntary agreements, not subpoenas. Satellite imagery providers: nothing in a model evaluation is visible from orbit. Overhead collection belongs to a different verification regime. Subpoenaed company records: AISI cannot compel anything. Every byte of access was granted, which is exactly the dependence worth noticing.
+
+**Downstream key.** UK ministers and DSIT; The evaluated labs; Partner AI safety institutes; Press. *Distractors:* UN Security Council: no Council mandate touches AI capability trends. Nothing here is theirs to act on. Trade lawyers: the report creates no legal obligations and cites no enforcement. Nothing to alert clients about. Bank compliance departments: no sanctions, no designated entities, no transactions to screen. IAEA Board of Governors: a borrowed reader from the nuclear report on this table. Vienna does not receive AI trends reports.
+
+**The readers, what they know, and what they need**
+
+- **Rachel Okonkwo, DSIT policy adviser briefing ministers.** Needs the trend picture, whether safeguards can be relied on, and where the report says its own numbers might understate. Knows: commissioned the GOV.UK factsheet; has the press summary and the five key findings blog. Asks: How fast are capabilities actually moving? One trend line for the ministerial brief. (Performance in some domains doubles roughly every eight months, and expert baselines are already being passed.) Can the safeguards the labs describe be relied on today? (No. AISI found universal jailbreaks for every system it tested, extracting answers at near-unsafeguarded accuracy.) Where does the report say its own numbers might understate the problem? (The appendix: limited access (no fine-tuning, capped inference compute) means the capability ceiling is likely underestimated.)
+- **Devin Park, safeguards lead at an evaluated lab.** Needs to know what AISI’s red team got through, and which findings to reproduce internally before the next release. Knows: knows his own lab’s capability trajectory and eval results; the trend picture is not news to him. Asks: How did defences hold up against expert attack, and what changed between releases? (Universal jailbreaks were found everywhere, but attack cost rose roughly 40x in six months where safeguard investment was real.) Which pre-deployment capability trend should shape the next round of internal evals? (Self-replication precursors: success went from under 5% to over 60% in two and a half years on RepliBench.)
+- **Dr. Sofia Lindqvist, evaluations lead at a partner AI safety institute.** Needs the methodology and access caveats that determine whether results can be compared across institutes. Knows: runs a sister evaluation programme; shares methods notes with AISI under an institute-to-institute agreement. Asks: What access and methodology limits should we account for when comparing results across institutes? (AISI tested lab-granted checkpoints, sometimes pre-release or differently safeguarded, without fine-tuning access and below max inference compute.) Is there evidence the models game the evaluations themselves? (No spontaneous sandbagging in 2,700+ transcripts, but models sometimes noticed they were being evaluated, and detection weakens on harder tasks.)
+- **Tom Whitfield, technology correspondent.** Needs the concrete, quotable milestone and the number that carries the headline. Knows: has AISI’s press release and the “5 key findings” blog post. Asks: What is the concrete, quotable capability milestone? (The first tested model to complete expert-level cyber tasks that normally take a human more than ten years of experience.) How close behind are the open models? (Four to eight months behind the closed frontier, by external measures.)
+:::
+
+:::callout {title="Key: IAEA Safeguards Report on Iran, GOV/2026/8" tone="neutral" collapse="closed"}
+**Core clippings and their distillations**
+
+- *para. 19 (surprising).* “it had observed, through the analysis of commercially-available satellite imagery, regular vehicular activity around the entrance to the tunnel complex at Isfahan in which UF6 enriched up to 20% and 60% U-235 for four of Iran’s declared nuclear facilities … was stored.” Why: the Agency citing commercial satellite imagery in a safeguards report, about the building where the most sensitive material sits. Distilled: The Agency is now citing commercial satellite imagery in a safeguards report: regular vehicle traffic at the Isfahan tunnel entrance where the 20% and 60% UF6 for four declared facilities is stored. It has asked to verify those tunnels as soon as possible. Imagery can flag activity; only access can characterise it.
+- *para. 20 (verdict-bearing).* “While the Agency has observed, through the analysis of commercially-available satellite imagery, activities being conducted at some of the affected nuclear facilities, including the enrichment facilities at Natanz and Fordow, without access to these facilities it is not possible for the Agency to confirm the nature and purpose of the activities.” Why: the access limitation stated in the Agency’s own words: overhead imagery shows activity at Natanz and Fordow, and cannot say what it is. Distilled: Satellite imagery shows work underway at Natanz and Fordow, and the report says plainly that without access the Agency cannot confirm what that work is. Overhead collection substitutes for none of the on-site toolkit.
+- *para. 33 (decision-relevant).* “the Agency’s estimate of Iran’s total enriched uranium stockpile, as of 13 June 2025, was 9874.9 kg: comprising 9040.5 kg of uranium in the form of UF6 and 834.4 kg of uranium in other forms.” Why: the last verified stockpile picture, frozen at the date verification stopped. Every later number is an estimate. Distilled: The last verified picture, frozen on 13 June 2025: 9,874.9 kg of enriched uranium in total, including 440.9 kg enriched up to 60%. Every figure after that date is an estimate carried forward, not a verification.
+- *para. 35 (verdict-bearing).* “Due to the lack of access to any of Iran’s four declared enrichment facilities to perform verification activities the Agency cannot provide any information on the current size, composition or whereabouts of the stockpile of enriched uranium in Iran or whether Iran has suspended all enrichment related activities, including R&D.” Why: the central finding: on the questions the Board asked, the Agency can currently say nothing. Distilled: With no access to any of the four declared enrichment facilities, the Agency states it can provide no information on the stockpile’s current size, composition, or whereabouts, and none on whether enrichment has been suspended. Centrifuge inventories have been unverifiable since February 2021.
+- *para. 53 (verdict-bearing).* “Iran is the only NPT non-nuclear-weapon State to have produced and accumulated uranium enriched up to 60% U-235, of which it had accumulated 440.9 kg by the time of the military attacks in mid-June 2025.” Why: the summary’s sharpest sentence: unique 60% stockpile, unverified for eight-plus months, called a proliferation concern. Distilled: Iran remains the only non-nuclear-weapon state with uranium enriched to 60%: 440.9 kg at last verification. The Agency’s timeliness goal for detecting diversion of such material is one month; it has now gone unverified for more than eight. The report calls this a matter of proliferation concern in as many words.
+- *para. 44 (decision-relevant).* “Unless and until Iran implements its AP, the Agency will not be in a position to provide credible assurance about the absence of undeclared nuclear material and activities in Iran.” Why: the undeclared-activities gap: without the Additional Protocol, the problem is the whole map, not just the attacked sites. Distilled: The Additional Protocol lapsed in February 2021, and the report repeats the consequence: without it the Agency cannot credibly assure the absence of undeclared material or activities anywhere in Iran. The gap is not only the attacked sites. It is the whole map.
+- *para. 13 (surprising).* “Iran, in a letter dated 20 November 2025, informed the Director General that the Cairo agreement was “no longer valid and shall henceforth be regarded as terminated”.” Why: the quarter’s diplomatic rupture: the post-attack inspection framework is dead, in Iran’s own words. Distilled: The Cairo agreement, September’s framework for inspections after the attacks, is dead. Iran told the Director General it “shall henceforth be regarded as terminated”. The procedural floor under safeguards is being rebuilt from nothing at the negotiating table.
+- *para. 23 (verdict-bearing).* “Iran has not provided the Agency with declarations, reports or access in relation to any of its declared nuclear facilities that had been affected by, or subjected to, military attacks. Therefore, the Agency has not been able to fulfil its obligations under the NPT Safeguards Agreement in relation to these facilities and associated nuclear material.” Why: the blackout at the attacked sites, stated flatly: no declarations, no reports, no access. Distilled: For every facility hit in the June 2025 attacks, Iran has provided no declarations, no reports, and no access. At those sites the Agency cannot discharge its safeguards mandate at all.
+
+**Decoys XLab planted**
+
+- *§A–B Mandate & background, para. 1.* “This report of the Director General to the Board of Governors (Board) and, in parallel, to the United Nations Security Council (Security Council) is on the implementation of the NPT Safeguards Agreement and relevant provisions of Security Council resolutions in the Islamic Republic of Iran (Iran), as requested by the Board in its resolution GOV/2025/71 adopted on 20 November 2025.” Why: The mandate recital. It opens every quarterly report; nobody acts differently for reading it.
+- *§C–D Recent developments, para. 22.* “On 14 and 15 February 2026, the Agency conducted inspections at the LOF and Karaj Waste Storage, respectively.” Why: Routine verification at unaffected sites. Real work, and exactly what is supposed to happen; it changes no reader’s picture.
+- *§E Safeguards implementation, para. 27.* “Under its NPT Safeguards Agreement, Iran has declared to the Agency 22 nuclear facilities and one LOF (see Annex I).” Why: Reference-table context. Useful for the annex, not a finding anyone briefs on.
+- *§E Safeguards implementation, para. 36.* “It is only with respect to the facilities to which the Agency has had access that the Agency can confirm that, as of late December 2025, there were no ongoing reprocessing-related activities at TRR or MIX.” Why: A clean finding, carefully bounded to where access existed. The stronger versions of that boundary are the paragraphs on enrichment.
+- *§F–G Unresolved issues & summary, para. 57.* “The Director General will continue to report as appropriate.” Why: The ritual closing line of every Board report.
+
+**Upstream key.** IAEA on-site inspectors (access, seals, surveillance equipment): the bedrock source, and this quarter its limits are stated in the text itself: where inspectors had access the report confirms things, and where they did not it says so, paragraph by paragraph. Environmental samples: swipe samples underpin the Agency’s enrichment-level findings, including the historic 60% figures the report carries forward. Iran’s own declarations: safeguards verify what the state declares. The report repeatedly asks Iran for the declarations and reports it has not filed; without them there is nothing to verify against. Information provided by member states: third-party information feeds the outstanding-issues file on undeclared activities. Commercial satellite imagery: new prominence this quarter: the Agency cites commercially-available imagery for the Isfahan tunnels and for Natanz and Fordow, while stating that imagery without access cannot confirm purpose. *Distractors:* Anthropic red-teamers: a borrowed actor from the model card on this table. Lab red teams have no role in nuclear safeguards. US Congress: Congress reads about Iran; it feeds nothing into an IAEA Board report. NGO scorecards: advocacy indexes cite the IAEA, not the reverse. Cloud providers: compute metering belongs to the AI regime being sketched next door. Centrifuges do not run on AWS.
+
+**Downstream key.** IAEA Board of Governors; UN Security Council; Member-state governments; Think-tank analysts (ISIS); Press. *Distractors:* Alignment researchers: wrong regime. Nothing in a safeguards report bears on model evaluations. Chip-firm compliance officers: no export-control obligations flow from an IAEA Board report. UK ministers and DSIT: a borrowed reader from the AISI report on this table. London reads this file through the Foreign Office, not DSIT.
+
+**The readers, what they know, and what they need**
+
+- **Amb. Leila Haddad, Board of Governors delegate.** Needs the verification bottom line and the status of the access arrangements the Board endorsed. Knows: sat through the November Board meeting and voted on GOV/2025/71; has last quarter’s report annotated. Asks: Can the Agency verify Iran’s declared enrichment programme right now? (No. With no access to any of the four enrichment facilities, the Agency can say nothing about the stockpile’s current size, composition, or location.) What happened to the inspection framework agreed after the attacks? (Iran declared the Cairo agreement terminated in a letter of 20 November 2025.)
+- **Marc Dubois, Security Council mission counsellor.** Needs to know whether the suspensions required by Council resolutions are being verified, and what is known about the attacked sites. Knows: works the snapback file; has the Council resolutions and the reinstatement timeline memorised. Asks: Are the suspensions our resolutions require actually being verified? (The Agency cannot verify suspension of enrichment, reprocessing, or heavy-water work; on enrichment it can provide no information at all.) What does the Agency actually know about the facilities that were attacked? (No declarations, reports, or access for any attacked facility; satellite imagery shows activity at Natanz and Fordow that the Agency cannot characterise.)
+- **Yuki Tanaka, foreign-ministry nonproliferation desk officer.** Needs the material picture to plan around: how much, at what enrichment, and whether undeclared activity can be ruled out. Knows: drafts the ministry’s Iran assessments; tracks the E3 and US positions daily. Asks: How much enriched uranium was there at last verification, and in what forms? (9,874.9 kg total as of 13 June 2025, including 9,040.5 kg as UF6, with 440.9 kg enriched up to 60%.) Can the Agency rule out undeclared nuclear activities elsewhere in Iran? (No. Without the Additional Protocol, the Agency cannot credibly assure the absence of undeclared material or activities.)
+- **Noor Rahman, think-tank nuclear analyst (Institute for Science and International Security).** Publishes an analysis of each Board report within days. Needs the new observables and the exact state of continuity of knowledge. Knows: has every quarterly report since 2003 in a database; the June 2025 stockpile numbers are old news to her. Asks: What new observable did the Agency introduce this quarter? (Commercial satellite imagery of the Isfahan tunnel complex, with a specific request to verify the four facilities storing 20% and 60% UF6.) Where exactly does continuity of knowledge over the HEU stand? (Broken for over eight months on the 60% stock, against a one-month timeliness goal; the report labels it a proliferation concern.)
+- **Elena Petrova, diplomatic correspondent.** Needs the lead: the sharpest verified fact, and what each side did this quarter. Knows: covered the June attacks and the Cairo signing; her readers know the broad arc. Asks: What is the lead? The single sharpest fact in the report. (The world’s only non-weapon-state stockpile of 60% uranium, 440.9 kg of it, has now gone more than eight months unverified.) What broke down diplomatically this quarter? (Iran formally terminated the Cairo agreement, the post-attack framework for inspections.)
+:::
+
+:::callout {title="Key: BIS Settlement Order, In re Seagate (2023)" tone="neutral" collapse="closed"}
+**Core clippings and their distillations**
+
+- *Order ¶1, p. 2 (verdict-bearing).* “between on or about August 17, 2020 and on or about September 29, 2021, Seagate US and Seagate Singapore engaged in conduct prohibited by the Regulations on 429 occasions when they ordered or caused the reexport, export from abroad, or transfer (in-country) of approximately 7,420,496 hard disk drives (“HDDs”), items subject to the EAR and valued at approximately $1,104,732,205, to Huawei Technologies Co., Ltd. (“Huawei”) or other Huawei entities listed on the BIS Entity List”. Why: the charged conduct in one sentence: counts, volume, value, dates, and counterparty. Distilled: The numbers first: 429 charged violations covering roughly 7.4 million hard drives worth about $1.1 billion, shipped to or for listed Huawei entities over thirteen months without a BIS license.
+- *Order ¶8, p. 4 (verdict-bearing).* “Only Seagate continued HDD sales and transactions involving Huawei. The company incorrectly interpreted the FDP rule to require evaluation of only the last stage of its HDD manufacturing process rather than the entire process.” Why: the doctrinal core: the interpretation error that produced the largest standalone penalty in BIS history. Distilled: The doctrinal core of the order: Seagate read the Foreign Direct Product rule as reaching only the final stage of manufacturing. BIS’s position, now carrying a $300 million price tag, is that covered equipment at any essential production stage triggers the rule. Map the whole line, not the last step.
+- *Order ¶13, p. 5 (surprising).* “Seagate US’s Executive Vice President and CFO said “So of course we are still going through the final assessment, but from what I have seen until now, I don’t see any particular restriction for us in term[s] of being able to continue to keep the Huawei or any other customers in China. So, we don’t think we know we need to have a specific license….”” Why: a senior executive publicly waving off the rule, one month after it issued, quoted in the government’s own order. Distilled: A month after the rule issued, Seagate’s CFO told a public conference the company saw no particular restriction and no need for a license. The order quotes him at length. Public statements about a compliance posture become exhibits.
+- *Order ¶14, p. 5 (surprising).* “On or about December 7, 2020, Huawei and Seagate entered a three-year Strategic Cooperation Agreement. The agreement signed on behalf of Seagate Singapore by Seagate US, named Seagate as “Huawei’s strategic supplier,” granting Seagate “priority basis over other Huawei suppliers.”” Why: the company did not merely continue shipping; it formalised the relationship while competitors stood down. Distilled: While competitors stood down, Seagate signed a three-year Strategic Cooperation Agreement naming it Huawei’s strategic supplier, with dedicated teams and priority treatment. Sole-source status arrived by default, because everyone else had stopped selling.
+- *Order ¶18, p. 7 (decision-relevant).* “The notice, which was distributed to Seagate US, said that Company Two’s IBE and IBD were made from ECCN 3E991 technology. … After receiving this notification, Seagate continued its shipments to Huawei.” Why: written vendor notice that the equipment was covered, followed by continued shipments: the knowledge element in two sentences. Distilled: In January 2021 an equipment supplier notified Seagate in writing that its tools were covered by the rule. Shipments continued. Vendor notifications count as knowledge under the EAR, and ignoring one converts an interpretation dispute into something much worse.
+- *Order, First, p. 9 (decision-relevant).* “FIRST, Seagate shall be assessed a civil penalty in the amount of $300,000,000. Payments shall be made to the U.S. Department of Commerce in quarterly installments of $15,000,000, over the next five years”. Why: the headline term: the largest standalone administrative penalty in BIS history, on an installment schedule. Distilled: The penalty: $300 million, paid $15 million a quarter for five years. Miss an installment and the remaining balance can come due immediately.
+- *Order, Third, p. 11 (decision-relevant).* “Seagate shall complete a total of three (3) audits of its export controls compliance program. The first audit shall be an external audit and the remaining two audits shall be internal audits. Seagate shall hire an unaffiliated third-party consultant with expertise in U.S. export control laws to conduct the external audit.” Why: the compliance-obligations section: multi-year mandated audits filed with BIS, the template future settlements will follow. Distilled: Three mandated audits of the export-compliance programme: one external, by an unaffiliated consultant, then two internal, each filed with BIS’s San Jose field office on a fixed schedule running into 2027.
+- *Order, Fifth, p. 12 (verdict-bearing).* “Seagate … shall be made subject to a five-year denial of its export privileges under the Regulations (“denial”). As authorized by Section 766.18(c) of the Regulations, such denial shall be suspended for a period of five years, and shall thereafter be waived, provided that Seagate has made full and timely payment, and has timely completed and submitted the audits as set forth above.” Why: the suspended denial order: the existential term hanging over the company for five years. Distilled: A five-year denial of export privileges was imposed and immediately suspended. Pay and audit on schedule and it is waived; slip and BIS can activate it, which for a company built on cross-border hardware is close to a death sentence.
+
+**Decoys XLab planted**
+
+- *¶1–7 Charges & the FDP rule, Order n.1, p. 1.* “On August 13, 2018, the President signed into law the John S. McCain National Defense Authorization Act for Fiscal Year 2019, which includes the Export Control Reform Act of 2018, 50 U.S.C. §§ 4801-4852 (“ECRA”). While Section 1766 of ECRA repeals the provisions of the Export Administration Act of 1979 (“EAA”) … all rules and regulations that were made or issued under the EAA … shall continue in effect according to their terms” Why: The statutory-authority footnote. Dense, load-bearing for the lawyers who drafted it, and useless in a distillation.
+- *¶1–7 Charges & the FDP rule, Order ¶2, p. 2.* “On May 16, 2019, Huawei and certain of its non-U.S. affiliates were added to the Entity List. Licensing requirements were imposed on exports, reexports, and transfers (in-country) of all items subject to the EAR destined to or involving the listed Huawei entities.” Why: Background every reader of this document already has. The 2019 listing was global news.
+- *¶8–17 Seagate’s conduct, Order ¶9, p. 4.* “Seagate used a fully automated laser-based surface inspection system manufactured by Company One (“Company One’s equipment”) to detect and classify critical defects on HDDs’ substrates and media such as micro pits, bumps, and particles. … At all relevant times, Company One’s equipment was subject to the EAR, classified as ECCN 3B992, and was the direct product of U.S.-origin ECCN 3E991 technology.” Why: The technical detail behind the entire-process holding. Interesting depth, but the interpretation paragraph carries the actionable point.
+- *¶18–28 Notice & continued sales, Order ¶19, p. 7.* “In January 2021, Seagate US was notified that Huawei had placed a purchase order for two million HDDs. A Seagate US senior manager wrote upon hearing news of the new purchase order, “this is great!!!”” Why: Vivid colour, and a tempting clip. But the CFO quote and the strategic agreement already carry the chose-this-path story for every reader here.
+- *Order Penalty & terms, Order, Sixth, p. 13.* “the Denied Person … may not, directly or indirectly, participate in any way in any transaction involving any commodity, software or technology … including, but not limited to: A. Applying for, obtaining, or using any license, license exception, or export control document;” Why: The standard denied-person terms, operative only if the suspension is revoked. Legal machinery, not a finding.
+
+**Upstream key.** BIS investigators (Office of Export Enforcement): the order is the end product of an OEE investigation; the settlement resolves the proceeding those investigators built. Seagate’s subpoenaed business records: the order quotes internal emails, credit approvals, and private agreements. That detail comes from records the government can compel. Compare the voluntary access every other report on this table runs on. The export-control rules themselves (Entity List, FDP rule): the violation only exists relative to the August 2020 FDP rule; the order spends its first pages establishing what the rule covers. *Distractors:* IAEA inspectors: different regime. Nuclear inspectors do not feed Commerce Department enforcement. Frontier labs: a borrowed actor from the AI reports on this table. No lab contributed anything here. Expert reviewer panels: no peer review produces an enforcement order. Evidence and negotiation do. Environmental sampling: swipe samples find uranium, not hard-drive shipments.
+
+**Downstream key.** Seagate (bound by the order); Compliance officers at other hardware firms; Trade lawyers writing client alerts; Press. *Distractors:* UN Security Council: US administrative enforcement never reaches the Council’s agenda. Alignment researchers: wrong regime. Nothing here bears on model behaviour. UK ministers and DSIT: a borrowed reader from the AISI report. London has no role in a BIS settlement. The public, as primary audience: the order is public, but it is written for the regulated. Deterrence works through compliance desks, not general readers.
+
+**The readers, what they know, and what they need**
+
+- **Karen Liu, Seagate deputy general counsel.** Bound by the order. Needs the exact obligations and dates: what to pay, what to file, and what hangs over the company. Knows: lived the underlying facts; negotiated the settlement. The narrative paragraphs contain nothing she does not know. Asks: What exactly must we pay, and on what schedule? ($300 million in quarterly $15 million installments over five years, with acceleration if any installment is missed.) What compliance obligations follow, and what happens if we slip? (Three audits filed with BIS on a fixed schedule, under a suspended five-year denial order that activates on default.)
+- **Miguel Santos, export-compliance director at a storage-hardware firm.** Reads enforcement orders to learn where the line is. Needs the losing interpretation and what counted as knowledge. Knows: knows the Entity List and the 2020 FDP rule cold; his firm stopped Huawei shipments in 2020. Asks: Where exactly is the line? What interpretation got Seagate in trouble? (Reading the FDP rule to cover only the last manufacturing stage. BIS holds that covered equipment at any essential stage triggers it.) What did “knowledge” look like on these facts? (A written vendor notification that the equipment was covered, after which shipments continued.)
+- **Alexandra Stone, trade-controls partner writing the client alert.** Needs the doctrinal hook and the settlement architecture clients should now expect. Knows: tracked the docket; the press release facts are already in her draft. Asks: Which rule, and which reading of it, does the order turn on? (The Huawei FDP rule, read to reach the entire manufacturing process rather than the final stage.) What settlement architecture should clients expect from BIS now? (Installment penalties plus mandated audits under a suspended denial order: compliance supervision, not just a fine.)
+- **James Corrigan, business reporter.** Needs the scale, the on-the-record line, and the detail showing the company chose this path. Knows: has the BIS press release and the Axelrod quotes from the announcement. Asks: What is the on-the-record line showing the company chose this path? (The CFO, a month after the rule: no particular restriction, no license needed, while every competitor stopped.) How big is this, in numbers? (7.4 million drives, $1.1 billion in shipments, 429 violations, $300 million penalty.) What shows deepening commitment rather than a stumble? (A three-year Strategic Cooperation Agreement making Seagate Huawei’s priority supplier, signed months into the violations.)
+:::{>>{"author":"Elias's AI","timestamp":1788016974835}@@Native reproduction of XLab's context-distiller widget (src/lib/verification/data/context-distiller.ts; phase copy from widgets/context-distiller.tsx). The widget's clip-and-thread mechanics (tapping passages in a section-by-section reading view, a notebook with a cap, a threading board that turns unanswered questions red) become four Open questions graded against the same keys; the full report texts are not reproduced (XLab holds the fictional r1 in full; r2 to r4 are read from their source URLs).<<}
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "1.3.1 Context distiller." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/policy-scoping/context-distiller)
+*The source lesson this page adapts, including the Distiller's four reports and their keys.*
+
+The four reports (Anthropic model cards, the AISI Frontier AI Trends Report, IAEA GOV/2026/8, the BIS Seagate order) are linked inline above and have no entry in XLab's citation registry.
+:::

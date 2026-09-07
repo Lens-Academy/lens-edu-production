@@ -1,0 +1,130 @@
+---
+id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
+title: "Measuring and classifying use"
+tldr: "Counting FLOP and knowing whether they were training are two different problems, and a 98.2 percent classifier that drops to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practise turning an experimental result into exactly the policy claim it supports."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
+duration_minutes: 25
+---
+#### Text
+content::
+\### 2.1.4 Measuring and classifying use
+
+The working rule prohibits **unlicensed training above threshold T** while permitting inference and approved safety evaluations. Verifying that rule requires answers to three separate questions:
+
+1. How much counted compute occurred?
+2. What kind of workload was it?
+3. Was that workload authorized?
+
+A system may answer one and fail the others.
+
+\#### Compute accounting
+
+Training thresholds are usually expressed in total operations, commonly total training FLOP. Throughput, such as FLOP per second, is a different quantity.
+
+A treaty-grade accounting rule must define:
+
+- Which operations count;
+- Whether low-precision, sparse, skipped, duplicated, or recomputed operations count differently;
+- Where counting occurs in the hardware or software stack;
+- How per-device records aggregate across a run, customer, cluster, facility, site, and time window;
+- How interrupted, resumed, sequential, or distributed runs are joined;
+- How counter resets, rollbacks, overflow, missing records, and clock changes are handled;
+- How the verifier detects padding or deliberately inefficient work intended to distort the count.
+
+Existing performance counters and management telemetry can measure useful quantities, but ordinary counters are not automatically suitable for adversarial verification. Hardware-mechanism surveys note that some existing counters can be reset or controlled by users. A stronger design needs a protected measurement path, secure state, authenticated reporting, freshness, and aggregation rules that the operator cannot silently rewrite.
+
+:::callout {title="Source" tone="neutral" collapse="closed"}
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
+:::
+
+Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
+
+:::callout {title="Question to keep visible" tone="blue"}
+What quantity did the meter record, and how closely does that quantity match the legal rule?
+:::
+
+Read the proposal for verifiable training and inference and its open research questions.
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: ### 2.2 Verifiable AI training and inference ^2-2-verifiable-ai
+to:: Figure 3: Adapted from: ([Heim et al., 2024](#bib.bib21)).
+
+#### Article
+source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
+from:: #### 2.2.4 Open research questions ^2-2-4-open
+to:: How can dataset verification be reliably performed in distributed systems, accounting for challenges like pipeline parallelism and data parallelism, where only subsets of GPUs interact with input data?
+
+#### Text
+content::
+\#### Workload classification
+
+A compute counter cannot determine whether the operations were training, inference, evaluation, fine-tuning, or another permitted activity. Workload classification uses additional signals, such as temporal GPU telemetry, memory behavior, communication patterns, or authenticated code and configuration.
+
+A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry could detect hidden machine-learning training. Across its full corpus, the study reported 98.2 percent binary classification accuracy over nine NVIDIA GPU models and twenty evasion families. The result is important evidence that training leaves detectable temporal patterns under tested conditions.
+
+:::callout {title="Source" tone="neutral" collapse="closed"}
+Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
+:::
+
+Read what the study measured, what it found, and what the authors say it does and does not establish.
+
+#### Article
+source:: [[../articles/rahman-detecting-hidden-ml-training-with-zero-overhead-telemetry]]
+from:: ## 4 Methodology ^4-methodology
+to:: We invite researchers and ML experts to red-team our classifier and publish evasion strategies that might defeat it, so that we can iterate on any such findings to ultimately strengthen its robustness.
+
+#### Text
+content::
+The limitations are equally important:
+
+- Detection of previously unseen white-box evasion strategies after hardening ranged from 43 to 87 percent in Table 5;
+- Experiments were limited to single-node systems of up to eight GPUs;
+- Frontier-scale multi-node clusters were not tested;
+- Evasion using custom CUDA kernels was not tested;
+- The experiments used NVIDIA hardware;
+- Treaty relevance depends on a tamper-resistant telemetry source, an authenticated channel, and protected monitoring software;
+- Simple static heuristics are inadequate, because some inference configurations occupy the same basic utilization or arithmetic-intensity range as training.
+
+This is an **empirical component demonstration**, not an end-to-end verification regime.
+
+\#### Separate attacks by what they target
+
+A verifier should not treat every weakness as a classifier problem.
+
+| Adversary move | What it attacks |
+| --- | --- |
+| Dilute training with benign work, alter timing, or use unusual kernels | The classifier’s generalization |
+| Forge, suppress, replay, or reroute telemetry | The evidence channel |
+| Replace or modify monitoring software | The trusted measurement boundary |
+| Fragment activity across sites or devices | Aggregation and the legal definition of a run |
+| Shift to uninstrumented hardware | Coverage and completeness |
+| Stay under the compute line through algorithmic improvement | The policy proxy itself |
+
+\#### Activity: from result to policy claim
+
+#### Question: Open
+id:: f4f47f8e-a90d-4e45-9a1e-ddeee1d901cf
+content:: For the telemetry study, write four statements.
+
+- **Observation:** What did the experiment measure?
+- **Supported inference:** What conclusion is justified within that setting?
+- **Unsupported policy leap:** What stronger claim would exceed the evidence?
+- **Deployment dependencies:** What additional technical and institutional components would be required?
+
+A well-bounded answer will not claim that the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path.
+assessment-instructions:: Check all four statements are present and distinct. Observation should stay at the level of what was measured (temporal GPU telemetry, nine NVIDIA GPU models, twenty evasion families, single-node systems up to eight GPUs, 98.2 percent overall, 43–87 percent on the hardest unseen adversarial workloads). Supported inference should be bounded to tested conditions. Unsupported policy leap should be a real overclaim (treaty-grade detection across frontier multi-node clusters, or against a state controlling the measurement path). Deployment dependencies should include a tamper-resistant telemetry source, an authenticated channel, protected monitoring software, and institutional components. Mark down answers that present the study as an end-to-end verification regime.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
+*A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
+
+Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
+*A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
+
+XLab. "2.1.4 Measuring and classifying use." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)
+*The source lesson this page adapts.*
+:::

@@ -1,0 +1,172 @@
+---
+id: '39b85a0e-0cb9-47f8-a5b2-c0ff4433947e'
+title: "Where should trust live?"
+tldr: "Moving trust does not remove it. Compare four places to put the monitor, inside the chip, on the network, on the power line, or all three, for one verification target, then choose the smallest pilot that a U.S. and a Chinese delegation would both accept."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and on a pilot rather than universal deployment."
+duration_minutes: 30
+---
+#### Text
+content::
+\### 2.1.6 Where should trust live?
+
+Hardware verification can place trust inside the accelerator, in a separate digital monitor, in physical sensors, or across a hybrid design. Moving trust does not remove it.
+
+Use one verification target for the comparison:
+
+:::callout {title="Verification target" tone="blue"}
+Determine whether all covered compute in a declared data center is accounted for by permitted workloads.
+:::
+
+\#### Architecture A: on-chip monitoring
+
+Possible components include device identity, secure or measured boot, signed counters, protected telemetry, workload certificates, trusted execution environments, and hardware-backed authorization.
+
+**Potential strengths**
+
+- Fine-grained access to device state and activity;
+- Low marginal cost across a fleet after deployment;
+- Evidence can travel with the device;
+- Fast or real-time response;
+- Compact, privacy-preserving outputs rather than raw workloads.
+
+**Load-bearing concerns**
+
+- Trust in design, manufacturing, firmware, and key provisioning;
+- Vendor control of reference values, updates, revocation, and appraisal services;
+- Physical control by the prover;
+- Common-mode failure when identity, metering, classification, and licensing share one root;
+- Legacy and nonparticipating hardware;
+- Hardware redesign and fleet-turnover time;
+- Political resistance to foreign- or vendor-controlled keys.
+
+Current confidential-computing support on accelerators is a deployed security primitive, not proof of treaty compliance. For example, NVIDIA describes Hopper confidential computing as protecting code and data in use from the host and basic physical attacks under its stated threat model. A treaty adversary may be stronger than that threat model, and a confidential workload may still violate the treaty.
+
+:::callout {title="Source" tone="neutral" collapse="closed"}
+NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf) — the confidential-computing whitepaper and current product documentation.
+:::
+
+\#### Architecture B: off-chip digital monitoring
+
+Possible components include network taps, server or rack gateways, input/output loggers, tamper-evident enclosures, and separate secured verification computers.
+
+**Potential strengths**
+
+- Clearer separation between prover hardware and verifier hardware;
+- Devices can be jointly designed, inspected, or supplied;
+- Possible retrofit of existing accelerator fleets;
+- Reduced dependence on proprietary accelerator internals.
+
+**Load-bearing concerns**
+
+- Visibility falls as the monitor moves farther from the computation;
+- Encrypted links and large data volumes;
+- Covert, timing, analog, and steganographic channels;
+- Difficulty reconstructing high-level workloads from low-level traffic;
+- Installation, calibration, chain of custody, and maintenance;
+- Risk that verifier-supplied hardware enables espionage or sabotage.
+
+Recent work has proposed fingerprinting or committing cluster input and output through external taps and secure gateways. These designs are research proposals. Their value is to make the trust-placement problem concrete, not to show that the engineering and political problems are solved.
+
+:::callout {title="Source" tone="neutral" collapse="closed"}
+A. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors* — [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
+:::
+
+\#### Architecture C: off-chip analog monitoring
+
+Possible components include independently installed power meters, thermal sensors, electromagnetic measurements, independent clocks, tamper-evident packaging, and physical inspection of the sensor boundary.
+
+**Potential strengths**
+
+- A physically independent account of activity;
+- Possible retrofit;
+- Less dependence on proprietary firmware;
+- Evasion may require changing several physical signatures or sacrificing performance.
+
+**Load-bearing concerns**
+
+- Approximate conversion from physical signals to compute;
+- Architecture- and workload-dependent signatures;
+- Calibration, placement, uncertainty, and sensor drift;
+- Deliberate mimicry or masking;
+- Coverage only inside instrumented facilities;
+- Dependence on inspections to preserve the measurement boundary.
+
+A rack meter installed under treaty access belongs in this hardware section. A foreign intelligence service estimating the same site’s power use from outside the facility belongs in the intelligence section. The physical phenomenon may be similar, but the access, chain of custody, confidence, and institutional role differ.
+
+\#### Architecture D: hybrid assurance
+
+A hybrid system might combine:
+
+- On-chip identity and secure boot;
+- Hardware-rooted telemetry;
+- Independently installed rack-level power measurement;
+- Provider allocation and billing records;
+- Periodic physical inspection;
+- Intelligence comparison against declared facility capacity;
+- Protected human reporting channels.
+
+Count independent failure modes, not mechanism names. A signed meter, a signed classifier, and a licensing system that all depend on one vendor key provide less redundancy than their number suggests.
+
+\#### The confidentiality trade
+
+Hardware evidence can reduce disclosure by returning a bounded claim rather than raw code, data, weights, or traces. It can also concentrate power in manufacturers, key authorities, and verifiers. A proposal should specify:
+
+- Exactly what leaves the facility;
+- Who can link evidence across devices, sites, and time;
+- Whether the result reveals commercially sensitive utilization or topology;
+- Whether raw evidence is retained;
+- Who can query the system;
+- How abuse is audited;
+- What happens when parties disagree about the verifier or reference values.
+
+\#### Compare the verification layers
+
+Read the on-chip and off-chip summaries and analyses from *Six Layers of Verification*.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: ### 4.1 On-Chip Verification Layer
+to:: In the “on-chip” verification layer, the Prover’s AI chips _help_ _verify their own compliance_ through built-in security features. In other words, this verification layer distinctively assumes (and tries to verify) that the Prover’s AI chips will implement specialized behaviors that enable verification, due to features physically built into the chips during manufacturing. To achieve robust verification with hardware security features, some already common hardware security features would need to be (i) present on the Prover’s chips, (ii) unusually secure, and (iii) used in particular ways. We describe these features and their uses next.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: #### 4.1.2 Analysis
+to:: To avoid the tradeoffs of on-chip verification, another approach could be to separate AI hardware from verification hardware, so that each can be specialized for its own purpose. This motivates the “off-chip” verification layers we consider next.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: ### 4.2 Off-Chip Verification Layers
+to:: “Off-chip” verification layers aim to avoid the security challenges of on-chip mechanisms by verifying AI chips’ activities using _separate devices_, rather than security features built into the AI chips. These separate devices could be (i) attached sensors to monitor the AI chips, and (ii) separate chips to analyze the sensor data and Provers’ declarations. With these, the Verifier would aim to detect discrepancies between a Prover’s declarations and their actual chip use, such as by detecting that chips’ input data or power draw patterns tell a different story than the Prover’s claims. The external devices could be mutually vetted to enable trust.
+
+#### Article
+source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
+from:: #### 4.2.2 Analysis
+to:: Given the challenges of both on- and off-chip verification, it would be helpful if there were also simpler approaches to verification, or more broadly, approaches with different tradeoffs. This is where personnel-based verification comes in.
+
+#### Text
+content::
+\#### Activity: bilateral pilot review
+
+#### Question: Open
+id:: 340e01e2-a25a-4e09-a0d6-ecf15bf09fea
+content:: Compare an on-chip design with an off-chip design for the working pause rule. For each, record:
+
+- What a U.S. delegation would distrust;
+- What a Chinese delegation would distrust;
+- What the operator would regard as commercially sensitive;
+- Whose cooperation is indispensable;
+- The strongest technical assumption;
+- The strongest institutional assumption;
+- The main abuse risk;
+- The smallest pilot that would produce decision-relevant evidence.
+
+Choose an architecture for a **pilot**, not immediate universal deployment. State the evidence the pilot must produce before the mechanism deserves a larger role.
+assessment-instructions:: Check that both designs are covered on all eight items, that the two delegations' distrust is not symmetric boilerplate (for example vendor- or foreign-controlled keys on one side, verifier-supplied hardware as an espionage channel on the other), that the answer counts independent failure modes rather than mechanism names, and that it ends with a pilot choice and the evidence the pilot must produce. Mark down answers that recommend immediate universal deployment.
+feedback-instructions:: This is an XLab writing or reflection exercise. Identify one strong point and one important gap, then ask one useful follow-up question. Do not imply that agreement with the source is required.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+XLab. "2.1.6 Where should trust live?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-where-trust-lives)
+*The source lesson this page adapts. The NVIDIA H100 security whitepaper and Cankaya et al. are cited inline above.*
+:::
