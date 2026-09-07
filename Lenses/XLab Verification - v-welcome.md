@@ -37,8 +37,8 @@ content:: Optional: Write a short note that you can look back on after completin
 - Why are you interested in learning about AI verification?
 - What do you want to gain from this course?
 - Before beginning, brainstorm: what parts of AI verification intuitively seems hardest?
-feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
+feedback-instructions:: Ungraded opening note, written before the course begins and reread at the end of it. Acknowledge in one or two sentences: name back the part the learner called hardest and say the course returns to it, without saying where and without previewing an answer. Do not evaluate their reasons for taking the course, do not add material, do not ask a follow-up question. Close by telling them to keep the note and move on. No praise.
 
 #### Text
 content::

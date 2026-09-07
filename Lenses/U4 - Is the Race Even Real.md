@@ -1,5 +1,7 @@
 ---
 id: '5a0f546a-b6d7-4767-b14f-36b0d34de166'
+reading_minutes: 20
+tutor_minutes: 3
 title: "Is the Race Even Real?"
 tldr: Many strategy arguments assume that the US and China are racing to AGI. Commit to a number. Then trace the famous claim back to its source, before you repeat it.
 summary_for_tutor: "Fifth lens of Unit 4. Student commits to a months-behind number for Chinese models and names its source, then reads Elmgren tracing the 2017 China-AGI-goal claim to one ambiguous phrase and an Epoch data insight measuring the actual gap. One mirror, no grade."
@@ -29,7 +31,7 @@ commit to your own number first.
 The sections the author marked optional and his supplementary evidence sit collapsed
 below, if you want to follow the detective work. And if you finish this lens wanting a
 view from inside Chinese policy,
-the Carnegie piece [[../articles/sheehan-how-china-views-ai-risks-and-what-to-do-about-them]]
+the Carnegie piece [How China Views AI Risks, and What to Do About Them](https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them)
 shows what Chinese AI policy looks like when you read it directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
@@ -99,5 +101,5 @@ to:: "downplaying the possibility of reading “AGI” into the document."
 from:: "## Conclusion"
 to:: "the starting date for that alleged ambition is not 2017."
 
-#### Article
+{>>{"author":"aeipathy","timestamp":1788482226847}@@Article fails to embed. Furthermore article is out of date or misleading in some ways since the 7 months average is heavily weighted by the 14 month period it took for Chinese models to initially catch up.\nhttps://epoch.ai/data-insights/open-closed-eci-gap\nOver more recent periods the gap has been ~4 months where relevant. From what I found Epoch didn't have any more recent articles on the US-China gap, but they have plenty on closed vs open  weight models, which currently operates as a strong proxy for the gap.<<}#### Article
 source:: [[../articles/emberson-chinese-ai-models-have-lagged-the-us-frontier-by-7-months-on-average-since-2023]]

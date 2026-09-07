@@ -9,8 +9,14 @@ accessed: 2026-08-11
 description: 'A story about a prediction machine whose predictions change what it is predicting, and the several distinct ways that goes wrong.'
 tags:
   - "hand-imported-from-stampy"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 I've been thinking more about partial agency. I want to expand on some issues brought up in the comments to my [previous post](https://www.lesswrong.com/posts/4hdHto3uHejhY2F3Q/partial-agency), and on other complications which I've been thinking about. But for now, a more informal parable. (Mainly because this is easier to write than my more technical thoughts.)
 
 This relates to oracle AI and to inner optimizers, but my focus is a little different.
@@ -148,7 +154,7 @@ The intern is talking to the engineer as you walk up to the water cooler. You're
 
 "Ok, yeah. Ok." The intern drinks some water. "But. I see why you can undercut strategies which take a loss on one answer to try and get an advantage on another answer. So it won't lie to you to manipulate you."
 
-"I for one welcome our new robot overlords," you but in. They ignore you.
+"I for one welcome our new robot overlords," you butt in. They ignore you.
 
 "But what I was really worried about was self-fulfilling prophecies. The prediction manipulates its own answer. So you don't get undercut."
 

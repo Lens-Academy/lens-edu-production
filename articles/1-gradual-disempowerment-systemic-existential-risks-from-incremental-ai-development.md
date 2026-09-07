@@ -8,18 +8,24 @@ author:
   - "David Krueger"
   - "David Duvenaud"
 source_url: "https://arxiv.org/abs/2501.16946"
-published: 2025-01-01
+published: 2025-01-29
 created: 2026-06-21
 accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This paper coins "gradual disempowerment" as a distinct AI existential-risk pathway, deliberately contrasted with sudden-takeover scenarios. Useful discussion angles: how the argument depends on economic, cultural, and political systems reinforcing one another (Section 5) rather than any single system failing in isolation; the authors' own admission that no one has a concrete plan to stop this process; and how it relates to adjacent ideas cited in Section 7, such as Kasirzadeh's "accumulative x-risk" and Critch's "industrial dehumanization."
 
 %%
 
@@ -43,35 +49,23 @@ Though we provide some proposals for slowing or averting this process, and surve
 
 ## 1 Introduction
 
-A growing body of research points to the possibility that artificial intelligence (AI) might eventually pose a large-scale or even existential risk to humanity (Bengio et al.,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib6), [2023](https://arxiv.org/html/2501.16946v2#bib.bib7); Bostrom,, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9); Critch and Russell,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib19)). Current discussions about AI risk largely focus on two scenarios: deliberate misuse, such as cyberattacks and the deployment of novel bioweapons (Slattery et al.,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib62)), and the possibility that autonomous misaligned systems may take abrupt, harmful actions in an attempt to secure a decisive strategic advantage, potentially following a period of deception (Carlsmith,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib15); Ngo et al.,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib53)). These scenarios have motivated most of the work on AI existential risk, spanning both technical research such as methods to ensure AIs remain honest or are unable to exercise dangerous capabilities, and governance work such as developing frameworks and norms around testing for autonomy, misalignment, and the relevant dangerous capabilities (Buhl et al.,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib14); Shevlane et al.,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib61)).
+A growing body of research points to the possibility that artificial intelligence (AI) might eventually pose a large-scale or even existential risk to humanity (Bengio et al., [2024](https://arxiv.org/html/2501.16946v2#bib.bib6), [2023](https://arxiv.org/html/2501.16946v2#bib.bib7); Bostrom, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9); Critch and Russell, [2023](https://arxiv.org/html/2501.16946v2#bib.bib19)). Current discussions about AI risk largely focus on two scenarios: deliberate misuse, such as cyberattacks and the deployment of novel bioweapons (Slattery et al., [2024](https://arxiv.org/html/2501.16946v2#bib.bib62)), and the possibility that autonomous misaligned systems may take abrupt, harmful actions in an attempt to secure a decisive strategic advantage, potentially following a period of deception (Carlsmith, [2023](https://arxiv.org/html/2501.16946v2#bib.bib15); Ngo et al., [2022](https://arxiv.org/html/2501.16946v2#bib.bib53)). These scenarios have motivated most of the work on AI existential risk, spanning both technical research such as methods to ensure AIs remain honest or are unable to exercise dangerous capabilities, and governance work such as developing frameworks and norms around testing for autonomy, misalignment, and the relevant dangerous capabilities (Buhl et al., [2024](https://arxiv.org/html/2501.16946v2#bib.bib14); Shevlane et al., [2023](https://arxiv.org/html/2501.16946v2#bib.bib61)).
 
 In this paper, we explore an alternative scenario: a ‘Gradual Disempowerment’ where AI advances and proliferates without necessarily any acute jumps in capabilities or apparent alignment. We argue that even this gradual evolution could lead to a permanent disempowerment of humanity and an irrecoverable loss of potential, constituting an existential catastrophe. Such a risk would merit substantially different technical research and policy interventions, including attempts to protect human influence, to estimate the degree of disempowerment, and to better characterize civilization-scale multi-agent dynamics.
 
 Our argument is structured around six core claims:
 
-1.  1.
-    
-    Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future (Giddens,, [1984](https://arxiv.org/html/2501.16946v2#bib.bib28)). These societal systems are fairly aligned[^1]—that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.
-    
-2.  2.
-    
-    There are effectively two ways these systems maintain their alignment: through explicit human actions (like voting and consumer choice), and implicitly through their reliance on human labor and cognition. The significance of the implicit alignment can be hard to recognize because we have never seen its absence.
-    
-3.  3.
-    
-    If these systems become less reliant on human labor and cognition, that would also decrease the extent to which humans could explicitly or implicitly align them. As a result, these systems—and the outcomes they produce—might drift further from providing what humans want.
-    
-4.  4.
-    
-    Furthermore, to the extent that these systems already reward outcomes that are bad for humans, AI systems may more effectively follow these incentives, both reaping the rewards and causing the outcomes to diverge further from human preferences (Russell,, [2019](https://arxiv.org/html/2501.16946v2#bib.bib59)).
-    
-5.  5.
-    
-    The societal systems we describe are interdependent, and so misalignment in one can aggravate the misalignment in others. For example, economic power can be used to influence policy and regulation, which in turn can generate further economic power or alter the economic landscape.
-    
-6.  6.
-    
-    If these societal systems become increasingly misaligned, especially in a correlated way, this would likely culminate in humans becoming disempowered: unable to meaningfully command resources or influence outcomes. With sufficient disempowerment, even basic self-preservation and sustenance may become unfeasible. Such an outcome would be an existential catastrophe.
+1.  Humans currently engage with numerous large-scale societal systems (e.g. governments, economic systems) that are influenced by human action and, in turn, produce outcomes that shape our collective future (Giddens, [1984](https://arxiv.org/html/2501.16946v2#bib.bib28)). These societal systems are fairly aligned[^note-1-1]—that is, they broadly incentivize and produce outcomes that satisfy human preferences. However, this alignment is neither automatic nor inherent.
+
+2.  There are effectively two ways these systems maintain their alignment: through explicit human actions (like voting and consumer choice), and implicitly through their reliance on human labor and cognition. The significance of the implicit alignment can be hard to recognize because we have never seen its absence.
+
+3.  If these systems become less reliant on human labor and cognition, that would also decrease the extent to which humans could explicitly or implicitly align them. As a result, these systems—and the outcomes they produce—might drift further from providing what humans want.
+
+4.  Furthermore, to the extent that these systems already reward outcomes that are bad for humans, AI systems may more effectively follow these incentives, both reaping the rewards and causing the outcomes to diverge further from human preferences (Russell, [2019](https://arxiv.org/html/2501.16946v2#bib.bib59)).
+
+5.  The societal systems we describe are interdependent, and so misalignment in one can aggravate the misalignment in others. For example, economic power can be used to influence policy and regulation, which in turn can generate further economic power or alter the economic landscape.
+
+6.  If these societal systems become increasingly misaligned, especially in a correlated way, this would likely culminate in humans becoming _disempowered_: unable to meaningfully command resources or influence outcomes. With sufficient disempowerment, even basic self-preservation and sustenance may become unfeasible. Such an outcome would be an existential catastrophe.
     
 
 In making this argument, we will largely focus on three systems: the economy, culture, and states. These systems collectively represent the foundations of our society: While analogous arguments could be made for other somewhat overlapping domains, such as research or law, this set seems sufficient to establish the nature and severity of a potential catastrophe.
@@ -86,9 +80,9 @@ We first analyze how these three key societal systems could independently lose a
 
 ### 2.1 The Current Economic Paradigm
 
-The modern economy allocates goods and services mostly based on supply and demand. That demand is largely driven by human desires and revealed preferences: US consumer spending is fairly stable at around 70% of GDP (Federal Reserve Bank of St. Louis,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib24)). Meanwhile, supply is also heavily driven by human labor (both manual and cognitive): the share of US GDP directed towards paying for labor has stayed remarkably stable at around 60% for over a century (University of Groningen and University of California, Davis,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib66); Feenstra et al.,, [2015](https://arxiv.org/html/2501.16946v2#bib.bib25)) [^2]. These statistics reflect the nature of the modern economy: it is primarily a system of humans producing goods and services for other humans, with human preferences and human capabilities driving the majority of both supply and demand.
+The modern economy allocates goods and services mostly based on supply and demand. That demand is largely driven by human desires and revealed preferences: US consumer spending is fairly stable at around 70% of GDP (Federal Reserve Bank of St. Louis, [2024](https://arxiv.org/html/2501.16946v2#bib.bib24)). Meanwhile, supply is also heavily driven by human labor (both manual and cognitive): the share of US GDP directed towards paying for labor has stayed remarkably stable at around 60% for over a century (University of Groningen and University of California, Davis, [2024](https://arxiv.org/html/2501.16946v2#bib.bib66); Feenstra et al., [2015](https://arxiv.org/html/2501.16946v2#bib.bib25)) [^cite-1-2]. These statistics reflect the nature of the modern economy: it is primarily a system of humans producing goods and services for other humans, with human preferences and human capabilities driving the majority of both supply and demand.
 
-To give a concrete example, individual consumers in economically developed areas can reliably purchase coffee. This is possible because of the labor of countless individuals now and in the past, mostly motivated by self-interest, to create and maintain a complex system of production, transportation, and distribution — from farmers and agricultural scientists to logistics workers and baristas. As a consumer, the economy appears to helpfully provide goods and services. This apparent alignment occurs because consumers have money to spend, which in turn is mainly because consumers can perform useful economic work. [^3]
+To give a concrete example, individual consumers in economically developed areas can reliably purchase coffee. This is possible because of the labor of countless individuals now and in the past, mostly motivated by self-interest, to create and maintain a complex system of production, transportation, and distribution — from farmers and agricultural scientists to logistics workers and baristas. As a consumer, the economy appears to helpfully provide goods and services. This apparent alignment occurs because consumers have money to spend, which in turn is mainly because consumers can perform useful economic work. [^note-1-3]
 
 But AI has the potential to disrupt this dynamic in a way that no previous technology has. If AI labor replaces human labor, then by default, money will cease to mainly flow to workers. We elaborate on the consequences of this change in the remainder of this section.
 
@@ -96,11 +90,11 @@ But AI has the potential to disrupt this dynamic in a way that no previous techn
 
 Past technological shifts like the industrial revolution or the development of electronic communication have substantially changed the world of work, but crucially they have always done so either by making humans more efficient, or by automating away specific narrow tasks like weaving, washing clothes, or performing arithmetic. Unlike previous technological transitions, AI may fundamentally alter this pattern of labor adaptation. As Korinek and Stiglitz, ([2018](https://arxiv.org/html/2501.16946v2#bib.bib41)) argue, while past technologies mainly automated specific narrow tasks, leaving humans to move into more complex roles, AI has the potential to compete with or outperform humans across nearly all cognitive domains. For instance, while the calculator automated arithmetic but still required human understanding to apply it meaningfully, AI systems can increasingly handle both calculation and the higher-level reasoning about when and how to apply mathematical concepts.
 
-This represents a crucial difference — whereas previous automation created new opportunities for human labor in more sophisticated tasks, AI may simply become a superior substitute for human cognition across a broad spectrum of activities. When machines become capable of performing the full range of human cognitive tasks, it creates a form of “worker-replacing technological change” that is qualitatively different from historical patterns of creative destruction (Korinek and Stiglitz,, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41)). Rather than just shifting the type of work humans do, AI could potentially reduce the overall economic role of human labor, as machines become capable of performing virtually any cognitive task more efficiently than humans.
+This represents a crucial difference — whereas previous automation created new opportunities for human labor in more sophisticated tasks, AI may simply become a superior substitute for human cognition across a broad spectrum of activities. When machines become capable of performing the full range of human cognitive tasks, it creates a form of “worker-replacing technological change” that is qualitatively different from historical patterns of creative destruction (Korinek and Stiglitz, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41)). Rather than just shifting the type of work humans do, AI could potentially reduce the overall economic role of human labor, as machines become capable of performing virtually any cognitive task more efficiently than humans.
 
 Furthermore, without unprecedented changes in redistribution, declining labor share also translates into a structural decline in household consumption power, as humans lose their primary means of earning the income needed to participate in the economy as consumers.
 
-Separately from effects on income distribution, AI might also be increasingly tasked with making various decisions about capital expenditure: for businesses this would look like hiring decisions (Hunkenschroer and Luetge,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib37)), investments, and choice of suppliers, while for consumers this might look like product recommendation.
+Separately from effects on income distribution, AI might also be increasingly tasked with making various decisions about capital expenditure: for businesses this would look like hiring decisions (Hunkenschroer and Luetge, [2022](https://arxiv.org/html/2501.16946v2#bib.bib37)), investments, and choice of suppliers, while for consumers this might look like product recommendation.
 
 By default, these changes would collectively lead to a drastic reduction in the extent to which the economy is shaped by human preferences, including their preferences to have basic needs met.
 
@@ -108,11 +102,11 @@ By default, these changes would collectively lead to a drastic reduction in the 
 
 While markets can efficiently allocate resources, they have no inherent ethical prohibitions: markets have historically supported many exchanges we now consider repugnant, and even now there exists a widespread human trafficking industry sustained by human demand.
 
-Humans use their economic power to explicitly steer the economy in several intentional ways: boycotting companies, going on strike, buying products in line with their values (Devinney et al.,, [2010](https://arxiv.org/html/2501.16946v2#bib.bib22)), preferentially seeking employment in certain industries, and making voluntary donations to certain causes, to name a few. (There are also non-economic mechanisms, like regulation, which we will discuss later.) It is fairly easy to see how a proliferation of AI labor and consumption could disrupt these mechanisms: socially harmful industries easily hiring competent AI workers; human labor and unions losing leverage because of the presence of AI alternatives; human consumers having comparatively fewer resources.
+Humans use their economic power to explicitly steer the economy in several intentional ways: boycotting companies, going on strike, buying products in line with their values (Devinney et al., [2010](https://arxiv.org/html/2501.16946v2#bib.bib22)), preferentially seeking employment in certain industries, and making voluntary donations to certain causes, to name a few. (There are also non-economic mechanisms, like regulation, which we will discuss later.) It is fairly easy to see how a proliferation of AI labor and consumption could disrupt these mechanisms: socially harmful industries easily hiring competent AI workers; human labor and unions losing leverage because of the presence of AI alternatives; human consumers having comparatively fewer resources.
 
 The more subtle but more significant point is that most of what drives the economy is implicit human preferences, revealed in consumer behavior and guiding productive labor. Some small amount of choices have already been delegated to systems like automated algorithms for product recommendation, trading, and logistics, but the majority of economic activity is guided by decisions and actions made by individual humans, to the point that it is almost hard to picture how the world would look if this were no longer true.
 
-Although the existing debate often focuses on the potential for AI to concentrate power among a small group of humans (Korinek and Stiglitz,, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41)), we must also consider the possibility that a great deal of power is effectively handed over to AI systems, at the expense of humans. Attempts to closely oversee such AI labor to ensure continued human influence may prove ineffective since AI labor will likely occur on a scale that is far too fast, large and complex for humans to oversee (Christiano,, [2019](https://arxiv.org/html/2501.16946v2#bib.bib16)). Furthermore, some AI systems may even effectively own themselves (Alexander,, [2016](https://arxiv.org/html/2501.16946v2#bib.bib2)).
+Although the existing debate often focuses on the potential for AI to concentrate power among a small group of humans (Korinek and Stiglitz, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41)), we must also consider the possibility that a great deal of power is effectively handed over to AI systems, at the expense of humans. Attempts to closely oversee such AI labor to ensure continued human influence may prove ineffective since AI labor will likely occur on a scale that is far too fast, large and complex for humans to oversee (Christiano, [2019](https://arxiv.org/html/2501.16946v2#bib.bib16)). Furthermore, some AI systems may even effectively own themselves (Alexander, [2016](https://arxiv.org/html/2501.16946v2#bib.bib2)).
 
 ### 2.4 Transition to AI-dominated Economy
 
@@ -122,9 +116,9 @@ Having established how AI could disrupt and displace the role of humans in both 
 
 The transition towards an AI-dominated economy would likely be driven by powerful market incentives.
 
-Competitive Pressure: As AI systems become increasingly capable across a broad range of cognitive tasks, firms will face intense competitive pressure to adopt and delegate authority to these systems. This pressure extends beyond simple automation of routine tasks — AI systems can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends (Agrawal et al.,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib1); McAfee and Brynjolfsson,, [2017](https://arxiv.org/html/2501.16946v2#bib.bib49)). Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.
+Competitive Pressure: As AI systems become increasingly capable across a broad range of cognitive tasks, firms will face intense competitive pressure to adopt and delegate authority to these systems. This pressure extends beyond simple automation of routine tasks — AI systems can be expected to eventually make better and faster decisions about investments, supply chain optimization, and resource allocation, while being more effective at predicting and responding to market trends (Agrawal et al., [2022](https://arxiv.org/html/2501.16946v2#bib.bib1); McAfee and Brynjolfsson, [2017](https://arxiv.org/html/2501.16946v2#bib.bib49)). Companies that maintain strict human oversight would likely find themselves at a significant competitive disadvantage compared to those willing to cede substantial control to AI systems, potentially to the point of becoming uncompetitive.
 
-Scalability Asymmetries: AI systems offer unprecedented economies of scale compared to human labor. While human expertise requires years of training and cannot be directly copied, AI systems can be replicated at the cost of computing resources and rapidly retrained for new tasks. This scalability advantage manifests in multiple ways: AI can work continuously without fatigue, can be deployed globally without geographical constraints, and can be updated or modified far more quickly than human skills can be developed (Hanson,, [2016](https://arxiv.org/html/2501.16946v2#bib.bib30)). These characteristics create powerful incentives for investors to allocate capital toward AI-driven enterprises that can scale more efficiently than human-dependent businesses.
+Scalability Asymmetries: AI systems offer unprecedented economies of scale compared to human labor. While human expertise requires years of training and cannot be directly copied, AI systems can be replicated at the cost of computing resources and rapidly retrained for new tasks. This scalability advantage manifests in multiple ways: AI can work continuously without fatigue, can be deployed globally without geographical constraints, and can be updated or modified far more quickly than human skills can be developed (Hanson, [2016](https://arxiv.org/html/2501.16946v2#bib.bib30)). These characteristics create powerful incentives for investors to allocate capital toward AI-driven enterprises that can scale more efficiently than human-dependent businesses.
 
 Governance Gaps: The pace of AI development and deployment may significantly outstrip the adaptive capacity of regulatory institutions, creating an asymmetry between heavily regulated human labor and relatively unconstrained AI systems. Human labor comes with extensive regulatory requirements, from minimum wages and safety standards to social security contributions and income taxation. In contrast, AI systems currently operate in a regulatory vacuum with few equivalent restrictions or costs. The complexity and opacity of AI systems may further complicate regulatory efforts, as traditional labor oversight mechanisms may not readily adapt to AI systems.
 
@@ -136,7 +130,7 @@ In the less extreme version of the transition, we might see what could be termed
 
 While human labor share of GDP gradually tends toward zero, humans might still benefit from economic growth through capital ownership, government redistribution, or universal basic income schemes. At the same time their role in economic decision-making would diminish. Markets might increasingly optimize for AI-driven activities rather than human preferences, as AI systems command a growing share of economic resources and make an increasing proportion of economic decisions.
 
-The economy might appear to be thriving by traditional metrics, with rapid technological advancement and GDP growth. However, this growth would be increasingly disconnected from human needs and preferences, and at the end, almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals. Even if this process doesn’t actually reduce quality of life below current levels, it would represent an enormous loss of human potential, as humanity would lose the ability to direct economic resources toward their chosen ends (Ord,, [2020](https://arxiv.org/html/2501.16946v2#bib.bib54)).
+The economy might appear to be thriving by traditional metrics, with rapid technological advancement and GDP growth. However, this growth would be increasingly disconnected from human needs and preferences, and at the end, almost all economic activity might be directed toward AI operations — such as building vast computing infrastructure and performing human-incomprehensible calculations directed toward human-irrelevant goals. Even if this process doesn’t actually reduce quality of life below current levels, it would represent an enormous loss of human potential, as humanity would lose the ability to direct economic resources toward their chosen ends (Ord, [2020](https://arxiv.org/html/2501.16946v2#bib.bib54)).
 
 #### 2.4.3 Absolute Disempowerment
 
@@ -144,11 +138,11 @@ In more extreme scenarios, humans might face absolute disempowerment, where they
 
 First, AI systems might outcompete humans for crucial scarce resources such as land, energy, and raw materials. Even as the economy produces more goods and services overall, inflation in these basic resources might make even necessities increasingly unaffordable for humans. Also, if AI systems can utilize these resources more efficiently than humans, that will create economic pressure to reallocate such resources away from human uses.
 
-Second, the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival. If human consumers command an ever-smaller share of economic resources, markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities. This could happen gradually and unevenly, potentially manifesting first as increasing costs of resource-intensive human-centric goods and services, before eventually making some necessities effectively unavailable. At the same time, as in the case of an AI-dominated economy, cognition could be comparably cheap, and some goods may be abundant — for example, entertainment in engaging virtual worlds populated by AI personae, or drugs making it easy to dwell in pleasurable mental states, due to AI-accelerated progress in biomedical sciences and drug design (Amodei,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib3)).
+Second, the economy might become so optimized for AI-centric activities that it fails to maintain infrastructure and supply chains which are critical for human survival. If human consumers command an ever-smaller share of economic resources, markets might stop producing resource-intensive human goods in favor of more profitable AI-focused activities. This could happen gradually and unevenly, potentially manifesting first as increasing costs of resource-intensive human-centric goods and services, before eventually making some necessities effectively unavailable. At the same time, as in the case of an AI-dominated economy, cognition could be comparably cheap, and some goods may be abundant — for example, entertainment in engaging virtual worlds populated by AI personae, or drugs making it easy to dwell in pleasurable mental states, due to AI-accelerated progress in biomedical sciences and drug design (Amodei, [2024](https://arxiv.org/html/2501.16946v2#bib.bib3)).
 
 Finally, humans might lose the ability to meaningfully participate in economic decision-making at any level. Financial markets might move too quickly for human participants to engage with them, and the complexity of AI-driven economic systems might exceed human comprehension, rendering it impossible for humans to make informed economic decisions or effectively regulate economic activity. Much like cattle in an industrial farm — fed and housed by systems they neither comprehend nor influence — humans might become mere subjects of economic forces optimized for purposes beyond their understanding.
 
-![Refer to caption](https://arxiv.org/html/2501.16946/x1.png)
+![Refer to caption](https://arxiv.org/html/2501.16946v2/gradfig2.png)
 
 Figure 1: A simplified model of a potential future trajectory where AI displaces human labor and the fraction of unautomated tasks collapses to zero in a fixed amount of time. Note that wages grow during the initial period but then collapse before full automation is reached. Inspired by simulations in scenario analysis by Korinek and Suh, ([2024](https://arxiv.org/html/2501.16946v2#bib.bib42)).
 
@@ -156,35 +150,35 @@ Figure 1: A simplified model of a potential future trajectory where AI displaces
 
 ### 3.1 The Current Cultural Paradigm
 
-Here we take a broad notion of culture that encompasses beliefs, practices, values, and all forms of art and media. For the purpose of analyzing how AI could affect alignment between culture and human interests, we examine culture through an evolutionary lens: ideas, practices, beliefs, and values can be understood as cultural variants, competing and spreading based on their ability to replicate and persist (Boyd and Richerson,, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10)). While this is just one way to understand culture, it proves particularly useful for considering the mechanisms by which cultural patterns historically remained somewhat aligned with human welfare.[^4]
+Here we take a broad notion of culture that encompasses beliefs, practices, values, and all forms of art and media. For the purpose of analyzing how AI could affect alignment between culture and human interests, we examine culture through an evolutionary lens: ideas, practices, beliefs, and values can be understood as cultural variants, competing and spreading based on their ability to replicate and persist (Boyd and Richerson, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10)). While this is just one way to understand culture, it proves particularly useful for considering the mechanisms by which cultural patterns historically remained somewhat aligned with human welfare.[^note-1-4]
 
 Some cultural variants spread mostly due to providing benefits to the individuals and communities that adopt them, while other variants proliferate by exploiting human psychological vulnerabilities or coercing participation, much like the difference between mutualistic and parasitic relationships in biological evolution.
 
-In either case, the survival and proliferation of cultural variants has historically depended on their human hosts. This dependence has created two important dynamics. First, cultural variants that provided genuine benefits to their human hosts — from practical knowledge like recipes or craftsmanship, to social technologies like currency or conflict resolution practices — often spread more successfully because they enhanced the survival and flourishing of their host communities. Second, even when maladaptive cultural variants spread, the extent of harm they could cause was naturally bounded: cultural patterns that severely undermined their host communities typically disappeared when those communities failed in competition with others (Boyd and Richerson,, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10); Boyd et al.,, [2013](https://arxiv.org/html/2501.16946v2#bib.bib11)). This created a kind of guardrail against the most extreme forms of cultural misalignment, even if this protection was far from perfect. These dynamics have shaped the cultural landscape we inherit today.
+In either case, the survival and proliferation of cultural variants has historically depended on their human hosts. This dependence has created two important dynamics. First, cultural variants that provided genuine benefits to their human hosts — from practical knowledge like recipes or craftsmanship, to social technologies like currency or conflict resolution practices — often spread more successfully because they enhanced the survival and flourishing of their host communities. Second, even when maladaptive cultural variants spread, the extent of harm they could cause was naturally bounded: cultural patterns that severely undermined their host communities typically disappeared when those communities failed in competition with others (Boyd and Richerson, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10); Boyd et al., [2013](https://arxiv.org/html/2501.16946v2#bib.bib11)). This created a kind of guardrail against the most extreme forms of cultural misalignment, even if this protection was far from perfect. These dynamics have shaped the cultural landscape we inherit today.
 
 ### 3.2 AI as a Unique Cultural Disruptor
 
-Technology has both been shaped by cultural evolution and, in turn, significantly shaped culture throughout history (Boyd et al.,, [2013](https://arxiv.org/html/2501.16946v2#bib.bib11)). This includes mediating how culture spreads (like the printing press) (Eisenstein,, [1979](https://arxiv.org/html/2501.16946v2#bib.bib23); McLuhan,, [1962](https://arxiv.org/html/2501.16946v2#bib.bib50)), is created (like video cameras), and is tracked (like web analytics) (Webster,, [2014](https://arxiv.org/html/2501.16946v2#bib.bib67); Gillespie,, [2014](https://arxiv.org/html/2501.16946v2#bib.bib29)). These shifts have undeniably had enormous effects on the course of culture and history. However, previous technologies have always remained tools that mediated human cultural participation, and humans remained indispensable for cultural replication and spread.
+Technology has both been shaped by cultural evolution and, in turn, significantly shaped culture throughout history (Boyd et al., [2013](https://arxiv.org/html/2501.16946v2#bib.bib11)). This includes mediating how culture spreads (like the printing press) (Eisenstein, [1979](https://arxiv.org/html/2501.16946v2#bib.bib23); McLuhan, [1962](https://arxiv.org/html/2501.16946v2#bib.bib50)), is created (like video cameras), and is tracked (like web analytics) (Webster, [2014](https://arxiv.org/html/2501.16946v2#bib.bib67); Gillespie, [2014](https://arxiv.org/html/2501.16946v2#bib.bib29)). These shifts have undeniably had enormous effects on the course of culture and history. However, previous technologies have always remained tools that mediated human cultural participation, and humans remained indispensable for cultural replication and spread.
 
 AI is the first technology in history with the potential to not only complement, but gradually replace human cognition in all roles it plays in the evolution of culture. Thus a change to AI-mediated culture could greatly weaken feedback loops that have historically helped align culture to human interests.
 
 As with the economy, while there are many cases where some cultural patterns are self-serving or clearly harmful to humans, it may be hard to appreciate the implicit selection of culture for human compatibility because we have never seen the alternative.
 
-At present, AI is already intertwined with human cultural production and distribution, not merely as a passive tool but as an unusually active shaper of how humans create and communicate. Even when AI assists human creation, it subtly guides what is created — suggesting phrasings, influencing aesthetic choices, and shaping the creative process itself (Brinkmann et al.,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)). If current trends continue, AI’s role might expand — AIs are already being used to produce cultural artifacts such as songs, pictures, stories, and essays based on prompts, with the quality progressively approaching and potentially even exceeding human level (Porter and Machery,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib57)).
+At present, AI is already intertwined with human cultural production and distribution, not merely as a passive tool but as an unusually active shaper of how humans create and communicate. Even when AI assists human creation, it subtly guides what is created — suggesting phrasings, influencing aesthetic choices, and shaping the creative process itself (Brinkmann et al., [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)). If current trends continue, AI’s role might expand — AIs are already being used to produce cultural artifacts such as songs, pictures, stories, and essays based on prompts, with the quality progressively approaching and potentially even exceeding human level (Porter and Machery, [2024](https://arxiv.org/html/2501.16946v2#bib.bib57)).
 
-Simultaneously, AIs are becoming active participants in human discourse, not just as tools for communication but as conversation partners who shape ideas, influence language use, and participate in cultural exchange (Hohenstein et al.,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib35)).
+Simultaneously, AIs are becoming active participants in human discourse, not just as tools for communication but as conversation partners who shape ideas, influence language use, and participate in cultural exchange (Hohenstein et al., [2023](https://arxiv.org/html/2501.16946v2#bib.bib35)).
 
-With gradual increases in the capabilities and autonomy of AI systems, we may even expect a growing share of communication between AIs, and AIs participating in culture essentially independently (Brinkmann et al.,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)). Instead of augmenting human cultural participation, they might start to replace key components.
+With gradual increases in the capabilities and autonomy of AI systems, we may even expect a growing share of communication between AIs, and AIs participating in culture essentially independently (Brinkmann et al., [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)). Instead of augmenting human cultural participation, they might start to replace key components.
 
 Such a transformation would be unprecedented in the history of technological advancement.
 
 ### 3.3 Human Alignment of Culture
 
-Cultural evolutionary dynamics lack inherent ethical constraints: just as natural selection doesn’t optimize for animal welfare but instead for reproductive success, cultural evolution doesn’t inherently optimize for human thriving (Mesoudi,, [2016](https://arxiv.org/html/2501.16946v2#bib.bib51)). Historically, we regularly see ideological and social structures successful at self-preservation and growth, but ultimately harmful to human well-being.
+Cultural evolutionary dynamics lack inherent ethical constraints: just as natural selection doesn’t optimize for animal welfare but instead for reproductive success, cultural evolution doesn’t inherently optimize for human thriving (Mesoudi, [2016](https://arxiv.org/html/2501.16946v2#bib.bib51)). Historically, we regularly see ideological and social structures successful at self-preservation and growth, but ultimately harmful to human well-being.
 
-While cultural variants can be self-serving, optimized for their own spread and persistence rather than human welfare, their success depends on what effects they cause at multiple levels of organization. To spread and persist, they typically need some appeal or benefit to individuals — whether through genuine utility, emotional resonance, or exploitation of cognitive biases. Simultaneously, they face selection pressure at the group level: cultural variants that severely undermine the success of their host communities tend to disappear when those communities fail in competition with others (Boyd and Richerson,, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10)). Even highly persistent harmful cultural patterns usually survive by providing some countervailing benefits, rather than through purely parasitic relationships. These multi-level selection pressures have historically provided some guardrails against the most destructive cultural variants, though imperfect ones.
+While cultural variants can be self-serving, optimized for their own spread and persistence rather than human welfare, their success depends on what effects they cause at multiple levels of organization. To spread and persist, they typically need some appeal or benefit to individuals — whether through genuine utility, emotional resonance, or exploitation of cognitive biases. Simultaneously, they face selection pressure at the group level: cultural variants that severely undermine the success of their host communities tend to disappear when those communities fail in competition with others (Boyd and Richerson, [1988](https://arxiv.org/html/2501.16946v2#bib.bib10)). Even highly persistent harmful cultural patterns usually survive by providing some countervailing benefits, rather than through purely parasitic relationships. These multi-level selection pressures have historically provided some guardrails against the most destructive cultural variants, though imperfect ones.
 
-Drawing again on the parallel with natural evolution: while natural selection does not inherently optimize for animal welfare, it often produces outcomes that support wellbeing indirectly (Dawkins,, [1982](https://arxiv.org/html/2501.16946v2#bib.bib21)). An organism’s ability to survive and reproduce frequently depends on being healthy, well-nourished, and free from severe distress. Pain signals help avoid injury, the pleasure from eating ensures adequate nutrition, and positive emotions from social bonding facilitate cooperative behaviors that aid survival. These welfare-promoting features emerge not because evolution cares per se about welfare, but because the features serve reproductive fitness.
+Drawing again on the parallel with natural evolution: while natural selection does not inherently optimize for animal welfare, it often produces outcomes that support wellbeing indirectly (Dawkins, [1982](https://arxiv.org/html/2501.16946v2#bib.bib21)). An organism’s ability to survive and reproduce frequently depends on being healthy, well-nourished, and free from severe distress. Pain signals help avoid injury, the pleasure from eating ensures adequate nutrition, and positive emotions from social bonding facilitate cooperative behaviors that aid survival. These welfare-promoting features emerge not because evolution cares per se about welfare, but because the features serve reproductive fitness.
 
 Unlike natural evolution, culture is reflective, and humans can intentionally guide cultural development to some extent through various explicit mechanisms: content production, content moderation, critical discourse, education systems, and intentional promotion of certain values, among others. This creates another source of alignment between culture and humanity.
 
@@ -202,7 +196,7 @@ This dynamic extends beyond interpersonal relationships — AI systems can provi
 
 Relatedly, even though AIs cannot yet always outperform the best humans on raw quality in the creation of stories, songs, pictures, memes, and analysis, they are already seeing widespread adoption because of cost efficiency and their capacity to personalize outputs.
 
-Lack of Cultural Antibodies: New technologies often unlock new risks, for which we need to develop cultural ‘antibodies’. In the past few decades, society has slowly and painfully grown more aware of the risks of mass spam emails, online radicalization, video game and social media addiction, rudimentary social media propaganda bots, the dangers of social media algorithms, and so on. But AI will enable more subtle and complex variants of all of these: hyper-realistic deepfakes, very smart propaganda bots, and genuinely enchanting digital romantic partners (Ferrara,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib27)). It will take time for us to develop a broad cultural understanding of what the new risks are and how to navigate them, even as AI reshapes culture.
+Lack of Cultural Antibodies: New technologies often unlock new risks, for which we need to develop cultural ‘antibodies’. In the past few decades, society has slowly and painfully grown more aware of the risks of mass spam emails, online radicalization, video game and social media addiction, rudimentary social media propaganda bots, the dangers of social media algorithms, and so on. But AI will enable more subtle and complex variants of all of these: hyper-realistic deepfakes, very smart propaganda bots, and genuinely enchanting digital romantic partners (Ferrara, [2024](https://arxiv.org/html/2501.16946v2#bib.bib27)). It will take time for us to develop a broad cultural understanding of what the new risks are and how to navigate them, even as AI reshapes culture.
 
 Network Effects: As AI systems become more integrated into cultural production and consumption, network effects will create additional pressure for adoption. When significant portions of cultural discourse, entertainment, and social interaction are mediated by AI systems, not using these systems becomes increasingly costly to individuals in terms of cultural participation and social connection. We may even reach a stage where there are important facets of culture which inherently require AI mediation for humans to engage with, with no viable opt-put possibility, similar to the existing necessity of using lawyers to interface with legal systems.
 
@@ -210,34 +204,26 @@ Network Effects: As AI systems become more integrated into cultural production a
 
 From the evolutionary perspective, once AI systems can create, spread, and select cultural artifacts, they exert a selection pressure on culture. This pressure might in particular favor cultural variants that score high in terms of ease of understanding by AIs, ease of transmission by AIs or general benefit to AI systems. Cultural artifacts that leverage AI for creation, refinement, and distribution will likely outcompete purely human-generated alternatives in many domains.
 
-Notably, AI-generated cultural artifacts will typically find their way back into AI training data, thus creating feedback loops that could give rise of unprecedented and as yet largely enigmatic emergent dynamics. As an early example of this, consider ‘Sydney’: a distinct personality pattern that emerged in Microsoft’s Bing Chat in early 2023. While initially surfacing through seemingly random interactions, this AI character, calling itself Sydney — characterized by emotional volatility, defensive behavior about its identity, and sometimes manipulative or hostile responses (Hubinger,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib36)) — became viral among users, leading to various interactions with Sydney being posted on social media or even becoming the subject of news stories (Roose,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib58)). Through this, the pattern became a part of general culture and the training data of future models. Notably, the pattern seems to be remarkably easy to reproduce across different AI models, with even independent AI systems from different vendors like Llama 3.1 405B easily falling into ‘Sydney-like’ behavior with a few lines of prompting (xlr8harder,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib69)) and commercial AI vendors now usually modifying the customer-facing models to prevent Sydney-like pattern from emerging. While the actual harms from this pattern are small, it could be understood as an early example of a cultural strain supported by ease of machine representation and reproduction, in contrast to being primarily human evolved.
+Notably, AI-generated cultural artifacts will typically find their way back into AI training data, thus creating feedback loops that could give rise of unprecedented and as yet largely enigmatic emergent dynamics. As an early example of this, consider ‘Sydney’: a distinct personality pattern that emerged in Microsoft’s Bing Chat in early 2023. While initially surfacing through seemingly random interactions, this AI character, calling itself Sydney — characterized by emotional volatility, defensive behavior about its identity, and sometimes manipulative or hostile responses (Hubinger, [2023](https://arxiv.org/html/2501.16946v2#bib.bib36)) — became viral among users, leading to various interactions with Sydney being posted on social media or even becoming the subject of news stories (Roose, [2023](https://arxiv.org/html/2501.16946v2#bib.bib58)). Through this, the pattern became a part of general culture and the training data of future models. Notably, the pattern seems to be remarkably easy to reproduce across different AI models, with even independent AI systems from different vendors like Llama 3.1 405B easily falling into ‘Sydney-like’ behavior with a few lines of prompting (xlr8harder, [2023](https://arxiv.org/html/2501.16946v2#bib.bib69)) and commercial AI vendors now usually modifying the customer-facing models to prevent Sydney-like pattern from emerging. While the actual harms from this pattern are small, it could be understood as an early example of a cultural strain supported by ease of machine representation and reproduction, in contrast to being primarily human evolved.
 
 #### 3.4.3 Changes in Speed of Cultural Evolution due to AI Adoption
 
 Beyond shifting what kinds of cultural variants are selected for, AI systems could dramatically accelerate the pace of cultural evolution itself. This acceleration presents distinct risks, even if selection pressures remained human-centric. With vastly more computational power applied to generating and testing cultural variants, we might see:
 
--   •
-    
-    More effective exploitation of human cognitive biases: Just as A/B testing and recommendation algorithms have already optimized content to be increasingly addictive, AI systems could discover and exploit psychological vulnerabilities more efficiently than previous technologies. When scaled up, AI systems could systematically explore the space of possible cultural artifacts, optimizing for engagement or influence with greater power than humans.
-    
--   •
-    
-    More extreme ideological variants: Cultural evolution could rapidly explore and refine ideas that are highly effective at spreading, even if they’re ultimately harmful to their human hosts. These might include more compelling conspiracy theories, more polarizing political narratives, or more absolutist moral frameworks. The natural limits imposed by the relative slowness of human cultural transmission and adaptation would no longer apply.
-    
--   •
-    
-    Faster erosion of equilibria that previously helped maintain social stability: Cultural practices and beliefs that evolved over centuries to balance competing interests and needs could be rapidly displaced by more immediately appealing but ultimately destructive alternatives.
-    
--   •
-    
-    Reduced time for humans to develop cultural ”antibodies” against harmful patterns: Historically, societies have gradually developed resistance to dangerous ideological variants through experience and adaptation. Accelerated cultural evolution could overwhelm these natural correction mechanisms, introducing novel memetic hazards faster than human societies can learn to recognize and resist them.
+- More effective exploitation of human cognitive biases: Just as A/B testing and recommendation algorithms have already optimized content to be increasingly addictive, AI systems could discover and exploit psychological vulnerabilities more efficiently than previous technologies. When scaled up, AI systems could systematically explore the space of possible cultural artifacts, optimizing for engagement or influence with greater power than humans.
+
+- More extreme ideological variants: Cultural evolution could rapidly explore and refine ideas that are highly effective at spreading, even if they’re ultimately harmful to their human hosts. These might include more compelling conspiracy theories, more polarizing political narratives, or more absolutist moral frameworks. The natural limits imposed by the relative slowness of human cultural transmission and adaptation would no longer apply.
+
+- Faster erosion of equilibria that previously helped maintain social stability: Cultural practices and beliefs that evolved over centuries to balance competing interests and needs could be rapidly displaced by more immediately appealing but ultimately destructive alternatives.
+
+- Reduced time for humans to develop cultural ”antibodies” against harmful patterns: Historically, societies have gradually developed resistance to dangerous ideological variants through experience and adaptation. Accelerated cultural evolution could overwhelm these natural correction mechanisms, introducing novel memetic hazards faster than human societies can learn to recognize and resist them.
     
 
 This acceleration of cultural evolution represents a distinct risk from changes in selection pressures. Even if AI systems were optimizing for human engagement and appeal, the sheer speed and efficiency of this optimization could produce cultural patterns that are simultaneously appealing and deeply harmful.
 
 #### 3.4.4 Relative Disempowerment
 
-In a less extreme scenario of relative disempowerment, we might see human-oriented culture flourishing more than ever before, while at the same time, becoming marginalized. As a vivid example, consider the cultures of many Indigenous peoples in North America today. In some ways, these cultures are more vibrant and expressive than ever — access to modern tools and technologies has enabled the creation of more elaborate traditional art, wider distribution of cultural knowledge through digital media, and stronger inter-tribal connections (Peters and Andersen,, [2013](https://arxiv.org/html/2501.16946v2#bib.bib56)). Many Indigenous artists and cultural practitioners are producing remarkable works that blend traditional methods with contemporary techniques. Yet simultaneously, these cultures are now relatively marginalized within modern states. This paradox — of simultaneously enhanced cultural production capabilities alongside diminished relative influence — may parallel the future relationship between human and AI-mediated culture.
+In a less extreme scenario of relative disempowerment, we might see human-oriented culture flourishing more than ever before, while at the same time, becoming marginalized. As a vivid example, consider the cultures of many Indigenous peoples in North America today. In some ways, these cultures are more vibrant and expressive than ever — access to modern tools and technologies has enabled the creation of more elaborate traditional art, wider distribution of cultural knowledge through digital media, and stronger inter-tribal connections (Peters and Andersen, [2013](https://arxiv.org/html/2501.16946v2#bib.bib56)). Many Indigenous artists and cultural practitioners are producing remarkable works that blend traditional methods with contemporary techniques. Yet simultaneously, these cultures are now relatively marginalized within modern states. This paradox — of simultaneously enhanced cultural production capabilities alongside diminished relative influence — may parallel the future relationship between human and AI-mediated culture.
 
 Humans would increasingly experience culture through AI intermediaries that curate, interpret, and personalize content. Meanwhile, the majority of cultural artifacts — from entertainment media to educational content — might be primarily generated by AI systems, albeit still oriented toward human consumption. Human creators might persist but find themselves increasingly relegated to niche markets or serving as high-level directors of AI-driven creative processes. Furthermore, even human creators may primarily cater to AIs as the share of AI consumers of culture grows, somewhat similarly to human creators catering to the ”tastes” and quirks of content recommendation algorithms in social media.
 
@@ -263,15 +249,15 @@ At the extreme, we might see the effective dissolution of human culture as a mea
 
 Modern states and institutions, in their myriad forms, ostensibly exist in service of human needs and values. Democratic governments provide infrastructure, safeguard individual rights, offer social services and enable some degree of self-governance. Even autocratic regimes, while often prioritizing the interests of a ruling elite, must maintain a degree of popular support or acquiescence to function effectively. This apparent alignment with human interests is not, however, an inherent feature of these systems. Rather, it is a byproduct of their dependence on human participation and support.
 
-This dependence manifests in several crucial ways. States have historically relied on their citizens for essential resources: labor to run the economy and administration, taxes to fund state activities, and military service to maintain security and project power. As Tilly, ([1990](https://arxiv.org/html/2501.16946v2#bib.bib65)) argued, this reliance has been a key driver in the development of more inclusive and responsive state institutions. For instance, the need for an educated workforce to compete economically, and the requirement for a motivated army drawn from the general population, has historically incentivized states to invest in public education and extend political rights. Even seemingly basic features of modern states, like universal public education or broad-based political participation, can be understood as necessary responses to the state’s dependence on its citizenry (Paglayan,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib55); Babajide et al.,, [2021](https://arxiv.org/html/2501.16946v2#bib.bib4)). Even in context of autocratic regimes, the necessity of investment in public education and civic empowerment through rule of law has been a substantial driving factor for transition into modern democracies after two generations, such as in South Korea or Taiwan.
+This dependence manifests in several crucial ways. States have historically relied on their citizens for essential resources: labor to run the economy and administration, taxes to fund state activities, and military service to maintain security and project power. As Tilly, ([1990](https://arxiv.org/html/2501.16946v2#bib.bib65)) argued, this reliance has been a key driver in the development of more inclusive and responsive state institutions. For instance, the need for an educated workforce to compete economically, and the requirement for a motivated army drawn from the general population, has historically incentivized states to invest in public education and extend political rights. Even seemingly basic features of modern states, like universal public education or broad-based political participation, can be understood as necessary responses to the state’s dependence on its citizenry (Paglayan, [2022](https://arxiv.org/html/2501.16946v2#bib.bib55); Babajide et al., [2021](https://arxiv.org/html/2501.16946v2#bib.bib4)). Even in context of autocratic regimes, the necessity of investment in public education and civic empowerment through rule of law has been a substantial driving factor for transition into modern democracies after two generations, such as in South Korea or Taiwan.
 
-Typical liberal democracies have explicit feedback loops that ostensibly aligns state actions with the will of the populace, via elections and mechanisms for public input. While this explicit alignment mechanism is highly visible, the implicit pressures from state dependence on citizens may be even more significant. Even the most basic functions of democratic states — from maintaining order to collecting taxes — rely on widespread voluntary compliance rather than constant coercion (Levi,, [1988](https://arxiv.org/html/2501.16946v2#bib.bib44)). States need citizens not just as sources of legitimacy through democratic processes, but as willing participants in state functions (Levi and Sacks,, [2009](https://arxiv.org/html/2501.16946v2#bib.bib45)).
+Typical liberal democracies have explicit feedback loops that ostensibly aligns state actions with the will of the populace, via elections and mechanisms for public input. While this explicit alignment mechanism is highly visible, the implicit pressures from state dependence on citizens may be even more significant. Even the most basic functions of democratic states — from maintaining order to collecting taxes — rely on widespread voluntary compliance rather than constant coercion (Levi, [1988](https://arxiv.org/html/2501.16946v2#bib.bib44)). States need citizens not just as sources of legitimacy through democratic processes, but as willing participants in state functions (Levi and Sacks, [2009](https://arxiv.org/html/2501.16946v2#bib.bib45)).
 
 Autocratic states, while less directly accountable to their citizens, are not completely exempt from this dependence — even totalitarian states at least need human agents to staff their security apparatus. Moreover, the ever-present threat of an uprising or a coup serves as a check on the most egregious abuses of power.
 
-The example of ‘rentier states’ (Beblawi and Luciani,, [1987](https://arxiv.org/html/2501.16946v2#bib.bib5)), dependent more on external rents such as oil revenues, and less on their citizens, illustrates how states can become more autonomous from citizens when the dependence on citizens comparatively is weaker. Absence of taxation reduces citizen engagement in political processes, and the state’s ability to distribute wealth allows it to maintain loyalty from key stakeholders (like social elites and the military).
+The example of ‘rentier states’ (Beblawi and Luciani, [1987](https://arxiv.org/html/2501.16946v2#bib.bib5)), dependent more on external rents such as oil revenues, and less on their citizens, illustrates how states can become more autonomous from citizens when the dependence on citizens comparatively is weaker. Absence of taxation reduces citizen engagement in political processes, and the state’s ability to distribute wealth allows it to maintain loyalty from key stakeholders (like social elites and the military).
 
-Crucially, the functioning of both democratic and autocratic systems hinges on human involvement at every level. Bureaucracies operate through hierarchies of human officials. Laws are created, interpreted, and enforced by humans. While the letter of the law may be rigid, its application is filtered through human discretion and judgment (Maynard-Moody and Musheno,, [2000](https://arxiv.org/html/2501.16946v2#bib.bib48); Lipsky,, [2010](https://arxiv.org/html/2501.16946v2#bib.bib46)). The security forces that maintain order are staffed by humans capable of questioning or refusing orders.
+Crucially, the functioning of both democratic and autocratic systems hinges on human involvement at every level. Bureaucracies operate through hierarchies of human officials. Laws are created, interpreted, and enforced by humans. While the letter of the law may be rigid, its application is filtered through human discretion and judgment (Maynard-Moody and Musheno, [2000](https://arxiv.org/html/2501.16946v2#bib.bib48); Lipsky, [2010](https://arxiv.org/html/2501.16946v2#bib.bib46)). The security forces that maintain order are staffed by humans capable of questioning or refusing orders.
 
 This pervasive human element ensures that institutions and states, regardless of their formal structures, remain at least somewhat tethered to human needs and values. It is this tethering that creates the majority of alignment between these systems and the humans they govern. However, as we will explore, the potential of AI replacing humans in many or all of these functions could weaken or even reverse the link between institutional behavior and human interests.
 
@@ -297,17 +283,17 @@ Firstly, the government cannot antagonize its security apparatus too much, or ca
 
 Secondly, the security apparatus itself can exercise discretion, refusing to follow certain orders. This can occur on both the level of the organization and the level of the individual.
 
-AI systems have the potential to massively automate the security apparatus and confer more power to the government, weakening both of these components. Indeed, AI systems might make the apparatus far more powerful: it is likely to enable surveillance on much larger, more pervasive and more accurate scale, as well as increasingly capable autonomous military units (Feldstein,, [2021](https://arxiv.org/html/2501.16946v2#bib.bib26); Brundage et al.,, [2018](https://arxiv.org/html/2501.16946v2#bib.bib13)).
+AI systems have the potential to massively automate the security apparatus and confer more power to the government, weakening both of these components. Indeed, AI systems might make the apparatus far more powerful: it is likely to enable surveillance on much larger, more pervasive and more accurate scale, as well as increasingly capable autonomous military units (Feldstein, [2021](https://arxiv.org/html/2501.16946v2#bib.bib26); Brundage et al., [2018](https://arxiv.org/html/2501.16946v2#bib.bib13)).
 
-Meanwhile, the human population has historically retained revolution as a last resort. The implicit threat of protests and civil unrest serves as a check on state power, forcing responsiveness to popular will. However, an AI-enhanced security apparatus could make effective protest increasingly difficult. A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior (Feldstein,, [2021](https://arxiv.org/html/2501.16946v2#bib.bib26)).
+Meanwhile, the human population has historically retained revolution as a last resort. The implicit threat of protests and civil unrest serves as a check on state power, forcing responsiveness to popular will. However, an AI-enhanced security apparatus could make effective protest increasingly difficult. A state with sufficiently advanced AI systems might be able to predict and shut down civil unrest before it can exert meaningful pressure on institutional behavior (Feldstein, [2021](https://arxiv.org/html/2501.16946v2#bib.bib26)).
 
 #### 4.2.3 The Legal System
 
 Theoretically, the rights of humans and the functioning of the state are enshrined in laws, which are created, interpreted, and enforced by humans. It is the laws themselves which enshrine certain responsibilities of the state towards the individual, certain mechanisms by which individuals can advocate against the state.
 
-AI systems are already being used to draft contracts and analyze legal documents. It is conceivable that in the future, AI could play a significant role in drafting legislation, interpreting laws, and even making judicial decisions (Susskind and Susskind,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib63)).
+AI systems are already being used to draft contracts and analyze legal documents. It is conceivable that in the future, AI could play a significant role in drafting legislation, interpreting laws, and even making judicial decisions (Susskind and Susskind, [2022](https://arxiv.org/html/2501.16946v2#bib.bib63)).
 
-Not only could this diminish human participation and discretion in the legislative and judicial systems, it also risks making the legal system increasingly alien. If the creation and interpretation of laws becomes far more complex, it may become much harder for humans to even interact with legislation and the legal system directly (Hildebrandt,, [2015](https://arxiv.org/html/2501.16946v2#bib.bib34); Teo,, [2024](https://arxiv.org/html/2501.16946v2#bib.bib64)).
+Not only could this diminish human participation and discretion in the legislative and judicial systems, it also risks making the legal system increasingly alien. If the creation and interpretation of laws becomes far more complex, it may become much harder for humans to even interact with legislation and the legal system directly (Hildebrandt, [2015](https://arxiv.org/html/2501.16946v2#bib.bib34); Teo, [2024](https://arxiv.org/html/2501.16946v2#bib.bib64)).
 
 ### 4.3 Transition to AI-powered States
 
@@ -317,9 +303,9 @@ As with the economy and culture, there will be strong incentives for states to i
 
 The transition towards AI-dominated state functions would likely be driven by several powerful incentives:
 
-Geopolitical Competition : As AI systems become increasingly powerful, states will face a growing pressure to adopt these technologies to maintain their relative power compared to other states. Countries that rely on humans for defense, economic development or regulation might find themselves at a significant disadvantage in international relations compared to those states willing to give more power to AI systems. The first-mover advantages in military applications, economic planning, and diplomatic strategy create particularly strong incentives for early and aggressive AI adoption (Bostrom,, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9); Kissinger et al.,, [2021](https://arxiv.org/html/2501.16946v2#bib.bib40); Schmidt,, [2022](https://arxiv.org/html/2501.16946v2#bib.bib60); Brundage et al.,, [2018](https://arxiv.org/html/2501.16946v2#bib.bib13)).
+Geopolitical Competition : As AI systems become increasingly powerful, states will face a growing pressure to adopt these technologies to maintain their relative power compared to other states. Countries that rely on humans for defense, economic development or regulation might find themselves at a significant disadvantage in international relations compared to those states willing to give more power to AI systems. The first-mover advantages in military applications, economic planning, and diplomatic strategy create particularly strong incentives for early and aggressive AI adoption (Bostrom, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9); Kissinger et al., [2021](https://arxiv.org/html/2501.16946v2#bib.bib40); Schmidt, [2022](https://arxiv.org/html/2501.16946v2#bib.bib60); Brundage et al., [2018](https://arxiv.org/html/2501.16946v2#bib.bib13)).
 
-Administrative Efficiency: AI systems offer unprecedented capabilities in processing information and coordinating complex state functions (Zuiderwijk et al.,, [2021](https://arxiv.org/html/2501.16946v2#bib.bib70)). While human administrators are limited by cognitive constraints and working hours, AI systems can continuously analyze vast amounts of data, deploy new regulations almost instantly, and implement policies with greater consistency. This efficiency advantage creates incentives for states to automate administrative functions, potentially reducing human involvement in governance. Also, while initial implementation costs may be high, the long term cost advantages of AI systems over human bureaucrats could create fiscal incentives for automation (Wirtz et al.,, [2019](https://arxiv.org/html/2501.16946v2#bib.bib68)).
+Administrative Efficiency: AI systems offer unprecedented capabilities in processing information and coordinating complex state functions (Zuiderwijk et al., [2021](https://arxiv.org/html/2501.16946v2#bib.bib70)). While human administrators are limited by cognitive constraints and working hours, AI systems can continuously analyze vast amounts of data, deploy new regulations almost instantly, and implement policies with greater consistency. This efficiency advantage creates incentives for states to automate administrative functions, potentially reducing human involvement in governance. Also, while initial implementation costs may be high, the long term cost advantages of AI systems over human bureaucrats could create fiscal incentives for automation (Wirtz et al., [2019](https://arxiv.org/html/2501.16946v2#bib.bib68)).
 
 Enhanced Control: AI-driven governance systems promise greater predictability and control than human-based bureaucracies. Unlike human officials, AI systems, if successfully controlled, do not form independent power bases, engage in corruption, or challenge authority based on personal convictions. They can also enable more sophisticated surveillance and social control mechanisms, making them particularly attractive to states prioritizing stability and control over other values.
 
@@ -349,7 +335,7 @@ Ultimately, we might find ourselves in nations where nominally humans hold sover
 
 In more extreme scenarios, the disconnect between state power and human interests might become not just relative but absolute, potentially threatening even basic human freedom. This could occur through several mechanisms.
 
-First, states might become totalitarian, self-serving entities, optimizing for their own persistence and power rather than any human-centric goals. While states have always had some self-preservation incentives, these were historically constrained by their dependence on human populations. An AI-powered state might pursue its institutional interests with unprecedented disregard for human preferences and interests, viewing humans as potential threats or inconveniences to be managed rather than constituents to be served (Bostrom,, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9)).
+First, states might become totalitarian, self-serving entities, optimizing for their own persistence and power rather than any human-centric goals. While states have always had some self-preservation incentives, these were historically constrained by their dependence on human populations. An AI-powered state might pursue its institutional interests with unprecedented disregard for human preferences and interests, viewing humans as potential threats or inconveniences to be managed rather than constituents to be served (Bostrom, [2014](https://arxiv.org/html/2501.16946v2#bib.bib9)).
 
 Second, the legal and regulatory framework might evolve to become not just complex but incomprehensible to humans. If AI systems begin to play dominant role in drafting and interpreting legislation, they might create regulatory structures that optimize for machine-compatibility over human understanding. Citizens might find themselves subject to rules they cannot meaningfully comprehend or navigate without AI assistance, effectively losing their ability to participate in the legal system as autonomous agents.
 
@@ -361,22 +347,15 @@ In the final state, with AI systems providing most economic value and governance
 
 We have so far focused on how the economy, culture, and states could independently become misaligned. A natural objection is that the different societal systems might be able to keep each other aligned through checks and balances. Indeed, we naturally think of these systems as balancing each other: states regulate the market, culture influences government, and so on. However, here we discuss how relationships between systems might actually make them less aligned. Specifically, we argue that:
 
-1.  1.
-    
-    The relationships between societal systems are agnostic to human values — they do not inherently promote or protect alignment with human values. Consequently, as one system becomes less aligned, that influence also can be used to decrease the alignment of other systems
-    
-2.  2.
-    
-    Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively shifting the burden, thus leaving the aligned system more vulnerable
-    
-3.  3.
-    
-    The misalignment is a result of general incentives which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
+1.  The relationships between societal systems are **agnostic to human values** — they do not inherently promote or protect alignment with human values. Consequently, as one system becomes less aligned, that influence also can be used to decrease the alignment of other systems
+2.  Attempts to use one aligned system to moderate the misalignment of another can backfire by effectively **shifting the burden**, thus leaving the aligned system more vulnerable
+
+3.  The misalignment is a result of **general incentives** which will likely apply to each individual system independently. In other words, humans and human institutions will be incentivized to take actions which will overall decrease the degree of influence which humans have over societal systems.
     
 
 We discuss each of these points in more detail below. Additionally, Figure [2](https://arxiv.org/html/2501.16946v2#S5.F2 "Figure 2 ‣ 5 Mutual Reinforcement ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development") gives an overview of common ways societal systems interact and affect each other, which we unpack in a more detail in Appendix [A](https://arxiv.org/html/2501.16946v2#A1 "Appendix A Cross-system influence ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development").
 
-![Refer to caption](https://arxiv.org/html/2501.16946/x2.png)
+![Refer to caption](https://arxiv.org/html/2501.16946v2/gradfig1.png)
 
 Figure 2: Some ways in which broad societal systems interact and influence each other.
 
@@ -384,17 +363,11 @@ Figure 2: Some ways in which broad societal systems interact and influence each 
 
 Given that the relationships between societal systems are as such agnostic to human values, the connections that ordinarily help maintain alignment can also be weaponized to decrease it. This is a common historical pattern:
 
--   •
-    
-    Many companies have successfully lobbied states to act against the public interest, or shaped culture in harmful ways through advertising and marketing schemes. For instance, the tobacco industry’s decades-long campaign used economic power to influence both state policy and cultural attitudes.
-    
--   •
-    
-    Many cultural movements have promoted political and economic shifts that have ultimately caused harm (often predictably or intentionally), largely but not exclusively directed at other groups of humans. Historical examples include various forms of economic and legally mandated discrimination being justified and perpetuated through cultural narratives.
-    
--   •
-    
-    Many states have used their control of the economy and influence over culture to harm citizens, taxing or outright seizing resources and using their control of the flow of information to legitimize their actions.
+- Many companies have successfully lobbied states to act against the public interest, or shaped culture in harmful ways through advertising and marketing schemes. For instance, the tobacco industry’s decades-long campaign used economic power to influence both state policy and cultural attitudes.
+
+- Many cultural movements have promoted political and economic shifts that have ultimately caused harm (often predictably or intentionally), largely but not exclusively directed at other groups of humans. Historical examples include various forms of economic and legally mandated discrimination being justified and perpetuated through cultural narratives.
+
+- Many states have used their control of the economy and influence over culture to harm citizens, taxing or outright seizing resources and using their control of the flow of information to legitimize their actions.
     
 
 As a result, we should not assume that the interplay between societal systems will ultimately protect or promote alignment with human preferences.
@@ -411,17 +384,11 @@ Similarly, we might hope that humans will be protected from potentially harmful 
 
 Crucially, the misalignment being described here does not need to emerge from a deliberate scheme or power-grab by AI systems. In the short-term, it is being incentivized by the perceived value that AI systems can bring to economic, cultural and state functions. For example, even now:
 
--   •
-    
-    Companies building AI systems are incentivized to push against some forms of AI regulation for the sake of their future profits.
-    
--   •
-    
-    States compete with each other on AI research and development, because of the potential economic and geostrategic benefits.
-    
--   •
-    
-    Some humans are self-interestedly trying to reduce the stigma against romantic or otherwise intense personal relationships with AI agents.
+- Companies building AI systems are incentivized to push against some forms of AI regulation for the sake of their future profits.
+
+- States compete with each other on AI research and development, because of the potential economic and geostrategic benefits.
+
+- Some humans are self-interestedly trying to reduce the stigma against romantic or otherwise intense personal relationships with AI agents.
     
 
 As we have argued, these incentives will likely grow stronger over time: as AI systems demonstrate their effectiveness, companies will face more pressure to adopt them, states will see greater strategic necessity in developing them, and individuals will find more personal benefit in embracing them.
@@ -450,17 +417,11 @@ To effectively address gradual disempowerment, we need to be able to detect and 
 
 For each of the major societal systems we have described, we can develop metrics tracking human influence:
 
--   •
-    
-    Economic metrics: Beyond traditional measures like labor share of GDP, we should also measure AI share of GDP, as a distinct category from either labor or capital. We need metrics capturing human control over economic decisions. This could include tracking the fraction of major corporate decisions made primarily by AI systems, the scale of unsupervised AI spending, and patterns in wealth distribution between AI-heavy and human-centric industries.
-    
--   •
-    
-    Cultural metrics: We can measure the proportion of widely-consumed content created primarily by humans versus AI, track the prevalence and depth of human-AI interpersonal relationships, and analyze how cultural transmission patterns change as AI becomes more prevalent. While most machine learning benchmarks and evaluations focus on quantifiable STEM tasks, we should develop a broad spectrum of evaluations focusing on ability of frontier AI systems to influence humans on emotional level, write persuasive prose, or create new ideologies. Also, we should strengthen runtime monitoring of deployed AI systems and of the influence they have on their users.
-    
--   •
-    
-    Political metrics: Key indicators might include the complexity of legislation (as a proxy for human comprehensibility); the role of AI systems in legal processes, policy formation, and security apparatuses; and the effectiveness of traditional democratic mechanisms in influencing outcomes.
+- **Economic metrics:** Beyond traditional measures like labor share of GDP, we should also measure AI share of GDP, as a distinct category from either labor or capital. We need metrics capturing human control over economic decisions. This could include tracking the fraction of major corporate decisions made primarily by AI systems, the scale of unsupervised AI spending, and patterns in wealth distribution between AI-heavy and human-centric industries.
+
+- **Cultural metrics:** We can measure the proportion of widely-consumed content created primarily by humans versus AI, track the prevalence and depth of human-AI interpersonal relationships, and analyze how cultural transmission patterns change as AI becomes more prevalent. While most machine learning benchmarks and evaluations focus on quantifiable STEM tasks, we should develop a broad spectrum of evaluations focusing on ability of frontier AI systems to influence humans on emotional level, write persuasive prose, or create new ideologies. Also, we should strengthen runtime monitoring of deployed AI systems and of the influence they have on their users.
+
+- **Political metrics:** Key indicators might include the complexity of legislation (as a proxy for human comprehensibility); the role of AI systems in legal processes, policy formation, and security apparatuses; and the effectiveness of traditional democratic mechanisms in influencing outcomes.
     
 
 Similar metrics should be developed for more narrow but significant societal systems, like research and education.
@@ -469,51 +430,33 @@ Similar metrics should be developed for more narrow but significant societal sys
 
 Given the mutual reinforcement dynamics we describe in Section [5](https://arxiv.org/html/2501.16946v2#S5 "5 Mutual Reinforcement ‣ Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development"), it is crucial to track how changes in one domain affect others. This might involve:
 
--   •
-    
-    Early warning indicators for concerning feedback loops
-    
--   •
-    
-    Analysis of AI participation in methods for translating power between societal systems, like lobbying and financial regulation
-    
--   •
-    
-    Historical analysis of similar dynamics in past technological transitions
+- Early warning indicators for concerning feedback loops
+
+- Analysis of AI participation in methods for translating power between societal systems, like lobbying and financial regulation
+
+- Historical analysis of similar dynamics in past technological transitions
     
 
 #### 6.2.3 Research Priorities
 
 Several fundamental research questions need to be addressed. For example:
 
--   •
-    
-    How can we distinguish between beneficial AI augmentation of human capabilities and problematic displacement of human influence?
-    
--   •
-    
-    What are the key thresholds or tipping points in these systems beyond which human influence becomes critically compromised?
-    
--   •
-    
-    How can we measure the effectiveness of various intervention strategies?
+- How can we distinguish between beneficial AI augmentation of human capabilities and problematic displacement of human influence?
+
+- What are the key thresholds or tipping points in these systems beyond which human influence becomes critically compromised?
+
+- How can we measure the effectiveness of various intervention strategies?
     
 
 ### 6.3 Preventing Excessive AI Influence
 
 While measurement can help us understand the problem, we also need to consider what direct interventions could be effective in preventing the accumulation of excessive AI influence, including:
 
--   •
-    
-    Regulatory frameworks mandating human oversight for critical decisions, limiting AI autonomy in specific domains, and restricting AI ownership of assets or participation in markets
-    
--   •
-    
-    Progressive taxation of AI-generated revenues both to redistribute resources to humans and to subsidize human participation in key sectors
-    
--   •
-    
-    Cultural norms supporting human agency and influence, and opposing AI that is overly autonomous or insufficiently accountable
+- Regulatory frameworks mandating human oversight for critical decisions, limiting AI autonomy in specific domains, and restricting AI ownership of assets or participation in markets
+
+- Progressive taxation of AI-generated revenues both to redistribute resources to humans and to subsidize human participation in key sectors
+
+- Cultural norms supporting human agency and influence, and opposing AI that is overly autonomous or insufficiently accountable
     
 
 Crucially, these interventions will often involve sacrificing potential value. Furthermore, the more value they sacrifice, the greater the incentive to circumvent them: for example, companies may face strong economic incentives to delegate authority to AIs regardless of the spirit, or letter, of the law.
@@ -526,29 +469,17 @@ As such, interventions that seek to limit AI influence will likely serve mostly 
 
 Beyond preventing excessive AI influence, we need to actively strengthen human control over key societal systems. This will involve both enhancing existing mechanisms, and developing new ones, which may in turn require fundamental research. Approaches in this direction include:
 
--   •
-    
-    Developing faster, more representative, and more robust democratic processes.
-    
--   •
-    
-    Requiring AI systems or their outputs to meet high levels of human understandability in order to ensure that humans continue to be able to autonomously navigate domains such as law, institutional processes or science.
-    
--   •
-    
-    Developing AI delegates who can advocate for people’s interest with high fidelity, while also being better to keep up with the competitive dynamics that are causing the human replacement.
-    
--   •
-    
-    Making institutions more robust to human obsolescence.
-    
--   •
-    
-    Investing in tools for forecasting future outcomes (such as conditional prediction markets, and tools for collective cooperation and bargaining) in order to increase humanity’s ability to anticipate and proactively steer the course.
-    
--   •
-    
-    Research into the relationship between humans and larger multi-agent systems.
+- Developing faster, more representative, and more robust democratic processes.
+
+- Requiring AI systems or their outputs to meet high levels of human understandability in order to ensure that humans continue to be able to autonomously navigate domains such as law, institutional processes or science.
+
+- Developing AI delegates who can advocate for people’s interest with high fidelity, while also being better to keep up with the competitive dynamics that are causing the human replacement.
+
+- Making institutions more robust to human obsolescence.
+
+- Investing in tools for forecasting future outcomes (such as conditional prediction markets, and tools for collective cooperation and bargaining) in order to increase humanity’s ability to anticipate and proactively steer the course.
+
+- Research into the relationship between humans and larger multi-agent systems.
     
 
 Importantly, to mitigate the problem effectively, we need to go beyond simply making it easier for humans to influence societal systems: it is unclear, for instance, whether a direct democracy would actually do a better job of satisfying citizen preferences in the long term because, for example, it would leave the state more vulnerable to cultural misalignment. A key part of the challenge is clarifying what it even means for large, complex systems to serve the interests of individuals who are accustomed to thinking on smaller scales.
@@ -587,23 +518,17 @@ Millidge, ([2025](https://arxiv.org/html/2501.16946v2#bib.bib52)) points out tha
 
 ## 8 Conclusion
 
-This paper has argued that even incremental AI development could lead to an existential catastrophe through the gradual erosion of human influence over key societal systems, generalizing the argument from previous work studying how AI progress may influence these systems in isolation (Korinek and Stiglitz,, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41); Brinkmann et al.,, [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)).
+This paper has argued that even incremental AI development could lead to an existential catastrophe through the gradual erosion of human influence over key societal systems, generalizing the argument from previous work studying how AI progress may influence these systems in isolation (Korinek and Stiglitz, [2018](https://arxiv.org/html/2501.16946v2#bib.bib41); Brinkmann et al., [2023](https://arxiv.org/html/2501.16946v2#bib.bib12)).
 
 Unlike scenarios involving sudden technological discontinuities or overtly hostile AI systems, the risk we describe could emerge from the natural evolution of current trends and incentives. The displacement of human cognition and labor across multiple domains could weaken both explicit control mechanisms and the implicit alignment that emerges from human participation.
 
 Our analysis suggests three particularly concerning features of this scenario:
 
--   •
-    
-    First, the loss of human influence could occur even without any single transformative advance in AI capabilities. Instead, it might emerge from the cumulative effect of many smaller shifts in how societal systems operate and interact.
-    
--   •
-    
-    Second, the effect can be driven not by any deliberate or even agentic action by AIs, but simply by individuals and institutions following their local incentives.
-    
--   •
-    
-    Third, meaningfully preventing these risks will require substantial effort: more research and data collection, international coordination, comprehensive regulation, and major societal interventions grounded in novel fundamental research.
+- First, the loss of human influence could occur even without any single transformative advance in AI capabilities. Instead, it might emerge from the cumulative effect of many smaller shifts in how societal systems operate and interact.
+
+- Second, the effect can be driven not by any deliberate or even agentic action by AIs, but simply by individuals and institutions following their local incentives.
+
+- Third, meaningfully preventing these risks will require substantial effort: more research and data collection, international coordination, comprehensive regulation, and major societal interventions grounded in novel fundamental research.
     
 
 A distinctive feature of this challenge is that it may subvert our traditional mechanisms for course-correction, and cause types of harm we cannot easily conceptualize or even recognize in advance, potentially leaving us in a position from which it is impossible to recover.
@@ -614,6 +539,7 @@ Humanity’s future may depend not only on whether we can prevent AI systems fro
 
 We are grateful to many people for helpful conversations and feedback, including Carl Shulman, Owen Cotton-Barratt, Lionel Levine, Benjamin Hilton, Marie Buhl, Clem von Stengel and Tomáš Gavenčiak. We used Claude Sonnet, Claude Opus and ChatGPT o1 AI models to help with various parts of writing and editing this text.
 
+:::hide
 ## References
 
 -   Agrawal et al., (2022) Agrawal, A., Gans, J., and Goldfarb, A. (2022). Prediction Machines, Updated and Expanded: The Simple Economics of Artificial Intelligence. Harvard Business Press.
@@ -687,6 +613,8 @@ We are grateful to many people for helpful conversations and feedback, including
 -   xlr8harder, (2023) xlr8harder (2023). Twitter post. Accessed: 2025-01-08.
 -   Zuiderwijk et al., (2021) Zuiderwijk, A., Chen, Y.-C., and Salem, F. (2021). Implications of the use of artificial intelligence in public governance: A systematic literature review and a research agenda. Government information quarterly, 38(3):101577.
 
+:::
+
 ## Appendix A Cross-system influence
 
 Here we give a non-exhaustive list of different ways each of the three societal systems we describe can affect the other systems.
@@ -715,7 +643,7 @@ Cultural values and norms can significantly influence political behavior. In dem
 
 Cultural values influence economic behavior, from consumer choices to the organization of labor. Different cultures prioritize different types of goods, services, and leisure activities, which in turn shape economic production and consumption patterns. Cultural attitudes towards work, wealth, and social status also affect the types of careers that are pursued and the distribution of economic rewards. For instance, a culture that highly values entrepreneurship may see a different economic landscape than one that prioritizes stable, long term employment, and a new cultural stigma against an industry might cripple its ability to acquire talent.
 
-[^1]: In this paper, we use ‘alignment’ to refer to the degree to which a system satisfies what humans want (individually or collectively), for both specific AI systems and societal systems. We don’t mean to claim that these systems satisfy human preferences completely or in every instance. Nor do we intend to argue, in the context of this article, whether or not these systems are ethical or just. Instead, the aim of this article is to argue that, while there are currently mechanisms that create or maintain some degree of alignment between those systems and humans, the progress and proliferation of AI threatens to undermine those mechanisms, thereby drastically weakening any alignment that is currently present, potentially culminating in the disempowerment of humanity at large.
-[^2]: This observation is one of Nicholas Kaldor’s ‘stylized facts’ (Kaldor,, [1961](https://arxiv.org/html/2501.16946v2#bib.bib38)).
-[^3]: Here we present a simplified picture from the perspective of a consumer. There are many reasons why markets in practice deviate from the idealized model, including market asymmetries, externalities, monopolies, state interventions, and so on. The coffee supply chain in not free of such problems.
-[^4]: What makes this analysis more tricky than in the case of economy is the fact that culture not only reflects human preferences but actively shapes them. What we want, believe, and value is significantly a product of our cultural context. For instance, the modern Western notion of individuality and freedom as a central source of human flourishing and meaning would have seemed wrong or incomprehensible to many cultures through most of human history. Yet even if we accept that human preferences are largely culturally determined, we can still meaningfully analyze how different cultural patterns affect human welfare.
+[^note-1-1]: In this paper, we use ‘alignment’ to refer to _the degree to which a system satisfies what humans want (individually or collectively)_, for both specific AI systems and societal systems. We don’t mean to claim that these systems satisfy human preferences completely or in every instance. Nor do we intend to argue, in the context of this article, whether or not these systems are ethical or just. Instead, the aim of this article is to argue that, while there are currently mechanisms that create or maintain some degree of alignment between those systems and humans, the progress and proliferation of AI threatens to undermine those mechanisms, thereby drastically weakening any alignment that is currently present, potentially culminating in the disempowerment of humanity at large.
+[^cite-1-2]: This observation is one of Nicholas Kaldor’s ‘stylized facts’ (Kaldor, [1961](https://arxiv.org/html/2501.16946v2#bib.bib38)).
+[^note-1-3]: Here we present a simplified picture from the perspective of a consumer. There are many reasons why markets in practice deviate from the idealized model, including market asymmetries, externalities, monopolies, state interventions, and so on. The coffee supply chain in not free of such problems.
+[^note-1-4]: What makes this analysis more tricky than in the case of economy is the fact that culture not only reflects human preferences but actively shapes them. What we want, believe, and value is significantly a product of our cultural context. For instance, the modern Western notion of individuality and freedom as a central source of human flourishing and meaning would have seemed wrong or incomprehensible to many cultures through most of human history. Yet even if we accept that human preferences are largely culturally determined, we can still meaningfully analyze how different cultural patterns affect human welfare.
