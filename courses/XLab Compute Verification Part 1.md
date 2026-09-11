@@ -6,6 +6,7 @@ title: "Compute Verification, Part 1"
 description: "How could rival states check that each other actually stopped? Five weeks on the front half of making an international AI agreement verifiable: why a slowdown is worth nothing without verification, what nuclear safeguards do and do not transfer, how a policy goal turns into a claim someone can test, who a pause actually binds across the compute supply chain, where a verification report's claims come from and who acts on them, and what a chip can and cannot prove about the work it did. The first of two courses on XLab's verification curriculum; the capstone is a separate course."
 partner-name: XLab
 partner-url: https://aisafetytracks.com/verification/landing
+tags: [wip]
 ---
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
 
@@ -17,6 +18,8 @@ Meeting docs: five new docs built from this course's weekly material (September 
 
 Target audience and value proposition are inherited from the parent course and have not been confirmed for this split. %%
 
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/XLab Verification P1 Overview]]
 intro-form:: true
 
@@ -26,7 +29,7 @@ intro-form:: true
 
 # Module: [[../modules/XLab Verification P1 W1 Building verification intuitions]]
 
-# Meeting: Week 1: Why verification
+# Meeting: Unit 1: Why verification
 meeting-doc-template:: https://docs.google.com/document/d/1vmkuAGQ2eRBqj6IMzQ6PkZyHnCYxipGJouPJOKm2z4c/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
@@ -37,7 +40,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../modules/XLab Verification P1 W2 Strategic foundations]]
 
-# Meeting: Week 2: Precedents and policy scope
+# Meeting: Unit 2: Precedents and policy scope
 meeting-doc-template:: https://docs.google.com/document/d/1otRIAJ84NXSyPsHelypCmLdnmfa-yjrzL6dN_kuwucc/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -46,7 +49,7 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty actors]]
 
-# Meeting: Week 3: Treaty anatomy and actors
+# Meeting: Unit 3: Treaty anatomy and actors
 meeting-doc-template:: https://docs.google.com/document/d/1PrMEqwpkCV5yOFGvdh6j_ZAwPRXI1aP3bUOIo9b1Aek/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
@@ -55,14 +58,14 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W4 Mechanism effectiveness]]
 
-# Meeting: Week 4: Evidence and its readers
+# Meeting: Unit 4: Evidence and its readers
 meeting-doc-template:: https://docs.google.com/document/d/1e7G8VJXFa_TNd-K58X98kJt38JnOorWISeU3nFgi8Jk/edit
 survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W5 Hardware verification]]
 
-# Meeting: Week 5: Hardware verification
+# Meeting: Unit 5: Hardware verification
 meeting-doc-template:: https://docs.google.com/document/d/1zIA1oR3qo6GMkTFYpgcMqPgJNT4e4bWbqlNzJdMOyME/edit
 survey:: [[../surveys/CV1 Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
