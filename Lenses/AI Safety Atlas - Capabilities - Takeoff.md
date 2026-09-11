@@ -2,8 +2,8 @@
 id: a4553b04-3209-4555-8db1-21c59721d798
 tldr: "Will AI transform the world gradually over decades, or explosively in months? The answer decides which safety strategies are even possible, since patch-as-you-go only works if you get more than one chance. This section maps the slow-versus-fast takeoff debate and the arguments on each side."
 summary_for_tutor: "Examines takeoff speed, how quickly AI becomes dramatically more powerful once transformative capabilities arrive, as distinct from timelines. Contrasts slow takeoff (gradual, linear or exponential growth, allowing iterative safety refinement) with fast takeoff (superexponential or hyperbolic growth via recursive self-improvement, where safety must work robustly from the start). Introduces additional factors (continuity, homogeneity, polarity) and takeoff arguments including hardware and data overhangs. Connects takeoff speed to whether safety problems can be noticed and fixed in time."
-reading_minutes: 18
-tutor_minutes: 7
+reading_minutes: 20
+tutor_minutes: 10
 title: "Takeoff"
 ---
 
@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 #### Text
 optional:: true
 content::
-Takeoff speed decides whether "ship it and patch it" is a strategy at all. Which way do this section's arguments push on that? Reason it out with the tutor.
+Takeoff speed decides whether "ship it and patch it" is a strategy at all. Of the section's arguments about which way it goes, which did you find most convincing, and which least? Talk it over with the tutor.
 
 #### Chat
 optional:: true
