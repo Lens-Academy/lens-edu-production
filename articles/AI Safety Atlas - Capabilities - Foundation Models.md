@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/capabilities.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter1-2e8fef3844c0fa3fa515090c152e7ff332b57a70de7990a35f677db6a3e03fb2.pdf)*
 
 %%
@@ -41,7 +47,7 @@ In language processing, models like GPT-4 and Claude are examples of foundation 
 
 Foundation models** mark a paradigm shift towards general-purpose systems.** This paradigm introduces many new risks which didn't exist previously. These include misuse risks from power centralization, homogenization, and dual-use capabilities just to name a few. The ability of foundation models to learn broad, transferable capabilities has led to increasingly sophisticated behaviors emerging from relatively simple training objectives ([Wei et al., 2022](https://arxiv.org/abs/2206.07682)). Complex capabilities, combined with generality and scale, means we need to seriously consider safety risks beyond just misuse that previously seemed theoretical or distant. Beyond just misuse risk, things like misalignment are becoming an increasing concern with each new capability that these foundation models exhibit. We dedicate an entire chapter to the discussion of these risks. But we will also give you a small taste on the kinds of possible risks in the next few subsections, as it warrants some repetition.
 
-[![Cumulative number of large-scale AI models by domain since 2017](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figures-1-1-and-1-3-f80f9e5f.png)](https://archive.ourworldindata.org/20250824-180059/grapher/cumulative-number-of-large-scale-ai-models-by-domain.html)
+![Cumulative number of large-scale AI models by domain since 2017](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/ai-safety-atlas-interactive-figures-1-1-and-1-3-f80f9e5f.png)
 
 *Interactive figure 1.3: Cumulative number of large-scale AI models by domain since 2017. Describes the specific area, application, or field in which a large-scale AI model is designed to operate ([Giattino et al., 2023](https://ourworldindata.org/artificial-intelligence)).*
 

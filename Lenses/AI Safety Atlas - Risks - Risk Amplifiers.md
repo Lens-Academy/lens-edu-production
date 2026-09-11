@@ -2,7 +2,7 @@
 id: 26d3e3f0-c556-412f-a9ab-9d223cb2f369
 tldr: "Even if every AI system were individually manageable, the environment around them can turn small risks into big ones. This section examines the forces that amplify every AI risk: competitive races that punish caution, well-meaning accidents, corporate indifference, coordination failures, and a field where experts keep underestimating how fast capabilities arrive."
 summary_for_tutor: "Covers factors that increase the likelihood and severity of all other AI risks. Discusses five amplifiers: race dynamics (competitive pressure to prioritize speed over safety, race-to-the-bottom effects, contrasted with regulated industries like pharmaceuticals), accidents (unintentional failures despite good intentions, the Collingridge dilemma), indifference (companies knowingly releasing harmful products, safety-washing), collective action problems (free-rider incentives, commitment and enforcement failures, political instability), and unpredictability (experts repeatedly underestimating AI benchmark and capability progress)."
-reading_minutes: 19
+reading_minutes: 20
 tutor_minutes: 7
 title: "Risk Amplifiers"
 ---
@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Risks - Risk Amplifiers|Risk Amplifiers
 #### Text
 optional:: true
 content::
-The section describes five amplifiers and refuses to rank them. Rank them yourself, then defend the order with the tutor.
+The section describes five amplifiers and deliberately does not rank them. Which did you come away thinking matters most, and which least? Talk it over with the tutor.
 
 #### Chat
 optional:: true

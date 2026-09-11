@@ -9,8 +9,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/goal-misgeneralization.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter7-cba83c91bc6fb551d685a92a5bc018a4ba13062e1d8f7d7748144b59e4a4de1b.pdf)*
 
 %%
@@ -46,7 +52,9 @@ The reason we make this point again is to motivate the fact that understanding t
 
 **Loss landscapes explain why training can discover multiple algorithmic solutions to the same task, each pursuing different goals.** When we visualize how neural network performance changes across parameter configurations, we create what researchers call a "loss landscape." Each point in this high-dimensional space represents a different algorithm, with "height" indicating how poorly that algorithm performs on the specification (higher loss means worse performance). This landscape concept applies regardless of how we specify the task—whether through reward functions, human feedback, or any other performance measure. 
 
-**Definition: Loss Landscape** — A loss landscape is a visualization of how the loss (performance) of a neural network changes as we vary its parameters. Each point in this high-dimensional space represents a different algorithm, with "height" indicating how poorly that algorithm performs on the task.
+:::callout {title="Definition: Loss Landscape" tone="blue"}
+A loss landscape is a visualization of how the loss (performance) of a neural network changes as we vary its parameters. Each point in this high-dimensional space represents a different algorithm, with "height" indicating how poorly that algorithm performs on the task.
+:::
 
 ![Figure 7.10](https://ai-safety-atlas.com/_astro/21fec42cd3cb35fb4a0ebece52292124ba876334104df42043f2a0c35e4890ab.D9pKyQzI_lYbmL.webp)
 
@@ -62,7 +70,9 @@ The reason we make this point again is to motivate the fact that understanding t
 
 **Understanding landscape structure reveals why certain goals systematically emerge over others.** The relative size and accessibility of different valleys creates systematic biases in what gets discovered. If the "move right" valley is wider and easier to reach than the "collect coins" valley, training will more often discover the misaligned solution. This landscape structure is determined by the network architecture, training data, and loss function—but most importantly, by the inductive biases that shape which types of algorithms get wide valleys versus narrow peaks.
 
-**Definition: Algorithmic Range** — The algorithmic range of a machine learning system refers to how extensive the set of algorithms capable of being found is.
+:::callout {title="Definition: Algorithmic Range" tone="blue"}
+The algorithmic range of a machine learning system refers to how extensive the set of algorithms capable of being found is.
+:::
 
 ![Figure 7.12](https://ai-safety-atlas.com/_astro/5ddf370fb3281ecdb3c23eab78937904752ed2395276af344325170ab52fe62f.DK7Btz7A_ZNfSdv.webp)
 
@@ -72,7 +82,9 @@ The reason we make this point again is to motivate the fact that understanding t
 
 **Path dependence determines whether different starting points in the loss landscape lead to the same algorithmic destination.** In simple landscapes with one dominant valley, almost every starting point rolls into the same solution—that's low path dependence. But complex landscapes contain multiple deep valleys separated by ridges. Now your starting position matters enormously. Drop the ball on the left side of a ridge, and it rolls into Valley A (learning to "move right" in CoinRun). Drop it on the right side, and it rolls into Valley B (learning to "collect coins"). Both valleys represent perfect solutions during training, but they implement completely different algorithms.
 
-**Definition: Path Dependence** — Path dependence occurs when small differences in the training process lead to discovering fundamentally different algorithms for solving the same task. High path dependence means high variance in learned algorithms across training runs, while low path dependence means consistently finding similar algorithmic solutions.
+:::callout {title="Definition: Path Dependence" tone="blue"}
+Path dependence occurs when small differences in the training process lead to discovering fundamentally different algorithms for solving the same task. High path dependence means high variance in learned algorithms across training runs, while low path dependence means consistently finding similar algorithmic solutions.
+:::
 
 **Path dependence emerges from how **gradient descent** navigates the loss landscape.** Training begins from a random point in parameter space and follows the steepest downhill path toward better performance. When multiple valleys exist—each corresponding to different algorithmic approaches—early random differences can push optimization toward completely different regions. Once committed to descending into a particular valley, gradient descent tends to continue in that direction, making it difficult to escape to other algorithmic solutions.
 
@@ -88,7 +100,9 @@ The reason we make this point again is to motivate the fact that understanding t
 
 **Inductive biases describe the shape of the landscape and determine which types of algorithms are more likely to be discovered.** If your architecture has a simplicity inductive bias, then this means that algorithmically simple solutions are wide, deep valleys that dominate the loss landscape. Complex solutions might still exist in the landscape, but they're relegated to tiny, hard-to-find peaks. This intuitively explains why the "move right" strategy in CoinRun occupies a massive loss basin spanning huge regions of parameter space, while "navigate to coin-shaped objects" exists only in smaller pockets. You are more likely to find simpler solutions like move right because those basins and valleys are just easier to find and fall into.
 
-**Definition: Inductive Bias** — Inductive biases are systematic preferences of learning algorithms that favor certain types of solutions over others. These biases emerge from the architecture, optimization procedure, and training setup rather than being explicitly programmed.
+:::callout {title="Definition: Inductive Bias" tone="blue"}
+Inductive biases are systematic preferences of learning algorithms that favor certain types of solutions over others. These biases emerge from the architecture, optimization procedure, and training setup rather than being explicitly programmed.
+:::
 
 **Simplicity bias represents the most influential, well studied and potentially dangerous inductive bias for goal misgeneralization.** The simplicity bias asks "how complex is it to specify the algorithm in the weights?" This is the ML equivalent of Occam's Razor, which suggests that among competing hypotheses, the one with the fewest assumptions should be selected. SGD seems to subscribe to Occam's Razor, and consistently favors algorithms that rely on simple correlations over complex causal reasoning ([Shah et al., 2020](https://arxiv.org/abs/2006.07710); [Ren & Sutherland, 2024](https://arxiv.org/abs/2409.09626); [Etienne & Flammarion, 2025](https://arxiv.org/abs/2410.02348); [Tsoy & Konstantinov, 2024](https://arxiv.org/abs/2405.17299); [Carlsmith, 2023](https://arxiv.org/abs/2311.08379))[^note-atlas-1]. In CoinRun, both "move right" and "navigate to coin-shaped objects" could solve the task during training, but "move right" is algorithmically simpler—requiring a single behavioral pattern rather than object recognition, spatial reasoning, and goal-directed navigation. So, the bias exists because simple functions occupy vastly larger volumes in the loss landscape - there are just a lot more ways to encode "move right" than "navigate to coin-shaped objects using visual recognition and spatial reasoning." Empirical work demonstrates that this bias is quite strong, suggesting simple functions are exponentially more likely to emerge than complex ones. ([Valle-Pérez et al., 2019](https://arxiv.org/abs/1805.08522)). The training process systematically favors the simpler explanation, even when the complex algorithm would generalize better ([Valle-Pérez et al., 2019](https://arxiv.org/abs/1805.08522); [Shah et al., 2020](https://arxiv.org/abs/2006.07710)). This pattern extends broadly to different architectures: image classifiers typically learn texture-based strategies over shape-based ones because texture patterns require simpler computational structures, leading to brittleness when texture and shape provide conflicting signals ([Geirhos et al., 2019](https://arxiv.org/abs/1811.12231)).
 

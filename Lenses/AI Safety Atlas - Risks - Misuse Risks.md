@@ -2,7 +2,7 @@
 id: 93d69503-a5a2-429b-b798-f6fb2c513bed
 tldr: "One person with the right tool has never been able to threaten all of humanity, until now. This section walks through how AI hands malicious actors new reach: engineering pathogens, automating cyberattacks, fielding autonomous weapons, and fooling models with adversarial tricks. What happens when the barriers that once kept catastrophic capabilities out of reach start to fall?"
 summary_for_tutor: "Examines misuse risks, where humans deliberately use AI to cause harm. Covers four domains: bio risk (AI lowering barriers to designing and producing biological weapons, plus vulnerabilities in DNA synthesis screening), cyber risk (AI-enabled phishing, vulnerability discovery, malware, and shifts in the offense-defense balance), autonomous weapons (lethal autonomous weapons, swarms, erosion of human control, arms-race dynamics, and the consequentialist versus deontological ethics debate), and adversarial AI (runtime attacks like prompt injection, data poisoning and backdoors, and privacy and data-extraction attacks)."
-reading_minutes: 28
+reading_minutes: 120
 tutor_minutes: 7
 title: "Misuse Risks"
 ---
@@ -13,7 +13,7 @@ source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 #### Text
 optional:: true
 content::
-Four threat domains, one claim holding them together: technology widens the harm a single person can do. Which domain supports that claim least well? Take it up with the tutor.
+Four threat domains, one claim holding them together: technology widens the harm a single person can do. Which domain made that case most convincingly, and which least? Talk it over with the tutor.
 
 #### Chat
 optional:: true

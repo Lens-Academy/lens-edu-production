@@ -10,8 +10,14 @@ accessed: 2026-06-18
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-08-30
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-08-30
+    kind: "live"
 ---
-
 *Chapter files: [View Markdown](https://ai-safety-atlas.com/chapters/v1/risks.md) · [Download PDF](https://atlas.foreviewusercontent.com/pdf/atlas-chapter2-f858610ccd1d35291511150ffea3baaa2c282a11cef98d01d60514f7101f1318.pdf)*
 
 %%
@@ -43,6 +49,8 @@ The previous chapter explored AI's rapidly advancing capabilities through scalin
 
 The following chapters examine the technical strategies, governance approaches, and evaluation methods needed to address this interconnected risk landscape while preserving AI's extraordinary potential for human benefit.
 
+:::hide
 ### Acknowledgements
 
 We thank Jeanne Salle, Charles Martinet, Vincent Corruble, Sebastian Gil, Alejandro Acelas, Evander Hammer, Mo Munem, Mateo Rendon, Kieron Kretschmar and Camille Berger for their valuable feedback and contributions.
+:::
