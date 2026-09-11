@@ -47,6 +47,7 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
 #### Question
+id:: a6510339-75ea-4faf-b98d-6fba8a27197b
 content::
 \## Your day-zero model
 
@@ -57,6 +58,8 @@ Some suggested points to hit: What are the moving parts? What might get built? W
 Don't think at great length; this is a pre-test, so just try to sketch what seems intuitively possible from what you know right now. There's no need to research the possibilities before answering, that's what the rest of the course is for.
 
 We'll return to this later to review what insights you had. Be precise enough to be wrong. Expect to be surprised. 
+
+max-time:: 10:00
 
 assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course guesses about the next ten years of AI.
 
