@@ -1,40 +1,44 @@
 ---
 id: '64b745ad-7b5e-4b9e-9ab7-8bf3a82ab38a'
+reading_minutes: 15
+tutor_minutes: 5
 title: How Long A Task
-tldr: AI agents finish short jobs and fail at long ones. METR measured where that line sits and how fast it moves. You guess the line first.
+tldr: AI agents finish short jobs and fail at long ones. One group, METR, measured where that line sits and how fast it moves. You guess the line first.
 summary_for_tutor: "Introduces METR and the 50 percent time horizon, and gives the student the first real measured curve in the course. The student commits to two things before reading: the longest task, in human-professional time, that a current agent finishes on its own about half the time, and what would have to change for that number to be ten times larger. Then they read METR's own write-up.\n\nWHAT METR MEASURES, for your reference. They take tasks that human professionals have been timed on, run frontier agents on them, and find the task length at which an agent succeeds half the time. That length has roughly doubled every seven months over six years. CRITICAL: the tasks are SOFTWARE and research-engineering tasks, not tasks in general, and the post's own title says so.\n\nFOUR MISREADINGS TO CATCH, in order of how often they appear:\n1. Reading the 50 percent as a quality score. It is not 'the AI is half as good as a human'. It is the length at which the agent's success rate crosses one half.\n2. Generalising from software to everything. The measure covers a specific task family. A student who says 'AI can do four-hour jobs now' has dropped the domain.\n3. Treating the doubling time as current. METR's own banner at the top of the reading says the static figures and the doubling time are out of date, and points at Time Horizon 1.1. A student who quotes a number without its version has done the thing this course is about.\n4. Assuming a 50 percent success rate is usable. Ask what they would deploy at a coin-flip success rate. The 80 percent horizon is far shorter than the 50 percent one.\n\nDo not deliver any of this in the diagnostic turn. It is for the turns after they have read."
 authors:
   - Lauren+Claude
 ---
 #### Text
 content::
-\## Where does an agent stop being able to finish the job?
+\## How big of a task can't a given AI do?
 
-An AI agent can write a function. It usually cannot ship a feature. Somewhere between those two there is a length of job it stops being able to finish, and that length is a fact you can measure rather than argue about.
+Whether or note an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is.
 
-METR is an independent organisation that runs those measurements. They are not a lab. They test models that labs give them access to, and they publish their method.
+Let's assume we want to measure how close AI is to being able to do that. Later in the course we'll work through evidence that you tend to get what you can best measure, so this is a dangerous thing to measure, and might already be having negative effects. But it's potentially useful for defenders to know, so let's talk about it.
 
-That method has three parts.
+By far the{>>{"author":"lauren (chrome@what)","timestamp":1787823523443}@@7:38:41<<} most common type of interaction with AIs is to describe a task and get a mostly-self-contained result. Among those tasks, a common type of task is making or changing software. Many of the tasks one would do as part of making software have a pretty clear success or fail criteria. So we can ask how big of a programming task the AI can do.
 
-- They take tasks that **human professionals have been timed on**, so every task has a human duration attached.
-- They run frontier agents on those tasks, on their own, with no person helping.
-- They find the **task length at which an agent succeeds half the time**. That length is the agent's time horizon.
+The measurements in this lens come from METR, a group that gives AI models programming tasks and publishes how far the models get. The labs that make the models decide which models METR can test.
 
-One warning before you guess. The tasks are software and research-engineering tasks. They are not tasks in general.
+Their approach has three parts.
 
-*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
-
+- Take well-defined tasks where **skilled human software engineers can be timed**, so we have a reference task length (in human hours).
+- Then **give a particular AI the same task** to finish without input from a human.
+- Then they report as the final time-horizon number the **human-hour length of task on which the AI succeeds half the time**. When you hear them report time horizon that's what it means.
+{>>{"author":"lauren (chrome@what)","timestamp":1787824700273}@@7:58:18<<}
 #### Question
+id:: 7c6ee0fc-c5ee-45ff-88ec-171d88822bec
 content::
-\## Guess the length, then guess what moves it
+\## What have they found (on AIs up to 2025)
 
-Two answers, before you open the reading.
+Three pre-read questions.
 
-1. Think of the longest job you would trust a current AI agent to finish on its own, with nobody checking its work, about half the time. Give it in minutes or hours of human professional time. One number.
-2. Name the one thing that would have to change for your number to be ten times larger. Not a list. The one thing you think is actually holding it.
+1. What would you expect is the number, in human-equivalent hours, that their method gave for AIs up to the end of 2025?
+2. What would you guess are the primary things that cause this number to change?
+3. Before you repeat a number like this to someone else, what would you want to know about how it was measured? One or two sentences.
 
-Your reasoning matters more than your number here, so write a line for each.
-
+Your reasoning is at least as important as your number. Then scroll down to see the answer.
+{>>{"author":"lauren (chrome@what)","timestamp":1787828656913}@@we need the article to be spoiler-tagged or something?<<}
 max-time:: 5:00
 
 assessment-instructions:: The student has not seen METR's figures. They are in the next segment.
@@ -43,12 +47,14 @@ One turn, diagnostic. Do NOT reveal the measured horizon, the doubling time, or 
 
 Your only job this turn is to make the second answer sharper. If they named a category rather than a mechanism, for example "more compute" or "better models", ask which specific thing that buys them. If they named a real mechanism, ask what they would expect to see first if it were already happening.
 
+On the third answer, do not answer it for them. Note in one sentence what they said they would want to know. Do not steer them toward trusting or doubting METR; the point is the habit of asking for causal understanding rather than trusting prestige, not a verdict on one group. The reading that follows describes the method, so tell them to check their question against it.
+
 Response length: 60 to 110 words. Short paragraphs. No lists.
 
 Response style:
 - Calm and direct.
 - Do not over-validate. No generic praise.
-- No correction of the number.
+- No correction of the number{>>{"author":"lauren (chrome@what)","timestamp":1787824426516}@@re: the article below: we're statically embedding a dynamic article! that's a problem!<<}.
 
 #### Article
 source:: [[../articles/metr-measuring-ai-ability-to-complete-long-tasks]]
@@ -58,11 +64,7 @@ to:: both in terms of potential benefits and potential risks.
 content::
 \## Optional: a doubling is hard to feel
 
-The chart you just read plots a doubling. Reading one and believing one are different things, and the gap between them is not a failure of arithmetic.
-
-The clip below is about eighty seconds from a longer video by AI In Context. It is the plainest statement of that gap we could find: your intuition expects things to grow at a steady rate, a doubling does not, and the example it uses is March 2020.
-
-Watch it for the feeling rather than the maths, then look at the chart again.
+Here's an excerpt of a video about what exponential processes feel like.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]

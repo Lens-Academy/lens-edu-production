@@ -1,10 +1,16 @@
 ---
 id: '5b3c0b0d-1191-4e10-9893-89965f849e66'
 learning-outcome: Produce at least two distinct, technically-grounded trajectories for AI capability over the next decade, each with a named driving mechanism and a stated observation that would count against it.
-domain: none
+topic: none
 stage: beginner
 authors:
   - Lauren+Claude
+eval-results:
+  content-sha: 5ac33498
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 
 %%
@@ -34,6 +40,7 @@ qualitative feedback, not to create a second gate.
 id:: d48b4eba-b7e8-470f-a488-10780199257d
 
 #### Question
+id:: 25c2f157-df5f-4489-8af5-3d0d24415976
 content::
 \## Two trajectories, away from AI
 

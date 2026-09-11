@@ -1,5 +1,7 @@
 ---
 id: '16964da4-546f-4808-a188-818015f7abe8'
+reading_minutes: 5
+tutor_minutes: 15
 title: "What Moved"
 tldr: You wrote five to ten sentences about the next ten years before you read anything. Rewrite them now, from memory.
 summary_for_tutor: "Closes Unit 3. The student rewrites their day-zero model from Unit 1 and names which reading moved it. Also the one place the unit says out loud that two of its readings (Soares and Gradual Disempowerment) disagree. No grade."
@@ -32,6 +34,7 @@ Do not go back and look at it. Write it again from memory, then compare.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
+id:: f7f9e64b-2a9b-4304-bf7f-d4143946672f
 content::
 \## Rewrite it
 
