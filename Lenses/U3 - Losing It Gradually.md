@@ -1,5 +1,7 @@
 ---
 id: 'fe6bfd49-ece1-47e3-91aa-d53f5e0df3e5'
+reading_minutes: 20
+tutor_minutes: 5
 title: "Losing It Gradually"
 tldr: Our institutions serve us partly because they need us. What happens when they stop needing us.
 summary_for_tutor: "Short reading. Pre-question asks why institutions currently take human welfare into account at all. Then Gradual Disempowerment. One mirror, no grade."
@@ -25,6 +27,7 @@ them stop.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 18c1540b-0fae-4398-86bd-36f424ea1e40
 content::
 \## Say why it holds now
 
@@ -35,6 +38,8 @@ Write two or three sentences. Why does it take human welfare into account at all
 why it should. Why it does.
 
 Then write one more line. If that reason stopped applying, what would change first?
+
+And one line more. Who could act before that change lands, and what would it cost them?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
@@ -67,6 +72,9 @@ YOUR TASK, in order.
 2. If they named ethics or law, ask what enforces it, and keep asking inward one step.
 3. Whichever channel they named, ask what would happen if AI could supply that input
    instead.
+4. On who could act: if they named someone, ask what acting would cost that person and
+   who would notice if they did not act. If they named nobody, say so plainly; the reading
+   is about exactly that gap.
 
 Do not grade. Do not score. Do not praise. There is no correct answer at this stage.
 

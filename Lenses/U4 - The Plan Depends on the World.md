@@ -1,5 +1,7 @@
 ---
 id: '7d1cb832-1007-456a-adc2-a3418b8160c9'
+reading_minutes: 20
+tutor_minutes: 5
 title: "The Plan Depends on the World"
 tldr: There is no single plan for AI risk. There are several. Which one is possible depends on how much the world cooperates.
 summary_for_tutor: "Opens Unit 4. Pre-reading question asks the student to describe the plan they believe currently exists for preventing AI takeover, who executes it, and what it assumes the rest of the world is doing. Then Greenblatt's Plans A, B, C, and D. One mirror, no grade."
@@ -12,25 +14,39 @@ tags:
 content::
 \## Before you read
 
-Unit 3 was about how it could go wrong. This unit is about the plans.
+{>>{"author":"Luc","timestamp":1787822721810}@@start time 11h25<<}{>>{"author":"Luc","timestamp":1787823313102}@@end time of typing 11h34. Then started struggling with the suggestion mode.<<}{>>{"author":"Luc","timestamp":1787823524434}@@pre, 296 words\npost, 430 words.\n\nSo that's about 30 words per minute.<<}{>>{"author":"Luc","timestamp":1787823726368}@@@Lauren, you will be able to find the original on production: https://lensacademy.org/courses/ai-futures/module/unit-4-whats-the-plan/the-playbook#the-plan-depends-on-the-world<<}
 
-Unit 3 ended on a disagreement, and we did not settle it. One reading, by Nate Soares, puts the risk inside the system, in what the system ends up aiming at. Another, by Jan Kulveit and co-authors, puts the risk between institutions, in dynamics that no single actor steers. That disagreement matters now. Where you locate the risk decides what you try to change. A person who fears the system works on how to aim it. A person who fears the dynamics works on treaties, governments, and labs. Most plans in this unit take one of those sides, whether or not its author says so.
+
+The previous unit was about how AI could go very wrong for humanity. This unit will discuss how we can prevent bad outcomes and steer the future towards good outcomes.
+
+This is the longest unit of the course: about 90 minutes of reading for the required pages, plus the questions. Two pages are marked optional.
+
+Unit 3 showed disagreements between different experts about how things could go wrong. An article by Nate Soares put the main risks inside the AI system, with the risk being the AI aiming at things that lead to bad outcomes for humans. In contrast, Jan Kulveit and co-authors looked more at the risks of interactions between different institutions, i.e., risks of group dynamics that no single actor is aiming at. For this unit, these disagreements and these different threat models matter because where you place the main risks will affect what things you would attempt to change in order to reduce AI x-risk.
+
+For example:
+1. People most worried about the goals of AIs being misaligned will work on figuring out how to align an AI.
+2. People most worried about the dynamics between different actors will focus more on things like treaties, governments, and labs.
+
+Although this distinction isn't very clear-cut, most of the plans and strategies described in this upcoming unit will take one of these 2 sides, although the authors aren't always explicit about this.
 
 You already read the argument about controlling misaligned AIs at the end of Unit 3. This unit is about everything else.
 
-The first reading is by Ryan Greenblatt of Redwood Research. He does not describe one plan. He describes four, and then a fifth world with no plan at all. Which plan is available is not a research question. It depends on how much of the world helps.
+The previous unit already discussed the difficulty of controlling misaligned AIs. This unit will focus more on different things.
 
-*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.
+
 
 #### Question
+id:: 5dbfa060-9b5f-428f-a979-0ebbfda52168
 content::
 \## Your turn first
 
-Before you read Greenblatt's four plans, describe your own.
+Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
 
-Write two or three sentences about the plan you believe exists today to prevent an AI takeover. Name who executes it. If you think no plan exists, say what happens instead. Say who would act if the danger became visible, and how they would act.
+Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
 
-Then add one more line. This is the harder part. What does your plan assume the rest of the world is doing?
+Then finally, describe in one line what your plan assumes the rest of the world is doing.
+
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.

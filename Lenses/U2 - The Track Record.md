@@ -1,5 +1,7 @@
 ---
 id: '512005f3-75ed-44bf-9e0c-2d897c4730a4'
+reading_minutes: 15
+tutor_minutes: 10
 title: "The Track Record"
 tldr: Before you learn how to forecast AI, look at the record of past forecasts. Armstrong and Sotala found that predicted dates cluster fifteen to twenty-five years ahead, whoever makes them and whenever they are made. Their second claim, that expert predictions were no better than non-expert ones, was later retracted after a dataset error came to light.
 summary_for_tutor: "Opening lens of the unit. Armstrong's survey of AI predictions establishes the empirical floor: the track record is bad, and bad in a specific patterned way rather than randomly. This has to land before any method is taught, or the methods read as refinements of something that works. Do not let the student conclude that forecasting is impossible; that conclusion is available at the end of the unit and must be earned."
@@ -7,6 +9,7 @@ authors:
   - Claude
 ---
 #### Question
+id:: f4355c78-627a-465c-8e3a-c49c0595df34
 content::
 \## Before the reading
 
@@ -49,6 +52,7 @@ from:: 4.1. Subjective Assessment
 to:: References
 
 #### Question
+id:: 4cce137a-0a4a-4942-bc28-fe4a4e5a6d48
 content::
 \## After the reading
 
