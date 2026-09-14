@@ -1,5 +1,7 @@
 ---
 id: '432e8908-1330-4193-b21c-495681763843'
+reading_minutes: 25
+tutor_minutes: 5
 title: "Failure With No Villain"
 tldr: Two ways things go wrong with nobody scheming anywhere in the story.
 summary_for_tutor: "Pre-reading question asks the student to build a catastrophe with no villain, then they read Christiano. One mirror, no grade."
@@ -27,6 +29,7 @@ Christiano's, that is the better outcome of the two.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 5e0d19fc-67a5-47ef-9a57-734e88c8342c
 content::
 \## Your turn first
 

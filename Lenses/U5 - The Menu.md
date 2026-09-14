@@ -1,5 +1,7 @@
 ---
 id: 'b8b723bb-28f4-4f08-8e81-f8a77f38e817'
+reading_minutes: 20
+tutor_minutes: 5
 title: "The Menu"
 tldr: There is an actual list of concrete projects that would make the transition to powerful AI go better. Most are understaffed. Some do not exist yet. Compare your own ideas with it.
 summary_for_tutor: "Third lens of Unit 5, and the last assigned reading of the whole course. Pre-question commits the student to the one gap they think nobody is filling; then MacAskill's list of eight concrete projects. One mirror, no grade."
@@ -23,6 +25,7 @@ One thing this reading is not: careers advice. It says what needs doing. It does
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 0fafa2e1-3c26-4d6c-8317-93ea6a4d153a
 content::
 \## Choose before you see the menu
 

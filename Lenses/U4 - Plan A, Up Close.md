@@ -1,5 +1,7 @@
 ---
 id: 'c56ff069-3320-4695-9674-16ed883114ca'
+reading_minutes: 20
+tutor_minutes: 5
 title: "Plan A, Up Close"
 tldr: Plan A was one paragraph about an international agreement. This lens is the agreement itself. You name where you think it breaks before you read it.
 summary_for_tutor: "Optional second lens of Unit 4. Pre-question asks for the strongest case for an international agreement plus a commitment to its likeliest failure point (signing, verifying, or enforcing), then the student reads section 4 of the MIRI Technical Governance Team's draft agreement. One mirror, no grade."
@@ -16,7 +18,7 @@ The previous reading gave Plan A one paragraph. It described a strong internatio
 
 Aaron Scher and colleagues on MIRI's Technical Governance Team have drafted the actual agreement. You will read the section that says what it does. It covers which training runs are banned, which chips are tracked, where those chips are allowed to be, who verifies whom, and why its governing council starts with exactly two members.
 
-This treaty belongs to a family of proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and negotiate the details after. This treaty is the strongest member of that family. Read one member closely and you learn how to read the rest.
+This treaty belongs to a family of proposals. Evals and if-then commitments say: keep going, but promise in advance to act when a measured capability passes a set level. Pause campaigns say: stop first, and negotiate the details after. Read one member closely and you learn how to read the rest.
 
 Before you start, decide where it breaks. Every agreement has to be signed, then verified, then enforced. Nearly everyone who dismisses this plan points at one of those three steps. Pick yours first. Then you can see how much of the text is aimed at that step.
 
@@ -25,6 +27,7 @@ Their section 5 answers the obvious objections, and Appendix A is the treaty its
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 
 #### Question
+id:: 470aff2f-99ff-4398-beb4-3faa7cd3eaf1
 content::
 \## Your turn first
 

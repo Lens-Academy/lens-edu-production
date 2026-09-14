@@ -1,5 +1,7 @@
 ---
 id: '71ffbbb9-86a2-4b06-855f-729097642dc0'
+reading_minutes: 5
+tutor_minutes: 20
 title: What a Curve Licenses
 tldr: A colleague shows you a perfect exponential and a fourteen-month forecast. Every fact is true. Your job is to find where the argument outruns the evidence.
 summary_for_tutor: "Closes the module's wedge thread. The student is handed a plausible, correctly-reasoned extrapolation in which every stated fact is true, and must locate the exact step where the argument spends evidence it does not have. Deliberately set inside AI (a coding benchmark) because it is the practice beat; the graded transfer test for this module is set outside AI. Four load-bearing moves, any two of which pass: fit quality is silent about the unobserved range; a score near its ceiling is a different regime; construct stability; and confidence about continuation should come from an outside view on trend breaks, which the student got in the When Progress Jumps lens. A student who says the colleague is lying has misread the setup."
@@ -11,8 +13,9 @@ content::
 \## Where an argument outruns its evidence
 
 You now have a probe of what compute buys and a base rate for cliffs. Now: what a measured trend does and does not license you to conclude. You will be handed an argument in which every stated fact is true. Your job is not to find the lie; there isn't one. Your job is to find the exact step where the argument starts spending evidence it doesn't have.
-
+{>>{"author":"lauren (chrome@what)","timestamp":1787831996698}@@deft attempt 1, "more human": You have a probe that tells you, at a glance, how many compute operations any single data point buys you (as opposed to cognitive effort or subjective difficulty), and you have a base rate for the probability of a cliff in general. Given a measured trend in some data, what does it license you to conclude, and what does it not license you to conclude? The task here is: Given a true argument, can you find the exact step where it starts spending evidence it doesn't have?<<}
 #### Question
+id:: c3cc7b56-2424-417b-9f0c-114559e39fa8
 content::
 \## The wedge
 
@@ -27,6 +30,8 @@ A colleague talks you through their results.
 Every factual claim your colleague makes is true. The fit really is 0.97, it really did survive two architecture changes, and the arithmetic is right.
 
 Where does the argument stop being licensed by the data? And what would you have to know, that they have not told you, before the fourteen-month figure meant anything?
+
+max-time:: 10:00
 
 assessment-instructions:: The student has completed the compute lens (Fun with +12 OOMs, what compute buys) and the base-rates lens (When Progress Jumps, base rates for discontinuities). Those are the tools this wedge wants. Refer to lenses by name, never by number; numbering conventions differ across files.
 
@@ -66,10 +71,13 @@ If the student is stuck after 2 attempts, give a brief direct answer and move on
 On close: name what they demonstrated and what is still underdeveloped, then send them to the next question, where they build the fixed version themselves. Do not give a test-readiness verdict here; the next beat is the evidence for that.
 
 #### Question
+id:: 2d3c35a8-9efa-4f9a-92f5-7c251c960c02
 content::
 \## Build the version your colleague should have shown you
 
 The critique was the easy half. Now construct. Write two genuinely different trajectories for this benchmark over the next two years. They must differ in mechanism, not just in speed: name what drives each one (the trend's own momentum, the approach hitting a ceiling, the benchmark ceasing to measure the skill, anything you can defend). For each trajectory, give one observation checkable within a year or two that would count against it. Then the quiet part: name one assumption both of your trajectories share.
+
+max-time:: 15:00
 
 assessment-instructions:: The student has just critiqued the colleague's extrapolation and is now constructing the two-trajectory version of the same situation. This is the direct rehearsal for the module's graded test: two mechanism-distinct trajectories, a named driver for each, a checkable observation against each, and one shared assumption.
 

@@ -1,5 +1,7 @@
 ---
 id: 'c3083a7a-5818-4975-ba77-b7cbf9d5b603'
+reading_minutes: 25
+tutor_minutes: 8
 title: "The Case Against Control"
 tldr: A large part of the field works on containing AI rather than aiming it. Decide when that is the right move and what it costs.
 summary_for_tutor: "Closes Unit 3. States the case FOR control fairly, then asks the student to name the conditions under which control is right and one thing it makes worse. Two short critical readings follow. One mirror, no grade."
@@ -27,14 +29,17 @@ we can build now rather than to systems we hope to understand later. Its measure
 testable: you can red-team a monitoring setup and count the failures, which is more than
 most safety proposals can offer. And if the first systems capable of serious harm are
 only somewhat superhuman, containing them may be enough to get useful work out of them,
-including work on the alignment problem itself. Greenblatt and Shlegeris make this case
-at length in "The case for ensuring that powerful AIs are controlled".
+including work on the alignment problem itself. Ryan Greenblatt and Buck Shlegeris, two
+researchers at Redwood Research who built much of the control agenda, make this case at
+length in "The case for ensuring that powerful AIs are controlled". You meet Greenblatt
+again in Unit 4.
 
 Two objections follow. Read them as arguments to weigh, not as the verdict.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
 #### Question
+id:: 825ef15e-3803-42bc-9b9f-3fefc02e6ddc
 content::
 \## Write the conditions
 

@@ -1,5 +1,7 @@
 ---
 id: 'e9785236-c989-43f6-a2b7-1adf793a1498'
+reading_minutes: 45
+tutor_minutes: 5
 title: "How An Explosion Could Happen"
 tldr: Three different things people mean by an intelligence explosion, and they do not all need the same conditions.
 summary_for_tutor: "Opens Unit 3. Pre-reading question asks the student to name what would have to be true for AI progress to speed itself up. Then the Forethought piece on three types of intelligence explosion. One mirror, no grade."
@@ -27,6 +29,7 @@ and say what would settle it. Use them.
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 453ab574-46aa-4aaa-ba04-4221be5769ff
 content::
 \## Your turn first
 
@@ -40,6 +43,9 @@ Then commit to a number. The article estimates how far this loop can run before 
 stops. Write your own estimate first, in whatever unit you like, and name the one thing
 that would move it most. A wrong number you can defend is worth more here than no
 number.
+
+One line more. Pick the step in your loop where someone could act to slow or stop it.
+Who would that be, and what would it cost them to act there?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
@@ -77,6 +83,10 @@ YOUR TASK, in order.
 3. Take their answer to "what runs out first" seriously. If they named compute, ask
    whether the loop needs new chips or only better use of existing ones. If they named
    ideas, ask what would make ideas run out. If they named nothing, say so plainly.
+4. On the intervention point: if they named a step and an actor, ask what that actor
+   would have to give up to act there. If they named no step, say plainly that a loop
+   with no point of intervention is a claim rather than a mechanism, and ask them to find
+   one while reading.
 
 Do not grade. Do not score. Do not praise. There is no correct answer at this stage.
 

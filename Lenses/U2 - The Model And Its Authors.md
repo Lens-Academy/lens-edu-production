@@ -1,5 +1,7 @@
 ---
 id: '57a676a0-de9e-481b-971c-c764170173c3'
+reading_minutes: 50
+tutor_minutes: 40
 title: The Model And Its Authors
 tldr: The AI Futures team rebuilt their timelines model and moved their own median three to five years later than AI 2027. You build your forecasting toolkit before seeing theirs, then watch two of the authors run the same model and disagree.
 summary_for_tutor: "Administers the AI Futures Project's Dec 2025 model rather than describing it. Sequence: the student lists every forecasting method they can think of BEFORE reading, then reads the authors' five (expert survey, argument-informed intuition, revenue extrapolation, brain-compute anchoring, benchmark trend extrapolation) and diffs; then reads the three-stage model structure; then commits to their own median before seeing the authors'; then reads Eli and Daniel producing DIFFERENT forecasts from the same model, which makes aggregation a live case rather than a hypothetical. Closes by asking what process generates the trend and what that process is aimed at. The tutor must not supply the five methods during the attempt beat, and must NOT name any unifying frame at the close: the student is meant to arrive at it themselves across later units."
@@ -14,9 +16,12 @@ Most forecasts reach you as a number. This one comes with its working shown. It 
 
 That makes it useful twice. It is useful for what it concludes. It is also useful for what it shows about how a conclusion like that gets built, including the points where two people run the same model and get different numbers.
 
+One term before you start. The authors write "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone, an AI that does the coding part of AI research on its own.
+
 Before you read any of it, you build your own version of their set of methods.
 
 #### Question
+id:: 0718d0de-6524-4ab6-be19-20fb05f56fca
 content::
 \## Every way you can think of
 
@@ -50,9 +55,10 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: Our previous model with median parameters predicted superhuman coder
+to:: possibility of time horizon doublings getting easier or harder at higher horizons
 
 #### Question
+id:: 171d04f7-fda7-4811-becb-754971b05188
 content::
 \## The diff
 
@@ -85,6 +91,7 @@ from:: ## How our model works
 to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
 #### Question
+id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
@@ -119,6 +126,7 @@ from:: ## Timelines and takeoff forecasts
 to:: this list is nowhere near exhaustive
 
 #### Question
+id:: c4105299-b0e6-4779-8440-c45103089990
 content::
 \## Two people, one model, different answers
 
@@ -157,6 +165,7 @@ from:: ## Comparison to our previous
 to:: You can read more about these changes and their effects in our
 
 #### Question
+id:: 6cdc5e71-6946-4efb-8651-46bd49871faf
 content::
 \## A three-to-five year shift, in nine months
 
@@ -187,6 +196,7 @@ What to do in each reply:
 2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
 #### Question
+id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
 

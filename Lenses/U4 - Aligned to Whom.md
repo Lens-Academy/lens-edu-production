@@ -1,5 +1,7 @@
 ---
 id: 'cc161d79-46e4-472d-b519-d7a68a653218'
+reading_minutes: 20
+tutor_minutes: 5
 title: "Aligned to Whom?"
 tldr: Every alignment success is a success at aligning AI to somebody. This scenario asks what one ambitious human could do with a perfectly obedient superintelligence.
 summary_for_tutor: "Sixth lens of Unit 4. The student assumes alignment is solved, builds their own path from obedient AI to one person in charge of everything, then reads Kastner's CEO-coup scenario (the Endword renders collapsed). One mirror, no grade."
@@ -14,7 +16,7 @@ content::
 
 Every strategy in this unit so far addresses one of two fears. The first is AI that does something other than what its developer intended. The second is institutions that race each other into deploying it anyway. This reading covers the case that both fears miss. Suppose the technical problem gets solved. The AIs do exactly what their developer wants, and nothing else. Then one question decides everything, and the plans never asked it: who is the developer?
 
-Alex Kastner of the AI Futures Project answers with a scenario. In it, an AI company CEO uses perfectly obedient AI to quietly become the most powerful person on Earth. It is also the most concrete account of a takeover in this course. Step by step, capability becomes control, through secret loyalties, consolidation, and fait accompli. Those steps work the same way whoever runs them. Run the same path with a misaligned AI instead of a person and you get the takeover story that earlier units described. Ryan Greenblatt covers that version at length on the 80,000 Hours podcast (https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/) if you want it.
+Alex Kastner of the AI Futures Project answers with a scenario. In it, an AI company CEO uses perfectly obedient AI to quietly become the most powerful person on Earth. Step by step, capability becomes control, through secret loyalties, consolidation, and fait accompli. Those steps work the same way whoever runs them. Run the same path with a misaligned AI instead of a person and you get the takeover story that earlier units described. Ryan Greenblatt covers that version at length on the 80,000 Hours podcast (https://80000hours.org/podcast/episodes/ryan-greenblatt-ai-automation-sabotage-takeover/) if you want it.
 
 Compare this reading with Ten People on the Inside, from earlier in the unit. Those ten are inside the lab, watching the models. This scenario asks whether they are watching the right thing.
 
@@ -23,6 +25,7 @@ Before you read Kastner's path, build your own. If yours takes a different route
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 7bf58adb-b574-4c9f-8601-916f88f5944d
 content::
 \## Your turn first
 

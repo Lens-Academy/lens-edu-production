@@ -1,5 +1,7 @@
 ---
 id: 'adf13f2b-6bec-40ad-8c07-4a3e87aa3dc0'
+reading_minutes: 5
+tutor_minutes: 15
 title: "The Lunch Table"
 tldr: A real, dated development, and one job. Place it in your model before anyone tells you what it means.
 summary_for_tutor: "Fourth lens of Unit 5. No reading. The student is handed one recent dated AI development and asked to file it as timeline, threat-model, or strategy evidence, then name the one thing they would check before repeating it. One mirror, no grade, no verdict on the placement."
@@ -23,10 +25,11 @@ You will do this again in the unit meeting, with whatever that week's headline t
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
 #### Question
+id:: da32c478-3027-4e87-bfe9-453375cbef91
 content::
 \## Where does it go?
 
-Place this development in your model, in three sentences. Is it timeline evidence, threat-model evidence, or strategy evidence? Say which. Then say which lever from your hundred points it touches. If it touches none of them and moves nothing, say that plainly.
+Place this development in your model, in three sentences. Is it timeline evidence (it changes when something happens), threat-model evidence (it changes what could go wrong), or strategy evidence (it changes what response would work)? Say which. Then open Unit 4's last page, find your hundred points, and say which lever it touches. If it touches none of them and moves nothing, say that plainly.
 
 Then one more line: the single thing you would check before repeating any of this at lunch. Not three things. The one that would most embarrass you if you skipped it.
 

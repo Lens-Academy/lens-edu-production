@@ -1,5 +1,7 @@
 ---
 id: '9daa6d44-ce5d-433a-ae60-641514b2f870'
+reading_minutes: 30
+tutor_minutes: 5
 title: "Capabilities Generalize Further"
 tldr: A system that gets much more capable carries its competence into new situations. The leash you put on it does not come along.
 summary_for_tutor: "Pre-question asks the student to predict which of two things transfers better to a new situation, competence or the constraints we trained in. Then Soares on the sharp left turn. One mirror, no grade."
@@ -31,6 +33,7 @@ could go badly wrong. If a term stops you, put it in the Lens Coach
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
 #### Question
+id:: 4fa5f086-266c-4db2-be77-b157ed9aff94
 content::
 \## Find a case you have seen
 
@@ -44,6 +47,9 @@ did the rules, checks or supervision fail to do there?
 
 Then write one more line. Say what it was about those rules that tied them to the old
 setting. Be specific about the rule, not about the situation.
+
+And one line more. In your case, at what point could someone have re-tied the rules to
+the new setting, and what would it have cost them to stop and do that?
 
 assessment-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
@@ -78,6 +84,9 @@ YOUR TASK, in order.
    that was tied to the original setting?
 3. Do not tell them whether their example supports or undermines Soares. They are about
    to find out.
+4. On the point where the rules could have been re-tied: ask what the person who could
+   have done it would have had to give up, usually speed or scope. If they named no
+   point, say so plainly.
 
 Do not grade. Do not score. Do not praise.
 
