@@ -5,14 +5,23 @@ reading-from: "So—how do we un-write our fate?"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Taking Action]]"
+topic: "[[../Domains and Topics/13 Taking Action/Advocacy and movement strategy]]"
 stage: beginner
+eval-results:
+  content-sha: 191bd5db
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is bound to one text — it asks for the chapter's calls to action, not a source-free capability.", B1: "Question names the specific reading as load-bearing scaffolding; unanswerable as posed without knowing that chapter."}
+  evidence: {A2: "Distinguish between the chapter's calls to action for government leaders", B1: "The second half of Chapter 14 issues different calls to action to different audiences"}
 ---
 
 ## Test:
 id:: 6c1d4ea5-7f20-5153-e8d9-f0a1b2345678
 
 #### Question
+id:: f5ecf31b-f5ec-4983-99aa-e156d3d26247
 content:: The second half of Chapter 14 issues different calls to action to different audiences: government leaders, elected officials who are already persuaded, politicians who are not yet persuaded, journalists, and ordinary citizens.
 
 **Distinguish what the chapter asks of (a) government leaders, (b) skeptical politicians who aren't fully persuaded, and (c) ordinary citizens. What specific lever does each group hold that the other two cannot provide?**

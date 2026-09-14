@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a supplementary endnote to Chapter 6 of *If Anyone Builds It, Everyone Dies*, offered as examples supporting a claim made there. Readers arriving without that chapter's context should note the point being illustrated: a mechanistic understanding of a system (here, human vision) lets engineers deliberately produce effects — like these illusions — that trial-and-error tinkering would be unlikely to stumble on, an analogy the book applies to AI capabilities rather than vision science.
 
 %%
 In Chapter 6, we said that researchers have used the modern understanding of human visual processing and the visual cortex to come up with new optical illusions — illusions that could not have been produced fifty years ago, except by unlikely accident. Below, we cite a few representative examples.
@@ -27,7 +33,7 @@ The "[Pinna-Brelstaff](https://michaelbach.de/ot/mot-PinnaBrelstaff/)" illusion,
 
 Also less centrally, the "[Eclipse of Titan](https://dynomight.net/img/colors/eclipse-(255,0,0)-(0,170,85)-700px-15s-70s-shrink.svg)" illusion, created circa 2010, exhausts the viewer's M cones, allowing the less-exhausted L cones to create the perception of a brilliant blue that would otherwise have been moderated and weakened by simultaneous M and L activation. ([More detail](https://dynomight.substack.com/p/colors).)
 
-Relatedly, the study of cone activation in the early 2000s led to the creation of various [chimerical colors](https://www.mikewoodconsulting.com/articles/Protocol%20Summer%202021%20-%20Chimerical%20Colors.pdf), via careful manipulation of cone activations unlikely to occur in nature.[\*](#ftnt240)
+Relatedly, the study of cone activation in the early 2000s led to the creation of various [chimerical colors](https://www.mikewoodconsulting.com/articles/Protocol%20Summer%202021%20-%20Chimerical%20Colors.pdf), via careful manipulation of cone activations unlikely to occur in nature.[^note-iabied-ftnt240]
 
 Finally, some [ongoing experiments](https://neurosciencenews.com/optical-illusion-feature-integration-14042/) show that:
 
@@ -35,9 +41,7 @@ Finally, some [ongoing experiments](https://neurosciencenews.com/optical-illusio
 
 …further demonstrating that a richer understanding of biology and physiology allows for a greater range of strategic motion. Here, perceptions can be altered in ways that don't depend on changing the sensory input to the optic nerve at all, but instead simply depend on timing the arrival of stimuli to sync up with other things happening in the brain.
 
----
-
-[\*](#ftnt240_ref) From the original [paper](https://www.tandfonline.com/doi/full/10.1080/09515080500264115):
+[^note-iabied-ftnt240]: From the original [paper](https://www.tandfonline.com/doi/full/10.1080/09515080500264115):
 
 > The H–J model yields some novel and unappreciated predictions, and some novel and unappreciated explanations, concerning the qualitative characters of a considerable variety of color sensations possible for human experience, color sensations that normal people have almost certainly never had before and whose accurate descriptions in ordinary language appear semantically ill-formed or even self-contradictory.
 >

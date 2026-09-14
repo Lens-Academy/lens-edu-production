@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry rebuts the "safety through a friendly first-mover" argument: since no one currently knows how to reliably align a superintelligence, the identity or intentions of whoever builds it first don't change the outcome. Useful to pair with the Chapter 11 FAQ on AI engineers' scientific maturity when discussing competitive/race dynamics.
 
 %%
 #### No.
@@ -31,4 +37,4 @@ It doesn't matter how well-intentioned they are, and how careful they say they'r
 
 We'll turn to this point in the final chapter of the book.
 
-Things change. They especially change when there is a desperate, urgent, recognized need. The main impediment to stopping is world leaders failing to realize the danger. And that process has [already begun](/13/will-elected-officials-recognize-this-as-a-real-threat).
+Things change. They especially change when there is a desperate, urgent, recognized need. The main impediment to stopping is world leaders failing to realize the danger. And that process has [already begun](https://ifanyonebuildsit.com/13/will-elected-officials-recognize-this-as-a-real-threat).

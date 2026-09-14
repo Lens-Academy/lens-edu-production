@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains and Topics/3 Alignment/The space of possible goals]]"
 stage: beginner
+eval-results:
+  content-sha: c52a72dc
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: fail, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific text — names Chapter 5 and asks what 'the chapter' claims, so it cannot be posed at a random moment.", C2: "Pass level 3 requires a concrete example/allegory, which the question never asks for."}
+  evidence: {B1: "Chapter 5 opens with an allegory about an alien civilization ... Why does the chapter claim that a sufficiently advanced AI is overwhelmingly unlikely to pursue human-compatible goals?", C2: "Uses the alien allegory or an equivalent concrete example."}
 ---
 
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
 #### Question
+id:: 8d3c65bc-69e4-489b-b221-8dfe883620b6
 content::
 Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
 

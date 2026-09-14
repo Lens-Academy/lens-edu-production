@@ -1,5 +1,5 @@
 ---
-title: "Why don't you care about non-human entities?"
+title: "Why don't you care about the values of any entities other than humans?"
 source_url: https://ifanyonebuildsit.com/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans
 published: 2025-09-16
 author:
@@ -7,16 +7,22 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry addresses the "specieism"/cosmopolitanism objection to the book's argument; it cross-references Chapter 12 and two other Chapter 5 FAQ entries ("consciousness" and "losing the future") that may be worth reading alongside it for full context.
 
 %%
 
-#### We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy.
+#### We do! We have broad cosmopolitan values. We don't think AIs will fulfill them, and we consider this a great tragedy. ^we-do-we-have-broad-cosmopolitan-values
 
 We advocate against building machines that would kill us all and bring the future to ruin. Some people object on grounds such as:
 
@@ -55,13 +61,13 @@ We understand this perspective, and we want to be clear that we're not writing a
 This is a complex topic, but to quickly address a number of relevant points:
 
 - We care about the welfare of minds in general — even if the mind in question has nothing like a human body, even if it runs on transistors rather than biological neurons, even if it doesn't have a human-like mind, even if its values are nothing like our own.
-- We aren't [opposed to technological progress](/12/are-you-anti-technology); we are ardent fans of most technology. We think superintelligent AI is a *uniquely* dangerous technology.
+- We aren't [opposed to technological progress](https://ifanyonebuildsit.com/12/are-you-anti-technology); we are ardent fans of most technology. We think superintelligent AI is a *uniquely* dangerous technology.
 - We aren't advocates of the precautionary principle, red tape, or overregulation, nor are we warning about what we see as a fringe risk, "just to be on the safe side." We straightforwardly believe that this technology will (with *high* probability) kill all of us and destroy the future if we proceed on the current trajectory.
 - We do think humanity should build artificial superintelligence *someday*. But we think it makes an enormous difference whether humanity rushes ahead to build ASI as soon as possible, versus taking the time to massively improve our understanding first. Rushing ahead with a shrug and hoping things work out — this may be a great approach to technological development in the vast majority of cases, but it doesn't work *here*, where there are many roads to ruin and we get no second chances (as discussed in Chapter 10).
 - We have covered, even if too briefly, the reasons why we do *not* think rushing ahead to build superintelligences will result in a wonderful future:
   - Wiping out humanity would be a grotesque tragedy in its own right. We endorse the idea of one day building new minds that surpass humanity, but killing everyone who gets in the way of your vision for the future, or everyone who doesn't fully embody your ideals — that sounds like supervillain behavior, not the noble work of heroes who deeply care about the long-term future.
-  - We unfortunately think that ASI won't necessarily be sentient, or conscious, in the ways that count. (See the extended discussion on [consciousness](/5/effectiveness-consciousness-and-ai-welfare).)
-  - Even if ASI is sentient, it isn't likely to want to fill the universe with flourishing sentient minds *in particular*. If we rush ahead to build ASI, the galaxies reshaped by that ASI are likely to be empty and lifeless places, not wondrous, flourishing alien civilizations. (See the extended discussion on [losing the future](/5/losing-the-future).)
+  - We unfortunately think that ASI won't necessarily be sentient, or conscious, in the ways that count. (See the extended discussion on [consciousness](https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare).)
+  - Even if ASI is sentient, it isn't likely to want to fill the universe with flourishing sentient minds *in particular*. If we rush ahead to build ASI, the galaxies reshaped by that ASI are likely to be empty and lifeless places, not wondrous, flourishing alien civilizations. (See the extended discussion on [losing the future](https://ifanyonebuildsit.com/5/losing-the-future).)
   - More generally, ASI is unlikely to produce valuable futures. By "valuable," we don't just mean "valuable by the lights of 21st-century humans." We mean "valuable" in a broad cosmopolitan sense — valuable in a way that's inclusive of weird and wondrous alien civilizations. On the world's current trajectory, we expect ASI to produce outcomes that are horrifying *from a cosmopolitan perspective*, not just from a parochial human standpoint.
 
 This last point can be a bit counterintuitive — cosmopolitanism is about respecting and appreciating very different value systems from our own. How could it be the case that cosmopolitanism abhors most goals an ASI is likely to manifest? It sounds almost like a contradiction in terms.
@@ -104,6 +110,6 @@ But a happy future doesn't come free, packaged with any sufficiently smart mind.
 
 A top-down, harshly limited, tightly controlled future doesn't sound to us like a good outcome. A conservative future where civilization is locked into the values of 21st-century humans forever sounds outright dystopian. (Imagine a world where culture and morality were frozen in place forever thousands of years ago, with no possibility for learning or progress.)
 
-But it's an obvious error to think that our*only alternative* to those bad outcomes is a race to hand the steering wheel to the very first superintelligence humanity is able to blindly stumble into creating.
+But it's an obvious error to think that our *only alternative* to those bad outcomes is a race to hand the steering wheel to the very first superintelligence humanity is able to blindly stumble into creating.
 
 We are radically ill-equipped today to choose healthy seeds for the long-term future of the universe. We should neither give up on the dream of a dynamic, wonderful, shocking future, nor resort to catastrophic seeds instead. We don't *have* to choose a terrible option here. There is a third option: Back off, and find some saner approach.

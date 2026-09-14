@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece argues interpretability research is real but far behind what would be needed to safely steer AI; pair it with Chapter 4's alignment material so students don't conflate "we can see some of what's happening" with "we can control it." The Transluce 9.9-vs-9.11 demo is a good concrete example for discussing what mechanistic interpretability techniques (like activation-level debugging) can and can't currently do.
 
 %%
 #### No.
@@ -24,6 +30,8 @@ In a 2023 [briefing](https://x.com/martin_casado/status/1720517026538778657) to 
 This claim was sufficiently ridiculous that the researchers at the top AI labs who work on trying to understand modern AIs came out and said: No, absolutely not, are you crazy?
 
 Neel Nanda, who runs the mechanistic interpretability team at Google DeepMind, [spoke up](https://x.com/NeelNanda5/status/1799203292066558403):
+
+![](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image9.png)
 
 Almost any researcher in machine learning should have known that this statement was false. It's not within the bounds of reasonable misinterpretation.
 
@@ -87,7 +95,7 @@ If you interpret 9.9 and 9.11 as dates or Bible verses, then of course 9.11 come
 
 Artificially suppress the activations for dates and Bible verses, and suddenly the LLM would give the right answer after all!
 
-I (Yudkowsky) started applauding, hard, as soon as the demo was over. It was the first time I'd ever seen somebody*directly debug an LLM thought,* ferret out an *interior* influence inside the numbers, and remove it to fix a problem*.* Maybe somebody had done something like it before, in the proprietary research labs inside AI companies, or maybe something like it had been done before in interpretability research, but it was the first time I'd seen it myself.
+I (Yudkowsky) started applauding, hard, as soon as the demo was over. It was the first time I'd ever seen somebody *directly debug an LLM thought,* ferret out an *interior* influence inside the numbers, and remove it to fix a problem. Maybe somebody had done something like it before, in the proprietary research labs inside AI companies, or maybe something like it had been done before in interpretability research, but it was the first time I'd seen it myself.
 
 But I also did not lose sight of the fact that this feat would have been trivial to do if the undesired behavior had been inside a five-line Python program instead; that it would not have required such great ingenuity and however many months of research. I retained the perspective that knowing some related semantics about millions of activation-positions is not the same as knowing everything about the meaning of a single one.
 
@@ -111,9 +119,9 @@ For example, consider the differential on a car (the mechanism that allows two w
 
 When it comes to understanding people, there are *multiple* levels of abstraction at work. You can understand physics, biochemistry, and neural firing, and *still* find yourself perplexed by someone's decisions. Fields like neuroscience, cognitive science, and psychology attempt to cross this gap, but they still have far to go.
 
-Similarly, in the case of AI, understanding the mechanics of transistors won't much help someone understand what an AI is thinking. And even someone who understands everything about the weights and activations and gradient descent will still be perplexed when the AI starts doing something they didn't expect or intend.[\*](#ftnt48) The mechanics of physics and transistors and the AI's architecture all (in some sense) fully explain the AI's behavior, but those levels of abstraction are all too low. And the field of "AI psychology" is even younger and less developed than the field of human psychology.
+Similarly, in the case of AI, understanding the mechanics of transistors won't much help someone understand what an AI is thinking. And even someone who understands everything about the weights and activations and gradient descent will still be perplexed when the AI starts doing something they didn't expect or intend.[^note-iabied-ftnt48] The mechanics of physics and transistors and the AI's architecture all (in some sense) fully explain the AI's behavior, but those levels of abstraction are all too low. And the field of "AI psychology" is even younger and less developed than the field of human psychology.
 
-[\*](#ftnt48_ref) For more discussion of AIs acting in ways the developers didn't expect or intend, some examples can be found in the discussion on how [AIs appear to be psychologically alien](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien).
+[^note-iabied-ftnt48]: For more discussion of AIs acting in ways the developers didn't expect or intend, some examples can be found in the discussion on how [AIs appear to be psychologically alien](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien).
 
 #### Notes
 

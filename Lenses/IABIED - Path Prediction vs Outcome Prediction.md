@@ -1,6 +1,8 @@
 ---
 id: c9a4f6d2-3b7e-4b80-a2d5-6f1c0e8a4b73
-summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live."
+reading_minutes: 5
+tutor_minutes: 20
+summary_for_tutor: "Teaches the path/outcome distinction via the Coda's Stockfish analogy: outcome confidence is achievable even when path confidence is not, when the capability gap is sufficiently decisive. Students articulate the distinction, apply it to the superintelligence case, and identify the conditional structure ('only if allowed to begin') that makes Part III's question live. Students also recall the Introduction's hard-and-easy-calls definition and audit the Coda's prediction against it."
 title: "Path Prediction vs Outcome Prediction"
 tldr: You can't predict every move Stockfish will make. You can predict that you'll lose. The Coda argues the same logic applies here.
 authors:
@@ -18,6 +20,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 3937af5c-466d-4edd-a662-721705c0bba2
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -61,15 +64,56 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 4a0a231b-9a74-474c-9ca1-f27cb2d9a90a
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question
+#### Question: Open
+id:: ca4137f3-ea64-47bc-8e77-8228275842e9
 content::
-\## Phase 3: Learning Question
+\## Phase 3: Connection
+The Coda calls this an easy call. The term is not new here: the course opened on it, and the authors were specific about what makes a call easy rather than hard.
+
+Without looking anything up, say what that distinction was. Then check the Coda against it. Does the prediction the Coda actually makes count as an easy call by the authors' own definition? Say where it qualifies, and where you are not sure it does.
+
+assessment-instructions:: The student has read the Coda, written a free recall, and reflected on it. They have now been asked to recall the Introduction's hard-calls-and-easy-calls distinction and audit the Coda's prediction against it.
+
+This beat works differently from the connection beats elsewhere in this course, and the difference matters. Those ask the student to find an earlier idea. This one names it, because the Coda names it too. Recalling the framework is the entry price here, not the answer. Do not let the exchange end once they have produced it.
+
+**The definition to hold them to.** An easy call is one where, if the event happens, you already know roughly what it looks like: the consequence follows from the mechanism regardless of the specific path. A hard call needs fine-grained detail or precise timing to be useful. "Easy" describes the reasoning structure, not the probability and not the emotional weight of the claim. The whether-versus-when asymmetry is the shape of it.
+
+**The audit.** The Coda fits, and saying so is a correct answer. Push past it. Two observations are worth real credit if the student reaches them:
+- **The Coda is explicit about its antecedent in a way the Introduction's examples were not.** The prediction holds only if the story is allowed to begin. A student who notices that this condition does real work, and is contestable in a way "if the event happens" was not, has read closely.
+- **The grounds differ even though the structure matches.** The Introduction's easy calls leaned on precedent. The Coda's leans on an argument from capability asymmetry. Same logical shape, different kind of support, and separating those is the harder move.
+
+**The most likely wrong answer** is that it is not an easy call, because we cannot predict when or how. That inverts the definition: not needing the path is precisely what makes a call easy. Correct it in one sentence, then ask them to run the audit again against the corrected definition.
+
+**Three conflations to separate, if one appears.** Easy is not likely. Easy is not certain. Easy is not fatalist. Name the one they made and leave the others alone.
+
+Response length: 80–150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- A student who concludes the Coda only partly qualifies has done the work, provided they say why. The interesting answer is not necessarily yes, and you should not talk them out of a defensible no.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the distinction to work.
+
+What not to do:
+- Supply the definition before they have committed to one. If they cannot produce it, give one narrowing hint, that it is about what kind of thing you need to know rather than how likely you think it is, then name it in a sentence and move on.
+- Preview the next phase. It turns on whether an easy call means there is nothing to be done, and that objection has to arrive fresh.
+- Turn this into a review of the Introduction.
+
+#### Question
+id:: a869a31e-b4f8-48b3-9578-c15671517846
+content::
+\## Phase 4: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -115,6 +159,11 @@ Safety and integrity:
 - If the student conflates "easy call" with "certainty" or with "fatalism," separate the three plainly: an easy call is a high-confidence conditional prediction, not a guarantee and not a claim that nothing can be done.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is the Coda's outcome, and nothing else. The previous phase had the student audit the Coda against the Introduction's definition; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who dismantles the friend's objection entirely from the Coda's own material has answered this question well.
+- **Use the audit only as a rescue.** If the student stalls on why an easy call is not a settled fate, you may point back in one sentence to what they concluded in the previous phase. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about the Coda alone, exactly as specified above. After it, add one separate sentence noting whether the student could produce the Introduction's definition unaided, needed the hint, or could not get there. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::

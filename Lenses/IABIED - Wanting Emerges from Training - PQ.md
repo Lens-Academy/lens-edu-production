@@ -1,5 +1,7 @@
 ---
 id: 4c8e2f1a-9b7d-4e30-b562-e7f3a9c14d25
+reading_minutes: 2
+tutor_minutes: 3
 summary_for_tutor: Priming question before Chapter 3. Students articulate their intuition about whether machines can genuinely 'want' things, before encountering the behavioral definition and emergence mechanism.
 title: "Before Reading — Wanting Emerges from Training"
 tldr: Does your GPS want to get you home? Before reading, decide where you'd draw the line between having a goal and wanting something.
@@ -9,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/03 - Chapter 3 - Learning to Want]]"
 ---
 #### Question
+id:: c606daca-503e-4b7c-977b-a7552c74e209
 content:: Before reading Chapter 3: Does your GPS "want" to get you to your destination? What about a chess AI, does it "want" to win? If you think there's a difference between having a goal and wanting something, what is it? Write down your intuition before reading.
 
 assessment-instructions::

@@ -7,17 +7,23 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Lack of expert consensus is a sign of an immature technical field.
+#### Lack of expert consensus is a sign of an immature technical field. ^lack-of-expert-consensus-is-a-sign-of-an-immature-technical-field
 
-We've noted that many senior AI scientists think that this technology has a serious chance of killing all humans. For example, Nobel laureate Geoffrey Hinton, who played a large role in pioneering the modern approach to AI, has said that his independent personal assessment puts the odds of AI killing us all at [greater than 50 percent](https://youtu.be/PTF5Up1hMhw?feature=shared&t=2376). More than 300 AI scientists signed the 2023 [Statement of AI Risk](https://aistatement.com/) that we opened the book with.[\*](#ftnt281)
+We've noted that many senior AI scientists think that this technology has a serious chance of killing all humans. For example, Nobel laureate Geoffrey Hinton, who played a large role in pioneering the modern approach to AI, has said that his independent personal assessment puts the odds of AI killing us all at [greater than 50 percent](https://youtu.be/PTF5Up1hMhw?feature=shared&t=2376). More than 300 AI scientists signed the 2023 [Statement of AI Risk](https://aistatement.com/) that we opened the book with.[^note-iabied-ftnt281]
 
 Other scientists, however, have the opposite view — some well-known examples being Yann LeCun and Andrew Ng.
 
@@ -27,7 +33,7 @@ Well, mostly, we recommend that you check out the different arguments made by th
 
 We note in passing, however, that this state of affairs isn't any great mystery, in the wake of what we discussed in Chapters 11 and 12. The mere existence of widespread expert disagreement doesn't establish the book's thesis, of course. But it's more congruent with the picture we've painted — that the field is in an early, alchemy-like state — than the opposing picture that AI is a mature field with strong technical foundations.
 
-It's definitely a bit strange for the field of AI to be so divided, even as it spins up powerful technologies. Other technological dangers had more consensus about them. Roughly 100 of 100 scientists in the Manhattan Project would have said that global thermonuclear war presented a substantial risk of global catastrophe. In contrast, among the three scientists who received a Turing Award[†](#ftnt282) for the research that more or less kicked off the modern AI revolution, two of them (Hinton and Bengio) are outspoken about the dangers of superintelligence, and one (LeCun) is outspokenly dismissive.
+It's definitely a bit strange for the field of AI to be so divided, even as it spins up powerful technologies. Other technological dangers had more consensus about them. Roughly 100 of 100 scientists in the Manhattan Project would have said that global thermonuclear war presented a substantial risk of global catastrophe. In contrast, among the three scientists who received a Turing Award[^note-iabied-ftnt282] for the research that more or less kicked off the modern AI revolution, two of them (Hinton and Bengio) are outspoken about the dangers of superintelligence, and one (LeCun) is outspokenly dismissive.
 
 This level of disagreement about the operation of a machine isn't normal between experts in a mature technical field. It's a sign of technical immaturity.
 
@@ -45,6 +51,6 @@ AI companies are succeeding at growing machines that are smarter and smarter, ye
 
 How do you figure out whether those worries are real? How do you figure out who's right between the people raising the alarm and the people trying to dismiss it? As always, you've just got to evaluate the arguments.
 
-[\*](#ftnt281_ref) More examples, including surveys showing that these examples are widely shared in the field, can be found in our discussion of what [AI Experts say about catastrophe scenarios](/intro/ai-experts-on-catastrophe-scenarios).
+[^note-iabied-ftnt281]: More examples, including surveys showing that these examples are widely shared in the field, can be found in our discussion of what [AI Experts say about catastrophe scenarios](https://ifanyonebuildsit.com/intro/ai-experts-on-catastrophe-scenarios).
 
-[†](#ftnt282_ref) Considered the highest honor in the field.
+[^note-iabied-ftnt282]: Considered the highest honor in the field.

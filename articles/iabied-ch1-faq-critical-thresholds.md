@@ -7,19 +7,25 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+FAQ entry from the Chapter 1 resources for "If Anyone Builds It, Everyone Dies." Good discussion prompts: whether the human/chimpanzee brain-size analogy is a sound basis for predicting AI threshold effects, and whether the authors' claim that takeoff speed doesn't affect the ultimate outcome (only the urgency of acting) holds up.
 
 %%
 #### Probably.
 
-Modern AI progress looks incremental, from some points of view.[\*](#ftnt15) For instance, an organization called [METR](https://metr.org/) has been tracking [the ability of AIs to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), and it has been roughly following an exponential curve over the last few years. One could argue that this is comfortingly incremental.[†](#ftnt16) Does that mean that AI progress will be nice and slow and predictable?
+Modern AI progress looks incremental, from some points of view.[^note-iabied-ftnt15] For instance, an organization called [METR](https://metr.org/) has been tracking [the ability of AIs to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), and it has been roughly following an exponential curve over the last few years. One could argue that this is comfortingly incremental.[^note-iabied-ftnt16] Does that mean that AI progress will be nice and slow and predictable?
 
-Not necessarily. Just because some quantity goes up slowly or smoothly or incrementally doesn't mean that the resultsare always tame. Nuclear fission happens on a continuum, but there's a pretty big difference between a nuclear chain reaction that produces less than one neutron per neutron (in which the reaction peters out) and a nuclear chain reaction that produces more than one neutron per neutron (which yields a runaway chain reaction).
+Not necessarily. Just because some quantity goes up slowly or smoothly or incrementally doesn't mean that the results are always tame. Nuclear fission happens on a continuum, but there's a pretty big difference between a nuclear chain reaction that produces less than one neutron per neutron (in which the reaction peters out) and a nuclear chain reaction that produces more than one neutron per neutron (which yields a runaway chain reaction).
 
 But there's not a sharp difference in the underlying mechanics between the two types of nuclear reactions. You add a little more uranium and the "neutron multiplication factor" moves smoothly from just below one to just above one. Supercritical reactions aren't caused by neutrons that hit the uranium atoms so hard that they create superneutrons. A little more of the same underlying stuff causes a big macroscopic change. This is called a "threshold effect."
 
@@ -39,7 +45,7 @@ Recent advances in AI have corresponded to a better ability to solve math proble
 
 What changes in human brains caused us to cross a critical threshold? Perhaps it was our ability to communicate. Perhaps it was our ability to grasp abstract concepts in ways that enabled communication to be so valuable. Perhaps we're thinking in the wrong terms entirely, and the key change was something weird that isn't on our radar today. Perhaps it was a big mixture of factors, where each one of them needed to be mature enough that they could all combine into the sort of intelligence that can put humans on the moon.
 
-We don't know. And because we don't know, we can't look at a modern AI and know how close or far itis from that same critical threshold.
+We don't know. And because we don't know, we can't look at a modern AI and know how close or far it is from that same critical threshold.
 
 The dawn of science and industry radically changed human civilization. The dawn of language may have been similarly consequential for our ancestors. But if so, there's no guarantee that either of those capabilities will act like a "critical threshold" for AI, because unlike humans, AIs had some amount of knowledge of language and science and industry from the get-go.
 
@@ -63,9 +69,9 @@ The relevance of threshold effects is that they increase the importance of human
 
 It took hominids millions of years to travel halfway to the moon, and two days to complete the rest of the journey. When there might be thresholds involved, you have to pay attention *before* things get visibly out of hand, because by that point, it may well be too late.
 
-[\*](#ftnt15_ref) From other points of view, it looks rather jumpy. AlphaGo beating Lee Sedol at Go was something of a shock to the world, for all that researchers post-hoc can plot a graph about how different AI methods were improving in the background all the while. So too with the LLM revolution: Researchers can plot graphs showing how the transformer architecture wasn't *that* big of a boost compared to the competing architectures, but the practical upshot is that AIs got qualitatively more useful. But we'll set that viewpoint aside for now.
+[^note-iabied-ftnt15]: From other points of view, it looks rather jumpy. AlphaGo beating Lee Sedol at Go was something of a shock to the world, for all that researchers post-hoc can plot a graph about how different AI methods were improving in the background all the while. So too with the LLM revolution: Researchers can plot graphs showing how the transformer architecture wasn't *that* big of a boost compared to the competing architectures, but the practical upshot is that AIs got qualitatively more useful. But we'll set that viewpoint aside for now.
 
-[†](#ftnt16_ref) Exponential growth is not exactly comforting, in this case. If bacteria in a petri dish double every hour, it will take a day or two before the colony is visible to the naked eye, and after that it takes mere hours before it coats the whole dish. By the time you're noticing the phenomenon at all, most of your time is already gone. As the [saying](https://x.com/ConanMacDougall/status/1729196049137549521) goes: there are only two ways to react to exponential change: too early or too late. But regardless, the curve is at least fairly smooth and predictable.
+[^note-iabied-ftnt16]: Exponential growth is not exactly comforting, in this case. If bacteria in a petri dish double every hour, it will take a day or two before the colony is visible to the naked eye, and after that it takes mere hours before it coats the whole dish. By the time you're noticing the phenomenon at all, most of your time is already gone. As the [saying](https://x.com/ConanMacDougall/status/1729196049137549521) goes: there are only two ways to react to exponential change: too early or too late. But regardless, the curve is at least fairly smooth and predictable.
 
 #### Notes
 

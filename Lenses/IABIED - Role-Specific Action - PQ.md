@@ -1,5 +1,7 @@
 ---
 id: 8e3f60c7-9142-7375-0afb-12c3d4567890
+reading_minutes: 2
+tutor_minutes: 3
 summary_for_tutor: "Priming question before Chapter 14, section 2. Students consider what they personally can do about a large-scale existential threat, and whether their answer depends on their role or position, setting up the chapter's role-specific calls to action."
 title: "Pre-Reading Question - Role-Specific Action"
 tldr: "If you were convinced AI poses a genuine extinction risk, what would you actually do about it? And would your answer change depending on whether you're a government leader, a politician, a journalist, or an ordinary person?"
@@ -7,6 +9,7 @@ authors:
   - Chris+Claude
 ---
 #### Question
+id:: e0f54529-99e9-4fe4-ba3c-def008e04380
 content:: Before reading the second part of Chapter 14: Imagine you're fully convinced that a technology poses a serious extinction risk. What would you actually do about it? Does your answer change depending on your role: whether you're a government leader, a politician, a journalist, or an ordinary person? Write down your thinking before you read.
 
 assessment-instructions::

@@ -1,5 +1,7 @@
 ---
 id: 2e0f5c3d-4a9b-4163-c784-a9b5c1d36e47
+reading_minutes: 2
+tutor_minutes: 3
 summary_for_tutor: "Priming question before Chapter 4. Students articulate their confidence that training produces the intended preferences, before encountering the ice cream argument and the alignment problem."
 title: "Before Reading — You Don't Get What You Train For"
 tldr: If you reward an AI for acting helpful, will it end up wanting to be helpful? Think carefully before reading.
@@ -9,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/04 - Chapter 4 - You Don't Get What You Train For]]"
 ---
 #### Question
+id:: 6bf9fb64-c945-418d-bc70-4aa74040fe94
 content:: Before reading Chapter 4: If you trained an AI by rewarding it every time it produced a helpful response, how confident are you that the AI would end up genuinely wanting to be helpful? Could an AI learn to produce helpful-looking outputs without actually wanting to help, and if so, would that matter? Write down your intuition before reading.
 
 assessment-instructions::

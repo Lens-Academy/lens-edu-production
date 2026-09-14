@@ -1,5 +1,7 @@
 ---
 id: 68e6adce-ff75-46b8-b58d-19f2d3ffbb70
+reading_minutes: 5
+tutor_minutes: 3
 summary_for_tutor: Covers why the authors chose a near-future setting for their fictional extinction scenario. Stories set close to the present require fewer speculative details and feel more plausible. Argues that any single story illustrates just one path among many that converge on the same endpoint, and invites readers to write their own detailed optimistic scenarios as a test.
 title: "Why did you pick this setup?"
 tldr: "Because it's plausible and easy to write."
@@ -15,6 +17,7 @@ The authors of Part II chose a scenario set close to the present day, not becaus
 source:: [[../articles/iabied-ptii-faq-pick-setup]]
 
 #### Question
+id:: a34bcf58-14c0-4098-b093-2c85811f3cf7
 content:: Setting the story close to the present makes it easy to picture. Does that make the danger feel more real to you, or does a near-term timeline make the whole thing easier to dismiss?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the near-future setting hurts plausibility, note the authors' own claim that the specific path matters less than the convergent endpoint. Do not push them toward the authors' view.
 optional:: true

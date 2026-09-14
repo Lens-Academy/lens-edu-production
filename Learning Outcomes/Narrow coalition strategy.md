@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Taking Action]]"
+topic: "[[../Domains and Topics/13 Taking Action/Advocacy and movement strategy]]"
 stage: beginner
+eval-results:
+  content-sha: 52de31b4
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is defined as reconstructing what one specific chapter says, not a source-free coalition-strategy capability.", B1: "Question makes a named chapter load-bearing scaffolding; a reader who never read it cannot parse 'the chapter's coalition strategy'."}
+  evidence: {A2: "State the chapter's coalition strategy: ... and the reason the chapter gives for keeping the coalition narrow.", B1: "Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way."}
 ---
 
 ## Test:
 id:: a5d28e63-9b47-4f05-c834-1e7a2b0d9f46
 #### Question
+id:: 3fae78ed-9f1c-4d5d-9a73-3ae2d1b5dc37
 content:: Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way. The chapter names what the coalition should ask for, what it should not bundle with that ask, and explains why keeping the coalition narrow is a strategic necessity rather than a weakness.
 
 **In your own words, what is the chapter's coalition strategy? What must the ask be limited to, what must it not include, and why does the chapter argue the coalition should stay narrow?**

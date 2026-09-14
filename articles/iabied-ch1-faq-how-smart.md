@@ -7,19 +7,25 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is one FAQ entry from the online supplement to Chapter 1 of *If Anyone Builds It, Everyone Dies* (Yudkowsky & Soares), not a standalone essay — it assumes readers are already familiar with the chapter's argument that human brains aren't near the physical limits of possible cognition. The core claim to press on with students: the "10,000x faster" estimate rests on a deliberately generous illustrative model (transistors vs. neural spikes), not a rigorous simulation result, as the footnote itself concedes.
 
 %%
-#### Very smart.
+#### Very smart. ^very-smart
 
 For every bullet in Chapter 1's list of reasons why human brains aren't near the limits of physical possibility, machines *could* get near those limits.
 
-The laws of physics permit the existence of geniuses that think tens of thousands (if not millions or billions) of times faster than humans,[\*](#ftnt18) that never need to sleep or eat, and that can make copies of themselves and trade experiences.
+The laws of physics permit the existence of geniuses that think tens of thousands (if not millions or billions) of times faster than humans,[^note-iabied-ftnt18] that never need to sleep or eat, and that can make copies of themselves and trade experiences.
 
 And that's even before we take into account improvements to the *quality* of an AI's cognition.
 
@@ -29,7 +35,7 @@ Even small intellectual advantages can translate into large practical advantages
 
 For more arguments that this level of intelligence *matters* — that it could be translated into real-world power — see Chapter 6.
 
-[\*](#ftnt18_ref) We noted in Chapter 1 that computer transistors can switch on and off billions of times each second, while even the fastest biological neurons only fire a hundred times per second. This suggests that on current hardware, even if it took a thousand transistor operations to do the work of one neural spike, AIs could still think 10,000 times faster than a human.
+[^note-iabied-ftnt18]: We noted in Chapter 1 that computer transistors can switch on and off billions of times each second, while even the fastest biological neurons only fire a hundred times per second. This suggests that on current hardware, even if it took a thousand transistor operations to do the work of one neural spike, AIs could still think 10,000 times faster than a human.
 
 To expand upon the comparison here: This comparison is not meant to be a prediction about how many transistor operations it takes to implement a full simulation of a biological neuron down to the neurotransmitter level (and definitely not down to the level of proteins or atoms). Instead, we're making a point about how quickly the abstract work of human-style thinking can in principle be done — with modern transistors used as a lower bound on one aspect of "What's physically possible?"
 

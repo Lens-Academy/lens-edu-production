@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
 stage: beginner
+eval-results:
+  content-sha: 1493b484
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: fail}
+  notes: {B1: "Question is scaffolded on a specific text — it names Chapter 5 and asks what 'the chapter' argues, so a capable reader who never read it cannot answer as posed.", C3: "Level-3 criterion embeds the anthill analogy inside the required explanation rather than offering it as one acceptable route, mirroring the DNA-analogy corpus failure."}
+  evidence: {B1: "Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. ... Why does the chapter argue that an AI does not need to be hostile toward humans in order to cause human extinction?", C3: "It is like a construction project that destroys an anthill: not out of malice but out of indifference."}
 ---
 
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
 #### Question
+id:: b97cdeb0-5619-4e8c-a8ed-fdacfcf58cfd
 content::
 A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then addresses the rebuttal that we could just "keep AI in a box" or restrict its capabilities, and explains why indifference combined with sufficient capability is all that's needed for catastrophe.
 

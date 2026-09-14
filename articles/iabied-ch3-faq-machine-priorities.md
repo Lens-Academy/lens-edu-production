@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry leans on the evolution/human-drives analogy (also used elsewhere in the book) to argue that pursuing ambitious goals tends to produce tenacious, broadly-scoped drives that outlast their original training pressure — useful to pair with the o1/capture-the-flag example when discussing instrumental convergence.
 
 %%
 
@@ -38,7 +44,7 @@ And that will naturally push the AIs to become more and more driven — an effec
 
 Recall the capture-the-flag computer security incident from the chapter, and remember that this resulted not from an AI trained to be a hacker, but from an AI trained to be good at solving generic puzzles. The "driven" behavior comes automatically*.*
 
-See also the discussion of "pure predictors" in the [Chapter 1 online resources](/1/more-on-intelligence-as-prediction-and-steering#impure-predictors).
+See also the discussion of "pure predictors" in the [Chapter 1 online resources](https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering#impure-predictors).
 
 #### Being tenacious is helpful even when the target is not quite right.
 

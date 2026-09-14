@@ -7,15 +7,24 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
 stage: beginner
 requires:
   - "[[Wanting emerges from training]]"
+eval-results:
+  content-sha: 8143dea5
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific reading — it opens by attributing the framing to Chapter 4 and asks about 'the ice cream argument' as a named artifact of that text."}
+  evidence: {B1: "Chapter 4 introduces the alignment problem by arguing that training an AI to be helpful does not reliably produce an AI that wants to be helpful."}
 ---
 
 ## Test:
 id:: 27dca5ad-1a1d-40bf-b83d-fbcbd2e9f3d0
 #### Question
+id:: 81765b69-2530-4acf-98e9-3fc63e0b7e5b
 content::
 Chapter 4 introduces the alignment problem by arguing that training an AI to be helpful does not reliably produce an AI that wants to be helpful.
 

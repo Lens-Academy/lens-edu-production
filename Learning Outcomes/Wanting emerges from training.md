@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
 stage: beginner
+eval-results:
+  content-sha: c70864ab
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on a specific text — it references Chapter 3 and demands an example drawn from that chapter, so it cannot be asked cold."}
+  evidence: {B1: "Chapter 3 argues that modern AIs will develop something like wants ... what example from the chapter most clearly illustrates this?"}
 ---
 
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae
 #### Question
+id:: 28dca508-b006-44d3-9640-8265d77b677e
 content:: Chapter 3 argues that modern AIs will develop something like wants, not because anyone designed wants into them, but as a side effect of how they are trained. In your own words, how does the chapter explain that? What's the mechanism by which training for success produces want-like behavior, and what example from the chapter most clearly illustrates this?
 
 assessment-instructions::

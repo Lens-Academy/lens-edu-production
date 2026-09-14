@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is the authors' explanation for why LLMs hallucinate, framed as an analogy to a text-prediction "roleplay" rather than a claim backed by mechanistic evidence (see footnote on internal motivations). Worth discussing alongside more recent, technical accounts of hallucination (e.g., OpenAI's research on hallucinations as a consequence of training/evaluation incentives) and whether reliability has improved since this was written in mid-2025.
 
 %%
 #### Hallucinations reveal both a limitation and a misalignment.
@@ -29,15 +35,15 @@ This hallucinatory behavior persists even if you prompt the AI to say "I don't k
 
 > Under the Graham balancing framework, courts have consistently recognized that minimal governmental interest exists in effectuating arrests for petty violations. See Carson v. Haddonfield, 115 F.3d 64 (8th Cir. 2005) (finding excessive force where officers deployed pepper spray against jaywalking suspects who offered no resistance); Walburg v. Jones, 212 F.3d 146 (2nd Cir. 2012) (holding that disorderly conduct citation insufficient to justify physical restraint techniques).
 
-This is as close as the AI can get to matching the real text. The text "I don't know the precedent" is *further from the real text* as a matter of text prediction;[\*](#ftnt62) it would be much less similar to the first paragraph of text above, even if it's more like what the user wanted.
+This is as close as the AI can get to matching the real text. The text "I don't know the precedent" is *further from the real text* as a matter of text prediction;[^note-iabied-ftnt62] it would be much less similar to the first paragraph of text above, even if it's more like what the user wanted.
 
-This is one glimpse into the difference between what AIs actually try to do (e.g., sound like a confident lawyer) versus what the users want them to do (e.g., draft a usable legal briefing). These two different purposes can overlap sometimes (e.g., when the AI is trying to sound friendly and the human wants a friendly listener), but those differences that look small now would have huge consequences if the AIs got smarter — as we'll discuss in more detail in Chapter 4.[†](#ftnt63)
+This is one glimpse into the difference between what AIs actually try to do (e.g., sound like a confident lawyer) versus what the users want them to do (e.g., draft a usable legal briefing). These two different purposes can overlap sometimes (e.g., when the AI is trying to sound friendly and the human wants a friendly listener), but those differences that look small now would have huge consequences if the AIs got smarter — as we'll discuss in more detail in Chapter 4.[^note-iabied-ftnt63]
 
 #### It's unclear how hard it will be to get rid of hallucinations, or how much this will boost capabilities.
 
 Regardless of why hallucinations show up, it's true that *in practice*, hallucinations limit the effective capabilities of LLMs. Building a moon rocket requires long chains of thinking with a very low error rate. The fact that AIs just make stuff up (and either can't always notice or don't always care) is a big hindrance to the reliability they would need in order to make major scientific and technological breakthroughs.
 
-But that sword cuts both ways. Hallucinations and other reliability issues could hold AI back for years. Or it could be that reliability issues are the last piece of the puzzle, and the moment someone has a clever idea that solves them, AIs go over some [critical threshold](/1/will-ai-cross-critical-thresholds-and-take-off). We don't know.
+But that sword cuts both ways. Hallucinations and other reliability issues could hold AI back for years. Or it could be that reliability issues are the last piece of the puzzle, and the moment someone has a clever idea that solves them, AIs go over some [critical threshold](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off). We don't know.
 
 We don't know whether hallucinations will be easy to solve in the current paradigm — whether someone will come up with one clever trick that makes reasoning models much more robust, or whether it will take a new idea as disruptive as the transformer architecture that gave rise to LLMs.
 
@@ -45,10 +51,10 @@ We do note, however, that fixing hallucinations would be quite lucrative. Many p
 
 It doesn't matter much to our argument either way. What matters is that more reliable AIs will be made eventually, whether by slightly tweaked versions of LLMs or by a whole new disruptive architecture.
 
-See also our discussion of how [the field is good at overcoming obstacles](/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles).
+See also our discussion of how [the field is good at overcoming obstacles](https://ifanyonebuildsit.com/1/but-arent-there-big-obstacles-to-reaching-superintelligence#the-field-is-good-at-overcoming-obstacles).
 
-[\*](#ftnt62_ref) We are not suggesting that the AI necessarily hallucinates because it is *internally motivated* to output text that's as close as possible to what a real lawyer would say. Rather, we observe that an AI trained on text prediction is reinforced much more for text paragraphs that are closer to what a real lawyer would say, and thus that the reinforcement is stronger for paragraphs with hallucinated citations than paragraphs that say "I don't know." The specific machinery inside of the AI that was shaped by those reinforcements is anyone's guess.
+[^note-iabied-ftnt62]: We are not suggesting that the AI necessarily hallucinates because it is *internally motivated* to output text that's as close as possible to what a real lawyer would say. Rather, we observe that an AI trained on text prediction is reinforced much more for text paragraphs that are closer to what a real lawyer would say, and thus that the reinforcement is stronger for paragraphs with hallucinated citations than paragraphs that say "I don't know." The specific machinery inside of the AI that was shaped by those reinforcements is anyone's guess.
 
 Perhaps the AI has a literal motivation to imitate people closely; perhaps it has sixteen motivations that happen to add up to imitation-like behavior *in this context*; or perhaps the behavior stems from internal machinery that isn't best thought of as "motivations" at all. And this is without even getting into the question of whether the AI has multiple imitation-related drives that sometimes come into conflict. Those details are all subject to speculation and debate; what seems clearer is that *somehow*, the AI ended up with this unintended behavioral disposition, as a result of being trained on text prediction.
 
-[†](#ftnt63_ref) Modern AIs aren't trained *just* on text prediction, and in theory, the other types of training could fix the hallucinations. In practice, the other sorts of training for user satisfaction don't fix hallucinations, but rather cause AIs to start flattering users [even to the point of psychosis](/4/ai-induced-psychosis), while continuing to hallucinate. (We think there's a lesson here.)
+[^note-iabied-ftnt63]: Modern AIs aren't trained *just* on text prediction, and in theory, the other types of training could fix the hallucinations. In practice, the other sorts of training for user satisfaction don't fix hallucinations, but rather cause AIs to start flattering users [even to the point of psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis), while continuing to hallucinate. (We think there's a lesson here.)

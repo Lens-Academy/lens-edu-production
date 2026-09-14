@@ -8,13 +8,22 @@ authors:
   - Chris+Claude
 tags:
   - optional
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: beginner
+eval-results:
+  content-sha: ae70fd93
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: fail}
+  notes: {A2: "capability is about what one specific book claims regarding its own story, not a concept that survives outside the text", B1: "'The Coda' and 'the story' are load-bearing scaffolding; unparseable without the reading", C3: "levels 4 and 5 hard-require memorized text/course details ('not strange enough', M4, Chapters 7-9) rather than stating an idea conveyable in any wording"}
+  evidence: {A2: "Distinguish the book's use of fiction as a form of argument from two common misreadings", B1: "The Coda steps outside the story to address a question readers often have", C3: "Notes that the story admitting it's \"not strange enough\" is part of this"}
 ---
 
 ## Test:
 id:: 0d32640e-9e23-44c8-8dea-dc1f67564986
 #### Question
+id:: 826bc7bd-990e-460f-bd0b-c63e52107e21
 content:: The Coda steps outside the story to address a question readers often have: what, exactly, is the book predicting?
 
 **The book isn't claiming the specific events of the story will occur. But it's also not saying the story is "just a thought experiment" with no predictive content. What is the precise claim it is making? And how would you respond to someone who says "but it's just sci-fi"?**
@@ -29,7 +38,7 @@ Score according to the following rubric.
 
 **4** — As above, plus articulates why fiction is a useful vehicle for this kind of argument: a story can make abstract dynamics visceral and concrete without committing to specific events. Notes that the story admitting it's "not strange enough" is part of this: the familiarity is a limitation of the medium, not a claim about realism. *Example: Adds "Fiction can make abstract dynamics feel real without claiming the specific events will occur. The authors admit the story is too familiar to be realistic. That's not a concession: it's evidence they're aware the pathway is a simplification and the outcome is the claim they actually stand behind."*
 
-**5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required M4's emotional work before it could be explained. The Coda's philosophical precision only lands because Chapters 7–9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because M4 made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
+**5** — As above, plus connects to the course's rhetorical architecture: the fiction-as-argument move required the scenario's emotional work before it could be explained. The Coda's philosophical precision only lands because the film and Chapter 9 already made the dynamics feel real. *Example: Adds "The Coda's clarification only works because the story made you feel it first. If the story had been presented as pure thought experiment from the start, the claim that 'the ending is a real prediction' would carry no weight. The fiction did its affective job; now the Coda can be honest about what kind of argument it was."*
 
 
 # Suggested Lenses:

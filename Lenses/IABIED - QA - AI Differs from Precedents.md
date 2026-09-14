@@ -1,5 +1,7 @@
 ---
 id: f9e787b3-476e-436e-9967-5428976c79e7
+reading_minutes: 5
+tutor_minutes: 3
 summary_for_tutor: "Covers why AI alignment is dramatically harder than managing nuclear technology. Lists nine specific ways superintelligent AI poses unique challenges: it is smarter than humans, self-replicates, self-improves, makes independent plans, and permits no learning from failures since the first mistake could be fatal."
 title: "Won't AI differ from all the historical precedents?"
 tldr: "Yes."
@@ -14,6 +16,7 @@ This Q&A addresses whether AI alignment differs from historical challenges like 
 source:: [[../articles/iabied-ch10-faq-historical-precedents]]
 
 #### Question
+id:: 385a04e2-6f2d-447e-a53e-a22ece3083ee
 content:: The authors list many ways AI is unlike nuclear weapons. Which difference lands hardest for you, and is there a historical precedent you find a better fit than nuclear weapons?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they offer an alternative precedent, engage with it seriously, including where the analogy breaks down. Do not push them toward the authors' view.
 optional:: true

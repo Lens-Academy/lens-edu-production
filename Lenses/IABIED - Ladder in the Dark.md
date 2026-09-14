@@ -1,5 +1,7 @@
 ---
 id: aa73a0bd-20e5-4a05-90f0-76d7d7eebe32
+reading_minutes: 15
+tutor_minutes: 15
 summary_for_tutor: "Covers the second section of Chapter 12: why the ladder-in-the-dark framing shows that uncertainty about the fatal rung doesn't protect against predictable collective disaster. Students should be able to trace the argument from individual incentives to collective outcome, name the three actor types, and connect to the CERN contrast."
 title: "Ladder in the Dark"
 tldr: "Every AI company is climbing a ladder in the dark. Nobody knows which rung is the last safe one. The chapter argues that not knowing doesn't help. It explains why."
@@ -20,6 +22,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 4bde0725-d8a3-493b-a870-eba8a8d03fcc
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Do it without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -63,6 +66,7 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 ---
 
 #### Question
+id:: 97b7d7b4-ed00-458f-ae2c-50914df63299
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
@@ -99,6 +103,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: f62ddf26-d341-4ba6-bfc8-a752b053ef80
 content::
 \## Phase 3: Learning Question
 The chapter says AI executives who acknowledge a 20% chance of killing everyone keep building anyway. Is that irrational? Use the ladder-in-the-dark framing to explain whether their behavior makes sense, and what it implies about whether individuals can solve this problem on their own.

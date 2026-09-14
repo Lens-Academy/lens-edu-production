@@ -7,13 +7,22 @@ tags:
   - learning-outcome
 authors:
   - Chris+Claude
-domain: "[[../Domains/Rationality and Epistemics]]"
+topic: "[[../Domains and Topics/15 Rationality and Epistemics/Calibrated judgment]]"
 stage: beginner
+eval-results:
+  content-sha: 6834f98a
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the assigned text ('The Introduction', 'the authors') rather than self-containing its context; named as a fail example in the B1 eval."}
+  evidence: {B1: "The Introduction introduces a framework for thinking about predictions"}
 ---
 
 ## Test:
 id:: 8d0f4d50-16ca-4008-af3a-1135d3af1b70
 #### Question
+id:: bd0b07aa-669c-441a-b3e7-41a4b98bb8ae
 content::
 The Introduction introduces a framework for thinking about predictions: some things about the future are "easy calls" and others are "hard calls."
 

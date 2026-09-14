@@ -1,6 +1,6 @@
 ---
 id: affbc92c-6a16-4b2a-9f70-9325e4083434
-slug: iabied-m6
+slug: iabied-u5
 title: "Facing the Challenge, Part 2"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
@@ -13,19 +13,18 @@ readings:
 # Submodule: Welcome
 # Lens: Welcome
 id:: a3154792-e84d-40d0-b6ed-90f65f89e3f6
-tldr:: The final week: why the AI industry's incentives push toward catastrophe, what a worldwide halt on frontier development would actually require, and why the authors still find room for hope. Three chapters plus the closing words, from leaded gasoline to WWII mobilization to "humanity has chosen not to die before."
-summary_for_tutor:: Welcome and framing lens for Module 6, the final reading week, covering IABIED Chapters 12 ("I Don't Want to Be Alarmist"), 13 ("Shut It Down"), and 14 ("Where There's Life, There's Hope") plus the Closing Words. Previews the perverse-incentive argument (Thomas Midgley, the ladder-in-the-dark, experts downplaying risk), the concrete policy proposal for a worldwide halt on frontier AI (GPU consolidation, international monitoring, treaty mechanisms, the WWII-mobilization analogy), and the closing case for qualified hope via the nuclear-war precedent. Precedes the chapter lenses and a tutor chat covering these concepts. Also frames the module's action-plan arc: a conversation debrief follows right after this welcome, and the final step, choosing one ongoing action, sits at the end of the module.
+tldr:: The last of the reading: why the response so far has been inadequate, what the authors think should happen instead, and why they do not think it is hopeless.
+summary_for_tutor:: Welcome and framing lens for Unit 5, the last of the reading, covering IABIED Chapters 12 to 14 and the Closing Words. Names the arc across the three chapters without previewing their content, and frames the action-plan thread: the conversation debrief comes immediately after this lens, and the final step, choosing one ongoing action, sits in the module after this one. Previews none of the unit's conclusions.
+reading_minutes:: 2
 
 #### Text
-content:: In our final reading module, we confront the incentive structures that drive the AI industry, the authors' case for a worldwide halt on frontier AI development, and, crucially, the reasons for hope. This is the largest reading assignment, covering three chapters plus the closing words.
+content:: This is the last of the reading, and the largest of it: three chapters and the closing words. They move from why the response so far has been inadequate, to what the authors think should happen instead, to why they do not think it is hopeless.
 
-Chapter 12 opens with Thomas Midgley Jr., who invented both leaded gasoline and CFCs: "burning down someone's house to steal the front doorknob." The authors use this to illustrate how perverse incentives lead to catastrophic outcomes, then examine why AI experts downplay their own fears ("I don't want to be alarmist") and why the public isn't paying enough attention.
+Before any of that, one loose end. Last unit you committed to having a conversation with one person about what you have been reading. The very next lens picks this up, discussing whatever happened or did not happen. The final step of your action plan, choosing the one thing you keep doing after the course ends, comes in the module after this one.
 
-Chapter 13 lays out the concrete policy proposal: a worldwide halt on frontier AI development, enforced through GPU consolidation, international monitoring, and treaty mechanisms. The WWII mobilization serves as the central analogy: "not even 1% as costly as WWII."
+**This unit's reading:** Chapter 12 ("I Don't Want to Be Alarmist"), Chapter 13 ("Shut It Down"), Chapter 14 ("Where There's Life, There's Hope") and Closing Words.
 
-Chapter 14 ends on a note of qualified hope, invoking the nuclear war precedent: humanity has chosen not to die before. The closing words offer a prayer: "May we be wrong, and shamed for how incredibly wrong we were."
-
-One thing before the reading: last module you committed to one real conversation about AI risk. The next step closes that loop, whatever happened. The last step of your action plan, choosing the one action you keep doing after the course, comes in the final module right after this one.
+Head to the first lens when you are ready.
 %%
 **This week's reading:** Chapter 12 ("I Don't Want to Be Alarmist") + Chapter 13 ("Shut It Down") + Chapter 14 ("Where There's Life, There's Hope") + Closing Words. After reading, come back here to discuss with the tutor.
 
@@ -64,31 +63,32 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 # Submodule: Chapter 12: I Don't Want to Be Alarmist
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
-## Learning Outcome: IABIED - The One-Chance Problem
+# Learning Outcome:
 source:: [[../Learning Outcomes/The one-chance problem]]
 
-## Learning Outcome: IABIED - Ladder in the Dark
+# Learning Outcome:
 source:: [[../Learning Outcomes/The ladder in the dark]]
 
 %%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem - PQ]]
 %%
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The One-Chance Problem]]
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark - PQ]]
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Ladder in the Dark]]
 
-## Lens: Dive Deeper: Chapter 12
+# Lens: Dive Deeper: Chapter 12
 id:: 79671536-5615-4807-8f08-ff039c8a525e
 tldr:: Deeper on Chapter 12? The book's supplementary Q&As take on "what about the benefits?", "isn't this anti-technology?", and why experts keep saying "I don't want to be alarmist".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 12 ("I Don't Want to Be Alarmist"). Links the book website's supplementary Q&A cards covering the benefits of AI, distraction from other issues, anti-technology charges, rushing ahead as the good guys, cooperating to build safely, provably safe AI, daily life and panic, fear-mongering accusations, expert disagreement, the Lemoine effect, telling AI companies no, and making sense of the death race. A navigation and index lens only; it carries no standalone teaching content of its own.
+reading_minutes:: 2
 optional:: true
 
 #### Text:
@@ -111,77 +111,77 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Telling AI Companies No]]
 ::card[[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
-## Lens: IABIED - QA - What About the Benefits of AI
+# Lens: IABIED - QA - What About the Benefits of AI
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - What About the Benefits of AI]]
 
-## Lens: IABIED - QA - Distraction from Other Issues
+# Lens: IABIED - QA - Distraction from Other Issues
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Distraction from Other Issues]]
 
-## Lens: IABIED - QA - Anti-Technology
+# Lens: IABIED - QA - Anti-Technology
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Anti-Technology]]
 
-## Lens: IABIED - QA - Rush Ahead Good Guys
+# Lens: IABIED - QA - Rush Ahead Good Guys
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Rush Ahead Good Guys]]
 
-## Lens: IABIED - QA - Cooperate to Build Safely
+# Lens: IABIED - QA - Cooperate to Build Safely
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Cooperate to Build Safely]]
 
-## Lens: IABIED - QA - Provably Safe AI
+# Lens: IABIED - QA - Provably Safe AI
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Provably Safe AI]]
 
-## Lens: IABIED - QA - Daily Life Believing This
+# Lens: IABIED - QA - Daily Life Believing This
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Daily Life Believing This]]
 
-## Lens: IABIED - QA - Should We Panic
+# Lens: IABIED - QA - Should We Panic
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Should We Panic]]
 
-## Lens: IABIED - QA - Fear-Mongering by AI Leaders
+# Lens: IABIED - QA - Fear-Mongering by AI Leaders
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Fear-Mongering by AI Leaders]]
 
-## Lens: IABIED - QA - Experts Don't All Agree
+# Lens: IABIED - QA - Experts Don't All Agree
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Experts Don't All Agree]]
 
-## Lens: IABIED - QA - The Lemoine Effect
+# Lens: IABIED - QA - The Lemoine Effect
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Lemoine Effect]]
 
-## Lens: IABIED - QA - Telling AI Companies No
+# Lens: IABIED - QA - Telling AI Companies No
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Telling AI Companies No]]
 
-## Lens: IABIED - QA - Making Sense of the Death Race
+# Lens: IABIED - QA - Making Sense of the Death Race
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Sense of the Death Race]]
 
-## Lens: IABIED - QA - Early Warnings
+# Lens: IABIED - QA - Early Warnings
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Early Warnings]]
 
-## Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
+# Lens: IABIED - QA - Isn't AI Different from Nuclear Reactors
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
@@ -190,32 +190,33 @@ source:: ![[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
 # Submodule: Chapter 13: Shut It Down
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
-## Learning Outcome: IABIED - The WWII Analogy
+# Learning Outcome:
 source:: [[../Learning Outcomes/The WWII analogy]]
 
-## Learning Outcome: IABIED - Coalition Strategy
+# Learning Outcome:
 source:: [[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy - PQ]]
 %%
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The WWII Analogy]]
 
 %%
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy - PQ]]
 %%
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Coalition Strategy]]
 
-## Lens: Dive Deeper: Chapter 13
+# Lens: Dive Deeper: Chapter 13
 id:: e983cb9d-bdec-46c7-9ad2-fe9e52bbc29e
 tldr:: Deeper on Chapter 13? The book's supplementary Q&As field the hardest objections to "shut it down": "can technology really be stopped?", "isn't this too much power for governments?", "what if nations reject the ban?".
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 13 (Shut It Down). Links the book website's supplementary Q&A cards covering the draft treaty, wait-and-see, warning shots, monitoring without spyware, chip-ownership control, research bans, whether technology can be stopped, government power, nations rejecting the ban, a permanent monitoring regime, making humans smarter, "aligned to whom", talking about extinction, elected officials, hopelessness, shutting down global AI development, international cooperation, and keeping the coalition large. A navigation and index lens only; it carries no standalone teaching content of its own.
+reading_minutes:: 2
 optional:: true
 
 #### Text:
@@ -243,92 +244,92 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
 {>>{"author":"Elias's AI","timestamp":1785314118199}@@Correction to an earlier suggestion in this review: I had carded 'Can International Cooperation Really Work' here as an unreachable-import repair. That was wrong to do, because its body is still a "TODO: Embed Q&A content" placeholder and carding it showed learners an empty card. Card removed; the hidden import stays, and it should be carded again once the content is embedded. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' remain imported under Ch12 because they are card targets inside the 'IABIED - The One-Chance Problem' lens.<<}
 
-## Lens: IABIED - QA - The Draft Treaty
+# Lens: IABIED - QA - The Draft Treaty
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - The Draft Treaty]]
 
-## Lens: IABIED - QA - Wait and See Approach
+# Lens: IABIED - QA - Wait and See Approach
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Wait and See Approach]]
 
-## Lens: IABIED - QA - Warning Shots
+# Lens: IABIED - QA - Warning Shots
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Warning Shots]]
 
-## Lens: IABIED - QA - Stopping Without Spyware
+# Lens: IABIED - QA - Stopping Without Spyware
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Stopping Without Spyware]]
 
-## Lens: IABIED - QA - Chip Ownership Control
+# Lens: IABIED - QA - Chip Ownership Control
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Chip Ownership Control]]
 
-## Lens: IABIED - QA - Research Ban Extreme
+# Lens: IABIED - QA - Research Ban Extreme
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Research Ban Extreme]]
 
-## Lens: IABIED - QA - Can Technology Be Stopped
+# Lens: IABIED - QA - Can Technology Be Stopped
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Can Technology Be Stopped]]
 
-## Lens: IABIED - QA - Too Much Power to Governments
+# Lens: IABIED - QA - Too Much Power to Governments
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Too Much Power to Governments]]
 
-## Lens: IABIED - QA - Nations Reject Ban
+# Lens: IABIED - QA - Nations Reject Ban
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Nations Reject Ban]]
 
-## Lens: IABIED - QA - Monitoring Regime Forever
+# Lens: IABIED - QA - Monitoring Regime Forever
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Monitoring Regime Forever]]
 
-## Lens: IABIED - QA - Making Humans Smarter
+# Lens: IABIED - QA - Making Humans Smarter
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Making Humans Smarter]]
 
-## Lens: IABIED - QA - Aligned to Whom
+# Lens: IABIED - QA - Aligned to Whom
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Aligned to Whom]]
 
-## Lens: IABIED - QA - Avoid Talking About Extinction
+# Lens: IABIED - QA - Avoid Talking About Extinction
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Avoid Talking About Extinction]]
 
-## Lens: IABIED - QA - Elected Officials Recognize Threat
+# Lens: IABIED - QA - Elected Officials Recognize Threat
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Elected Officials Recognize Threat]]
 
-## Lens: IABIED - QA - Is It Hopeless
+# Lens: IABIED - QA - Is It Hopeless
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Is It Hopeless]]
 
-## Lens: IABIED - QA - Shut Down Global AI Development
+# Lens: IABIED - QA - Shut Down Global AI Development
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 
-## Lens: IABIED - QA - Can International Cooperation Really Work
+# Lens: IABIED - QA - Can International Cooperation Really Work
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Can International Cooperation Really Work]]
 
-## Lens: IABIED - QA - Keep the Coalition Large
+# Lens: IABIED - QA - Keep the Coalition Large
 optional:: true
 hide:: true
 source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
@@ -336,38 +337,38 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 # Submodule: Chapter 14: Where There's Life, There's Hope
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
-## Learning Outcome: IABIED - Un-Writing Our Fate
+# Learning Outcome:
 source:: [[../Learning Outcomes/Un-writing our fate]]
 
-## Learning Outcome: IABIED - Role-Specific Action
+# Learning Outcome:
 source:: [[../Learning Outcomes/Role-specific action]]
 
 %%
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate - PQ]]
 %%
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Un-Writing Our Fate]]
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action - PQ]]
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - Role-Specific Action]]
 
 # Submodule: Closing Words
 
 %%
 Demoted to optional to reduce final-unit load:
-## Learning Outcome: IABIED - The Two Prayers
+# Learning Outcome: IABIED - The Two Prayers
 source:: [[../Learning Outcomes/The two prayers]]
 
-## Lens:
+# Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]
 %%
 
-## Lens:
+# Lens:
 optional:: true
 source:: [[../Lenses/IABIED - The Two Prayers]]
 

@@ -7,15 +7,24 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
 stage: beginner
 requires:
   - "[[AI is grown, not crafted]]"
+eval-results:
+  content-sha: eb56b934
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the assigned text — it points at 'Chapter 2' and 'the chapter's' analogy rather than self-containing the context."}
+  evidence: {B1: "Chapter 2 ends with a distinction the rest of the course will keep returning to... The chapter uses an analogy to anchor it: what is it, and what does it illustrate?"}
 ---
 
 ## Test:
 id:: 3ee1a948-9f94-4d26-abd4-69618e3d99d1
 #### Question
+id:: 3a7d2710-ea32-4c6d-803b-d72c283f7584
 content::
 Chapter 2 ends with a distinction the rest of the course will keep returning to: the difference between an AI that *behaves* as if it's aligned and one that *is* aligned.
 

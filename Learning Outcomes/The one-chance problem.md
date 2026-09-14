@@ -5,13 +5,22 @@ reading-from: "beginning of chapter"
 reading-to: "With ASI, there is no second time."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/One chance to get it right]]"
 stage: beginner
+eval-results:
+  content-sha: f0502c15
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is bound to what Chapter 12 says and treats as decisive, not to a source-independent concept.", B1: "Question makes the chapter load-bearing scaffolding rather than self-containing its context."}
+  evidence: {A2: "as Chapter 12 deploys them", B1: "Chapter 12 opens by asking why smart, well-meaning people build things that could destroy the world."}
 ---
 
 ## Test:
 id:: 7f627b30-5641-48ef-901d-e710813fb828
 #### Question
+id:: 4fc0ef19-14a5-44cd-96e0-e8d3c6a99f38
 content:: Chapter 12 opens by asking why smart, well-meaning people build things that could destroy the world. To make the denial pattern concrete, it draws on two historical disasters: the Chernobyl meltdown and the Titanic sinking. Even when the warning signs are present, both cases show how humans fail to believe that unthinkable disasters can actually happen. The chapter then makes a pivot: it argues these analogies hold only up to a point, because there is one critical way in which an ASI failure differs from both of them.
 
 **What does each case (Chernobyl and Titanic) contribute to Chapter 12's argument that humans struggle to believe in unthinkable disasters? And what is the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive?**

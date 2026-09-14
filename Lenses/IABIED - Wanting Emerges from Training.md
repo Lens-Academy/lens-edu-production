@@ -1,5 +1,7 @@
 ---
 id: 7d9f4b2c-1e8a-4f52-b673-f8a4b0c25e36
+reading_minutes: 25
+tutor_minutes: 15
 summary_for_tutor: Main Lens for Chapter 3. Students articulate how training for success produces want-like behavior as a side effect, the behavioral definition of wanting, the city-navigation and o1 examples, and the structural gap the chapter closes on.
 title: Wanting Emerges from Training
 tldr: Nobody programmed Stockfish to want to win. And yet it does. Chapter 3 explains how wanting sneaks in through the back door of training.
@@ -18,6 +20,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: dc191b46-db74-4752-bcbf-2694c4537638
 content::
 \## Phase 1: Recall
 Without looking back at the text, take 2 minutes to write down everything you can remember from the reading. Anything and everything, no need to organize it. Speech-to-text works well here.
@@ -60,6 +63,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 88409a21-9a86-4f72-8221-5ef82a15fb7b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
@@ -94,6 +98,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: 6609d141-f0ac-4a9a-b482-cfd5c91a4414
 content::
 \## Phase 3: Learning Question
 A friend says: "An AI only 'wants' something if its programmers wrote that goal into it. Nobody coded a goal into a system that just learned from examples. So a trained AI doesn't really want anything. And since the machine has no feelings, calling it 'wanting' would just be a loose metaphor anyway." Using Chapter 3, where does this reasoning break down? Be precise about what you do and don't have to claim about the AI's inner life.

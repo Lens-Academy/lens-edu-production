@@ -1,5 +1,7 @@
 ---
 id: 54290b6a-9a17-4399-9003-90352321739e
+reading_minutes: 10
+tutor_minutes: 15
 summary_for_tutor: "Teaches the closing position of Chapter 10, 'NOBODY SHOULD BE ALLOWED TO TRY,' as a logical conclusion from the cumulative weight of the five curses, distinguished sharply from despair. This is the load-bearing emotional-register calibration of M5: students who read the closing as despair miss the arc and arrive at M6 unprepared for the agency pivot. Students should end this Lens able to articulate the despair / position-statement distinction in their own words and identify what *kind* of action a position-statement of this form points toward."
 title: "Position Not Despair"
 tldr: "Chapter 10 closes with 'NOBODY SHOULD BE ALLOWED TO TRY.' This is a logical conclusion, not fatalism, and the difference matters."
@@ -20,6 +22,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: ec1fe6e0-dafe-4f52-9189-5c3bc8ec1a38
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -63,6 +66,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 485aa616-abc5-420c-a437-fcca2684769f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
@@ -70,6 +74,7 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
 
 #### Question
+id:: 9b3f6fbe-ffa9-48f7-a64a-7435465714ff
 content::
 \## Phase 3: Learning Question
 A friend reads the last line of the chapter and says: "'NOBODY SHOULD BE ALLOWED TO TRY' is just fatalism with extra steps. Either you think we're doomed (in which case calling for a ban is theater) or you don't, in which case relax. Same anti-progress reflex people had about electricity, vaccines, every new technology." Your friend has folded the closing line into despair on one side and luddism on the other. Is either fold correct? Point to what the chapter's line is actually doing that neither reading captures.

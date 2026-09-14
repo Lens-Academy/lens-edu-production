@@ -1,5 +1,7 @@
 ---
 id: 91c8d723-f4b6-4e29-a015-7b3a0e8c2d54
+reading_minutes: 15
+tutor_minutes: 15
 summary_for_tutor: "Teaches the WWII analogy and its response to the political-impossibility objection from Chapter 13, section 1. Students read the chapter's treaty proposal and WWII parable, then articulate how the analogy converts 'politically impossible' into a claim about human motivation, then answers that claim with historical precedent."
 title: "The WWII Analogy"
 tldr: "The political-impossibility objection says world powers will never coordinate to restrict AI. Chapter 13 answers with WWII: they mobilized $6 trillion and 60–80 million personnel. Impossibility is really a claim about motivation, and motivation has a track record."
@@ -19,6 +21,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 0dd68cbc-c7b2-4fd6-8fee-c635a029de1d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -59,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 5daa8d6e-ce91-4bf5-a87f-9b122e2233f0
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -95,6 +99,7 @@ What not to do:
 - Start resolving the learning outcome question — that is Phase 3's job.
 
 #### Question
+id:: d91e1c93-fed5-432a-ad9a-f0b4f88ecf15
 content::
 \## Phase 3: Learning Question
 Suppose someone tells you: "A global treaty to restrict AI development is politically unrealistic — no major power has ever coordinated to stop its own scientific and military development." Using only what you just read in Chapter 13, how would you respond? Walk through the argument the chapter makes: what does it point to, what specific claim does it make about human motivation, and how does that convert the "politically impossible" objection into something that can be answered?

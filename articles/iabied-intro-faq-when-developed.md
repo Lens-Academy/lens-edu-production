@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry from Yudkowsky and Soares's companion site to *If Anyone Builds It, Everyone Dies* argues that forecasting *when* transformative AI arrives is inherently unreliable, using historical analogies (Szilard, the Wright brothers) and recent forecaster track records (Metaculus, superforecasters). Useful for discussing epistemic humility about timelines versus confidence about risk severity — note the argument is explicitly about timing uncertainty, not about whether the risk itself is real.
 
 %%
 
@@ -20,7 +26,7 @@ Add discussion note here:
 
 Many of the things people ask us to try to predict for them, we in fact have no way of knowing. When Leo Szilard wrote a letter warning the USA about nuclear weaponry in 1939, he did not and could not include any note along the lines of, "The first atomic weapon will be ready to detonate for testing in six years."
 
-This would have been very valuable information! But even when you are the first person to correctly predict nuclear chain reactions, as Szilard was — even when you're the very first one to see that a technology is possibleand will be consequential —you cannot predict exactly when that technology will arrive.
+This would have been very valuable information! But even when you are the first person to correctly predict nuclear chain reactions, as Szilard was — even when you're the very first one to see that a technology is possible and will be consequential — you cannot predict exactly when that technology will arrive.
 
 There are easy calls and hard calls. We do not pretend to be able to make hard calls, such as exactly when the dangerous sort of AI will be produced.
 
@@ -38,9 +44,9 @@ See Chapter 1 for more discussion of ways that AI capabilities could cascade wit
 
 #### Be suspicious of media claims about what can and can't happen soon. (It may have already happened!)
 
-Two years after Wilbur Wright's [dejected prediction](https://www.wright-brothers.org/History_Wing/Wright_Story/Inventing_the_Airplane/Not_Within_A_Thousand_Years/Not_Within_A_Thousand_Years.htm)that powered flight would take a thousand years, the *New York Times* confidently asserted it would take a million. Two months and eight days later, the Wright brothers flew.
+Two years after Wilbur Wright's [dejected prediction](https://www.wright-brothers.org/History_Wing/Wright_Story/Inventing_the_Airplane/Not_Within_A_Thousand_Years/Not_Within_A_Thousand_Years.htm) that powered flight would take a thousand years, the *New York Times* confidently asserted it would take a million. Two months and eight days later, the Wright brothers flew.
 
-Today, skeptics continue to make over-the-top claims that AI could never possibly rival humans in some specific capability, even as recent progress with machine learning shows AIs matching (or exceeding) human performance on a growing list of benchmarks. It has been known since at least late 2024, for example, that modern AIs can often identify sarcasm and irony from [text](https://www.yomu.ai/resources/can-ai-essay-writers-understand-satire-irony-or-sarcasm-in-essays#) and even [nonverbal cues](https://dl.acm.org/doi/10.1145/3678957.3685723). But this didn't stop the *New York Times* from [repeating](https://www.nytimes.com/2025/05/16/technology/what-is-agi.html) the claim in May 2025 that "scientists have no hard evidence that today's technologies are capable of performing even some of the simpler things the brain can do, like recognizing irony."[\*](#ftnt4)
+Today, skeptics continue to make over-the-top claims that AI could never possibly rival humans in some specific capability, even as recent progress with machine learning shows AIs matching (or exceeding) human performance on a growing list of benchmarks. It has been known since at least late 2024, for example, that modern AIs can often identify sarcasm and irony from [text](https://www.yomu.ai/resources/can-ai-essay-writers-understand-satire-irony-or-sarcasm-in-essays#) and even [nonverbal cues](https://dl.acm.org/doi/10.1145/3678957.3685723). But this didn't stop the *New York Times* from [repeating](https://www.nytimes.com/2025/05/16/technology/what-is-agi.html) the claim in May 2025 that "scientists have no hard evidence that today's technologies are capable of performing even some of the simpler things the brain can do, like recognizing irony."[^note-iabied-ftnt4]
 
 All of which is to say: Many will claim to have knowledge that smarter-than-human AI is imminent, or that it's incalculably far off in the future. But the uncomfortable reality is that nobody knows right now.
 
@@ -48,7 +54,7 @@ Worse, there's a strong chance that nobody *will ever* know until after it's too
 
 Timing the next technological breakthrough is incredibly difficult. We know that smarter-than-human AI is lethally dangerous, but if we also need to know what day of the week it's coming on, then we're out of luck. We need to be able to act from a position of uncertainty, or we won't act at all.
 
-[\*](#ftnt4_ref) Yes, AIs can even [recognize the irony](https://perma.cc/EP4R-K85G) of the *New York Times* reporting that they can't recognize irony. (To be fair to the *New York Times*, some of their reporters cover AI with somewhat [greater clarity](https://www.nytimes.com/2025/03/14/technology/why-im-feeling-the-agi.html).)
+[^note-iabied-ftnt4]: Yes, AIs can even [recognize the irony](https://perma.cc/EP4R-K85G) of the *New York Times* reporting that they can't recognize irony. (To be fair to the *New York Times*, some of their reporters cover AI with somewhat [greater clarity](https://www.nytimes.com/2025/03/14/technology/why-im-feeling-the-agi.html).)
 
 #### Notes
 

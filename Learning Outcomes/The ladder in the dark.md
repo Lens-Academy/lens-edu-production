@@ -5,13 +5,22 @@ reading-from: "An AI company executive who says there's only a one-in-five chanc
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: beginner
+eval-results:
+  content-sha: 0416884d
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: fail, C3: fail}
+  notes: {A2: "Statement is bound to a specific text: it asks the learner to reconstruct what the chapter argues, matching the 'State Chapter 11's central diagnosis as the chapter frames it' fail pattern.", B1: "Question is scaffolded on the assigned text — it names Chapter 12 and asks the learner to trace that chapter's argument, so a capable non-reader cannot answer as posed.", C2: "Pass level 3 hard-requires naming the chapter's three specific actor categories, which the question never asks for or implies.", C3: "Level 3 requires a memorized taxonomy verbatim ('the three types of actors...') rather than stating the idea in any wording; level 5 likewise hard-requires the specific CERN example with no 'or equivalent' allowance."}
+  evidence: {A2: "trace the chapter's argument that if climbing cannot be stopped while uncertainty remains", B1: "Chapter 12 closes with a striking image: every competing AI company is climbing a ladder in the dark.", C2: "the three types of actors (researchers/companies, corporate executives, world leaders) each have incentives to keep climbing", C3: "connects to the CERN comparison the chapter uses to close"}
 ---
 
 ## Test:
 id:: 38dc6bd8-b793-448e-a44a-89d3cd4c6a03
 #### Question
+id:: 8cb60110-0a9e-46c1-bf92-29af1920ea39
 content:: Chapter 12 closes with a striking image: every competing AI company is climbing a ladder in the dark. Nobody knows which rung will be the last safe one: the point at which an AI system crosses into unrecoverable territory. You might expect this uncertainty to provide protection: if no one knows where the lethal rung is, perhaps caution will prevail. Chapter 12 argues the opposite. 
 
 **Using the ladder-in-the-dark framing, explain why uncertainty about the fatal rung does not protect against predictable disaster. Trace the chapter's argument that if climbing cannot be stopped, death is a predictable collective outcome, even though no one can identify which rung is lethal in advance.**

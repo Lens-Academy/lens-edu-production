@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Artificial Intelligence]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/What intelligence is]]"
 stage: beginner
+eval-results:
+  content-sha: 2fd083f6
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question requires the chapter as scaffolding; not parseable by someone who never read it."}
+  evidence: {B1: "Using the chapter's framework, analyze the three systems."}
 ---
 
 ## Test:
 id:: b5981716-08c0-40b1-a005-2cfbdde6d0c7
 #### Question
+id:: 8ba818e9-5340-44ff-a346-7fa476b77acb
 content::
 Two systems accurately predict that a severe storm will close a bridge. One routes delivery trucks away from it to minimize delays. The other routes rescue vehicles toward it to reach stranded people. A third system is exceptionally good at this routing task but cannot reason outside transportation.
 

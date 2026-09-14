@@ -7,13 +7,22 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
 stage: beginner
+eval-results:
+  content-sha: 5f60e93d
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement is explicitly bound to a specific text's framing rather than the source-free underlying capability.", B1: "Question uses chapter references as framing scaffolding, so it cannot be asked at a random moment to a non-reader."}
+  evidence: {A2: "Define the Aztec warrior analogy as Chapter 6 states it", B1: "Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach."}
 ---
 
 ## Test:
 id:: c9306c64-d15c-49d9-ab19-ecf8f946cd14
 #### Question
+id:: c2fb9c73-71e0-41ab-b7c9-925fff31f951
 content::
 Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach. A skeptical comrade demands to know *exactly* how the people on board could possibly defeat them. He cannot imagine the answer. The chapter uses this to make a point about how we should reason about a superintelligence: not by demanding a step-by-step mechanism of defeat, but by reading the capability gap itself.
 

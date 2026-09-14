@@ -5,13 +5,22 @@ reading-from: "beginning of chapter"
 reading-to: "…as was also true about World War II. But we don't know how else humanity could survive."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/International coordination]]"
 stage: beginner
+eval-results:
+  content-sha: 734b92a1
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: fail, C3: fail}
+  notes: {A2: "Capability is defined as reconstructing what a specific chapter argues, not a source-free capability.", B1: "Question is scaffolded on a named chapter and asks what 'the chapter' does, so it cannot be posed to someone who never read it.", C2: "Pass level (3) requires quantitative figures the question never asks for; it asks only for the 'specific feature' invoked.", C3: "Level-3 criterion hard-requires memorized quantitative details rather than stating the idea that must be conveyed in any wording."}
+  evidence: {A2: "Explain how the chapter's WWII analogy responds to the objection", B1: "Chapter 13 opens with a parable about the Allied Powers in World War II", C2: "approximately $6 trillion and 60–80 million personnel", C3: "extraordinary scale and cost: approximately $6 trillion and 60–80 million personnel"}
 ---
 
 ## Test:
 id:: f9c4b820-5a71-4d83-9e12-7b3f0c5d8a91
 #### Question
+id:: 6cd27693-bd59-41dd-a46b-ce1b29efb50a
 content:: Chapter 13 opens with a parable about the Allied Powers in World War II: military drafts, food rationing, soldiers sent to die, enormous expense, all to prevent totalitarianism from conquering the world. The chapter then addresses those who believe international coordination on AI restriction is politically impossible. The WWII story is the chapter's direct answer to that objection.
 
 **In your own words, how does the chapter use the WWII analogy to respond to the claim that coordinating major powers on AI restriction is politically impossible? What specific feature of WWII does it invoke, and what does it assume about what people are capable of?**

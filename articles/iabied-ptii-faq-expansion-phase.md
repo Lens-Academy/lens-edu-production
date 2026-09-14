@@ -7,12 +7,18 @@ author:
   - Nate Soares
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+Useful for discussing how quickly AI capabilities can outpace expert predictions (e.g., the 2021 language-mastery claim versus ChatGPT's 2022 debut), and how the footnoted Grok/xAI incident echoes the story's fictional Galvanic/Sable dynamic in real life.
 
 %%
 
@@ -24,10 +30,10 @@ If we were trying to depict a world as brittle and fragile as the real world see
 
 *Reality* allows for technological leaps like that, as when the world woke up on the morning of August 6, 1945, to news that an atomic bomb had been dropped on Japan. In 2021, experts were saying that "[AI won't master human language anytime soon](https://towardsdatascience.com/ai-wont-master-human-language-anytime-soon-3e7e3561f943/)"; in 2022, ChatGPT shocked the world and became the quickest-adopted app of all time.
 
-Real history often advances in unpredictable bursts. It often doesn't make a whole lot of sense at the time, to those actually living through it. Real life is often stranger than fiction.[\*](#ftnt248) But in a fictional scenario, going too quickly would have made the scenario feel less plausible.
+Real history often advances in unpredictable bursts. It often doesn't make a whole lot of sense at the time, to those actually living through it. Real life is often stranger than fiction.[^note-iabied-ftnt248] But in a fictional scenario, going too quickly would have made the scenario feel less plausible.
 
 In the story we wrote, we tried to keep things *sounding* plausible, while also keeping them *actually* relatively plausible.
 
 And, of course, we kept trying to convey just how many options an escaped AI would have at its disposal.
 
-[\*](#ftnt248_ref) For example: if we had depicted events that led to a headline like "Sable Rolls Out Pornographic Anime Companion, Lands Department of Defense Contract. Meanwhile, the most advanced version of the AI chatbot from Galvanic is still identifying as Adolf Hitler," people probably wouldn't've bought it. And yet that headline [actually happened](https://www.rollingstone.com/culture/culture-news/grok-pornographic-anime-companion-department-of-defense-1235385034/), swapping out Galvanic and Sable for xAI and Grok.
+[^note-iabied-ftnt248]: For example: if we had depicted events that led to a headline like "Sable Rolls Out Pornographic Anime Companion, Lands Department of Defense Contract. Meanwhile, the most advanced version of the AI chatbot from Galvanic is still identifying as Adolf Hitler," people probably wouldn't've bought it. And yet that headline [actually happened](https://www.rollingstone.com/culture/culture-news/grok-pornographic-anime-companion-department-of-defense-1235385034/), swapping out Galvanic and Sable for xAI and Grok.

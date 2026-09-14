@@ -7,13 +7,22 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Alignment]]"
+topic: "[[../Domains and Topics/3 Alignment/Why alignment is hard]]"
 stage: beginner
+eval-results:
+  content-sha: fc29cbf0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement is bound to a specific text's framing rather than a source-free capability; named as a corpus fail example in the A2 eval.", B1: "Question is scaffolded on the assigned chapter — it names Chapter 11 and its opening allegory, so it cannot be posed to someone who never read that text."}
+  evidence: {A2: "State Chapter 11's central diagnosis as the chapter frames it", B1: "Chapter 11 opens with an allegory about a young alchemist"}
 ---
 
 ## Test: 
 id:: 311a34f9-b4d2-46b8-813a-3b51869fe6c3
 #### Question
+id:: 694d05ca-a88c-4ae9-9012-15594bedb758
 content:: Chapter 11 opens with an allegory about a young alchemist who claims to be "close" to transmuting lead into gold despite having no understanding of why his recipes produce the results they do. The chapter then applies this framing to current AI alignment efforts, drawing on public statements from Elon Musk (xAI) and Yann LeCun (Meta). The authors call this the "alchemy stage" of a science.
 
 **In your own words, what is Chapter 11's "alchemy stage" diagnosis of the AI alignment field? What specifically does the chapter claim is missing from the field's current state, and why does it matter that it is missing?**

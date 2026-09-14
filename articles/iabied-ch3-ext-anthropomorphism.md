@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -34,7 +40,7 @@ The flaw in this claim is that it's invalid to assume without further argument t
 
 Or consider the scenario: "AIs will blindly continue in whatever task they are given until their work wipes out humanity as a side effect, never knowing that humanity would have wanted something different."
 
-Here, the error is mechanomorphic. It takes for granted that a "mere machine" would do things "blindly" and unreflectively, without sensitivity to the consequences — like a runaway lawn mower. This is again a case where the argument is invalid, even if the conclusion ("AI is likely to wipe out humanity") is correct. If the AI is sufficiently skilled at predicting the world, it'll know exactly what its operators meant when they gave the AI some task. We're worried that ASI won't *care* what we want, not that it won't*know.*
+Here, the error is mechanomorphic. It takes for granted that a "mere machine" would do things "blindly" and unreflectively, without sensitivity to the consequences — like a runaway lawn mower. This is again a case where the argument is invalid, even if the conclusion ("AI is likely to wipe out humanity") is correct. If the AI is sufficiently skilled at predicting the world, it'll know exactly what its operators meant when they gave the AI some task. We're worried that ASI won't *care* what we want, not that it won't *know.*
 
 Or, combining both fallacies: One of the premises of *The Matrix* is that machines will regard human illogic and emotionality with *disgust*.
 
@@ -120,9 +126,9 @@ Deep Blue did not have a neural network that had learned an intuitive sense of t
 
 Kasparov seems to have expected this to look like Deep Blue only playing "logical" moves, not "intuitive" ones. But by the time Deep Blue was examining those two billion positions per second, the long-term strategic consequences and the meaning of a loose pawn formation were showing up in its choice of current moves *anyway.*
 
-In one sense, Deep Blue lacked just the gear that Kasparov thought it lacked.[\*](#ftnt86) But that did not prevent it from finding moves that struck Kasparov as wonderful, and it did not prevent Deep Blue from winning.
+In one sense, Deep Blue lacked just the gear that Kasparov thought it lacked.[^note-iabied-ftnt86] But that did not prevent it from finding moves that struck Kasparov as wonderful, and it did not prevent Deep Blue from winning.
 
-It was not that Deep Blue was missinga part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
+It was not that Deep Blue was missing a part that real human chess players would have and therefore played defective chess; that's like expecting a robotic arm containing no blood to fail in the same way as a bloodless human arm would fail.
 
 Deep Blue was just playing Kasparov-level chess via a different kind of cognition.
 
@@ -150,15 +156,15 @@ But what else is a humanlike mind to do when faced with the problem of predictin
 
 We need to tell our own brain to *be* that brain, to act out the other person's mental state ourselves, and see what follows from it.
 
-This is why pulp magazine covers show bug-eyed alien monsters carrying off beautiful women.[†](#ftnt88)
+This is why pulp magazine covers show bug-eyed alien monsters carrying off beautiful women.[^note-iabied-ftnt88]
 
 Why *wouldn't* the bug-eyed alien monster be attracted to a beautiful woman? Aren't beautiful women just *inherently attractive?*
 
-(For some reason, those magazine covers never showed human males carrying off scantily-clad giant bugs.[‡](#ftnt89))
+(For some reason, those magazine covers never showed human males carrying off scantily-clad giant bugs.[^note-iabied-ftnt89])
 
 The writers and illustrators, we're guessing, didn't have a reasoned-out story about how insectoid aliens could have had an evolutionary history that led them to regard human women as sex objects. It was just that when they put themselves in the alien's shoes, *they* imagined seeing the woman as attractive, so it didn't strike them as *odd* to envision the alien feeling the same way. It didn't feel *absurd* for an alien to want to mate with a beautiful human woman in the way it would have felt absurd if the alien had wanted to mate with a pine tree or a bag of pasta.
 
-If you're going to try to predict an alien mind using your human intuitions, you have to be very careful to leave your human baggage behind when adopting the alien's perspective. That's doubly true when the alien is not an evolved creature but an artificial mind created by entirely different methods. We will have more to say about [the differences between gradient descent and natural selection](/4/deep-differences-between-ais-and-evolved-species#comparing-natural-selection-and-gradient-descent) after Chapter 4. And after Chapter 5, we will have more to say about [taking the AI's perspective](/5/taking-the-ais-perspective).
+If you're going to try to predict an alien mind using your human intuitions, you have to be very careful to leave your human baggage behind when adopting the alien's perspective. That's doubly true when the alien is not an evolved creature but an artificial mind created by entirely different methods. We will have more to say about [the differences between gradient descent and natural selection](https://ifanyonebuildsit.com/4/deep-differences-between-ais-and-evolved-species#comparing-natural-selection-and-gradient-descent) after Chapter 4. And after Chapter 5, we will have more to say about [taking the AI's perspective](https://ifanyonebuildsit.com/5/taking-the-ais-perspective).
 
 #### Seeing Past the Human
 
@@ -177,7 +183,7 @@ A mind like Deep Blue's can behave as though it "wants to win" without having em
 
 For more on what the AIs *will* wind up wanting, read on to Chapter 4.
 
-[\*](#ftnt86_ref) Today, we also have chess programs that work a little more like how Kasparov envisioned, blending search trees (which can be thought of as more "logical") with neural networks (more "intuitive").
+[^note-iabied-ftnt86]: Today, we also have chess programs that work a little more like how Kasparov envisioned, blending search trees (which can be thought of as more "logical") with neural networks (more "intuitive").
 
 Those new programs are, in fact, much more powerful than Deep Blue. The current top chess programs, like Stockfish, have as one component neural networks that evaluate chess positions "on sight" without looking ahead. These networks probably incorporate a similar sense to Kasparov's about loose pawn formations (although, since they are neural networks, nobody knows for sure).
 
@@ -185,9 +191,9 @@ If you subtracted this network from the modern chess machine *—* if you depriv
 
 So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
 
-[†](#ftnt88_ref) An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)*[magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
+[^note-iabied-ftnt88]: An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)* [magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
 
-[‡](#ftnt89_ref) Yes, we realize that by now, the modern internet may have pictures of brawny human men carrying off giant bugs. If those pictures don't exist already, they'll come into existence about twelve and a half seconds after this webpage goes public. But we don't think it was on any magazine covers back then.
+[^note-iabied-ftnt89]: Yes, we realize that by now, the modern internet may have pictures of brawny human men carrying off giant bugs. If those pictures don't exist already, they'll come into existence about twelve and a half seconds after this webpage goes public. But we don't think it was on any magazine covers back then.
 
 Those were simpler times.
 

@@ -7,14 +7,23 @@ authors:
   - Yatharth+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/One chance to get it right]]"
 stage: beginner
+eval-results:
+  content-sha: 9cabb69d
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is defined as reconstructing what Chapter 10 names and which case study that chapter pairs with each curse, so it depends on knowing a specific text rather than a field-canonical framework.", B1: "Question makes the chapter load-bearing scaffolding, asking what Chapter 10 identifies and which illustration the chapter uses, so a capable non-reader cannot answer as posed."}
+  evidence: {A2: "Enumerate the five engineering curses Chapter 10 names", B1: "Name the five engineering curses Chapter 10 identifies, and for each one, identify which case study (space probes, Chernobyl, or computer security) the chapter uses to illustrate it."}
 ---
 
 ## Test:
 id:: d616e493-ef55-4429-8bae-e93d6fd20b99
 
 #### Question
+id:: 55514d28-1482-41f4-ab4d-68d470fced52
 content:: Chapter 10 frames AI alignment as a "cursed problem" by drawing on three engineering domains (space probes, Chernobyl-style nuclear reactors, and computer security) to identify a small set of named "curses" that make engineering hard. The chapter argues that all of these curses apply to AI alignment, and that the curse of edge cases applies in a uniquely worse form.
 
 **Name the five engineering curses Chapter 10 identifies, and for each one, identify which case study (space probes, Chernobyl, or computer security) the chapter uses to illustrate it.**

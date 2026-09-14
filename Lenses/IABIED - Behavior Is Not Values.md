@@ -1,6 +1,8 @@
 ---
 id: d5e6f7a8-b9c0-4d12-e345-f6a7b8c9d0e1
-summary_for_tutor: "Teaches the behavior/values distinction from the second half of Chapter 2, the M1 capstone. Students first reflect on what aligned behavior tells us about internal states, then read, then articulate why producing aligned outputs doesn't mean having aligned values."
+reading_minutes: 10
+tutor_minutes: 15
+summary_for_tutor: "Teaches the behavior/values distinction from the second half of Chapter 2, the point at which the safety concern gets fully framed. Students first reflect on what aligned behavior tells us about internal states, then read, then articulate why producing aligned outputs doesn't mean having aligned values."
 title: "Behavior Is Not Values"
 tldr: An AI trained to act helpful learned what helpful behavior looks like. That's not the same as being helpful, just as an actor playing a drunk isn't drunk.
 authors:
@@ -21,6 +23,7 @@ Return here after reading.
 ---
 
 #### Question
+id:: 55a5011c-916a-4c89-bebd-ea6caf98b175
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
@@ -59,6 +62,7 @@ What not to do:
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
 #### Question
+id:: 6382de94-64fb-48d0-b2ca-07c750b88853
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
@@ -95,11 +99,12 @@ What not to do:
 - Start resolving the learning outcome question. That is Phase 3's job.
 
 #### Question
+id:: 2968ceb8-a874-49f2-9044-8430abdb819e
 content::
 \## Phase 3: Learning Question
 An AI refuses to help a user build a weapon. A developer points to this and says, "See? It's aligned." What has the developer actually observed, and what would you need to know to tell whether the refusal came from the AI's values or just from its training? Is there any test that could settle it?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is the M1 capstone — the safety concern is now fully framed.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 2 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase. This Lens is where the safety concern gets fully framed.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a concrete aligned-seeming behavior and a confident conclusion, and asks them to say what was actually observed and what evidence genuine alignment would require. Use it to draw out the learning outcome from the evidence side rather than asking them to recite the behavior/values definition or the actor analogy.
 

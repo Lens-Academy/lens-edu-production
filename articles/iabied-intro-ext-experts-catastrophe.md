@@ -7,20 +7,26 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a curated quote compilation from the authors' own book-promotion site, not a neutral survey — worth flagging to students that "p(doom)" figures are self-reported, elicited in varied contexts (interviews, podcasts, forum posts) over several years, and (per the authors' own footnote) may reflect very different underlying beliefs about whether catastrophe is avoidable. Good discussion prompt: why might selection and elicitation effects make these numbers hard to compare to one another.
 
 %%
 
 In a [2022 survey](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) of 738 attendees of the academic AI conferences NeurIPS and ICML, 48 percent of respondents thought there was at least a 10 percent chance that AI's outcome will be "extremely bad (e.g., human extinction)." Concerns about AI causing an unprecedented disaster are widespread in this field.
 
-Below, we've collected comments from prominent AI scientists and engineers on catastrophic AI outcomes. Some of these scientists give their "p(doom)" — i.e., their probability of AI causing human extinction or similarly disastrous outcomes.[\*](#ftnt9)
+Below, we've collected comments from prominent AI scientists and engineers on catastrophic AI outcomes. Some of these scientists give their "p(doom)" — i.e., their probability of AI causing human extinction or similarly disastrous outcomes.[^note-iabied-ftnt9]
 
-From **Geoffrey Hinton** ([2024](https://youtu.be/PTF5Up1hMhw?t=2285)), recipient of a Nobel Prize and a Turing Award for sparking the deep learning revolution in AI, speaking on his personal estimates:[†](#ftnt10)
+From **Geoffrey Hinton** ([2024](https://youtu.be/PTF5Up1hMhw?t=2285)), recipient of a Nobel Prize and a Turing Award for sparking the deep learning revolution in AI, speaking on his personal estimates:[^note-iabied-ftnt10]
 
 > I actually think the risk [of the existential threat] is more than 50 percent.
 
@@ -80,7 +86,7 @@ All of the above researchers signed the [Statement on AI Risk](https://aistateme
 
 Other prominent researchers who signed the statement included: ChatGPT architect John Schulman; former Google director of research Peter Norvig; Microsoft chief scientific officer Eric Horvitz; AlphaGo research lead David Silver; AutoML pioneer Frank Hutter; reinforcement learning pioneer Andrew Barto; GANs inventor Ian Goodfellow; former Baidu president Ya-Qin Zhang; public-key cryptography inventor Martin Hellman; and Vision Transformer research lead Alexey Dosovitskiy. The list goes on, with further signatories including: Dawn Song, Jascha Sohl-Dickstein, David McAllester, Chris Olah, Been Kim, Philip Torr, and hundreds of others.
 
-[\*](#ftnt9_ref) We have concerns with the practice of trying to assign a "p(doom)." Assigning a single probability — as opposed to multiple probabilities that each assume a different response society could choose — strikes us as defeatist. There's a world of difference between somebody who has high p(doom) because they think the world mostly *can't* prevent catastrophe, versus somebody who has high p(doom) because they think the world *can* prevent catastrophe but *won't*.
+[^note-iabied-ftnt9]: We have concerns with the practice of trying to assign a "p(doom)." Assigning a single probability — as opposed to multiple probabilities that each assume a different response society could choose — strikes us as defeatist. There's a world of difference between somebody who has high p(doom) because they think the world mostly *can't* prevent catastrophe, versus somebody who has high p(doom) because they think the world *can* prevent catastrophe but *won't*.
 
 If it turns out that most people have a high p(doom) for the latter reason, but everyone assumes it's for the former reason, then people's statements of high p(doom) could serve as a self-fulfilling prophecy, putting us on track for a disaster that was completely preventable.
 
@@ -88,4 +94,4 @@ We also have the impression that many people in Silicon Valley trade "p(doom)" n
 
 This isn't to say that people's p(doom) numbers are anywhere close to reality. But at the very least, you should read these numbers as experts throughout the field reporting that we're facing a genuine emergency.
 
-[†](#ftnt10_ref) Contrary to what Hinton says earlier in the video, Yudkowsky's confidence regarding the dangers is not "99.999" percent; five nines would constitute an insane degree of confidence.
+[^note-iabied-ftnt10]: Contrary to what Hinton says earlier in the video, Yudkowsky's confidence regarding the dangers is not "99.999" percent; five nines would constitute an insane degree of confidence.

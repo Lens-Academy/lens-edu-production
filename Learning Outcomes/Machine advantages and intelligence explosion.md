@@ -9,15 +9,24 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Artificial Intelligence]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/Machine advantages]]"
 stage: beginner
 requires:
   - "[[Intelligence as prediction plus steering]]"
+eval-results:
+  content-sha: 3e4b8fff
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Bundles two independently attainable capabilities — explaining machine advantages over biology, and explaining the recursive AI-improving-AI feedback loop — which could be taught, tested, and completed as separate files."}
+  evidence: {A3: "Explain why machine intelligence could surpass biological intelligence and how AI-assisted AI research could create an intelligence explosion"}
 ---
 
 ## Test:
 id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
 #### Question
+id:: 7b5fb52d-b4a5-4e3c-8ae2-28e2e9b5a48f
 content::
 A lab freezes one current AI model on today's hardware and observes that it does not improve itself. The lab concludes: "Machine intelligence will remain below humanity. This model is shallow, machines have no advantages that matter, and only human researchers can produce the next generation."
 

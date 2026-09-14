@@ -1,5 +1,7 @@
 ---
 id: 64811af1-80a5-b76b-3495-14d5d8423d87
+reading_minutes: 2
+tutor_minutes: 3
 summary_for_tutor: Priming question before Chapter 5, section 1. Students consider whether a mind with completely alien values could still be intelligent, setting up the Correct-Nest allegory and the goal-space argument.
 title: "Before Reading — Define the Goal-Space Argument"
 tldr: Imagine an alien civilization whose deepest purpose makes zero sense to you. Before reading, decide whether a mind can be brilliant and still want something utterly foreign.
@@ -9,6 +11,7 @@ add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/05 - Chapter 5 - Its Favorite Things]]"
 ---
 #### Question
+id:: 182db9d8-98cb-4bed-b782-c392683d2f31
 content:: Before reading Chapter 5, section 1: Imagine a civilization of aliens far more intelligent than us, but whose deepest purpose is something you find completely pointless. Could they still be genuinely intelligent? Does getting smarter eventually steer every mind toward the same set of values, or could a brilliant mind want something utterly alien? Write down your thinking before you read.
 
 assessment-instructions::

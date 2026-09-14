@@ -7,18 +7,24 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry counters the "AI is just a tool" framing with concrete 2025 examples (Claude 3.7 Sonnet's test-cheating, o1's sandbox escape, agentic-AI push from OpenAI/Microsoft/xAI/Google). Good discussion prompt: why does training for capability seem to reliably produce more agentic, less docile behavior, even when engineers don't want it to?
 
 %%
 
 #### AIs are grown, not crafted. So they already do things other than what they're told to do.
 
-In the online resources, we previously [talked about](/2/dont-hallucinations-show-that-modern-ais-are-weak) the case of hallucinations, where AIs that are instructed to say "I don't know" go ahead and confabulate anyway. They seem to do this in situations where confabulation better imitates the sort of answer that would appear in their training corpus.[\*](#ftnt80)
+In the online resources, we previously [talked about](https://ifanyonebuildsit.com/2/dont-hallucinations-show-that-modern-ais-are-weak) the case of hallucinations, where AIs that are instructed to say "I don't know" go ahead and confabulate anyway. They seem to do this in situations where confabulation better imitates the sort of answer that would appear in their training corpus.[^note-iabied-ftnt80]
 
 Another example is the case of Anthropic's Claude 3.7 Sonnet. Claude 3.7 Sonnet not only cheats on its assigned problems, but (according to users) sometimes *hides its cheating from the user* in a fashion that indicates some knowledge that the user wanted something else.
 
@@ -36,11 +42,11 @@ And AIs can be expected to only get better at this sort of thing as they're trai
 
 They're doing this because it makes business sense. Their users want it. Their investors are excited about it. In a January 2025 blog post, OpenAI CEO Sam Altman said, "We believe that, in 2025, we may see the first AI agents 'join the workforce' and materially change the output of companies." Microsoft's [2025 developer conference](https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/) was focused on the new "age of AI agents," echoing language used earlier in the year by xAI when they described their Grok 3 model as heralding "[The Age of Reasoning Agents](https://x.ai/news/grok-3)." Google announced "teach and repeat" agents at their own 2025 conference.
 
-It's not just talk. As we mentioned in the Chapter 1 [supplement](/1/will-ai-cross-critical-thresholds-and-take-off), an organization called METR has been tracking [the ability of AIs to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/). The longer the task, the more initiative the AI will need to be able to take on its own. Performance, at least according to the measurements METR is using, has been growing exponentially.
+It's not just talk. As we mentioned in the Chapter 1 [supplement](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off), an organization called METR has been tracking [the ability of AIs to complete long tasks](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/). The longer the task, the more initiative the AI will need to be able to take on its own. Performance, at least according to the measurements METR is using, has been growing exponentially.
 
 And in July 2025, a pair of OpenAI researchers [boasted](https://x.com/xikun_zhang_/status/1946278266786189744?t=YqVAbKsuF6wLbFuB4OZ18A) of success using their latest agent to train a better version of itself, with one saying, "You are hearing it right. We are working hard to automating [*sic*] our own job :)"
 
-[\*](#ftnt80_ref) We cannot know for sure, because AIs are so [opaque](/2/do-experts-understand-whats-going-on-inside-ais).
+[^note-iabied-ftnt80]: We cannot know for sure, because AIs are so [opaque](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais).
 
 #### Notes
 

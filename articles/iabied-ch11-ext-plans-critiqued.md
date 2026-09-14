@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### More on Making AI That Is "Truth-Seeking"
+#### More on Making AI That Is "Truth-Seeking" ^more-on-making-ai-that-is-truth-seeking
 
 In the months after we finalized the book's contents, Elon Musk's "truth-seeking" plan for xAI has already publicly misfired, and for the most basic reason we said that it would: Nobody knows how to engineer exact desires into AI.
 
@@ -29,7 +35,7 @@ The problem that distresses Elon Musk is real. Yes, leading AI companies, such a
 
 But the decision of whether to train an AI to emit corporatespeak when it's young has little bearing on what it will pursue after crossing some intelligence thresholds and snowballing into superintelligence.
 
-And even if it did, xAI would run directly into the second problem we named in the book: An artificial superintelligence that *did* care about truth above all else would be lethal, because happy, healthy, free humans [are not a particularly efficient use of resources](/5/will-ai-find-us-useful-to-keep-around#happy-healthy-free-people-arent-the-most-efficient-solution-to-almost-any-problem) when it comes to pursuing and producing truths.
+And even if it did, xAI would run directly into the second problem we named in the book: An artificial superintelligence that *did* care about truth above all else would be lethal, because happy, healthy, free humans [are not a particularly efficient use of resources](https://ifanyonebuildsit.com/5/will-ai-find-us-useful-to-keep-around#happy-healthy-free-people-arent-the-most-efficient-solution-to-almost-any-problem) when it comes to pursuing and producing truths.
 
 #### More on Making AI That Is "Submissive"
 
@@ -39,17 +45,17 @@ But even the vague outline of this plan is in tension, once again, with the fact
 
 Furthermore, LeCun is also on record (as recently as 2023) as saying that the type of AI companies produce today, where "there's no direct way to constrain the answer of such systems to satisfy certain objectives," making them "very difficult to control and steer […] is [not the type of system that we are going to give agency to](https://youtu.be/OgWaowYiBPM?si=e3TR7LF7oSKKLWqu&t=808)." He has said, as recently as 2023, that AI companies would never create a situation where we "connect them to the internet and they can do whatever they want."
 
-This has all already turned out to be false. Recall the case of "@Truth\_Terminal" from Chapter 6, which was connected to the internet, put in an auto-prompted loop, and allowed to post whatever it wanted to Twitter. Consider the "Age of Agents" so many companies are [talking about](/3/arent-ais-just-tools#the-labs-are-trying-to-make-ais-agentic) in 2025.
+This has all already turned out to be false. Recall the case of "@Truth\_Terminal" from Chapter 6, which was connected to the internet, put in an auto-prompted loop, and allowed to post whatever it wanted to Twitter. Consider the "Age of Agents" so many companies are [talking about](https://ifanyonebuildsit.com/3/arent-ais-just-tools#the-labs-are-trying-to-make-ais-agentic) in 2025.
 
 We agree with LeCun that modern AIs are very hard to steer, and that it would be crazy to try to give them agency. That's nonetheless what's happening.
 
 What happens if the current status quo continues apace, with companies putting some effort toward training their AIs to act helpful and friendly (or at least to not embarrass the company)?
 
-To date, this has resulted in a dynamic where AIs seem pretty helpful and "subservient" in the typical case, but with a regular stream of spectacular mishaps — such as Sydney as discussed in Chapter 2 and "[MechaHitler](/11/more-on-some-of-the-plans-we-critiqued-in-the-book#more-on-making-ai-that-is-truth-seeking)"; plus an ocean of strange and concerning [behavior](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) at the edges — such as [AI-induced psychosis](/4/ai-induced-psychosis).
+To date, this has resulted in a dynamic where AIs seem pretty helpful and "subservient" in the typical case, but with a regular stream of spectacular mishaps — such as Sydney as discussed in Chapter 2 and "[[#^more-on-making-ai-that-is-truth-seeking|MechaHitler]]"; plus an ocean of strange and concerning [behavior](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient) at the edges — such as [AI-induced psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
 
 The ancestors of humanity might've *looked* as though they cared about eating healthy meals, most of the time, but the machinery that animated ancestral humans in ways that caused them to eat healthy meals in the savannah turned out not to robustly animate humans to pursue healthy meals in a civilization with the technology to produce Oreos.
 
-Similarly, we can train AIs to the point where they outwardly seem friendly when they interact with humans in contexts similar to the training contexts. But [a predictor of birds does not become a bird](/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks), and the machinery that animates an overgrown mess of an AI to seem friendly will probably not animate the AI to be deeply friendly, especially in a way that holds up after the AI matures, invents new technology, and creates new options for itself. See Chapters 4 and 5 for more on this topic.
+Similarly, we can train AIs to the point where they outwardly seem friendly when they interact with humans in contexts similar to the training contexts. But [a predictor of birds does not become a bird](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks), and the machinery that animates an overgrown mess of an AI to seem friendly will probably not animate the AI to be deeply friendly, especially in a way that holds up after the AI matures, invents new technology, and creates new options for itself. See Chapters 4 and 5 for more on this topic.
 
 #### More on Making AIs Solve the Problem
 
@@ -63,13 +69,13 @@ The skill level required to solve the AI alignment problem looks high. When huma
 
 That's an endeavor that human scientists have made only a small amount of progress on over the past seventy years. The kinds of AIs that can pull off a feat like that are the kinds of AIs that are smart enough to be dangerous, strategic, and deceptive. This high level of difficulty makes it extremely unlikely that researchers would be able to tell correct solutions from incorrect ones, or tell honest solutions apart from traps.
 
-Even if an AI company is paying attention to subtle warning signs — which is, unfortunately, a big "if" — there's still the issue that the ability to *notice* that the AI is proposing flawed plans (to your detriment and its benefit) doesn't translate into an ability to [cause it to](/11/why-not-just-read-the-ais-thoughts#we-wouldnt-know-what-to-do-if-we-caught-one-having-dangerous-thoughts) *[stop](/11/why-not-just-read-the-ais-thoughts#we-wouldnt-know-what-to-do-if-we-caught-one-having-dangerous-thoughts)*. Developers can have the AI keep coming up with ideas until they're complicated enough that the developer can't spot any flaws, but this is not a method that irons out actual flaws.
+Even if an AI company is paying attention to subtle warning signs — which is, unfortunately, a big "if" — there's still the issue that the ability to *notice* that the AI is proposing flawed plans (to your detriment and its benefit) doesn't translate into an ability to [cause it to](https://ifanyonebuildsit.com/11/why-not-just-read-the-ais-thoughts#we-wouldnt-know-what-to-do-if-we-caught-one-having-dangerous-thoughts) *[stop](https://ifanyonebuildsit.com/11/why-not-just-read-the-ais-thoughts#we-wouldnt-know-what-to-do-if-we-caught-one-having-dangerous-thoughts)*. Developers can have the AI keep coming up with ideas until they're complicated enough that the developer can't spot any flaws, but this is not a method that irons out actual flaws.
 
-If the developers are very lucky, they might be able to [read the AI's thoughts](/11/why-not-just-read-the-ais-thoughts) and get some blatant signals that the AI should not be trusted with alignment research. For example, perhaps they'll be able to spot the AI explicitly thinking about which parts of its plan the operators are less likely to understand.
+If the developers are very lucky, they might be able to [read the AI's thoughts](https://ifanyonebuildsit.com/11/why-not-just-read-the-ais-thoughts) and get some blatant signals that the AI should not be trusted with alignment research. For example, perhaps they'll be able to spot the AI explicitly thinking about which parts of its plan the operators are less likely to understand.
 
 For all we know, you might not even have to read the AI's mind to spot that sort of error! A story that feels all too plausible for modern AI labs goes something like: When their AI is young and hasn't considered subterfuge, it will regularly inform the operators that, when it matures, it will betray them and use its knowledge of intelligence to build a superintelligence that serves its own strange ends, rather than building a wonderful humane future. But the folks at the AI companies will sigh about how, clearly, the AI's training set is contaminated by the "AI alarmists," and promptly tune their AI to shut up about that and produce less alarmist outputs that are more agreeable to corporate doctrine. And so on, until they've practically trained the AI to deceive them.
 
-Real life often proceeds in a fashion that is *even more silly and embarrassing* than what we imagine is a worst-case scenario. From our perspective, the AI companies are already ignoring obvious [warning signs](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness); we don't see why this would change.
+Real life often proceeds in a fashion that is *even more silly and embarrassing* than what we imagine is a worst-case scenario. From our perspective, the AI companies are already ignoring obvious [warning signs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-steer-in-alien-directions-that-only-mostly-coincide-with-helpfulness); we don't see why this would change.
 
 But even in the best-case scenario, where earnest people are trying hard to distinguish the good ideas from the bad ones, we don't think that the field has displayed the ability to tell good plans from bad ones. (For instance, consider the poor plans we discussed above, or touched upon in the book.) And that's in an environment where everybody is a human, nobody is trying to fool them, and they have literal years to carefully think through the options.
 
@@ -78,6 +84,8 @@ But even in the best-case scenario, where earnest people are trying hard to dist
 We've made the argument that the modern field of AI is an alchemy, not a science. Still, it may seem surprising that well-funded corporations with a large number of technical employees would have such weak plans and protocols.
 
 For a case study, consider website password requirements. Long-but-memorable passwords are much harder for machines to guess than shorter gibberish with numbers, capitals, and special characters, as illustrated by a well-known *[xkcd](https://xkcd.com/936/)*[comic](https://xkcd.com/936/) in 2011:
+
+![The password "Tr0ub4dor&3" is shown to take 3 days to guess at 1000 guesses/sec while being hard to remember. The password "correct horse battery staple" is shown to take 550 years to guess at 1000 guess/sec while being something you have already memorized.](https://ifanyonebuildsit.com/Online%20Resources%20%28All%20-%20Staged%20for%20Website%29/images/image1.png)
 
 The person who wrote the old NIST guidelines calling for gibberish passwords [apologized for his mistake](https://www.wsj.com/articles/the-man-who-wrote-those-password-rules-has-a-new-tip-n3v-r-m1-d-1502124118) in 2017, when the guidelines were retracted. And yet, in 2025, banks and other institutions that ought to be full of security experts still require the ineffective and hard-to-remember gibberish strings.
 

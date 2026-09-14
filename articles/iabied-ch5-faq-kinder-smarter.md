@@ -1,5 +1,5 @@
 ---
-title: "Humans tend to get kinder as they get smarter. Wouldn't AIs too?"
+title: "Humans tend to get kinder as they get smarter or wiser. Wouldn't AIs too?"
 source_url: https://ifanyonebuildsit.com/5/humans-tend-to-get-kinder-as-they-get-smarter-or-wiser-wouldnt-ais-too
 published: 2025-09-16
 author:
@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### Probably not.
+#### Probably not. ^probably-not
 
 At least some humans (though probably not all) become kinder as they learn more, refine their thinking, reflect on themselves, and grow as people. But, to revisit a theme we've seen several times at this point: This looks like a contingent fact about us and about where we're steering. It doesn't look like an iron law of computer science.
 
@@ -26,4 +32,4 @@ If somehow humanity managed to build an AI with a single overriding goal (instea
 
 We shouldn't expect it to suddenly swap out this goal for things humans value, such as ice cream, friendships, jokes, and justice. That swap would not yield more cubes. If an AI selects its actions according to "Will this get me more titanium cubes?", it won't select actions that result in a swap.
 
-The general rule is that as AIs become smarter, they get better at pursuing what *they* want. See also the extended discussions on [orthogonality](/5/orthogonality-ais-can-have-almost-any-goal) and [self-modification](/4/reflection-and-self-modification-make-it-all-harder).
+The general rule is that as AIs become smarter, they get better at pursuing what *they* want. See also the extended discussions on [orthogonality](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal) and [self-modification](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder).

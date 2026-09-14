@@ -1,5 +1,7 @@
----
+{>>{"author":"Bibi Lee","timestamp":1788083874998}@@Could this QA be updated to include some recent developments such as the impact of Natural Language Autoencoders and how these new developments can help<<}---
 id: e2182435-3994-4f05-82d4-6d79aa94c47b
+reading_minutes: 8
+tutor_minutes: 3
 summary_for_tutor: "Addresses the proposal that reading an AI's mind, through interpretability research or reasoning traces, could catch deception and solve alignment. The authors respond that we are currently poor at interpreting AIs' internals, that reasoning traces are readable but misleading and leave ample room to hide thoughts, and that the problem worsens as AIs grow more capable and less comprehensible. Using other AIs as monitors raises a chicken-and-egg problem. Even a working alarm for dangerous thoughts would not tell researchers how to instill good goals; it is easier to train an AI to hide its thoughts, or fool itself, than to genuinely align it. They call interpretability researchers heroes but insist the work is not a safety plan. After the reading, a reflection prompt and chat unpack that distinction and the hide-better dynamic."
 title: "Can interpretability solve this?"
 tldr: "Their thoughts are hard to read."

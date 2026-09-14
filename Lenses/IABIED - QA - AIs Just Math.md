@@ -1,5 +1,7 @@
 ---
 id: dda20895-9416-4a5f-93b5-14a92ef3fc84
+reading_minutes: 5
+tutor_minutes: 3
 summary_for_tutor: "Counters the dismissal that AIs are 'just math.' Just as humans are 'just biochemistry' yet landed on the moon, mathematical operations can encode anything including complex reasoning and strategic planning. The substrate does not limit the capabilities that emerge from it. Argues there is no principled line where mathematical sufficiency stops."
 title: "Aren't AIs 'just math'?"
 tldr: "Saying AIs are \"just math\" is like saying humans are \"just biochemistry.\""
@@ -15,6 +17,7 @@ This Q&A counters the dismissal that AIs are "just math." Just as humans are "ju
 source:: [[../articles/iabied-ch2-faq-just-math]]
 
 #### Question
+id:: 387339e4-b29c-4e13-af0b-978560113a49
 content:: If you accept that math can encode anything, what happens to the claim that an AI cannot truly understand or create? Does the biochemistry comparison actually settle it, or dodge it?
 assessment-instructions:: An open reflection with no correct answer. Respond in a few sentences to the learner's actual reasoning rather than restating the reading. If they argue the analogy dodges the question, take that seriously; the substrate argument does not by itself establish that understanding is present. Do not push them toward the authors' view.
 optional:: true

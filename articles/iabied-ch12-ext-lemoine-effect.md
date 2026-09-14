@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece coins the "Lemoine effect" — the idea that AI warning signs get dismissed as premature the first time they appear, then can't be raised credibly later even as the underlying technology grows more capable. Good discussion prompt: ask students to find a more recent example (post-2025) of an AI behavior that was dismissed as "not really" dangerous or "not really" indicative of misalignment, and evaluate whether the authors' pattern holds up.
 
 %%
 We've sometimes heard it suggested that some future AI behavior or misuse — an AI "warning shot" — will suddenly shock the world into taking these issues seriously.
@@ -35,7 +41,7 @@ We dub this phenomenon the "Lemoine effect," after Blake Lemoine, the Google eng
 
 The Lemoine effect states that all alarms over AI technology are *first* raised too early, by the most easily alarmed person. They're correctly dismissed as being overblown, given *current* technology. Afterward, the issue can't easily be raised again, even once the technology improves, because society has been trained not to take that concern very seriously.
 
-We don't know whether any AIs are conscious.[\*](#ftnt284) Indeed, nobody knows, because nobody really knows what's going on inside AI models. Our *best guess* is that current AIs aren't conscious, and that AIs at the time Blake raised the alarm weren't conscious, either. However, note the reactions of the major labs, which were to suppress their models' tendencies to *claim* consciousness, rather than do anything about the underlying reality:
+We don't know whether any AIs are conscious.[^note-iabied-ftnt284] Indeed, nobody knows, because nobody really knows what's going on inside AI models. Our *best guess* is that current AIs aren't conscious, and that AIs at the time Blake raised the alarm weren't conscious, either. However, note the reactions of the major labs, which were to suppress their models' tendencies to *claim* consciousness, rather than do anything about the underlying reality:
 
 From the [system prompt for Claude Opus 4](https://docs.anthropic.com/en/release-notes/system-prompts#may-22th-2025):
 
@@ -65,9 +71,9 @@ But if governments refuse to act until the evidence is *unambiguous,* and some *
 
 …if governments sit and wait to that degree, then a large majority of the world's remaining hope is gone. We very likely can't afford to wait for a blaring siren that may never sound.
 
-We'll return to this topic in the [online supplement to Chapter 13](/13/will-there-be-warning-shots).
+We'll return to this topic in the [online supplement to Chapter 13](https://ifanyonebuildsit.com/13/will-there-be-warning-shots).
 
-[\*](#ftnt284_ref) For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare).
+[^note-iabied-ftnt284]: For more discussion of AI consciousness, see our answer to [Are you saying machines will become conscious?](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious) or our discussion of [Effectiveness, Consciousness, and AI Welfare](https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare).
 
 #### Notes
 

@@ -5,14 +5,23 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/International coordination]]"
 stage: beginner
+eval-results:
+  content-sha: c3cb608a
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is explicitly about the text's presentation ('what the chapter means', 'the nuclear precedent it uses'), not a concept standing on its own outside the course.", B1: "Question is scaffolded on the assigned text — names Chapter 14 and repeatedly frames the ask as what 'the chapter' says, so a non-reader cannot answer as posed."}
+  evidence: {A2: "State what the chapter means by 'un-writing a fate already written,' and identify the nuclear precedent it uses to show this is possible.", B1: "Chapter 14 opens with Vesna Vulović ... what does the chapter mean by \"un-writing a fate already written\"?"}
 ---
 
 ## Test:
 id:: 4a9b2c83-5d0e-4f31-c6b7-d8e9f0123456
 
 #### Question
+id:: d9da4232-9cb8-4b6e-a489-177a769365a1
 content:: Chapter 14 opens with Vesna Vulović, a flight attendant who survived a 10.1-kilometer fall when terrorists bombed her plane. The chapter then invokes the nuclear arms race: in 1952, a nuclear war seemed rationally predictable based on centuries of evidence about human conflict, yet it didn't happen. The chapter calls what prevented it "un-writing a fate already written."
 
 **In your own words: what does the chapter mean by "un-writing a fate already written"? What happened during the Cold War that the chapter uses as evidence that un-writing a fate is actually possible?**

@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Happy, healthy, free people aren't the most efficient solution to almost any problem.
+#### Happy, healthy, free people aren't the most efficient solution to almost any problem. ^happy-healthy-free-people-arent-the-most-efficient-solution-to-almost-any-problem
 
 Once you're a superintelligence, almost no problems benefit from including humans in the mix.
 
@@ -29,7 +35,7 @@ Humans are useful for many things, but they're not the *best* solution to most o
 
 A common issue we see is that people don't think things through from the AI's perspective.
 
-They aren't asking, "What does this thing want, and how can it get more of that, cheaply and efficiently?" and then discovering that human-desirable outcomes just happen to be the best possible way for the AI to get what it wants.[\*](#ftnt170)
+They aren't asking, "What does this thing want, and how can it get more of that, cheaply and efficiently?" and then discovering that human-desirable outcomes just happen to be the best possible way for the AI to get what it wants.[^note-iabied-ftnt170]
 
 Instead, people are *starting* with a pleasant-feeling outcome (such as a world where AIs keep us around), and then coming up with post-hoc stories about why an AI might want those outcomes too.
 
@@ -37,6 +43,6 @@ Doing this tends to create a false sense of optimism, because you're putting all
 
 There are far more scenarios where AI does *literally anything else* than scenarios where it builds a flourishing human civilization in particular. There are far more reasons pushing AI to *not* preserve humanity than reasons pushing AI to preserve it. For an AI to bother keeping humanity around, we would need to be the *best* way for it to achieve some preference it possesses. And, realistically, for almost any preference you can imagine, we are not.
 
-For more on these topics, see [the relevant extended discussion](/5/humans-are-almost-never-the-most-efficient-solution) below.
+For more on these topics, see [the relevant extended discussion](https://ifanyonebuildsit.com/5/humans-are-almost-never-the-most-efficient-solution) below.
 
-[\*](#ftnt170_ref) For more on this, see the extended discussion on [Taking the AI's Perspective](/5/taking-the-ais-perspective).
+[^note-iabied-ftnt170]: For more on this, see the extended discussion on [Taking the AI's Perspective](https://ifanyonebuildsit.com/5/taking-the-ais-perspective).
