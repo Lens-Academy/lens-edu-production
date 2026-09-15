@@ -4,7 +4,7 @@ title: Navigator Session 1 Debrief
 ---
 
 #### Text
-content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance week to week. Takes about five minutes.
+content:: You just ran your first session, thank you! This is how we improve the run sheet, session structure and guidance meeting to meeting. Takes about five minutes.
 
 Be blunt: this is about fixing the system, not evaluating you. If something was broken, dense or confusing, that is the most useful thing you can tell us.
 
@@ -13,7 +13,7 @@ content:: — The run sheet —
 
 #### Rating
 key:: run_sheet_worked
-content:: How well did the Week 1 run sheet work as your guide?
+content:: How well did the Unit 1 run sheet work as your guide?
 scale:: 5
 low-label:: Got in my way
 high-label:: Made it easy
@@ -166,7 +166,7 @@ multi:: true
 
 #### Question
 key:: anything_else
-content:: Anything else we should change before next week?
+content:: Anything else we should change before the next meeting?
 
 #### Text
 content:: — Grow the crew —

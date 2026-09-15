@@ -1,6 +1,6 @@
 ---
 id: '9d7ac46d-8ffc-47ef-9f7b-99f14829329f'
-title: Week 4 Post-Session Reflection
+title: Unit 4 Post-Session Reflection
 ---
 
 #### Text
@@ -19,7 +19,7 @@ content:: **If either one interests you, open it now before you carry on.** Anyt
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No

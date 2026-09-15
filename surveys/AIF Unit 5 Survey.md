@@ -4,11 +4,11 @@ title: Final Reflection
 ---
 
 #### Text
-content:: You made it to the end. This final reflection takes about 7 minutes: it closes the measurement we started in Week 1 and is your chance to say what the course actually did for you. Submitting it also counts towards your certificate.
+content:: You made it to the end. This final reflection takes about 7 minutes: it closes the measurement we started in Unit 1 and is your chance to say what the course actually did for you. Submitting it also counts towards your certificate.
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
