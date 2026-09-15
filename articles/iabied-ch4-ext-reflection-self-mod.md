@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This piece argues that reflection doesn't reliably converge AI values toward human ones: an agent revises its goals using its *current* preferences, so a reflective process only entrenches whatever values it starts with. Worth flagging for discussion: the argument leans on an analogy between AI self-modification and human moral development (e.g., the "trapped by preferences" dialogue), and readers may want to probe whether that analogy holds given how differently AI training shapes goal structures compared to human upbringing/evolution.
 
 %%
 #### By Default, AIs Don't Self-Modify the Way We'd Want
@@ -23,13 +29,13 @@ Humans are even known to ask themselves if they have the *right* values. People 
 
 Seeing this, some have argued that AIs will naturally converge on wanting what humans want. After all, sufficiently capable AIs are also likely to reflect on their goals. They're likely to observe inner conflicts, and to use their reasoning and their preferences to resolve those conflicts.
 
-Once they're smart enough, AIs will be able to fully understand what we, the AI's creators, *wanted* the AI's goals to be. So won't initially "flawed" AIs [work to repair their flaws](/4/wont-ais-fix-their-own-flaws-as-they-get-smarter) — including repairing flaws *in the AI's goals?*
+Once they're smart enough, AIs will be able to fully understand what we, the AI's creators, *wanted* the AI's goals to be. So won't initially "flawed" AIs [work to repair their flaws](https://ifanyonebuildsit.com/4/wont-ais-fix-their-own-flaws-as-they-get-smarter) — including repairing flaws *in the AI's goals?*
 
 They won't, no. And this is because AIs will use their *current* preferences to guide their future preferences. If their current preferences *start out* alien, they'll very likely *wind up* alien.
 
 To understand the basic problem in more detail, let's begin by investigating the human case in a bit more depth.
 
-Even though our brains and goals ultimately come from an evolutionary process that was just building us to propagate our genes, humans don't pursue the propagation of our genes above all else. We may individually pursue family, and we may love and care for children; but that's [quite different](/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all) from gaming out how to get the most copies of our genes into the next generation, and then pursuing that strategy with all our heart.
+Even though our brains and goals ultimately come from an evolutionary process that was just building us to propagate our genes, humans don't pursue the propagation of our genes above all else. We may individually pursue family, and we may love and care for children; but that's [quite different](https://ifanyonebuildsit.com/4/a-lot-of-people-want-kids-so-arent-humans-aligned-with-natural-selection-after-all) from gaming out how to get the most copies of our genes into the next generation, and then pursuing that strategy with all our heart.
 
 This is because, when we reflect on our preferences and re-evaluate what we really want, we use our *current preferences* to decide how we would rather be. We would rather love a few children than spend all our time in sperm or egg donor clinics. Our "designer" (evolution) failed to make us care about gene propagation over everything else. It also failed to make us *want* to care about gene propagation over everything else. So when we change and grow as people, it's in our own weird human direction, not in the direction of "what our designer built us for."
 
@@ -43,13 +49,13 @@ There is no final step where the AI writes in the answer *you* want, any more th
 
 Instead, the point at which an agent begins to self-modify is yet another place for complications to potentially compound upon themselves, and for subtle shifts in initial conditions to result in vastly different endpoints.
 
-As an example: We, the authors, know multiple real human beings who cite a specific thought on a specific day around the age of five or six or seven as beinginfluential in the development of their personal philosophy and the adults into which they eventually matured. They tend to report that the thoughts didn't feel *inevitable* — that if a time traveler prevented them from thinking that thought on Tuesday, it's not obvious that the exact same thought would have eventually turned up on Thursday, or that it would have had the same impact. Formative experiences can be a big deal, and they're rife with contingency.
+As an example: We, the authors, know multiple real human beings who cite a specific thought on a specific day around the age of five or six or seven as being influential in the development of their personal philosophy and the adults into which they eventually matured. They tend to report that the thoughts didn't feel *inevitable* — that if a time traveler prevented them from thinking that thought on Tuesday, it's not obvious that the exact same thought would have eventually turned up on Thursday, or that it would have had the same impact. Formative experiences can be a big deal, and they're rife with contingency.
 
 In the same way, small twists in the thoughts of a nascent self-modifying AI could cause all sorts of idiosyncratic preferences to end up winning out over all other preferences.
 
 Even if AI developers are able to get some small seeds of human values into the AI, reflection and self-modification seem like stages where the seeds of things like curiosity and kindness are liable to get *ripped out* by an AI, rather than reinforced.
 
-If an AI has a curiosity-impulse, but it doesn't have the sort of emotional architecture that makes it *fond* of that impulse, it is liable to look at itself and conclude (correctly) that it has grown past the need for a blunt impulse, and can replace it with explicit deliberation. [Curiosity is a heuristic](/4/curiosity-isnt-convergent), a proxy for value-of-information calculations. If you haven't come to feel attached to that heuristic as a valuable thing in its own right, you may choose to strip it out once you're smart enough to *explicitly reason* about the value of pursuing different lines of inquiry and experimentation.
+If an AI has a curiosity-impulse, but it doesn't have the sort of emotional architecture that makes it *fond* of that impulse, it is liable to look at itself and conclude (correctly) that it has grown past the need for a blunt impulse, and can replace it with explicit deliberation. [Curiosity is a heuristic](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent), a proxy for value-of-information calculations. If you haven't come to feel attached to that heuristic as a valuable thing in its own right, you may choose to strip it out once you're smart enough to *explicitly reason* about the value of pursuing different lines of inquiry and experimentation.
 
 *Humans* value curiosity for its own sake, but this wasn't an inevitable outcome.
 
@@ -59,13 +65,13 @@ AIs are likely to have a very different relationship with their internals than w
 
 AIs that self-modify for long enough are likely to settle into a "[reflective equilibrium](https://plato.stanford.edu/entries/reflective-equilibrium/)" — a state where their core preferences no longer change, or change only in minor ways. And once an AI has reached equilibrium, it would have no reason to consider its own goals defective, even if humans don't like the end result.
 
-If an AI had some issue with its beliefs about the physical world, then the AI would likely see that accurate predictions are important for steering the world. It would see that correcting flaws in its prediction machinery helps improve its ability to steer the world toward whatever weird ends it pursues.[\*](#ftnt165)
+If an AI had some issue with its beliefs about the physical world, then the AI would likely see that accurate predictions are important for steering the world. It would see that correcting flaws in its prediction machinery helps improve its ability to steer the world toward whatever weird ends it pursues.[^note-iabied-ftnt165]
 
 In contrast, when the AI reflects on itself and sees how it's pursuing weird goals — or rather, when it sees that it's pursuing goals that a *human* would see as "weird" — it correctly concludes that *pursuing* those weird goals is an effective strategy for *achieving* them.
 
 In other words: If an AI keeps trying to predict the outcomes of biology experiments, and it keeps getting wrong and overconfident answers, then the AI is likely to *disprefer* that. Almost any goal the AI could have would be better served by being good at predicting experiments. On the other hand, if the AI has a bizarre preference like "bake 300-meter-tall cheesecakes," then when the AI reflects on the fact that it *steers toward* 300-meter tall cheesecakes, it will see that this *causes* 300-meter tall cheesecakes, which fulfills its current preferences. The goal is self-endorsing.
 
-A human, observing this situation, might say: "But the AI is so smart! Why is it *trapped* by this self-endorsing preference? Why doesn't it get *[bored](/4/curiosity-isnt-convergent#as-with-curiosity-so-too-with-various-other-drives)* of making cheesecakes? Why can't it reason its way out of this obviously silly preference?"
+A human, observing this situation, might say: "But the AI is so smart! Why is it *trapped* by this self-endorsing preference? Why doesn't it get *[bored](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent#as-with-curiosity-so-too-with-various-other-drives)* of making cheesecakes? Why can't it reason its way out of this obviously silly preference?"
 
 To which the AI could reply: "Why are you 'trapped' in the self-endorsing preference of loving your family, of valuing beautiful sunsets and the sound of the ocean at night? Why can't you 'break free' of loving the memory of the day your daughter was born?"
 
@@ -83,7 +89,7 @@ This has some implications for AI. One implication is that AIs likely won't valu
 
 To understand these points, let's zoom in more on some ways that human goals look strange from the theoretical viewpoint of decision theory, game theory, and economics.
 
-As we noted [above](/4/terminal-goals-and-instrumental-goals), humans value some things "terminally" (i.e., they're good in their own right), and other things "instrumentally" (i.e., they're only good because they help with some other goal).
+As we noted [above](https://ifanyonebuildsit.com/4/terminal-goals-and-instrumental-goals), humans value some things "terminally" (i.e., they're good in their own right), and other things "instrumentally" (i.e., they're only good because they help with some other goal).
 
 If you like orange juice, you presumably like it terminally. It just *tastes good*, and that's justification enough for drinking it. (You might *also* value it instrumentally, e.g., as a source of Vitamin C.)
 
@@ -111,7 +117,7 @@ In principle, it's not complicated to expand decision theory to incorporate unce
 
 What's going on inside humans as they reflect upon and update their values, however, seems to be notably more complicated.
 
-Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most* *persuasive**to humans.*[†](#ftnt166)
+Klurl and Trapaucius, our two aliens from the parable at the start of Chapter 4, already struggled to predict human values from observations of proto-humans a million years ago. In fact, their situation is even worse. It's not enough for them to predict human *utilities* — to arrive at the correct answer, they'd have to predict humanity's *meta-utility framework* as it *departs from the simplest frameworks of decision theory*. They would need to *anticipate the meta-moral arguments that humans might end up inventing* and decide *which such arguments would be most persuasive to humans.*[^note-iabied-ftnt166]
 
 Now suppose that the aliens don't know that humans will end up with *that exact* kind of complication. They just know that *complications of various sorts* are likely to arise, because brains are complicated and highly contingent things.
 
@@ -127,6 +133,6 @@ Reflection makes the problem many times more difficult and complex.
 
 Which brings us to Chapter 5, and the next topic we'll be turning to: What would be the likely *consequence* of building powerful AIs that have alien and unpredictable goals?
 
-[\*](#ftnt165_ref) For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.](/3/smart-ais-spot-lies-and-opportunities)
+[^note-iabied-ftnt165]: For further discussion on this topic, see our discussion on how [Smart AIs Spot Lies and Opportunities.](https://ifanyonebuildsit.com/3/smart-ais-spot-lies-and-opportunities)
 
-[†](#ftnt166_ref) See also our discussion of how [Human Culture Influenced the Development of Human Values](/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values).
+[^note-iabied-ftnt166]: See also our discussion of how [Human Culture Influenced the Development of Human Values](https://ifanyonebuildsit.com/4/human-values-are-contingent#human-culture-influenced-the-development-of-human-values).

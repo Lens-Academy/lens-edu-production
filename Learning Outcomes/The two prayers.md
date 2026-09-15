@@ -5,8 +5,16 @@ reading-from: "beginning of chapter"
 reading-to: "end of chapter"
 authors:
   - Chris+Claude
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/One chance to get it right]]"
 stage: beginner
+eval-results:
+  content-sha: 4b9b4ebf
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "The capability is reconstructing what one specific book's closing passage says; 'the two prayers' is not a field-canonical frame and is meaningless to someone who never read that text.", B1: "Question relies on the assigned text as scaffolding — names 'The Closing Words', 'the authors', and leaves the second prayer identified only as 'the book's final line'."}
+  evidence: {A2: "Distinguish what each prayer asks of humanity", B1: "The Closing Words offer two prayers. ... The second, which the authors call their \"true last prayer,\" is the book's final line."}
 ---
 
 ## Test:

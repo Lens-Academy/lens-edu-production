@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### It seems quite unlikely.
+#### It seems quite unlikely. ^it-seems-quite-unlikely
 
 One hope we've heard about AI is that it might treat humanity well because it views us as its "parents." Unfortunately, this hope seems misplaced.
 
@@ -42,15 +48,15 @@ There's a lot that went into human beings developing care for their parents:
 
 *None* of these things is likely to be true of AI.
 
-And even if *all* of them were true, it might not be enough in practice, since any number of other factors could turn out to matter too, such as [chaotic variation in the ways AIs reflect on themselves](/4/reflection-and-self-modification-make-it-all-harder). And, again, filial responsibility is *overwhelmingly* not the default in the animal kingdom.
+And even if *all* of them were true, it might not be enough in practice, since any number of other factors could turn out to matter too, such as [chaotic variation in the ways AIs reflect on themselves](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder). And, again, filial responsibility is *overwhelmingly* not the default in the animal kingdom.
 
 One way people imagine AI might acquire a sense of filial responsibility is that it's trained on a giant corpus of human data, and it interacts with humans a great deal, so perhaps human preferences will "rub off on it" somehow?
 
 We don't expect this to work. We expect the AI's preferences to be related to human preferences *somehow,* but in a tangential, strange, and complicated way — as in the discussion at the end of Chapter 4, where we walk through worlds with more (and increasingly realistic) amounts of complication, in the link between human preferences and AI preferences.
 
-See also the discussion of [raising AIs with love and expecting them to behave well](/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)"
+See also the discussion of [raising AIs with love and expecting them to behave well](https://ifanyonebuildsit.com/4/cant-we-just-train-it-to-act-like-a-human-or-raise-the-ai-like-a-child), [weird and unintended motivations in current AIs](https://ifanyonebuildsit.com/4/arent-developers-regularly-making-their-ais-nice-and-safe-and-obedient#ais-appear-to-be-psychologically-alien), and "[Won't AIs care at least a little about humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)"
 
-#### It would probably be bad if they did.
+#### It would probably be bad if they did. ^it-would-probably-be-bad-if-they-did
 
 If, against all odds, something like filial responsibility grew inside an AI for one reason or another, we would probably be in a lot of trouble.
 
@@ -58,10 +64,10 @@ An AI can be smart enough to understand *exactly what humans mean* by "filial re
 
 Humans were "trained" by natural selection to maximize our reproductive fitness. But nearly all of the things we care about are *correlates* of fitness — we care little to none about fitness itself.
 
-Similarly, an AI encouraged to "love its parents" would, at best,probably end up with complicated correlates of filial responsibility.
+Similarly, an AI encouraged to "love its parents" would, at best, probably end up with complicated correlates of filial responsibility.
 
 An AI could care deeply about its creators…but not in a way that prizes our subjective experience. In the language of Chapter 4, even "one simple complication" results in versions of "caring about us" that look like freezing us in amber, or keeping humans alive against their will, or preventing us from reproducing and giving the final generation of humans a modestly comfortable environment while the AI takes the rest of the universe for itself. Or something a whole lot weirder than that.
 
-It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[\*](#ftnt171)
+It doesn't seem possible to predict what the actual outcome would be. But we would expect it to be — if anything — even stranger and less appealing than these options.[^note-iabied-ftnt171]
 
-[\*](#ftnt171_ref) Again, see "[Won't AIs care at least a little about humans?](/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.
+[^note-iabied-ftnt171]: Again, see "[Won't AIs care at least a little about humans?](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans)" for related discussion.

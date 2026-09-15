@@ -1,6 +1,8 @@
 ---
 id: b0d5d25c-77c1-4bce-99f0-821427c58cee
-summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering thinking."
+reading_minutes: 15
+tutor_minutes: 20
+summary_for_tutor: "Teaches Chapter 11's alchemy-stage diagnosis using the alchemist allegory, the Musk/LeCun folk-theory critique, the Dartmouth 1955 historical anchor, and the mother/engineer dialogue. The Lens covers the first reading of Ch11 (beginning to end of the systemic-incompetence paragraph). The strong-superalignment objection is taught by a separate Lens. Students should end this Lens able to state the alchemy-stage diagnosis with the right valence (a field-level epistemic claim, not despair, not blame) and identify what specifically distinguishes folk-theory thinking from engineering thinking. Students also connect the chapter back to an earlier idea that the prompt does not name."
 title: "Alchemy, Not Science"
 tldr: "The alignment field can produce techniques that work, but nobody understands why. That gap, between recipe and principle, is what separates alchemy from engineering."
 authors:
@@ -97,10 +99,50 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question. That is Phase 3's job.
 
+#### Question: Open
+id:: 8d23c3fb-0350-406f-b5c1-cd571cbcf3de
+content::
+\## Phase 3: Connection
+This chapter's diagnosis does not start from nothing. It leans on something you worked through much earlier in this course, and it never stops to say so.
+
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read the first half of Chapter 11, written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter's diagnosis rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
+
+How to grade what comes back:
+
+- **On target.** They name growing rather than crafting, and say what it does here: it is why the field has recipes and no principles, rather than merely not having got round to the principles yet. Confirm briefly, then move on.
+- **Strong near miss: "you don't get what you train for" (Chapter 4).** Adjacent and legitimate. Accept it, then push once: that says the result diverges from the target. What earlier idea says we cannot explain why it diverges?
+- **Near miss: "wanting emerges from training" (Chapter 3).** Also connected. Accept, then push: that is about what the system ends up wanting, and this chapter is about what the field can and cannot explain. Which earlier idea speaks to the explaining?
+- **This week's other reading.** If they name the engineering curses, say plainly that those are the same unit's material rather than something they have to reach back for, and ask them to go further back.
+- **Off target.** They name something from this chapter: Aqua Regia, Musk or LeCun, Dartmouth, the young alchemist's line. Say plainly that those are this chapter's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what this course said early on about how these systems are produced, rather than about what they do. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80–150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 2 back to them at length. One sentence is the ceiling.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Turn this into a review of Chapter 2.
+- Say anything about how this connection relates to the next lens in this unit. It does, and that is the next lens's work, not yours.
+
 #### Question
 id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
-\## Phase 3: Learning Question
+\## Phase 4: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -150,6 +192,11 @@ Safety and integrity:
 - If the student reads the diagnosis as blame on Musk and LeCun, pull them back to the structural claim: their statements are evidence of the field's stage, not the cause.
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who debugs the friend's benchmark argument entirely from this chapter's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on the difference between measuring that a technique works and understanding why, you may point back in one sentence to what they said in the previous phase. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::

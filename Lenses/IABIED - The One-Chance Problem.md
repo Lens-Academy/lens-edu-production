@@ -1,6 +1,8 @@
 ---
 id: 45167504-3f3c-4d1c-9547-42ec3302bacc
-summary_for_tutor: "Covers the first section of Chapter 12: how Chernobyl and Titanic establish the human denial pattern, and why the one-chance disanalogy makes that pattern fatal in the ASI context. Students should be able to explain what each analogy contributes to the argument and why 'no second time' changes the logic of acting under uncertainty."
+reading_minutes: 15
+tutor_minutes: 20
+summary_for_tutor: "Covers the first section of Chapter 12: how Chernobyl and Titanic establish the human denial pattern, and why the one-chance disanalogy makes that pattern fatal in the ASI context. Students should be able to explain what each analogy contributes to the argument and why 'no second time' changes the logic of acting under uncertainty. Students also connect the section back to an earlier idea that the prompt does not name."
 title: "The One-Chance Problem"
 tldr: "What do a 1912 shipwreck and a 1986 nuclear meltdown tell us about how humans treat risks they can't quite believe in? And what changes when there is no second chance to learn?"
 authors:
@@ -95,10 +97,50 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
+#### Question: Open
+id:: 1219b71e-12ca-469a-b25a-288e7e33baec
+content::
+\## Phase 3: Connection
+This section's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
+
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read the first section of Chapter 12, written a free recall, and reflected on it. They have now been asked to name the earlier idea this section rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 10's before-and-after gap, and the five curses that compound it.** Two halves, and either one on its own is a real answer. The gap is what the space probes were for: once the device is out of reach you cannot fix it, so the attempt you get is the only one you get. The curses are why that single attempt is against a stacked problem, one that is fast, narrow-margined, self-amplifying, prone to its safety mechanisms becoming the failure, and worst in its edge cases, which get harder as the system gets smarter. This section's decisive move is that there is no second time. On its own that is bad luck. With either half of the earlier material behind it, it is the argument.
+
+How to grade what comes back:
+
+- **On target, either half.** They name irreversibility and the before-and-after gap, or they name the curses. Both are Chapter 10 and both do real work here. Confirm briefly, then move on.
+- **The strongest answer puts the two together:** one attempt, and that attempt against a problem with five structural reasons to fail. If they give one half cleanly it is worth a single question toward the other, but do not treat a clean half as incomplete.
+- **The near miss this beat is built around: "Chernobyl, we have seen that already."** True, and worth acknowledging, but it is noticing a repetition rather than naming an idea. The same event is doing two different jobs: earlier it showed the system defeating its operators, here it shows the operators refusing to believe it. Accept the observation, then push once: what did that earlier appearance establish that this section is relying on?
+- **Near miss: the alchemy diagnosis (Chapter 11).** Legitimate and adjacent. Accept, then push: that is about not understanding the system. This is about not getting another go. Which earlier idea speaks to the second one?
+- **Right idea, attributed to Chapter 6.** Irreversibility does appear there, so this is not a wrong thought and should not be scored as a miss. The version this section leans on is the engineering one, where the space probes make it concrete. Take the idea and redirect the attribution in one sentence.
+- **Off target.** They name something from this reading: Midgley, Hinton, Sunak, the Titanic. Say plainly that those are this section's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what the previous unit said about problems where you do not get to iterate. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80–150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not re-teach the five curses or the space probes. One sentence is the ceiling, and naming two or three of the curses is enough.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
+
 #### Question
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
-\## Phase 3: Learning Question
+\## Phase 4: Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -142,6 +184,11 @@ Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is this section's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who explains what Chernobyl and the Titanic are doing entirely from this section's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on why the disanalogy changes the logic rather than just adding urgency, you may point back in one sentence to what they said in the previous phase. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about this section alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::

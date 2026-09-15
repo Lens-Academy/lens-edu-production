@@ -1,5 +1,7 @@
 ---
 id: e3a7f1d5-8b2c-4a9e-b7f4-5c9b3e7a1f08
+reading_minutes: 2
+tutor_minutes: 3
 summary_for_tutor: Priming question before Chapter 6, section 2. Students consider what it would feel like to face technology built from physics they don't know, which activates the "unknown rules" intuition before the refrigerator thought experiment.
 title: "Before Reading: Describe the Refrigerator Thought Experiment"
 tldr: Pick a piece of modern technology. Could you explain to someone from 500 years ago why it works? Before reading, think about what it means to face something built from rules you don't know exist.
@@ -8,7 +10,7 @@ authors:
 add_to_ai_context:
   - "[[../../Lens Edu Private/IABIED Book Content/06 - Chapter 6 - We'd Lose]]"
 ---
-#### Question
+#### Question: Open
 id:: c12a424b-c081-461c-9c8e-6a8121e0e168
 content:: Before reading Chapter 6, section 2: Pick a piece of modern technology: a smartphone, a microwave, a GPS. Could you explain to a smart, curious person from 500 years ago *why* it works, in terms they could understand? Not just what it does, but the underlying physics or principles that make it possible? What would it feel like to be that person, encountering technology built from rules of reality they don't even know exist? Write down your thinking before you read.
 

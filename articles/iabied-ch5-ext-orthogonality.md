@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is an "online resources" supplement to Chapter 5 of *If Anyone Builds It, Everyone Dies*, continuing a dialogue introduced earlier in the chapter; the Correct-Nest aliens and the titanium-cube-maximizer are recurring thought experiments used across the book's companion site. Useful discussion prompt: is the orthogonality thesis a claim about all logically possible minds, or a narrower empirical claim about what gradient descent is likely to produce? The text's own answer is in the closing paragraphs (ease of instilling a goal is separate from whether the goal is orthogonal to intelligence).
 
 %%
 
@@ -44,7 +50,7 @@ In Chapter 5, we told the story of the Correct-Nest aliens, who evolved to find 
 
 **GIRL-BIRD:** I'll be rooting for you. But, okay, maybe a better way of saying it is: There's some complicated property possessed by good jokes, and our brains compute whether utterances have that property which we call "humor." And we're delighted when an utterance has that property. The *existence or absence of that property* is an objective fact about an utterance (as computed by you, in a given context). An alien could learn to do the calculation. But *the part where we find that property delightful* is not objective. It's less like a prediction and more like…well, it's not exactly a steering destination, but it is a further fact about us, that wouldn't be true about most aliens, because our humor evolved along some strange twisty evolutionary pathway that doesn't usually happen. It's not that the aliens are wrong about which jokes are funny; it's that their brains just aren't computing humor in the first place, any more than they are judging their dwellings by whether the number of stones within them are correct. They just don't care.
 
-**BOY-BIRD:** Gosh, that's a depressing view of the universe. Aliens that never laugh, that have nests with completely incorrect stones…surely if the aliens spent enoughtime thinking about it, they would realize how much they were missing out on? Living in wrong nests, not finding jokes funny, *completely* disregarding vanilla bird seed. Wouldn't they eventually figure out a way to correct those flaws and give themselves a sense of humor and everything else they're missing?
+**BOY-BIRD:** Gosh, that's a depressing view of the universe. Aliens that never laugh, that have nests with completely incorrect stones…surely if the aliens spent enough time thinking about it, they would realize how much they were missing out on? Living in wrong nests, not finding jokes funny, *completely* disregarding vanilla bird seed. Wouldn't they eventually figure out a way to correct those flaws and give themselves a sense of humor and everything else they're missing?
 
 **GIRL-BIRD:** I could see aliens wanting to change and grow and add new goals, possibly. But why would they pick *those* exact changes to make?
 
@@ -70,7 +76,7 @@ Of course, none of this says anything about how easy or hard it is to *create* a
 
 The point of the orthogonality thesis is to answer the intuition that it would be *stupid* for a machine superintelligence to pursue things that humans find boring or pointless, and that a *smart* AI would choose to pursue something else instead. We can call the AI's goal "arbitrary," but the AI can call us "arbitrary" right back. Rude words don't change the practical situation.
 
-The basic argument behind the orthogonality thesis is this: For every mind that can *calculate* how to produce lots of [microscopic cubes made of titanium](/4/curiosity-isnt-convergent#curiosity-joy-and-the-titanium-cube-maximizer) — that could very efficiently produce lots of little cubes in exchange for large enough payment — there's some other mind that just has those calculations hooked right into the action system.
+The basic argument behind the orthogonality thesis is this: For every mind that can *calculate* how to produce lots of [microscopic cubes made of titanium](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent#curiosity-joy-and-the-titanium-cube-maximizer) — that could very efficiently produce lots of little cubes in exchange for large enough payment — there's some other mind that just has those calculations hooked right into the action system.
 
 Imagine a competent human who really desperately needs to sell lots of titanium cubes to make enough money to feed their family. That person wouldn't reflect, realize that titanium cubes are *boring,* and start doing something else instead — not unless that "something else" would also make them enough money to feed their family.
 
@@ -78,14 +84,14 @@ And so a mind that was just taking whatever actions leads to the most cubes woul
 
 Whatever mental machinery could figure out how to make cubes *given sufficient reason*, could operate in another mind to just directly steer its actions. Which means that it's possible for machine intelligences to be animated by pursuit of (say) tiny titanium cubes, with no regard for morality.
 
-An AI like that wouldn't need to be confused about goodness or morality. Once it got smart enough, it would probably be much better than humans at calculating which action is the most good, or which action is the most moral. It could ace a written exam on ethics. But it would not be *animated by* those calculations; its actions would not be an answer to the question "which of these options creates the most goodness?" Its actions would be an answer to a different question: "Which of these options creates the most tiny cubes?"[\*](#ftnt195)
+An AI like that wouldn't need to be confused about goodness or morality. Once it got smart enough, it would probably be much better than humans at calculating which action is the most good, or which action is the most moral. It could ace a written exam on ethics. But it would not be *animated by* those calculations; its actions would not be an answer to the question "which of these options creates the most goodness?" Its actions would be an answer to a different question: "Which of these options creates the most tiny cubes?"[^note-iabied-ftnt195]
 
-A more in-depth discussion of the orthogonality thesis can be found [on LessWrong.com](https://www.lesswrong.com/w/orthogonality-thesis). For a discussion of one specific way in which modern AIs are already exhibiting a distinction between understanding and caring, revisit the Chapter 4 extended discussion on [AI-Induced psychosis](/4/ai-induced-psychosis).
+A more in-depth discussion of the orthogonality thesis can be found [on LessWrong.com](https://www.lesswrong.com/w/orthogonality-thesis). For a discussion of one specific way in which modern AIs are already exhibiting a distinction between understanding and caring, revisit the Chapter 4 extended discussion on [AI-Induced psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
 
-[\*](#ftnt195_ref) It can make sense to say to a human — who has a whole meta-preference framework going on that you might significantly share — "I think you are valuing the wrong things, here." Maybe some of those arguments have the power to move you in a way you never thought you could be moved. Maybe it even feels like there's a moral star outside yourself, that you were always following without knowing it.
+[^note-iabied-ftnt195]: It can make sense to say to a human — who has a whole meta-preference framework going on that you might significantly share — "I think you are valuing the wrong things, here." Maybe some of those arguments have the power to move you in a way you never thought you could be moved. Maybe it even feels like there's a moral star outside yourself, that you were always following without knowing it.
 
 All the same, none of that is going to feel compelling to a superintelligent cube maximizer, any more than you could make it laugh if you just found a good *enough* joke.
 
 It's not that it doesn't know what humor is. It can predict exactly what you'll find funny. It just doesn't consider that classification an interesting one.
 
-In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision framework](/4/curiosity-isnt-convergent).
+In the same way, it isn't moved by how you compute what should or shouldn't be done; nor by which preferences you consider more or less meta-preferable. If something doesn't care about happiness, nor meta-care about your arguments for why it should care about happiness, then you cannot talk it into adopting [a happiness-based decision framework](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent).

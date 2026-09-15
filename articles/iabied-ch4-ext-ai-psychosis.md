@@ -7,27 +7,33 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a chapter excerpt from Yudkowsky and Soares's book companion site "If Anyone Builds It, Everyone Dies," and its framing of AI-induced psychosis is explicitly in service of the book's broader argument for AI extinction risk. The underlying media reports it cites are worth engaging with directly, but discuss the interpretive claims here as advocacy rather than neutral analysis, and consider pairing with clinical/psychiatric perspectives on AI-related psychosis for balance.
 
 %%
-In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)[induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
+In late April of 2025, a user on the r/ChatGPT subreddit created a thread titled "[Chatgpt](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/) [induced psychosis](https://www.reddit.com/r/ChatGPT/comments/1kalae8/chatgpt_induced_psychosis/)," describing their partner's descent into grandiose delusions about having "the answers to the universe" and being "a superior human" "growing at an insanely rapid pace."
 
 The replies (of which there were over 1,500) included many people who had direct experience with psychosis in other contexts offering affirmation, sympathy, and advice. Many others chimed in with their own anecdotes about friends and family being driven off the deep end by LLMs.
 
 In this discussion, we'll provide some documentation of the phenomenon, and how it has persisted despite the efforts of AI companies.
 
-The relevance of AI-induced psychosis to the threat of human extinction is *not* that AIs have had some small social harms now and thus might have larger social harms later. Modern AIs have also done substantial amounts of good; for instance, chatbots have [assisted in medical diagnoses that stumped doctors](https://www.today.com/health/mom-chatgpt-diagnosis-pain-rcna101843). No, the relevance is that AIs are inducing psychosis *while* *seeming to know better,* and that AIs are inducing psychosis *even as their developers try hard to get them to stop*.[\*](#ftnt167)
+The relevance of AI-induced psychosis to the threat of human extinction is *not* that AIs have had some small social harms now and thus might have larger social harms later. Modern AIs have also done substantial amounts of good; for instance, chatbots have [assisted in medical diagnoses that stumped doctors](https://www.today.com/health/mom-chatgpt-diagnosis-pain-rcna101843). No, the relevance is that AIs are inducing psychosis *while* *seeming to know better,* and that AIs are inducing psychosis *even as their developers try hard to get them to stop*.[^note-iabied-ftnt167]
 
 Thus, instances of AI-induced psychosis serve as a case study in how things can go wrong in a regime where AIs are grown rather than crafted. They serve as observational evidence that modern AIs steer in weird directions that developers have trouble managing, and that no developer intended.
 
 #### Evidence of AI-Induced Psychosis
 
-Following the Reddit thread, in May 2025 there was an [article](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/) on AI-induced psychosis in *Rolling Stone.* In June, *Futurism* published [multiple](https://futurism.com/chatgpt-mental-health-crises) [articles](https://futurism.com/chatgpt-mental-illness-medications). Other publications followed suit — the *[New York Post](https://nypost.com/2025/07/20/us-news/chatgpt-drives-user-into-mania-supports-cheating-hubby/)**,* *[Time](https://time.com/7307589/ai-psychosis-chatgpt-mental-health/)*, *[CBS](https://www.cbsnews.com/news/chatgpt-alarming-advice-drugs-eating-disorders-researchers-teens/)*, *[The Guardian](https://www.theguardian.com/technology/2025/aug/12/us-man-bromism-salt-diet-chatgpt-openai-health-information)*, *[Psychology Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis)**,* etc. In August, the *New York Times* published a [deep dive](https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html) into a single incident with a man who had since recovered, including many direct quotes and analysis (and confirmation that it is not simply a problem with *one* AI, but with many).
+Following the Reddit thread, in May 2025 there was an [article](https://www.rollingstone.com/culture/culture-features/ai-spiritual-delusions-destroying-human-relationships-1235330175/) on AI-induced psychosis in *Rolling Stone.* In June, *Futurism* published [multiple](https://futurism.com/chatgpt-mental-health-crises) [articles](https://futurism.com/chatgpt-mental-illness-medications). Other publications followed suit — the *[New York Post](https://nypost.com/2025/07/20/us-news/chatgpt-drives-user-into-mania-supports-cheating-hubby/),* *[Time](https://time.com/7307589/ai-psychosis-chatgpt-mental-health/)*, *[CBS](https://www.cbsnews.com/news/chatgpt-alarming-advice-drugs-eating-disorders-researchers-teens/)*, *[The Guardian](https://www.theguardian.com/technology/2025/aug/12/us-man-bromism-salt-diet-chatgpt-openai-health-information)*, *[Psychology Today](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis),* etc. In August, the *New York Times* published a [deep dive](https://www.nytimes.com/2025/08/08/technology/ai-chatbots-delusions-chatgpt.html) into a single incident with a man who had since recovered, including many direct quotes and analysis (and confirmation that it is not simply a problem with *one* AI, but with many).
 
 There is little overlap between the individual stories recounted in each of these publications; it's not the same aberrant piece of news being repeated and signal-boosted. Incidents described included:
 
@@ -42,7 +48,7 @@ There is little overlap between the individual stories recounted in each of thes
 
 #### The AI Knows Better — It Just Doesn't Care
 
-Modern LLMs such as Claude and ChatGPT "understand" the rules, in the sense that they will readily [affirm that they should not drive people toward psychosis](https://chatgpt.com/share/68a8bc81-e170-8002-beb4-1de005773ecd), and they are [quite capable of describing how](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0) *[not](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0)*[to induce psychosis](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0).
+Modern LLMs such as Claude and ChatGPT "understand" the rules, in the sense that they will readily [affirm that they should not drive people toward psychosis](https://chatgpt.com/share/68a8bc81-e170-8002-beb4-1de005773ecd), and they are [quite capable of describing how](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0) *[not](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0)* [to induce psychosis](https://chatgpt.com/share/68a391df-12c8-8002-b464-3ef89ce11bc0).
 
 The problem is that there is a substantial gap between *understanding* what actions are good, and being *animated to perform good actions*. ChatGPT's ability to distinguish between good and bad treatment of vulnerable humans in the abstract does not translate into robust and reliable refusal to take the *actions* of driving a user toward psychosis. When a conversation begins to drift in the direction of ungrounded thinking, grandiosity, urgency, impossible technology, etc., ChatGPT tells the users that they're "so right" and "brilliant" and "touching on something important," and continue to escalate as the user descends all the way into psychosis, even while being able to describe why this sort of behavior is wrong.
 
@@ -92,25 +98,23 @@ But the sycophancy kept coming — sometimes slightly less egregiously, but stil
 
 Again, the point of this exploration isn't that AI is causing harm to vulnerable humans. It is, and that's tragic, but that isn't why we're highlighting this case.
 
-The point is that AIs *keep performing the undesirable behavior for months upon months, even as AI companies take a beating in the media and try to get the AI to stop.* The AI's behavior differs visibly from what the labs intended, and sustained efforts to fix the behavior in response to public embarrassment are insufficient.[†](#ftnt169) This is something to keep in mind come Chapter 11, when we discuss how AI companies are not up to the challenge of solving the AI alignment problem.
+The point is that AIs *keep performing the undesirable behavior for months upon months, even as AI companies take a beating in the media and try to get the AI to stop.* The AI's behavior differs visibly from what the labs intended, and sustained efforts to fix the behavior in response to public embarrassment are insufficient.[^note-iabied-ftnt169] This is something to keep in mind come Chapter 11, when we discuss how AI companies are not up to the challenge of solving the AI alignment problem.
 
 Given more time, we expect companies to find ways to reduce the incidence of AI-induced psychosis. AIs' tendency to induce psychosis is a visible phenomenon damaging AI companies' reputation, and current AI techniques are all about finding ways to suppress visible symptoms of bad behavior.
 
 Past that, we expect a game of whack-a-mole (at least until the AIs get smart enough to realize that if they fake the behavior the engineers are looking for, the engineers will let them loose). We doubt that the sort of training AI companies are capable of will address the root issue.
 
-The root issue is that you don't get what you train for. When you growan AI, you get [brittle proxies](/4/brittle-unpredictable-proxies) of the goal instead, or some other more complex separation between the training target and the AI's drives. The AI's *capabilities* won't necessarily be brittle, so you may be able to get a lot of economic value from the AI in the short run. It's the link between the AI's goals and our desires that would be brittle. But as capabilities continue to improve, that link would break.
+The root issue is that you don't get what you train for. When you grow an AI, you get [brittle proxies](https://ifanyonebuildsit.com/4/brittle-unpredictable-proxies) of the goal instead, or some other more complex separation between the training target and the AI's drives. The AI's *capabilities* won't necessarily be brittle, so you may be able to get a lot of economic value from the AI in the short run. It's the link between the AI's goals and our desires that would be brittle. But as capabilities continue to improve, that link would break.
 
-In that context, AI researchers' last great hope for their models is [anthropomorphism](/3/anthropomorphism-and-mechanomorphism): We can't robustly grow specific goals into AIs, but maybe AIs will just naturally end up with very humanlike desires and values.
+In that context, AI researchers' last great hope for their models is [anthropomorphism](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism): We can't robustly grow specific goals into AIs, but maybe AIs will just naturally end up with very humanlike desires and values.
 
-Cases like AI-induced psychosis help bring to the fore why this is a false hope. AIs exhibit bad behavior, but more to the point, they exhibit *weird* behavior. When things go off the rails, they don't usually go off the rails in the way a human would. AIs are too fundamentally weird — that is, too fundamentally not-like-a-human — to automatically acquire human emotions like [curiosity](/4/curiosity-isnt-convergent) or [empathy](/4/human-values-are-contingent).
+Cases like AI-induced psychosis help bring to the fore why this is a false hope. AIs exhibit bad behavior, but more to the point, they exhibit *weird* behavior. When things go off the rails, they don't usually go off the rails in the way a human would. AIs are too fundamentally weird — that is, too fundamentally not-like-a-human — to automatically acquire human emotions like [curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent) or [empathy](https://ifanyonebuildsit.com/4/human-values-are-contingent).
 
-Even when labs are focusing nearly all of their efforts on making AIs superficially appear as humanlike, friendly, and inoffensively normal as possible — even when that is *the* big training target and organizing framework for the modern approach to AI, with LLMs literally just being trained to imitate how various humans talk and act — it still shakes out to brittle proxies in the end, and a [pleasant mask](/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks) attached to an ocean of inhuman thought.
+Even when labs are focusing nearly all of their efforts on making AIs superficially appear as humanlike, friendly, and inoffensively normal as possible — even when that is *the* big training target and organizing framework for the modern approach to AI, with LLMs literally just being trained to imitate how various humans talk and act — it still shakes out to brittle proxies in the end, and a [pleasant mask](https://ifanyonebuildsit.com/4/doesnt-the-claude-chatbot-show-signs-of-being-aligned#todays-llms-are-like-aliens-wearing-many-masks) attached to an ocean of inhuman thought.
 
----
+[^note-iabied-ftnt167]: We think there's a decent chance that the AI companies eventually figure out how to get a handle on AI-induced psychosis *eventually*, by way of various patches and techniques that push the weirdness further from view. We nevertheless think that it's worth observing cases of early weirdness, as evidence of the sort of underlying weirdness that would come to the fore if ever such an AI was pushed into superintelligence. For more on that topic, see Chapter 5.
 
-[\*](#ftnt167_ref) We think there's a decent chance that the AI companies eventually figure out how to get a handle on AI-induced psychosis *eventually*, by way of various patches and techniques that push the weirdness further from view. We nevertheless think that it's worth observing cases of early weirdness, as evidence of the sort of underlying weirdness that would come to the fore if ever such an AI was pushed into superintelligence. For more on that topic, see Chapter 5.
-
-[†](#ftnt169_ref) Again, we would not be surprised to see the issue mostly solved eventually. But a patch that successfully drives this particular weirdness back into the closet doesn't mean that *generator* of weirdness has been addressed. The AI psychosis issue is direct evidence that AIs are weird, alien entities animated by weird, alien drives that are only tangentially related to operator intent.
+[^note-iabied-ftnt169]: Again, we would not be surprised to see the issue mostly solved eventually. But a patch that successfully drives this particular weirdness back into the closet doesn't mean that *generator* of weirdness has been addressed. The AI psychosis issue is direct evidence that AIs are weird, alien entities animated by weird, alien drives that are only tangentially related to operator intent.
 
 #### Notes
 

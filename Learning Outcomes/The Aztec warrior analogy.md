@@ -7,8 +7,16 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
 stage: beginner
+eval-results:
+  content-sha: 5f60e93d
+  date: 2026-08-19
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Statement is explicitly bound to a specific text's framing rather than the source-free underlying capability.", B1: "Question uses chapter references as framing scaffolding, so it cannot be asked at a random moment to a non-reader."}
+  evidence: {A2: "Define the Aztec warrior analogy as Chapter 6 states it", B1: "Chapter 6 opens with an Aztec warrior watching a large Spanish ship approach."}
 ---
 
 ## Test:

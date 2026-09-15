@@ -7,8 +7,16 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Artificial Intelligence]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/Machine advantages]]"
 stage: beginner
+eval-results:
+  content-sha: 0417e790
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: fail}
+  notes: {B1: "Question is scaffolded on a specific text — names 'Chapter 6' and 'the chapter' as the source of the illustration.", C3: "Level-4 criterion hard-requires a memorized textual detail (the specific domains Chapter 6 names) rather than a concept boundary statable in any wording."}
+  evidence: {B1: "Chapter 6 sends a refrigerator blueprint back a thousand years.", C3: "connects to the specific vulnerable domains Chapter 6 names (biology and human psychology)"}
 ---
 
 ## Test:

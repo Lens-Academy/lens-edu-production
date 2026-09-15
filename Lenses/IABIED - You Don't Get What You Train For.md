@@ -1,6 +1,8 @@
 ---
 id: 5f1a6d4e-7b0c-4274-d895-b0c6d2e47f58
-summary_for_tutor: Main Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained.
+reading_minutes: 25
+tutor_minutes: 20
+summary_for_tutor: Main Lens for Chapter 4. Students articulate the ice cream argument, the escalation to sucralose and peacock tail, the Mink vignettes, and the blank-map principle, the alignment problem named and explained. Students also connect the chapter back to an earlier idea that the prompt does not name.
 title: You Don't Get What You Train For
 tldr: You trained it to be helpful. But helpful in training isn't the same as wanting to be helpful later. Chapter 4 explains why, and it gets worse.
 authors:
@@ -99,10 +101,48 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
+#### Question: Open
+id:: a9f47df2-3762-45a2-9929-7fa7cc2cfd76
+content::
+\## Phase 3: Connection
+This chapter's argument does not start from nothing. It leans on something you worked through earlier in this course, and it never stops to say so.
+
+Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read Chapter 4 ("You Don't Get What You Train For"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 2's distinction between behavior and values.** Chapter 2 established that what a system does under observation does not tell you what it wants. Chapter 4 is the causal version of that same gap: training on a target does not install the target, so behavior during training is not evidence about the preferences that will surface later. Without Chapter 2's distinction the reader has no reason to care that the three-step gap exists, because they would still be treating observed helpfulness as the thing itself.
+
+How to grade what comes back:
+
+- **On target.** They name the behavior-versus-values distinction in their own words, and say what it is doing here: it is why the ice cream argument matters rather than being a curiosity about human appetites. Confirm briefly, then move on.
+- **Strong near miss: "AI is grown, not crafted" (Chapter 2).** Legitimate and upstream of the right answer. Accept it, then push once: growing rather than crafting explains why we cannot inspect the values directly, but what earlier idea tells us we cannot read them off the behavior either?
+- **Weaker near miss: "wanting emerges from training" (Chapter 3).** This is the immediate predecessor and easy to reach for. Accept that it is connected, then push: that tells us wants appear, but this chapter's claim is about a gap between the target and the want. Which earlier idea set up the gap?
+- **Off target.** They name something from Chapter 4 itself (the ice cream argument, sucralose, the Mink vignettes). Say plainly that those are this chapter's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what this chapter assumes you have already accepted about the relationship between what a system does and what it wants. If they are still stuck after that, name Chapter 2's distinction in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80–150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 2 back to them at length. One sentence is the ceiling.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Turn this into a review of Chapters 2 and 3.
+
 #### Question
 id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
-\## Phase 3: Learning Question
+\## Phase 4: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -148,6 +188,11 @@ Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications (push from ice cream to sucralose to the peacock tail, or to the blank-map principle) rather than ending prematurely.
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who rebuts the million-tests claim entirely from this chapter's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on why behavioral evidence cannot settle the question, you may point back in one sentence to what they said in the previous phase. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::

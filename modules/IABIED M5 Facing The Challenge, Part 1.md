@@ -1,6 +1,6 @@
 ---
 id: 43f09573-606d-4a92-aabf-fcbede97cf34
-slug: iabied-m5
+slug: iabied-u4
 title: "Facing the Challenge, Part 1"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 readings:
@@ -11,16 +11,28 @@ authors:
 ---
 
 # Submodule: Welcome
-# Lens: M5 Welcome
-source:: ![[../Lenses/IABIED - M5 Welcome]]
+# Lens: Welcome
+id:: 977163ed-d709-417f-bbe3-57a58254c571
+tldr:: Whether the engineering problem behind the scenario can actually be solved, and what state the field working on it is in. Ends by asking you to talk to one person about what you have been reading.
+summary_for_tutor:: Welcome and framing lens for Unit 4, covering IABIED Chapters 10 and 11, each split across two shorter readings paired with tutor conversations. Frames the unit's question as whether the engineering problem can be solved, and names the closing Talk to One Person lens and why it is there. Previews none of the unit's conclusions.
+reading_minutes:: 2
+
+#### Text
+content:: Having watched the scenario play out, this unit asks whether the engineering problem behind it can actually be solved. It draws on the earlier chapters more than any unit so far.
+
+The unit ends by asking something of you: talk to one person you know about what you have been reading. It is the book's own ask of ordinary citizens, and it is the most honest test of your understanding. It is one thing to hold up your arguments in conversations within this course, but explaining the argument to someone who has never heard of it shows you which parts you actually own. The last lens helps you pick your person and rehearse before you have the conversation.
+
+**This unit's reading:** Chapter 10 ("A Cursed Problem") and Chapter 11 ("An Alchemy, Not a Science"), each split across two shorter readings.
+
+Head to the first lens when you are ready.
 
 # Submodule: Ch10 - A Cursed Problem
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/11 - Chapter 10 - A Cursed Problem]]
 
-# Learning Outcome: IABIED - The Five Engineering Curses
+# Learning Outcome:
 source:: ![[../Learning Outcomes/The five engineering curses]]
 
-# Learning Outcome: IABIED - Position Not Despair
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Position, not despair]]
 
 %%
@@ -44,6 +56,7 @@ source:: ![[../Lenses/IABIED - Position Not Despair]]
 id:: 5db4d07c-cbb5-4b6f-ad50-427eb9a62386
 tldr:: The authors answered the objections Chapter 10 invites: is AI really different from past technologies, will there be enough time to solve alignment, and what Chicago Pile-1 teaches about cursed problems.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 10 (A Cursed Problem). Links the book website's supplementary Q&A cards covering whether AI differs from precedents and from nuclear reactors, time to solve alignment, many different AIs, slow AI integration, before-and-after framing, and Chicago Pile-1. A navigation and index lens only; it carries no standalone teaching content of its own.
+reading_minutes:: 2
 optional:: true
 
 #### Text
@@ -98,10 +111,10 @@ source:: ![[../Lenses/IABIED - QA - Chicago Pile-1]]
 # Submodule: Ch11 - An Alchemy, Not a Science
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/12 - Chapter 11 - An Alchemy, Not a Science]]
 
-# Learning Outcome: IABIED - Alchemy Not Science
+# Learning Outcome:
 source:: ![[../Learning Outcomes/Alignment as alchemy]]
 
-# Learning Outcome: IABIED - Strong Superalignment Objection
+# Learning Outcome:
 source:: ![[../Learning Outcomes/The superalignment objection]]
 
 %%
@@ -124,6 +137,7 @@ source:: ![[../Lenses/IABIED - Strong Superalignment Objection]]
 id:: 1a96c108-14b1-4b19-9c24-0f44fced1374
 tldr:: Chapter 11's optional Q&As: can't we just muddle through, is alignment all-or-nothing, can interpretability save us, and what shutdown buttons would really take.
 summary_for_tutor:: Optional Dive Deeper index lens for Chapter 11 (An Alchemy, Not a Science). Links the book website's supplementary Q&A cards covering muddling through, alignment as all-or-nothing, government involvement, reckless versus incompetent labs, hardware overhang, racing for alignment research, non-dangerous deployment, interpretability, AIs debating and overseeing each other, other alignment plans, early warnings, plans critiqued, respect for the problem, and shutdown buttons and corrigibility. A navigation and index lens only; it carries no standalone teaching content of its own.
+reading_minutes:: 2
 optional:: true
 
 #### Text

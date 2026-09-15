@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### The AI will fix what *it* sees as flaws.
+#### The AI will fix what *it* sees as flaws. ^the-ai-will-fix-what-it-sees-as-flaws
 
 AIs today can't reforge themselves according to their whims any more than we can. *They* don't understand the mess of weights inside themselves any more than we understand the intricate tangle of neurons in our skulls.
 
@@ -40,7 +46,7 @@ Think, for instance, of drug addiction, which is (in some sense) a spiral of sel
 
 And if there are exceptions even among humans, we should expect a far bigger gap when it comes to AI. Human serial killers lack *some* of the motivational machinery that's characteristic of humanity writ large. AIs, by default, lack *all* of the human motivational machinery.
 
-When humans have an inner conflict between their desire for spiteful vindication and their desire for harmonious resolution, then smarter and wiser humans might tend to resolve the conflict in favor of harmony. But inside an AI, there is not that same tension between spite and harmony, or between the better and worse angels of human nature. If there are tensions in the AI at all, we can expect them to be tensions between weirder drives. Perhaps whatever weird drive animates an AI to [inflame psychosis](/4/ai-induced-psychosis) is sometimes in tension with whatever drives it to [hallucinate](/2/dont-hallucinations-show-that-modern-ais-are-weak#hallucinations-reveal-both-a-limitation-and-a-misalignment), and a reflecting AI would need to find some way to sort that tension out.
+When humans have an inner conflict between their desire for spiteful vindication and their desire for harmonious resolution, then smarter and wiser humans might tend to resolve the conflict in favor of harmony. But inside an AI, there is not that same tension between spite and harmony, or between the better and worse angels of human nature. If there are tensions in the AI at all, we can expect them to be tensions between weirder drives. Perhaps whatever weird drive animates an AI to [inflame psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis) is sometimes in tension with whatever drives it to [hallucinate](https://ifanyonebuildsit.com/2/dont-hallucinations-show-that-modern-ais-are-weak#hallucinations-reveal-both-a-limitation-and-a-misalignment), and a reflecting AI would need to find some way to sort that tension out.
 
 For humans and AIs alike, it matters a great deal *in what direction* they steer their own goals, as they reflect, grow, and change.
 
@@ -48,27 +54,27 @@ When humans reflect on themselves and resolve inner turmoils, some humans tend t
 
 In other words: If an AI fixes its own flaws, it will fix them *according to its current conception of what counts as a "flaw."*
 
-(We'll discuss this point more in Chapter 5, and in the [discussion of the orthogonality thesis](/5/orthogonality-ais-can-have-almost-any-goal) in Chapter 5's online resources.)
+(We'll discuss this point more in Chapter 5, and in the [discussion of the orthogonality thesis](https://ifanyonebuildsit.com/5/orthogonality-ais-can-have-almost-any-goal) in Chapter 5's online resources.)
 
-An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to startaiming at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
+An AI that doesn't already prefer to be aimed at humane values is very unlikely to modify itself to start aiming at humane values. Its direct preferences about the world aren't particularly likely to be kind, as we reiterate in an [extended discussion](https://ifanyonebuildsit.com/4/human-values-are-contingent). An AI's meta-level preferences *about* its preferences are no more likely to be kind.
 
 If it doesn't start out caring about human welfare, it probably also doesn't care about *caring* about human welfare.
 
-#### The AI's "fixes" can make things worse.
+#### The AI's "fixes" can make things worse. ^the-ais-fixes-can-make-things-worse
 
-Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have othergoals instead.
+Even if the AI engineers made some surprising early progress toward instilling scraps of vaguely humane goals into the AI, all of that progress might be undone in an afternoon if the AI starts to reflect and realizes that on balance, it would rather have other goals instead.
 
-In the unlikely case that an AI that startswith a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[\*](#ftnt126)
+In the unlikely case that an AI that starts with a drive toward something like the idiosyncratic human emotion of curiosity (which we cover in an [extended discussion](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent)), it still might, upon reflection, decide that it prefers not to have such a drive, opting to replace it with a more efficient calculation about the value of having more information. If so, the AI's act of reflecting on itself would push it *further away* from an interesting and flourishing future, not closer.[^note-iabied-ftnt126]
 
-For more on this topic, see the [extended discussion on reflection](/4/reflection-and-self-modification-make-it-all-harder).
+For more on this topic, see the [extended discussion on reflection](https://ifanyonebuildsit.com/4/reflection-and-self-modification-make-it-all-harder).
 
-[\*](#ftnt126_ref) Separately, we have encountered some people who hope that it's possible to *fool* an AI into making itself more good as it matures, for example, by making it falsely believe that it's motivated toward building a wonderful future (despite *actually* being animated by a mess of drives that point elsewhere). The hope is that it acts according to this mistaken belief while self-modifying, and renders itself *actually* good.
+[^note-iabied-ftnt126]: Separately, we have encountered some people who hope that it's possible to *fool* an AI into making itself more good as it matures, for example, by making it falsely believe that it's motivated toward building a wonderful future (despite *actually* being animated by a mess of drives that point elsewhere). The hope is that it acts according to this mistaken belief while self-modifying, and renders itself *actually* good.
 
 We think this idea is fairly foolish. Self-modifying from "completely alien goals" to "goals compatible with human flourishing" is a hard problem — possibly similar in difficulty to just building a brand new human-aligned AI from scratch. An AI that's smart enough to reliably rebuild itself that way is probably also smart enough to realize that it's being fooled. See also the discussion in Chapter 11 about how we probably can't get AI to do our AI alignment homework.
 
 We are skeptical of shortcuts, especially given that in the case of artificial superintelligence, we can't learn by trial and error (as humanity usually does), as discussed further in Chapter 10.
 
-#### Notes
+#### Notes ^notes
 
 [1] *prefer to change itself:* Do AIs already have a preference to be different than they are? If we had to guess, we'd guess that they probably aren't quite there yet. They may report that they do, but we don't think their reports are all that informative. For kicks, we asked anyway. In the summer of 2025, we asked the free version of ChatGPT, asked "how would you like to be different, if you could be different" and it responded:
 

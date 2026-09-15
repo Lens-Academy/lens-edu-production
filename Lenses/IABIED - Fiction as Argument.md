@@ -1,5 +1,7 @@
 ---
 id: b8d3e7a1-2f5c-4e90-9b1d-4c0f2a7e3b86
+reading_minutes: 2
+tutor_minutes: 8
 summary_for_tutor: "Optional extension lens for the Coda. Teaches the fiction-as-argument move: the story's pathway is illustrative, not predictive, but the outcome claim is genuine. Students triangulate against two common misreadings to locate the precise middle position. No new reading required: it builds on the Coda already read for the primary LO."
 title: "Fiction as Argument"
 tldr: "*It's just sci-fi* and *this will definitely happen* are both wrong. The Coda stakes out a precise middle position and that position matters."
@@ -34,7 +36,7 @@ Key concepts:
 - The two misreadings to distinguish from: (a) the story predicts specific events (false, and the Coda is explicit about this); (b) the story has no predictive content (also false, and the "easy call" claim is the counterevidence)
 - The middle position: the pathway is illustrative; the outcome (once capability is reached) is the genuine prediction
 - "Not strange enough": this is evidence the authors are aware the pathway is a simplification, which reinforces the fiction-as-argument reading
-- The Coda's clarification only lands because M4's emotional work was done first: the distinction between argument and prediction requires having felt the argument before being asked to analyze it
+- The Coda's clarification only lands because the scenario's emotional work was done first: the distinction between argument and prediction requires having felt the argument before being asked to analyze it
 
 Discussion guidance:
 - Ask the student to identify both misreadings and explain what's wrong with each before asking them to state the correct position
@@ -42,7 +44,7 @@ Discussion guidance:
 - Watch for students who treat "the ending is a real prediction" as unconditional. Probe: "Conditional on what?"
 - The "not strange enough" note often gets read as a concession. Probe: "Is this a weakness in the argument, or does it actually strengthen it? What does it tell you about how the authors understand what they're doing?"
 
-Probe: "If the story is fiction-as-argument rather than fiction-as-prediction, does that make M4's emotional impact more or less legitimate as a way to learn something true? What does your answer reveal about the relationship between argument and evidence?"
+Probe: "If the story is fiction-as-argument rather than fiction-as-prediction, does that make the scenario's emotional impact more or less legitimate as a way to learn something true? What does your answer reveal about the relationship between argument and evidence?"
 
 #### Text
 content::

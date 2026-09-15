@@ -45,7 +45,7 @@ There is not a standard word in the English language that refers *only* to real-
 
 The *actually* scary intelligent villain would be a character where, if everyone in the audience could see the blatant flaw in a plan, *the villain would see it too.*
 
-In the movie *Avengers: Age of Ultron,* the supposedly brilliant AI named Ultron is given a directive to promote "world peace" by its supposedly genius creator, Tony Stark.[\*](#ftnt36) Ultron, of course, immediately sees that a lack of war can most reliably be brought about by an absence of human beings. So the AI sets out to exterminate all life on Earth, by…
+In the movie *Avengers: Age of Ultron,* the supposedly brilliant AI named Ultron is given a directive to promote "world peace" by its supposedly genius creator, Tony Stark.[^note-iabied-ftnt36] Ultron, of course, immediately sees that a lack of war can most reliably be brought about by an absence of human beings. So the AI sets out to exterminate all life on Earth, by…
 
 …attaching rockets to a city, and lifting it into space with the intention of dropping it like a meteor…and guarding it with flying humanoid robots who have to be defeated by punching them.
 
@@ -71,7 +71,7 @@ To regard something as substantially smarter than you should mean to give it at 
 
 Are there any examples in real life of something smarter than any human? AIs like Stockfish are superhuman in the narrow domain of chess, but what about broader domains?
 
-One example we can use to help shore up our intuitions here is the stock market — an example we previously used in the extended discussion "[More on Intelligence as Prediction and Steering](/1/more-on-intelligence-as-prediction-and-steering)."
+One example we can use to help shore up our intuitions here is the stock market — an example we previously used in the extended discussion "[More on Intelligence as Prediction and Steering](https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering)."
 
 Perhaps your uncle buys Nintendo stock because he liked playing the *Super Mario Bros.* game. Therefore, he concludes, Nintendo will make a lot of money. So if he buys their stock, surely *he* will make a lot of money.
 
@@ -89,7 +89,7 @@ It is *necessarily* "very few." The information-gathering process is imperfect, 
 
 Almost always, this has *already happened* before *you personally* get there. Traders compete to do it first by literal milliseconds. And that's why your brilliant trading idea probably won't make you a fortune in the stock market.
 
-This doesn't mean the market prices today are *perfect* predictions of what the prices will be like a week later. All it means is that, when it comes to well-traded asset prices, it's hard for *you* to know better.[†](#ftnt37)
+This doesn't mean the market prices today are *perfect* predictions of what the prices will be like a week later. All it means is that, when it comes to well-traded asset prices, it's hard for *you* to know better.[^note-iabied-ftnt37]
 
 This idea can be generalized. Suppose that arbitrarily advanced aliens, with millennia more science and technology behind them, visited the Earth. Should you expect that the aliens can perfectly guess the number of hydrogen atoms in the Sun (ignoring a number of quibbles about exactly how to define that number)?
 
@@ -97,7 +97,7 @@ No. "More advanced" doesn't mean "omniscient," and this seems like a number that
 
 But one thing we *wouldn't* say is, "Oh, well, hydrogen atoms are very light, really, and probably the aliens will overlook that, so they will probably guess low by around 10 percent." If we can think of that point, *so can the aliens*. All of our brilliant insights should already be incorporated into their calculation.
 
-Put another way: The aliens' estimate *will* be off. But we ourselvescannot expect to predict the*way* in which the alien estimate will be wrong. We don't know whether it would be too high or too low. The extremely advanced aliens won't make science mistakes that are obvious to *us.* We should grant the aliens that much respect — like the respect we'd grant to Magnus Carlsen in chess.
+Put another way: The aliens' estimate *will* be off. But we ourselves cannot expect to predict the *way* in which the alien estimate will be wrong. We don't know whether it would be too high or too low. The extremely advanced aliens won't make science mistakes that are obvious to *us.* We should grant the aliens that much respect — like the respect we'd grant to Magnus Carlsen in chess.
 
 In economics, the corresponding idea that applies to asset price changes is — unfortunately, in our own opinion — called the "efficient market hypothesis."
 
@@ -119,8 +119,8 @@ This generalization of efficient market prices is an idea that we think should b
 
 This is the idea that seems to be missing from the depictions of "superintelligence" in popular culture and Hollywood movies. It's the concept that seems to be absent in conversations about AI when people spin up ideas for outsmarting a superintelligence *that even a human adversary would be able to see coming*.
 
-Perhaps it's optimism bias, or a sense that AIs must be [coldly logical beings](/2/wont-ais-inevitably-be-cold-and-logical-or-otherwise-missing-some-crucial-spark) with [critical blind spots](/6/wont-we-be-able-to-exploit-the-ais-critical-weakness). Whatever the explanation, this cognitive error has real consequences. If you can't respect the power of intelligence, you'll badly misunderstand what it means for humanity to build a superintelligence. You might find yourself thinking that you'll still be able to find a winning move when facing a superintelligence that would prefer you gone and your resources repurposed. But in reality, the only winning move is not to play.
+Perhaps it's optimism bias, or a sense that AIs must be [coldly logical beings](https://ifanyonebuildsit.com/2/wont-ais-inevitably-be-cold-and-logical-or-otherwise-missing-some-crucial-spark) with [critical blind spots](https://ifanyonebuildsit.com/6/wont-we-be-able-to-exploit-the-ais-critical-weakness). Whatever the explanation, this cognitive error has real consequences. If you can't respect the power of intelligence, you'll badly misunderstand what it means for humanity to build a superintelligence. You might find yourself thinking that you'll still be able to find a winning move when facing a superintelligence that would prefer you gone and your resources repurposed. But in reality, the only winning move is not to play.
 
-[\*](#ftnt36_ref) There was a point where we would have called it "unrealistic" to imagine that an AI's inventor would be that naive, but unfortunately, we now know better. Human AI creators will *totally* propose plans where even lay thinkers can see the giant gaping flaw.
+[^note-iabied-ftnt36]: There was a point where we would have called it "unrealistic" to imagine that an AI's inventor would be that naive, but unfortunately, we now know better. Human AI creators will *totally* propose plans where even lay thinkers can see the giant gaping flaw.
 
-[†](#ftnt37_ref) Not impossible! If you think you know something the market doesn't know or hasn't realized yet, you might be able to make money that way. Some of our friends made good money by predicting the stock market effects of the COVID lockdowns before anyone else did. The market is not *so* efficient that you'll never be able to beat it. But it is efficient enough that you can't beat it in most stocks most of the time.
+[^note-iabied-ftnt37]: Not impossible! If you think you know something the market doesn't know or hasn't realized yet, you might be able to make money that way. Some of our friends made good money by predicting the stock market effects of the COVID lockdowns before anyone else did. The market is not *so* efficient that you'll never be able to beat it. But it is efficient enough that you can't beat it in most stocks most of the time.

@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
 ...
 
 %%
-#### Yes.
+#### Yes. ^yes
 
 Some of the unique features of the AI alignment challenge will make it easier than, say, engineering a nuclear power plant. Other features will make it harder. On the whole, nuclear weapons and nuclear power plants seem dramatically simpler to manage than smarter-than-human AI.
 
@@ -36,6 +42,6 @@ As for ways that AI is likely to be a *harder* challenge than past problems huma
 9. Nuclear weapons are hard to replicate. There is no huge technological effort underway to build rentable technology that anyone can use to make nukes, and making one nuclear weapon in a lab doesn't let you deploy 100,000 copies of that nuclear weapon a week later.
 10. Major world powers treat nuclear war as a real possibility and an unacceptable outcome. World leaders put real work into avoiding it; even the most selfish among them knows that a nuclear war could kill them and their family and ruin the places and possessions dearest to them. Citizens and voters don't want a nuclear war. Humanity is as united against nuclear war as we have ever been united about anything.
 
-Worse yet — as discussed in the book and in the[extended discussion section below](/10/a-closer-look-at-before-and-after) — humanity only gets one shot at getting superintelligence right. If a nuclear power plant explodes, other people in the world can learn from what happened and do better next time.
+Worse yet — as discussed in the book and in the [extended discussion section below](https://ifanyonebuildsit.com/10/a-closer-look-at-before-and-after) — humanity only gets one shot at getting superintelligence right. If a nuclear power plant explodes, other people in the world can learn from what happened and do better next time.
 
 All of these features suggest that superintelligence poses an extraordinary challenge, and an extraordinarily novel one. There are analogies, but they only apply in narrow ways. There is no established playbook for ASI.

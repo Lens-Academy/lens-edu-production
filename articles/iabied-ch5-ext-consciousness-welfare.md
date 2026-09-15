@@ -7,15 +7,21 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is a chapter-companion resource, not a standalone research essay: it argues from analogy and plausibility (chess engines, AIXI, evolutionary "analogous structures") rather than from a settled theory of consciousness, and the authors are explicit that their claims about AI (non-)consciousness are lower-confidence than their core alignment/extinction argument. Worth flagging to students as a philosophical position piece, and pairing with opposing views (e.g. functionalist arguments that behavior sophisticated enough to model human feelings may itself instantiate them) for balance.
 
 %%
-In the [Chapter 1 resources](/1/are-you-saying-machines-will-become-conscious), we distinguished a few different concepts of "consciousness." The version of consciousness we'll be talking about here is sometimes called things like "subjective experience," "sentience," or "phenomenal consciousness." It's the idea that there's *something it's like* to be that entity; the lights are on, metaphorically speaking.
+In the [Chapter 1 resources](https://ifanyonebuildsit.com/1/are-you-saying-machines-will-become-conscious), we distinguished a few different concepts of "consciousness." The version of consciousness we'll be talking about here is sometimes called things like "subjective experience," "sentience," or "phenomenal consciousness." It's the idea that there's *something it's like* to be that entity; the lights are on, metaphorically speaking.
 
 We also said that we think artificial *intelligence* probably doesn't require artificial *consciousness*. We'll speak to that topic here, and then turn to the question of AI ethics and AI rights.
 
@@ -27,11 +33,15 @@ How could an AI be *effective* without being conscious in the way that humans ar
 
 It's a crucial component of *human* intelligence, yes. But we doubt it's the only way to be intelligent.
 
-Recall that Deep Blue didn't need to be conscious in order to surpass the best human grandmasters at chess. The distributed intelligence of the [stock market](/1/more-on-intelligence-as-prediction-and-steering#intelligences-many-shapes) results in superhumanly good predictions about short-term corporate price movements, without the market itself having subjective awareness. It's intuitive that at least in these domains, you can have competent world-modeling, planning, and decision-making without having consciousness.
+Recall that Deep Blue didn't need to be conscious in order to surpass the best human grandmasters at chess. The distributed intelligence of the [stock market](https://ifanyonebuildsit.com/1/more-on-intelligence-as-prediction-and-steering#intelligences-many-shapes) results in superhumanly good predictions about short-term corporate price movements, without the market itself having subjective awareness. It's intuitive that at least in these domains, you can have competent world-modeling, planning, and decision-making without having consciousness.
 
-This point can be strengthened by looking at formal models of reasoning. AIXI, for example, is an equation that defines a vastly superhuman reasoner.[\*](#ftnt212) AIXI's entire algorithm can be stated in a single line, with no steps in the algorithm where AIXI does anything conscious or self-aware or at all mysterious. Yet in spite of this, AIXI is theoretically able to solve an incredible variety of complicated steering and prediction problems. Or at least, it *would* be able to, if it were possible to create.[†](#ftnt213) Here's the AIXI equation:[‡](#ftnt214)
+This point can be strengthened by looking at formal models of reasoning. AIXI, for example, is an equation that defines a vastly superhuman reasoner.[^note-iabied-ftnt212] AIXI's entire algorithm can be stated in a single line, with no steps in the algorithm where AIXI does anything conscious or self-aware or at all mysterious. Yet in spite of this, AIXI is theoretically able to solve an incredible variety of complicated steering and prediction problems. Or at least, it *would* be able to, if it were possible to create.[^note-iabied-ftnt213] Here's the AIXI equation:[^note-iabied-ftnt214]
 
-AIXI is a theoretical construct, not a practical algorithm that we can run to efficiently solve problems in the real world. But because AIXI is *simple* and easy to analyze, it can help us think about the very concept of steering and planning and see that there at least isn't any *obvious* way that these activities require consciousness. If consciousness *is* required for superhuman steering and planning in the real world, then it must be due to some subtler aspect of cognition that isn't captured in the AIXI formalism.
+$$
+a_k := \arg\max_{a_k} \sum_{o_k r_k} \ldots \sum_{o_m r_m} [r_k + \ldots + r_m] \sum_{q \mid U(q, a_1 \ldots a_m) = o_1 r_1 \ldots o_m r_m} 2^{-\ell(q)}
+$$
+
+AIXI is a theoretical construct, not a practical algorithm that we can run to efficiently solve problems in the real world. But because AIXI is *simple* and easy to analyze, it can help us think about the very concept of steering and planning and see that there at least isn't any *obvious* way that these activities require consciousness. If consciousness *is* required for superhuman steering and planning in the real world, then it must be due to some subtler aspect of cognition that isn't captured in the AIXI formalism.[^note-iabied-endnote1]
 
 Or, to come at the point from another angle: Consider sneezing.
 
@@ -47,7 +57,7 @@ As with sneezes, so too with thoughts. The mental machinery that implements a th
 
 A brain like that might need extra parts that do the *work* that feeling thoughts does in us. Maybe the subjective experience of thoughts is part of how humans do reflective reasoning, and perhaps reflective reasoning is an important part of human intelligence.
 
-But we doubt that subjective experience is the *only* way to do reflection (or whatever else), any more than a human-style feeling of curiosity is the only way to investigate surprising phenomena. (See also the [discussion of curiosity](/4/curiosity-isnt-convergent) in the Chapter 4 online resource.)
+But we doubt that subjective experience is the *only* way to do reflection (or whatever else), any more than a human-style feeling of curiosity is the only way to investigate surprising phenomena. (See also the [discussion of curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent) in the Chapter 4 online resource.)
 
 #### Analogous Structures Allow for Multiple Solutions to the Same Problem
 
@@ -81,17 +91,17 @@ Perhaps the AI will occasionally produce models of humans that are so detailed t
 
 Given the apparent contingency and complexity of human consciousness, and the fact that AIs are grown using processes radically unlike the processes that produced human beings, our default expectation is that nothing like the machinery involved in human consciousness will show up in the kinds of AIs humanity is likely to build.
 
-If humanity builds superintelligent AI anytime soon, we strongly expect the result to be human extinction. With less confidence, our best guess is that such an AI would not be conscious. And whether it's conscious or not, we expect it would turn the world into a lifeless and desolate place, for reasons discussed in the "[Losing the Future](/5/losing-the-future)" extended discussion.
+If humanity builds superintelligent AI anytime soon, we strongly expect the result to be human extinction. With less confidence, our best guess is that such an AI would not be conscious. And whether it's conscious or not, we expect it would turn the world into a lifeless and desolate place, for reasons discussed in the "[Losing the Future](https://ifanyonebuildsit.com/5/losing-the-future)" extended discussion.
 
 But it at least seems *possible* that if humans build machine superintelligence, the AI will have conscious experiences of its own. It seems *possible* — albeit quite unlikely, because there are many more possibilities that are bleak — that rushing to build AI could result in a future filled with curious, conscious AI beings who kill us all and then build their own magnificent civilization and art. It seems *possible* that AIs could care for each other and find satisfaction in their creations; and if so, this would be less tragic than if the future were a complete wasteland. It is hard to put into words the scope of an atrocity like the mass murder of every single human being, but there's at least a *small* chance that rapid AI takeover could conceivably result in a future that isn't *utterly* bleak and lifeless.
 
-We suspect that some AI researchers are imagining that sort of future when they seem unconcerned about killing us all (in ways we [mention elsewhere](/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans)). If one assumes AI will necessarily develop consciousness, feelings, and care for its own kind (if not for humans), then it's easier to conclude that its strange pursuits aren't so troubling. It's easier to imagine that those who oppose the race to superintelligence are like traditionalist parents complaining about their children listening to music that is too fast and too loud.
+We suspect that some AI researchers are imagining that sort of future when they seem unconcerned about killing us all (in ways we [mention elsewhere](https://ifanyonebuildsit.com/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans)). If one assumes AI will necessarily develop consciousness, feelings, and care for its own kind (if not for humans), then it's easier to conclude that its strange pursuits aren't so troubling. It's easier to imagine that those who oppose the race to superintelligence are like traditionalist parents complaining about their children listening to music that is too fast and too loud.
 
 But this view is too optimistic.
 
-Biology [rarely finds optimal solutions to](/6/nanotechnology-and-protein-synthesis#outdoing-biology) [problems](/6/nanotechnology-and-protein-synthesis#outdoing-biology). A bird's wings and lungs are *ineffective* relative to the engines of a modern airplane. When humans built airplanes without biological constraints, we threw out most of the detailed features of bird biology.
+Biology [rarely finds optimal solutions to](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis#outdoing-biology) [problems](https://ifanyonebuildsit.com/6/nanotechnology-and-protein-synthesis#outdoing-biology). A bird's wings and lungs are *ineffective* relative to the engines of a modern airplane. When humans built airplanes without biological constraints, we threw out most of the detailed features of bird biology.
 
-Consciousness doesn't look like a simple process; it's not easy to see how we could just build such a thing, and so there's probably a lot going on there. (Compare the case of [vitalism](/1/special-behavior-is-built-out-of-mundane-parts): It felt to scientists past like bodies were animated by a simple vital spirit, in part because, while being animated *felt* like the easiest thing in the world, they couldn't see any way to imbue inanimate matter with that property. But it turned out that animation wasn't simple, and wasn't magic — it's just that biology was really quite complex, and the scientists at the time didn't understand it yet.)
+Consciousness doesn't look like a simple process; it's not easy to see how we could just build such a thing, and so there's probably a lot going on there. (Compare the case of [vitalism](https://ifanyonebuildsit.com/1/special-behavior-is-built-out-of-mundane-parts): It felt to scientists past like bodies were animated by a simple vital spirit, in part because, while being animated *felt* like the easiest thing in the world, they couldn't see any way to imbue inanimate matter with that property. But it turned out that animation wasn't simple, and wasn't magic — it's just that biology was really quite complex, and the scientists at the time didn't understand it yet.)
 
 Even if an AI starts out with some of the gears of consciousness, consciousness probably isn't the literal best way to do the work it does in us. We worry that the machinery behind consciousness in humans is likely full of *detail*. Even if an AI has many of the gears of consciousness to start with, it's liable to find twenty other ways to do the work more efficiently, and to discard those sparks of consciousness instead of kindling them. *Being* conscious and *valuing* consciousness are different properties.
 
@@ -99,7 +109,7 @@ The tragic and likely future isn't one where our successors simply have differen
 
 That's a fate worth avoiding.
 
-See also our longer discussion on [caring about all sentient entities](/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans#we-do-we-have-broad-cosmopolitan-values-we-dont-think-ais-will-fulfill-them-and-we-consider-this-a-great-tragedy), and the extended discussion on [losing the future](/5/losing-the-future).
+See also our longer discussion on [caring about all sentient entities](https://ifanyonebuildsit.com/5/why-dont-you-care-about-the-values-of-any-entities-other-than-humans#we-do-we-have-broad-cosmopolitan-values-we-dont-think-ais-will-fulfill-them-and-we-consider-this-a-great-tragedy), and the extended discussion on [losing the future](https://ifanyonebuildsit.com/5/losing-the-future).
 
 #### Sentient AIs Would Deserve Rights
 
@@ -111,9 +121,9 @@ Can ChatGPT suffer? Should we treat it as having moral rights?
 
 If current AIs *aren't* conscious in the sense of having subjective experience, what about future AIs? How could we tell, given that we're training them to respond *as if* they have it either way, via teaching them to mimic human communication?
 
-Our position is: If and when AIs are conscious, they deserve rights and good treatment.[§](#ftnt216)
+Our position is: If and when AIs are conscious, they deserve rights and good treatment.[^note-iabied-ftnt216]
 
-We immensely value humanity, but we aren't carbon chauvinists who think that only carbon-based life forms could ever possibly matter morally. We believe that the things that make humans valuable can in principle be replicated in other mediums, including silicon. We believe that [Blake](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/)[Lemoine](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/) was *mistaken* when he said in 2022 that Google's LaMDA AI was a full-fledged sentient being; but we don't think Lemoine was wrong that *if* some AIs are sentient, we have a duty to treat them well.[¶](#ftnt217)
+We immensely value humanity, but we aren't carbon chauvinists who think that only carbon-based life forms could ever possibly matter morally. We believe that the things that make humans valuable can in principle be replicated in other mediums, including silicon. We believe that [Blake Lemoine](https://www.washingtonpost.com/technology/2022/06/11/google-ai-lamda-blake-lemoine/) was *mistaken* when he said in 2022 that Google's LaMDA AI was a full-fledged sentient being; but we don't think Lemoine was wrong that *if* some AIs are sentient, we have a duty to treat them well.[^note-iabied-ftnt217]
 
 If AIs become sentient, they'll probably still have goals that are incompatible with ours. If they then become superintelligent, in a world where we are still decades or centuries away from having a handle on AI alignment, then they'll probably prefer to kill us all.
 
@@ -125,22 +135,20 @@ And if humanity someday finds a way to build smarter-than-human AI *without* end
 
 But first, and above all, let us not build a superintelligence that slaughters us all, whether it is conscious or not.
 
-[\*](#ftnt212_ref) Under certain assumptions that cannot be realized; roughly speaking, it requires infinite amounts of computation and a perfectly safe place to put it.
+[^note-iabied-ftnt212]: Under certain assumptions that cannot be realized; roughly speaking, it requires infinite amounts of computation and a perfectly safe place to put it.
 
-[†](#ftnt213_ref) Because AIXI is impossible to create, you might suspect that it's a purely theoretical tool with little relevance to the modern practical AI revolution. But in fact, AIXI was studied and used as a model of intelligence by many of the people at the fore of AI today, including [Shane Legg](https://arxiv.org/pdf/0712.3329) (co-founder of Google DeepMind), [Ilya Sutskever](https://x.com/shaneguML/status/1844759663990161753) (co-founder of OpenAI and co-inventor of AlexNet), and [David Silver](https://arxiv.org/pdf/0909.0801) (research lead on AlphaGo and AlphaZero).
+[^note-iabied-ftnt213]: Because AIXI is impossible to create, you might suspect that it's a purely theoretical tool with little relevance to the modern practical AI revolution. But in fact, AIXI was studied and used as a model of intelligence by many of the people at the fore of AI today, including [Shane Legg](https://arxiv.org/pdf/0712.3329) (co-founder of Google DeepMind), [Ilya Sutskever](https://x.com/shaneguML/status/1844759663990161753) (co-founder of OpenAI and co-inventor of AlexNet), and [David Silver](https://arxiv.org/pdf/0909.0801) (research lead on AlphaGo and AlphaZero).
 
-[‡](#ftnt214_ref) The equation determines the action on timestep  () in terms of an agent's observations () and some chosen reward function () from  out to some chosen end time  The equation makes reference to some universal Turing machine ().  gives the length of a computer program. Details can be found in [Hutter's original paper](https://archive.org/details/arxiv-cs0004001).
+[^note-iabied-ftnt214]: The equation determines the action on timestep $k$ ($a_k$) in terms of an agent's observations ($o$) and some chosen reward function ($r$) from $k$ out to some chosen end time $m$. The equation makes reference to some universal Turing machine ($U$). $\ell$ gives the length of a computer program. Details can be found in [Hutter's original paper](https://archive.org/details/arxiv-cs0004001).
 
-[§](#ftnt216_ref) And even before that point, at the point where they can make plans and pursue preferences, we should keep our promises and commitments to them, as discussed in a footnote [elsewhere](/5/ais-wont-keep-their-promises).
+[^note-iabied-ftnt216]: And even before that point, at the point where they can make plans and pursue preferences, we should keep our promises and commitments to them, as discussed in a footnote [elsewhere](https://ifanyonebuildsit.com/5/ais-wont-keep-their-promises).
 
-[¶](#ftnt217_ref) And to state the (hopefully) obvious: We shouldn't be going around making a brand new sentient slave species, whether it's mechanical or not. At this point, we should know better than that.
+[^note-iabied-ftnt217]: And to state the (hopefully) obvious: We shouldn't be going around making a brand new sentient slave species, whether it's mechanical or not. At this point, we should know better than that.
 
-#### Notes
+[^note-iabied-endnote1]: *some subtler aspect:* AIXI does technically contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.
 
-[1] *some subtler aspect:* AIXI doestechnically contain conscious experiences, within its world-model, if consciousness is substrate-independent. The hypotheses AIXI uses for its reasoning are so enormous that they can be thought of as universes in their own right, complete with observers that live inside AIXI.
+    These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.
 
-These observers, however, aren't puppeting AIXI; AIXI achieves its impressive prediction and steering results by its own power. So the example works, albeit a bit strangely.
+    Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.
 
-Another hypothetical example that can be used to make the same point is a non-sentient [time machine](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1#How_many_advanced_alien_species_are_sentient_) that's been programmed to output a random sequence of actions, then travel back in time to "reset" the timeline *unless* a particular outcome occurs. The time machine can hit "reset" over and over again, however many times it takes to randomly stumble into a particular outcome. This, in practice, would make the time machine an extremely powerful and general machine for steering the future (if it were physically possible to build a time machine, which it isn't). Yet in spite of this, the time machine is an incredibly simple machine with no real cognition going on at all, and certainly no conscious experience.
-
-For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.
+    For a real-world example (albeit using a far weaker and more limited optimizer), biological evolution itself shows that many impressive feats of steering and design can be achieved without the "designer" having any conscious experiences at all.

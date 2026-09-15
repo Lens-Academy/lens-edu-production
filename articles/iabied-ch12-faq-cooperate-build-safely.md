@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+The Chernobyl/Challenger analogy is the crux of this argument. Worth flagging for discussion: does "normalization of deviance" in bureaucracies actually generalize to a hypothetical international AI safety institute, and how much weight should two historical case studies bear?
 
 %%
 #### Because we don't have the technical ability to build it safely.
@@ -35,11 +41,11 @@ Barely three months before the Chernobyl meltdown, NASA had launched the Space S
 
 Between Chernobyl and the Challenger, three delays seems to be the human limit. Suppose Earth sets up an international AI collaboration, and some "AI safety test" fails three times. Realistically, humans are the sort of creatures that would press "go" the fourth time despite some niggling doubts, because that feels less embarrassing than postponing the test again. Except that in the case of AI, it wouldn't just wipe out the city of Chernobyl or kill a crew of astronauts. It would kill everyone.
 
-We're fully on board with the idea that humanity should build smarter-than-human AI *eventually*.[\*](#ftnt277) But rushing to assemble an international AI research hub fails to take seriously the technical challenge before us.
+We're fully on board with the idea that humanity should build smarter-than-human AI *eventually*.[^note-iabied-ftnt277] But rushing to assemble an international AI research hub fails to take seriously the technical challenge before us.
 
 Given humanity's dismal state of knowledge and competence on this topic, it doesn't matter who's in charge. If *anyone* builds it, everyone dies.
 
-[\*](#ftnt277_ref) How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence](/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
+[^note-iabied-ftnt277]: How, if not by an international coalition? We'd recommend investment into [enhancing adult human intelligence](https://ifanyonebuildsit.com/13/why-would-making-humans-smarter-help#it-could-help-with-solving-the-alignment-problem), but this is not the sort of idea people need to agree upon to agree that shutting down ASI research is a good idea.
 
 #### Notes
 

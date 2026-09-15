@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -16,7 +22,7 @@ Add discussion note here:
 
 %%
 
-#### Probably not.
+#### Probably not. ^probably-not
 
 AIs don't need to be human-like in order to be great at solving problems. They don't even need to be human-like to be great at solving the problem "imitate humans."
 
@@ -24,7 +30,7 @@ When an AI has been trained to mimic humans as closely as possible, it's more *t
 
 It would be foolish to say, "This LLM is great at imitating humans, so I'm going to project all sorts of human characteristics onto it, including the characteristic of having wants."
 
-There's a twin mistake, however, that we can call "[mechanomorphism](/3/anthropomorphism-and-mechanomorphism)" — the fallacy of assuming that AIs, being made of mechanical parts, must have all of the stereotypical limitations of machines. This is the mistake behind assuming that AIs must be rigid and inflexible; or cold and unimaginative; or thoughtless and unreflective.
+There's a twin mistake, however, that we can call "[mechanomorphism](https://ifanyonebuildsit.com/3/anthropomorphism-and-mechanomorphism)" — the fallacy of assuming that AIs, being made of mechanical parts, must have all of the stereotypical limitations of machines. This is the mistake behind assuming that AIs must be rigid and inflexible; or cold and unimaginative; or thoughtless and unreflective.
 
 To predict the behavior of AI, we shouldn't imagine that AIs will be motivated by human emotions, or animated by human goals for the future. But we also shouldn't assume that AIs are runaway lawnmowers, blind and "automatic" in their behavior. AIs can be machines, and yet still be flexible, adaptive, and strategic.
 

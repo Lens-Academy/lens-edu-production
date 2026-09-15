@@ -7,8 +7,16 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Artificial Intelligence]]"
+topic: "[[../Domains and Topics/1 Artificial Intelligence/What intelligence is]]"
 stage: beginner
+eval-results:
+  content-sha: 2fd083f6
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question requires the chapter as scaffolding; not parseable by someone who never read it."}
+  evidence: {B1: "Using the chapter's framework, analyze the three systems."}
 ---
 
 ## Test:

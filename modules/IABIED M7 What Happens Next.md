@@ -1,6 +1,6 @@
 ---
 id: 08699f65-4d31-4570-b46e-3e0cb5b2ffe4
-slug: iabied-m7
+slug: iabied-what-next
 title: "What Happens Next"
 discussion: https://discord.com/channels/1440725236843806762/1481259751374327929
 ---
@@ -19,6 +19,8 @@ source:: ![[../Learning Outcomes/Your path forward]]
 id:: 4d287f1a-5049-4671-a34e-b49385e7ac5e
 tldr:: Can you make the whole book's argument to someone who's never read it? This final module has no new reading. Two things close the course: put the entire chain of reasoning into your own words, then set the one action you'll keep doing after the course ends.
 summary_for_tutor:: Synthesis lens for the final IABIED module, with no new reading. The module does exactly two things: a question where the student presents the book's full twelve-step argument chain unaided (the tutor mirrors it back, names gaps, and calibrates), and then the Your Ongoing Action step where the student sets the one action they keep doing after the course. Optional resources on career paths and next steps with Lens Academy follow.
+reading_minutes:: 2
+tutor_minutes:: 10
 
 #### Text
 content:: Welcome to our final module. There's no new reading here. Two things close the course: put the book's whole argument into your own words, and set the one action you'll keep doing after it ends.
@@ -42,7 +44,7 @@ The full argument chain from the book, for reference:
 4. You don't get what you train for: preferences diverge unpredictably (Ch 4)
 5. Human-compatible goals are vanishingly rare among all possible goals (Ch 5)
 6. A superintelligence would defeat humanity (Ch 6)
-7. The extinction scenario illustrates how it could play out (the film; Ch 7-9 in the book)
+7. The extinction scenario illustrates how it could play out (the film, covering Ch 7 and 8; then Ch 9 as a reading)
 8. The engineering problem is cursed: it must work on the first real try (Ch 10)
 9. Current approaches are alchemy, not science (Ch 11)
 10. Perverse incentives prevent an adequate response (Ch 12)
@@ -65,12 +67,13 @@ Response length: 100-180 words. Short paragraphs. No lists. No generic praise (g
 source:: ![[../Lenses/IABIED - Your Ongoing Action]]
 {>>{"author":"Luc's AI","timestamp":1783723774076}@@Review note: 'AI Safety Career Paths' and 'Next Steps with Lens Academy' were suggested lenses of this Learning Outcome AND are also imported below as hidden card targets (optional+hide). The old auto-import rendered both copies, so both are kept to preserve current behavior — you may want to drop one occurrence.<<}
 
-# Submodule: Optional Resources
+# Submodule: Keep Going
 # Lens: Keep Going
 id:: fb9e57fd-6036-4334-b827-2f9520fbcdd9
 optional:: true
 tldr:: Want more after this course? Our other courses are the natural next step.
 summary_for_tutor:: Short optional closing pointer. Tells the learner that Lens Academy runs further courses (including more advanced ones) and links the course catalog. No teaching content; no interaction.
+reading_minutes:: 2
 
 #### Text
 content::

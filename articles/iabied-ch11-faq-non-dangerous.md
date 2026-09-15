@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This FAQ entry rebuts the "just deploy AI for non-dangerous tasks" family of proposals (e.g., AIs that only persuade politicians, or only output mathematical proofs). Worth prompting discussion on: whether readers can think of a genuinely narrow AI capability that would be both world-saving and safety-preserving, and whether the authors' "red cars/blue cars" generality argument applies equally to today's narrow AI tools.
 
 %%
 #### Actions that seem benign can still require dangerous capabilities.
@@ -21,13 +27,13 @@ An example of a proposal we've heard is for AI companies to continue to advance 
 
 To achieve that, the argument went, an AI would only ever need to talk. It wouldn't need to directly manipulate physical robots. It wouldn't need to have access to a biolab where it could design a supervirus.
 
-First and foremost, we balk at this idea on ethical grounds. A sufficiently superhumanly persuasive AI could perhaps persuade almost anyone of almost anything, and deploying it to persuade other people of *your* conclusions rubs us the wrong way. We don't think it's obviously necessary to resort to such extreme measures, when the merely-human members of the field could and should be doing vastly more today to share our concerns and arguments, and to alert world leaders to the extreme danger of superintelligent AI.[\*](#ftnt261)
+First and foremost, we balk at this idea on ethical grounds. A sufficiently superhumanly persuasive AI could perhaps persuade almost anyone of almost anything, and deploying it to persuade other people of *your* conclusions rubs us the wrong way. We don't think it's obviously necessary to resort to such extreme measures, when the merely-human members of the field could and should be doing vastly more today to share our concerns and arguments, and to alert world leaders to the extreme danger of superintelligent AI.[^note-iabied-ftnt261]
 
 As an AI developer, you could spend years building increasingly dangerous AIs in the hope of achieving this, or you could try talking to lawmakers *yourself* in a fully honest way, even once, with an eye toward informing rather than manipulating. In our own experience, we've been repeatedly positively surprised by how receptive people in DC are to these issues, when they're shared in full candor.
 
 But that's a digression from the topic of what goes wrong if you try to deploy a very powerful AI that can "just talk." Beyond the ethical issues, the problem with the *technical* idea is that succeeding at superhuman persuasion likely requires the AI to model humans in detail and manipulate them extensively.
 
-Humans are intelligent creatures. Would *you* speak to a super-persuasive AI with a reputation for being able to convince anyone of anything, regardless of its truth? If one world leader went into a room with that AI and came out with their views completely shuffled around, who would raise their hand to be next in line? *We* wouldn't willingly talk to that sort of AI, in part because we don't actually want our own values changed.[†](#ftnt262)
+Humans are intelligent creatures. Would *you* speak to a super-persuasive AI with a reputation for being able to convince anyone of anything, regardless of its truth? If one world leader went into a room with that AI and came out with their views completely shuffled around, who would raise their hand to be next in line? *We* wouldn't willingly talk to that sort of AI, in part because we don't actually want our own values changed.[^note-iabied-ftnt262]
 
 An AI that could succeed even in the face of that sort of adversity is the sort of AI that can simulate various possible reactions people might have to its outputs, and chart a course through the space of human reactions to a small and hard-to-reach outcome. That sort of AI likely contains mental gears general enough to do what humans do; it needs to be able to think at least the thoughts that humans can think, to be able to manipulate humans so well.
 
@@ -69,9 +75,9 @@ If you *could* find a domain so narrow but so significant that producing a proof
 
 We haven't been able to find any narrow-but-effective plans, and we suspect it's not an accident that most narrow domains don't provide an opportunity for world-saving results.
 
-[\*](#ftnt261_ref) In a large number of cases, AI labs are actively working *against* sharing a useful and complete picture of the situation with policymakers. In that context, it seems especially strange to justify continued development on the grounds that stronger AI could "convince lawmakers."
+[^note-iabied-ftnt261]: In a large number of cases, AI labs are actively working *against* sharing a useful and complete picture of the situation with policymakers. In that context, it seems especially strange to justify continued development on the grounds that stronger AI could "convince lawmakers."
 
-[†](#ftnt262_ref) We are ourselves past the bar where intelligent reasoners [become incorrigible](/5/intelligent-usually-implies-incorrigible), in this particular way.
+[^note-iabied-ftnt262]: We are ourselves past the bar where intelligent reasoners [become incorrigible](https://ifanyonebuildsit.com/5/intelligent-usually-implies-incorrigible), in this particular way.
 
 #### Notes
 

@@ -7,10 +7,18 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Strategy]]"
+topic: "[[../Domains and Topics/11 Strategy/Predicting outcomes, not paths]]"
 stage: beginner
 requires:
   - "[[Hard calls vs. easy calls]]"
+eval-results:
+  content-sha: 5a9df2d9
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {B1: "Question is scaffolded on the specific text — names 'the Coda', 'the authors', and 'the book' — and is the named fail example in the B1 eval."}
+  evidence: {B1: "The Coda makes a careful distinction between two kinds of prediction... Use the analogy the authors give to explain it. And what does the distinction imply about what the book actually predicts"}
 ---
 
 ## Test:

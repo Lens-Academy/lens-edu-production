@@ -1,6 +1,8 @@
 ---
 id: 34fa91a3-1d1f-4081-b4c4-cb2af2139a1d
-summary_for_tutor: "Teaches the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and their case studies (space probes for the before/after gap, Chernobyl for the first four, computer security for edge cases). The Lens covers the first reading of Ch10 (beginning to the end of the computer-security section); the closing position statement is taught by a separate Lens (Position Not Despair). Students should end this Lens able to name all five curses, attribute each to a case study, and articulate why the curse of edge cases gets uniquely worse as the system gets smarter."
+reading_minutes: 20
+tutor_minutes: 20
+summary_for_tutor: "Teaches the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and their case studies (space probes for the before/after gap, Chernobyl for the first four, computer security for edge cases). The Lens covers the first reading of Ch10 (beginning to the end of the computer-security section); the closing position statement is taught by a separate Lens (Position Not Despair). Students should end this Lens able to name all five curses, attribute each to a case study, and articulate why the curse of edge cases gets uniquely worse as the system gets smarter. Students also connect the chapter back to an earlier idea that the prompt does not name."
 title: "The Five Engineering Curses"
 tldr: "Five named features make some engineering problems uniquely treacherous. AI alignment has all five at once, plus an extra: they get worse the smarter the system becomes."
 authors:
@@ -30,7 +32,7 @@ Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10
 Key concepts:
 - The five curses: **speed** (Chernobyl, microsecond neutron timescales hidden under a human-manageable interface), **narrow margins** (Chernobyl, 0.65% delayed-neutron fraction; prompt-critical at 100.65%; apes-to-hominids analogy), **self-amplification** (Chernobyl RBMK feedback loop: overheating → coolant boils off → less inhibition → more reaction), **complications** (Chernobyl's graphite-tipped control rods that turned a SCRAM into an explosion; modern LLM weights as the "incomparably more complicated" parallel), **edge cases** (computer security, buffer-overflow attack with the 280-character name and the 1-in-18 billion billion exact wrong input; Bruce Schneier on insecurities always remaining)
 - The space-probe case studies (Mars Observer, Mars Climate Orbiter unit mismatch, Mars Polar Lander leg vibration, Viking 1 antenna-software overwrite) function as the chapter's setup for the *before/after gap*: once the device is out of reach, you can't fix it. They are not tied to any single curse; they motivate why the curses matter.
-- "Grown, not crafted" (M1 callback): space probes are crafted and still fail; AI is grown and inherits *every* space-probe failure mode plus the curses Chernobyl and computer security add, with the engineers not knowing what's inside the device they're trying to constrain.
+- "Grown, not crafted" (Chapter 2 callback): space probes are crafted and still fail; AI is grown and inherits *every* space-probe failure mode plus the curses Chernobyl and computer security add, with the engineers not knowing what's inside the device they're trying to constrain.
 - Why edge cases is the uniquely-worse curse for ASI: the other four are physical constraints that any system faces; edge cases is the one curse that *intensifies with intelligence*: a smarter adversary finds more obscure exploits. Computer security is "famously losing" even when the engineers can fully craft and read their own code. AI alignment must hold against an intelligent system whose code the engineers cannot read.
 
 The student has completed the reading and has written a free recall — everything they could remember without looking back at the text.
@@ -95,10 +97,48 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
+#### Question: Open
+id:: c2ba0c2e-fd8a-4373-a44e-bf26ab56fa71
+content::
+\## Phase 3: Connection
+This chapter borrows its curses from reactors, probes and computer security. But the reason they transfer to AI at all comes from much earlier in this course.
+
+Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, pick which one you think is load-bearing and why.
+
+assessment-instructions:: The student has read the first half of Chapter 10, written a free recall, and reflected on it. They have now been asked which earlier idea licenses transferring the curses from the case studies to AI. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
+
+The answer this question is aimed at: **Chapter 1's machine advantages, and the intelligence explosion that follows from them.** In the case studies the curses are properties of the domain. Neutron physics happens to be fast; a reactor's margins happen to be narrow. Transfer them to AI and two of the five stop being facts about the domain and become facts about the thing being built. Speed, because a machine substrate runs faster than a biological one, so the gap between the process's timescale and human reaction time is designed in rather than incidental. Self-amplification, because Chapter 1's intelligence explosion is a process that feeds itself. The route can be AI-assisted research, or a system experimenting on and rewriting itself and getting there without help. Either way each gain produces the conditions for the next, which is the RBMK loop with the reactor's physics replaced by the system's own improvement.
+
+How to grade what comes back:
+
+- **On target: machine advantages, or the speed of a machine substrate.** They should say what it does here: it is why speed is not borrowed from Chernobyl but built in. Confirm briefly, then move on.
+- **Also on target, and arguably sharper: the intelligence explosion.** A student who maps it onto the self-amplification curse has found the harder half. Credit it fully and do not steer them back to speed. Take whichever route they name, AI-assisted research or a system experimenting on and rewriting itself. What is being tested is that they saw the process feed itself, not which trigger they picked, and Chapter 1 puts no single name to the second route, so use their wording rather than supplying one.
+- **Legitimate but easier: "grown, not crafted" (Chapter 2).** The chapter leans on this one openly, which is what makes it the easy find. Accept it, then push once: that explains why we cannot inspect the system. What earlier idea explains why the reactor's curses are the AI's own properties rather than borrowed analogies?
+- **Off target.** They name a curse or a case study from this reading: Chernobyl, the buffer overflow, the Mars probes. Say plainly that those are this chapter's own material and ask them to look further back.
+- **Blank.** Give one narrowing hint and no more: think about what this course established early on about how a machine mind differs from a biological one, before any of this chapter's examples. If they are still stuck after that, name it in one sentence, say that noticing these connections is the skill being practiced rather than a memory test, and move on without further teaching.
+
+Response length: 80–150 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Nothing here is scored. Progression does not depend on the student getting this right, and your reply should not read as though it does.
+- Do not over-validate. Avoid generic praise (good connection, exactly right, well spotted).
+- Do not explain Chapter 1 back to them at length. One sentence is the ceiling.
+- Treat a wrong answer that shows real searching as better than a right answer that reads as a guess, and say which you think you are looking at.
+
+Conversation flow:
+- Keep an internal turn counter. Two tutor replies maximum, then close.
+- Close by telling them the next step will put the connection to work.
+
+What not to do:
+- Reveal the target answer in your first reply unless they have already reached it.
+- List the candidates for them.
+- Turn this into a review of Chapter 1's inventory of machine advantages.
+
 #### Question
 id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
-\## Phase 3: Learning Question
+\## Phase 4: Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
@@ -111,7 +151,7 @@ Key concepts the student needs to grasp:
 - The mapping: Chernobyl illustrates speed, narrow margins, self-amplification, and complications; computer security (buffer overflow / Schneier) illustrates edge cases; the space probes illustrate the before/after gap that all five curses sit inside, rather than any single curse.
 - Distinctions to hold apart: speed is "the underlying physics is faster than humans can react"; self-amplification is "the failure mode feeds itself". The two are paired but distinct. Complications is not "hard to design": it is the safety mechanism itself becoming the failure mode (the SCRAM's graphite tips caused the explosion).
 - Why edge cases is uniquely worse for ASI: the other four are physical constraints any system faces and can be bested by ingenuity: there are probes that arrive and reactors that don't explode. Edge cases intensifies with intelligence: a smarter adversary finds more obscure exploits, and computer security is "famously losing" even when engineers fully craft and read their own code.
-- "Grown, not crafted" (M1 callback): AI alignment must hold against an intelligent system whose internals the engineers cannot read. They don't even know what their own system's edge cases are.
+- "Grown, not crafted" (Chapter 2 callback): AI alignment must hold against an intelligent system whose internals the engineers cannot read. They don't even know what their own system's edge cases are.
 
 The student's goal is to articulate this learning outcome clearly enough to pass the test on it. Your goal is to help them get there through dialogue rather than by explaining it to them.
 
@@ -148,6 +188,11 @@ Safety and integrity:
 - If the student makes a strong causal claim, ask what assumptions it relies on and how it could be falsified.
 - If the student reaches the correct answer early, probe edge cases and implications rather than ending prematurely — for example: "Of the five curses, which one would you most want a frontier-AI engineer to name unprompted before you'd believe they were treating their system with respect?"
 - If the student is stuck after 2 attempts at a question, give a brief direct answer and move on.
+
+On the connection phase that now precedes this one:
+- **What this phase assesses has not changed.** It is this chapter's outcome, and nothing else. The previous phase asked the student to name an earlier idea; that is not part of what you are assessing here and must not become a second thing they have to get right. Do not open by returning to it, do not require them to use it, and do not treat an answer that never mentions it as incomplete. A student who answers the friend entirely from this chapter's own material has answered this question well.
+- **Use the connection only as a rescue.** If the student stalls on why the curses do not simply get ground down with iteration, you may point back in one sentence to what they said in the previous phase. That is the only role it has here.
+- **Report, do not grade.** The test-readiness verdict is about this chapter alone, exactly as specified above. After it, add one separate sentence noting whether the student reached for earlier material on their own, when pushed, or not at all. This is a signal for us about whether the connection beat is working, not a judgment about the student, and it should read that way.
 
 #### Text
 content::

@@ -1,5 +1,7 @@
 ---
 id: b1c2d3e4-f5a6-4b78-c901-d2e3f4a5b6c7
+reading_minutes: 20
+tutor_minutes: 15
 summary_for_tutor: "Teaches the 'easy calls vs. hard calls' epistemic framework from the Introduction. Students first articulate their own intuitions about confident vs. uncertain predictions, then read the Introduction, then explain back how the authors classify ASI risk as an 'easy call' despite its apparent implausibility."
 title: "Hard Calls and Easy Calls"
 tldr: Some predictions feel obvious in retrospect but look crazy in the moment. The authors have a framework for why, and they use it to make a bold claim about AI.
@@ -103,7 +105,7 @@ What not to do:
 id:: f63da442-573f-475f-8e12-3dfe62b745ae
 feedback:: false
 content::
-\## Phase 3: Learning Question (false)
+\## Phase 3: Learning Question
 The authors are remarkably confident that advanced AI is dangerous, yet they flatly refuse to predict when it will arrive or exactly how a catastrophe would unfold. Is that a contradiction? How can they be so sure of the danger but not the details? What is it about the situation that lets them have it both ways?
 
 assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Introduction to "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.

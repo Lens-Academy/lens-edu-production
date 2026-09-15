@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This is adapter commentary from the *If Anyone Builds It, Everyone Dies* authors, arguing that AI-policy people need at least rough technical literacy about LLMs. The MechaHitler/Grok incident and the SwiGLU "divine benevolence" quote are used to make the point that even AI builders can't reliably explain or predict their own systems' behavior. Good framing piece to pair with the more technical transformer breakdown it links to.
 
 %%
 What follows from understanding LLMs? How does it help us understand smarter-than-human AI and how to prevent everyone from dying?
@@ -27,17 +33,17 @@ It also helps to know that the separation of these phases is a contingent and te
 
 Knowing that there is *an* algorithm in there is important, and so is seeing how, in some simple cases, it creates the properties of the AI that need to be regulated. If you understand the very basics of the algorithm, you are in a better place to hear about the sort of research that the AI industry is trying to do, and how that could affect the underlying rules if they're allowed to proceed.
 
-The transformer algorithm, without which current AIs would not exist, was a large breakthrough developed by a handful of people at Google. The next breakthrough like that might or might not send AI past a [critical threshold](/1/will-ai-cross-critical-thresholds-and-take-off). It's easier to understand this if you have an idea of what a "transformer algorithm" does, how simple it is, and why it had such an impact on the field.
+The transformer algorithm, without which current AIs would not exist, was a large breakthrough developed by a handful of people at Google. The next breakthrough like that might or might not send AI past a [critical threshold](https://ifanyonebuildsit.com/1/will-ai-cross-critical-thresholds-and-take-off). It's easier to understand this if you have an idea of what a "transformer algorithm" does, how simple it is, and why it had such an impact on the field.
 
-There is a lot of disinformation out there that relies on the listener not knowing how AI works. Some people will claim that humans understand what's going on in current AIs, when they don't. Some people will tell you that AIs could never be dangerous because they're "[just math](/2/arent-ais-just-math)," as if there were an impassable chasm separating AI cognition based on truly enormous amounts of "math" and human cognition based on enormous amounts of "biochemistry."
+There is a lot of disinformation out there that relies on the listener not knowing how AI works. Some people will claim that humans understand what's going on in current AIs, when they don't. Some people will tell you that AIs could never be dangerous because they're "[just math](https://ifanyonebuildsit.com/2/arent-ais-just-math)," as if there were an impassable chasm separating AI cognition based on truly enormous amounts of "math" and human cognition based on enormous amounts of "biochemistry."
 
 On July 8, 2025, Grok 3 started referring to itself as [MechaHitler](https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content). For some reason, the CEO of Twitter picked the following day to [resign](https://www.politico.com/news/2025/07/09/linda-yaccarino-x-ceo-resign-00443742).
 
 In understanding what happened, it matters whether you think that Grok's builders deliberately instructed Grok to behave that way or whether you realize that AIs are "grown," and that AI developers have limited ability to control or predict their behavior.
 
-It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's behavior.[\*](#ftnt66)
+It's bad in one way if Grok's builders created MechaHitler on purpose; it's bad in a different way if the builders got MechaHitler *by accident*, trying to push Grok in some (possibly unrelated) direction without the ability to predict the effects this would have on Grok's behavior.[^note-iabied-ftnt66]
 
-We hope that the information we've provided in *If Anyone Builds It, Everyone Dies* provides a useful bulwark against common misconceptions and misinformation. For readers who are interested in more details, below we will go through some of the history and [basic ideas](/2/obvious-insights-take-time) behind the recent AI boom, and provide a [detailed breakdown](/2/a-full-description-of-an-llm) of how a specific LLM works.
+We hope that the information we've provided in *If Anyone Builds It, Everyone Dies* provides a useful bulwark against common misconceptions and misinformation. For readers who are interested in more details, below we will go through some of the history and [basic ideas](https://ifanyonebuildsit.com/2/obvious-insights-take-time) behind the recent AI boom, and provide a [detailed breakdown](https://ifanyonebuildsit.com/2/a-full-description-of-an-llm) of how a specific LLM works.
 
 Is it enough? Some people have claimed that only those at the very cutting edge of current research could possibly know whether AIs (whether LLM-like or not) are likely to destroy humanity.
 
@@ -59,7 +65,7 @@ Probably not. We can, and in a group of dozens of people working on AI policy, w
 
 I (Yudkowsky) cannot sketch out from memory alone the details of a SwiGLU gate and how it differs from a GLU, because when I did look it up, the exact details there seemed to have no relevance to larger matters at all, so I didn't memorize them. But it might be informative to the novice that SwiGLU was found by a kind of blind testing, and that the paper authors said outright they have no idea why these techniques work in practice. We already knew about many cases like that, but if you *didn't* know that the people who come up with architectural improvements often say that they have no idea why it works, that's a relevant piece of information.
 
-All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how little*anybody* knowsabout modern AI.
+All of which adds up to: Knowing at least a little about how LLMs work is important so that you can see how little *anybody* knows about modern AI.
 
 Sometimes, experts will pretend to have secret knowledge that can only be accessed by people who have worked for years at growing an AI. But they cannot name their knowledge, and the people writing papers say things like (to quote the paper introducing SwiGLU):
 
@@ -71,8 +77,8 @@ You can imagine a world in which only the people paid seven-figure salaries for 
 
 There may come a time when a representative of the AI industry slings an arm around your shoulder and insists that *they* understand what they're building, that it's all just numbers, that all will be well. It is useful, then, to know a little bit about the details of how AIs are grown, so that when someone makes this claim to you, you can ask them what makes them so sure.
 
-[\*](#ftnt66_ref) In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
+[^note-iabied-ftnt66]: In some cases, AI mishaps can result from interactions between both factors. For our purposes, the important point is that one key factor is "AIs behaving in ways the programmers never wanted or anticipated," even if there are sometimes other factors at play.
 
-#### Notes
+#### Notes ^notes
 
-[1] *when they don't:* We discuss a few such people when answering [Do experts understand what's going on inside AIs?](/2/do-experts-understand-whats-going-on-inside-ais)
+[1] *when they don't:* We discuss a few such people when answering [Do experts understand what's going on inside AIs?](https://ifanyonebuildsit.com/2/do-experts-understand-whats-going-on-inside-ais)

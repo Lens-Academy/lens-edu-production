@@ -5,8 +5,16 @@ reading-from: "beginning of chapter"
 reading-to: "And civilization lived."
 authors:
   - Chris+Claude
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/International coordination]]"
 stage: beginner
+eval-results:
+  content-sha: c3cb608a
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is explicitly about the text's presentation ('what the chapter means', 'the nuclear precedent it uses'), not a concept standing on its own outside the course.", B1: "Question is scaffolded on the assigned text — names Chapter 14 and repeatedly frames the ask as what 'the chapter' says, so a non-reader cannot answer as posed."}
+  evidence: {A2: "State what the chapter means by 'un-writing a fate already written,' and identify the nuclear precedent it uses to show this is possible.", B1: "Chapter 14 opens with Vesna Vulović ... what does the chapter mean by \"un-writing a fate already written\"?"}
 ---
 
 ## Test:

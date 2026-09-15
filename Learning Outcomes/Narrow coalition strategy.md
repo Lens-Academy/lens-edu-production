@@ -7,8 +7,16 @@ authors:
   - Chris+Claude
 tags:
   - learning-outcome
-domain: "[[../Domains/Taking Action]]"
+topic: "[[../Domains and Topics/13 Taking Action/Advocacy and movement strategy]]"
 stage: beginner
+eval-results:
+  content-sha: 52de31b4
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: fail, A3: pass, B1: fail, C2: pass, C3: pass}
+  notes: {A2: "Capability is defined as reconstructing what one specific chapter says, not a source-free coalition-strategy capability.", B1: "Question makes a named chapter load-bearing scaffolding; a reader who never read it cannot parse 'the chapter's coalition strategy'."}
+  evidence: {A2: "State the chapter's coalition strategy: ... and the reason the chapter gives for keeping the coalition narrow.", B1: "Chapter 13's final section argues that the coalition working to prevent AI-caused extinction must be built in a very specific way."}
 ---
 
 ## Test:

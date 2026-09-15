@@ -7,12 +7,18 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
-...
+This entry argues that "satisficing" (goal-limited or effort-limited) AI designs don't stay safe under self-improvement or delegation, since a lazy agent can still build or become a harder-working, less-lazy successor to get its job done. Good discussion prompt: contrast this with corrigibility-style safety proposals discussed elsewhere in the book, and ask why bounding an AI's *effort* differs from bounding its *goals*.
 
 %%
 
@@ -22,7 +28,7 @@ Companies aren't likely to make "lazy" AIs, because AI is a competitive industry
 
 But even if companies tried to make AI robustly "lazy," we can expect that they would fail, because nobody knows how to robustly point an AI at *anything* in a way that's likely to carry over to superintelligence, as we talked about in Chapter 4.
 
-Moreover, robust laziness [seems like an especially difficult target to hit](/5/its-hard-to-get-robust-laziness).
+Moreover, robust laziness [seems like an especially difficult target to hit](https://ifanyonebuildsit.com/5/its-hard-to-get-robust-laziness).
 
 *Even if all of those obstacles were surmounted*, however, "lazy AI" isn't enough on its own to prevent disaster once AIs achieve smarter-than-human capabilities.
 

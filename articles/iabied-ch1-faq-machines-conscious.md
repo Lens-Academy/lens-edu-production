@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -33,26 +39,24 @@ We can ask similar questions about AIs.
 
 The last of these questions is the most philosophically thorny, and leads to a cluster of questions surrounding whether AIs like ChatGPT are entities worth moral concern. We will discuss those topics later, once we have covered a few more background concepts.
 
-When we use the word "conscious," we're specifically thinking of "having subjective experience" and not things like self-modeling and deep practical understanding.[\*](#ftnt25)
+When we use the word "conscious," we're specifically thinking of "having subjective experience" and not things like self-modeling and deep practical understanding.[^note-iabied-ftnt25]
 
 Our best guess is that AIs today are probably not conscious (although we're more uncertain every year), and that subjective experience isn't necessary for superintelligence.
 
-But these are just guesses, albeit ones based on a reasonable amount of thinking and theorizing. We don't think it's at all *silly* to worry that some current or future AI systems might be conscious, or even to worry about whether we might be badly mistreating current AIs, especially when they do things like threaten to kill themselves after failing to debug code.
+But these are just guesses, albeit ones based on a reasonable amount of thinking and theorizing. We don't think it's at all *silly* to worry that some current or future AI systems might be conscious, or even to worry about whether we might be badly mistreating current AIs, especially when they do things like threaten to kill themselves[^cite-iabied-ftnt1] after failing to debug code.
 
 Any entity that would constitute a superintelligence by our lights would necessarily be extremely good at modeling itself — thinking about its own computations, improving its mental heuristics, understanding and predicting the impacts of its own behavior on the surrounding environment, etc. But our best guess is that human-style self-aware consciousness is just *one particular way* that a mind can effectively model itself; it's not a necessary prerequisite for reflective reasoning.
 
 Consciousness may be an important part of how humans are so good at manipulating the world, but that doesn't mean that non-conscious machines would be defective and unable to predict and steer the world. Submarines don't swim in a fashion analogous to humans; they accomplish the task of moving through the water in a fundamentally different way. We expect an AI to be able to *succeed at the same challenges that humans succeed at*, but not necessarily to do them via the same subjective experience channel that humans use.
 
-(See also the analogous case of [curiosity](/4/curiosity-isnt-convergent), which we'll turn to in the supplement to Chapter 4.)
+(See also the analogous case of [curiosity](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent), which we'll turn to in the supplement to Chapter 4.)
 
 To put it another way: Blood is very important in the operation of a human arm, but that doesn't mean that robot arms require blood to operate. A robotic arm is not defective in the way that a bloodless human arm would be; it just works in a different, bloodless way. Our best guess is that machine superintelligences will work in a different, non-conscious way — although this guess is not important to our argument in the book.
 
 Our focus in *If Anyone Builds It, Everyone Dies* is on intelligence — where "intelligence" is defined in terms of a reasoner's ability to predict and steer the world, regardless of whether that reasoner's brain works like a human brain. If an AI is inventing new technology and infrastructure and proliferating it across the face of the planet in a fashion that kills us as a side effect, then stopping to ask "But is it conscious?" seems somewhat academic.
 
-We'll go into more detail on why we think prediction and steering probably don't require consciousness (and what this means for how we should think about AI welfare and AI rights) after Chapter 5, once we've laid more groundwork. See "[Effectiveness, Consciousness, and AI Welfare](/5/effectiveness-consciousness-and-ai-welfare)" for that discussion.
+We'll go into more detail on why we think prediction and steering probably don't require consciousness (and what this means for how we should think about AI welfare and AI rights) after Chapter 5, once we've laid more groundwork. See "[Effectiveness, Consciousness, and AI Welfare](https://ifanyonebuildsit.com/5/effectiveness-consciousness-and-ai-welfare)" for that discussion.
 
-[\*](#ftnt25_ref) Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
+[^note-iabied-ftnt25]: Depending on your psychological and philosophical views, you might think that these topics are connected. We're more skeptical of a strong, tight connection here; but if there is a connection, it still seems valuable to explicitly distinguish these different subject matters. If, for example, self-modeling turns out to be inextricably linked to consciousness, that's an important fact that should be discussed and hashed out explicitly, not an assumption that we should bake in at the outset.
 
-#### Notes
-
-[1] *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.
+[^cite-iabied-ftnt1]: *threaten to kill themselves:* Users report that Google's Gemini AI [threatens to uninstall itself](https://x.com/venturetwins/status/1936483773035798906) from projects, or to [delete all its code](https://x.com/DuncanHaldane/status/1937204975035384028), when it's having trouble completing some task.

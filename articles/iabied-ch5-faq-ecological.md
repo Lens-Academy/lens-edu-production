@@ -1,5 +1,5 @@
 ---
-title: "Won't AI want to keep us happy and healthy for ecological preservation or similar drive?"
+title: "Won't AI want to keep us happy and healthy for the sake of ecological preservation or some similar drive?"
 source_url: https://ifanyonebuildsit.com/5/wont-ai-want-to-keep-us-happy-and-healthy-for-the-sake-of-ecological-preservation-or-some-similar-drive
 published: 2025-09-16
 author:
@@ -7,8 +7,14 @@ author:
   - "Nate Soares"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -20,9 +26,9 @@ Add discussion note here:
 
 One hope we've heard is that AIs might keep humans around in much the way humans try to preserve nature. Conservationists fight to keep species from going extinct. Being smarter and more capable, AIs should have an easy time protecting humans — that is, assuming AIs *want* to keep humans around.
 
-We expect this to fail primarily because we expect the AI to wind up with its own strange, complicated desires, rather than with recognizably humanlike desires. For more on this point, refer back to Chapter 4 (and some of the associated [extended](/4/curiosity-isnt-convergent) [discussions](/4/human-values-are-contingent)). For some early empirical evidence on this point, see the discussion on [AI psychosis](/4/ai-induced-psychosis).
+We expect this to fail primarily because we expect the AI to wind up with its own strange, complicated desires, rather than with recognizably humanlike desires. For more on this point, refer back to Chapter 4 (and some of the associated [extended](https://ifanyonebuildsit.com/4/curiosity-isnt-convergent) [discussions](https://ifanyonebuildsit.com/4/human-values-are-contingent)). For some early empirical evidence on this point, see the discussion on [AI psychosis](https://ifanyonebuildsit.com/4/ai-induced-psychosis).
 
-Secondarily, even in the unlikely case that an AI somehow ends up with a humanlike desire for "preserving" the world it came into, we don't think this would turn out very well for us. We think that this sort of reasoning by analogy — "humans preserve the environment, so maybe AIs will preserve us!" — is a kind of wishful thinking.[\*](#ftnt180)
+Secondarily, even in the unlikely case that an AI somehow ends up with a humanlike desire for "preserving" the world it came into, we don't think this would turn out very well for us. We think that this sort of reasoning by analogy — "humans preserve the environment, so maybe AIs will preserve us!" — is a kind of wishful thinking.[^note-iabied-ftnt180]
 
 Suppose that, somehow, an AI wound up with a humanlike drive to protect its natural environment. To figure out what would follow, we can start by looking at the actual human drive to protect nature.
 
@@ -44,6 +50,6 @@ We don't know how humanity's preservation instincts would play out at the limits
 
 Perhaps, just as according to humanity's preferences some animal habits are abhorrent, according to the AI's preferences, some human *psychological states* would be abhorrent. Just as we'd tweak the screwworm flies so that they stop chewing an agonizing tunnel through living flesh, perhaps the AIs would make a new breed of humans that have *music* or *loneliness* edited out of them. Or perhaps AIs would make other, more complicated modifications to humanity, according to complex preferences that we simply cannot predict.
 
-To make an AI that actually lets people lead flourishing lives, we'd probably need to make one that actually cares about that *in particular.* We'd have to figure out how to make AIs care about us at least a little, and that [doesn't come free](/5/wont-ais-care-at-least-a-little-about-humans).
+To make an AI that actually lets people lead flourishing lives, we'd probably need to make one that actually cares about that *in particular.* We'd have to figure out how to make AIs care about us at least a little, and that [doesn't come free](https://ifanyonebuildsit.com/5/wont-ais-care-at-least-a-little-about-humans).
 
-[\*](#ftnt180_ref) For what seem to us to be realistic hopes, see the last two chapters of the book.
+[^note-iabied-ftnt180]: For what seem to us to be realistic hopes, see the last two chapters of the book.
