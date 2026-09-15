@@ -7,6 +7,7 @@ stage: intermediate
 ## Test:
 id:: 11579996-1431-49d1-b4a3-88f51a8bb32c
 #### Question
+id:: 6e1af887-4e8c-4674-a6d2-98800d7fe85c
 content::
 A mid-sized country automates its civil service over a decade. Three systems are procured from three different vendors, and each is honest, non-agentic, and does exactly what its operator asked:
 

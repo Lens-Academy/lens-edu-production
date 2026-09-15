@@ -69,6 +69,7 @@ Body = the test, then (optionally) suggested lenses:
 ## Test:
 id:: <uuid>
 #### Question
+id:: d85ff397-f687-4f10-90ce-7883164d5868
 content:: <the test question>
 assessment-instructions:: <scoring rubric — see Quality Patterns>
 

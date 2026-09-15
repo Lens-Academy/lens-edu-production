@@ -8,6 +8,7 @@ content::
 This lens demonstrates `#### Question` segments.
 
 #### Question
+id:: c06431c5-337c-4101-b121-b2233a0ded2e
 content:: In one or two sentences, explain what a `#### Question` segment is useful for.
 assessment-instructions:: Look for a concise answer that says questions collect learner responses and can be assessed by the AI tutor.
 max-chars:: 500
@@ -15,6 +16,7 @@ max-chars:: 500
 %% `feedback:: true` means the learner gets AI feedback after answering. `max-chars::` sets a character limit. %%
 
 #### Question
+id:: 4f82615a-5628-42e2-91d4-2fe6937d2530
 content:: Try answering this one by voice. What would you check before using a question in a real course?
 assessment-instructions:: Look for a concrete testing plan, such as checking the wording, character limit, scoring rubric, and feedback quality.
 enforce-voice:: true

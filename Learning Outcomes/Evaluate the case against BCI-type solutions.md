@@ -5,11 +5,13 @@ learning-outcome: Evaluate the strongest objections to BCI-type solutions — me
 ## Test:
 id:: 16113b65-caa0-43f8-98ae-12d68bc8834f
 #### Question
+id:: 86c7b072-da7d-4ae9-a7c7-bc799ba3fdf7
 feedback:: true
 content:: Lay out the two strongest "it won't work" objections to BCI-type solutions: the circularity objection and the constant-factor objection. What does each claim?
 assessment-instructions:: A strong answer gives both: (1) Circularity (Shulman) — merging to get alignment presupposes an already-aligned AI; once AI surpasses humans the human is the bottleneck, so merge can't create alignment. (2) Constant-factor (Buck) — faster human-AI interaction only buys a constant-factor speedup, which doesn't change the exponential capability gap; BCIs are a distraction from pause/governance/alignment. Award 4-5 for both objections stated accurately; 3 for one solid and one weak; 1-2 if it can't reconstruct them. Accept paraphrase; credit noting the strongest reframe (drop "merge," keep "enhance/emulate") as a partial rebuttal.
 max-chars:: 700
 #### Question
+id:: 2bd0efee-268f-4064-ab51-0866cdd50d60
 feedback:: true
 content:: Beyond "it won't work," there's an "it could make things worse" objection. Explain how BCIs could be an existential-risk factor rather than a safety tool.
 assessment-instructions:: A strong answer explains that BCIs could raise x-risk rather than reduce it — most sharply by enabling entrenched totalitarianism (neural surveillance/coercion enabling durable, unshakeable control that locks in a bad future), plus biological-attack-surface / "neuraljacking" risks (wiring brains to advanced AI exposes a new attack surface; a misaligned AI could remove the human bottleneck), and WBE possibly accelerating unsafe neuromorphic AI. Award 4-5 for the totalitarianism mechanism plus at least one other risk; 3 for one mechanism; 1-2 if vague or if it only repeats the "won't work" objections. Accept paraphrase.
