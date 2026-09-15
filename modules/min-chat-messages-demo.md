@@ -39,6 +39,7 @@ content::
 This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't mark this lens as completed.
 
 #### Question
+id:: 57b12db0-0bf1-427d-a331-d695defa71b6
 content:: What is your favorite color, and why?
 
 # Lens: Question plus a message minimum
@@ -50,6 +51,7 @@ content::
 This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. Replies you type in the question's feedback conversation count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
 
 #### Question
+id:: ac707954-bb92-464a-b762-ade8ea25985c
 content:: Name a food you could eat every day. What makes it work for you?
 assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
@@ -61,6 +63,7 @@ content::
 This question has `optional:: true`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
 
 #### Question
+id:: 4f4d1908-1bdc-4d2c-97e6-8351cabc9b9d
 optional:: true
 content:: Purely optional: is there anything from this module you want to note down for later?
 
