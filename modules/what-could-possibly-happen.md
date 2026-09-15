@@ -43,6 +43,7 @@ tldr:: Restate your ten-year model from memory, then change it. What actually mo
 summary_for_tutor:: "Module-end restatement of the student's day-zero model. Skill practiced: honest revision. No comparison against stored text; reward mechanisms and numbers entering the model, flag identical confidence in new vocabulary."
 
 #### Question
+id:: 1ca594ae-db17-4028-bd3c-1823605f176d
 content::
 \## Revision 1
 
