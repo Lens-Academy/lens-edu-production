@@ -73,6 +73,7 @@ This is also why the plugs are here rather than as adhoc_questions: ad-hoc quest
 
 The navigator link is /navigate, which is the NavigatorSignupWizard intake. Not /navigators, which is the marketing landing page.<<}
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+{>>{"author":"Elias's AI","timestamp":1789413152989}@@Correction 2026-09-14: the unit map in the next note is one restructure old. Current boundaries, as the # Meeting: markers in this file show: Unit 1 = M1+M2 | Unit 2 = M3 | Unit 3 = M4 | Unit 4 = M5 | Unit 5 = M6+M7. Module slugs are now iabied-intro, iabied-u1..u5, iabied-what-next.<<}
 {>>{"author":"AI","timestamp":1786279506695}@@Course reduced from 6 meetings to 5. Units: M1 | M2+M3 | M4 | M5 | M6+M7, one meeting after each unit. All five meeting docs were updated for these boundaries on 2026-08-09; the old unit-4 doc (19-KJb0ZEVlVYJoVMOnY5xbAm6UJdynAFM0nm7NSg9dg) is retired.<<}
 
 # Module: [[../modules/IABIED M6 Facing The Challenge, Part 2]]
@@ -93,6 +94,12 @@ instrument. Every meeting asks the same five 1-to-10 quality questions. The
 final meeting also asks the course completion questions. Historical survey
 files and IDs remain unchanged so old and current responses stay separate.
 The course has five meeting markers, and every meeting has a survey. %%
+
+# Module: [[../modules/IABIED Optional Resources]]
+
+%% Sits after every meeting deliberately: nothing in it is on the path through the
+course, and everything inside is imported optional. It holds the glossary today and
+has room for more beside it. %%
 
 {>>{"author":"Turner's AI","timestamp":1786589345987}@@CORRECTED 2026-08-13. This note used to end: "but cohort 5 still carries number_of_group_meetings = 6 and 6 real meetings per group. The 6th meeting therefore has no marker, and so no survey. That is the outstanding 6-to-5 reconciliation, not something these lines can fix." That reconciliation LANDED on 2026-08-11 and the note was never updated, so it described a resolved problem as outstanding. Measured against prod 2026-08-13 02:45Z: c5, c6, c7 and c8 all carry number_of_group_meetings = 5; every c5 and c6 group has exactly 5 meetings with max meeting_number = 5; and there are ZERO live meetings numbered 6 or higher anywhere in c5-c8. The five meeting-doc-template links above were also checked one by one against the templates actually used to build the c6 session-4 and session-5 docs today, and all five match.<<}
 
