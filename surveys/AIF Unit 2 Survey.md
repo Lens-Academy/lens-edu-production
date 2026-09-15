@@ -1,6 +1,6 @@
 ---
 id: '731f5995-f726-43e3-8769-cfad084e4941'
-title: Week 2 Post-Session Reflection
+title: Unit 2 Post-Session Reflection
 ---
 
 #### Text
@@ -8,7 +8,7 @@ content:: Thanks for showing up. A few minutes of reflection on Unit 2. Submitti
 
 #### Choice
 key:: buddy_texted
-content:: Did you message your accountability buddy this week?
+content:: Did you message your accountability buddy since the last meeting?
 options::
 - Yes
 - No
