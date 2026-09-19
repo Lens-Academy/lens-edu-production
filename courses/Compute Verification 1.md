@@ -1,20 +1,19 @@
 ---
 id: '9192ac45-c551-420f-a6dd-5985f5daa5a8'
-slug: ai-verification-1
-slug-aliases: [compute-verification, ai-verification-full-course, xlab-compute-verification, ai-verification]
-title: "Compute Verification, Part 1"
-description: "How could rival states check that each other actually stopped? Five units on the front half of making an international AI agreement verifiable: why a slowdown is worth nothing without verification, what nuclear safeguards do and do not transfer, how a policy goal turns into a claim someone can test, who a pause actually binds across the compute supply chain, where a verification report's claims come from and who acts on them, and what a chip can and cannot prove about the work it did. The first of two courses on XLab's verification curriculum; the capstone is a separate course."
-partner-name: XLab
+slug: compute-verification-1
+slug-aliases: [compute-verification, ai-verification-full-course, xlab-compute-verification, ai-verification, ai-verification-1]
+title: "Compute Verification 1"
+description: "How could rival states check that each other actually stopped? Five units on the front half of making an international AI agreement verifiable: why a slowdown is worth nothing without verification, what nuclear safeguards do and do not transfer, how a policy goal turns into a claim someone can test, who a pause actually binds across the compute supply chain, where a verification report's claims come from and who acts on them, and what a chip can and cannot prove about the work it did. The first of two Compute Verification courses; the capstone is a separate course."
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip, visible-in-skilltree]
 ---
-%% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
+%% Source curriculum: https://aisafetytracks.com/tracks/verification
 
-This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[../courses/XLab Compute Verification]]) stays untouched.
+This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[Compute Verification]]) stays untouched.
 
 Each week is about 3.5 hours of self-study plus a 1.5 hour discussion. Core self-study per week: W1 220 min, W2 170, W3 210, W4 170, W5 155. Optional lenses add 80 min in W2, 75 in W3, 30 in W5.
 
-Meeting docs: five new docs built from this course's weekly material (September 2026), one per meeting, linked below. The old five-module docs are not used. Learner surveys follow the pattern AI Risk Fundamentals and SAIF settled on 2026-09-04: meetings 1 to 4 use the shared [[../surveys/Lens Post-Meeting Impact Survey v2]], meeting 5 uses [[../surveys/CV1 Final Impact Survey v2]], which repeats the same five quality ratings and adds the course-completion block (overall rating, recommend score, pre/post knowledge, counterfactual, AI-safety intent, next-step clarity, pay-what-you-want, facilitation interest, referral). CV1 Final is a copy of AIF Final Impact Survey v2 with fresh ids and the course name swapped, so cross-course comparison is a question-by-question match. Part 2 and the Capstone still have no learner survey. Navigator surveys reuse the generic pair.
+Meeting docs: five new docs built from this course's weekly material (September 2026), one per meeting, linked below. The old five-module docs are not used. Learner surveys follow the pattern AI Risk Fundamentals and SAIF settled on 2026-09-04: meetings 1 to 4 use the shared [[../surveys/Lens Post-Meeting Impact Survey v2]], meeting 5 uses [[../surveys/CV1 Final Impact Survey v2]], which repeats the same five quality ratings and adds the course-completion block (overall rating, recommend score, pre/post knowledge, counterfactual, AI-safety intent, next-step clarity, pay-what-you-want, facilitation interest, referral). CV1 Final is a copy of AIF Final Impact Survey v2 with fresh ids and the course name swapped, so cross-course comparison is a question-by-question match. Compute Verification 2 and the Capstone still have no learner survey. Navigator surveys reuse the generic pair.
 
 Target audience and value proposition are inherited from the parent course and have not been confirmed for this split. %%
 
