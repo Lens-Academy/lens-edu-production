@@ -4,7 +4,7 @@ title: Navigator Application
 ---
 
 #### Text
-content:: Thanks for wanting to navigate with Lens! These few questions help us get to know you before your intro call. It takes about five minutes, and questions without a red star are optional.
+content:: Thanks for wanting to navigate with Lens! These few questions help us get to know you. It takes about five minutes, and questions without a red star are optional.
 
 #### Question
 key:: why_navigate
@@ -45,7 +45,7 @@ max-chars:: 1000
 
 #### Choice
 key:: can_commit
-content:: Navigating takes about 3 hours per module: preparing, then leading one 90-minute discussion. Can you do that for every module and stay with your group for the whole cohort?
+content:: Each meeting is a 90-minute discussion, plus 1 to 3 hours beforehand working through that part of the course. Weekly courses meet once a week and intensives meet about once a day. Can you do that for every meeting and stay with your group until the course ends?
 options::
 - Yes
 - Mostly, with a gap or two I already know about
@@ -54,4 +54,4 @@ required:: true
 
 #### Question
 key:: anything_else
-content:: Anything else you'd like us to know before your intro call?
+content:: Anything else you'd like us to know?
