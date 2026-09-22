@@ -4,7 +4,7 @@ title: AI Futurism Final Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section. Submitting it also records your attendance for this meeting.
+content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section.
 
 #### Text
 content:: **This module and meeting**

@@ -4,7 +4,7 @@ title: Post-Session Reflection
 ---
 
 #### Text
-content:: Thanks for showing up. This is your post-session reflection, about 3 minutes. It helps us make the meetings and the course better week to week. Submitting it also counts your attendance for this meeting.
+content:: Thanks for showing up. This is your post-session reflection, about 3 minutes. It helps us make the meetings and the course better week to week.
 
 #### Choice
 key:: buddy_texted
