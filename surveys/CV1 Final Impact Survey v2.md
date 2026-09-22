@@ -4,7 +4,7 @@ title: Compute Verification Part 1 Final Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section. Submitting it also records your attendance for this meeting.
+content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section.
 
 #### Text
 content:: **This module and meeting**
@@ -231,6 +231,7 @@ content:: Would you like to apply to facilitate a future Lens course?
 options::
 - Yes, tell me more
 - Not right now
+- Yes, I already signed up!
 
 #### Question: Open
 id:: 23d9685e-753e-47e9-bb14-98baf3da3176

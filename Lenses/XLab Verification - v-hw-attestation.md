@@ -2,7 +2,8 @@
 id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
 title: "Hardware"
 tldr: "A lab hands you 20,000 valid cryptographic tokens and says they prove the cluster complied with the pause. Before reading anything, judge seven conclusions those tokens might support. You will grade your own answers at the end of the hardware section."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opening lens of section 2.1. The ClaimLedger puzzle is seven ungraded choice questions (supported / possibly supported if the system was designed to measure it / unsupported by attestation alone); do not give the answers, they are revealed in lesson 2.1.8. Then the central question, the core-section objectives, the function map table, the repeated method, and the core source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opening lens of section 2.1. The page sets the scenario (a laboratory's 20,000 valid attestation tokens) and the three-point scale, then the claim-ledger widget carries the opening puzzle: seven proposed conclusions, each judged supported / possibly supported if the system was designed to measure it / unsupported by attestation alone, kept with a button that flips the ledger to a read-only record the learner returns to in lesson 2.1.8. The widget is ungraded and shows no answer key; do not give the answers, they are revealed in lesson 2.1.8. The page text around it holds the scenario and scale above the widget, and below it the reminder to keep the answers, the central question, the core-section objectives, the function map table, the repeated method, the readings list and the source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
+tags: []
 duration_minutes: 20
 ---
 #### Text
@@ -18,64 +19,8 @@ During a three-month AI pause, a laboratory sends the verification authority a v
 
 Before reading further, classify each conclusion as **supported**, **possibly supported if the system was designed to measure it**, or **unsupported by attestation alone**.
 
-Proposed conclusion:
-
-#### Question: Choice
-id:: 6aff61bf-8c5d-4188-9c8f-9a6049a74a2a
-content:: These are genuine covered devices.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 45dad21d-3558-436f-9e49-171462974ece
-content:: Their certificates and approved configurations were valid when the evidence was checked.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 188fe444-a629-4950-b799-a00b72dcfca5
-content:: The devices were connected in the declared cluster topology.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 6e4a14c9-e6fa-4768-96a8-229d436e1d37
-content:: They performed inference rather than prohibited training.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 9c7cd240-2fe5-4fc5-a7aa-ad3b927cf2a4
-content:: Their cumulative training compute remained below the treaty threshold.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: f59b326b-8d99-4180-9aad-eb23fa74e4a1
-content:: No unregistered accelerators ran a separate prohibited workload.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
-#### Question: Choice
-id:: 021cf8df-687e-4fd4-be59-ff5341d41bd9
-content:: The treaty authority can suspend the devices.
-options::
-- Supported
-- Possibly supported if the system was designed to measure it
-- Unsupported by attestation alone
-
+#### Widget
+source:: [[../widgets/claim-ledger]]
 
 #### Text
 content::
@@ -94,7 +39,7 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 4. **Compare trust architectures.** Evaluate on-chip, off-chip, and hybrid designs for the same policy claim.
 5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.
 :::
-
+{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's Objectives block here has scope="the core section", so the rendered lead sentence is "By the end of the core section, you will be able to:" rather than "this module".<<}
 
 \#### A map of the section
 
@@ -121,7 +66,7 @@ The rest of this section uses one repeated method:
 - **Baker et al., Six Layers:** on-chip, off-chip digital, and off-chip analog verification.
 
 :::callout {title="Sources" tone="neutral" collapse="closed"}
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026 — first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. M. S. Rahman and M. Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026 — a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2026.
+H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026: first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. Robi Rahman and Sabiha Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026: a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2025.
 :::
 
 #### Text

@@ -4,6 +4,7 @@ title: "Primer Practice: Inspection, Commitment, and Logic"
 tldr: "Commit an answer, read the explanation, and continue through six ungraded checks."
 summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score."
 duration_minutes: 6
+tags: [wip]
 ---
 #### Text
 content::
@@ -89,7 +90,7 @@ feedback-instructions:: Four families were mixed into the list: inspection games
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Four families were mixed into the list: inspection games (the three you had to find), repeated cooperation, commitment credibility, and coordination. The source round buries three needles in eleven terms; distractor density is part of the drill.
+Four families were mixed into the list: inspection games (the three you had to find), repeated cooperation, commitment credibility, and coordination. Three needles are buried in eleven terms; distractor density is part of the drill.
 
 - randomized inspection: inspection-game logic, predictable inspectors are avoidable inspectors.
 - tit-for-tat: repeated-cooperation strategy, the Evolution of Trust family, not inspection.

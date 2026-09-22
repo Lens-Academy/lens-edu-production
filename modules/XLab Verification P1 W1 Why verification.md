@@ -2,6 +2,7 @@
 id: 'c8ab6b28-1bbf-45ec-a34d-82edd8a86517'
 slug: xlab-verification-p1-w1
 title: "Why should you care about AI verification?"
+tags: [wip]
 ---
 %% Week 1 of the five-week first half. Lens set and order fixed by the re-cut; core self-study 220 minutes. Same lenses as the old M0 up to v-intuitions; v-precedents moves to Week 2. %%
 

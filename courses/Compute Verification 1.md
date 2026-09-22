@@ -7,6 +7,10 @@ description: "How could rival states check that each other actually stopped? Fiv
 partner-url: https://aisafetytracks.com/verification/landing
 tags: [wip, visible-in-skilltree]
 ---
+%% Possible improvements:
+- Integrate: Anki cards. Jeffrey G. made cards for the first two units and shared them in #i-did-a-thing on 2026-09-19: https://docs.google.com/document/d/1yYs7OD8qbDEdt32muSHisQI7EOub444BDTVGyb7CW_g/edit?usp=sharing
+%%
+
 %% Source curriculum: https://aisafetytracks.com/tracks/verification (repo: https://github.com/XLabTracks/tracks)
 
 This course is the first five weeks of the re-cut ten-week run of that curriculum. Weeks 6 to 10 are a separate course, and the capstone is a third. The original five-module course ([[../courses/Compute Verification]]) stays untouched.
@@ -20,7 +24,6 @@ Target audience and value proposition are inherited from the parent course and h
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/XLab Verification P1 Overview]]
-intro-form:: true
 
 # Module: [[../modules/XLab Verification P1 W1 Why verification]]
 
@@ -41,7 +44,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Meeting: Unit 2: Precedents and policy scope
 meeting-doc-template:: https://docs.google.com/document/d/1otRIAJ84NXSyPsHelypCmLdnmfa-yjrzL6dN_kuwucc/edit
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Session 2 Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]

@@ -1,11 +1,11 @@
 ---
 id: '3931a8f1-3aa1-4b5a-9b3e-ff4e90f42106'
 learning-outcome: "Explain why states that each believe ASI is an existential risk still race to build it, and why verification, rather than trust, punishment, or transparency, is what makes a mutual pause individually rational."
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/Verifying AI agreements]]"
 stage: beginner
 authors:
   - Elias+Claude
-tags:
+tags: []
 ---
 ## Test:
 id:: 2dda11c1-08df-40d2-9b21-2fe5f693da36

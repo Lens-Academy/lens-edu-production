@@ -2,9 +2,9 @@
 title: "Order Relating to Seagate Technology LLC and Seagate Singapore International Headquarters PTE. LTD."
 author:
   - "Bureau of Industry and Security"
-allowAuthorInTitle: true
 source_url: "https://www.thewirechina.com/wp-content/uploads/2024/10/Seagate-Order.pdf"
 published: 2023-04-19
+allowAuthorInTitle: true
 created: 2026-09-06
 accessed: 2026-09-06
 llm-review:
@@ -386,9 +386,6 @@ a. Seagate shall be assessed a civil penalty in the amount of \$300,000,000. Pay
 | 13             | \$15,000,000 | October 31, 2026 |
 | 14             | \$15,000,000 | January 31, 2027 |
 | 15             | \$15,000,000 | April 30, 2027   |
-
-|    |              |                  |
-|----|--------------|------------------|
 | 16 | \$15,000,000 | July 31, 2027    |
 | 17 | \$15,000,000 | October 31, 2027 |
 | 18 | \$15,000,000 | January 31, 2028 |

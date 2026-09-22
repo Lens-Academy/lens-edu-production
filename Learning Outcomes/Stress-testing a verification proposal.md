@@ -1,11 +1,11 @@
 ---
 id: '7742225d-e3a4-48fc-8560-a1164fed7dfc'
 learning-outcome: "Given an unfamiliar verification proposal, identify its load-bearing mechanism, its weakest link and how a failure there would spread, the assumptions it depends on, and defend a recommendation that answers the strongest objection to it."
-domain: "[[../Domains/Governance and Policy]]"
+topic: "[[../Domains and Topics/10 Governance and Policy/Verifying AI agreements]]"
 stage: intermediate
 authors:
   - Elias+Claude
-tags:
+tags: []
 ---
 ## Test:
 id:: 6e124856-c5d2-425f-af25-07634eee19a3

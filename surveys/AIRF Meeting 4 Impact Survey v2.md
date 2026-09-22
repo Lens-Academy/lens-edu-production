@@ -4,7 +4,7 @@ title: AI Risk Fundamentals Meeting 4 Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for showing up. This short survey helps us improve the module, meeting, AI Tutor, and facilitation. Submitting it also records your attendance for this meeting.
+content:: Thanks for showing up. This short survey helps us improve the module, meeting, AI Tutor, and facilitation.
 
 #### Text
 content:: **What comes after this course**
@@ -12,7 +12,7 @@ content:: **What comes after this course**
 Two options are worth reviewing before you continue.
 
 * **Compute Verification.** This is our advanced course on verifying how compute is used and making agreements between countries checkable. [See the course](https://lensacademy.org/courses/compute-verification)
-* **Navigate a group.** Navigators take a course with their group and run the sessions, with preparation and support from us. The role takes a few hours each week and is fully remote. [Apply to navigate](https://lensacademy.org/navigate)
+* **Navigate a group.** Navigators take a course with their group and run the sessions, with preparation and support from us. The role takes a few hours each week and is fully remote. [Apply to navigate](https://lensacademy.org/navigators)
 
 #### Text
 content:: **If either option interests you, open it now before you continue.** Answers below are saved only when you select Submit.

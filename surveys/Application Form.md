@@ -165,6 +165,15 @@ key:: heard_from
 content:: Where did you hear about this course? Please be specific, e.g. "Saw it in the [community] chat" or "Got referred by [program]".
 required:: true
 
+#### Choice
+key:: navigator_interest
+content:: Would you be interested in becoming a navigator (a volunteer course facilitator) at some point, now or later in the course? Totally optional, and it won't affect your application!
+options::
+- Yes, I would like to hear more
+- Maybe, ask me again later in the course
+- No, not for me
+required:: false
+
 #### Question
 key:: nominations
 content:: Who is the most exceptional person you would nominate for this course? Please include their email and LinkedIn. (You can nominate more than one; if they are a good fit we might reach out to them.)

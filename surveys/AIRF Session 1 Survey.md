@@ -4,7 +4,7 @@ title: Session 1 Post-Session Reflection
 ---
 
 #### Text
-content:: Thanks for showing up. This is your post-session reflection. It takes about 7 minutes and helps us measure how the course is moving you, while giving you a chance to name what you're taking away. Submitting it also counts your attendance for this meeting.
+content:: Thanks for showing up. This is your post-session reflection. It takes about 7 minutes and helps us measure how the course is moving you, while giving you a chance to name what you're taking away.
 
 #### Question
 key:: buddy_handle

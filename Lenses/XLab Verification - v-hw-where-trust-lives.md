@@ -2,7 +2,8 @@
 id: '39b85a0e-0cb9-47f8-a5b2-c0ff4433947e'
 title: "Where should trust live?"
 tldr: "Moving trust does not remove it. Compare four places to put the monitor, inside the chip, on the network, on the power line, or all three, for one verification target, then choose the smallest pilot that a U.S. and a Chinese delegation would both accept."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and on a pilot rather than universal deployment."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading comparing on-chip, off-chip digital, off-chip analog and hybrid architectures for one verification target, plus the confidentiality trade. Then four excerpts of Baker et al., Sections 4.1 and 4.2 with their analyses. The page text after the excerpts carries the framing the widget no longer holds: the two-subgoal decomposition, the definition of a verification layer as one of six largely independent assurances, and the Figure 2 caption. The six-layers-grid widget follows, a clickable Figure 2: the learner opens each of the six layers to read the paper summary, key advantages, key disadvantages and what the layer would require (Table 2 for Layers 1 to 3, Section 4.3 for Layers 4 to 6), or opens a subgoal to read its Section 3.2 definition. Each layer row also has an On/Off switch: switching a layer off greys and strikes out its mechanisms and updates four coverage tiles and a verdict line, so the learner can test the paper's claim that each layer is independently sufficient. Any single layer left on still covers all four subgoals; only switching every layer off loses coverage. The status line counts layers opened and layers switched on, and the widget is done once all six layers have been opened and at least one has been switched off. Ends with the bilateral pilot review open question (eight items for each of two designs, then a pilot choice). Insist on counting independent failure modes, not mechanism names, and on a pilot rather than universal deployment."
+tags: [wip]
 duration_minutes: 30
 ---
 #### Text
@@ -42,7 +43,7 @@ Possible components include device identity, secure or measured boot, signed cou
 Current confidential-computing support on accelerators is a deployed security primitive, not proof of treaty compliance. For example, NVIDIA describes Hopper confidential computing as protecting code and data in use from the host and basic physical attacks under its stated threat model. A treaty adversary may be stronger than that threat model, and a confidential workload may still violate the treaty.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf) — the confidential-computing whitepaper and current product documentation.
+NVIDIA, [*NVIDIA H100 Tensor Core GPU Security*](https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/h100/PB-11133-001_v01.pdf), the confidential-computing whitepaper and current product documentation.
 :::
 
 \#### Architecture B: off-chip digital monitoring
@@ -68,7 +69,7 @@ Possible components include network taps, server or rack gateways, input/output 
 Recent work has proposed fingerprinting or committing cluster input and output through external taps and secure gateways. These designs are research proposals. Their value is to make the trust-placement problem concrete, not to show that the engineering and political problems are solved.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-A. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors* — [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
+N. Cankaya et al., *Fingerprinting All AI Cluster I/O Without Mutually Trusted Processors*, [arXiv:2606.10724](https://arxiv.org/abs/2606.10724), June 2026. Treat the architecture and implementation schedule as a research proposal.
 :::
 
 \#### Architecture C: off-chip analog monitoring
@@ -142,6 +143,23 @@ to:: “Off-chip” verification layers aim to avoid the security challenges of 
 source:: [[../articles/baker-verifying-international-agreements-on-ai-six-layers-of-verification-for-rules-on-large-scale-ai-development-and-deployment]]
 from:: #### 4.2.2 Analysis
 to:: Given the challenges of both on- and off-chip verification, it would be helpful if there were also simpler approaches to verification, or more broadly, approaches with different tradeoffs. This is where personnel-based verification comes in.
+
+#### Text
+content::
+\#### The six layers against the four subgoals
+
+The grid below is Figure 2 of *Six Layers of Verification*, made clickable: six verification layers down the side, the four verification subgoals across the top, and the mechanism the paper names in each cell. Its caption reads "Verification layers consist of distinct mechanisms for each verification subgoal."
+
+The subgoals, in the paper's words: "The framework decomposes this goal into two subgoals: (1) verify that declared uses of large-scale AI compute are compliant, and (2) verify that there are no undeclared uses of large-scale AI compute (i.e., declarations are complete)."
+
+The layers: "To complete these subgoals, states could create six layers of verification: six largely independent assurances of compliance. Like “layers of defense,” a full implementation of each layer could verify compliance on its own, and multiple layers would reinforce each other. Thus, a stack of layers is an effective combination of verification mechanisms; it completes each subgoal with redundancy."
+
+The excerpts above are Sections 4.1 and 4.2, Layers 1 to 3. The grid adds the three personnel-based layers of Section 4.3. Opening a layer shows the paper's summary of it with its key advantages and key disadvantages (Tables 1, 5, 7 and 8) and what it would require (Table 2 for Layers 1 to 3, Section 4.3 for Layers 4 to 6); opening a subgoal shows its Section 3.2 definition.
+
+Each row also has an On/Off switch. Switch layers off and watch the coverage tiles below the grid: the claim to test is that a full implementation of any single layer verifies compliance on its own, so coverage should survive until the last layer goes dark.
+
+#### Widget
+source:: [[../widgets/six-layers-grid]]
 
 #### Text
 content::

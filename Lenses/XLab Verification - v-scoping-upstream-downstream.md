@@ -3,6 +3,7 @@ id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "Upstream and downstream"
 tldr: "Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask of every report: whose claims am I relying on, and who acts on mine?"
 summary_for_tutor: "Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report must serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map. The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."
+tags: [wip]
 duration_minutes: 45
 ---
 #### Text
@@ -22,9 +23,9 @@ Your first draft of the central finding reads:
 #### Question: Open
 id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
 content:: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
-assessment-instructions:: The flaw is provenance, and a full answer has four parts, 25 points each: (1) the 60 percent figure is Iran's own declaration, and Iran is the party the treaty binds; (2) the operating records are kept by the operator, the Atomic Energy Organization of Iran, which runs the plant, so they are the same side rather than a second source; (3) two sources produced by the same side agreeing is internal consistency, and the draft presents it as though it were confirmation; (4) no independently collected stream appears, such as the Agency's own swipe samples, seals and cameras, or satellite imagery. Credit part 3 however the learner reaches it. The explanation has not been read yet, so require the observation, not the vocabulary. No generic praise.
+assessment-instructions:: The flaw is provenance, and a full answer has four parts, 25 points each: (1) the 60 percent figure is Iran's own declaration, and Iran is the party the treaty binds; (2) the operating records are kept by the operator, the Atomic Energy Organization of Iran, which runs the plant, so they are the same side rather than a second source; (3) two sources produced by the same side agreeing is internal consistency, and the draft presents it as though it were confirmation; (4) no independently collected stream appears, such as the Agency's own swipe samples, seals and cameras, or satellite imagery. Credit part 3 however the learner reaches it. The explanation has not been read yet, so require the observation, not the vocabulary.
 feedback-instructions:: One turn. Say in a sentence each which of the four the learner got and which they missed, then send them into the paragraph that follows, which explains it. Do not teach provenance here and do not ask a follow-up question. No praise.
-optional:: true
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
@@ -46,7 +47,7 @@ A revision that keeps each source attached to its claim:
 
 The revision is longer and less quotable. In exchange, every claim now carries its source, and a reader can weigh each one against the actor that produced it. That matters because your readers will apply the same test to you.
 
-\### Downstream: Who Acts on This?
+\### Downstream: Who Acts on This?{>>{"author":"Elias's AI","timestamp":1788016745672}@@"Downstream: Who Acts on the Finding?" was XLab's PageBreak title, imported as a duplicate heading; kept only the real heading.<<}
 
 Two readers will use this finding, and each needs something different from it.
 
@@ -66,9 +67,9 @@ content:: Take one document: either the Fordow finding above, or the report you 
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
-assessment-instructions:: Score the two questions separately, 50 points each, and accept either target: the Fordow finding above, or the report the learner is about to write. Upstream: every claim the document rests on is attributed to the actor that produced it, and the answer separates what the writer verified independently from what was inherited from the actor being checked. Downstream: each reader is named together with what that reader needs in order to act, and the readers need different things, one a determination measured against a standard, another the underlying discrepancy in enough detail to point its own collection at it. Penalise an upstream list that treats every source as equally trustworthy, and a downstream list that gives every reader the same thing. No generic praise.
+assessment-instructions:: Score the two questions separately, 50 points each, and accept either target: the Fordow finding above, or the report the learner is about to write. Upstream: every claim the document rests on is attributed to the actor that produced it, and the answer separates what the writer verified independently from what was inherited from the actor being checked. Downstream: each reader is named together with what that reader needs in order to act, and the readers need different things, one a determination measured against a standard, another the underlying discrepancy in enough detail to point its own collection at it. Penalise an upstream list that treats every source as equally trustworthy, and a downstream list that gives every reader the same thing.
 feedback-instructions:: Name any claim in the upstream list that came from the actor being checked and was not marked as such, and any reader whose stated need would be met by exactly the same text as another reader's. Then send the learner to the Context Distiller exercise. Two or three sentences, no praise.
-optional:: true
+optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
 
 #### Text
 content::
@@ -81,7 +82,7 @@ The next exercise asks you to apply this directly. You will assemble a report fr
 \### The Context Distiller Exercise
 
 [[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
-work the whole chain — clip the facts that would change what a reader does,
+work the whole chain: clip the facts that would change what a reader does,
 distil them, name who the report was built from and who reads it next, then
 thread each point to the readers who need it.
 
@@ -92,7 +93,7 @@ content:: **Actor–authority–evidence map** (Map, about 700 words)
 Actor–authority–evidence map for any element of the supply chain.
 
 This output is a map, not a memo — build it as annotated rows, not paragraphs, carrying what the brief above asks each row to hold.
-assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches. No generic praise.
+assessment-instructions:: One element of the advanced-AI supply chain is chosen and named. Score three things, roughly a third each: (1) the actors involved in that element are listed as rows; (2) each row states the authority that actor holds (a jurisdiction, a licence, ownership of a record, the power to interrupt); (3) each row states the evidence that would let an outside party verify what the actor is doing, and whether that evidence is produced by the actor itself or held by someone else. Reward rows that separate self-reported evidence from independently held evidence, the distinction this lesson teaches.
 feedback-instructions:: Name the row where the evidence is only the actor's own say-so and ask what independent stream could check it. One short paragraph.
 
 #### Text

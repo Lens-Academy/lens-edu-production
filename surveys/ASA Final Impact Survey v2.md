@@ -4,7 +4,7 @@ title: AI Safety Atlas Final Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section. Submitting it also records your attendance for this meeting.
+content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section.
 
 #### Text
 content:: **This module and meeting**
@@ -231,6 +231,7 @@ content:: Would you like to apply to facilitate a future Lens course?
 options::
 - Yes, tell me more
 - Not right now
+- Yes, I already signed up!
 
 #### Question: Open
 id:: 43049b0a-a972-498d-87c8-89af157f27e2

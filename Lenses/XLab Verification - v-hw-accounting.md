@@ -2,7 +2,8 @@
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
 title: "Accounting for hardware: identity, location, topology, and completeness"
 tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams."
+summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams. A chip locator widget sits after the location verification excerpt: the learner moves landmark servers, changes how many report and how noisy their delays are, and watches the region consistent with every delay measurement tighten to a patch or spread across the map."
+tags: []
 duration_minutes: 20
 ---
 #### Text
@@ -40,7 +41,7 @@ Identity is a useful anchor for evidence from other mechanisms. It does not esta
 Location-verification proposals often use network timing or challenge-response measurements. A verifier sends unpredictable challenges and checks whether response times are consistent with the claimed region. Such protocols may make some forms of remote spoofing costly, but they depend on secure time, protected processing, network conditions, calibration, and a tolerable false-positive rate. Hardware-governance surveys continue to treat robust, scalable location verification as an open research area rather than a fielded treaty capability.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025.
 :::
 
 A location claim should therefore state its resolution and error model. “Inside Country A,” “inside this data center,” and “inside this rack” are different claims.
@@ -62,7 +63,7 @@ Compare the proposals for cluster configuration and location, then consider thei
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.3 Verifiable cluster configuration ^2-3-verifiable-cluster
-to:: Figure 5: AI Computing Cluster. Adapted from: [Kulp et al. (2024)](#bib.bib34).
+to:: Figure 5: AI Computing Cluster. Adapted from: Kulp et al. (2024).
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
@@ -73,6 +74,13 @@ to:: Is there a way to securely update which chips are permitted in the pod so t
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.4 Location verification ^2-4-location-verification
 to:: AI chips could be designed to make it possible for an external regulatory authority to securely and reliably determine their location and take policy actions based on a chip’s location. Alternatively, the chip could determine its own location and respond directly, such as restricting operation when located in an area known to be subject to export controls. There are a number of technical approaches to location verification which can be used alone or in tandem to provide location estimates that are accurate and robust against adversarial tampering.
+
+#### Text
+content::
+Landmark servers turn a challenge and response into a distance. Work the method below: each delay bounds how far away the chip can be, and the region consistent with every landmark is all a verifier can claim. The units are schematic.
+
+#### Widget
+source:: [[../widgets/ogara-chip-locator]]
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
@@ -95,7 +103,7 @@ Attestation covers devices that participate. A registry covers devices that ente
 - Intelligence on undeclared facilities or diversion;
 - Insiders who report substitution, tampering, or hidden capacity.
 
-Hardware is therefore strongest for known, instrumented compute. The intelligence and human sections will address what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
+Hardware is therefore strongest for known, instrumented compute. Part 2 of this course, on intelligence and human mechanisms, will address what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
 
 \#### Try it
 
