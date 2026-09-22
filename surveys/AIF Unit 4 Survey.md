@@ -12,7 +12,7 @@ content:: **What's next after this course**
 Two things you can do from here. Both are worth a look before you carry on.
 
 * **Compute Verification** starts 7 September. It is our advanced course on verifying how compute is used, and how that makes agreements between countries checkable. → [see the course](https://lensacademy.org/courses/compute-verification)
-* **Navigate a group yourself.** Navigators take a course alongside their group and run the sessions, with prep and support from us the whole way. It is a few hours a week, fully remote. → [apply to navigate](https://lensacademy.org/navigate)
+* **Navigate a group yourself.** Navigators take a course alongside their group and run the sessions, with prep and support from us the whole way. It is a few hours a week, fully remote. → [apply to navigate](https://lensacademy.org/navigators)
 
 #### Text
 content:: **If either one interests you, open it now before you carry on.** Anything you fill in below is only saved when you press submit at the end.

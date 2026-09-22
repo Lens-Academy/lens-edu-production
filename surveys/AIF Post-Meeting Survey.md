@@ -4,7 +4,7 @@ title: Post-Meeting Survey
 ---
 
 #### Text
-content:: Thanks for showing up! This is your post-session reflection. It takes a few minutes, helps us measure how the course is moving you, and gives you a chance to name what you're taking away. Submitting it is also what counts your attendance for this meeting.
+content:: Thanks for showing up! This is your post-session reflection. It takes a few minutes, helps us measure how the course is moving you, and gives you a chance to name what you're taking away.
 
 #### Rating
 key:: seriousness
