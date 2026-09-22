@@ -3,6 +3,7 @@ id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
 title: "Measuring and classifying use"
 tldr: "Counting FLOP and knowing whether they were training are two different problems, and a 98.2 percent classifier that drops to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practise turning an experimental result into exactly the policy claim it supports."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
+tags: []
 duration_minutes: 25
 ---
 #### Text
@@ -34,7 +35,7 @@ A treaty-grade accounting rule must define:
 Existing performance counters and management telemetry can measure useful quantities, but ordinary counters are not automatically suitable for adversarial verification. Hardware-mechanism surveys note that some existing counters can be reset or controlled by users. A stronger design needs a protected measurement path, secure state, authenticated reporting, freshness, and aggregation rules that the operator cannot silently rewrite.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development* — [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
+O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
 :::
 
 Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
@@ -48,7 +49,7 @@ Read the proposal for verifiable training and inference and its open research qu
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
 from:: ### 2.2 Verifiable AI training and inference ^2-2-verifiable-ai
-to:: Figure 3: Adapted from: ([Heim et al., 2024](#bib.bib21)).
+to:: Figure 3: Adapted from: (Heim et al., 2024).
 
 #### Article
 source:: [[../articles/ogara-hardware-enabled-mechanisms-for-verifying-responsible-ai-development]]
@@ -64,7 +65,7 @@ A compute counter cannot determine whether the operations were training, inferen
 A June 2026 preprint by Rahman and Tajdari tested whether temporal GPU telemetry could detect hidden machine-learning training. Across its full corpus, the study reported 98.2 percent binary classification accuracy over nine NVIDIA GPU models and twenty evasion families. The result is important evidence that training leaves detectable temporal patterns under tested conditions.
 
 :::callout {title="Source" tone="neutral" collapse="closed"}
-Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry* — [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
+Robi Rahman and Sabiha Tajdari, *Detecting Hidden ML Training With Zero-Overhead Telemetry*, [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026. A preprint, to be presented as a component demonstration.
 :::
 
 Read what the study measured, what it found, and what the authors say it does and does not establish.

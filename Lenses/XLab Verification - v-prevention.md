@@ -3,6 +3,7 @@ id: '51cf347a-59cf-412c-8206-ba7e19ace234'
 title: "Why Securitizing AI Is Difficult but Necessary"
 tldr: "Y2K did nothing because thousands of people fixed it first. Prevented catastrophes look like nothing happened, which is exactly why AI risk is easy to dismiss and why treating it as a security problem takes deliberate effort."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Reading only, no exercises."
+tags: [wip]
 duration_minutes: 5
 ---
 #### Text
@@ -41,4 +42,4 @@ Bogoed. "The World Keeps Getting Saved and You Don't Notice." *LessWrong*, 16 Fe
 
 XLab. "0.1.1 Why Securitizing AI Is Difficult but Necessary." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/prevention-is-invisible)
 *The source lesson this page adapts.*
-:::
+:::{>>{"author":"Elias's AI","timestamp":1788009454057}@@Proposed: drop per-lesson XLab source footer.<<}

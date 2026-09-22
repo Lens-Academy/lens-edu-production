@@ -2,7 +2,8 @@
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
 title: "We Need More Theories of Change"
 tldr: "Congress cancelled a $11B collider because nobody could say why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world; if you cannot state it, neither can the people deciding whether to fund or act on your work."
-summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise asks the learner to map a real AI safety organization's six-stage theory-of-change pathway, then identify its assumptions and external factors; check outputs vs outcomes and if-then links."
+summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise is an interactive widget: the learner names a real AI safety organization, fills its eight-box theory-of-change chain (inputs, outputs, outcomes, assumptions, external factors) and presses Get feedback, which submits the chain and requests written feedback from you; check outputs vs outcomes and if-then links."
+tags: [wip]
 duration_minutes: 10
 ---
 #### Text
@@ -63,31 +64,17 @@ A simple test to check if you are clear enough is to try explaining the project 
 
 ![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/XLabTracks/tracks/main/public/verification/assets/theories-of-change/slow-food-theory-of-change.png)
 
-Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.
+Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
 :::
 
 A common failure mode is conflating **outputs** with **outcomes**. Outputs are tangible products you produced: a paper, a benchmark, an eval, a workshop, a policy memo. They are easy to qualify and quantify. Outcomes are what changed because of those outputs: a lab altered a training procedure, a policymaker incorporated a threat model into a draft bill, a researcher updated their estimates. It’s more difficult but much more important to recognize and attribute outcomes. A project can generate impressive outputs, such as a well-cited paper, a popular benchmark, or a successful conference, without any clarity as to how it actually creates change in the world.
 
-:::callout {title="Optional: Theory of Change for Your Favorite AI Safety Organization" tone="neutral" collapse="closed"}
+:::callout {title="Optional: Theory of Change for Your Favorite AI Safety Organization" tone="neutral"}
 Now that you’ve seen some exemplary examples of robust theories of change, try building your own! Pick your favorite AI safety organization and fill out the table below based on publicly available information, reports, and testimonials.
 :::
 
-#### Question: Open
-id:: dc502432-39f8-4a75-99ff-e43532b1ed5d
-content:: Optional: Name your organization. Then map its six-stage theory-of-change pathway and identify the conditions around it:
-
-- **Inputs / What do we need?** (resources, people)
-- **Outputs / What do we do?** (activities)
-- **Outputs / Who do we reach?** (new audience, collaborators)
-- **Outcome / Short-term** (knowledge increased)
-- **Outcome / Intermediate** (behavior changed, decision-making done)
-- **Outcome / Long-term** (conditions changed)
-- **Assumptions** (internal / testable)
-- **External factors** (external / undefined)
-placeholder:: Organization: ... Inputs: ... Activities: ...
-optional:: true
-assessment-instructions:: Check that the learner names an organization, maps all six stages of its theory-of-change pathway, and identifies its assumptions and external factors. Outcomes must describe what changed in the world rather than products produced, and assumptions must be stated as testable if-then links. Score completeness and whether each part holds the right kind of content.
-feedback-instructions:: Point out any box where an output was written as an outcome, and any link in the chain that is not an if-then claim. One useful follow-up question. No generic praise.
+#### Widget
+source:: [[../widgets/theories-of-change]]
 
 #### Text
 content::
@@ -116,4 +103,4 @@ Slow Food USA. "Our Theory of Change." [slowfoodusa.org](https://slowfoodusa.org
 
 XLab. "0.1.2 We Need More Theories of Change." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/why-verification/theories-of-change)
 *The source lesson this page adapts.*
-:::
+:::{>>{"author":"Elias's AI","timestamp":1788009456054}@@Proposed: drop per-lesson XLab source footer.<<}
