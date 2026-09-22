@@ -231,6 +231,7 @@ content:: Would you like to apply to facilitate a future Lens course?
 options::
 - Yes, tell me more
 - Not right now
+- Yes, I already signed up!
 
 #### Question: Open
 id:: 46b03d33-31c3-4872-83db-b2b3dd3e3be3

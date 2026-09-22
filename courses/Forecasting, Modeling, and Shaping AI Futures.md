@@ -21,7 +21,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Meeting: Unit 2
 meeting-doc-template:: https://docs.google.com/document/d/1ueFST_L_ei4mvZYKOe1v5io1CqrHwqDwZKSLNcCM-qM/edit
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Session 2 Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/w3-how-could-it-go-wrong|Unit 3: How Could It Go Wrong?]]

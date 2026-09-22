@@ -44,7 +44,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 
 # Meeting: Unit 2: Precedents and policy scope
 meeting-doc-template:: https://docs.google.com/document/d/1otRIAJ84NXSyPsHelypCmLdnmfa-yjrzL6dN_kuwucc/edit
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Session 2 Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../modules/XLab Verification P1 W3 Treaty anatomy and actors]]

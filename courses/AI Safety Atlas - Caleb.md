@@ -23,7 +23,7 @@ facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
 # Module: [[../modules/Lisbon Fellowship - Chapter 3 Strategies, Part 1|Chapter 3: Strategies, Part 1]]
 # Meeting: Week 2
 meeting-doc-template:: https://docs.google.com/document/d/1v2vV520FQbry8AsdhWkpSNC_ihvkQqkU0wXa76DZRoM/edit
-survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+survey:: [[../surveys/Lens Session 2 Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Week 3 %%
