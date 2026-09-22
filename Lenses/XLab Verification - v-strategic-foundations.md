@@ -3,6 +3,7 @@ id: '4f5ceb89-f774-41b3-b382-f63f044c2823'
 title: "Strategic Foundations"
 tldr: "Optional background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Read the pathway you are weakest on."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. Optional reading pathways plus one optional written output (actor, authority, and evidence map)."
+tags: [wip]
 duration_minutes: 80
 ---
 #### Text
@@ -12,7 +13,7 @@ Short reading pathways in game theory and international relations. Learners may 
 \## Strategic actors and credible commitments
 
 \### Strategic Thinking
-Sarwat Jahan and Ahmed Saber Mahmud (2015)
+Sarwat Jahan and Ahmed Saber Mahmud (2018)
 
   A short, nontechnical primer on players, strategies, payoffs, equilibrium,
   simultaneous and sequential moves, repeated games, and incomplete
@@ -55,7 +56,7 @@ James D. Fearon (1997)
   their strategic effects.
 
 #### Article
-source:: [[../articles/archive-signaling-foreign-policy-interests-tying-hands-versus-sinking-costs]]
+source:: [[../articles/fearon-signaling-foreign-policy-interests-tying-hands-versus-sinking-costs]]
 from:: ## TYING HANDS VERSUS SINKING COSTS ^tying-hands-versus-sinking
 to:: In the tying-hands case, payoffs are as follows. If the challenger does not challenge, the defender gets its value for the prize,  $v_D$ , and the challenger gets its value for the status quo, 0. If C challenges and the defender does not respond, the defender pays the price of the signal,  $m$ , and the challenger gets its value for prevailing on the issue, so payoffs are  $(-m, v_C)$ . If conflict occurs, payoffs are  $(pv_D - c_D, (1-p)v_C - c_C)$ . Note that in this case, the audience costs  $m$  are paid by the defender only if the defender backs down or backs away from a challenge.
 
@@ -88,7 +89,7 @@ Amy F. Woolf (2011)
   analysis, and political judgment.
 
 #### Article
-source:: [[../articles/service-monitoring-and-verification-in-arms-control]]
+source:: [[../articles/woolf-monitoring-and-verification-in-arms-control]]
 from:: ## Introduction ^introduction
 to:: These benefits may be difficult to measure and hard to factor into a net assessment of the value of the new START Treaty. Nevertheless, some argue that, when combined with the fact that the treaty will provide the United States with unprecedented access to information about Russian nuclear forces and a measure of predictability about the future direction of those forces, the benefits of the treaty to U.S. national security interests far outweigh any uncertainties that may arise due to the changes in the verification regime.[^cite-48]
 
@@ -106,7 +107,7 @@ Robert D. Putnam (1988)
   concept of win-sets.
 
 #### Article
-source:: [[../articles/putnam-diplomacy-and-domestic-politics-the-logic-of-two-level-games-11]]
+source:: [[../articles/putnam-diplomacy-and-domestic-politics-the-logic-of-two-level-games]]
 from:: ### Two-level games: a metaphor for domestic-international interactions ^two-level-games-a-metaphor
 to:: $Y_M$  represent the maximum outcomes for  $X$  and  $Y$ , respectively, while  $X_1$  and  $Y_1$  represent the minimal outcomes that could be ratified. At this stage any agreement in the range between  $X_1$  and  $Y_1$  could be ratified by both parties. If the win-set of  $Y$  were contracted to, say,  $Y_2$  (perhaps by requiring a larger majority for ratification), outcomes between  $Y_1$  and  $Y_2$  would no longer be feasible, and the range of feasible agreements would thus be truncated in  $Y$ 's favor. However, if  $Y$ , emboldened by this success, were to reduce its win-set still further to  $Y_3$  (perhaps by requiring unanimity for ratification), the negotiators would suddenly find themselves deadlocked, for the win-sets no longer overlap at all.[^note-43]
 

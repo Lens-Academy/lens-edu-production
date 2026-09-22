@@ -1,27 +1,29 @@
 ---
 id: 'b70db51f-a981-4675-93c9-ac224ccfae3e'
-title: "Read Plan A: Verification Regime"
+title: "Read Plan A's Verification Plan"
 tldr: "Read the mechanisms and implementation sequence before judging Plan A's verification regime."
-summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the source framing and respond to the learner's reasoning."
+summary_for_tutor: "Read the mechanisms and implementation sequence before judging Plan A's verification regime. Preserve the framing and respond to the learner's reasoning. The reading is three excerpts of the AI 2040 verification supplement: the summary of the plan, the concrete inference-only retrofit, and the 2029 to 2030 implementation sequence. The supplement's figures sit inside the article at their places: the treemap of where the world's AI compute sits on January 1, 2029; the deal implementation timeline; the January 2029 and mid 2029 chip declaration waffle charts; the 2029 and 2032 chip flow restriction scatter charts; the assurance curves for N_ver = 100, 10K and 10M; and the rogue internal deployment detection chart, which has a year slider and a packet size slider."
 duration_minutes: 45
+tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::
-For both options, focus on the plan's summary, concrete inference-only retrofit, and 2029–2030 implementation sequence, including third-party participation.
+Below are three excerpts from AI 2040's verification supplement: the plan's summary, the concrete inference-only retrofit, and the 2029–2030 implementation sequence, including third-party participation.
 
 - **Option A:** Read these sections closely before writing your essay.
 - **Option B:** Skim these sections, then read the Plan S discussion and FAQ in Option B.
 
 #### Article
-source:: [[../articles/2040-ai-2040-plan-a]]
+source:: [[../articles/dean-ai-2040-verification-plan]]
 from:: ## Summary of the Plan
 to:: **Phase 3. Improve robustness.** Over time the US and China improve the stability and durability of the verification regime, especially through hardware security, verification robustness, and more.
 
 #### Article
-from:: Concrete inference-only retrofitting proposal.
-to:: 1.  Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
+from:: :::callout {title="Concrete inference-only retrofitting proposal." tone="neutral" collapse="open"}
+to:: Removing major scale out interconnect and e.g., installing some simple sensors and other physical security mechanisms might also suffice for verifying inference-only for an initial phase of a deal (e.g., 1 year) until higher assurance measures are ready for larger amounts of compute and higher stakes workloads.
+:::
 
 #### Article
 from:: ## 2029-2030: Deal Implementation

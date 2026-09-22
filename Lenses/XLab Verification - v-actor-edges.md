@@ -2,7 +2,8 @@
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "Who can prove what"
 tldr: "Verification is not something an actor has; it is an arrow between two of them: A can put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."
-summary_for_tutor: "The edge exercise on the 17-actor board from 1.2, then the reading of the map, a graded second-order question (removing the cloud providers stops a run soonest) and three optional written answers marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). The learner lists directed edges (A to B) and the Baker et al. subgoal each one settles (1.A declared uses are accurate, 1.B declared uses have the required properties, 2.A no undeclared use of a declared cluster, 2.B no undeclared clusters at all), graded against XLab's seven-edge key: Cloud providers to Frontier labs (1.A), NVIDIA to Frontier labs (1.B), NVIDIA to Cloud providers (2.A), TSMC to Proxies (2.B), NVIDIA to Proxies (2.B), Intelligence community to China (2.B), Intelligence community to Proxies (2.B). A reversed edge is reported as reversed, not as a miss. The key, the per-actor notes on why ten actors have no edge, and the closing finding (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell) are in closed callouts; reveal them only after the learner commits. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
+summary_for_tutor: "The learner draws directed evidence edges on the 17-actor board from 1.2 in the widget, then reads what the finished map says. An edge A to B means A can produce evidence about B, for a verifier, that B did not volunteer. Committing the edges grades them against XLab's seven-edge key and completes the widget: Cloud providers to Frontier labs (1.A declared uses are accurate), NVIDIA to Frontier labs (1.B declared uses have the required properties), NVIDIA to Cloud providers (2.A no undeclared use of a declared cluster), TSMC to Proxies, NVIDIA to Proxies, Intelligence community to China and Intelligence community to Proxies (all 2.B no undeclared clusters at all). A reversed edge is reported as reversed, not as a miss; extras cost nothing but get named. Committing also prints, inside the widget, each key edge's full mechanism with its Baker quotes and the ten actors with no edge and why, as XLab does. The page carries the rest: the brief and the board before the widget, the four Baker et al. subgoals with their quotes, and a roster callout the learner may open at any time; after the widget, a closed callout holds the reading of the map (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell), then a multiple-choice question on whose removal stops a frontier training run soonest (the key says the cloud providers) and three optional written questions marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). Do not reveal the key before the learner has committed their edges. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
+tags: []
 duration_minutes: 45
 ---
 #### Text
@@ -14,8 +15,8 @@ a description. This is what you do with it.
 Verification is not a property an actor has. It is a relation between two of
 them: somebody can put a fact in front of a verifier about somebody else, and
 that fact settles one of the four things a verifier has to establish. Drawing
-those relations is the exercise below, and the key for it is Baker et al.'s —
-the same report module 2.1 assigns when it gets to hardware.
+those relations is the exercise below, and the key for it is Baker et al.'s,
+the same report Week 5 assigns when it gets to hardware.
 
 Two things worth knowing before you start. Actors with no edge at all are a
 real answer and there are more of them than you would guess. And the point of
@@ -26,10 +27,12 @@ holding the whole regime up.
 content::
 \## Who can prove what
 
-**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them — who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
+**The brief.** Same agreement, same board: no training runs above a compute threshold for three months. 1.2 asked what part each actor plays in a declaration. This asks what a verifier could actually do with them: who can produce evidence about whom, and which of the four things a verifier has to establish that evidence would settle.
 
-**The board.** The key placement from 1.2, if you have not placed it yourself: *Declares:* United States, China, Cloud providers, Frontier labs. *Holds the evidence:* Taiwan, Netherlands, Japan, South Korea, ASML, TSMC, NVIDIA. *Verifies:* BIS, Intelligence community, California, and the hollow ring for the AI verification body that does not exist. *Outside the declaration:* Proxies, Deployers. Placing it is the workshop in 1.2, and it is worth doing first. Nothing here is gated on it.
+**The board.** If you have not placed this board yourself, the rings below are the key, not your answer. Placing it is [[../Lenses/XLab Verification - v-scoping-actors|the workshop in 1.2]], and it is worth doing first. Nothing here is gated on it.
 
+#### Text
+content::
 **The four things a verifier has to establish** (Baker et al., §3.2):
 
 - **1.A Declared uses are accurate.** “Verify that declared uses of AI compute are declared accurately, i.e., the Prover actually did the claimed development or deployment.”
@@ -39,92 +42,102 @@ content::
 
 Baker et al. decompose it this way, and the key tags every edge with the part it serves. Draw an edge when you can say which of these four it would help settle.
 
-\### 1. Draw the edges
+#### Text
+content::
+:::callout {title="The 17 actors (open any time)" tone="neutral" collapse="closed"}
+Reference for the workshop below: the cast from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids: who has to declare it, who holds evidence about the declaration, who checks it, and what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
 
-Draw an edge from **A** to **B** when A can produce evidence about B, for a verifier, that B did not have to volunteer. Not influence, not dependence — evidence. Direction is the claim: a cloud provider holds records about a lab’s training run, and the lab holds nothing comparable about the cloud. A verifier can be its own source, so an edge may start on the third ring.
+**Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover.
 
-Some actors will end up with no edge at all. That is an available answer and, for most of them, the right one. One of them can hold no edge in principle — the hollow ring on the map is a body that does not exist, and nothing that does not exist produces evidence.
+- **United States.** Jurisdiction over chip design, the largest frontier labs and cloud providers, and export-control law. Its export rules are the closest thing to a working compute-control regime today; its intelligence collection is difficult to share. *Roles: capability holder, chokepoint controller, information holder, enforcement authority. Postures: comply, hide.*
+- **China.** The other frontier developer: manufacturing scale, materials, designers, clouds and labs. Reads on-chip controls and inspection rights as surveillance and containment. *Roles: capability holder, chokepoint controller, information holder, enforcement authority. Postures: comply, hide.*
+- **Cloud providers** (AWS, Azure, Google Cloud, Oracle, Alibaba). Cloud and data-center operation. They can suspend access and hold rich logs; reseller chains and mislabeled workloads also create evasion routes. *Roles: chokepoint controller, information holder, enforcement authority, evasion pathway. Postures: comply, hide.*
+- **Frontier labs.** Model training. They hold the most detailed private information in the system: what was trained, on what data, and what evaluations showed. *Roles: capability holder, information holder, victim or beneficiary. Postures: comply, hide, exaggerate, free-ride.*
 
-#### Question: Open
-id:: 1ebdfc58-235f-4091-89a0-2f807289f888
-content:: Draw the edges. For each one, write the source actor, an arrow, and the actor the evidence concerns; if you can, add the subgoal it completes (1.A, 1.B, 2.A or 2.B). One line per edge. Actors with no edge at all are a real answer, and there are more of them than you would guess.
-assessment-instructions:: XLab's key has seven edges: Cloud providers → Frontier labs (1.A); NVIDIA → Frontier labs (1.B); NVIDIA → Cloud providers (2.A); TSMC → Proxies (2.B); NVIDIA → Proxies (2.B); Intelligence community → China (2.B); Intelligence community → Proxies (2.B). Score per edge only: each of the seven key edges found with the right direction is worth one seventh of 100. The subgoal column is feedback, not score; a missing or wrong subgoal changes nothing in the score. A reversed edge (right pair, wrong direction) is a reversal, not a miss: report it as reversed and give no credit for it. Extra edges cost nothing but should be named. Edges drawn from the United States, the four host states (Taiwan, Netherlands, Japan, South Korea), the verification body that does not exist, ASML, BIS, California, or the deployers are the ones the key deliberately leaves out; do not count them, and let the feedback explain why. No generic praise.
-feedback-instructions:: List the key edges the learner found (where a found edge carries a different subgoal from the key, say which one the key gives), the ones reversed, the ones missed with the mechanism from the key below, and the extras with the note from "Actors with no edge" below. Then say which subgoal on their board has only one mechanism holding it up. Two short paragraphs.
+**Holds the evidence.** You declare nothing here and you check nothing, but you hold a record a declaration can be held against, or the authority that makes somebody else’s record producible.
+
+- **Taiwan.** Fabrication and advanced packaging. Caught between US rules and Chinese customers. *Roles: chokepoint controller, information holder, victim or beneficiary. Postures: comply.*
+- **Netherlands.** Equipment: ASML. A small state carrying outsized weight in a rivalry it did not choose. *Roles: chokepoint controller, information holder. Postures: comply.*
+- **Japan.** Equipment and specialty materials. Under pressure from both sides of the US-China rivalry. *Roles: chokepoint controller. Postures: comply.*
+- **South Korea.** Memory, including high-bandwidth memory. Export exposure to China against alliance pressure from the United States. *Roles: chokepoint controller, information holder. Postures: comply.*
+- **ASML.** Equipment, most upstream. Few customers, high visibility, and systems that need continuing vendor service. *Roles: chokepoint controller, information holder. Postures: comply.*
+- **TSMC.** Fabrication and advanced packaging. *Roles: chokepoint controller, information holder, evasion pathway. Postures: comply, hide.*
+- **NVIDIA.** Accelerator design. It can decide whether accelerators ship with attestation, metering, or location features. *Roles: chokepoint controller, information holder, evasion pathway, victim or beneficiary. Postures: comply, hide, exaggerate, free-ride.*
+
+**Verifies.** The declarations come to you, and your job is to establish that they are true and that nothing has been left out.
+
+- **Commerce · BIS.** Inside the United States. Writes and enforces export controls on chips. *Roles: enforcement authority, information holder. Postures: comply.*
+- **Intelligence community.** Inside the United States. Collects evidence of undeclared facilities, but sharing it can expose sources and methods. *Roles: information holder. Postures: hide.*
+- **California.** Subnational jurisdiction over most frontier labs by headquarters geography. *Roles: enforcement authority, information holder. Postures: comply.*
+- **The verification body that does not exist.** Above the state. No international body holds a chip registry, inspection right, or procedure for resolving an allegation of training above a threshold. It is drawn as a hollow ring. *No roles, no postures.*
+
+**Outside the declaration.** Nothing you do appears in anybody’s declaration, because you sit below the threshold, or because you exist to keep a name off one.
+
+- **Proxies** (front companies, resellers, straw buyers). Distribution, across every stage. They exist to break the link between a name and an activity. *Roles: evasion pathway. Postures: defect.*
+- **Deployers** (product builders and deployers). Deployment, most downstream. A diffuse downstream signal of what models can do. *Roles: victim or beneficiary. Postures: free-ride.*
+
+**The six functional roles** (the role chips in the workshop, which appear once you commit, light the actors that hold one): capability holder, who can actually build the dangerous thing; chokepoint controller, who can physically stop or slow the flow; information holder, who already knows what verifiers need to learn; enforcement authority, who can impose a real cost for violating; evasion pathway, through whom a cheater would route; victim, free-rider or beneficiary, who bears the risk or enjoys the stability without a seat at the table.
+
+**The five postures:** comply, follow the agreement as written; defect, covertly violate for advantage; hide, obscure assets or activities from view, whether or not a rule is being broken; exaggerate, overstate compliance, safety, or capability; free-ride, enjoy the stability produced by others’ restraint without bearing its costs.
+:::
 
 #### Text
 content::
-:::callout {title="The key: seven edges and the mechanism behind each (open after you have answered)" tone="neutral" collapse="closed"}
-**Cloud providers → Frontier labs, Subgoal 1.A.** The declared run happened on somebody else’s machines. The cluster’s own records — logs, billing, and the sensors a verification regime would attach to it — are where a Verifier goes to find out whether the declaration matches what the chips did. Baker §4.2, off-chip verification layers: “the Verifier would aim to detect discrepancies between a Prover’s declarations and their actual chip use, such as by detecting that chips’ input data or power draw patterns tell a different story than the Prover’s claims”.
+\### 1. Draw the edges
 
-**NVIDIA → Frontier labs, Subgoal 1.B.** Checking that a declared model has the properties the rules require means running tests on it without the Prover handing over its weights. The feature that makes that possible is built into the chip at design time; Baker names NVIDIA among the designers that have implemented or announced versions of it. Baker §4.1.1.1, Confidential Computing: “This could enable a Verifier to run tests on a Prover’s models, data, and code—with the Prover knowing their information will not be stolen, and with the Verifier knowing their tests will be run faithfully and will not be viewed for the sake of manipulating test results.”
+Draw an edge from **A** to **B** when A can produce evidence about B, for a verifier, that B did not have to volunteer. Not influence, not dependence: evidence. Direction is the claim: a cloud provider holds records about a lab’s training run, and the lab holds nothing comparable about the cloud. A verifier can be its own source, so an edge may start on the third ring.
 
-**NVIDIA → Cloud providers, Subgoal 2.A.** Accounting for everything a declared cluster did means the chips keeping their own record. That is a hardware feature, present or absent at manufacture — the cluster’s operator cannot add it afterwards, and cannot quietly remove it either. Baker §4.1, the on-chip verification layer: “Security features built into AI chips may enable verification, such as by ensuring that AI chips log traces of their activities for confidential analysis.”
+Some actors will end up with no edge at all. That is an available answer and, for most of them, the right one. One of them can hold no edge in principle: the hollow ring on the map is a body that does not exist, and nothing that does not exist produces evidence.
 
-**TSMC → Proxies, Subgoal 2.B.** The chain of custody starts where the die is made. How many leading-edge parts exist at all is the ceiling on how large any undeclared cluster could possibly be, and that number exists in one place. Baker §4.2.1, verifying AI chips’ chain of custody: “A Verifier could verify the locations and owners of random samples of AI chips from manufacturing to end-of-life destruction.” And: “This would serve to verify that large quantities of AI chips are not assembled into undeclared AI compute clusters (Subgoal 2.B).”
+#### Widget
+source:: [[../widgets/actor-edges]]
 
-**NVIDIA → Proxies, Subgoal 2.B.** The same chain one link down: who the parts were sold to, and which serialised chip went where. This is NVIDIA’s second mechanism and a different one from the first — which is exactly why it gets its own edge. Baker §4, defining a verification mechanism: “An example verification mechanism is inspecting AI chips to verify that they have not been sent to undeclared AI data centers; this helps complete Subgoal 2.B.”
-
-**Intelligence community → China, Subgoal 2.B.** The lesson's own row for this agency is monitoring and attribution — the layer that spots hidden data centres and procurement networks. It is what one signatory has instead of a right to inspect the other. Note what it costs: what it knows is classified, so turning it into evidence anybody may act on risks the source that produced it. And note the asymmetry, which is a fact about this roster rather than about the world — China has the same capability and this board has no row for it. Baker §4.3, personnel-based verification layers: “Intelligence agencies could collect and analyze intelligence for all verification subgoals, including via human, cyber, and signals intelligence.” The layer's own listed disadvantages: “More adversarial, harder for third parties to verify, and unclear effectiveness.”
-
-**Intelligence community → Proxies, Subgoal 2.B.** A cluster nobody declared leaves no paperwork to audit. What is left is people and signals — and this is the only actor on the board that can reach a facility that was never on any list. Read the quote carefully: the paper gives intelligence EVERY subgoal, not this one. It is filed here because 2.B is the only place on this board where it is the sole mechanism, and an edge you drew from it to a lab or a cloud has the paper behind it. Baker §4.3: “Intelligence agencies could collect and analyze intelligence for all verification subgoals, including via human, cyber, and signals intelligence.”
-:::
-
-:::callout {title="Actors with no edge, and why (open after you have answered)" tone="neutral" collapse="closed"}
-**United States.** A signatory declares; it does not produce evidence itself. What a state has for that is institutions, which is why the intelligence edge starts at the agency rather than at the country. Then notice the shape that leaves: China is at the receiving end of an edge and the United States is at the receiving end of none. Do not read that as a claim that one government is the more transparent. It is a claim about which government's institutions this roster wrote down — and about the empty ring where the body that would check both of them should be. Baker §3.1: “The Prover could be a private institution or (in the case of international agreements) a government, which could constrain private companies within its territory as part of the agreement.”
-
-**Taiwan, Netherlands, Japan, South Korea.** The four host states hold the jurisdiction that makes their firms' records producible, and not one of them is a party to this agreement. That is not an oversight in the drawing; it is the open problem the paper lists under attaining participation, and it is the reason a two-party compute agreement leans on export controls and energy policy rather than on the agreement itself. An edge you drew from one of them is an edge nothing compels. Baker §3.3, broader challenges: “How to attain compliance commitments from all states that host large-scale AI compute (as such states could directly misuse it or rent it to an agreement party)?”
-
-**No AI verification body.** This one can hold no edge, and that is the row, not a gap in it. The paper allows a government body or a third party as Verifier; every government body here belongs to one signatory, and the third party does not exist — no chip registry, no challenge-inspection right, no procedure for resolving an allegation of training above a threshold. Read the board once more with that in mind: a two-party agreement in which only one party's institutions can check anything, and no neutral party at all. Baker §3.1: “The Verifier could be a government body or a third party.”
-
-**ASML.** Baker’s chain of custody begins at manufacturing, and ASML is upstream of that: it sells the machines the fab uses, not the parts a regime counts. The tightest chokepoint on the map completes no subgoal, which is what the difference between leverage and evidence looks like. Baker §4.2.1: “A Verifier could verify the locations and owners of random samples of AI chips from manufacturing to end-of-life destruction.” The chain starts at manufacturing, not at the tools.
-
-**BIS.** Export control is the instrument, and the paper puts it outside the frame deliberately: it is how a party is stopped or punished after a finding, not how a declaration is checked. Today’s de facto compute-governance agency is, in this framework, downstream of verification rather than part of it. Baker §2.3, scope limitations: “We do not cover this latter step of enforcement, though a few verification mechanisms double as enforcement tools.”
-
-**California.** A reporting statute produces declarations. Verification is what happens to a declaration afterwards, and receiving one is not checking it. The actor that bound the leading labs before any international mechanism existed completes no subgoal — it supplies the thing the subgoals are about. Argue with this one if you drew the edge: SB 53 also requires an internal anonymous reporting channel at large frontier developers, and whistleblowing is a verification mechanism in this framework, for every subgoal at once. The key leaves the edge out because the mechanism is a programme a Verifier runs and California is not running one — which is a judgement, not a reading. Baker §3.1: “Verification focuses on checking that these declarations are correct and complete.” Baker §4.3, the personnel-based layers: “Programs may enable and incentivize (narrowly scoped, non-public) staff whistleblowing, for all verification subgoals.”
-
-**Deployers.** Below the threshold, and that is the whole of it. Millions of actors running somebody else’s model are outside the regime by construction rather than by evasion — which is why they share a ring with the proxies and share nothing else. Baker §2.2, what counts as large-scale: “AI development or deployment is ‘large-scale’ if it uses thousands of high-end AI chips over multiple months.”
-:::
-
+#### Text
+content::
 \### 2. Read the map
 
 :::callout {title="Where this regime is weakest (open after you have answered)" tone="neutral" collapse="closed"}
-Count the edges by subgoal. 2.B — no undeclared clusters anywhere — has four. The other three subgoals have one edge each, so three quarters of what a verifier has to establish rests on a single mechanism apiece. Baker’s standard for a robust regime is redundancy: layers stacked, so that a subgoal has more than one way of being completed. Three of the four subgoals on this board have no second way at all.
+**What the finished map says.** Read your rings from the inside out. Exactly two actors on this board owe anybody a declaration; everything outside them either holds evidence about that declaration, or checks it, or is not covered by any declaration at all. A verification regime is a much smaller object than the map of who matters: most of this board it does not reach, and half of it cannot help.
 
-Now count by actor instead, which is the sharper reading. One firm is on three of the seven edges and touches three of the four subgoals — and that is not a coincidence about NVIDIA, it is what a verification layer IS. The paper defines a layer as one mechanism per subgoal, and the on-chip layer is a chip designer’s to give or withhold. So the board does not show one weak link; it shows a regime resting on roughly one layer, held by a company that is not a party to the agreement.
+Now read the roles across the rings instead of around them. Roles do not stay in their band: the cloud provider holds four of them at once, and the ring it sits on tells you none of the four. The section gives you three questions to ask of any actor: where does it sit on the chain (position), what can it do inside a regime (roles), what does it want today (posture). These rings are a fourth, and a narrower one: not where an actor sits, but what part it plays in checking a declaration. All four cut across each other, which is why no single one of them is the map.
 
-The paper calls the least robust subgoal the weak link and says the regime is only as good as that one. This map narrows the question rather than answering it — counting edges is not measuring robustness — but it does tell you where to ask.
+Count the edges by subgoal. 2.B, no undeclared clusters anywhere, has four. The other three subgoals have one edge each, so three quarters of what a verifier has to establish rests on a single mechanism apiece. Baker’s standard for a robust regime is redundancy: layers stacked, so that a subgoal has more than one way of being completed. Three of the four subgoals on this board have no second way at all.
 
-Now count arrowheads. Six of the seven edges point at a company or at a shell. Exactly one points at a party to the agreement, and it runs one way, out of one signatory’s intelligence service. Nothing on this board produces evidence about the United States, and the reason is not that the United States is transparent — it is that the counterparty’s institutions are not on the roster and the neutral body that would be is the hollow ring on the third band. This is a map of a two-party agreement in which one party’s bureaus do all the checking, including of themselves.
+Now count by actor instead, which is the sharper reading. One firm is on three of the seven edges and touches three of the four subgoals, and that is not a coincidence about NVIDIA, it is what a verification layer IS. The paper defines a layer as one mechanism per subgoal, and the on-chip layer is a chip designer’s to give or withhold. So the board does not show one weak link; it shows a regime resting on roughly one layer, held by a company that is not a party to the agreement.
+
+The paper calls the least robust subgoal the weak link and says the regime is only as good as that one. This map narrows the question rather than answering it (counting edges is not measuring robustness), but it does tell you where to ask.
+
+Now count arrowheads. Six of the seven edges point at a company or at a shell. Exactly one points at a party to the agreement, and it runs one way, out of one signatory’s intelligence service. Nothing on this board produces evidence about the United States, and the reason is not that the United States is transparent: it is that the counterparty’s institutions are not on the roster and the neutral body that would be is the hollow ring on the third band. This is a map of a two-party agreement in which one party’s bureaus do all the checking, including of themselves.
 
 Then read the third ring on its own, since that is where the last paragraph comes from. The export-control bureau, the intelligence community, the state legislature: one country’s, all three. 1.2 already told you the shelf marked “AI verification body” is empty; here it is, drawn empty, on the ring where the alternative would have gone.
 
-Then read what has no edge at all — ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are the roster’s (China brought no bureaus), and one is the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
+Then read what has no edge at all: ten of the seventeen. Some of those absences are the paper’s scope (enforcement is not verification), some are the roster’s (China brought no bureaus), and one is the whole problem stated as a hole: four states hold the jurisdiction that makes the chain’s records producible, and not one of them signed anything.
 
-Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people — whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
+Then read what has no node. The paper’s simplest and most implementation-ready layer runs on people: whistleblowers, interviews, intelligence. One of those three is on this board, because it happens to be an institution. The other two are not organisations, so a map of organisations has nowhere to put them, and you would never find them by drawing one.
 
-Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime—its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
-:::
+Baker §3.2, the weak link: “identify the subgoal whose mechanisms are collectively least robust. This subgoal is the ‘weak link’ of the regime: its robustness determines the regime’s overall robustness.” Baker §4, defining a verification layer: “three verification layers can be stacked together to achieve three layers of redundancy, for example.”
+:::{>>{"author":"Elias's AI","timestamp":1788016696939}@@Native reproduction of XLab's actor-edges widget (src/lib/verification/data/actor-workshop.ts: SUBGOALS, EDGE_KEY, EDGE_NOTES, EDGE_FINDING; brief from widgets/actor-edges.tsx). The widget above holds the drag-to-draw ring map and, on commit, XLab's own reveal: the seven key edges with their full mechanism and Baker quotes, and the ten actors with no edge. This callout holds EDGE_FINDING and MAP_FINDING, which XLab shows in a further widget step our port does not have. "Module 2.1" in the intro refers to the hardware module lens set, outside this module; left unlinked.<<}
 
 #### Question: Choice
 id:: 9f2573e0-1f40-40be-85f1-ba9107156979
-content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest — this week, not this decade?
+content:: Take one actor off the board entirely. Whose removal stops a frontier training run soonest: this week, not this decade?
 options::
 - [x] The cloud providers.
 - ASML.
 - TSMC.
 - The Bureau of Industry and Security.
-feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
+feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon — and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
+**The cloud providers.** The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs.
 
-**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it — but no training run stops this week, because the chips already exist.
+**ASML.** The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist.
 
 **TSMC.** Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded.
 
-**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced — which loosens the regime rather than stopping the activity.
+**The Bureau of Industry and Security.** It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity.
 
 That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered.
 :::
@@ -162,11 +175,11 @@ M. Baker, G. Kulp, O. Marks, M. Brundage & L. Heim,
 Rules on Large-Scale AI Development and Deployment”](https://arxiv.org/abs/2507.15916)
 (2025). Quotations are matched against the committed copy of the paper at test
 time, so a quote that drifts fails the build rather than sitting on the page.
-Module 2.1 assigns the same report for its layers; this section uses its
+Week 5 assigns the same report for its layers; this section uses its
 subgoals.
 
 The cast, the rings and the sentences that place each actor on one are 1.2's,
-and the workshop above opens on the board you built there.
+and the workshop above opens on that board in its key placement.
 
 #### Text
 content::

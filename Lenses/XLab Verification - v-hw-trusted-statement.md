@@ -3,6 +3,7 @@ id: '22f3ba95-64cf-4248-9d3a-a83975f4255b'
 title: "From a chip to a trusted statement"
 tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's shipping GPU attestation does and does not attest, and then dissect one trust chain yourself."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
+tags: [wip]
 duration_minutes: 25
 ---
 #### Text
@@ -48,7 +49,7 @@ content::
 
 \#### A deployed primitive: current NVIDIA GPU attestation
 
-Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Measurements, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
+Current NVIDIA documentation describes an operational attestation chain for supported GPUs. Evidence is collected from the GPU, checked against signed Reference Integrity Manifests, evaluated locally or by NVIDIA’s Remote Attestation Service, and checked against certificate-revocation information. This is a useful deployed primitive because it makes the trust chain concrete.
 
 It also shows why implementation details matter. NVIDIA’s Blackwell multi-GPU documentation, updated August 1, 2026, states that each GPU is attested independently and that the process does **not** attest topology or switches. Supported Hopper Protected PCIe configurations can include additional multi-GPU and NVSwitch checks. A general statement such as “GPU attestation proves the cluster configuration” is therefore false. The answer depends on the product, configuration, evidence fields, and appraisal policy.
 
@@ -117,7 +118,7 @@ content:: Take an attestation token or architecture diagram supplied with this s
 9. One independent corroborating source.
 assessment-instructions:: Check that all nine items are addressed and that items 2 to 6 name a concrete component or actor rather than "the chip" or "NVIDIA" throughout. Do not penalize a learner for having no token or diagram; XLab's source supplies none.
 feedback-instructions:: This is an XLab writing or reflection exercise. XLab's source supplies no token or diagram; if the learner has none, point them to NVIDIA's Architecture Overview linked in this lens and let them work from it. Identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
-
+{>>{"author":"Elias's AI","timestamp":1788015961356}@@The MDX says a token or diagram is "supplied with this section" but nothing is supplied in XLab's repo; reported to Elias as an XLab source gap.<<}
 
 #### Text
 content::

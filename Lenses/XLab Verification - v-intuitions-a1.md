@@ -4,15 +4,16 @@ title: "Option A: Stress-test Plan A's Verification Regime"
 tldr: "Build a recommendation on Plan A from its strongest mechanism, weakest link, timeline, and covert-compute margin."
 summary_for_tutor: "One optional essay route. Complete A1–A4 as preparatory responses, then A5 as the final essay in this same lens. Final essay is intended for peer review. Grade reasoning, not agreement with the source."
 duration_minutes: 95
+tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::
 **Choose Option A or Option B.** If you choose this option, complete all five parts below.
 The first four responses develop the arguments for your final essay; keep them in view as you write.
 
-Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded Plan A reading]] throughout this exercise.
+Use [[../Lenses/XLab Verification - v-intuitions-plan-a|the embedded verification supplement excerpts]] throughout this exercise.
 
 #### Text
 content::

@@ -2,10 +2,11 @@
 id: '572be6c8-55e4-438d-8a5d-2d0dcf108cd9'
 title: "Optional: Further Exploration"
 tldr: "Develop your own success scenario, explore AI 2027, or follow the readings most relevant to your argument."
-summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500–800-word success-scenario essay, the AI 2027 reflection, six curated readings, and works cited. The success-scenario essay is revisited at the end of the track."
+summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500 to 800 word success-scenario essay, the AI 2027 reflection, six curated readings, and works cited. Between the AI 2027 reading card and the curated readings the page now carries four interactive charts rebuilt from the scenario's own figures, in the order the article uses them: METR time horizons, superhuman-coder arrival forecasts, Epoch inference prices at a fixed level of capability, and the takeoff milestones. Each chart is introduced by a short Text segment on the page that carries its title and framing sentences, including the authors' definitions of a superhuman coder and of takeoff; the widgets themselves hold only the controls, the chart, the per-item detail and the data sources. The success-scenario essay is revisited at the end of the track."
 duration_minutes: 40
+tags: [wip]
 add_to_ai_context:
-  - "[[../articles/2040-ai-2040-plan-a]]"
+  - "[[../articles/dean-ai-2040-verification-plan]]"
 ---
 #### Text
 content::
@@ -45,6 +46,46 @@ AI Futures Project (2025)
 
   The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
+The four charts below rebuild figures from that scenario out of the data published behind them, so you can read the exact numbers the pictures only suggest.
+
+#### Text
+content::
+\### Length of software tasks AI agents can complete on their own
+
+METR measures the "time horizon" of a model: the length of task, in human working time, at which the model succeeds 50% or 80% of the time. The AI 2027 article extends this trend to argue for a superhuman coder in 2027.
+
+#### Widget
+source:: [[../widgets/ai-2027-metr-horizons]]
+
+#### Text
+content::
+\### When does the superhuman coder arrive?
+
+The AI 2027 authors define a superhuman coder (SC) as "an AI system that can do any coding tasks that the best AGI company engineer does, while being much faster and cheaper." Each bar runs from a forecaster's 10th to 90th percentile for the year SC is developed, with the median marked.
+
+#### Widget
+source:: [[../widgets/ai-2027-sc-forecast]]
+
+#### Text
+content::
+\### The price of a fixed level of capability, over time
+
+Epoch AI tracked the cheapest model that matched or beat a given score on a benchmark, and how quickly that price fell. This is the record against which to judge the scenario's Agent-3-mini, released at a tenth of the price of Agent-3.
+
+#### Widget
+source:: [[../widgets/ai-2027-inference-prices]]
+
+#### Text
+content::
+\### From superhuman coder to superintelligence
+
+The AI 2027 authors forecast takeoff, "the time between a superhuman coder and wildly superhuman capabilities", one milestone at a time, conditional on a superhuman coder in March 2027 and assuming no increases in training compute.
+
+#### Widget
+source:: [[../widgets/ai-2027-takeoff]]
+
+#### Text
+content::
 \## Curated Readings
 
 You have now taken a position on a concrete verification regime. Use these readings to push on whichever part of your argument still feels least settled. Skim broadly; deep-read the one or two closest to the question you found hardest.
