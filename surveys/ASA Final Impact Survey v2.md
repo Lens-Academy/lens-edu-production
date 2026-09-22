@@ -230,8 +230,8 @@ key:: facilitation_interest
 content:: Would you like to apply to facilitate a future Lens course?
 options::
 - Yes, tell me more
-- Yes, I already signed up!
 - Not right now
+- Yes, I already signed up!
 
 #### Question: Open
 id:: 43049b0a-a972-498d-87c8-89af157f27e2
