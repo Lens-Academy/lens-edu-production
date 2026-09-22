@@ -4,7 +4,7 @@ title: Lens Session 2 Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for showing up. This short survey helps us improve the module, meeting, AI Tutor, and facilitation. Submitting it also records your attendance for this meeting.
+content:: Thanks for showing up. This short survey helps us improve the module, meeting, AI Tutor, and facilitation.
 
 #### Question: Rating
 id:: acd89de6-c929-456e-bb83-8b1f83c8f35a
