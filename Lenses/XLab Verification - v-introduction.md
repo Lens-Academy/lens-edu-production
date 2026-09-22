@@ -31,7 +31,7 @@ id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
 In a short written note, construct the strongest objection you can to the case above, and state what would change your mind, in either direction.
-assessment-instructions:: Score three things, roughly a third each: (1) the objection attaches to a named claim from the video or the linked readings rather than to advanced AI risk in general; (2) it gives the mechanism by which that claim fails, not a competing assertion; (3) both falsifiers are stated, what would move the learner toward the case and what would move them away, rather than only one. An objection to the inference drawn from a claim earns as much as an objection to the claim itself. Do not score the learner's position, only whether the three parts are there. No generic praise.
+assessment-instructions:: Score three things, roughly a third each: (1) the objection attaches to a named claim from the video or the linked readings rather than to advanced AI risk in general; (2) it gives the mechanism by which that claim fails, not a competing assertion; (3) both falsifiers are stated, what would move the learner toward the case and what would move them away, rather than only one. An objection to the inference drawn from a claim earns as much as an objection to the claim itself. Do not score the learner's position, only whether the three parts are there.
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
@@ -129,12 +129,6 @@ How fast is fast? Two charts from Our World in Data's [brief history of artifici
 
 #### Widget
 source:: [[../widgets/short-history]]
-
-#### Text
-content::
-**A timeline of notable artificial intelligence systems.** Chart: Max Roser, [The brief history of artificial intelligence](https://ourworldindata.org/brief-history-of-ai), Our World in Data, 6 Dec. 2022. Licensed CC BY 4.0; chart redrawn.
-
-{>>{"author":"Elias's AI","timestamp":1788011728883}@@Delete this whole Text segment: the callout above now covers it. The edit tool could not remove a segment that already carries a pending change.<<}{>>{"author":"Elias's AI","timestamp":1788009452090}@@Proposed: link only to Our World in Data (the original), not XLab.<<}
 
 #### Widget
 source:: [[../widgets/short-history-scores]]
