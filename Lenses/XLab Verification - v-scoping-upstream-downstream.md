@@ -63,13 +63,13 @@ No verification document stands alone. Every source upstream of you was produced
 
 #### Question: Open
 id:: 0a469f70-f02c-4813-8318-9b1d10a4652e
-content:: Take one document: either the Fordow finding above, or the report you are about to write in the Context Distiller. Answer two questions about it.
+content:: Take the Fordow finding above and answer two questions about it.
 
 - Upstream: whose claims does this document rely on, and which of them did I verify myself, rather than inherit from the actor being checked?
 - Downstream: who will act on this document, and what does each reader need in order to act?
 assessment-instructions:: Score the two questions separately, 50 points each, and accept either target: the Fordow finding above, or the report the learner is about to write. Upstream: every claim the document rests on is attributed to the actor that produced it, and the answer separates what the writer verified independently from what was inherited from the actor being checked. Downstream: each reader is named together with what that reader needs in order to act, and the readers need different things, one a determination measured against a standard, another the underlying discrepancy in enough detail to point its own collection at it. Penalise an upstream list that treats every source as equally trustworthy, and a downstream list that gives every reader the same thing.
 feedback-instructions:: Name any claim in the upstream list that came from the actor being checked and was not marked as such, and any reader whose stated need would be met by exactly the same text as another reader's. Then send the learner to the Context Distiller exercise. Two or three sentences, no praise.
-optional:: true{>>{"author":"Elias's AI","timestamp":1788016749227}@@Legacy #### Question converted to Question: Open with a fresh id; XLab's notebook callout gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
+optional:: true
 
 #### Text
 content::
@@ -77,14 +77,7 @@ The structure carries over to the compute reports this track is building toward.
 
 Sources for this case: IAEA quarterly report to member states, late February 2023, on the 83.7 percent U-235 particles found at Fordow and Iran's explanation; IAEA materials on environmental swipe sampling and safeguards verification.
 
-The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
-
-\### The Context Distiller Exercise
-
-[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
-work the whole chain: clip the facts that would change what a reader does,
-distil them, name who the report was built from and who reads it next, then
-thread each point to the readers who need it.
+\### Your turn
 
 #### Question: Open
 id:: cec5c7fa-f530-4f33-83da-cadb4b7115a2
@@ -101,7 +94,14 @@ feedback-instructions:: Name the row where the evidence is only the actor's own 
 
 #### Text
 content::
-XLab also lists two written outputs for this lesson without briefs: a 600-word case briefing on actors, and an optional 600-word written output.
+The next exercise asks you to apply this directly. You will assemble a report from a pool of candidate details and connect each detail to the reader who needs it. The standard is the one demonstrated here: every claim carries its source, and every finding reaches the actor who acts on it.
+
+\### The Context Distiller Exercise
+
+[[../Lenses/XLab Verification - v-context-distiller|The next page]] is that exercise. Four reports are on the table; you pick one and
+work the whole chain: clip the facts that would change what a reader does,
+distil them, name who the report was built from and who reads it next, then
+thread each point to the readers who need it.
 
 #### Text
 content::
