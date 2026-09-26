@@ -10,3 +10,4 @@ partner-url: https://www.iliad.ac/
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/coming-soon]]
+optional:: true

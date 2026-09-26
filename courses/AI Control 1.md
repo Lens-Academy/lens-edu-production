@@ -13,3 +13,4 @@ partner-url: "https://xrisk.uchicago.edu/"
 application-survey:: [[../surveys/Application Form]]
 
 # Module: [[../modules/coming-soon]]
+optional:: true
