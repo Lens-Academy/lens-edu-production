@@ -1,5 +1,7 @@
 ---
 id: '3fad3472-9deb-4647-9a25-fa376ede44fa'
+reading_minutes: 10
+tutor_minutes: 15
 title: "Average Then Extremize"
 tldr: When people who looked at different things agree, their agreement is itself evidence, and the right combined answer can lie outside everything they said. When people who looked at the same thing agree, their agreement adds almost nothing.
 summary_for_tutor: "Teaches forecast aggregation as a function of the estimators' information structure rather than of their numbers. Source is Eric Neyman's Algorithmic Bayesian Epistemology thesis summary, chapter on robust aggregation: the average-then-extremize result and the two-coin-flip worked example. This closes step five of the decomposition loop, which students otherwise treat as 'take the mean'. The nonlinear object here is that the correct aggregate depends on covariance of evidence, not on the estimates."
@@ -25,7 +27,7 @@ One warning as you read. The short version of the result is "extremizing is a tr
 #### Article
 source:: [[../articles/neyman-algorithmic-bayesian-epistemology-explained]]
 from:: \* Chapter 7: Robust aggregation of substitutable signals
-to:: Chapter 8: When does agreement imply accuracy?
+to:: have only just started exploring. I’m excited!
 
 #### Question
 id:: 92f7db72-d5b7-4edc-a027-9fc5bd694b63
@@ -171,6 +173,6 @@ Safety and integrity:
 content::
 \## Additional resources for this topic
 
-::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]
+::card[[../Lenses/U2 - Nonlinear Interactions Workshop]]{allow-external}
 
 > Extremization is one case of a general fact. The way the parts of a system relate to each other decides which arithmetic applies, and that arithmetic is rarely addition. Four more cases, worked through.
