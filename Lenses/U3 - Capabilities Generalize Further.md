@@ -9,9 +9,13 @@ authors:
   - Claude
 tags:
   - reading
+glossary_terms:
+  - "[[../glossary/Sharp left turn]]"
+  - "[[../glossary/Corrigible]]"
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The last two readings described how things go wrong. This one makes a claim about why it
@@ -29,6 +33,17 @@ footnotes and asides use some field vocabulary without stopping to define it. "P
 large enough to settle the outcome. "Acute risk period" means the window where things
 could go badly wrong. If a term stops you, put it in the Lens Coach
 (https://lensacademy.org/coach) rather than rereading the paragraph.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+The last two readings described how things go wrong. This one makes a claim about why it is hard to stop.
+
+The claim is about transfer. Something is trained or built in one setting, then used in a harder one. Two things travel with it: what it can do, and whatever was put in place to keep it doing what we wanted (the rules, the supervision, the habits, the checks).
+
+The argument is that these two do not travel equally well.
+
+The reading is written for people already in the field. Its footnotes and asides use some field vocabulary without defining it. "Pivotal act" means an action large enough to settle the outcome. "Acute risk period" means the window where things could go badly wrong. If you get stuck on a term, put it in the Lens Coach (https://lensacademy.org/coach) rather than rereading the paragraph.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

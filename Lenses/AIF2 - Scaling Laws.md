@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 Unit 1 has given you a curve (METR's task lengths) and a thought experiment (what twelve more orders of magnitude of compute would buy). Underneath both sits a law.
@@ -19,6 +20,15 @@ Unit 1 has given you a curve (METR's task lengths) and a thought experiment (wha
 A language model's loss, meaning how badly it predicts the next token of text (lower is better), is close to a simple function of two numbers: how many parameters the model has, and how many tokens of text it was trained on. Compute buys both, and a training run has to choose how much of each. The third input, algorithms, changes the constants in the law rather than the inputs, and it moves faster than most people assume.
 
 This reading is the post that made the field notice the second input. It is from 2022, and its numbers are dated. The shape of the argument is not. Read for the shape: two terms and a constant, and what happens when a fixed budget goes to one term instead of the other.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+Unit 1 has given you a curve (METR's task lengths) and a thought experiment (what twelve more orders of magnitude of compute would buy). Both of them rest on a law.
+
+A language model's loss, meaning how badly it predicts the next token of text (lower is better), is close to a simple function of two numbers: how many parameters the model has, and how many tokens of text it was trained on. Compute buys both, and a training run has to choose how much of each to buy. The third input, algorithms, changes the constants in the law rather than the inputs. It also improves faster than most people assume.
+
+This reading is the post that made the field notice the second input. It is from 2022, and its numbers are out of date, but the shape of its argument has not aged. Read it for that shape: two terms and a constant, and what happens when a fixed budget goes to one term instead of the other.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
@@ -55,7 +65,7 @@ content::
 
 The post says one input was binding in 2022. Which one, and which number in the post tells you so.
 
-Then: of Unit 1's gears, compute growth and the task-length curve, which does this change your reading of, and how. Two or three sentences.
+Then: which of Unit 1's two gears, compute growth or the task-length curve, does this reading change your view of, and how? Two or three sentences.
 
 One line more. What would you watch over the next two years that would tell you data had stopped being the binding input, or that it never was for the models that matter now?
 
@@ -69,8 +79,21 @@ Response length: 60 to 110 words. Short paragraphs. No lists. Calm and direct. D
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## The input the post leaves out
 
 Algorithms. The law's constants are not fixed. Epoch AI's estimate, from over two hundred language-model results between 2012 and 2023, is that the compute needed to reach a set performance level halved roughly every eight months from algorithmic improvement alone, with a wide range (five to fourteen months), and that over the same period growth in compute still contributed more to performance than algorithms did. Source: Ho and co-authors, "Algorithmic progress in language models", 2024, [arxiv.org/abs/2403.05812](https://arxiv.org/abs/2403.05812).
 
 So three inputs, all moving: compute, data, algorithms. The curves you met earlier in this unit are what those three do together. The optional Epoch reading that follows asks which physical input binds first.
+%%
+
+\## The input the post leaves out
+
+The missing input is algorithms, and the law's constants are not fixed. Epoch AI studied over two hundred language-model results from 2012 to 2023 and estimated two things:
+
+- Algorithmic improvement alone halved the compute needed to reach a set performance level roughly every eight months. The range is wide: five to fourteen months.
+- Over the same period, growth in compute still contributed more to performance than algorithms did.
+
+Source: Ho and co-authors, "Algorithmic progress in language models", 2024, [arxiv.org/abs/2403.05812](https://arxiv.org/abs/2403.05812).
+
+So there are three inputs, and all three are changing: compute, data and algorithms. The curves you met earlier in this unit show what those three do together. The optional Epoch reading that follows asks which physical input binds first.

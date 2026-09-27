@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The previous reading removed the villain. This one removes the moment.
@@ -23,6 +24,13 @@ For this to work, something must make our institutions behave that way now. Gove
 companies and markets do take human welfare into account, imperfectly and unevenly, but
 they do. Ask why. If you cannot say why they do it now, you cannot say what would make
 them stop.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+The previous reading took out the villain. This one takes out the moment where things go wrong: there is no such step. Each change is reasonable, the kind of thing a sensible organisation would do. But the end state is one that nobody chose.
+
+For this to work, something must be making our institutions take human welfare into account now. Governments, companies and markets do this. They do it imperfectly and unevenly, but they do it. Ask yourself why. If you cannot say why they do it now, you cannot say what would make them stop.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 

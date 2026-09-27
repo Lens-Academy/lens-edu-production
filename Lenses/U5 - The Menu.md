@@ -9,9 +9,13 @@ authors:
   - Claude
 tags:
   - reading
+glossary_terms:
+  - "[[../glossary/Inference]]"
+  - "[[../glossary/Decisive strategic advantage]]"
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The last two readings moved the question twice. First toward what we hand off to AIs, and when. Then toward aiming at a future worth wanting, rather than at survival alone. Both were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better, ordered roughly by how excited they are about each. Most are understaffed. Several are organisations that do not exist yet.
@@ -21,6 +25,17 @@ It is also the last assigned reading of the course. After this page, the reading
 So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects in eight bold lines. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
 
 One thing this reading is not: careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. If you want the second question, the usual recommendation is Holden Karnofsky's piece on career choice: [[../articles/karnofsky-career-choice-longtermists]].
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+The last two readings moved the question twice. First they moved it toward what we hand off to AIs, and when. Then they moved it toward aiming at a future worth wanting, rather than at survival alone. Both of those readings were still arguments. This one is a list. Will MacAskill and colleagues at Forethought wrote down concrete projects that would make the transition to powerful AI go better. They ordered the projects roughly by how excited they are about each one. Most of the projects are understaffed. Several are organisations that do not exist yet.
+
+It is also the last assigned reading of the course. After this page there are no more assigned readings, and the remaining work is yours.
+
+So read it like a menu, not a textbook. The Summary section is the menu itself: eight projects, one bold line each. Detailed sections follow for most of them. Skipping the ones that do not interest you is the intended way to read this piece, not a shortcut.
+
+This reading is not careers advice. It says what needs doing. It does not say what you in particular should do next, and this course will not pretend those are the same question. For that second question, the usual recommendation is Holden Karnofsky's piece on career choice: [[../articles/karnofsky-career-choice-longtermists]].
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
