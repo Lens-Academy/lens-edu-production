@@ -1,0 +1,205 @@
+---
+title: AI futures M3 Meeting Doc
+---
+
+# Tab: Session Doc
+
+## AI Futures Unit 3 Meeting - [Group]
+
+### Navigator:
+
+### Meeting link:
+
+source:: [[../shared/Session Doc - How today works]]
+
+\pagebreak
+### Room 1: The catastrophe you built  [0:05–0:19]
+
+Go around your group. Two things, in this order, and finish the first before anyone starts the second.
+
+1. Did you finish the unit? How was it? It’s absolutely fine if you couldn’t finish. Just share that.
+2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, ordinary systems doing what they were told. Read yours out.
+    - If you did not write one, build one now. Take two minutes; the group will wait. A fresh one works just as well.
+    - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.
+
+
+| Names | Where each person's no-villain catastrophe starts. |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+### Back together: 5 min  [0:19–0:24]
+
+One or two people share what their group landed on.
+
+---
+
+\pagebreak
+### Room 2: Whose fault is it in your story  [0:24–0:42]
+
+
+1. Each of you say in one sentence where your Room 1 catastrophe started.
+2. In your story, is there a point where one person could have stopped it? If yes, what would they have had to give up? Go around, and everyone answers before anyone argues.
+3. Then argue. Two of this unit's readings disagree about this, and the course does not settle it. One says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. The other says the hard part is between systems: every AI does exactly what it was told, and the institutions that served us because they needed us stop needing us.
+
+
+Which of those two is your catastrophe? And if you had to work on only one of them, which would you pick and why?
+
+
+| Names | Could one person have stopped it, what would it cost them, and which of the two problems is yours. |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+### Back together: 5 min  [0:42–0:47]
+
+One or two people share what their group landed on.
+
+---
+
+
+
+### Break: 5 min  [0:47–0:52]
+
+\pagebreak
+### Room 3: Would you take the deal  [0:52–1:10]
+
+**New group. Names first, then straight in.**
+
+
+Here is the deal on the table:
+AI systems are watched, restricted, and checked by other systems. They cannot cause a catastrophe. Nobody ever works out how to make them want what we want. This holds for as long as we keep paying for it.
+
+1. Would you take that deal? Yes or no, one sentence each.
+2. What breaks it first? Name the specific thing.
+3. You wrote conditions for when control is the right strategy. Whose conditions in this room are the strictest, and does any real deployment meet them?
+4. Put a number on it: what is the probability that the first AI capable of causing serious harm is contained rather than aligned? Say your number out loud before you defend it.
+
+
+| Names | Would you take the deal, what breaks it first, and your probability that containment comes before alignment. |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+### Back together: 5 min  [1:10–1:15]
+
+One or two people share what their group landed on.
+
+---
+
+\pagebreak
+### Room 4: What moved, and what to change  [1:15–1:27]
+
+**New group. Names first, then straight in.**
+
+1. At the end of the unit you rewrote your model of the next ten years. Name one specific thing that changed, and the reading that changed it.
+    1. "I am more worried" is not a change. "I moved the point where AI does most AI research from never to about ten years out" is a change.
+    2. If you did not do that exercise, say one thing you believe now that you did not believe at the start of this course.
+2. What is most likely to stop you finishing the next unit, and what is your plan?
+3. This course is being rewritten while you take it, and your answer changes it. Some of you have said it is too hard; others have said that is why you are here. Which are you, and what specifically would you change? Be blunt, we would rather have the honest answer than the kind one.
+
+
+| Names | One specific change and what caused it. Plan for next unit. Too hard, or not hard enough, and what to change. |
+|------|------------------------|
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+\pagebreak
+### Wrap-up  [1:27–1:30]
+
+Say one thing you are less sure about than you were two hours ago.
+
+
+Before you go: send your Room 4 plan to your accountability partner, and use the Lens Coach (https://lensacademy.org/coach) between sessions. Room 4 answers reach the people building this course and they do change it.
+
+
+---
+
+
+
+source:: [[../shared/Session Doc - Open discussion]]
+
+# Tab: Participant FAQ
+source:: [[../shared/Participant FAQ]]
+
+# Tab: Navigator Run-Sheet
+
+## Unit 3 Navigator Run-Sheet
+
+source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
+
+### Timeline (90 min)
+
+| Time | Block |
+|---|---|
+| 0:00–0:05 | Lobby / welcome (whole group) |
+| 0:05–0:19 | R1 The catastrophe you built (breakout, aim 3) |
+| 0:19–0:24 | Back together (whole group) |
+| 0:24–0:42 | R2 Whose fault is it in your story (reshuffle) |
+| 0:42–0:47 | Back together (whole group) |
+| 0:47–0:52 | Break |
+| 0:52–1:10 | R3 Would you take the deal (reshuffle) |
+| 1:10–1:15 | Back together (whole group) |
+| 1:15–1:27 | R4 What moved, and what to change (reshuffle) |
+| 1:27–1:30 | Close (whole group) |
+
+source:: [[../shared/Navigator Run-Sheet - Lobby and welcome, version 2]]
+
+source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
+
+source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+
+### Close
+
+**[1:27–1:30], whole group**. Bring everyone back:
+
+
+1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
+2. **Next-unit heads-up: Unit 4 turns from how it could go wrong to what anyone plans to do about it: rival strategies, one reading each, ending with them splitting 100 points of influence across the levers. The readings will be on the platform before the next session. Check the course page. Bring your Room 4 plan to your accountability partner.**
+3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
+
+
+
+
+
+
+
+
+
+
+
+
+source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
+
+# Tab: Glossary
+style:: plain
+
+## Glossary
+
+### Module 1
+
+Order of magnitude (OOM): A factor of ten. "12 OOMs more compute" means a trillion times more compute.
+Discontinuity: A jump in a trend. The jump is large enough that an estimate made from the years before it would have been very wrong.
+
+### Module 2
+
+Reference class: The group of past cases that you treat your question as part of. You then use their rate as your starting estimate. The difficult part is choosing the group.
+Time horizon: METR's measure of how long a task an AI can complete reliably. Most forecasts in this unit depend on this measurement continuing to increase.
+Research taste: Choosing which experiments are worth running. The AI Futures Model treats this as a separate skill from writing the code.
+Extremizing: You move a combined estimate further from the middle than a simple average puts it. This is correct when the forecasters saw different evidence. It is not correct when they saw the same evidence.
+
+### Module 3
+
+Intelligence explosion: A loop where AI improves AI, so each round takes less time than the one before it. The unit's first reading separates three versions, which need different conditions.
+AI control: Building a deployment so a system cannot cause a catastrophe even if it is misaligned. Monitoring, restricted permissions, one model checking another. It does not try to make the system want the right thing.
+Gradual disempowerment: Loss of human influence over institutions, because those institutions stop depending on human labour, with no single step where anybody does anything wrong.
