@@ -36,11 +36,26 @@ This is a one-turn response. Do not ask a follow-up. Do not invite dialogue.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Reading Assignment
 
 **Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
 
 This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings. First, what the paper says separates expert predictions from non-expert ones. Read that one with care: the authors later acknowledged it rested on a dataset coding error, and it did not survive. The expert versus non-expert split in Figure 1 is that grouping, so read those markers as the paper's claim rather than as a settled result. Second, what the predicted dates look like when you plot them against the date each prediction was made. That finding survived the correction.
+
+You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
+%%
+
+\## Reading Assignment
+
+**Read *How we're predicting AI, or failing to*, by Stuart Armstrong.**
+
+This is a survey of AI predictions. Armstrong assesses the whole set together, not one prediction at a time. Look for two findings:
+
+1. What the paper says separates expert predictions from non-expert ones. Read this one with care. The authors later acknowledged that it rested on a coding error in the dataset, and the finding did not survive. The split between expert and non-expert predictions in Figure 1 is that same grouping, so read those markers as the paper's claim, not as a settled result.
+2. What the predicted dates look like when you plot them against the date each prediction was made. This finding survived the correction.
 
 You can also read **Luke Muehlhauser's *The errors, insights, and lessons of famous AI predictions***. It gives the individual cases behind the pattern.
 

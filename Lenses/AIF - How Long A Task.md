@@ -12,7 +12,7 @@ authors:
 content::
 \## How big of a task can't a given AI do?
 
-Whether or note an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is.
+Whether or not an AI is inclined to do so, if we want to know whether AI is at risk of doing things like "take over the world" or "kill all humans", we'd like to know how close it is.
 
 Let's assume we want to measure how close AI is to being able to do that. Later in the course we'll work through evidence that you tend to get what you can best measure, so this is a dangerous thing to measure, and might already be having negative effects. But it's potentially useful for defenders to know, so let's talk about it.
 
@@ -62,9 +62,15 @@ to:: both in terms of potential benefits and potential risks.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Optional: a doubling is hard to feel
 
 Here's an excerpt of a video about what exponential processes feel like.
+%%
+
+\## Optional: a doubling is hard to feel
+
+Here's an excerpt from a video about what exponential processes feel like.
 
 #### Video
 source:: [[../video_transcripts/ai-in-context-were-not-ready-for-superintelligence]]

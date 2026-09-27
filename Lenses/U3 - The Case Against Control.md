@@ -9,9 +9,12 @@ authors:
   - Claude
 tags:
   - reading
+glossary_terms:
+  - "[[../glossary/Prosaic alignment]]"
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 A large part of the safety field works on AI control, and this lens is where you decide
@@ -33,6 +36,24 @@ including work on the alignment problem itself. Ryan Greenblatt and Buck Shleger
 researchers at Redwood Research who built much of the control agenda, make this case at
 length in "The case for ensuring that powerful AIs are controlled". You meet Greenblatt
 again in Unit 4.
+
+Two objections follow. Read them as arguments to weigh, not as the verdict.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
+%%
+
+A large part of the safety field works on AI control. This lens is where you decide what you think of it.
+
+The idea is to assume the system may be misaligned, and to build the deployment so that it cannot cause a catastrophe even if it is. Measures include monitoring, restricted permissions, one model checking another, and giving untrusted models tasks where cheating can be detected. Control does not try to make the system want the right thing. Instead, it tries to make it not matter if the system wants the wrong thing.
+
+The case for control is strong, and you should know it before you read the objections:
+
+- Control does not require solving alignment, which nobody knows how to do.
+- It applies to systems we can build now, rather than to systems we hope to understand later.
+- Its measures are testable. You can red-team a monitoring setup and count the failures, which is more than most safety proposals can offer.
+- If the first systems capable of serious harm are only somewhat superhuman, containing them may be enough to get useful work out of them, including work on the alignment problem itself.
+
+Ryan Greenblatt and Buck Shlegeris make this case at length in "The case for ensuring that powerful AIs are controlled". They are two researchers at Redwood Research who built much of the control agenda. You meet Greenblatt again in Unit 4.
 
 Two objections follow. Read them as arguments to weigh, not as the verdict.
 

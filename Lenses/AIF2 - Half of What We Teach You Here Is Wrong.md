@@ -10,6 +10,7 @@ authors:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Half of what we teach you here is wrong
 
 Across fields of scientific education, professors can sometimes be heard quoting the line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
@@ -23,9 +24,25 @@ Sometimes you'll be one of the ones who are wrong.
 We're gonna have you read various perspectives and try to construct your own as you go, but it's important to regularly remind yourself: these people have been at it for a while, being 50% wrong the whole time.
 
 Except 50% is just what the quote says. Could even be worse. Science is always wrong, but over time, with effort, can become less wrong.
+%%
+
+\## Half of what we teach you here is wrong
+
+Across fields of science education, you can sometimes hear professors quote this line: "Half of what we're going to tell you is wrong, and we don't know which half. That's for you to figure out."
+
+Everyone who is trying to make AI turn out well is new to it. That's why we need your help at all. If we could teach you how things will definitely go, or what you can confidently do about it, we'd just tell you and be done with it.
+
+But what we really need is for you to be able to look at a situation and quickly work out for yourself what will help. You'll need to do that even under social pressure from other people who are also working it out as they go, and many of them will be wrong.
+
+Sometimes you'll be one of the ones who are wrong.
+
+We'll have you read different perspectives and try to build your own as you go. But remind yourself regularly: these people have been at it for a while, and they've been 50% wrong the whole time.
+
+Then again, 50% is just what the quote says. It could even be worse. Science is always wrong, but over time, with effort, it can become less wrong.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Why we'll make you guess first
 
 Before asking you to read some articles, we'll test you on what the article contains, even though you haven't read the article yet. That's quite intentional. Research consistently shows a "pre-testing effect": testing your ability to invent an idea before encountering it seems to make it stick to your brain better.
@@ -35,17 +52,37 @@ But of course, just because the article makes a claim, does not mean that claim 
 So we'll ask you to tell us what the article contains, before you read it. If you have already read an article, this is still helpful. If you're interested in learning more, try to guess what's on the wikipedia page about the Testing Effect, then look it up.
 
 Pre-tests aren't graded.
+%%
+
+\## Why we'll make you guess first
+
+Before you read some of the articles, we'll test you on what they contain, even though you haven't read them yet. We do this on purpose. Research consistently shows a "pre-testing effect": being tested on your ability to come up with an idea before you meet it seems to make the idea stick in your memory better.
+
+But of course, an article making a claim does not mean the claim is true. When you guess what an article will say, you're guessing what a specific person was thinking. That works best if you also think about the reality they were thinking about.
+
+So we'll ask you to tell us what the article contains before you read it. If you've already read an article, this still helps. If you want to learn more, try to guess what the Wikipedia page on the Testing Effect says, then look it up.
+
+Pre-tests aren't graded.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What the numbers in this unit are for
 
 This unit is mostly numbers: how much compute, how long a task, how fast the curve. They are the part of the future everyone shows you, and they are shown because they are the part that can be measured. That is not a reason to distrust them. It is a reason to be exact about what they can and cannot license.
 
 A curve tells you what continues if nothing intervenes. It cannot tell you who intervenes, what they want, or what happens in the parts of the world nobody has measured. This course is about that second part: what to do, given numbers like these and a great deal that no number covers. Keep that question with you through this unit; the last page comes back to it.
+%%
+
+\## What the numbers in this unit are for
+
+This unit is mostly numbers: how much compute, how long a task, how fast the curve. They are the part of the future that everyone shows you, and they are shown because they are the part that can be measured. That is no reason to distrust them, but it is a reason to be exact about what they can and cannot justify.
+
+A curve tells you what continues if nothing intervenes. It cannot tell you who intervenes, what they want, or what happens in the parts of the world nobody has measured. This course is about that second part: what to do, given numbers like these and a great deal that no number covers. Keep that question in mind through this unit. The last page comes back to it.
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What this costs, and who else is here
 
 Units are targeted to take about three hours, mostly reading, with some time spent on writing your answers. But people vary a lot on how long it takes them to finish, so don't worry about it if it takes you longer.
@@ -55,6 +92,17 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
 One more thing about this course: it is about what to do, not only about what will happen. Forecasting is the inert tense: what will happen. Strategy is the active tense: what you do about it. Every unit ends with you deciding something, and the readings are there to make your decisions better, not to be recited back.
+%%
+
+\## What this costs, and who else is here
+
+We aim for each unit to take about three hours, mostly reading, with some time for writing your answers. But people vary a lot in how long they take to finish, so don't worry if it takes you longer.
+
+Unless you're speedrunning the course on your own, you're in a cohort with other students. You'll meet live to discuss and debate what you've learned. This works especially well if you've already worked through the questions and can share your answers at the meeting. But you're still welcome if you haven't done the readings yet; it will simply work as another pre-test.
+
+The course has five units. The group will work through them at a steady pace over the coming weeks (or days, if you chose intensive).
+
+One more thing about this course: it is about what to do, not only about what will happen. Forecasting is passive: it asks what will happen. Strategy is active: it asks what you do about it. Every unit ends with you deciding something. The readings are there to make your decisions better, not for you to recite back.
 
 #### Question: Open
 id:: 27ef8f6f-0325-4e8c-855c-79bb57f13f03

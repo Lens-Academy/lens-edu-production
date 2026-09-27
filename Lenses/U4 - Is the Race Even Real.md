@@ -12,6 +12,7 @@ tags:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Before you read
 
 The previous lens argued about a national AGI project. Both sides of that argument
@@ -37,6 +38,18 @@ below, if you want to follow the detective work. And if you finish this lens wan
 view from inside Chinese policy,
 the Carnegie piece [How China Views AI Risks, and What to Do About Them](https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them)
 shows what Chinese AI policy looks like when you read it directly.
+
+*The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
+%%
+
+The previous lens argued about a national AGI project. Both sides of that argument assumed the same thing: the United States and China are racing to build advanced AI, and whoever slows down loses. Almost every strategy conversation uses some version of that assumption. This lens does not ask whether racing would be wise. It asks whether the assumption is true, using the tools from Unit 2: Where does the number come from? Who checked the original source?
+
+There are two readings.
+
+- **The first** checks the evidence behind a claim. Karson Elmgren traces a widely repeated claim back to its source. The claim is that China declared a goal of building AGI in 2017. The source is one phrase in one planning document, and a translation.
+- **The second** is a short data insight from Epoch AI. It measures the US-China capability gap instead of describing it. Its title gives the answer away, so commit to your own number first. Keep one caveat in mind as you read it. The average it reports covers the whole period since 2023, and the first year of that period is when Chinese models were still catching up. Over the more recent part of the period, the gap is smaller. Retrieved 2026-09-07. The figure changes, so check the date on anything you repeat.
+
+If you want to follow the detective work, the sections the author marked optional and his supplementary evidence are collapsed below. And if you finish this lens wanting a view from inside Chinese policy, the Carnegie piece [How China Views AI Risks, and What to Do About Them](https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them) shows what Chinese AI policy looks like when you read it directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 

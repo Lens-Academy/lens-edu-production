@@ -7,9 +7,13 @@ tldr: The AI Futures team rebuilt their timelines model and moved their own medi
 summary_for_tutor: "Administers the AI Futures Project's Dec 2025 model rather than describing it. Sequence: the student lists every forecasting method they can think of BEFORE reading, then reads the authors' five (expert survey, argument-informed intuition, revenue extrapolation, brain-compute anchoring, benchmark trend extrapolation) and diffs; then reads the three-stage model structure; then commits to their own median before seeing the authors'; then reads Eli and Daniel producing DIFFERENT forecasts from the same model, which makes aggregation a live case rather than a hypothetical. Closes by asking what process generates the trend and what that process is aimed at. The tutor must not supply the five methods during the attempt beat, and must NOT name any unifying frame at the close: the student is meant to arrive at it themselves across later units."
 authors:
   - Lauren+Claude
+glossary_terms:
+  - "[[../glossary/Takeoff speed]]"
+  - "[[../glossary/Intelligence explosion]]"
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## A real model, and its authors disagree about it
 
 Most forecasts reach you as a number. This one comes with its working shown. It is a model of when AI automates coding, and of what happens after that. The people who built it had published a different answer nine months earlier. They then moved their own median three to five years later.
@@ -19,6 +23,17 @@ That makes it useful twice. It is useful for what it concludes. It is also usefu
 One term before you start. The authors write "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone, an AI that does the coding part of AI research on its own.
 
 Before you read any of it, you build your own version of their set of methods.
+%%
+
+\## A real model, and its authors disagree about it
+
+Most forecasts reach you as a number. This one shows its working. It is a model of when AI automates coding, and of what happens after that. Nine months earlier, the same people had published a different answer. Since then, they have moved their own median three to five years later.
+
+That makes it useful in two ways. It is useful for what it concludes. It is also useful for what it shows about how a conclusion like that gets built, including the points where two people run the same model and get different numbers.
+
+One term before you start. The authors use "AGI" throughout: artificial general intelligence, their name for an AI that can do most of what a human professional does at a computer. The model itself is about a narrower milestone: an AI that does the coding part of AI research on its own.
+
+Before you read any of it, you will build your own version of their set of methods.
 
 #### Question
 id:: 0718d0de-6524-4ab6-be19-20fb05f56fca

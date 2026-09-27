@@ -36,6 +36,7 @@ summary_for_tutor:: "Introduces Unit 2 (v2). Frames prediction and control as tw
 reading_minutes:: 3
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## What this unit is for
 
 Unit 1 laid out what could happen. This one asks how anyone could know, and what knowing is for.
@@ -51,6 +52,29 @@ The harder skill is reading. Much of what you will read about AI futures this ye
 The unit ends with what happens to a forecast when the thing being forecast, a lab, a government, a market, can read the forecast and react to it.
 
 The mathematics of forecasting is real and useful: how to break a question into parts, how to pick a comparison class, when a trend line stops being licensed by its data, how to combine estimates that share a source. It lives in the optional Forecasting Methods module, linked from the end of this unit. Nothing in Units 3 to 5 depends on it. Take it if you want to make forecasts, not only judge them.
+%%
+
+\## What this unit is for
+
+Unit 1 laid out what could happen. This unit asks how anyone could know, and what knowing is for.
+
+Start with a mismatch between what you expected and what the world did. You have two moves: change your expectation, or change the world. Prediction is the first move. You adjust your estimates (dates, probabilities, magnitudes) until they match what is likely. Control is the second move. You adjust your actions until the likely outcome is one you chose. This course teaches control. It teaches forecasting only because you cannot steer toward a world you cannot picture.
+
+So every method in this unit has to earn its place by changing a decision. A forecast that changes no decision is just a feeling with a date attached.
+
+The track record of AI prediction is bad, and the way it is bad follows a pattern rather than being random. This unit starts with that pattern. The first two readings are about what actually predicts forecasting accuracy. The answer is not what most people guess.
+
+The harder skill is reading. Much of what you will read about AI futures this year (some of it written by AIs) is not testimony. Testimony is someone reporting what they observed. Most AI-futures text is one of three other things:
+
+- argument: someone reasoning from premises;
+- incentive: someone whose position depends on you believing it;
+- filler: words that assert nothing checkable.
+
+The skill is to look at a text and sort it into one of these four bins. There is one more disguise to recognize: a plan presented as a forecast. Here someone describes a future they intend to bring about as if they were only expecting it. Unit 4 has a worked case of this.
+
+The unit ends with what happens to a forecast when the thing being forecast (a lab, a government, a market) can read the forecast and react to it.
+
+The mathematics of forecasting is real and useful. It covers how to break a question into parts, how to pick a comparison class, when a trend line stops being justified by its data, and how to combine estimates that share a source. This material is in the optional Forecasting Methods module, linked from the end of this unit. Nothing in Units 3 to 5 depends on it. Take it if you want to make forecasts, not only judge them.
 
 # Lens: What Would Settle It - PQ
 source:: [[../Lenses/U2 - What Would Settle It - PQ]]
@@ -87,7 +111,11 @@ min_chat_messages:: 3
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation has made recently, and who made it. The tutor will take that claim apart with you over a few messages: what would settle it, whose track record bears on it, and what you do while it stays unsettled.
+%%
+
+This page is a conversation with the tutor, not a reading, and nothing in it is graded. Before you start, think of one claim about the future of AI that someone in your own field or organisation has made recently, and who made it. Over a few messages, the tutor will take that claim apart with you: what would settle it, whose track record bears on it, and what you do while it stays unsettled.
 
 #### Chat
 instructions::

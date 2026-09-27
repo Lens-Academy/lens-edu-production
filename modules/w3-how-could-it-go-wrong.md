@@ -78,7 +78,11 @@ min_chat_messages:: 3
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 This page is a conversation with the tutor rather than a reading, and nothing in it is graded. Before you start, think of which failure mode from this unit you found most plausible for a system or an institution in your own field. The tutor will run that failure mode through your field and ask where someone would have to act to stop it, and what acting there would cost them.
+%%
+
+This page is a conversation with the tutor, not a reading, and nothing on it is graded. Before you start, think about which failure mode from this unit you found most plausible for a system or an institution in your own field. The tutor will run that failure mode through your field. It will ask where someone would have to act to stop it, and what acting there would cost them.
 
 #### Chat
 instructions::
