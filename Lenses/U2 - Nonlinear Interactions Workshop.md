@@ -10,6 +10,7 @@ authors:
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## No reading this time
 
 In the previous lens you saw one extrapolation fail. Now you build some.
@@ -17,6 +18,15 @@ In the previous lens you saw one extrapolation fail. Now you build some.
 Four short scenarios follow. Each is a system with parts. In each one, the parts interact in a way that makes the obvious curve wrong. The four curves are wrong in four different ways. Those differences matter, because the four failures are not interchangeable.
 
 Work through them in order. Write out the arithmetic, not a description of it.
+%%
+
+\## No reading this time
+
+In the previous lens you saw one extrapolation fail. Now you will build some yourself.
+
+Four short scenarios follow. Each one is a system made of parts, and in each one the parts interact in a way that makes the obvious curve wrong. The four curves go wrong in four different ways. Those differences matter: the four failures are not interchangeable.
+
+Work through the scenarios in order. Write out the arithmetic itself, not a description of it.
 
 #### Question
 id:: 4a4077d1-b926-4ff1-9552-e822f3789186

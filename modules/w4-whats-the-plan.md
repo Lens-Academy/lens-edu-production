@@ -104,11 +104,27 @@ tutor_minutes:: 25
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## One lever, three questions
 
 You have met five levers in this unit: the playbook's conditional plans, influence inside a lab, a national project, the factual premise under the race, and the question of whom a lab's org chart is aligned to. Pick one. Not the one you find most exciting; the one you could imagine yourself or someone you know actually pulling.
 
 You will write three short things about it, and bring all three to this week's meeting, where someone else will try to break them. That is the exercise. A theory of change is not a document you finish; it is a thing you carry in your head and repair when it breaks.
+%%
+
+\## One lever, three questions
+
+You have met five levers in this unit:
+
+- the playbook's conditional plans
+- influence inside a lab
+- a national project
+- the factual premise under the race
+- the question of whom a lab's org chart is aligned to
+
+Pick one. Choose it not by how exciting you find it, but by whether you could imagine yourself, or someone you know, actually pulling it.
+
+You will write three short things about it and bring all three to this week's meeting, where someone else will try to break them. That is the exercise. A theory of change is not a document you finish. You carry it in your head, and you repair it when it breaks.
 
 #### Question: Open
 id:: 22be0d88-24c8-4b6a-887d-63e8bb760d67

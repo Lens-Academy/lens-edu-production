@@ -7,9 +7,12 @@ tldr: Before arguing about when AI arrives, find out what your own model says co
 summary_for_tutor: "Administers Daniel Kokotajlo's own exercise from Fun with +12 OOMs of Compute rather than inventing a parallel one. Sequence: frame, then his hypothetical (the Compute Fairy grants twelve orders of magnitude of compute) read up to and stopping at his exercise, then the student does the exercise under a real five-minute timer, then his five answers (OmegaStar, Amp(GPT-7), Crystal Nights, Skunkworks, Neuromorph), then a diff of their list against his, then his Question Two payoff (his 90 percent, inside view 99, against Ajeya's 50), then the student commits to their own number with named movers. The tutor must not leak his five answers during the attempt beat. The design point is that the exercise probes the student, not the future."
 authors:
   - Lauren+Claude
+glossary_terms:
+  - "[[../glossary/Parameter]]"
 ---
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 \## Remove a bottleneck and see what a model predicts
 
 Let's start in the middle. Let's say you've already got a model of how something moves: a description of what leads to what, with numbers given for how much each step leads to another. Usually, there will be some bottleneck, some part of the process that the other steps wait for.
@@ -31,6 +34,29 @@ Let's give you some basic definitions:
 **TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that changes the world at least as much as the industrial revolution did.
 
 Later articles will build up more of the technical details. Once again, the purpose of reading things out of order is to confuse you enough that your subconscious starts to know what to be curious about.
+%%
+
+\## Remove a bottleneck and see what a model predicts
+
+Let's start in the middle. Say you already have a model of how something moves: a description of what leads to what, with numbers for how much each step leads to another. Usually there will be a bottleneck, some part of the process that the other steps wait for.
+
+Most such descriptions of AI progress depend heavily on the amount of compute: how much math the computer does while running the software that makes the AI.
+
+So here you'll read Daniel Kokotajlo's article. He looks at what happens when you run very large programs that try to find capable behaviors in different ways.
+
+You probably won't understand everything he says at first, so try to guess what each thing means. In particular, he assumes you know which techniques for making AIs were common in 2016, and most of us don't have that memorized either. Follow what you can, and look for what confuses you. When you notice something confusing, ask yourself whether it could turn out to be a disagreement, or whether it's just something you don't know.
+
+Here are some basic definitions:
+
+**Compute**: the total number of steps (addition, multiplication, comparison, etc.) used in training the AI. (For most AIs, the vast majority of steps are multiplication.)
+
+**FLOP**: technically "**FL**oating-point **OP**eration", this just means an arithmetic step.
+
+**OOM**: **O**rder **O**f **M**agnitude, a factor of ten. 10 is one order of magnitude more than 1. Typically written in exponential notation: 10^3 = 1000, and 10^4 = 10,000.
+
+**TAI**: **T**ransformative **A**rtificial **I**ntelligence, which here refers to any piece of software that changes the world at least as much as the industrial revolution did.
+
+Later articles will build up more of the technical details. Once again, the reason for reading things out of order is to confuse you enough that your subconscious starts to know what to be curious about.
 
 #### Article
 source:: [[../articles/kokotajlo-fun-with-12-ooms-of-compute]]
@@ -155,7 +181,11 @@ If the student is stuck after 2 attempts at a question, give a brief direct answ
 
 #### Text
 content::
+%% ORIGINAL before Opus 5.5 rewrite, 2026-09-26. Remove after review.
 The question in the next passage was written in 2020 and asks about "the end of 2020". That date is kept on purpose. Answer it as a reader in 2020 would have, with what was known then; the exercise is about the reasoning, not the calendar.
+%%
+
+The question in the next passage was written in 2020 and asks about "the end of 2020". That date is left unchanged on purpose. Answer it as a reader in 2020 would have, with what was known then. What counts in this exercise is the reasoning, not the date.
 
 #### Article
 from:: ## Question Two: In this hypothetical, what's the probability that TAI appears by end of 2020?
