@@ -205,9 +205,9 @@ content::
 
 ---
 
-::card[[../Lenses/IABIED - QA - Isn't AI Different from Nuclear Reactors]]
+::card[[../Lenses/IABIED - QA - AI Differs from Precedents]]
 
-> Tackles analogical reasoning between AI and catastrophic technologies, and directly extends the Chernobyl comparison the chapter deploys.
+> Asks whether AI really differs from past dangerous technologies such as nuclear power, and why superintelligence is harder to get right, including that the first mistake could be fatal. Directly extends the Chernobyl comparison the chapter deploys.
 
 ---
 
