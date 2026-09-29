@@ -47,7 +47,7 @@ id:: 1a18f3c7-3505-4540-b30d-b34bda04e68e
 content::
 \## Scenario 2 of 4
 
-A hospital's automated dispensing system handled 5%, then 8%, then 12% of prescriptions over three years. A regulator is deciding whether to certify it for unsupervised operation. If certified, the hospital plans to route everything through it that is not explicitly flagged.
+A hospital's automated dispensing system fills prescriptions that doctors have already written. Until now a pharmacist has had to check every order it fills, so the hospital let it take only a small share, limited by pharmacist time: 5%, then 8%, then 12% of prescriptions over the last three years. Next year a regulator decides whether to certify it to run with no pharmacist check. If certified, the hospital will send every prescription through it except a short list of high-risk drugs that stay with pharmacists.
 
 Forecast the share in two years. Explain why this case differs from Scenario 1, and state what forecasting object should replace a smooth curve.
 assessment-instructions:: This is the second independent application in a nonlinear forecasting workshop. Make the student reason from the scenario. Do not turn it into a general discussion of AI timelines.
@@ -55,6 +55,8 @@ assessment-instructions:: This is the second independent application in a nonlin
 Target: certification is a discrete gate. The observed creep measures incremental trust under supervision, while certification could cause a jump. A curve fitted to pre-threshold data cannot represent the gate and will likely be too slow. The right object is a probability that the gate opens combined with a separate estimate of the post-gate level. If the student concludes that extrapolation is always wrong, ask what conditions would make a smooth curve appropriate.
 
 Reply in 80 to 160 words using short paragraphs and no list longer than 4 items. Name up to 2 gaps and ask at most 2 direct causal follow-ups. If they are stuck after 2 attempts, give a brief direct answer. Do not over-validate or use generic praise.
+
+If the student reasons about which prescriptions are automatable, credit it as their estimate of the post-gate level; point to the text: the cap is the sign-off, not capability. Stay inside the scenario; no outside analogies.
 
 #### Question
 id:: b71c45ce-19be-484c-9017-888f7be72b18
