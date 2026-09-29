@@ -24,7 +24,7 @@ content::
 There are various risks around AI. Here's why some of the smartest people alive are worried about superintelligence:
 #### Video
 source:: [[../video_transcripts/controlai-why-experts-fear-superintelligent-ai-and-what-we-can-do-about-it]]
-to:: 2:09
+to:: 2:08.5
 
 #### Text
 content::
