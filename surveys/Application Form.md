@@ -105,7 +105,8 @@ required:: true
 
 #### Question
 key:: location
-content:: Where are you based most of the time (City, Country)? You can name a few places if you are meaningfully located there.
+content:: Where are you based most of the time (City, Country)?
+description:: You can name a few places if you are meaningfully located there.
 short:: true
 
 #### Text
@@ -113,14 +114,16 @@ content:: ### Career and intention
 
 #### Question
 key:: why_applying
-content:: Why are you applying to this course? How does it fit within your career plans? (100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.) 
+content:: Why are you applying to this course? How does it fit within your career plans?
+description:: 100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.
 max-chars:: 2000
 required:: true
 
 
 #### Question
 key:: proud_projects
-content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine). Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs — links are great! (100–200 words.) 
+content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine).
+description:: Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs: links are great! 100–200 words.
 max-chars:: 2000
 required:: true
 
@@ -142,7 +145,8 @@ required:: true
 
 #### Rating
 key:: transition_intention
-content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)? Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
+content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)?
+description:: Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
 scale:: 10
 labels::
 - No intention of moving into AI safety
@@ -155,6 +159,30 @@ labels::
 - Very likely, actively exploring
 - Almost certain, taking concrete steps
 - Already working full-time or in a paid fellowship
+required:: true
+
+#### Choice
+key:: ais_work_status
+content:: Which best describes your AI safety work right now? If several apply, pick the highest on the list.
+options::
+- Paid full-time job in AI safety
+- Paid full-time AI safety fellowship or funded research
+- Paid part-time AI safety work (job, contract, fellowship or grant)
+- A selective unpaid programme (for example SPAR or AI Safety Camp)
+- Unpaid contributions (for example volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+required:: true
+
+#### Choice
+key:: ais_connections
+content:: How many people working in AI safety could you ask for advice or a referral?
+options::
+- None
+- 1–2
+- 3–5
+- 6–10
+- More than 10
 required:: true
 
 #### Text
@@ -176,7 +204,8 @@ required:: false
 
 #### Question
 key:: nominations
-content:: Who is the most exceptional person you would nominate for this course? Please include their email and LinkedIn. (You can nominate more than one; if they are a good fit we might reach out to them.)
+content:: Who is the most exceptional person you would nominate for this course?
+description:: Please include their email and LinkedIn. You can nominate more than one; if they are a good fit we might reach out to them.
 
 #### Question
 key:: feedback

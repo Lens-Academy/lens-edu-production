@@ -174,7 +174,8 @@ options::
 
 #### Question: Rating
 id:: 1a9dabd9-4cb7-4fc8-91b5-44b94866daca
-content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months? Select 10 if you already work in it full-time or are in a paid fellowship.
+content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months?
+description:: Select 10 if you already work in it full-time or are in a paid fellowship.
 scale:: 10
 labels::
 - No intention
@@ -188,21 +189,20 @@ labels::
 - Actively working toward it
 - Already full-time or in a paid fellowship
 
-#### Question: Rating
-id:: 33141de8-0263-4b4a-a1ac-3b17609e4197
-content:: How clear are you about what you need to do in the next 1 to 3 months?
-scale:: 10
-labels::
-- No clarity
-- Very unclear
-- Unclear
-- Slightly unclear
-- Neutral or mixed
-- Slightly clear
-- Clear
-- Very clear
-- Extremely clear
-- Completely clear
+#### Question: Open
+id:: 192fa91e-65de-44b3-bbd4-bd32e2c347c6
+content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
+optional:: true
+max-chars:: 1000
+description:: The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
+
+#### Question: Choice
+id:: 4fe9c259-0b0d-4866-8347-4e185b2794f3
+content:: If we share your note, can we credit you?
+optional:: true
+options::
+- Yes, you can use my profile
+- No, keep me anonymous
 
 #### Text
 content:: **Pay what you want**
@@ -219,7 +219,8 @@ options::
 
 #### Question: Open
 id:: 23d9685e-753e-47e9-bb14-98baf3da3176
-content:: Is there someone exceptional whom you would refer to this course? Share their name and why they are a good fit. Add contact details only if you have their permission.
+content:: Is there someone exceptional whom you would refer to this course?
+description:: Share their name, why they are a good fit, and add their contact details like email or Linked-In.
 optional:: true
 max-chars:: 1000
 
