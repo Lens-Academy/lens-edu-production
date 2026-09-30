@@ -16,7 +16,7 @@ MIRI
 
 MACHINE INTELLIGENCE RESEARCH INSTITUTE
 
-How We’re Predicting AI—or Failing To
+# How We’re Predicting AI—or Failing To
 
 Stuart Armstrong
 Future of Humanity Institute
@@ -24,7 +24,7 @@ Future of Humanity Institute
 Kaj Sotala
 Machine Intelligence Research Institute
 
-Abstract
+## Abstract
 
 This paper will look at the various predictions that have been made about AI and propose decomposition schemas for analyzing them. It will propose a variety of theoretical tools for analyzing, judging, and improving these predictions. Focusing specifically on timeline predictions (dates given by which we should expect the creation of AI), it will show that there are strong theoretical grounds to expect predictions to be quite poor in this area. Using a database of 95 AI timeline predictions, it will show that these expectations are borne out in practice: expert predictions contradict each other considerably, and are indistinguishable from non-expert predictions and past failed predictions. Predictions that AI lie 15 to 25 years in the future are the most common, from experts and non-experts alike.
 
@@ -34,7 +34,7 @@ Armstrong, Stuart, and Kaj Sotala. 2012. “How We’re Predicting AI—or Faili
 
 This version contains minor changes.
 
-1. Introduction
+## 1. Introduction
 
 Predictions about the future development of artificial intelligence are as confident as they are diverse. Starting with Turing’s initial estimation of a 30% pass rate on Turing test by the year 2000 (Turing 1950), computer scientists, philosophers and journalists have never been shy to oﬀer their own definite prognostics, claiming AI to be impossible (Jacquette 1987) or just around the corner (Darrach 1970) or anything in between.
 
@@ -52,9 +52,9 @@ With the data, we further test two folk theorems: firstly that predictors always
 
 This enabled us to show that there seems to be no such thing as an “AI expert” for timeline predictions: no category of predictors stands out from the crowd.
 
-2. Taxonomy of Predictions
+## 2. Taxonomy of Predictions
 
-2.1. Prediction Types
+### 2.1. Prediction Types
 
 There will never be a bigger plane built. —Boeing engineer on the 247, a twin engine plane that held ten people.
 
@@ -72,7 +72,7 @@ Issues and metastatements. This category covers relevant problems with (some or 
 
 There will inevitably be some overlap between the categories, but this division is natural enough for our purposes. In this paper we will be looking at timeline predictions. Thanks to the eﬀorts of Jonathan Wang and Brian Potter at the Singularity Institute, the authors were able to make use of extensive databases of this type of predictions, reaching back from the present day back to the 1950s. Other types of predictions will be analyzed in subsequent papers.
 
-2.2. Prediction Methods
+### 2.2. Prediction Methods
 
 Just as there are many types of predictions, there are many ways of arriving at them— consulting crystal balls, listening to the pronouncements of experts, constructing elaborate models. Our review of published predictions has shown that the prediction methods are far more varied than the types of conclusions arrived at. For the purposes of this analysis, we’ll divide the prediction methods into the following loose scheme:
 
@@ -99,11 +99,11 @@ Predictions can use a mixture of these approaches, and often do. For instance, R
 
 This is the schema we will be using in this paper, and in the prediction databases we have assembled. But the purpose of any such schema is to bring clarity to the analysis, not to force every prediction into a particular box. We hope that the methods and approaches used in this paper will be of general use to everyone wishing to analyze the reliability and usefulness of predictions, in AI and beyond. Hence this schema can be freely adapted or discarded if a particular prediction does not seem to fit it, or if an alternative schema seems to be more useful for the analysis of the question under consideration.
 
-3. A Toolbox of Assessment Methods
+## 3. A Toolbox of Assessment Methods
 
 The purpose of this paper is not only to assess the accuracy and reliability of some of the AI predictions that have already been made. The purpose is to start building a “toolbox” of assessment methods that can be used more generally, applying them to current and future predictions.
 
-3.1. Extracting Verifiable Predictions
+### 3.1. Extracting Verifiable Predictions
 
 The focus of this paper is squarely on the behavior of AI. This is not a philosophical point; we are not making the logical positivist argument that only empirically verifiable predictions have meaning (Carnap 1928). But it must be noted that many of the vital questions about AI—can it built, when, will it be dangerous, will it replace humans, and so on—all touch upon behavior. This narrow focus has the added advantage that empirically verifiable predictions are (in theory) susceptible to falsification, which means ultimately agreement between people of opposite opinions. Predictions like these have a very diﬀerent dynamic to those that cannot be shown to be wrong, even in principle.
 
@@ -121,7 +121,7 @@ Care must be taken when applying this method: the point is to extract a useful v
 
 This method often increases uncertainty, in that it often narrows the consequences of the prediction, and allows more possible futures to exist, consistently with that prediction. For instance, Bruce Edmonds (Edmonds 2008), building on the “No Free Lunch” results (Wolpert and Macready 1995), demonstrates that there is no such thing as a universal intelligence: no intelligence that performs better than average in every circumstance. Initially this seems to rule out AI entirely; but when one analyzes what this means empirically, one realizes there is far less to it. It does not forbid an algorithm from performing better than any human being in any situation any human being would ever encounter, for instance. So our initial intuition, which was to rule out all futures with AIs in them, is now replaced by the realization that we have barely put any constraints on the future at all.
 
-3.2. Clarifying and Revealing Assumptions
+### 3.2. Clarifying and Revealing Assumptions
 
 The previous section was concerned with the predictions’ conclusions. Here we will instead be looking at its assumptions, and the logical structure of the argument or model behind it. The objective is to make the prediction as rigorous as possible
 
@@ -135,7 +135,7 @@ Again, it needs to be emphasized that the purpose is to clarify and analyze argu
 
 There is surprisingly little published on the proper way of clarifying assumptions, making this approach more an art than a science. If the prediction comes from a model, we have some standard tools available for clarifying, though see Morgan and Henrion (1990). Most of these methods work by varying parameters in the model and checking that this doesn’t cause a breakdown in the prediction.
 
-3.2.1. Model Testing and Counterfactual Resiliency
+#### 3.2.1. Model Testing and Counterfactual Resiliency
 
 Though the above works from inside the model, there are very few methods that can test the strength of a model from the outside. This is especially the case for non-causal models: what are the assumptions behind Moore’s famous law (Moore 1965), or Robin Hanson’s model that we are due for another technological revolution, based on the timeline of previous revolutions (Hanson 2009)? If we can’t extract assumptions, we’re reduced to saying “that feel right/wrong to me,” and therefore we’re getting nowhere.
 
@@ -145,11 +145,11 @@ The purpose of this exercise is not to rule out certain models depending on one�
 
 This method is new, and will certainly be refined in future. Again, the purpose of the method is not to rule out certain models, but to find the nodes of disagreement.
 
-3.2.2. More Uncertainty
+#### 3.2.2. More Uncertainty
 
 Clarifying assumptions often ends up increasing uncertainty, as does revealing hidden assumptions. The previous section focused on extracting verifiable predictions, which often increases the range of possible worlds compatible with a prediction. Here, by clarifying and caveating assumptions, and revealing hidden assumption, we reduce the number of worlds in which the prediction is valid. This means that the prediction puts fewer constraints on our expectations. In counterpart, of course, the caveated prediction is more likely to be true.
 
-3.3. Empirical Evidence
+### 3.3. Empirical Evidence
 
 The gold standard in separating true predictions from false ones must always be empirical evidence. The scientific method has proved to be the best way of disproving false hypotheses, and should be used whenever possible. Other methods, such as expert opinion or unjustified models, come nowhere close.
 
@@ -157,7 +157,7 @@ The problem with empirical evidence is that . . . it is generally non-existent i
 
 That generalization is somewhat over-harsh. Some AI prediction methods hew closer to the scientific method, such as the whole brain emulations model (Sandberg and Bostrom 2008)—it makes testable predictions along the way. Moore’s law is a wildly successful prediction, and connected to some extent with AI. Many predictors (e.g. Kurzweil) make partial predictions on the road towards AI; these can and should be assessed—track records allow us to give some evidence to the proposition “this expert knows what they’re talking about.” And some models also allow for a degree of testing. So the field is not void of empirical evidence; it’s just that there is so little of it, and to a large extent we must put our trust in expert opinion.
 
-3.4. Expert Opinion
+### 3.4. Expert Opinion
 
 Reliance on experts is nearly unavoidable in AI prediction. Timeline predictions are often explicitly based on experts’ feelings; even those that consider factors about the world (such as computer speed) need an expert judgment about why that factor is considered and not others. Plans need experts to come up with them and judge their credibility. And unless every philosopher agrees on the correctness of a particular philosophical argument, we are dependent to some degree on the philosophical judgment of the author. It is the purpose of all the methods described above that we can refine and caveat a prediction, back it up with empirical evidence whenever possible, and thus clearly highlight the points where we need to rely on expert opinion. And so can focus on the last remaining points of disagreement: the premises themselves (that is of course the ideal situation: some predictions are given directly with no other basis but expert authority, meaning there is nothing to refine).
 
@@ -188,7 +188,7 @@ As everyone knows, experts sometimes disagree. This fact strikes at the very hea
 
 What kind of objective criteria could there be? A good track record can be an indicator, as is a willingness to make verifiable, non-ambiguous predictions. A better connection with empirical knowledge and less theoretical rigidity are also positive indications (Tetlock 2005), and any expert that approached their task with methods that were more on the left of the table than on the right should be expected to be more correct. But these are second order phenomena—we’re looking at our subjective interpretation of expert’s subjective opinion—so in most cases, when there are strong disagreement between experts, we simply can’t tell which position is true.
 
-3.4.1. Grind Versus Insight
+#### 3.4.1. Grind Versus Insight
 
 Some AI prediction claim that AI will result from grind: i.e. lots of hard work and money. Other claim that AI will need special insights: new unexpected ideas that will blow the field wide open (Deutsch 2012).
 
@@ -198,15 +198,15 @@ Predicting insight, on the other hand, seems a much more daunting task. Take the
 
 Does this mean that in general predictions that are modeling grind should be accepted more than predictions that are modeling insight? Not at all. Predictions that are modeling grind should only be accepted if they can make a good case that producing an AI is a matter grind only. The predictions around whole brain emulations (Sandberg and Bostrom 2008), are one of the few that make this case convincingly; this will be analyzed in a subsequent paper.
 
-3.4.2. Non-expert Opinion
+#### 3.4.2. Non-expert Opinion
 
 It should be borne in mind that all the caveats and problems with expert opinion apply just as well to non-experts. With one crucial diﬀerence: we have no reason to trust the non-expert’s opinion in the first place. That is not to say that non-experts cannot come up with good models, convincing timelines, or interesting plans and scenarios. It just means that our assessment of the quality of the prediction depends only on what we are given; we cannot extend a non-expert any leeway to cover up a weak premise or a faulty logical step. To ensure this, we should try and assess non-expert predictions blind, without knowing who the author is. If we can’t blind them, we can try and get a similar eﬀect by asking ourselves hypothetical questions such as: “Would I find this prediction more or less convincing if the author was the Archbishop of Canterbury? What if it was Warren Buﬀet? Or the Unabomber?” We should aim to reach the point where hypothetical changes in authorship do not aﬀect our estimation of the prediction.
 
-4. Timeline Predictions
+## 4. Timeline Predictions
 
 The practical focus of this paper is on AI timeline predictions: predictions giving dates for AIs with human-comparable cognitive abilities. Researchers from the Singularity Institute have assembled a database of 257 AI predictions since 1950, of which 95 include AI timelines.
 
-4.1. Subjective Assessment
+### 4.1. Subjective Assessment
 
 A brief glance at Table 1 allows us to expect that AI timeline predictions will generally be of very poor quality. The only factor that is unambiguously positive for AI predictions is that prediction errors are expected and allowed: apart from that, the task seems singularly difficult, especially on the key issue of feedback. An artificial intelligence is a hypothetical machine, which has never existed on this planet before and about whose properties we have but the haziest impression. Most AI experts will receive no feedback whatsoever about their predictions, meaning they have to construct them entirely based on their untested impressions.
 
@@ -214,7 +214,7 @@ There is nothing stopping experts from decomposing the problem, or constructing 
 
 Yet another category are of the “Moore’s law hence AI” type. They postulate that AI will happen when computers reach some key level, often comparing with some key property of the brain (number of operations per second (Bostrom 1998), or neurones/synapses[3]). In the division established in Section 3.4.1, this is pure “grind” argument: AI will happen after a certain amount of work is performed. But, as we saw, these kinds of arguments are only valid if the predictor has shown that reaching AI does not require new insights! And that step is often absent from the argument.
 
-4.2. Timeline Prediction Data
+### 4.2. Timeline Prediction Data
 
 The above were subjective impressions, formed while looking over the whole database. To enable more rigorous analysis, the various timeline predictions were reduced to a single number for purposes of comparison: this would be the date upon which the predictor expected “human level AI” to be developed.
 
@@ -238,7 +238,7 @@ The second explanation is that AI is perpetually fifteen to twenty-five years in
 
 We’ll now look at the evidence for these two explanations.
 
-4.2.1. Nerds Don’t Get Raptured
+#### 4.2.1. Nerds Don’t Get Raptured
 
 Fifty-five predictions were retained, in which it was possible to estimate the predictor’s expected lifespan. Then the diﬀerence between their median prediction and this lifespan was computed (a positive diﬀerence meaning they would expect to die before AI, a negative diﬀerence meaning they didn’t). A zero diﬀerence would be a perfect example of the Maes-Garreau law: the predictor expects AI to be developed at the exact end of their life. This number was then plotted again the predictor’s age in Figure 2 (the plot was restricted to those predictions within thirty years of the predictor’s expected lifetime).
 
@@ -248,7 +248,7 @@ Figure 2: Diﬀerence between the predicted time to AI and the predictor’s lif
 
 From this, it can be seen that the Maes-Garreau law is not borne out by the evidence: only twelve predictions (22% of the total) were within five years in either direction of the zero point.
 
-4.2.2. Twenty Years to AI
+#### 4.2.2. Twenty Years to AI
 
 The “time to AI” was computed for each expert prediction. This was graphed in Figure 3. This demonstrates a definite increase in the 16–25 year predictions: 21 of the 62 expert predictions were in that range (34%). This can be considered weak evidence that experts do indeed prefer to predict AI happening in that range from their own time.
 
@@ -268,7 +268,7 @@ Figure 4: Time between the arrival of AI and the date the prediction was made, f
 
 Figure 5: Time between the arrival of AI and the date the prediction was made, for failed predictions.
 
-5. Conclusion
+## 5. Conclusion
 
 This paper, the first in a series analyzing AI predictions, focused on the reliability of AI timeline predictions (predicting the dates upon which “human-level” AI would be developed). These predictions are almost wholly grounded on expert judgment. The biases literature classified the types of tasks on which experts would have good performance, and AI timeline predictions have all the hallmarks of tasks on which they would perform badly.
 
@@ -276,11 +276,11 @@ This was borne out by the analysis of 95 timeline predictions in the database as
 
 There is thus strong grounds for dramatically increasing the uncertainty in any AI timeline prediction.
 
-Acknowledgments
+## Acknowledgments
 
 The authors wish to acknowledge the help and support of the Singularity Institute, the Future of Humanity Institute and the James Martin School, as well as the individual advice of Nick Bostrom, Luke Muelhauser, Vincent Mueller, Anders Sandberg, Lisa Makros, Sean O’Heigeartaigh, Daniel Dewey, Eric Drexler and the online community of Less Wrong.
 
-Notes
+## Notes
 
 1. A Gödel sentence is a sentence G that can be built in any formal system containing arithmetic. G is implicitly self-referential, as it is equivalent with “there cannot exist a proof of G”. By construction, there cannot be a consistent proof of G from within the system.
 
@@ -292,7 +292,7 @@ Notes
 
 5. Kevin Kelly, editor of Wired magazine, created the law in 2007 after being influenced by Pattie Maes at MIT and Joel Garreau (author of Radical Evolution).
 
-References
+## References
 
 Armstrong, Stuart. 2007. “Chaining God: A Qualitative Approach to AI, Trust and Moral Systems.” Unpublished manuscript, October 20. Accessed December 31, 2012. http://web.archive.org/web/20141123103224/http://www.neweuropeancentury.org/GodAI.pdf .
 
