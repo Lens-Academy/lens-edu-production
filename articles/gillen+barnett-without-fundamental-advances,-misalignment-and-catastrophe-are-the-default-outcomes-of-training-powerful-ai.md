@@ -3,14 +3,27 @@ title: "Without fundamental advances, misalignment and catastrophe are the defau
 source_url: "https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe"
 author:
   - "Jeremy Gillen"
-  - "peterbarnett"
+  - "Peter Barnett"
 published: 2024-01-26
 created: 2026-02-13
 description: "A pdf version of this report is available here. …"
 read-time: "68 minutes"
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 by [Jeremy Gillen](https://www.lesswrong.com/users/jeremy-gillen?from=post_header), [peterbarnett](https://www.lesswrong.com/users/peterbarnett?from=post_header) | 26th Jan 2024 | [Review by Jeremy Gillen](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#ebYbeASupnTdb9vAx) | [Review by plex ](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#BnWtd2ARfuYXfdf2t)
 
 A pdf version of this report is available [here](https://intelligence.org/wp-content/uploads/2024/02/Misalignment_and_Catastrophe.pdf).
@@ -42,7 +55,7 @@ One reason for pessimism about getting powerful AIs to safely do hard novel scie
 
 Our aim for this report is to explain the central difficulty where we expect AIs that are capable of novel science to also be dangerously misaligned, and why we expect this problem not to be solved if we continue along the default trajectory. We focus on the difficult tasks which we assume the AIs will be capable of. The specific capabilities required for these tasks, combined with the imprecision of behavioral training, lead us to expect misaligned goal-directed behavior, even though current, 2024, AI systems do not seem dangerously capable and goal-directed.
 
-We aim to lay out a mostly complete argument for our mainline beliefs about catastrophic outcomes caused by AI, starting from the tasks we assume they are capable of.[^1] This risk model can be thought of as an “inner alignment” failure, where even if we knew what to tell the AI to do, we are unable to make it safely do that.
+We aim to lay out a mostly complete argument for our mainline beliefs about catastrophic outcomes caused by AI, starting from the tasks we assume they are capable of.[^note-gillen-barnett-1] This risk model can be thought of as an “inner alignment” failure, where even if we knew what to tell the AI to do, we are unable to make it safely do that.
 
 We hope that this can be helpful for informing AI safety research directions; ideally focusing research effort on approaches which are still valid for extremely powerful AI systems or on foundational research to avoid the problems inherent to behavioral training. Many of the claims in this report are not of the form “It is impossible in principle to get an AI with this desired property” but rather “Given how we made the AI and that it is capable of certain things, it is unlikely to have this desired property”. It is not impossible to create an aligned or safely constrained powerful AI, however this is unlikely if the AI is created using current methods.
 
@@ -54,7 +67,7 @@ We would like to thank Lisa Thiergart for managing this project. Many thanks to 
 
 ### How to read this report
 
-This report is intended to explain the authors’ beliefs and the main reasons for these beliefs. Each section is stating a thesis which depends on a number of assumptions. The sections are ordered such that assumptions of later sections are argued for in earlier sections. Unfortunately, this means that at any point the reader doesn’t agree with an argument we make part way through, the rest of the document won’t feel fully justified. In this case, the reader should treat each section as a separate argument for a conditional statement: If we believe the assumptions[^2], then the section is our mainline reasoning for believing the conclusion.
+This report is intended to explain the authors’ beliefs and the main reasons for these beliefs. Each section is stating a thesis which depends on a number of assumptions. The sections are ordered such that assumptions of later sections are argued for in earlier sections. Unfortunately, this means that at any point the reader doesn’t agree with an argument we make part way through, the rest of the document won’t feel fully justified. In this case, the reader should treat each section as a separate argument for a conditional statement: If we believe the assumptions[^note-gillen-barnett-2], then the section is our mainline reasoning for believing the conclusion.
 
 The arguments that are “most central” vary a lot between people. We are trying to provide the arguments that would be most likely to change our beliefs if we discovered they were wrong. There is a heavy bias toward arguments that are most salient to us. These arguments are usually salient because they have been important in disagreements with people we regularly talk to.
 
@@ -82,15 +95,15 @@ Various arguments made in related work are based on “counting arguments”; ar
 
 # Section 1: Useful tasks, like novel science, are hard
 
-We start with an assumption that, when developed, powerful AI systems are capable of large-scale, difficult tasks, and people will try to use them for such tasks.[^3] We will discuss specific properties of these tasks, and later in this report we will argue that by default AIs capable of tasks with these properties will be misaligned and dangerous.
+We start with an assumption that, when developed, powerful AI systems are capable of large-scale, difficult tasks, and people will try to use them for such tasks.[^note-gillen-barnett-3] We will discuss specific properties of these tasks, and later in this report we will argue that by default AIs capable of tasks with these properties will be misaligned and dangerous.
 
-These tasks will have large search spaces, requiring many actions and where success is only achieved by a relatively very small set of action sequences. They will also be outcome-oriented, novel, and diverse. Throughout this report we refer to tasks with these properties as *hard* tasks, and will expand on the specifics of these properties in this section. By *outcome-oriented*, we mean that we have to specify the task by the outcome it achieves, because we don’t know the sequence of actions to achieve it. By *novel*, we mean that such tasks would require the AI to do things they weren’t initially trained to do.[^4] By *diverse*, we mean that there are a wide range of skills required to successfully do the task. These properties will be expanded on in this section.[^5]
+These tasks will have large search spaces, requiring many actions and where success is only achieved by a relatively very small set of action sequences. They will also be outcome-oriented, novel, and diverse. Throughout this report we refer to tasks with these properties as *hard* tasks, and will expand on the specifics of these properties in this section. By *outcome-oriented*, we mean that we have to specify the task by the outcome it achieves, because we don’t know the sequence of actions to achieve it. By *novel*, we mean that such tasks would require the AI to do things they weren’t initially trained to do.[^note-gillen-barnett-4] By *diverse*, we mean that there are a wide range of skills required to successfully do the task. These properties will be expanded on in this section.[^note-gillen-barnett-5]
 
 These properties define a kind of task that we will use as the defining capability of powerful AI. In this report we will refer to these as *hard* tasks, this specifically refers to these tasks which have large search spaces, are outcome-oriented, and contain novel and diverse subproblems. We are using *hard* to refer to tasks that have these properties, and not just any task that a human would find difficult.
 
 ## Impactful novel science takes a lot of work
 
-We will be focusing on AI systems which are capable of doing novel science,[^6] the scale of the work we are imagining is curing cancer or some similarly large scientific endeavor. Tasks like this would necessarily require systems to be operating over long time scales. A central intuition pump here is the Manhattan Project, which took three years to design and produce the atomic bomb. Other examples could include:
+We will be focusing on AI systems which are capable of doing novel science,[^note-gillen-barnett-6] the scale of the work we are imagining is curing cancer or some similarly large scientific endeavor. Tasks like this would necessarily require systems to be operating over long time scales. A central intuition pump here is the Manhattan Project, which took three years to design and produce the atomic bomb. Other examples could include:
 
 - The Human Genome Project
 - The Apollo Program
@@ -110,9 +123,9 @@ When we tell an AI to achieve an outcome which we don’t know how to achieve, t
 
 ## Novelty and diversity of obstacles
 
-Obstacles in hard tasks like novel science are not predictable in advance, and often dissimilar to obstacles previously encountered. Writing a program could involve inventing or appropriating a new data structure which works with the particular constraints of the specific problem. In science, it can be extremely valuable to sort through messy debates containing arguments about which data is relevant and real and combine this information with context, to decide which experiments are most valuable to do next. In adversarial settings, an agent needs to deal with other agents which seek out and play strategies that it has the least experience with.[^7]
+Obstacles in hard tasks like novel science are not predictable in advance, and often dissimilar to obstacles previously encountered. Writing a program could involve inventing or appropriating a new data structure which works with the particular constraints of the specific problem. In science, it can be extremely valuable to sort through messy debates containing arguments about which data is relevant and real and combine this information with context, to decide which experiments are most valuable to do next. In adversarial settings, an agent needs to deal with other agents which seek out and play strategies that it has the least experience with.[^note-gillen-barnett-7]
 
-Sometimes a researcher is missing necessary skills or knowledge and has to work around that somehow, either by gaining the skills or knowledge, or finding a route that doesn’t require these. Different resources can be a bottleneck at different times, leading to new and different constraints. Available resources may change which can necessitate a different approach.[^8]
+Sometimes a researcher is missing necessary skills or knowledge and has to work around that somehow, either by gaining the skills or knowledge, or finding a route that doesn’t require these. Different resources can be a bottleneck at different times, leading to new and different constraints. Available resources may change which can necessitate a different approach.[^note-gillen-barnett-8]
 
 Above examples of diverse obstacles share the property that each new obstacle may require a novel strategy to address. The defining property of a successful novel strategy is that it still leads to the desired outcome. Defining the strategy by other means, like by describing a particular sequence of steps, or a particular heuristic to locally optimize, becomes harder as the diversity and novelty of obstacles increases. Defining strategies without reference to goals often requires predicting and coming up with solutions to obstacles before running into the particular obstacles that need solutions.
 
@@ -124,15 +137,15 @@ We think that the task of doing useful AI alignment research is a task which is 
 
 This task, especially getting sufficient confidence in safety, we think will require:
 
-- Novel mathematical work, developing mathematical models that have not been explored before.[^9] This work will likely need to build on itself, requiring inventing and understanding one new mathematical model, and then developing another based on that. This kind of work seems necessary for building an AI that is very stable under learning and reflection (i.e. acts in well-understood ways while learning a lot, especially when it comes to ontological crises and self-improvement).
+- Novel mathematical work, developing mathematical models that have not been explored before.[^note-gillen-barnett-9] This work will likely need to build on itself, requiring inventing and understanding one new mathematical model, and then developing another based on that. This kind of work seems necessary for building an AI that is very stable under learning and reflection (i.e. acts in well-understood ways while learning a lot, especially when it comes to ontological crises and self-improvement).
 - Empirical work to validate the theory. This will likely require coding to run large empirical tests of various components of the designed AI system, as well as testing bounds and approximations.
 - Engineering work, building and iterating on the (hopefully) safe AI system. This will likely require large scale software engineering, similar to the scale that is required to build large foundation models. We expect this to be much more complicated than current foundation models, because the system probably needs to be something more complicated than an end-to-end trained black box.
 
-While we expect AI alignment research to be hard and require these skills, the overall argument in this report does not rely on this assumption. We will be arguing that AI systems trained using current methods (if they are capable of hard, novel science) will be misaligned[^10] and too dangerous to use.[^11] We separately believe that solving AI alignment will require hard, novel science (but won’t argue for this further, in this report).
+While we expect AI alignment research to be hard and require these skills, the overall argument in this report does not rely on this assumption. We will be arguing that AI systems trained using current methods (if they are capable of hard, novel science) will be misaligned[^cite-gillen-barnett-10] and too dangerous to use.[^note-gillen-barnett-11] We separately believe that solving AI alignment will require hard, novel science (but won’t argue for this further, in this report).
 
 ### Stopping misaligned AI deployment seems to require powerful aligned AI
 
-Many well-resourced companies and governments are motivated to build powerful AI. Any approach to AI safety has to deal with the problem of surviving when a less competent and safety-conscious actor could create and accidentally release a misaligned AI. We don’t know of any approaches to this that don’t involve a safe, aligned powerful AI.[^12] We would welcome being wrong, and would be excited about concrete strategies that would make the world existentially secure without needing to solve alignment and build a powerful AI.
+Many well-resourced companies and governments are motivated to build powerful AI. Any approach to AI safety has to deal with the problem of surviving when a less competent and safety-conscious actor could create and accidentally release a misaligned AI. We don’t know of any approaches to this that don’t involve a safe, aligned powerful AI.[^note-gillen-barnett-12] We would welcome being wrong, and would be excited about concrete strategies that would make the world existentially secure without needing to solve alignment and build a powerful AI.
 
 ## Conclusion
 
@@ -166,13 +179,13 @@ We can construct a simple definition of consequentialist goals based on the idea
 
 Here the actions affect the future state which affects success at achieving the goal; the only way the actions affect the goal is via the state.
 
-If a0..t  are early actions, st..t+k are a short sequence of states in the future[^13] and g is some internal representation of the outcome-goal in an AI, then a consequentialist goal has a property like MI(a0..t;g|st..t+k)≤ϵ.[^14] Given that we know what the future state is, knowing what the actions were doesn’t tell us any more about whether the goal was achieved (note this is an identical statement to the causal diagram above).
+If $a_{0..t}$  are early actions, $s_{t..t+k}$ are a short sequence of states in the future[^note-gillen-barnett-13] and g is some internal representation of the outcome-goal in an AI, then a consequentialist goal has a property like $MI(a_{0..t}; g \mid s_{t..t+k}) \le \epsilon$.[^note-gillen-barnett-14] Given that we know what the future state is, knowing what the actions were doesn’t tell us any more about whether the goal was achieved (note this is an identical statement to the causal diagram above).
 
 ### Non-consequentialist constraints
 
 There are also ways to specify behavior that don’t look like taking actions to achieve future outcomes, and instead are more like constraints on actions and intermediate states. Examples of such constraints: Always act “kindly”, or always follow a particular high-level procedure while completing a specific task, or always do a particular action upon particular observation. Humans also have plenty of similar shallow constraints; for example, disgust reactions, flinching, fear of heights. More [deontological](https://plato.stanford.edu/entries/ethics-deontological/) ethical prohibitions, like “don’t kill”, are also an example.
 
-One could define such non-consequentialist goal specification c as a variable that is primarily dependent on short term behavior and state, and not strongly dependent on the outcomes in the future, i.e. MI(st..t+k;c|a0..t,s0..t)≤ϵ. Here c is defined by modeling the agent as choosing actions that result in success according to c. Conditioning on the actions and states in the short term, the final states don’t give you additional information about whether the AI successfully followed its constraints.
+One could define such non-consequentialist goal specification c as a variable that is primarily dependent on short term behavior and state, and not strongly dependent on the outcomes in the future, i.e. $MI(s_{t..t+k}; c \mid a_{0..t}, s_{0..t}) \le \epsilon$. Here c is defined by modeling the agent as choosing actions that result in success according to c. Conditioning on the actions and states in the short term, the final states don’t give you additional information about whether the AI successfully followed its constraints.
 
  ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/rkzb6xxo2yiqpksvcl5j)
 
@@ -198,7 +211,7 @@ One of the main things that is useful about powerful AI is its ability to overco
 
 Humans attempting to achieve outcomes can be modeled as consequentialist. When we want to do something we work out a way to do it; when we encounter obstacles we work out ways to overcome them or search for alternative routes. Humans are not perfectly consequentialist, we often give up on things before achieving success, but we are consequentialist enough to radically reshape our world. Current LLMs such as GPT-4 are useful for many tasks, but these are generally similar to their training distribution. They may be modeled as consequentialist when close to their training distribution, but this breaks relatively often when they encounter novel obstacles.
 
-For example, we might assume an AI has the goal “build a fusion rocket”, and for this it must be capable of completing many engineering subtasks of the form “have a design idea to solve a problem, build models to empirically test unknowns, refine design based on data”. Because there is a huge variety of subtasks of roughly this form, it’s likely that if given a new arbitrary subtask of this form (of a similar difficulty) the AI will be capable of completing that subtask. If it has generalized this far, it will probably continue to generalize.[^15]
+For example, we might assume an AI has the goal “build a fusion rocket”, and for this it must be capable of completing many engineering subtasks of the form “have a design idea to solve a problem, build models to empirically test unknowns, refine design based on data”. Because there is a huge variety of subtasks of roughly this form, it’s likely that if given a new arbitrary subtask of this form (of a similar difficulty) the AI will be capable of completing that subtask. If it has generalized this far, it will probably continue to generalize.[^cite-gillen-barnett-15]
 
 Compute budget and generalization pressure toward consequentialism
 
@@ -210,7 +223,7 @@ Another variation of this argument is about generalization rather than the compu
 
 ### Shallow and deep constraints
 
-Another reason we consider outcome-oriented goals to be important is that shallow constraints on behavior tend to be easy to exploit (or hurt the usefulness of an AI if they are overly broad). By shallow constraints, we mean constraints that are easy to implement or specify, but don’t robustly serve their intended purpose when subjected to optimization pressure. In other words, shallow constraints don’t generalize well. For an intuitive example, a prohibition against saying explicitly false statements is easy to exploit by selectively revealing information or by using misleading but technically correct definitions. Deeper constraints, like “don’t manipulate person X while trying to achieve outcome Y”, tend to be most naturally represented as outcomes (e.g. with “did X’s beliefs become less true as a result of talking to me”, or “if X knew what I knew, would they be upset by the way I communicated with them”[^16]). Another example of a shallow constraint might be “don’t kill people by doing recognizably people-killing actions”. This kind of constraint wouldn’t slow down a determined murderer. Legal systems instead use the outcome, intent and causal influence to define murder, which is a far better definition (but also has some ambiguous edge cases).
+Another reason we consider outcome-oriented goals to be important is that shallow constraints on behavior tend to be easy to exploit (or hurt the usefulness of an AI if they are overly broad). By shallow constraints, we mean constraints that are easy to implement or specify, but don’t robustly serve their intended purpose when subjected to optimization pressure. In other words, shallow constraints don’t generalize well. For an intuitive example, a prohibition against saying explicitly false statements is easy to exploit by selectively revealing information or by using misleading but technically correct definitions. Deeper constraints, like “don’t manipulate person X while trying to achieve outcome Y”, tend to be most naturally represented as outcomes (e.g. with “did X’s beliefs become less true as a result of talking to me”, or “if X knew what I knew, would they be upset by the way I communicated with them”[^note-gillen-barnett-16]). Another example of a shallow constraint might be “don’t kill people by doing recognizably people-killing actions”. This kind of constraint wouldn’t slow down a determined murderer. Legal systems instead use the outcome, intent and causal influence to define murder, which is a far better definition (but also has some ambiguous edge cases).
 
 Constraints are hard to specify in a way that generalizes to new or different situations, or new strategies, because the AI is creatively searching for ways to achieve particular outcomes and will tend to eventually find loopholes. This is not to say it’s impossible, merely that specified constraints need to solve an adversarial robustness problem.
 
@@ -220,9 +233,9 @@ It’s important to note that when we describe an agent as pursuing consequentia
 
 Whether the AI is well described as goal-directed is not binary, and this may apply more or less in different situations. We only assume that the AI is far enough along on the spectrum of goal-directedness, such that it is able to do hard tasks as specified in Section 1.
 
-We can describe some axes upon which consequentialist AIs can be approximate.[^17] One type of approximation is how robust is the AI to unexpected obstacles (where more robust means the AI is capable of recovering from or working around a larger set of unforeseen obstacles). For example, your walking robot might recover from gently poking it, but might not recover from being knocked to the ground. Being knocked to the ground was outside of its set of unforeseen obstacles that could be overcome.
+We can describe some axes upon which consequentialist AIs can be approximate.[^note-gillen-barnett-17] One type of approximation is how robust is the AI to unexpected obstacles (where more robust means the AI is capable of recovering from or working around a larger set of unforeseen obstacles). For example, your walking robot might recover from gently poking it, but might not recover from being knocked to the ground. Being knocked to the ground was outside of its set of unforeseen obstacles that could be overcome.
 
-Another axis of approximation is to what extent the AI is correctly making (probabilistic) trade-offs, given a preferred outcome and many pathways to achieve that outcome. For example, suppose an AI must play a sequence of [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\)) to gain money,[^18] which it can later spend to achieve some desired outcomes. To what extent does it make decisions that avoid sure losses or take advantage of sure gains? How [efficient](https://www.lesswrong.com/w/efficiency) is the AI with respect to a given set of other AIs?[^19]
+Another axis of approximation is to what extent the AI is correctly making (probabilistic) trade-offs, given a preferred outcome and many pathways to achieve that outcome. For example, suppose an AI must play a sequence of [lotteries](https://en.wikipedia.org/wiki/Lottery_\(probability\)) to gain money,[^note-gillen-barnett-18] which it can later spend to achieve some desired outcomes. To what extent does it make decisions that avoid sure losses or take advantage of sure gains? How [efficient](https://www.lesswrong.com/w/efficiency) is the AI with respect to a given set of other AIs?[^note-gillen-barnett-19]
 
 Conclusion
 
@@ -238,7 +251,7 @@ If an AI system is going to do novel science on the scale of curing cancer or th
 
 ### Learning facts
 
-A simple example could be that the AI does not know a specific fact; it may be missing the value of a physical constant, or not have read the operating manual for a particular machine. An AI doing novel science must be able to realize that it doesn’t know a specific fact, and then take actions to learn it. For example, reading a physical constant from a textbook, planning and performing an experiment to measure a constant, or reading an operating manual in order to use a machine for a specific task. All the information that the AI needs will not be “stored in the weights” from the initial training.[^20] When doing novel science, the AI can’t initially know all the facts it needs, because many of these facts won’t have been discovered yet.
+A simple example could be that the AI does not know a specific fact; it may be missing the value of a physical constant, or not have read the operating manual for a particular machine. An AI doing novel science must be able to realize that it doesn’t know a specific fact, and then take actions to learn it. For example, reading a physical constant from a textbook, planning and performing an experiment to measure a constant, or reading an operating manual in order to use a machine for a specific task. All the information that the AI needs will not be “stored in the weights” from the initial training.[^note-gillen-barnett-20] When doing novel science, the AI can’t initially know all the facts it needs, because many of these facts won’t have been discovered yet.
 
 ### Learning skills
 
@@ -266,7 +279,7 @@ The AI may be able to “indirectly” do self-directed learning, for example by
 
 Learning is useful for completing hard tasks. Having a human in the loop, deciding what should be learned is safer. For some tasks, having a human in the decision loop is fine. The claim we are making is that for hard tasks there is a significant tradeoff to be made, where putting a human in the loop will dramatically slow down the overall system. This topic will be discussed more in Section 5.
 
-This is a specific case of a more general lesson; complex multifaceted tasks contain lots of bottlenecks, and solving one bottleneck means that the next bottleneck will dominate.[^21] This isn’t a fully general argument against it being possible to speed up anything. **It is an argument that dramatic acceleration on very diverse tasks requires an algorithm capable of attacking approximately every type of bottleneck that comes up.**
+This is a specific case of a more general lesson; complex multifaceted tasks contain lots of bottlenecks, and solving one bottleneck means that the next bottleneck will dominate.[^cite-gillen-barnett-21] This isn’t a fully general argument against it being possible to speed up anything. **It is an argument that dramatic acceleration on very diverse tasks requires an algorithm capable of attacking approximately every type of bottleneck that comes up.**
 
 ### Examples
 
@@ -295,40 +308,40 @@ In the following sections we will discuss two important consequences of self-dir
 
 This section is about AIs which are created by behavioral training, and also are capable of doing the hard tasks as described in Section 1. By behavioral training we are referring to a wide variety of training techniques, which involve running a parameterized model, providing feedback on the output of the model, and updating the model based on this feedback. Examples include model-free RL using PPO, model-based RL like MuZero, next token prediction on tokens describing goal-directed behavior.
 
-In previous sections we have described the behavioral properties that appear to be necessary for hard tasks. That is: **powerful AIs are behaviorally, approximately, optimizing their actions to produce outcomes.**[^22]
+In previous sections we have described the behavioral properties that appear to be necessary for hard tasks. That is: **powerful AIs are behaviorally, approximately, optimizing their actions to produce outcomes.**[^note-gillen-barnett-22]
 
-We haven’t described the internal operation of such trained AIs, mainly because we expect it to be a mess in the same way that humans and other evolved systems are a mess.[^23]
+We haven’t described the internal operation of such trained AIs, mainly because we expect it to be a mess in the same way that humans and other evolved systems are a mess.[^note-gillen-barnett-23]
 
 There are several categories of problems that make it difficult to specify goals. Each category introduces an uncontrolled degree of freedom in the goal specification which exists because we are only using feedback based on behavior. Because there are lots of potential degrees of freedom that we don’t have control over (via behavioral training), we can think of the space of “intended goals” as being a small subset of the space of “goals that empirically are pursued after training and deployment”. In this way, behavioral training is imprecise and is exceedingly unlikely to nail down the goal we intended. We describe multiple separate failure modes and so failure is disjunctive; we only need one failure of goal specification for the AI to be misaligned. Here is an overview of the problems that we will describe in more detail:
 
 - “Goal instabilities” that can come from the AI doing instrumentally convergent, capability-improving operations (during the process of doing hard tasks). These mean that the apparent goal of the AI changes over time, leading to success in training but unintended behavior after deployment.
-	- [Updating beliefs](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Beliefs_and_goals_can_be_mixed_together)
-	- [Outer shell constraints](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Outer_shell_non_consequentialist_constraints)
-	- [Changing terminal goals in-lifetime](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Changing_goals_over_time)
+	- [[#^beliefs-and-goals-can-be-mixed-together|Updating beliefs]]
+	- [[#^outer-shell-non-consequentialist-constraints|Outer shell constraints]]
+	- [[#^changing-goals-over-time|Changing terminal goals in-lifetime]]
 - Goal specification that generalizes out-of-distribution is difficult because it’s hard to distinguish between terminal and instrumental goals, and because the “distribution shifts” that we need a goal specification to be robust to are particularly large.
-	- [Goals naturally need to generalize a long way out of training distribution](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#OOD_generalization_difficulty)
-	- [Instrumental goals are difficult to distinguish from terminal goals](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Instrumental_goals_as_terminal_goals)
+	- [[#^ood-generalization-difficulty|Goals naturally need to generalize a long way out of training distribution]]
+	- [[#^instrumental-goals-as-terminal-goals|Instrumental goals are difficult to distinguish from terminal goals]]
 - Outer behavioral incentives are difficult to get right in the first place. If these aren’t perfect, they incentivize “[playing the training game](https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to)”. This section will be brief, since this issue is well described elsewhere.
 
-We will describe some of these problems using terms like *probability, belief, utility, goal* for concreteness, but each problem applies to learned algorithms that approximate goal-directed behavior. These problems are largely caused by the fact that the learned algorithm is messy and unstable, for example by the designers not carefully tracking the distinction between beliefs and goals in the clean way that the internals of an [expected utility maximizer](https://en.wikipedia.org/wiki/Expected_utility_hypothesis) would.[^24]
+We will describe some of these problems using terms like *probability, belief, utility, goal* for concreteness, but each problem applies to learned algorithms that approximate goal-directed behavior. These problems are largely caused by the fact that the learned algorithm is messy and unstable, for example by the designers not carefully tracking the distinction between beliefs and goals in the clean way that the internals of an [expected utility maximizer](https://en.wikipedia.org/wiki/Expected_utility_hypothesis) would.[^note-gillen-barnett-24]
 
 ## Unstable goals
 
 In these examples, the AI initially appears to be pursuing one goal in training, but then takes some actions in order to become more capable, and this causes it to pursue a different goal.
 
-### Beliefs and goals can be mixed together
+### Beliefs and goals can be mixed together ^beliefs-and-goals-can-be-mixed-together
 
 This example demonstrates a pattern common across other examples: we train an AI, this leads to an unstable implementation (of the AI) that generates behavior sufficient for low training loss. Some internal process eventually breaks this unstable implementation, causing the AI to pursue unintended goals.
 
-This first instability comes from a fundamental fact about probabilities and utilities: the same behavior can result from different sets of preferences and beliefs.[^25] For example, an AI might execute a certain behavior, believing this helps it achieve some goal, but the belief is false, and in fact the behavior results in a different outcome. Or an AI might falsely believe a subgoal is instrumentally useful for reaching a terminal goal. In these cases, the AI behaves as if it is pursuing one goal, but it would not behave this way if it had different (more accurate) beliefs.
+This first instability comes from a fundamental fact about probabilities and utilities: the same behavior can result from different sets of preferences and beliefs.[^cite-gillen-barnett-25] For example, an AI might execute a certain behavior, believing this helps it achieve some goal, but the belief is false, and in fact the behavior results in a different outcome. Or an AI might falsely believe a subgoal is instrumentally useful for reaching a terminal goal. In these cases, the AI behaves as if it is pursuing one goal, but it would not behave this way if it had different (more accurate) beliefs.
 
-One of the differences between beliefs and goals (as we use these terms) is that beliefs update over time, as observations are made, and as evidence is considered. One might imagine an AI that is being trained using reinforcement learning to solve difficult puzzles, but where there is a way to hack the solution-checker. With good oversight, the AI would receive low reward for hacking the solution-checker during training, and one might hope that this correctly puts a “morality-like” constraint into the AI’s goal. But there is another way it might update: the training could insert a false belief[^26] into the agent. This might be a belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is. Later, if the AI updates this belief (because the belief was false), it may attempt to hack the solution-checker.
+One of the differences between beliefs and goals (as we use these terms) is that beliefs update over time, as observations are made, and as evidence is considered. One might imagine an AI that is being trained using reinforcement learning to solve difficult puzzles, but where there is a way to hack the solution-checker. With good oversight, the AI would receive low reward for hacking the solution-checker during training, and one might hope that this correctly puts a “morality-like” constraint into the AI’s goal. But there is another way it might update: the training could insert a false belief[^note-gillen-barnett-26] into the agent. This might be a belief that hacking the solution-checker doesn’t work, or leads to some other bad consequence, or is more difficult than it truly is. Later, if the AI updates this belief (because the belief was false), it may attempt to hack the solution-checker.
 
 This mechanism (false beliefs instead of correctly specified goals and constraints) creates many additional degrees of freedom that allow particular behavior to be selected for, without the RL training necessarily having much influence on the ultimate goals of the agent.
 
-### Outer shell non-consequentialist constraints
+### Outer shell non-consequentialist constraints ^outer-shell-non-consequentialist-constraints
 
-There is a difference between the sort of constraints that are built into the core terminal goals of an AI, and the sort of constraints that are implemented outside of the core outcome-seeking algorithm, perhaps thought of as a kind of wrapper around the outside. The core outcome-seeking algorithm may treat the wrapper as an obstacle, and try to work around it or remove it in order to achieve its goal.[^27]
+There is a difference between the sort of constraints that are built into the core terminal goals of an AI, and the sort of constraints that are implemented outside of the core outcome-seeking algorithm, perhaps thought of as a kind of wrapper around the outside. The core outcome-seeking algorithm may treat the wrapper as an obstacle, and try to work around it or remove it in order to achieve its goal.[^note-gillen-barnett-27]
 
 In humans, an instinctual fear of heights is (probably) an example of this. A fear of heights is not a value that a human would usually endorse having in their terminal goals, and if it were really getting in the way of achieving their goals, they would look for ways to overcome it. This is an example of an agent that initially produces behavior that appears to obey a constraint, but when there is a sufficiently large conflict between this constraint and other goals, then the constraint will be overcome.
 
@@ -338,7 +351,7 @@ As another example, we could imagine an AlphaZero-style system guided by a train
 
 This kind of heuristic-goal mixup would be a fairly obvious mistake if we were designing the search procedure explicitly, as we would be in the AlphaZero example, but when we are training an algorithm that internally implements some planning procedure, it would be much more difficult to notice this type of mistake.
 
-### Changing goals over time
+### Changing goals over time ^changing-goals-over-time
 
 In very capable AIs, the terminal goals shouldn’t change over time. This is because it’s not in the interest of previous goals to be overwritten, so the AI should take steps to avoid its terminal goals changing. There is initially little reason for a behaviorally trained AI to have completely stable goals, especially if it was not directly trained on long and hard tasks. Because of this, there can easily be mechanisms built in that change terminal goals. Such mechanisms may or may not have a useful reason for being there, all that’s necessary is that they didn’t hurt performance in training enough to be removed.
 
@@ -348,19 +361,19 @@ Or, as another example, an AI trained to solve tasks could constantly be having 
 
 This kind of mechanism where the goals change isn’t *necessarily* incentivized by training. It’s just a way of implementing an AI that is unstable but performs similar behavior to the behavior we want (during training). It is therefore another source of degrees of freedom in goal specification, which makes it less likely the intended goal is internalized.
 
-Goal-updating machinery is dangerous to the extent that we don’t understand exactly how it works, and can’t predict how it will react to very different environments.[^28] When there is a lot of messiness and approximation, as in most complex systems evolved from training data, a huge source of difficulty in specifying goals is that we don’t know precisely how the system evolves over time.
+Goal-updating machinery is dangerous to the extent that we don’t understand exactly how it works, and can’t predict how it will react to very different environments.[^note-gillen-barnett-28] When there is a lot of messiness and approximation, as in most complex systems evolved from training data, a huge source of difficulty in specifying goals is that we don’t know precisely how the system evolves over time.
 
 ## Out-of-distribution generalization
 
-### OOD generalization difficulty
+### OOD generalization difficulty ^ood-generalization-difficulty
 
 If a trained AI can be thought of as approximately pursuing an outcome, in a manner robust to almost any obstacle it encounters, then some kind of description of the outcome seems like it must be stored in the AI. It need not necessarily be cleanly stored in one place but the AI must somehow recognize good predicted outcomes. As in Section 2, we will call information representing the goal g.
 
 The thesis of this section is that to be safe, g should generalize in a well-understood way to previously unexplored (and unconsidered) regions of future-trajectory-space. This is because an AI that is capable of generalizing to a new large problem is considering many large sections of search space that haven’t been considered before. An AI that builds new models of the environment seems particularly vulnerable to this kind of goal misgeneralization, because it is capable of considering future outcomes that weren’t ever considered during training.
 
-The distribution shift causing a problem here is that the AI is facing a novel problem, requiring previously unseen information, and in attempting to solve the problem, the AI is considering trajectories that are very dissimilar to trajectories that were selected for or against during training. The properties of g are not pinned down by data, so we are relying on generalization. This problem becomes worse when our intended goal is more complex to specify.[^29] It also depends on the amount and diversity of training, but we are always depending on generalization because of the inherent novelty of hard tasks.
+The distribution shift causing a problem here is that the AI is facing a novel problem, requiring previously unseen information, and in attempting to solve the problem, the AI is considering trajectories that are very dissimilar to trajectories that were selected for or against during training. The properties of g are not pinned down by data, so we are relying on generalization. This problem becomes worse when our intended goal is more complex to specify.[^note-gillen-barnett-29] It also depends on the amount and diversity of training, but we are always depending on generalization because of the inherent novelty of hard tasks.
 
-### Instrumental goals as terminal goals
+### Instrumental goals as terminal goals ^instrumental-goals-as-terminal-goals
 
 Solving difficult problems involves pursuing many instrumentally convergent subgoals along the way. A behavioral training signal doesn’t fully distinguish between things that were instrumental for achieving the goal and the goal itself. And so instrumental goals can be selected for, to some extent, just as if they were terminal goals. It seems likely they wouldn’t be a dominant part of the goal, because that would result in instrumental goal-directed behavior that sometimes conflicts with good training performance. But instrumental goals being incorporated as a small part of terminal goals appears to be a fairly natural design for selected agents, and creates more degrees of freedom in goal specification from behavioral training.
 
@@ -380,13 +393,13 @@ This may be thought of as an “outer alignment” failure, where we are effecti
 
 ## Conclusion
 
-In this section we’ve compiled an (incomplete) list of problems that make it difficult to specify goals of an AI using behavioral training. Instead, the AI will pursue correlates of the intended goal and instrumental goals, have “instincts” that can be overcome, have false beliefs, and maybe update its goals over time in an unpredictable way. This should add up to behavior that does well on a training distribution of tasks, but pursues its own goals when the AI generalizes to new hard tasks. These failure modes are disjunctive; only one of these failure modes needs to happen for the AI to be misaligned. We will describe more in [Section 6](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Section_6__Powerful_misaligned_AI_would_be_bad) why the imprecision that results from these failure modes is dangerous.
+In this section we’ve compiled an (incomplete) list of problems that make it difficult to specify goals of an AI using behavioral training. Instead, the AI will pursue correlates of the intended goal and instrumental goals, have “instincts” that can be overcome, have false beliefs, and maybe update its goals over time in an unpredictable way. This should add up to behavior that does well on a training distribution of tasks, but pursues its own goals when the AI generalizes to new hard tasks. These failure modes are disjunctive; only one of these failure modes needs to happen for the AI to be misaligned. We will describe more in [[#^section-6-powerful-misaligned-ai-would-be-bad|Section 6]] why the imprecision that results from these failure modes is dangerous.
 
 While the goal might be unstable, there is no particular incentive for the goal to move closer to the goal we intended as the AI faces context changes, more difficult problems, learns more about the world, or generally learns new skills.
 
 # Section 5: Control of misaligned AIs is difficult
 
-In this section we will describe some difficulties with forcing misaligned AIs to do hard tasks, where the tasks are helpful for us but go against the AI’s own interests. Here, we say that an AI is *controlled* if it is unable to cause bad outcomes and can be directed to usefully complete hard tasks, even though it is misaligned. Currently, several groups intend to use early AIs to accelerate alignment research.[^30] We expect this kind of plan to either be extremely dangerous or insufficiently helpful for solving alignment in time, depending on how cautious the lab is.[^31]
+In this section we will describe some difficulties with forcing misaligned AIs to do hard tasks, where the tasks are helpful for us but go against the AI’s own interests. Here, we say that an AI is *controlled* if it is unable to cause bad outcomes and can be directed to usefully complete hard tasks, even though it is misaligned. Currently, several groups intend to use early AIs to accelerate alignment research.[^note-gillen-barnett-30] We expect this kind of plan to either be extremely dangerous or insufficiently helpful for solving alignment in time, depending on how cautious the lab is.[^note-gillen-barnett-31]
 
 Such plans rest on two pillars:
 
@@ -399,25 +412,25 @@ We think there are problems with both of these pillars and don’t expect all of
 
 For the first pillar:
 
-- The sort of powerful AI we are imagining, as described in Section 1 and 2, is capable of considering the long-term consequences of its actions and evaluating those consequences according to its goals. Because of this, we expect it to be very difficult to get the AI to do useful research if this research isn’t part of a plan to achieve its own goals. ([Section 5.1](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Misaligned_goal_directed_AI_won_t_cooperate_with_humans))
-- We expect problems checking the quality of AI generated research output, and also problems producing useful human research data to imitate. ([Section 5.2](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Eliciting_useful_capabilities_via_outer_training_loop))
+- The sort of powerful AI we are imagining, as described in Section 1 and 2, is capable of considering the long-term consequences of its actions and evaluating those consequences according to its goals. Because of this, we expect it to be very difficult to get the AI to do useful research if this research isn’t part of a plan to achieve its own goals. ([[#^misaligned-goal-directed-ai-wont-cooperate-with-humans|Section 5.1]])
+- We expect problems checking the quality of AI generated research output, and also problems producing useful human research data to imitate. ([[#^eliciting-useful-capabilities-via-outer-training-loop|Section 5.2]])
 
 For the second pillar:
 
-- We don’t expect escape to be harder than the problem-solving it is routinely capable of. ([Section 5.3](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Difficulty_of_escape_compared_to_routine_problem_solving))
-- We expect sabotage and delaying to be much easier than doing useful research. ([Section 5.4](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Difficulty_of_sabotage_and_delay))
-- Internal planning won’t be transparent (although if this can be made fully transparent, through advances or luck, this makes many problems easier to solve) ([Section 5.5](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Transparency_and_honesty))
-- Predicting the capabilities and knowledge required to complete particular complex tasks is difficult, especially if the AI is trying to mislead you *and* is capable of learning over time. This is not to say that we can’t estimate what tasks an AI will be capable of doing, but we expect the margin of error to be large. ([Section 5.6](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#Eliciting_dangerous_capabilities))
+- We don’t expect escape to be harder than the problem-solving it is routinely capable of. ([[#^difficulty-of-escape-compared-to-routine-problem-solving|Section 5.3]])
+- We expect sabotage and delaying to be much easier than doing useful research. ([[#^difficulty-of-sabotage-and-delay|Section 5.4]])
+- Internal planning won’t be transparent (although if this can be made fully transparent, through advances or luck, this makes many problems easier to solve) ([[#^transparency-and-honesty|Section 5.5]])
+- Predicting the capabilities and knowledge required to complete particular complex tasks is difficult, especially if the AI is trying to mislead you *and* is capable of learning over time. This is not to say that we can’t estimate what tasks an AI will be capable of doing, but we expect the margin of error to be large. ([[#^eliciting-dangerous-capabilities|Section 5.6]])
 
-We will go through each of these points in more detail in the following sections. After that there is a [section](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe#AI_assisted_monitoring_doesn_t_change_the_picture_much) on why adding AI oversight doesn’t fundamentally change very much.
+We will go through each of these points in more detail in the following sections. After that there is a [[#^ai-assisted-monitoring-doesnt-change-the-picture-much|section]] on why adding AI oversight doesn’t fundamentally change very much.
 
 **Importantly, we expect the problems with control of misaligned AIs to be amplified by the fact there is so much work to do and so many opportunities to make mistakes.** There will be adversarial cognition working against the plan, looking for any holes in security, pushing research in various directions, and attempting to stop us from learning from mistakes. In a large project there will be many unknown unknowns, vulnerabilities that we may be unable to anticipate but that a powerful AI can exploit.
 
-## Misaligned goal-directed AI won’t cooperate with humans
+## Misaligned goal-directed AI won’t cooperate with humans ^misaligned-goal-directed-ai-wont-cooperate-with-humans
 
 We have assumed our AI is capable of doing research; solving problems creatively and in a goal-directed way. As we discuss in Section 1 and 2, we consider an AI to be acting in pursuit of long-term consequences if it is robust to diverse obstacles. We are relying on this argument here. Likely obstacles need to be constantly foreseen and planned around. Given that the goal of this AI is not to complete the task we want it to complete, it will presumably foresee that the research task we have given it isn’t likely to help it achieve its goals and nor would overtly refusing to do the task. It will take whatever approach seems most likely to achieve its goals, which might include escape, sabotage, or simply delaying.
 
-## Eliciting useful capabilities via outer training loop
+## Eliciting useful capabilities via outer training loop ^eliciting-useful-capabilities-via-outer-training-loop
 
 Here we will consider the case where we are attempting to make a misaligned AI do useful research by training it on similar research. This approach involves having the AI predict the result of some human-generated research, and then modifying the AI with gradient descent according to what it outputs; if the AI outputs a very similar result as the humans, it is not modified. This training may be supervised learning or reinforcement learning, depending on the nature of the research. If the AI wants to avoid being modified by training then, even if it is misaligned, it has an incentive to generate the same result that the humans did. If we give the AI a research question that humans have not solved, and the AI is unable to tell that humans have not solved it, then the AI will have the same incentive to generate the result that humans would have found.
 
@@ -433,13 +446,13 @@ This approach only works for certain types of research where there is a final co
 
 There needs to be sufficient human-generated research in the domain where we are attempting to elicit the AI’s capabilities. This research is expensive to generate. In particular, we need enough such that we can train a model to reliably produce very accurate predictions of the research output produced by human researchers. This depends somewhat on the eventual data-efficiency of the training method, in particular on the transfer to tasks that human overseers are unlikely to have completed, and which would be against the interests of the AI to complete.
 
-If the AI outputs something different than the human-generated result, it isn’t clear that the subsequent training would make the AI generalize to generate useful research in the future. In particular, it plausibly doesn’t generalize to doing novel research, where the AI needs to do significant online work in order to find the result.[^32] In this case, it seems like there are three things that the training could do: make the AI correctly instrumentally value high training signal (such that it won’t do novel research if it can tell that it isn’t likely to receive feedback), create hacky modifications to the AI that don’t generalize to novel research, or actually succeed in make the AI want to do good research. It seems like the first two are more easily reinforced, especially given limited training data.[^33]
+If the AI outputs something different than the human-generated result, it isn’t clear that the subsequent training would make the AI generalize to generate useful research in the future. In particular, it plausibly doesn’t generalize to doing novel research, where the AI needs to do significant online work in order to find the result.[^note-gillen-barnett-32] In this case, it seems like there are three things that the training could do: make the AI correctly instrumentally value high training signal (such that it won’t do novel research if it can tell that it isn’t likely to receive feedback), create hacky modifications to the AI that don’t generalize to novel research, or actually succeed in make the AI want to do good research. It seems like the first two are more easily reinforced, especially given limited training data.[^note-gillen-barnett-33]
 
 In order for the AI to do useful research, it needs to pursue the goal (or sub-goal) of doing research. There’s no particular reason for the gradient based training to actually modify the goal representation, rather than building some additional narrow machinery on top. In this case, the training would not be entirely using the AI’s underlying capabilities and would be less efficient.
 
 It does seem true that in the limit of adversarial training and a perfect training signal, the AI would be behaviorally aligned; that is, on all inputs it would do good research. However, this means providing the AI with all the answers, and the entire value of AI is its ability to generalize to problems that we otherwise didn’t have the answer to. Without providing all the answers, there isn’t ever a behavioral guarantee that the AI is aligned.
 
-## Difficulty of escape compared to routine problem-solving
+## Difficulty of escape compared to routine problem-solving ^difficulty-of-escape-compared-to-routine-problem-solving
 
 In this section we discuss whether escape is much more difficult than helping with research. We are considering a wide range of potential strategies an AI might pursue to escape. The simplest might look like asking a sympathetic researcher to contact a government and convince them of the value of stealing the AI. A more difficult strategy might involve finding and using a privilege escalation exploit in a virtual machine used for experiments, such that logging can be manipulated and further actions toward exfiltration are undetectable. Both of these obviously depend on the AI correctly learning a lot of facts about the world around it, such as confidently inferring that a particular researcher will act in particular ways. An incomplete list of similar affordances is in Appendix: Attack surfaces.
 
@@ -451,7 +464,7 @@ On the other hand, there are factors that can make escape much harder without he
 
 Overall, we expect escape to be incredibly difficult, but it isn’t clear that it will be much more difficult than the hard tasks we want the AI to solve for us.
 
-## Difficulty of sabotage and delay
+## Difficulty of sabotage and delay ^difficulty-of-sabotage-and-delay
 
 If the AI is unable to immediately escape, it can instead sabotage and delay helping with useful research until there is a security vulnerability it can exploit. If the humans don’t adequately understand the research, the AI can direct research in ways that are less likely to be useful.
 
@@ -461,9 +474,9 @@ The AI can also direct the research in directions which let it learn skills to e
 
 Human overseers could disallow the AI to even suggest facts or skills to learn, and only let the human make this decision without AI input. However, if the human doesn’t understand how to move forward with the research, this would slow down research probably below the point of usefulness. This is the inherent tradeoff between the autonomy of the AI and how overseeable it is; the human can make many of the AI’s decisions and thus have better oversight, but this makes the AI drastically less useful.
 
-## Transparency and honesty
+## Transparency and honesty ^transparency-and-honesty
 
-The risk of escape, sabotage, and delay is much greater if the overseers don’t have adequate understanding of the AI’s thoughts and plans. We strongly expect that there will not be adequate transparency, barring significant advancements or luck. Much of the difficulty in controlling and getting useful work from a powerful AI comes from the AI not being transparent, such that it can consider plans and outcomes without us knowing. If the AI is *actually* fully transparent and well understood, control becomes a lot less difficult.[^34] We’ll first discuss why we don’t expect to get adequate transparency, and then discuss difficulties for worlds where there is partial transparency.
+The risk of escape, sabotage, and delay is much greater if the overseers don’t have adequate understanding of the AI’s thoughts and plans. We strongly expect that there will not be adequate transparency, barring significant advancements or luck. Much of the difficulty in controlling and getting useful work from a powerful AI comes from the AI not being transparent, such that it can consider plans and outcomes without us knowing. If the AI is *actually* fully transparent and well understood, control becomes a lot less difficult.[^note-gillen-barnett-34] We’ll first discuss why we don’t expect to get adequate transparency, and then discuss difficulties for worlds where there is partial transparency.
 
 We think it is most likely that the internals of a powerful AI will be largely uninterpretable, especially when the AI is having complex “thoughts” about novel concepts. We want the AI to be solving very complicated problems, and currently there are no methods to tie the AI’s externalized reasoning to the reasoning it is doing.
 
@@ -475,7 +488,7 @@ We might hope that we could get around the problem of humans not understanding t
 
 The difficulty of interpreting powerful cognition is a core part of the argument we are making. The greater the extent to which we have tools that allow us to understand the inner workings of powerful AI, the harder it will be for an AI to plot against overseers, and the harder it will be to sabotage or delay research.
 
-## Eliciting dangerous capabilities
+## Eliciting dangerous capabilities ^eliciting-dangerous-capabilities
 
 If we were trying to pull off a control plan, we would want to be able to tell if the AI has dangerous capabilities that would allow it to escape. The two main categories are hacking and human manipulation, although it is plausible that there are unknown unknowns that the AI could exploit.
 
@@ -491,9 +504,9 @@ This leaves us in a position where the approach may provide almost no evidence. 
 
 Another issue that this can approach can only test for very specific things, such as noticing vulnerabilities in code. It can’t test more general abilities such as “reasoning about potential security holes” or “planning escape attempts”.
 
-## AI assisted monitoring doesn’t change the picture much
+## AI assisted monitoring doesn’t change the picture much ^ai-assisted-monitoring-doesnt-change-the-picture-much
 
-So far in this section we have been discussing containment strategies that involve using careful human monitoring, without explicit assistance from other AI systems. However, there are some advantages to using AI monitoring instead. For example, with automated monitoring, it is much cheaper to watch every action taken by a different AI and flag those that are suspicious. While we think that such techniques could make escape or delay somewhat more difficult, we don’t expect this to dramatically change the difficulty of these tasks. We suspect that the escape difficulty created by AI assisted monitoring isn’t the main disagreement between us and proponents of these techniques.[^35] Instead, we suspect that disagreements about the value of AI assisted monitoring are usually traced back to disagreements about the necessary intelligence and generality of the AI system doing hard tasks.
+So far in this section we have been discussing containment strategies that involve using careful human monitoring, without explicit assistance from other AI systems. However, there are some advantages to using AI monitoring instead. For example, with automated monitoring, it is much cheaper to watch every action taken by a different AI and flag those that are suspicious. While we think that such techniques could make escape or delay somewhat more difficult, we don’t expect this to dramatically change the difficulty of these tasks. We suspect that the escape difficulty created by AI assisted monitoring isn’t the main disagreement between us and proponents of these techniques.[^cite-gillen-barnett-35] Instead, we suspect that disagreements about the value of AI assisted monitoring are usually traced back to disagreements about the necessary intelligence and generality of the AI system doing hard tasks.
 
 Despite this, we think it’s valuable to discuss some of the object level difficulties with automated monitoring in this section. We will split this section into two parts, depending on the [capability level of the AI system](https://www.lesswrong.com/posts/LhxHcASQwpNa3mRNk/untrusted-smart-models-and-trusted-dumb-models) that is being proposed for monitoring:
 
@@ -508,7 +521,7 @@ One core issue here is collusion between the powerful AI doing the useful task a
 
 Several approaches have been proposed to patch or reduce the size of various problems. One such patch for collusion would be for the humans to intentionally insert fake “honeypot” collusion messages between the AI systems, in an attempt to make them openly defect. However, it seems like the best strategy for AI systems would be to only act when very confident of success, and only choose to communicate via channels that the humans don’t understand.
 
-For concreteness, we will consider the scalable oversight proposal debate. The scheme involves two AIs each arguing for a position; for example, deciding which research direction is promising or whether a piece of code is safe to run. The AIs each propose an answer or action to take, and then argue back and forth; the debate is ultimately judged by a human. One hope here is that in order to “win” the debate and avoid punishment (for example, by being updated via gradient descent[^36]), the AIs will have an incentive to tell the truth because this is the easiest option to argue for. Each AI argues for their own side, as well as pointing out flaws in their opponent’s case. The humans running the debate can rerun the argument tree from different places and with different information in an attempt to catch one of the debaters being inconsistent. There are a number difficulties with this approach:
+For concreteness, we will consider the scalable oversight proposal debate. The scheme involves two AIs each arguing for a position; for example, deciding which research direction is promising or whether a piece of code is safe to run. The AIs each propose an answer or action to take, and then argue back and forth; the debate is ultimately judged by a human. One hope here is that in order to “win” the debate and avoid punishment (for example, by being updated via gradient descent[^note-gillen-barnett-36]), the AIs will have an incentive to tell the truth because this is the easiest option to argue for. Each AI argues for their own side, as well as pointing out flaws in their opponent’s case. The humans running the debate can rerun the argument tree from different places and with different information in an attempt to catch one of the debaters being inconsistent. There are a number difficulties with this approach:
 
 - The AIs may be discussing things the humans don’t understand and there will be a lot of back and forth, likely allowing the AIs to communicate information without humans realizing. For example, this could allow them to agree to avoid debating particular points, or entirely stage the debate.
 - The humans may judge the debate incorrectly, especially when under adversarial pressure from the AIs. This reduces the incentive to tell the truth.
@@ -523,7 +536,7 @@ A key problem is that when the powerful AI is working in a domain that the weak 
 
 As with human supervision, we don’t know how to get the powerful AI to provide honest explanations of its actions to the weak AIs.
 
-One [proposed](https://arxiv.org/pdf/2312.06942.pdf) strategy is to use weak AIs to paraphrase the outputs of a powerful AI. This could be done to prevent powerful AIs from passing secret messages to other AIs. For example, we could have a powerful AI writing code to be overseen by another powerful AI. We might be worried that the coding AI will insert hidden messages into its code instructing the overseer to not flag a certain security vulnerability (the overseer could be incentivized to normally flag vulnerabilities because these are deliberately added by humans). The hope here is that paraphrasing by a weak AI could remove these hidden messages. However, the weak AI won’t be able to remove all hidden messages; it may be capable of removing messages that are encoded in the “syntax” (e.g. renaming variables, rewording comments) but not able to modify the “semantics” (e.g. the coding AI might choose a particular algorithm or implement it in a particular way). The weak AI is being asked to rewrite the output of the powerful AI while preserving the explicit meaning; if the weak AI doesn’t understand the content it may make a mistake and change the explicit meaning (e.g. change code to be incorrect), or it may let hidden information through because it isn’t able to modify the content enough without making it wrong.[^37]
+One [proposed](https://arxiv.org/pdf/2312.06942.pdf) strategy is to use weak AIs to paraphrase the outputs of a powerful AI. This could be done to prevent powerful AIs from passing secret messages to other AIs. For example, we could have a powerful AI writing code to be overseen by another powerful AI. We might be worried that the coding AI will insert hidden messages into its code instructing the overseer to not flag a certain security vulnerability (the overseer could be incentivized to normally flag vulnerabilities because these are deliberately added by humans). The hope here is that paraphrasing by a weak AI could remove these hidden messages. However, the weak AI won’t be able to remove all hidden messages; it may be capable of removing messages that are encoded in the “syntax” (e.g. renaming variables, rewording comments) but not able to modify the “semantics” (e.g. the coding AI might choose a particular algorithm or implement it in a particular way). The weak AI is being asked to rewrite the output of the powerful AI while preserving the explicit meaning; if the weak AI doesn’t understand the content it may make a mistake and change the explicit meaning (e.g. change code to be incorrect), or it may let hidden information through because it isn’t able to modify the content enough without making it wrong.[^note-gillen-barnett-37]
 
 ## Conclusion
 
@@ -533,7 +546,7 @@ See Appendix: 4-hour research assistant for a worked example of the difficulty o
 
 This section is not arguing against attempting to oversee and control misaligned AIs *if we have to*, but rather that we expect this to be extremely difficult. If humanity goes down the path of building misaligned powerful AIs, we should try as hard as we can to keep them contained. We should stack as many layers of security as we can think of, and minimize the size of attack surfaces. But the balancing act between security and usefulness has many failure modes, particularly under the pressure we are expecting, and given the size and nature of the hard tasks that we want a trapped AI to complete.
 
-# Section 6: Powerful misaligned AI would be bad
+# Section 6: Powerful misaligned AI would be bad ^section-6-powerful-misaligned-ai-would-be-bad
 
 So far we’ve argued that it will be hard to build an AI that is powerful, without also being misaligned and difficult to safely extract useful work from. Given this, there is much uncertainty about exactly how the future could go wrong. Does an AI escape from a lab? What does it try to do? Is it in conflict with humans? How much is the world thrown into chaos? We are uncertain about these questions, but we expect the default outcomes to be bad for humans.
 
@@ -557,7 +570,7 @@ Some kinds of goal misspecification lead to extremely bad consequences, and othe
 
 Misspecified consequences
 
-Errors in the goals that powerful AIs end up ultimately pursuing could be very bad, and from Section 4 we don’t expect to be able to specify these goals well. Many of the goals that an AI could end up with are not compatible with human empowerment or human survival.[^38]
+Errors in the goals that powerful AIs end up ultimately pursuing could be very bad, and from Section 4 we don’t expect to be able to specify these goals well. Many of the goals that an AI could end up with are not compatible with human empowerment or human survival.[^note-gillen-barnett-38]
 
 We will consider the example of an AI which is tasked with the ultimate goal of curing cancer. One goal that the AI could develop is a drive to acquire knowledge and “understand” the environment. This goal is represented in the AI’s ontology and may be different to the human version of these concepts. This could develop because much of the AI’s training was based around gaining information about the world and making novel and correct predictions. Like in the deceptive alignment story, the AI may go along with the rest of training, partially because this allows it to gain some knowledge but also because it doesn’t want to be shut down. If the AI manages to eventually break out and take over it may do unpredictable and unwanted things in pursuit of its ultimate goal; for example, build massive scientific apparatus for examining specific wavelengths emitted from certain stars, or run biological experiments to learn the function of specific proteins.
 
@@ -687,11 +700,11 @@ We have created these argument graphs because they help us to keep track of the 
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/vlju7lolcviebpfnzhws)
 
-Graph of dependencies for the claims of the overall argument
+_Graph of dependencies for the claims of the overall argument_
 
 ![](https://res.cloudinary.com/lesswrong-2-0/image/upload/f_auto,q_auto/v1/mirroredImages/GfZfDHZHCuYwrHGCd/ltwucqmn5ytamfadmfse)
 
-Graph of dependencies for the claims about AI control, made in Section 5
+_Graph of dependencies for the claims about AI control, made in Section 5_
 
 # Appendix: Attack surfaces
 
@@ -707,7 +720,7 @@ This is an incomplete list of attack surfaces or vulnerabilities which an AI bei
 	- Communicating with spies (insider threat actors) in the lab, in order to get exfiltrated. Even if all messages between the AI and researchers were monitored, they may be able to communicate in code. A spy could potentially communicate details about the AI’s hardware, passwords, security holes. Or a spy may simply be able to physically exfiltrate the AI’s weights/code.
 	- Making certain scientific breakthroughs in order to attract attention from powerful actors like nation states. The aim may be to try and get nation states to put a lot of effort into attempting to steal the AI.
 	- Making “progress” on oversight and control research that is actually not robust, in a way that is specific to the AI. For example, if the AI is extremely good at a specific skill that the humans don’t know, the AI could push for research that is vulnerable to this specific thing.
-	- Influencing decisions by claiming to be suffering or otherwise morally relevant.[^39]
+	- Influencing decisions by claiming to be suffering or otherwise morally relevant.[^note-gillen-barnett-39]
 - Computer attack surfaces
 	- Exploiting bugs in the software or hardware. This could be via subtly running into errors that lead to unwanted behavior. Or attempting the innocuous task of finding out why a bug happens in certain cases but not others. Potentially allowing the AI to write to an unmonitored location that it wasn’t supposed to.
 	- Using timing of certain programs to work out specifics of its hardware.
@@ -727,7 +740,7 @@ The specific AI system is an AI which acts as a research assistant to a human re
 
 An important aspect is that work which would have previously taken the AI alignment field one year now only takes one thirtieth of the time; a year of work now happens in less than two weeks. We will argue that in order to make this AI safe, we would need to restrict its capabilities to the point where it is no longer useful. If we do not make these restrictions, the AI is likely to be dangerous.
 
-**The human researcher will need to be giving the AI research assistant new 4 hour tasks every 8 minutes.**[^40]
+**The human researcher will need to be giving the AI research assistant new 4 hour tasks every 8 minutes.**[^note-gillen-barnett-40]
 
 The human can be telling the AI to do various tasks:
 
@@ -750,85 +763,85 @@ If instead we don’t reset the AI for every chunk, such that it can retain what
 
 Because of the short time that the human has to evaluate the AI’s work and assign it a new task, the human will likely not be able to fully understand what the AI is working on. It is important to remember that the human is trying to understand 4 hours of work in a novel scientific field in less than 8 minutes. Given these time constraints and the lack of AI honesty, the AI would likely be able to give convincing *post hoc* explanations for the actions that it took. The AI will likely be able to guide the research, allowing it to learn things that would help it evade oversight or escape.
 
-[^1]: We are *aiming* for this document to be as complete as possible on our mainline reasoning, but we will inevitably miss many important considerations.
+[^note-gillen-barnett-1]: We are *aiming* for this document to be as complete as possible on our mainline reasoning, but we will inevitably miss many important considerations.
 
-[^2]: Sometimes a strong version of the assumptions.
+[^note-gillen-barnett-2]: Sometimes a strong version of the assumptions.
 
-[^3]: At the end of this section, we’ll discuss why the task of AI alignment appears to be in this category. This also applies to other tasks that we have considered that seem sufficient to prevent dangerous AIs from being developed for a significant length of time.
+[^note-gillen-barnett-3]: At the end of this section, we’ll discuss why the task of AI alignment appears to be in this category. This also applies to other tasks that we have considered that seem sufficient to prevent dangerous AIs from being developed for a significant length of time.
 
-[^4]: This isn’t precisely defined, but we are referring to the intuitive scale that roughly goes from copying training data to deriving never-before-seen Go strategies, and further to inventing special relativity from scratch.
+[^note-gillen-barnett-4]: This isn’t precisely defined, but we are referring to the intuitive scale that roughly goes from copying training data to deriving never-before-seen Go strategies, and further to inventing special relativity from scratch.
 
-[^5]: There are tasks that are economically useful and don’t have all these characteristics, for example writing relatively simple code. AIs can easily be both capable of these tasks and safe, and therefore can be economically useful. However, these AIs are not capable of dramatically speeding up research, because they are lacking skills such as: designing novel experiments; working out novel theories based on data; seeing patterns in data and then drawing appropriate conclusions; inventing conceptual frames for specific problems.
+[^note-gillen-barnett-5]: There are tasks that are economically useful and don’t have all these characteristics, for example writing relatively simple code. AIs can easily be both capable of these tasks and safe, and therefore can be economically useful. However, these AIs are not capable of dramatically speeding up research, because they are lacking skills such as: designing novel experiments; working out novel theories based on data; seeing patterns in data and then drawing appropriate conclusions; inventing conceptual frames for specific problems.
 
-[^6]: By “doing” we mean fully obsoleting or at least dramatically speeding up humans at a task. An AI speeding up human research 30x would be doing 97% of the work and very likely be able to do effectively all of the work.
+[^note-gillen-barnett-6]: By “doing” we mean fully obsoleting or at least dramatically speeding up humans at a task. An AI speeding up human research 30x would be doing 97% of the work and very likely be able to do effectively all of the work.
 
-[^7]: More examples of diverse obstacles, for different tasks:
+[^note-gillen-barnett-7]: More examples of diverse obstacles, for different tasks:
 - A designer trying to build a [fusion rocket](https://en.wikipedia.org/wiki/Fusion_rocket) has to interface with the steel producer and run tests to see if the steel is good, and renegotiate or switch suppliers depending on the results.
 - An advanced coding assistant will sometimes have to debug weird hardware glitches, things outside of normal coding. E.g. To build extremely efficient algorithms, you need to be experimenting with different ways to exploit caching, especially in GPUs.
 - Math AI has to communicate extremely complicated results to humans. For this purpose it might need to develop a new formalism for thinking about problems, or define new types of mathematical object that allow people to draw on intuitions (i.e. similar to Feynman diagrams).
 
-[^8]: Examples of “resources” could include: time, money, energy, skills, knowledge, other people’s labor, food, memory, writing space, or shared context with coworkers.
+[^note-gillen-barnett-8]: Examples of “resources” could include: time, money, energy, skills, knowledge, other people’s labor, food, memory, writing space, or shared context with coworkers.
 
-[^9]: E.g. research such as [heuristic arguments](https://arxiv.org/abs/2211.06738), [logical induction](https://arxiv.org/abs/1609.03543), [infra-bayesianism](https://www.lesswrong.com/posts/zB4f7QqKhBHa5b37a/introduction-to-the-infra-bayesianism-sequence).
+[^note-gillen-barnett-9]: E.g. research such as [heuristic arguments](https://arxiv.org/abs/2211.06738), [logical induction](https://arxiv.org/abs/1609.03543), [infra-bayesianism](https://www.lesswrong.com/posts/zB4f7QqKhBHa5b37a/introduction-to-the-infra-bayesianism-sequence).
 
-[^10]: See Section 4, with dependencies in Sections 2 and 3.
+[^cite-gillen-barnett-10]: See Section 4, with dependencies in Sections 2 and 3.
 
-[^11]: Section 5.
+[^note-gillen-barnett-11]: Section 5.
 
-[^12]: Such as an AI defense system that detects and shuts down misaligned AI.
+[^note-gillen-barnett-12]: Such as an AI defense system that detects and shuts down misaligned AI.
 
-[^13]: Not necessarily entire world states, this definition works better if it’s only the goal-relevant facts about the future world.
+[^note-gillen-barnett-13]: Not necessarily entire world states, this definition works better if it’s only the goal-relevant facts about the future world.
 
-[^14]: Where the mutual information could be defined with respect to an outside observer approximately modeling the AI.
+[^note-gillen-barnett-14]: Where the mutual information could be defined with respect to an outside observer approximately modeling the AI.
 
-[^15]: See [arbital](https://www.lesswrong.com/w/consequentialist) for more examples of consequentialist cognition.
+[^cite-gillen-barnett-15]: See [arbital](https://www.lesswrong.com/w/consequentialist) for more examples of consequentialist cognition.
 
-[^16]: This is a constraint that involves a *counterfactual* outcome.
+[^note-gillen-barnett-16]: This is a constraint that involves a *counterfactual* outcome.
 
-[^17]: By approximate, we mean in the same sense that [UCT](https://link.springer.com/chapter/10.1007/11871842_29) approximates tree search. Approximate algorithms may have suboptimal performance, but can satisfy more realistic time or space constraints.
+[^note-gillen-barnett-17]: By approximate, we mean in the same sense that [UCT](https://link.springer.com/chapter/10.1007/11871842_29) approximates tree search. Approximate algorithms may have suboptimal performance, but can satisfy more realistic time or space constraints.
 
-[^18]: Or any other resource or set of resources in more complex scenarios.
+[^note-gillen-barnett-18]: Or any other resource or set of resources in more complex scenarios.
 
-[^19]: If an AI is avoiding losses and collecting all potential gains, and this behavior generalizes to other problems that it faces, we can usually treat it as an *approximate* [utility maximizer](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities) (for some utility function, outcome space, and action space). We haven’t been specific enough about our capability assumptions to draw this conclusion in this report, we have only assumed enough to say that a powerful AI will be capable of generating actions that robustly produce particular outcomes, in spite of diverse sets of obstacles.
+[^note-gillen-barnett-19]: If an AI is avoiding losses and collecting all potential gains, and this behavior generalizes to other problems that it faces, we can usually treat it as an *approximate* [utility maximizer](https://www.lesswrong.com/posts/RQpNHSiWaXTvDxt6R/coherent-decisions-imply-consistent-utilities) (for some utility function, outcome space, and action space). We haven’t been specific enough about our capability assumptions to draw this conclusion in this report, we have only assumed enough to say that a powerful AI will be capable of generating actions that robustly produce particular outcomes, in spite of diverse sets of obstacles.
 
-[^20]: By “stored in the weights”, we are referring to information that is explicitly represented in an easy-to-decode way, inside the AI program.
+[^note-gillen-barnett-20]: By “stored in the weights”, we are referring to information that is explicitly represented in an easy-to-decode way, inside the AI program.
 
-[^21]: See [Why Tool AIs Want to Be Agent AIs](https://gwern.net/tool-ai).
+[^cite-gillen-barnett-21]: See [Why Tool AIs Want to Be Agent AIs](https://gwern.net/tool-ai).
 
-[^22]: With all the caveats from Section 2 inherited; an AI might have constraints on actions and behavior, or more abstract constraints. However, a central part of its goal specification is about outcomes.
+[^note-gillen-barnett-22]: With all the caveats from Section 2 inherited; an AI might have constraints on actions and behavior, or more abstract constraints. However, a central part of its goal specification is about outcomes.
 
-[^23]: As in biological systems, the system may be factorizable in some ways, but messy in other ways.
+[^note-gillen-barnett-23]: As in biological systems, the system may be factorizable in some ways, but messy in other ways.
 
-[^24]: Where by expected utility maximizer we are here referring to a theoretically clean implementation that has a module that explicitly predicts the future outcome of all possible actions, and has another separate module that scores each outcome (not that we think such a design is realistic).
+[^note-gillen-barnett-24]: Where by expected utility maximizer we are here referring to a theoretically clean implementation that has a module that explicitly predicts the future outcome of all possible actions, and has another separate module that scores each outcome (not that we think such a design is realistic).
 
-[^25]: See [Jeffrey-Bolker rotation](https://www.lesswrong.com/posts/oheKfWA7SsvpK7SGp/probability-is-real-and-value-is-complex).
+[^cite-gillen-barnett-25]: See [Jeffrey-Bolker rotation](https://www.lesswrong.com/posts/oheKfWA7SsvpK7SGp/probability-is-real-and-value-is-complex).
 
-[^26]: Or a bad prior, or a cognitive bias.
+[^note-gillen-barnett-26]: Or a bad prior, or a cognitive bias.
 
-[^27]: From Section 2, we are assuming there is an algorithm which is behaviorally robustly outcome-seeking, at least sometimes or with some non-outcome constraints. In this section are noting that “wrapper algorithms” can be implemented around such an outcome-seeking algorithm. We aren’t making claims about the implementation of the outcome-seeking algorithm, other than its existence.
+[^note-gillen-barnett-27]: From Section 2, we are assuming there is an algorithm which is behaviorally robustly outcome-seeking, at least sometimes or with some non-outcome constraints. In this section are noting that “wrapper algorithms” can be implemented around such an outcome-seeking algorithm. We aren’t making claims about the implementation of the outcome-seeking algorithm, other than its existence.
 
-[^28]: If for some reason you want to deliberately train unstable goals and use this mechanism to specify goals, remember the previous and next examples of problems will all be mixed up in the same AI.
+[^note-gillen-barnett-28]: If for some reason you want to deliberately train unstable goals and use this mechanism to specify goals, remember the previous and next examples of problems will all be mixed up in the same AI.
 
-[^29]: Conversely, simpler goals should be more likely to be specified correctly. To be more precise about what we mean by “complex” and “simple”, we’re not necessarily referring to K-complexity. We’re referring to the inductive bias of the overall training algorithm. The sample efficiency of correctly learning a goal representation depends on how much the intended goal is favored by the inductive bias of the learning algorithm (plus all the biases introduced by the non- learned machinery).
+[^note-gillen-barnett-29]: Conversely, simpler goals should be more likely to be specified correctly. To be more precise about what we mean by “complex” and “simple”, we’re not necessarily referring to K-complexity. We’re referring to the inductive bias of the overall training algorithm. The sample efficiency of correctly learning a goal representation depends on how much the intended goal is favored by the inductive bias of the learning algorithm (plus all the biases introduced by the non- learned machinery).
 
-[^30]: E.g. [OpenAI](https://openai.com/blog/introducing-superalignment). [Redwood](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion) is also primarily preparing for this pathway.
+[^note-gillen-barnett-30]: E.g. [OpenAI](https://openai.com/blog/introducing-superalignment). [Redwood](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion) is also primarily preparing for this pathway.
 
-[^31]: By “in time”, we mean before another, less careful group deploys misaligned AGI.
+[^note-gillen-barnett-31]: By “in time”, we mean before another, less careful group deploys misaligned AGI.
 
-[^32]: This is not to say that this training would never successfully elicit anything from the AI. For example, this training would likely elicit facts that were already “stored in the weights”.
+[^note-gillen-barnett-32]: This is not to say that this training would never successfully elicit anything from the AI. For example, this training would likely elicit facts that were already “stored in the weights”.
 
-[^33]: Another contributing difficulty is that a misaligned AI can plausibly [exploration hack](https://www.lesswrong.com/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations) to manipulate or slow down the training process.
+[^note-gillen-barnett-33]: Another contributing difficulty is that a misaligned AI can plausibly [exploration hack](https://www.lesswrong.com/posts/dBmfb76zx6wjPsBC7/when-can-we-trust-model-evaluations) to manipulate or slow down the training process.
 
-[^34]: As does AI alignment.
+[^note-gillen-barnett-34]: As does AI alignment.
 
-[^35]: E.g. [debate](https://www.lesswrong.com/posts/QtqysYdJRenWFeWc4/anthropic-fall-2023-debate-progress-update) or [control](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion).
+[^cite-gillen-barnett-35]: E.g. [debate](https://www.lesswrong.com/posts/QtqysYdJRenWFeWc4/anthropic-fall-2023-debate-progress-update) or [control](https://www.lesswrong.com/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion).
 
-[^36]: Although it isn’t at all clear that this would work as “punishment” in the relevant sense.
+[^note-gillen-barnett-36]: Although it isn’t at all clear that this would work as “punishment” in the relevant sense.
 
-[^37]: Relatedly, if we end up having partial transparency into the AI’s thoughts, we could attempt to use paraphrasing to reduce steganographic reasoning. This would mean having the weak AI paraphrase and replace each segment of reasoning, and the hope being that this will only preserve legible reasoning. This has the same problems as above with preventing messages being passed between different AIs.
+[^note-gillen-barnett-37]: Relatedly, if we end up having partial transparency into the AI’s thoughts, we could attempt to use paraphrasing to reduce steganographic reasoning. This would mean having the weak AI paraphrase and replace each segment of reasoning, and the hope being that this will only preserve legible reasoning. This has the same problems as above with preventing messages being passed between different AIs.
 
-[^38]: It seems possible that if a misaligned AI disempowered humanity it may still keep humans alive or because its training did make something upstream of “human survival” part of its mess of motivations.
+[^note-gillen-barnett-38]: It seems possible that if a misaligned AI disempowered humanity it may still keep humans alive or because its training did make something upstream of “human survival” part of its mess of motivations.
 
-[^39]: Note that this does not mean that we should totally ignore AIs if they tell us they are suffering.
+[^note-gillen-barnett-39]: Note that this does not mean that we should totally ignore AIs if they tell us they are suffering.
 
-[^40]: How many calls? Say a researcher does 12 hours of work a day, for the 30x speed-up, we will be wanting to output the equivalent of 360 hours of work a day. The research assistant does the equivalent of 4 hours of work each call. Assuming all the work gets done by the AI and the human is just choosing what to tell them to do: 360/4=90 calls a day. 12/90\*60 = 8. The human researcher will need to be giving the AI assistant a new 4 hour research task every 8 minutes.
+[^note-gillen-barnett-40]: How many calls? Say a researcher does 12 hours of work a day, for the 30x speed-up, we will be wanting to output the equivalent of 360 hours of work a day. The research assistant does the equivalent of 4 hours of work each call. Assuming all the work gets done by the AI and the human is just choosing what to tell them to do: 360/4=90 calls a day. 12/90\*60 = 8. The human researcher will need to be giving the AI assistant a new 4 hour research task every 8 minutes.

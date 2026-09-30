@@ -3,12 +3,26 @@ title: 'The "most important century" blog post series'
 author: Holden Karnofsky
 published: 2021-09-24
 source_url: https://www.cold-takes.com/most-important-century/
+llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:081a280d23ac2b0cbdde50bac59fb7181ec04b11e9171f60149dd9ee77cb0961"
+llm_review_source_digest: "sha256:e7aa84e6094b42ec4f4cdecf0804550fb8897261aff30361b54c7aa2ab3e684d"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 
 The "most important century" series of blog posts argues that **the 21st century could be the most important century ever for humanity,** via the development of advanced AI systems that could dramatically speed up scientific and technological advancement, getting us more quickly than most people imagine to a deeply unfamiliar future.
 
 You can get the **highlights from the series** via:
-* A [few-page summary (below)](https://www.cold-takes.com/most-important-century/#Summary)
+* A [[#^the-series-in-a-nutshell|few-page summary (below)]]
 * Discussion of the series on [The Ezra Klein Show](https://www.nytimes.com/2021/10/05/podcasts/transcript-ezra-klein-interviews-holden-karnofsky.html) (NYT, 90 minutes) or [The 80,000 Hours podcast](https://80000hours.org/podcast/episodes/holden-karnofsky-most-important-century/) (2 hours)
 
 You can **read the whole series** as:
@@ -17,7 +31,7 @@ You can **read the whole series** as:
 * A single [printable pdf](https://www.cold-takes.com/assets/files/most-important-century-consolidated.pdf).
 * For Kindle, you can [buy a Kindle-formatted version for $0.99](https://smile.amazon.com/dp/B09GXJ4GJ3/) (the minimum price they let me set) or download [this AZW3 file](https://www.cold-takes.com/assets/files/most-important-century-kindle-file.azw3) for free (see [instructions](https://www.techwalla.com/articles/copy-azw-file-kindle) for putting this on your Kindle). There's also a [free ePub file](https://www.cold-takes.com/assets/files/most-important-century-ebook.epub) for other readers.
 
-## The series in a nutshell
+## The series in a nutshell ^the-series-in-a-nutshell
 
 I've spent most of my career looking for ways to do as much good as possible, per unit of money or time. I worked on finding evidence-backed charities working on global health and development (co-founding [GiveWell](https://www.givewell.org/)), and later moved into philanthropy that takes [more risks](https://www.openphilanthropy.org/blog/hits-based-giving) (co-founding [Open Philanthropy](https://www.openphilanthropy.org/)).
 
@@ -43,9 +57,9 @@ Many people find the "most important century" claim too "wild": a radical future
 
 These longer time frames would put us in a _less_ wild position than if we're in the "most important century." But in the scheme of things, **even if galaxy-wide expansion begins 100,000 years from now, that still means we live in an extraordinary era** - the tiny sliver of time during which the galaxy goes from nearly lifeless to largely populated. It means that out of a staggering number of persons who will ever exist, we're among the first. And that out of hundreds of billions of stars in our galaxy, ours will produce the beings that fill it.
 
-![Image 6](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)
+![](https://www.cold-takes.com/content/images/2021/09/fermi-agnostic.png)
 
-More at [All Possible Views About Humanity's Future Are Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)
+_More at [All Possible Views About Humanity's Future Are Wild](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/)_
 
 Zooming in, we live in a special century, not just a special era. We can see this by looking at how fast the economy is growing. It doesn't _feel_ like anything special is going on, because for as long as any of us have been alive, the world economy has grown at a few percent per year:
 
@@ -54,7 +68,7 @@ However, when we zoom out to look at history in greater context, we see a pictur
 
 ![Image 8: Graphic illustrating that when you zoom in on the 'this can't go on' chart, you get the 'business as usual chart.'](https://www.cold-takes.com/content/images/size/w1000/2021/08/long-vs-short-view.png)
 
-More at [This Can't Go On](https://www.cold-takes.com/this-cant-go-on/)
+_More at [This Can't Go On](https://www.cold-takes.com/this-cant-go-on/)_
 
 **We're currently living through the fastest-growing time in history.** This rate of growth hasn't gone on long, and can't go on indefinitely (there aren't enough atoms in the galaxy to sustain this rate of growth for even another 10,000 years). And if we get _further acceleration_ in this rate of growth - in line with historical acceleration - we could reach the limits of what's possible more quickly: within this century.
 
@@ -88,25 +102,25 @@ Standard economic growth models imply that **any technology that could fully aut
 
 This loop would not be unprecedented. I think it is in some sense the "default" way the economy operates - for most of economic history up until a couple hundred years ago.
 
-![Image 9](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-2.png)
+![](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-2.png)
 
 ![Image 10: 8 ideas, each 1.5x'ing the amount of food resources -> explosion from 8 units to 205 units of food, hence 205 people and 205 ideas ... ](https://www.cold-takes.com/content/images/size/w1000/2021/06/duplicatorfeedbackloop-original-6.png)
 
-Economic history: more resources -> more people -> more ideas -> more resources ...
+_Economic history: more resources -> more people -> more ideas -> more resources ..._
 
 But in the "demographic transition" a couple hundred years ago, the "more resources -> more people" step of that loop stopped. Population growth leveled off, and more resources led to richer people instead of more people:
 
 ![Image 11: Same as previous diagram, but instead of more corn leading to more people, it leads to the same number of people enjoying their boatload of corn - corn juggling, corn slides, corn feasts, etc.](https://www.cold-takes.com/content/images/2021/07/demographic-transition-nutshell.png)
 
-Today's economy: more resources -> ~~more~~ richer people -> same pace of ideas -> ...
+_Today's economy: more resources -> ~~more~~ richer people -> same pace of ideas -> ..._
 
 The feedback loop could come back if some other technology restored the "more resources -> more ideas" dynamic. One such technology could be the right kind of AI: what I call PASTA, or Process for Automating Scientific and Technological Advancement.
 
-![Image 12](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-1.png)
+![](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-1.png)
 
-![Image 13](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)
+![](https://www.cold-takes.com/content/images/size/w1000/2021/09/pasta-stills-3.png)
 
-Possible future: more resources -> more AIs -> more ideas -> more resources ...
+_Possible future: more resources -> more AIs -> more ideas -> more resources ..._
 
 That means that **our radical long-run future could be upon us very fast** after PASTA is developed (if it ever is).
 
@@ -173,3 +187,19 @@ One metaphor for my headspace is that it feels as though the world is a set of p
 And every time I read commentary on what's going on in the world, people are discussing how to arrange your seatbelt as comfortably as possible given that wearing one is part of life, or saying how the best moments in life are sitting with your family and watching the white lines whooshing by, or arguing about whose fault it is that there's a background roar making it hard to hear each other.
 
 I don't know where we're actually heading, or what we can do about it. But I feel pretty solid in saying that we as a civilization are not ready for what's coming, and we need to start by taking it more seriously.
+
+:::collapse
+## Acknowledgements
+
+I have few-to-no claims to originality. The vast bulk of the claims, observations and insights in this series came from some combination of:
+
+* Years of discussions with others, particularly in the [effective altruism](https://www.effectivealtruism.org/) and rationalist communities. It's hard to trace specific ideas to specific people within this context, but I know that a huge amount of my thinking comes at least proximately from Carl Shulman, Dario Amodei and Paul Christiano, and that Nick Bostrom's and Eliezer Yudkowsky's work has been very influential generally. (I also understand that earlier futurists and transhumanists influenced these people and communities, though I haven't engaged directly much with their works.)
+* In-depth analyses by the Open Philanthropy Longtermist Worldview Investigations team: Ajeya Cotra and Tom Davidson (especially) as well as Nick Beckstead, Joe Carlsmith, and David Roodman. I've also drawn heavily on reports by Katja Grace and Luke Muehlhauser.
+
+In addition, I owe thanks to:
+
+* Ajeya Cotra, María Gutiérrez Rojas and Ludwig Schubert for help with visualizations.
+* A number of people for feedback on earlier drafts:
+  * My sister [Daliya Karnofsky](https://www.daliyakarnofsky.com/), my wife Daniela Amodei, and Elie Hassenfeld: special thanks for reading the earliest (least readable) drafts and often giving detailed feedback on multiple iterations.
+  * People who served as "beta readers" and gave significant amounts of feedback, particularly on what was and wasn't making sense for them: Alexander Berger, Damon Binder, Lukas Gloor, Derek Hopf, Mike Levine, Eli Nathan, Sella Nevo, Julian Sancton, Simon Shifrin, Tracy Williams. (Plus a number of people already mentioned above.)
+:::

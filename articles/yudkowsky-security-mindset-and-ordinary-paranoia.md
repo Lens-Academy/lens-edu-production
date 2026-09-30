@@ -8,7 +8,20 @@ created: 2026-02-04
 description: "Follow-up to: AI Alignment: Why It’s Hard, and Where to Start • ---------------------------------------- •   …"
 tags:
   - clippings
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 **Follow-up to:**[AI Alignment: Why It’s Hard, and Where to Start](https://intelligence.org/2016/12/28/ai-alignment-why-its-hard-and-where-to-start/)
 
 ---
@@ -300,7 +313,3 @@ Though this itself is not really a reduced statement and still has too much goal
 ---
 
 To be continued in: **[Security Mindset and the Logistic Success Curve](https://www.lesswrong.com/posts/cpdsMuAHSWhWnKdog/security-mindset-and-the-logistic-success-curve)**
-
-x
-
-Security Mindset and Ordinary Paranoia — LessWrong

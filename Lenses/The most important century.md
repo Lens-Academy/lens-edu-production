@@ -1,14 +1,22 @@
 ---
 id: a7d29f3f-d335-4557-bca0-f6f4c02d3fc3
+reading_minutes: 15
+tutor_minutes: 5
+# tldr: "Are we living through the most important century in human history? Holden Karnofsky steps back from 'will AI go foom' to a bigger question about the era we are in, arguing that AI able to automate innovation could restart an explosive growth loop, and that these 'wild' claims deserve scrutiny rather than a shrug."
+summary_for_tutor: "Presents Holden Karnofsky's 'most important century' thesis via his summary post. Karnofsky argues the 21st century could be the most important ever for humanity: AI that automates scientific and technological innovation (his 'PASTA') could restart a 'more resources leads to more ideas leads to more resources' feedback loop, driving explosive growth and plausibly locking in a galaxy-spanning long-run future. He builds five points: the long-run future is radically unfamiliar, it could arrive far faster than expected, the relevant AI is likely developed this century, we already live in an unusually 'wild' and fast-growing time, and we are not ready for it. The excerpt ends on his call to take the possibility more seriously; the lens adds a course-author note questioning whether the growth feedback loop ever truly broke, and a chat prompts the learner to explain PASTA and scrutinize the framing."
 title: "The most important century"
 ---
-#### Text
-content::
+%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 Optional, and worth it. Karnofsky steps all the way back: not "will AI foom," but "what kind of century are we living in at all?" The whole piece, for the wider frame.
+%%
 
 #### Article
 source:: [[../articles/karnofsky-most-important-century]]
-to:: "we need to start by taking it more seriously."
+from:: "I've spent most of my career looking for ways"
+
+%% TODO(human): add course author's footnote here for the correction @Ouro noted (full text/citation not yet supplied — write it up). %%
 
 #### Text
 content::

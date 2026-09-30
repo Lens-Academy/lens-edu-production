@@ -6,11 +6,14 @@ discussion: https://discordapp.com/channels/1440725236843806762/1470760399438614
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Arguments for and against different agendas]]
+source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 
 # Submodule: Welcome
 ## Lens: Welcome
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
+%% tldr:: AI safety has no agreed definition of the problem it's solving, so the field splinters into competing "agendas." This module maps six of them — and for each, pairs an article making the case with one pushing back, so you can judge the disagreements yourself. %%
+summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each.
+reading_minutes:: 5
 
 ### Text
 content::
@@ -20,15 +23,19 @@ We want to open this module with the quote from the essay [A newcomer’s guide 
 > 
 > In other words, there is no universally agreed-upon description of what the alignment problem is. \[...\] It’s not just that the proposed solutions garner plenty of disagreements, the nature of the problem itself is ill-defined and often disagreed among researchers in the field. Hence, the field is centered around various researchers / research organizations and their research agenda, which are built on very different formulations of the problem, or even a portfolio of these problems.
 
-One piece of community-specific vocabulary is the term agenda. In AI safety, an agenda is a strategic research roadmap: a bundle of problem framings, assumptions, and proposed methods that together function as a theory of change. Historically, agendas tend to appear in response to a particular perceived bottleneck in alignment, and then fade or evolve as new technical difficulties become salient, as empirical evidence accumulates, or as attention shifts. Comparing agendas is hard precisely because many of them are underspecified{>>CGL > I could see this needing explaining for the non-rationalist audience. Footnote here?
+{>>CGL > I could see this needing explaining for the non-rationalist audience. Footnote here?
 
 By underspecified, we mean that the agendas don't clearly lay out their own underlying assumptions (e.g. about the nature of intelligence and agency) or about what types of problems they can help with.
 
-Alternatively, we could just make the link to the next sentence a little more implicit.<<}. Often, threat models, assumptions, and concrete success criteria are left implicit, which makes it difficult to evaluate plausibility or to see what would falsify the approach.
+Alternatively, we could just make the link to the next sentence a little more implicit.<<}%% COMMENTED OUT (AI-generated framing):
+One piece of community-specific vocabulary is the term agenda. In AI safety, an agenda is a strategic research roadmap: a bundle of problem framings, assumptions, and proposed methods that together function as a theory of change. Historically, agendas tend to appear in response to a particular perceived bottleneck in alignment, and then fade or evolve as new technical difficulties become salient, as empirical evidence accumulates, or as attention shifts. Comparing agendas is hard precisely because many of them are underspecified. Often, threat models, assumptions, and concrete success criteria are left implicit, which makes it difficult to evaluate plausibility or to see what would falsify the approach.
 
 One influential attempt at structuring the space is the classification proposed in Shallow Review 2025. The authors group work into several broad clusters, such as lab-facing safety work (including black-box and white-box approaches), more theory-oriented directions, scalable oversight, and multi-agent systems. This taxonomy is not the only one. Other classifications exist, and different maps emphasize different fault lines: for example, whether work is empirical versus theoretical, model-internal versus behavior-only, or focused on training-time interventions versus deployment-time control.
 
-In this module, we will focus on 5 directions. The list is deliberately incomplete: in particular, it does not aim to cover governance in a comprehensive way. The boundaries between the directions are also not clean. They frequently overlap, borrow tools from one another, or approach the same underlying phenomena using very different conceptual languages. Sometimes it is obvious that they are talking about the same piece of reality. Sometimes it is surprisingly hard to even see the common object. Still, this decomposition is useful for a first pass, and it will give us one workable map[^1] for navigating the literature that follows. For each agenda, we’ll look at excerpts from two articles: one that supports the idea and one that critiques it.
+In this module, we will focus on 5 directions. The list is deliberately incomplete: in particular, it does not aim to cover governance in a comprehensive way. The boundaries between the directions are also not clean. They frequently overlap, borrow tools from one another, or approach the same underlying phenomena using very different conceptual languages.
+%%
+
+This module covers six of those agendas. Sometimes it is obvious that they are talking about the same piece of reality. Sometimes it is surprisingly hard to even see the common object. Still, this decomposition is useful for a first pass, and it will give us one workable map[^1] for navigating the literature that follows. For each agenda, we’ll look at excerpts from two articles: one that supports the idea and one that critiques it.
 
 [^1]: Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. 
 
@@ -40,6 +47,13 @@ source:: [[../Lenses/Automating Alignment]]
 source:: [[../Lenses/AI for AI safety]]
 
 ## Lens:
+source:: [[../Lenses/bowkis-automated-alignment-is-harder-than-you-think]]
+
+## Lens:
+source:: [[../Lenses/johnswentworth-why-not-just-outsource-alignment-research-to-an-ai]]
+
+## Lens:
+optional:: true
 source:: [[../Lenses/Carefully Bootstrapped Alignment Is Organizationally Hard]]
 
 # Submodule: Mechanistic Interpretability
@@ -79,12 +93,12 @@ source:: [[../Lenses/The case for ensuring that powerful AIs are controlled]]
 
 ## Lens:
 source:: [[../Lenses/AI Control May Increase Existential Risk]]
-
 ## Lens:
 optional:: true
 source:: [[../Lenses/The Case Against AI Control Research]]
 
 # Submodule: Agent Foundations
+
 ## Lens:
 source:: [[../Lenses/Agent Foundations]]
 
@@ -93,10 +107,22 @@ source:: [[../Lenses/AF not really math not really science]]
 
 ## Lens:
 optional:: true
-source:: [[../Lenses/Embedded agents]]
+source:: ![[../Lenses/johnswentworth-why-agent-foundations-an-overly-abstract-explanation]]
+
 
 ## Lens:
 source:: [[../Lenses/Realism about rationality]]
+
+# Submodule: Shut it all down
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Yudkowsky TED Talk]]
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Statement on Superintelligence]]
+
+## Lens:
+source:: [[../Lenses/Shut It All Down - Pause For Thought]]
 
 
 

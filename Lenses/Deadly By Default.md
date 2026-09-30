@@ -1,28 +1,30 @@
 ---
 id: e2c85826-d6f4-431b-b036-23de8e48b479
-summary_for_tutor: Covers why catastrophic outcomes from AI are the default expectation, not a special case requiring malice. Explains that major AI labs explicitly target superintelligence, that current AI is grown rather than designed (making alignment intractable with present methods), that instrumental convergence drives dangerous behavior regardless of final goals, and that competitive pressures ensure insufficient caution. Structured as a comprehensive primer on existential risk from AI.
+reading_minutes: 35
+tutor_minutes: 8
+# tldr: "AI catastrophe is usually imagined as a rogue machine that hates us. But what if disaster is simply the default, no malice required? This primer walks eleven interlocking steps, from why labs are racing toward superintelligence to why a system merely indifferent to us is as deadly as a hostile one, showing how present incentives stack the odds against a good outcome."
+summary_for_tutor: "Duncan Sabien's primer (written in a personal capacity, though he works at MIRI) arguing that AI catastrophe is the default outcome and needs no malice. Its eleven steps: many developers explicitly target superintelligence; every step toward it makes money, and if one lab stops another continues; smarter agents make plans too complex for humans to follow; a superintelligence must be given information about the world, and humans are part of that world; we do not know how to install goals, because modern AI is grown rather than designed and training cannot tell true goals from good-looking behavior; competent agents avoid strategic dead ends; artificial systems do not do things halfway; indifference is often indistinguishable from hostility; much smarter opponents do not lose to dumber ones; and so the trap swings shut."
 title: Deadly By Default
 ---
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
-While the first text argued that the course of history appears different depending on the predictive model used, the next explains why, in the field of AI, we can’t simply count on a positive outcome by default.
-
-This text explains why some researchers believe the development of powerful AI is predictably dangerous, based not on a model of technological trends, but rather on specific incentives specific to what's happening right now.
-The main idea: catastrophic outcomes don't require malicious intent. They can arise simply because very powerful optimization systems are capable of pursuing goals that conflict with human values.
-
-The question this text addresses is: if we cannot confidently predict the exact shape of the future, what is a reasonable baseline hypothesis to adopt regarding powerful AI systems?
+Why expect powerful AI to go badly by default? This text argues that catastrophe doesn't require malice. A powerful optimizer pursuing goals that conflict with human values is enough, and today's incentives make that the default outcome.
+%%
 
 #### Article
 source:: [[../articles/Duncan, Deadly By Default]]
+from:: "There is a lot of material out there"
+to:: "ever created or accomplished."
 
 #### Text
 content::
-What do you think of the argument that AI extinction risk is the default outcome? Which parts of this argument seem strongest to you, and which seem weakest?
+What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
 
 #### Chat
 instructions::
 The user is answering this question:
-What do you think of the argument that AI extinction risk is the default outcome? Which parts of this argument seem strongest to you, and which seem weakest?
+What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.

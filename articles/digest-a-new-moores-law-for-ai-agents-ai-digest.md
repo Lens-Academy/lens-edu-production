@@ -10,7 +10,16 @@ tags:
   - article-importer
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Last updated March 2026
+
+![[../widgets/aidigest-time-horizons-a]]
 
 When ChatGPT came out in 2022, it could do 30 second coding tasks.
 
@@ -27,6 +36,8 @@ Across all models tested, two clear patterns emerged:
 1. Task length is highly correlated with agent success rate (R² = 0.83)
 2. The length of tasks that agents succeed at 50% of the time – the **time horizon** – is growing exponentially
 
+![[../widgets/aidigest-time-horizons-c]]
+
 ## What comes next?
 
 This exponential trend seems robust, and there's no evidence of plateauing.
@@ -37,9 +48,13 @@ Exponentials grow fast. Extrapolating out, this trend predicts:
 - 2028: 1 work week (40 hours)
 - 2029: 1 work month (167 hours)
 
+![[../widgets/aidigest-time-horizons-d]]
+
 Recently, the trend has accelerated.
 
 In 2024-2025, time horizons doubled every 4 months, down from every 7 months over 2019-2025.
+
+![[../widgets/aidigest-time-horizons-e]]
 
 If the faster trend continues, agents might reach month-long tasks in 2027.
 

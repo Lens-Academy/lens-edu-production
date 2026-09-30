@@ -1,5 +1,7 @@
 ---
 id: 11f0d83f-f8ec-4549-b82c-460c22288a9b
+reading_minutes: 30
+tutor_minutes: 10
 summary_for_tutor: "Covers why human cognitive biases make AI risk arguments feel counterintuitive. Identifies specific ways evolutionary psychology leads people astray: anthropomorphizing AI, assuming intelligent systems will share human common sense or social constraints, and underestimating how optimization processes can produce alien reasoning. Examines the culture clash between theoretical alignment researchers who predict power-seeking AI and empiricists who observe that humans and LLMs behave more cooperatively."
 title: 6 reasons why it's not intuitive that alignment is hard
 tldr: Why do arguments about AI risk often feel off, even to people who take technology seriously? This article identifies six ways our evolved intuitions lead us astray — from assuming smart things will share our common sense to underestimating how different an optimizer's reasoning can be from our own.
@@ -12,9 +14,15 @@ hoi:
   - bar
 ---
 
-#### Text
-content::
+%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop):
 The difficulty of AI alignment is often underestimated because the risks do not fit neatly into human cognitive biases. This article explores why the arguments for alignment danger often feel counter-intuitive or even "alien" to our natural reasoning. We tend to anthropomorphise AI, assuming it will possess human-like common sense or social constraints. However, artificial agents operate on fundamentally different principles of optimization. Researchers identify specific reasons why our evolutionary heritage makes it difficult to grasp the scale of the challenge: from our reliance on social feedback to our misunderstanding of how complex goals emerge from simple code. If we rely solely on our intuition, we will likely miss the point where the system becomes uncontrollable. This material examines the psychological barriers that prevent us from taking the alignment problem as seriously as the mathematics suggest we should.
+%%
+
+%% PROPOSED FIX:
+"Alignment is hard" arguments often sound paranoid, even to thoughtful people. Steven Byrnes argues that's because our intuitions about minds come from human social instincts: we care what others think of us and feel bad about harming them. We quietly assume any smart mind shares this. An AI without those instincts wouldn't, and LLMs, trained to imitate humans, make the gap easy to miss.
+%%
 
 #### Article
 source:: [[../articles/byrnes-6-reasons-why-alignment-is-hard-discourse-seems-alien]]

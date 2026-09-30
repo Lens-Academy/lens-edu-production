@@ -10,6 +10,13 @@ tags:
   - "obsidian-web-clipper"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 *Epistemic status: trying to vaguely gesture at vague intuitions. A similar idea was [explored here](https://intelligence.org/files/HowIntelligible.pdf) under the heading "the intelligibility of intelligence", although I hadn't seen it before writing this post. As of 2020, I consider [this follow-up comment](https://www.alignmentforum.org/posts/suxvE2ddnYMPJN9HD/realism-about-rationality?commentId=Yghaazk49tfywHBGr) to be a better summary of the thing I was trying to convey with this post than the post itself. The core disagreement is about how much we expect the limiting case of arbitrarily high intelligence to tell us about the AGIs whose behaviour we're worried about.*
 
 There’s a mindset which is common in the rationalist community, which I call “realism about rationality” (the name being intended as a parallel to moral realism). I feel like my skepticism about agent foundations research is closely tied to my skepticism about this mindset, and so in this essay I try to articulate what it is.

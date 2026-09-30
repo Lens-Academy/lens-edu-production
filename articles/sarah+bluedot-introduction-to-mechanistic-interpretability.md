@@ -8,8 +8,21 @@ created: 2026-02-27
 description: "Mechanistic Interpretability is an emerging field that seeks to understand the internal reasoning processes of trained neural networks and gain insight into how and why they produce the outputs that they do."
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-Mechanistic Interpretability is an emerging field that seeks to **understand the internal reasoning processes of trained neural networks** and gain insight into how and why they produce the outputs that they do. AI researchers currently have very little understanding of what is happening inside state-of-the-art models.[^1]
+%%
+Add discussion note here:
+
+This is a 2024 introduction, so treat the specific empirical claims (e.g. sparse autoencoder neuron counts, "3% understood") as a snapshot rather than the current state of the field, which has moved quickly. Good prompts for discussion: is the features/circuits framework (and the universality hypothesis) still the dominant frame, or has it been superseded/qualified by newer work? How strong is the evidence so far that interpretability-driven interventions (e.g. feature steering) generalise to genuine safety guarantees rather than superficial behavioural changes?
+
+%%
+Mechanistic Interpretability is an emerging field that seeks to **understand the internal reasoning processes of trained neural networks** and gain insight into how and why they produce the outputs that they do. AI researchers currently have very little understanding of what is happening inside state-of-the-art models.[^note-sarah-bluedot-1]
 
 Current frontier models are extremely large – and extremely complicated. They might contain billions, or even trillions of parameters, spread across over 100 layers. Though we control the data that is inputted into a network and can observe its outputs, what happens in the intervening layers remains largely unknown. This is the ‘black box’ that mechanistic interpretability aims to see inside.
 
@@ -69,4 +82,4 @@ The use of sparse autoencoders has proved a promising means of interpreting neur
 
 Anthropic’s recent interpretability findings represent an important step forward. They not only identified vast numbers of representations but isolated many safety-relevant features related to threats such as discrimination, deception and misuse. They were also able to make some early attempts at **feature steering**, by identifying specific features and weakening or strengthening their activation in order to influence model outputs (in a [humorous example](https://venturebeat.com/ai/anthropic-tricked-claude-into-thinking-it-was-the-golden-gate-bridge-and-other-glimpses-into-the-mysterious-ai-brain/), amplifying Claude’s Golden Gate Bridge feature leads the model to self-identify as the bridge!). However, there remain many [open problems in the problem of achieving monosemanticity](https://transformer-circuits.pub/2024/scaling-monosemanticity/index.html#discussion-limitations), and in the [field of mechanistic interpretability more broadly](https://www.youtube.com/watch?v=EuQjiNrK77M).
 
-[^1]: Recent and much-publicised interpretability research could give an inaccurate perception of how much progress has been made here. Anthropic CEO Dario Amodei estimated in a [recent podcast interview](https://www.youtube.com/watch?v=xm6jNMSFT7g&t=161s) that we currently understand just 3% of how they operate.
+[^note-sarah-bluedot-1]: Recent and much-publicised interpretability research could give an inaccurate perception of how much progress has been made here. Anthropic CEO Dario Amodei estimated in a [recent podcast interview](https://www.youtube.com/watch?v=xm6jNMSFT7g&t=161s) that we currently understand just 3% of how they operate.

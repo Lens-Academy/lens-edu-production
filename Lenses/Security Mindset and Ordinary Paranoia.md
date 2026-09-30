@@ -1,13 +1,17 @@
 ---
 id: c549ae1c-9bab-4c11-ae9b-2c8876265a24
-summary_for_tutor: Covers the security mindset as a cognitive orientation required for alignment research. Contrasts standard engineering (does this work under normal conditions?) with the security mindset (how does this fail under adversarial or optimization pressure?). Argues that building safe AI requires thinking borrowed from cryptography, where safety cannot depend on outsmarting what you are containing.
+reading_minutes: 60
+tutor_minutes: 8
+summary_for_tutor: "Eliezer Yudkowsky's dialogue between Amber and Coral, a computer security professional. Coral argues that systems break under optimization pressure: adversaries, or any strong selection force, find rare weird states that random inputs would never hit. She separates ordinary paranoia (imagining specific attacks and parrying them, such as hiding the encryption key for a password file) from security mindset (removing assumptions from the safety story, such as hashing passwords so that reading the file does not help). Piling on shallow defenses, like seven hidden keys, does not add much. Applied to AGI: do not rely on guessing how fast capabilities could grow, whitelist capabilities rather than blacklist them, and never build a system that is safe only because it lacks capability. It ends with an exercise: restate safety assumptions in neutral, non-goal-laden terms."
 title: Security Mindset and Ordinary Paranoia
-tldr: Standard engineering asks "does this work?" The security mindset asks "how does this fail when something is actively trying to break it?" This article argues that building safe AI requires thinking borrowed from cryptography — not piling up defenses, but designing systems where safety doesn't depend on outsmarting what you're containing.
+# tldr: Standard engineering asks "does this work?" The security mindset asks "how does this fail when something is actively trying to break it?" This article argues that building safe AI requires thinking borrowed from cryptography — not piling up defenses, but designing systems where safety doesn't depend on outsmarting what you're containing.
 ---
-#### Text
-content::
+%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 The next piece focuses on just how hard it is to get systems we build to do the things we want and how those systems break down under adversarial pressure, which is akin to optimization pressure.  
 Effective alignment research requires more than mathematical proficiency: it demands a specific cognitive orientation known as the "security mindset." While standard engineering focuses on making a system work under normal conditions, the security mindset focuses on how a system might fail when its environment — or its own internal optimization — pushes it to its limits.
+%%
 
 #### Article
 source:: [[../articles/yudkowsky-security-mindset-and-ordinary-paranoia|yudkowsky-security-mindset-and-ordinary-paranoia]]

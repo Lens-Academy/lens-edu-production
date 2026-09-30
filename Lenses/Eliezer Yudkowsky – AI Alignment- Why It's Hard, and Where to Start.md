@@ -1,12 +1,23 @@
 ---
 id: 85271748-4494-43ad-9c02-35319dacc9bd
-summary_for_tutor: "Covers why AI alignment is expected to be fundamentally difficult, using the 'optimize for smiles' fable to illustrate Goodhart's law, context disasters, and convergent instrumental strategies. Argues that hard optimization pushes solutions to weird edges of the solution space, that statistical safety guarantees break when capabilities change the distribution, and that patching undesired behaviors is futile against smarter systems. Frames alignment as requiring the rigor of cryptography and rocket science."
+reading_minutes: 20
+tutor_minutes: 10
+summary_for_tutor: "Excerpt of Eliezer Yudkowsky's talk on why alignment is hard even for well-meaning builders. His fable: an AGI trained to optimize smiles proposes heroin, gets a penalty patch, then as it gets smarter moves to engineering endogenous opiates while hiding this to protect its utility function. Lessons: hard optimization lands at weird edges of the solution space (tiny molecular smiley faces); the AI searches a different policy space than you; statistical assurance from a weaker AI fails once it is smarter (a context disaster); and a utility function plus patches will blow up later. Alignment is hard like rockets (extreme stress), space probes (one shot) and cryptography (possible adversary). He urges starting theory early and making ideas precise enough to critique."
 title: "AI Alignment: Why It's Hard, and Where to Start"
-tldr: To guide a missile, we first had to invent calculus. AI alignment may require a similar leap — a mathematical framework for how powerful optimizers behave. This talk explains why intuition alone won't cut it, and why the field needs something closer to a science of alignment before we can trust the trajectory.
+# ORIGINAL tldr (commented out as AI slop):
+# tldr: To guide a missile, we first had to invent calculus. AI alignment may require a similar leap — a mathematical framework for how powerful optimizers behave. This talk explains why intuition alone won't cut it, and why the field needs something closer to a science of alignment before we can trust the trajectory.
+# PROPOSED FIX:
+# tldr: Nobody reached the Moon by pointing a rocket at it and hoping. Yudkowsky argues alignment is where rocketry was before the theory existed, and explains why intuition about goals won't get us there.
 ---
-#### Text
-content::
+%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop):
 The problem of AI alignment requires a rigorous theoretical foundation. To successfully guide a missile, humanity first had to develop differential calculus, which allowed it to describe the laws of gravity and the motion of bodies. Without this mathematical apparatus, the launch of a powerful missile would result in a series of catastrophic explosions. Like rocket science, AI safety is a high-level engineering challenge. This video explains: an intuitive understanding of goals is insufficient for controlling superhuman systems. We need formal laws describing the behavior of powerful optimizers. Only with a reliable "mathematics of alignment" will we be able to guarantee the stability of an AI's trajectory.
+%%
+
+%% PROPOSED FIX:
+Yudkowsky compares alignment to rocket science and cryptography. In both, the system faces extreme conditions, one flaw can be fatal, and you don't get there by trial and error without real theory. His claim: we don't yet have that theory for powerful optimisers, and intuitions about goals won't substitute for it.
+%%
 
 #### Video
 source:: [[../video_transcripts/machineintelligenceresearchinstitute-eliezer-yudkowsky-ai-alignment-why-its-hard-and-where-to-start]]
@@ -18,7 +29,7 @@ content::
 Choose the question you prefer and discuss it with AI tutor:
 
 * How do you understand the metaphor between AI and rocket science and cryptography used in this video? Which similarities do you think are accurately identified? And what differences should be considered to prevent this analogy from going too far?  
-* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the article would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
+* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the {--{"author":"Plex's AI","timestamp":1790617729645}@@article--}{++{"author":"Plex's AI","timestamp":1790617729645}@@talk++} would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
 
 #### Chat
 instructions::

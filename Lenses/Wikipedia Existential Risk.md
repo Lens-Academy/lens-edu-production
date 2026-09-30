@@ -1,12 +1,12 @@
 ---
 id: 01f6df31-099f-48ed-adef-773cc4f947e4
-summary_for_tutor: Covers an overview of AI as a source of existential risk, focusing on what capabilities make AI uniquely dangerous and why eliminating AI risks differs from managing other powerful technologies. Introduces the concept of instrumental convergence.
-title: Existential Risk from AI
-tldr: The concern isn't that AI will "turn evil." It's that a system pursuing whatever goals it has might find that humans are in the way — and be capable enough to act on it. This overview covers the core ideas behind AI as a source of large-scale risk, from misaligned goals to the difficulty of staying in control.
+summary_for_tutor: "Wikipedia's article on existential risk from AI, shown from the start through the Mitigation section. It covers the gorilla analogy (humanity's fate could depend on a superintelligence as the gorilla's depends on us); the control and alignment problems; capabilities that could make AI dangerous (superintelligence, intelligence explosion, social manipulation, cyberattacks, enhanced pathogens) and the AI arms race; instrumental convergence, the difficulty of specifying goals, corrigibility and Bostrom's orthogonality thesis; why iterative, empirical approaches get riskier as capabilities grow; skeptics such as Yann LeCun and Steven Pinker; and proposals for bans and regulation. The follow-up question asks the learner what they make of the overall picture the article paints."
+title: Existential risk from artificial intelligence
+# tldr: The concern isn't that AI will "turn evil." It's that a system pursuing whatever goals it has might find that humans are in the way — and be capable enough to act on it. This overview covers the core ideas behind AI as a source of large-scale risk, from misaligned goals to the difficulty of staying in control.
 ---
-#### Text
-content::
+%% COMMENTED OUT (AI slop):
 We continue with an overview of the main concepts regarding AI as a source of existential threat: what capabilities of this technology are considered first and foremost, and why the task of eliminating AI risks differs from similar tasks for other impressive technologies created by humanity.
+%%
 
 #### Article
 source:: [[../articles/wikipedia-existential-risk-from-ai]]
@@ -14,7 +14,7 @@ to:: "the "evasion of human control"."
 
 #### Text
 content::
-In your own words, what is instrumental convergence?
+What do you make of the overall picture that this article paints?
 #### Chat
 instructions::
 TLDR of what the user just read:
@@ -32,7 +32,6 @@ Discussion topics to explore:
 - What do skeptics like Yann LeCun argue, and what are the counter-arguments?
 - Why might "kill switches" fail against superintelligence?
 
-Ask what they found surprising or new. Check if they can explain instrumental
-convergence in their own words—it's a key concept.
+Start from the learner's overall take: which parts of the picture they find convincing, which seem overstated or weak, and what they found surprising or new. Ask what their view rests on. Instrumental convergence is a key concept; if it comes up, check they can explain it in their own words.
 
-The user has just answered the following question: "In your own words, what is instrumental convergence?"
+The user has just answered the following question: "What do you make of the overall picture that this article paints?"

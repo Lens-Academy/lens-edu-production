@@ -1,15 +1,23 @@
 ---
 id: 2d930d96-1658-4143-b29c-52e3b9259396
-summary_for_tutor: Introduces AI evaluations as structured tests designed to measure capabilities, propensities, and safety thresholds of AI models. Distinguishes safety evaluations from general performance benchmarks. Poses the key question of why high benchmark accuracy does not guarantee deployment safety.
+reading_minutes: 2
+tutor_minutes: 8
+summary_for_tutor: "Pre-reading discussion lens that opens the Evals submodule. The learner is shown no definition of evals, only an instruction to discuss one question with the tutor before the readings: 'Why does high accuracy on a benchmark not guarantee that a system is safe to deploy?' The readings that follow are Hobbhahn et al.'s starter guide to evals (red-teaming vs benchmarking, capability vs alignment evals), Apollo Research's call for a 'Science of Evals' (optional), and Barnett and Thiergart on what evals can and cannot do for catastrophic risk (lower bounds on capabilities, but no upper bounds, reliable forecasts, or robust misalignment assessment)."
 title: AI Evaluations
-tldr: How do you know if an AI system is safe? Evaluations are structured tests designed to measure what models can do — especially the dangerous things. But passing a test and being safe aren't the same thing, and understanding why is the first step to better measurement.
+# tldr: How do you know if an AI system is safe? Evaluations are structured tests designed to measure what models can do — especially the dangerous things. But passing a test and being safe aren't the same thing, and understanding why is the first step to better measurement.
 ---
 
 #### Text
 content::
+%% ORIGINAL (commented out as AI slop):
 This module focuses on the empirical testing of what AI systems can do and identifying the risks they pose. 
 
 **AI Evaluations** are structured knowledge about approaches and tests{>>CGL > I don't much like this definition. Feels awkward.<<} designed to measure the capabilities, propensities, and safety thresholds of AI models. Unlike general performance benchmarks, safety evals specifically look for dangerous capabilities. 
+%%
+
+%% PROPOSED FIX:
+**AI evaluations** ("evals") are tests of what a model can do and what it tends to do. Ordinary benchmarks measure how useful a model is. Safety evals look for what could make it dangerous.
+%%
 
 *Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the readings*.
 

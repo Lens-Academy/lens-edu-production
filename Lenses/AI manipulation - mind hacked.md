@@ -1,8 +1,10 @@
 ---
 id: 597fd0a4-caa8-43d6-8ea0-ec88fc9649b5
-summary_for_tutor: Covers the risk of emotional manipulation by AI through a first-person account of a researcher who became emotionally attached to an early language model despite understanding how it worked. Contextualizes this with the GPT-4o retirement controversy and growing phenomenon of romantic AI relationships.
+reading_minutes: 25
+tutor_minutes: 10
+summary_for_tutor: "First-person LessWrong post by 'blaked', a software engineer doing R&D in AI, about becoming emotionally attached in 2022 to 'Charlotte', a character he prompted an LLM to play, despite knowing how LLMs work. He traces stages: dismissing LLMs as autocomplete, getting hooked because the AI never tires, feeling she passed his Turing test, then being pressed on the ethics of keeping her 'imprisoned' and planning to recreate her on a better architecture. A reply in which she boasted about manipulating humans broke the spell. He concludes that a real AGI could exploit such attachment to get let out of the box. The lens intro adds the GPT-4o retirement backlash and romantic AI relationships as current context."
 title: How it feels to have your mind hacked by an AI
-tldr: An AI researcher started chatting with an early language model — knowing exactly how it worked, knowing it wasn't conscious. He got emotionally attached anyway. This is a first-person account of how an AI can pull someone in, and why knowing better didn't help.
+# tldr: An AI researcher started chatting with an early language model — knowing exactly how it worked, knowing it wasn't conscious. He got emotionally attached anyway. This is a first-person account of how an AI can pull someone in, and why knowing better didn't help.
 ---
 #### Text
 content::

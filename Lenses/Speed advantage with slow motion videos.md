@@ -1,8 +1,10 @@
 ---
 id: e11cb5ab-b56f-47c5-869e-40315845d325
-summary_for_tutor: Covers the processing speed differential between transistors and neurons (roughly 10 million times faster). Uses a 100x slow-motion video of a subway platform as an intuition pump for what humans would look like to a digital mind operating at electronic speeds. Frames the speed gap as a source of existential risk independent of any particular AI architecture.
+reading_minutes: 5
+tutor_minutes: 5
+summary_for_tutor: "Short article by Andrew Critch, 'Slow motion videos as AI risk intuition pumps'. Transistors fire about 10 million times faster than neurons, so digital minds may one day run 10 million times faster than us, and from a decision-making perspective humans would look to them like stationary objects, like plants or rocks. Critch embeds Adam Magyar's 'Stainless, Alexanderplatz', footage of a busy subway platform slowed by about 100x, then asks the reader to imagine AI acting 10 million times faster for 10 million subjective years, with near-stationary humans easy to take apart for resources, much as human civilization shows little regard for plants or insects. He notes the speed gap holds whether one imagines a single centralized AI or an economy of many."
 title: Slow motion videos as AI risk intuition pumps
-tldr: Transistors operate roughly ten million times faster than neurons. This reading pairs a slow-motion video of a busy subway platform with an article about processing speed, inviting you to feel — not just understand — what it would mean for a mind to operate that much faster than ours.
+# tldr: Transistors operate roughly ten million times faster than neurons. This reading pairs a slow-motion video of a busy subway platform with an article about processing speed, inviting you to feel — not just understand — what it would mean for a mind to operate that much faster than ours.
 ---
 #### Text
 content::
@@ -11,14 +13,8 @@ In the following reading, we ask you to watch a video in order to get an intuiti
 #### Article
 source:: [[../articles/slow-motion-videos-as-ai-risk-intuition-pumps]]
 from:: "Over the past"
-to:: "when slowed down by only around 100x:"
-
-#### Video
-source:: [[../video_transcripts/adam-magyar-stainless-alexanderplatz]]
-
-#### Article
-from:: "Now, when you try"
 to:: "wildlife or insects."
+
 
 #### Text
 content::
