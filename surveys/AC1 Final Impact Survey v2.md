@@ -89,6 +89,8 @@ labels::
 - Very good
 - Excellent
 
+#### Page
+
 #### Text
 content:: **The full course**
 
@@ -172,6 +174,8 @@ options::
 - More than six months
 - I probably would not have completed the material otherwise
 
+#### Page
+
 #### Question: Open
 id:: 7c63a071-0f87-46ef-8304-d3cf42e9dc8b
 content:: What are 3–5 concrete steps you'll take toward AI safety work in the next 1–3 months?
@@ -237,7 +241,7 @@ options::
 - Constellation (Astra or other fellowship)
 - Anthropic Fellows Program
 - OpenAI Fellows Program
-- Other programme, or a job (name it in your steps above)
+- freeform:: Other programme or job
 
 #### Question: Choice
 id:: b21d838c-5717-456d-a7c5-1235f713cd99
@@ -280,7 +284,9 @@ options::
 - Constellation (Astra or other fellowship)
 - Anthropic Fellows Program
 - OpenAI Fellows Program
-- Other programme, or a job (name it in your steps above)
+- freeform:: Other programme or job
+
+#### Page
 
 #### Question: Open
 id:: ab9103b3-cbe1-4397-b82a-9b1912fdeb4e
