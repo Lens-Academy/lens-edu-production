@@ -62,7 +62,7 @@ Read your report before you clip: the three real reports are below as readings, 
 
 #### Text
 content::
-The reports: [Anthropic model cards](https://www.anthropic.com/model-cards) (the Opus 4.7 card is a fictional teaching document modeled on them); [AISI Frontier AI Trends Report](https://www.aisi.gov.uk/frontier-ai-trends-report); [IAEA GOV/2026/8](https://www.iaea.org/sites/default/files/gov2026-8.pdf); [BIS order, In re Seagate](https://www.bis.gov/media/documents/export-violation/e2836.pdf).
+The reports: [Anthropic system cards](https://www.anthropic.com/system-cards) (the Opus 4.7 card is a fictional teaching document modeled on them); [AISI Frontier AI Trends Report](https://www.aisi.gov.uk/frontier-ai-trends-report); [IAEA GOV/2026/8](https://www.iaea.org/sites/default/files/gov2026-8.pdf); [BIS order, In re Seagate](https://www.bis.gov/media/documents/export-violation/e2836.pdf).
 
 :::callout {title="Read first if you pick it: full text of the Claude Opus 4.7 System Card (fictional teaching document)" tone="neutral" collapse="closed"}
 This is a fictional in-universe teaching document written by XLab and modeled on Anthropic’s published system cards. It is not a real system card, and its numbers describe no released model. Read it through before you clip. The exercise below carries the same text in its Full report view, with the passages tappable.
@@ -412,7 +412,7 @@ The keys. Open the one for the report you worked, after you have delivered, and 
 
 #### Question: Open
 id:: e5ec7bb4-41a4-4706-9ec1-37c9cb23d770
-content:: After you delivered: which reader question went unanswered, and which passage would have answered it? Name the passage you left in the pool, say what it would have changed for that reader, and say what your clipping rule would be next time.
+content:: After you delivered: which reader question went unanswered, and which passage would have answered it? Name the passage you left in the pool, say what it would have changed for that reader, and say what your clipping rule would be next time. If you answered every reader question, instead name a point you sent to a reader who already knew it, and say what you would have sent them instead.
 assessment-instructions:: Grade against the key callout for the report the learner worked, and against the widget state, which lists their clippings, their actor picks, their threads and the unanswered questions by reader. Score three things, roughly a third each: (1) a real gap is named, one of the reader questions the delivery left red, not a generic regret; (2) the passage that would have answered it is identified from the report and the learner says what that reader would have done differently with it; (3) the clipping rule they draw is about relevance to a named reader, not about clipping more. Full marks are available to a learner who answered every question, if they name a point they threaded to a reader who already knew it and say what they would have sent instead. Do not penalise a short answer that does all three.
 feedback-instructions:: If the learner named a gap that is not in their widget state, say which questions actually went red. If their rule is "clip more", point at the notebook cap and ask which clip they would drop. Close on the one thing they would carry into the next report. Two or three sentences, no praise.
 optional:: true
