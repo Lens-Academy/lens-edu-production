@@ -1,0 +1,71 @@
+---
+id: '9a082b6c-85fd-47df-b44d-5e9bc6b311f5'
+title: "Efficient tradeoffs and the safety-usefulness tradeoff model"
+tldr: "Safety gets bought with usefulness, and the developer's willingness to pay runs out. That picture tells you what to build and what to ask for. Buck Shlegeris argues it holds when the developer is a rushed version of you, and breaks when the pressure comes from regulators, governments or the public, because then what the developer is buying is their approval rather than safety."
+summary_for_tutor: "Unit 3 of AI Control 1, in the how-useful-is-control thread that runs from How useful is AI control? through Unit 4. Buck Shlegeris's post is rendered whole with no added framing, so everything here except the opening Text segment is the post plus the one exercise inserted into it. The opening Text segment is our lead-in: it says what the post argues, flags Shlegeris's convention that 'you' means the person who wants safety, and links forward to the two lessons that build on this one. Sequence: lead-in, then the post from its opening through 'Rushed reasonable developers', then the free response (propose an intervention, name its usefulness cost, justify the trade), then the rest of the post (limited political will, why the model fails when developers do not trade efficiently, overall thoughts, and the appendix of definitions), then a practice question (added September 2026) on a new case, a developer that adopts measures in response to staff petitions, and then the same developer led by people who share the safety goal and concede up to a fixed slowdown: does the model apply in each, and what should a safety researcher there do; its model answer is in the assessment-instructions. The exercise sits mid-post on purpose, so a learner answering it has not yet read the sections on political feasibility; do not grade against them. The lesson's contribution to the thread is the vocabulary the next lessons run on: safety budget, political will, and the two levers (push out the Pareto frontier, increase the safety budget)."
+reading_minutes: 25
+tutor_minutes: 5
+tags: []
+---
+#### Text
+content::
+\## Before you read
+
+The lessons from [[../Lenses/XLab Control - how-useful-is-ai-control|How useful is AI control?]] through Unit 4 ask whether AI control is worth what it costs. This lesson supplies the price tag they reason with.
+
+The reading is Buck Shlegeris's post on what he calls the safety-usefulness tradeoff model: developers face a tradeoff between the safety and the usefulness of an AI deployment, and have only limited willingness or ability to sacrifice usefulness for safety. Two levers follow. Safety tech improvements push out the Pareto frontier, so a given usefulness cost buys more safety than it used to. Safety budget increases raise how much usefulness the developer will give up at all, from implementing cheap measures at one end to refraining from training or deploying a model at the other. One convention to carry in: throughout the post, "you" is the person who wants safety and is using the model to decide what to do.
+
+Most of the post is about when the model applies. Shlegeris separates two ways of motivating it, a rushed reasonable developer who shares your beliefs but is forced to move fast, and limited political will, where the developer does not share your priorities but you have some influence, and argues the model is the right analysis for the first and for the versions of the second where the developer will concede to safety-motivated stakeholders up to some cost threshold, and a poor one where the developer is instead acting under pressure from third parties whose beliefs or priorities differ from yours.
+
+Two later lessons run on this vocabulary. [[../Lenses/XLab Control - determining-the-usefulness|Determining the usefulness]] takes the safety budget and political will from here and builds its regime model around them, and the closing exercise of this thread, in Unit 4, [[../Lenses/XLab Control - running-the-model|Running the model]], has you spend a research team's effort using these two levers. Partway through the reading, you will be stopped for a short written exercise.
+
+#### Article
+source:: [[../articles/buck-efficient-tradeoffs-and-the-safety-usefulness-tradeoff-model]]
+to:: rather than about how to cause major changes in how AI developers will handle catastrophically dangerous AI.
+
+#### Question: Open
+id:: 5c3d29f1-79da-42ec-9c8a-602ecbb42174
+content::
+\## Free response
+
+Propose a safety intervention you believe would be worth implementing, name the usefulness cost, and answer why the increase in safety justifies the usefulness cost.
+
+Write between 30 and 200 words.
+feedback-instructions:: The learner has read the post's opening and its "Rushed reasonable developers" section and nothing after it. There is no model answer. In at most five sentences: say whether they gave all three things the prompt asks for (an intervention, its usefulness cost, and why the safety gain justifies that cost), then push on the weakest of the three. One turn, no follow-up question. No generic praise.
+
+Criteria, roughly equal weight:
+1. **A specific intervention.** Something a developer could decide to do, named concretely enough that you could picture it being implemented: a monitoring or auditing protocol, a restriction on what a model may touch, a deployment held back, a model not trained. "More safety research" or "take alignment seriously" does not meet this.
+2. **A usefulness cost, named.** They say what the developer gives up, in a currency the reading supplies: a slowdown in the developer's rate of progress, compute spent on safety instead of capabilities, delay, or a deployment forgone. A learner who claims the intervention is free should say what it still costs the developer to adopt. Vagueness here ("it would cost a bit of performance") is the criterion's failure mode, not a wrong answer.
+3. **A trade actually argued.** They compare the two: why this much safety is worth that much usefulness. Credit reasoning that turns on the margin, meaning that this intervention buys more safety per unit of cost than the alternatives, since that is the standard the reading says a reasonable developer applies. Do not require it.
+
+Deduct for a response under 30 words, and for one that argues that safety matters in general without pricing the intervention it proposed. Never mark the learner's choice of intervention wrong; the prompt asks what they believe is worth implementing, and there is no house answer.
+
+Reply in at most four sentences: name the intervention and cost they gave, say which of the three criteria the response leaves thinnest, and ask one causal follow-up about it. Do not over-validate. Avoid generic praise (great job, excellent recall, well done). If the learner says they do not understand, give one concrete foothold from the material rather than repeating the question, for example the reading's own range of what a safety budget buys, from implementing a cheap measure at one end to refraining from deploying a model whose risks cannot be mitigated at the other, and ask them to pick a point on it. If their next message still does not attempt the question, rephrase the whole question in different terms. Grade only against the criteria above.
+
+#### Article
+from:: ## Limited political will
+
+#### Callout: Practice: does the model apply?
+tone:: amber
+
+#### Question: Open
+id:: ca067b2f-14d8-4e3f-a9f9-780ef3ee7153
+content:: A new case. At one AI developer, leadership adopts safety measures mainly in response to internal petitions: whichever measures staff are most upset about get adopted, as long as they do not slow product work much. A safety researcher there thinks trusted monitoring of all internal AI agents is the most cost-effective measure available, but few staff have heard of it.
+
+(a) Does the safety-usefulness tradeoff model describe how this developer chooses its safety measures? What should the researcher do to get the most safety?
+(b) Suppose instead that leadership agrees with the researcher about misalignment risk and adopts whatever measures the safety team recommends, as long as the total slowdown stays under 5% because a rival is close behind. Does the model now apply, and what kind of work would help the researcher most?
+placeholder:: Answer (a), then (b)
+assessment-instructions:: Score out of 100. (a) 50: 15: the model fits poorly; 15: why: this developer picks measures by how much they calm staff for their cost to product work, not by safety as the researcher judges it, so a measure's real safety value is only loosely tied to whether it is adopted; 20: a strategy that works through what actually gets this developer to adopt a measure, for example making the case for trusted monitoring legible to staff so their concern goes to it, framing it in terms staff already care about, or choosing asks that are both valuable and easy to explain. (b) 50: 15: the model now applies; 15: why: the safety team chooses the measures and the developer concedes up to a fixed cost, so measures are picked by safety per unit of cost; 20: at least one kind of work that helps: techniques that buy more safety for the same slowdown, or making the case, for example with evidence of risk, for a larger allowance than 5%. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "(a) The model fits poorly. It assumes the developer adopts whichever measures give the best tradeoff between safety, judged by the person who wants safety, and usefulness. Here the developer adopts the measures with the best tradeoff between calming staff and cost to product work, so a measure's real safety value is only loosely connected to whether it is adopted. The researcher should therefore rate her options by how likely they are to be adopted, not only by safety per unit of cost: for example, make the case for trusted monitoring legible to staff so that their concern is channelled toward it (an indirect route that may be clumsy), frame it in terms staff already care about, or choose asks that are both valuable and easy to explain. (b) Now the model applies: the safety team chooses the measures and the developer concedes up to a fixed cost, so the team will pick the measures with the best safety per unit of cost. Two kinds of work help: techniques that buy more safety for the same slowdown, which will be adopted because they are efficient, and making the case for a larger allowance than 5%, for example with evidence of risk."
+feedback-instructions:: In at most four sentences: say what the learner got right, then give whichever part of the model answer they missed. If they got either verdict wrong, say plainly who is choosing the measures and by what criterion. No follow-up question. No generic praise.
+
+#### End Callout
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Shlegeris, Buck. "Efficient tradeoffs and the safety-usefulness tradeoff model." *Redwood Research blog*, 8 June 2026. [blog.redwoodresearch.org](https://blog.redwoodresearch.org/p/efficient-tradeoffs-and-the-safety)
+*The whole of this lesson's reading: the safety-usefulness tradeoff model, the two levers it implies, and the argument about the conditions under which it stops applying.*
+
+XLab. "Efficient tradeoffs and the safety-usefulness tradeoff model." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/how-useful-is-ai-control/safety-usefulness-tradeoff-model)
+*The source lesson this page adapts.*
+:::

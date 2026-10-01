@@ -3,13 +3,20 @@ title: "Win/continue/lose scenarios and execute/replace/audit protocols"
 author:
   - "Buck Shlegeris"
 source_url: "https://redwoodresearch.substack.com/p/wincontinuelose-scenarios-and-executereplaceaudi"
-published: 2025-01-14
+published: 2024-11-15
 created: 2026-07-02
 accessed: 2026-07-02
 description: "In this post, I’ll make a technical point that comes up when thinking about risks from scheming AIs from a control perspective."
 tags:
   - "article-importer"
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 
 In this post, I’ll make a technical point that comes up when thinking about risks from scheming AIs from a [control perspective](https://redwoodresearch.substack.com/p/the-case-for-ensuring-that-powerful).
 
@@ -82,7 +89,7 @@ Let’s reason through what happens when the AI attacks. First, let’s think ab
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!ONRj!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4619def-0f20-4cb8-9fef-c6efc8e82100_1064x1242.png)
+![](https://substackcdn.com/image/fetch/$s_!ONRj!,w_1064,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4619def-0f20-4cb8-9fef-c6efc8e82100_1064x1242.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ONRj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff4619def-0f20-4cb8-9fef-c6efc8e82100_1064x1242.png)
 
@@ -115,7 +122,7 @@ In [Simple probes can catch sleeper agents](https://www.anthropic.com/research/p
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!1kTy!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00070420-f951-4bd0-8d13-cb41d805220f_1600x1161.png)
+![](https://substackcdn.com/image/fetch/$s_!1kTy!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00070420-f951-4bd0-8d13-cb41d805220f_1600x1161.png)
 
 ](https://substackcdn.com/image/fetch/$s_!1kTy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00070420-f951-4bd0-8d13-cb41d805220f_1600x1161.png)
 

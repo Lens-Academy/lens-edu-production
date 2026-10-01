@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 In this post, I'll list all the areas of control research (and implementation) that seem promising to me.
 
 This references framings and abstractions discussed in [Prioritizing threats for AI control](https://www.lesswrong.com/posts/fCazYoZSSMadiT6sf/prioritizing-threats-for-ai-control).

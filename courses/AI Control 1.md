@@ -8,9 +8,53 @@ tags:
   - work-in-progress
 partner-url: "https://xrisk.uchicago.edu/"
 ---
-%% Placeholder course so that applications can be collected for the October 12, 2026 cohorts (c25 intensive, c26 part-time). Same pattern and reasoning as the Alignment Theory of Deep Learning placeholder (PR #95): a cohort needs a course that production content resolves, or sign-ups skip the application form entirely. The course is not listed anywhere. The frontmatter id, slug, slug-aliases, title and description are byte-identical to `AI Control 1.md` on staging, so promoting the real course later is a clean replace of this file rather than a new id. Replace the placeholder module with the real modules and meetings before the course starts. %%
+
+%%
+Links:
+- Original: https://aisafetytracks.com/tracks/control
+
+Split (September 2026): the original seven-module track (2639 min core, no tutor time) is cut into two five-day courses of equal length. AI Control 1 = M1 to M3 plus the first part of M4 (through "Why it's hard to make settings for high-stakes control research"), 1318 min core. AI Control 2 = the M4 guided exercises (collusion, legibility) plus M5 to M7, 1321 min core. The old M1 to M7 module files are in _deprecated; lenses are unchanged.
+
+Core self-study per day: D1 232 min plus about 45 min of learning-outcome tests, D2 280 plus about 38 min of learning-outcome tests (the founding paper split into four lenses, September 2026), D3 310 plus about 45 min of learning-outcome tests (catching red-handed split into two lenses, lens times re-estimated and learning outcomes added, September 2026), D4 291 plus about 24 min of learning-outcome tests (areas of control work split into two lenses and lens times re-estimated, September 2026), D5 367 plus about 38 min of learning-outcome tests (Ctrl-Z split into two lenses, lens times re-estimated and five practice questions added, September 2026). Optional: D5 adds 25 (synchronous monitors).
+
+Surveys follow the Compute Verification pattern: meetings 1 to 4 use the shared Lens Post-Meeting Impact Survey v2, meeting 5 uses AC1 Final Impact Survey v2 (copy of CV1 Final with fresh ids and the course name swapped). Navigator surveys reuse the generic pair.
+%%
 
 application-survey:: [[../surveys/Application Form]]
 
-# Module: [[../modules/coming-soon]]
-optional:: true
+# Module: [[../modules/XLab Control P1 Overview]]
+
+# Module: [[../modules/XLab Control P1 D1 Why control|Unit 1: Why control]]
+
+# Meeting: Unit 1
+meeting-doc:: [[../meetings/AI Control 1/Meeting 1]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Session 1 Debrief]]
+
+# Module: [[../modules/XLab Control P1 D2 The founding paper and passing the buck|Unit 2: The founding paper and passing the buck]]
+
+# Meeting: Unit 2
+meeting-doc:: [[../meetings/AI Control 1/Meeting 2]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+# Module: [[../modules/XLab Control P1 D3 Catching schemers, prioritising threats, and the case against control|Unit 3: Catching schemers, prioritising threats, and the case against control]]
+
+# Meeting: Unit 3
+meeting-doc:: [[../meetings/AI Control 1/Meeting 3]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+# Module: [[../modules/XLab Control P1 D4 Plans, the control toolkit, and high-stakes framing|Unit 4: Plans, the control toolkit, and high-stakes framing]]
+
+# Meeting: Unit 4
+meeting-doc:: [[../meetings/AI Control 1/Meeting 4]]
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+# Module: [[../modules/XLab Control P1 D5 High-stakes monitoring and mitigation|Unit 5: High-stakes monitoring and mitigation]]
+
+# Meeting: Unit 5
+meeting-doc:: [[../meetings/AI Control 1/Meeting 5]]
+survey:: [[../surveys/AC1 Final Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]

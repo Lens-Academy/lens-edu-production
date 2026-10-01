@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Suppose you’ve trained a really clever AI model, and you’re planning to deploy it in an agent scaffold that allows it to run code or take other actions. You’re worried that this model is [scheming](https://joecarlsmith.com/2023/11/15/new-report-scheming-ais-will-ais-fake-alignment-during-training-in-order-to-get-power), and you’re worried that it might only need to take a small number of actions to get to a dangerous and hard-to-reverse situation like [exfiltrating its own weights](https://www.alignmentforum.org/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments). Problems like these that the AI can cause with small numbers of actions are particularly hard to address with standard safety techniques, because by default you are unlikely to notice the problem until the hard-to-reverse outcome has already occurred.
 
 One of the main classes of techniques that you could apply in the hope of preventing these catastrophic actions is what we call **untrusted monitoring** ([introduced in our paper here](https://arxiv.org/abs/2312.06942)), which is roughly “before you execute a model’s action, ask another instance of that model whether the proposed action would be extremely dangerous”.
@@ -38,7 +45,7 @@ Here’s a summary of how likely I think it is that untrusted monitoring drastic
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!mZ5D!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png)
+![](https://substackcdn.com/image/fetch/$s_!mZ5D!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png)
 
 ](https://substackcdn.com/image/fetch/$s_!mZ5D!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1484e036-b6e0-46fe-bc4c-d522e1315c82_1526x1312.png)
 
@@ -71,6 +78,7 @@ Here’s a basic design for untrusted monitoring during deployment. I’ve inclu
 
 [
 
+%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
 ![](https://substackcdn.com/image/fetch/$s_!XbxG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9fc0fc-62a9-471f-a6ef-fc40e144325c_261x538.webp)
 
 ](https://substackcdn.com/image/fetch/$s_!XbxG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9fc0fc-62a9-471f-a6ef-fc40e144325c_261x538.webp)
@@ -116,7 +124,7 @@ In our last paper, we chose between execute/replace/audit by using the monitor t
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!z6Jc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp)
+![](https://substackcdn.com/image/fetch/$s_!z6Jc!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp)
 
 ](https://substackcdn.com/image/fetch/$s_!z6Jc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9bda9a15-c035-49f2-a0af-0c20f0d4744f_524x349.webp)
 

@@ -1,0 +1,39 @@
+---
+id: '00159bd8-9d86-49c6-8598-924f1f3dbcab'
+learning-outcome: "Given a monitor's catch rates at the thresholds set by an audit budget and by a separate, larger budget for replacing suspicious actions, and how often an attack that runs succeeds, estimate the chance that a scheming model is caught before any attack succeeds, as the chance an attack is audited divided by the chance that it is either audited or runs and succeeds; explain why replacing an action without auditing it turns a would-be loss into a continued deployment rather than a win; and predict how changing the audit budget, the replacement budget or how reliably replacement neutralises an attack moves that chance."
+topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+stage: intermediate
+requires:
+  - "[[Monitors under an audit budget]]"
+  - "[[Attack rate against a control protocol]]"
+authors:
+  - Elias+Claude
+---
+## Test:
+id:: c97a9eca-f681-42b9-b5fe-9332e1879ae5
+
+#### Question: Open
+id:: 5aac32d9-2a76-4f17-ad16-9d7327d47d08
+content::
+A lab deploys an untrusted coding agent U for six months, on many thousands of tasks. U may be scheming. If it is, it will now and then attempt sabotage (an "attack"). A monitor scores every action U proposes. On a large labelled test set, the monitor behaves like this:
+
+| Share of normal actions scored above the threshold | 0.2% | 0.4% | 1% | 4% |
+| --- | --- | --- | --- | --- |
+| Share of attacks scored above the same threshold | 30% | 38% | 55% | 92% |
+
+The lab's protocol: the lab can afford human review of 0.2% of actions, so actions above that threshold are held, not run, and reviewed. A review always recognises an attack, and the lab then shuts U down. Actions above the 4% threshold that are not reviewed are also not run: a weaker trusted model writes a replacement action, which is run instead. Every other action runs. An attack that runs succeeds half the time, and a failed attack goes unnoticed. Assume that a scheming U keeps attacking from time to time until it is either caught or succeeds, and that the monitor scores U's real attacks like the attacks in the test set. "Safety" means the probability that U is caught before any attack succeeds.
+
+1. Estimate safety under this protocol, if U is scheming. Show your working.
+2. A manager says: "Replacing actions never catches anyone, so stop replacing, and use the saved cost to double human review to 0.4% of actions." Estimate safety under this proposal, and say whether you would adopt it, and why.
+3. Separately, an engineer proposes keeping the protocol but having the trusted model edit a suspicious action instead of writing a new one, because edited actions keep more of U's useful work. Tests show that a quarter of attacks that are edited rather than reviewed still succeed when run (the half-the-time figure above does not apply to them; the other three quarters are neutralised). Estimate safety under this change, and explain what it does.
+placeholder:: Show your working for each part
+assessment-instructions:: Score out of 100. Part 1, 35: 15 for the per-attack chances: reviewed and caught 0.30, runs and succeeds 0.04 (0.08 is not flagged at the 4% threshold, and half of that succeeds), and the other 0.62 replaced; 20 for combining them as the chance of being caught relative to the chance that the attack either is caught or succeeds, 0.30 / (0.30 + 0.04), about 88% (85 to 90%, or the exact fraction 15/17), whether as a ratio, as odds or as a sum over repeated attacks. Part 2, 30: 15 for about 55% (50 to 60%): caught 0.38, runs 0.62, succeeds 0.31, safety 0.38 / (0.38 + 0.31); 15 for recommending against, because without replacement far more attacks run (0.62 instead of 0.08) while doubling review adds only 8 points of catch rate. Part 3, 25: 15 for about 61% (55 to 65%): a quarter of the 0.62 replaced attacks, about 0.155, now succeed, so successes per attack become about 0.195 and safety 0.30 / (0.30 + 0.195); 10 for explaining that edited attacks that still work move outcomes from the deployment continuing to U succeeding. 10: shows, in any part, that a replaced but unreviewed attack is neither a catch nor a success, so the deployment continues and U can attack again; working that leaves replaced attacks out of both the caught and the succeeded counts shows this. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 45 if the answer never compares the chance of being caught with the chance of an attack succeeding (for example it reports 30%, 70%, 92% or 96% as safety, or multiplies per-attack chances over an assumed number of attacks without justifying that number). Cap at 55 if it recommends the manager's proposal as safer without a sound numerical reason. Cap at 55 if it never recognises, in any part, that replacing an attack neither catches U nor lets the attack succeed. Grade reasoning, not agreement. A pass is roughly 60. Model answer, for the feedback, not a grading checklist: "Part 1. Per attack: reviewed and caught 0.30. Not flagged at the 4% threshold, so it runs: 1 - 0.92 = 0.08, of which half succeed, 0.04. The other 0.92 - 0.30 = 0.62 is replaced: nothing is caught and nothing succeeds, so the deployment continues and U attacks again later. Each attack either ends the game (caught or succeeded) or leaves it running, so safety is the chance of being caught relative to the chance of either ending: 0.30 / (0.30 + 0.04), about 88%. Part 2. With review at 0.4% and no replacement: caught 0.38; 0.62 runs and 0.31 succeeds; safety 0.38 / (0.38 + 0.31), about 55%. Do not adopt it: replacement is what turns most would-be successes into mere continuations, giving review more chances to catch U, and doubling review adds only 8 points of catch rate. Part 3. A quarter of the 0.62 replaced attacks, about 0.155, now succeed, so successes per attack become 0.04 + 0.155 = 0.195; safety 0.30 / (0.30 + 0.195), about 61%. Leaky replacement turns continuations back into losses: editing keeps more of U's useful work but costs a lot of safety. Worth keeping in mind: a scheming U might attack more rarely or pick attacks the monitor scores low, the test-set rates may not hold in deployment, replacement costs usefulness, and one caught attack might not be enough to justify a shutdown."
+feedback-instructions:: Name the strongest part of the answer in one sentence, then the single change that would most improve it. If the learner used a single catch rate as safety, ask them what else can end the game on a given attack. If they backed the manager, point them to how many attacks would now run. If they missed what edited attacks do, ask where those attacks end up. Do not reveal or discuss the numerical score. At most five sentences.
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/XLab Control - win-continue-lose]]
+notes:: Teaches the execute/replace/audit protocol shape, the three outcomes of an attack, why replacing and auditing have different costs and different consequences of a false negative, the rule of thumb that safety is the ratio of the per-attack chances of a catch and a successful execution, and the worked probe example (with replacement 90%, without 26%). Practice with feedback: the recall questions on the protocol and the three outcomes, and the added practice question that computes safety with and without replacement on a different monitor and with a replacement that sometimes fails to neutralise the attack.
+## Lens:
+source:: [[../Lenses/XLab Control - ctrl-z-resampling]]
+notes:: Background: Defer to resample is a replace strategy in the same framework, and the widget shows the win, continue and lose shares moving.

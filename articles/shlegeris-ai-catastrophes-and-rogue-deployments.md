@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 \[Thanks to Aryan Bhatt, Ansh Radhakrishnan, Adam Kaufman, Vivek Hebbar, Hanna Gabor, Justis Mills, Aaron Scher, Max Nadeau, Ryan Greenblatt, Peter Barnett, Fabien Roger, and various people at a presentation of these arguments for comments. These ideas aren’t very original to me; many of the examples of threat models are from other people.\]
 
 In this post, I want to introduce the concept of a “rogue deployment” and argue that it’s interesting to classify possible AI catastrophes based on whether or not they involve a rogue deployment. I’ll also talk about how this division interacts with the structure of a safety case, discuss two important subcategories of rogue deployment, and make a few points about how the different categories I describe here might be caused by different attackers (e.g. the AI itself, rogue lab insiders, external hackers, or multiple of these at once).
@@ -124,7 +131,7 @@ Here’s a table commenting briefly on the mix-and-match of these with the catas
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!T5HX!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe519c59c-2000-4669-8e4f-7a44bf333f46_1702x674.png)
+![](https://substackcdn.com/image/fetch/$s_!T5HX!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe519c59c-2000-4669-8e4f-7a44bf333f46_1702x674.png)
 
 ](https://substackcdn.com/image/fetch/$s_!T5HX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe519c59c-2000-4669-8e4f-7a44bf333f46_1702x674.png)
 
