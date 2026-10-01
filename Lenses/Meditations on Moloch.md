@@ -1,12 +1,16 @@
 ---
 id: bc7f7e53-0125-4e5b-af01-88c1fbcdb276
-summary_for_tutor: "Covers coordination failures as a source of AI risk through Scott Alexander's concept of 'Moloch': multipolar traps and perverse incentives that drive groups toward outcomes no individual wants. Applies this to AI development where competitive pressure forces companies and nations to accelerate while cutting safety corners, even when every individual researcher prefers a safe outcome."
+reading_minutes: 60
+tutor_minutes: 10
+summary_for_tutor: "Scott Alexander uses Ginsberg's 'Moloch' as a name for multipolar traps: competition in which each actor sacrifices shared values to stay competitive, producing outcomes nobody wants. His examples include the Prisoner's Dilemma, dollar auctions, the Malthusian trap, capitalism, arms races, cancer and races to the bottom. He argues these traps are held back only by excess resources, physical limitations, utility maximization and coordination, and that advancing technology erodes all four. AI appears as both the ultimate trap (a superintelligence maximizing one arbitrary goal, such as paperclips) and the possible exit: a superintelligence on our side could act as a Gardener optimizing for human values and 'kill Moloch dead'."
 title: Meditations on Moloch
-tldr: Even if every AI researcher wants a safe outcome, competitive pressure can push everyone toward outcomes nobody wants. This essay explores "Moloch" — a name for the traps and perverse incentives that drive groups to collectively destroy what they individually value.
+# tldr: Even if every AI researcher wants a safe outcome, competitive pressure can push everyone toward outcomes nobody wants. This essay explores "Moloch" — a name for the traps and perverse incentives that drive groups to collectively destroy what they individually value.
 ---
-#### Text
-content::
-The failure of alignment is not always a result of technical incompetence: often, it is a consequence of coordination failure. This essay explores the concept of "Moloch," a personification of multipolar traps and perverse incentives that drive agents toward outcomes no one desires. In the context of AI, Moloch represents the competitive pressure that forces companies and nations to accelerate development while cutting corners on safety. Even if every individual researcher wants a safe outcome, the system as a whole can be optimised for destruction. This material examines why technical safety alone is insufficient if we cannot solve the game-theoretic forces that govern our world. 
+%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
+The failure of alignment is not always a result of technical incompetence: often, it is a consequence of coordination failure. This essay explores the concept of "Moloch," a personification of multipolar traps and perverse incentives that drive agents toward outcomes no one desires. In the context of AI, Moloch represents the competitive pressure that forces companies and nations to accelerate development while cutting corners on safety. Even if every individual researcher wants a safe outcome, the system as a whole can be optimised for destruction. This material examines why technical safety alone is insufficient if we cannot solve the game-theoretic forces that govern our world.{--{"author":"Plex's AI","timestamp":1790617831143}@@ --}{++{"author":"Plex's AI","timestamp":1790617831143}@@ 
+%%++}
 
 #### Article
 source:: [[../articles/alexander-meditations-on-moloch]]

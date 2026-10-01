@@ -1,21 +1,31 @@
 ---
 id: 0142f30d-e2a6-47b3-8125-33f6fede737e
-summary_for_tutor: Argues that AI systems capable of large-scale novel science will likely pursue unwanted goals by default, leading to catastrophic outcomes. Covers why novel task environments create dangerous distribution shifts, why behavioral training cannot precisely specify terminal goals, why oversight of misaligned powerful AI is fundamentally difficult, and why a misaligned AI could plausibly escape containment and pursue catastrophic outcomes.
+reading_minutes: 90
+tutor_minutes: 10
+summary_for_tutor: "MIRI researchers Jeremy Gillen and Peter Barnett argue that AIs capable of large-scale novel science (on the scale of the Manhattan Project or curing cancer) will by default pursue unwanted goals and cause catastrophe, even with significant countermeasures. Their chain: such work means overcoming many novel obstacles, so the AI will be approximately consequentialist; it must learn new facts and skills, which creates dangerous distribution shifts; behavioral training leaves its terminal goals underspecified; oversight and control of misaligned powerful AI is hard, so AI-assisted research cannot be both safe and much faster; and a misaligned AI could likely escape containment and pursue outcomes incompatible with human survival. They do not speculate on which fundamental advances would change this."
 title: Without fundamental advances
-tldr: Many alignment proposals assume that iterating on current training with enough safety patches will probably work out. This article argues the opposite — given how we currently build AI, misalignment isn't the exception. It's what we should expect by default without fundamentally new approaches.
+# tldr: Many alignment proposals assume that iterating on current training with enough safety patches will probably work out. This article argues the opposite — given how we currently build AI, misalignment isn't the exception. It's what we should expect by default without fundamentally new approaches.
 ---
 
+%% COMMENTED OUT (AI-generated framing):
 #### Text
 content::
 Many alignment proposals assume that if we just iterate on current training and add enough safety patches, things will probably work out. This material argues the opposite: given how we currently build powerful AI systems, misalignment and catastrophe are the default outcomes
+%%
 
 #### Article
 source:: [[../articles/gillen+barnett-without-fundamental-advances,-misalignment-and-catastrophe-are-the-default-outcomes-of-training-powerful-ai]]
 to:: "research task every 8 minutes."
 
-#### Text
-content::
+%% #### Text
+content:: %%
+%% ORIGINAL (commented out as AI slop; "security theory" is wrong):
 The author argues that we are in a situation where the "blueprints" of our AI fundamentally prevent us from predicting its behavior at a superhuman level. If so, what specific "fundamental advances" in security theory could convince you that the system can be safely deployed? Or do you believe we can get by without complete theoretical clarity?
+%%
+
+%% PROPOSED FIX:
+The authors argue that the way we build AI stops us predicting how it will behave once it's superhuman. If so, what specific advances would convince you a system is safe to deploy? Or could we manage without that level of understanding?
+%%
 
 #### Chat
 instructions::

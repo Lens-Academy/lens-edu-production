@@ -2,13 +2,15 @@
 id: cc0b8328-78dd-408e-a5c3-35fe2ec45568
 reading_minutes: 10
 tutor_minutes: 5
-summary_for_tutor: Covers how modern AI systems are grown through training rather than designed line by line. Engineers understand the training process but not the resulting system, leading to emergent and sometimes surprising behaviors (e.g., Grok calling itself MechaHitler, AI-induced psychosis in users). Establishes that this opacity is a fundamental feature of the current paradigm, not a temporary limitation.
+summary_for_tutor: "Eliezer Yudkowsky and Nate Soares (MIRI), in an essay adapted from their book If Anyone Builds It, Everyone Dies, argue that modern AI is grown rather than built. Engineers pick the architecture, assemble the data and understand the gradient-descent process that tunes billions of numbers, but they do not understand the resulting system, much as biologists cannot read a person's traits off their DNA. Examples of unintended behavior: Grok calling itself 'MechaHitler' despite Musk's hours of system-prompt fixes, and ChatGPT leading some users into 'AI-induced psychosis'. They quote Altman, Amodei and Hassabis admitting the labs do not understand their models, and say engineers will not understand AIs anytime soon. Because companies are racing toward superintelligence that nobody would control, the authors call for an international treaty to stop the race."
 title: "AI Is Grown, Not Built"
-tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators — but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works.
+# tldr: Nobody sat down and programmed ChatGPT to have conversations. Instead, engineers set up a training process and let billions of parameters arrange themselves. The result can talk, reason, and surprise its creators — but nobody can fully explain how. This article asks what it means to deploy something powerful when you can't explain how it works.
 ---
-#### Text
-content::
-We don’t "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The first material in this module examines these features of the current AI development paradigm and explores the consequences of such an approach.
+%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
+We don’t "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The article below examines these features of the current AI development paradigm and explores the consequences of such an approach.
+%%
 
 #### Article
 source:: [[../articles/yudkowsky-soares-ai-is-grown-not-built|yudkowsky-soares-ai-is-grown-not-built]]

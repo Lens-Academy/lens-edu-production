@@ -5,6 +5,13 @@ source_url: https://link.springer.com/chapter/10.1007/0-306-47539-1_7
 published: 2002
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Chapter 7: Commitment and Endogenous Threats
 
 ## 7.1 Introduction
@@ -45,7 +52,9 @@ Having 'solved' the SPE strategies for the second stage means that the analysis 
 
 This equivalence has several important implications. First, zero-sum games are known to have a unique value meaning that there exists a unique number that expresses player 1's Nash equilibrium utility and, due to the antagonistic character of zero-sum games, it also expresses player 2's utility. Translated to the threat game, this means that there is uniqueness in terms of a unique utility pair on the Pareto frontier. So, the threat game resolves in a unique Pareto efficient agreement. With respect to the equilibrium threats, (generic) uniqueness cannot be established, because zero-sum games like all other games often admit multiple Nash equilibria for a generic class of problems.$^2$ Second, all Nash equilibrium actions in zero-sum games are minmax strategies and vice versa. A minmax strategy for player 1 maximizes this player's worst outcome his opponent can impose upon him and, due to the antagonistic setting, player 2 has every incentive to keep player 1 down at his lowest utility level. Translated to the threat game this means that $(a_1^*, a_2^*)$ are SPE disagreement actions in the first stage if and only if
 
-$$a_i^* = \arg \max_{a_i^* \in A_i} \min_{a_j^* \in A_j} N_i\left(S, d(a^*)\right), \quad i, j = 1, 2, \quad j \neq i. \tag{7.1}$$
+$$
+a_i^* = \arg \max_{a_i^* \in A_i} \min_{a_j^* \in A_j} N_i\left(S, d(a^*)\right), \quad i, j = 1, 2, \quad j \neq i. \qquad\text{(7.1)}
+$$
 
 So, player 1 wants to pull the bargaining solution along the Pareto frontier in the south-east direction, whereas his opponent wants to pull it in the opposite direction. Finally, minmax strategies are said to be interchangeable meaning that if $a_i^*$ and $a_i^{**}$ are both minmax strategies for player $i$, then both actions do equally well against all of his opponents minmax actions and player $i$ can choose any of these two actions regardless of what his opponent will choose.
 
@@ -63,11 +72,15 @@ This proposition is illustrated in the following example.
 
 **Example 7.3.** *Consider the class of variable-threat games such that the set $S$ is given by*
 
-$$S = \left\{ s \in \mathbb{R}^2_+ \mid s_1 + s_2 \leq 1 \right\}.$$
+$$
+S = \left\{ s \in \mathbb{R}^2_+ \mid s_1 + s_2 \leq 1 \right\}.
+$$
 
 *The $H$-essential equilibrium concept singles out the equilibrium demands $x^*(a^*) = N\left(S, d(a^*)\right)$ in the second stage that are given by*
 
-$$x^*(a^*) = \tfrac{1}{2}\left(1 + d_1(a^*) - d_2(a^*), 1 - d_1(a^*) + d_2(a^*)\right), \quad a^* \in A.$$
+$$
+x^*(a^*) = \tfrac{1}{2}\left(1 + d_1(a^*) - d_2(a^*), 1 - d_1(a^*) + d_2(a^*)\right), \quad a^* \in A.
+$$
 
 *According to theorem 7.2, in choosing optimal threats, player 1 tries to maximize the quantity $d_1(a^*) - d_2(a^*)$, whereas player 2 tries to minimize this same quantity. Effectively, this means that the players play a zero-sum game in which $d_1(a^*) - d_2(a^*)$ represents player 1's utility function. The optimal threats $a^*$ need to constitute a Nash equilibrium of this zero-sum game.*
 
@@ -92,7 +105,9 @@ Let us therefore state the informally described bargaining procedure.
 
 As in Nash's variable-threat game the bargaining procedure is a multi-stage game with almost-perfect information and the SPE concept is appropriate. This implies that the alternating offers has to be solved for every possibly infinite sequence of actions $(a_i^t)_{t=0}^{\infty}$. Since these actions change over time, the disagreement point will also vary over time, which include the special case of alternating disagreement points studied in section 6.3.2. Recall that alternating disagreement points cause the technical problem that the standard analysis is only applicable if some 'constructed' disagreement point is taken into account. The latter point may lie above the Pareto frontier of the set $S$ and generic multiplicity cannot be ruled out. In this section we want to avoid these technical problems by restricting the analysis to the class of normalized bargaining problems with a linear Pareto frontier, that is, we assume,
 
-$$S = \left\{ s \in \mathbb{R}^2 \mid s_1 + s_2 \leq 1 \right\}. \tag{7.2}$$
+$$
+S = \left\{ s \in \mathbb{R}^2 \mid s_1 + s_2 \leq 1 \right\}. \qquad\text{(7.2)}
+$$
 
 This implicitly means that we also impose $d_1(a) + d_2(a) \leq 1$ for all $a \in A$. Consider an arbitrary subgame starting at the first bargaining round after the players have chosen their disagreement actions. This means that the infinite sequence of actions $(a^t)_{t=0}^{\infty}$, $a^t \in A$, is given and observed by the two players.
 
@@ -100,11 +115,15 @@ The corresponding subgame is equivalent to a non-stationary version of the alter
 
 **Lemma 7.5.** *For every infinite sequence of disagreement actions $(a^t)_{t=0}^{\infty}$ the alternating offers process admits a unique SPE. Moreover, at $t = 0$ the players immediately agree upon the SPE proposal $x(\delta, (a^t)) \in S$ given by*
 
-$$x_1(\delta, (a^t)) = (1 + \delta)^{-1} + (1 - \delta) \sum_{k=0}^{\infty} \delta^{2k} \left[ -d_2(a^{2k}) + \delta d_1(a^{2k+1}) \right]$$
+$$
+x_1(\delta, (a^t)) = (1 + \delta)^{-1} + (1 - \delta) \sum_{k=0}^{\infty} \delta^{2k} \left[ -d_2(a^{2k}) + \delta d_1(a^{2k+1}) \right]
+$$
 
 *and*
 
-$$x_2(\delta, (a^t)) = 1 - x_1(\delta, (a^t)).$$
+$$
+x_2(\delta, (a^t)) = 1 - x_1(\delta, (a^t)).
+$$
 
 Having solved for the SPE utilities at $t = 0$ means that the choice of the equilibrium disagreement actions at $t = -1$ simply boils down to playing a normal-form game in which player $i$, $i = 1, 2$, chooses an infinite sequence of actions $(a_i^t)_{t=0}^{\infty}$ with payoff function $x_1(\delta, (a^t))$. Moreover, this normal-form game is equivalent to a zero-sum game, which is similar as in Nash's variable-threat game.
 
@@ -112,27 +131,37 @@ This zero-sum game is easy to solve. First, the utility function $x_1(\delta, (a
 
 Hence, player 2's value for this zero-sum game is equal to his minmax value $m_2$ as already defined in chapter 2. Formally, the pair of SPE disagreement actions $a^{2k}$, $k \in \mathbb{N}$, is given by
 
-$$a_1^{2k} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} -d_2(a) \right] \quad \text{and} \quad a_2^{2k} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} d_2(a) \right], \tag{7.3}$$
+$$
+a_1^{2k} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} -d_2(a) \right] \quad \text{and} \quad a_2^{2k} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} d_2(a) \right], \qquad\text{(7.3)}
+$$
 
 where the argument, i.e., arg, only refers to the maximization. For a good understanding: The action $a_1^{2k}$ corresponds to player 1's minmax strategy that keeps player 2 at the utility level $m_2$. Recall from chapter 2 that the set of actions that minmax player 2 is denoted as $A^2$. Similar, the SPE disagreement actions $a^{2k+1}$, $k \in \mathbb{N}$, solve the smaller zero-sum game in which player 1's utility function is equal to $d_1(a^{2k+1})$ and the corresponding minmax actions are
 
-$$a_1^{2k+1} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} d_1(a) \right] \quad \text{and} \quad a_2^{2k+1} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} -d_1(a) \right]. \tag{7.4}$$
+$$
+a_1^{2k+1} = \arg \max_{a_1 \in A_1} \left[ \min_{a_2 \in A_2} d_1(a) \right] \quad \text{and} \quad a_2^{2k+1} = \arg \max_{a_2 \in A_2} \left[ \min_{a_1 \in A_1} -d_1(a) \right]. \qquad\text{(7.4)}
+$$
 
 This implies that the (mixed) actions in $A^i$, $i = 1, 2$, are the Nash equilibrium actions in a two-player zero-sum game with payoff functions $d_i(a)$, $a \in A$, for player $i$ and $-d_i(a)$ for the other player. As in chapter 2, the set of actions that minmax player 1 is denoted as $A^1$. A final substitution of $d_2(a^{2k}) = m_2$ and $d_1(a^{2k+1}) = m_1$ into the expressions of lemma 7.5 yields the elegant expression
 
-$$x(\delta, (a^t)) = \tfrac{1}{1+\delta}(1 + \delta m_1 - m_2, \delta + m_2 - \delta m_1).$$
+$$
+x(\delta, (a^t)) = \tfrac{1}{1+\delta}(1 + \delta m_1 - m_2, \delta + m_2 - \delta m_1).
+$$
 
 These arguments imply the following proposition.
 
 **Proposition 7.6.** *The sequence $(a^t)_{t=0}^{\infty}$, $a^t \in A$, is a sequence of SPE threats at $t = -1$ if and only if*
 
-$$a^t \in \begin{cases} A^2, & \text{if } t \text{ is even,} \\ A^1, & \text{if } t \text{ is odd.} \end{cases}$$
+$$
+a^t \in \begin{cases} A^2, & \text{if } t \text{ is even,} \\ A^1, & \text{if } t \text{ is odd.} \end{cases}
+$$
 
 *Moreover, $x(\delta, (a^t)) = \tfrac{1}{1+\delta}(1 + \delta m_1 - m_2, \delta + m_2 - \delta m_1)$ is the unique SPE agreement for all SPE sequences $(a^t)_{t=0}^{\infty}$ and $x(\delta, (a^t))$ converges to the axiomatic Nash bargaining solution $N(S, (m_1, m_2))$ as $\delta$ goes to 1.*
 
 From proposition 7.6 it is clear that the equilibrium disagreement actions alternate over time. Moreover, the disagreement actions are independent of the probability $\delta$. This result is quite different from the result obtained in theorem 7.2 or, given the linear Pareto frontier, example 7.3, where the disagreement actions are equilibrium actions of the zero-sum game with player 1's utility given by $d_1(a) - d_2(a)$. A similar result can only be obtained in the modified model of this section by imposing the restriction $a^t = a$ for all $t \in \mathbb{N}$ to the sequence $(a^t)_{t=0}^{\infty}$. Doing so, would mean that
 
-$$x(\delta, (a^t)) = \tfrac{1}{1+\delta}(1 + \delta d_1(a) - d_2(a), \delta + d_2(a) - \delta d_1(a))$$
+$$
+x(\delta, (a^t)) = \tfrac{1}{1+\delta}(1 + \delta d_1(a) - d_2(a), \delta + d_2(a) - \delta d_1(a))
+$$
 
 and the SPE threats $a \in A$ solve a zero-sum game in which player 1's utility is given by $\delta d_1(a) - d_2(a)$. Thus, the associated equilibrium threats now depend upon the probability $\delta$. Then, as $\delta$ goes to 1, the player 1's utility function converges to this player's utility function as derived in example 7.3. Without going into the details, it can be shown that the set of Nash equilibria is upper semi-continuous in $\delta \in [0, 1]$ and this suffices for the set of SPE disagreement actions corresponding to $\delta d_1(a) - d_2(a)$ to converge to some subset of the set of optimal threats of example 7.3. Thus, we have arrived at the following theorem.
 
@@ -168,7 +197,9 @@ At the first stage, the players have to state their demands while both anticipat
 
 **Proposition 7.9.** Consider the class of SPE strategies in which for some $a \in A$ the threats $a^*(x) = a$, $x \notin S$, and the players play the $H$-essential equilibrium $x = N(S, d(a))$ at the first stage. Then these strategies are SPE strategies if and only if $a \in A^N$. Moreover, the set of SPE outcomes consists of the set of compatible demands (or agreements)
 
-$$\left\{ x \in S \mid x = N(S, d(a^N)), \; a^N \in A^N \right\}. \tag{7.5}$$
+$$
+\left\{ x \in S \mid x = N(S, d(a^N)), \; a^N \in A^N \right\}. \qquad\text{(7.5)}
+$$
 
 From this results it follows that the ability (not) to commit has a huge impact on the type of results that can be obtained. First, at the heart of Nash's variable-threat game lies the assumption of irrevocable commitment to the ex-ante specified threats $a^* \in A$. However, note that in general the SPE disagreement actions of theorem 7.2 do not constitute a Nash equilibrium of the disagreement game, i.e. $a^* \notin A^N$, as is clearly demonstrated by example 7.24.
 
@@ -214,11 +245,15 @@ Note that each Nash equilibrium in $A^N$ corresponds to one particular pair of M
 
 Upper and lower bounds upon SPE utilities are derived by modifying the method of Shaked and Sutton, as extensively discussed in section 3.4.1. Lower and upper bounds upon SPE utilities require knowledge of these bounds in the 'final' subgame associated with permanent breakdown. Since SPE disagreement actions correspond to some pair of actions in $A^N$ contingent upon the exact history of the negotiations each player's lowest and highest utilities in the final subgame coincide with this player's extreme Nash equilibria in $A^N$. Formally, for each player $i$, $i = 1, 2$, the minimum and maximum Nash equilibrium utilities in $A^N$ are defined as
 
-$$n_i = \min\{d_i(a^N) \mid a^N \in A^N\} \quad \text{and} \quad N_i = \max\{d_i(a^N) \mid a^N \in A^N\}$$
+$$
+n_i = \min\{d_i(a^N) \mid a^N \in A^N\} \quad \text{and} \quad N_i = \max\{d_i(a^N) \mid a^N \in A^N\}
+$$
 
 (the symbol $N_i$ is used twice, namely for $N_i$ and $N_i(S, d)$, and it will be clear from the context which interpretation $N_i$ should have) and the corresponding Nash equilibrium actions which attain these payoffs are defined by
 
-$$\underline{a}^i = \arg\min_{a^N \in A^N} d_i(a^N) \quad \text{and} \quad \bar{a}^i = \arg\max_{a^N \in A^N} d_i(a^N).$$
+$$
+\underline{a}^i = \arg\min_{a^N \in A^N} d_i(a^N) \quad \text{and} \quad \bar{a}^i = \arg\max_{a^N \in A^N} d_i(a^N).
+$$
 
 By definition $d_2(\bar{a}^2) = N_2$ and $n_1 \leq d_1(\bar{a}^2)$ and $d(\bar{a}^2) \in S^{IR}$ imply that $(n_1, N_2) \leq d(\bar{a}^2)$ and $d(\bar{a}^2) \in S^{IR}$. Similar arguments apply to $(N_1, n_2) \in S^{IR}$. We arrived at the following crucial result in the analysis.
 
@@ -226,19 +261,25 @@ By definition $d_2(\bar{a}^2) = N_2$ and $n_1 \leq d_1(\bar{a}^2)$ and $d(\bar{a
 
 Before deriving the lower and upper bounds on the players' SPE payoffs, we postulate a pair of strategies with alternating disagreement actions and show that these strategies are SPE strategies. The rationale is simple. Consider a linear Pareto frontier and player 1's utility of lemma 7.5 once more, i.e.,
 
-$$(1+\delta)^{-1} + (1-\delta) \sum_{k=0}^{\infty} \delta^{2k} \left[ -d_2(a^{2k}) + \delta d_1(a^{2k+1}) \right].$$
+$$
+(1+\delta)^{-1} + (1-\delta) \sum_{k=0}^{\infty} \delta^{2k} \left[ -d_2(a^{2k}) + \delta d_1(a^{2k+1}) \right].
+$$
 
 Observe that player 1's utility depends positively on his disagreement payoff $d_1(a^{2k+1})$ if breakdown occurs in a round in which player 1 responds, and negatively on player 2's disagreement payoff $d_2(a^{2k})$ if breakdown occurs in a round in which player 2 is the responding player. Therefore, in order to incur the greatest loss of delay on player 1's utility given that SPE disagreement actions always belong to player 1's disagreement utility $d_1(a^{2k+1})$, $k \in \mathbb{N}$, are minimized if the actions $\underline{a}^1$ are played in case of a breakdown in every even period. The opposite case applies to player 2's disagreement utilities $d_2(a^{2k})$, $k \in \mathbb{N}$, that are maximized by the actions $\bar{a}^2$ in case of a breakdown in every odd period. The latter actions minimize the loss of delay on player 2's payoff and, thereby, strengthen his bargaining position. So, player 1's utility becomes $(1+\delta)^{-1}(1+\delta n_1 - N_2)$. This idea also works in general, especially because lemma 7.14 ensures that the constructed disagreement point $d = (n_1, N_2)$ lies below the Pareto frontier of $S^{IR}$. This rules out the multiplicity encountered in section 6.3.2. The informally described strategies are formally presented by table 7.2 for general bargaining problems, where $x^*(\delta, d)$ and $y^*(\delta, d)$ refer to the unique fixed point of the function $\mathbf{p} \times \mathbf{q}$ for $d = (n_1, N_2)$. The next proposition states that the strategies of table 7.2 are SPE. As will be shown in theorem 7.17 below these SPE strategies constitute player 1's worst pair of SPE strategies.
 
 **Proposition 7.15.** Let $x^*(\delta, (n_1, N_2))$ and $y^*(\delta, (n_1, N_2))$ form the unique fixed point of the function $\mathbf{p} \times \mathbf{q}$ for $d = (n_1, N_2)$, where $\mathbf{p} \times \mathbf{q}$ is defined in (3.1). Then the strategies of table 7.2 are SPE strategies for all $\delta \in [0, 1)$. Moreover,
 
-$$\lim_{\delta \to 1} x^*(\delta, (n_1, N_2)) = \lim_{\delta \to 1} y^*(\delta, (n_1, N_2)) = N(S, (n_1, N_2)).$$
+$$
+\lim_{\delta \to 1} x^*(\delta, (n_1, N_2)) = \lim_{\delta \to 1} y^*(\delta, (n_1, N_2)) = N(S, (n_1, N_2)).
+$$
 
 By reversing the roles of both players in the previous proposition we obtain player 2's worst pair of SPE strategies.
 
 **Proposition 7.16.** Let $x^*(\delta, (N_1, n_2))$ and $y^*(\delta, (N_1, n_2))$ form the unique fixed point of the function $\mathbf{p} \times \mathbf{q}$ for $d = (N_1, n_2)$. Then the strategies that are obtained by reversing the roles of the players in table 7.2 are SPE strategies for all $\delta \in [0, 1)$. Moreover,
 
-$$\lim_{\delta \to 1} x^*(\delta, (N_1, n_2)) = \lim_{\delta \to 1} y^*(\delta, (N_1, n_2)) = N(S, (N_1, n_2)).$$
+$$
+\lim_{\delta \to 1} x^*(\delta, (N_1, n_2)) = \lim_{\delta \to 1} y^*(\delta, (N_1, n_2)) = N(S, (N_1, n_2)).
+$$
 
 Note that the strategies of table 7.2 are non-Markov, since the disagreement actions played in case of breakdown do depend on the specific bargaining round in which breakdown occurs.
 
@@ -258,19 +299,25 @@ The latter strategies constitute player 1's most severe equilibrium punishment a
 
 **Proposition 7.18.** The strategies represented by table 7.3 are SPE strategies featuring immediate agreement upon $s^*$ at round $t = 0$ if and only if $s_1^* \geq x_1^*(\delta, (n_1, N_2))$ and $s_2^* \geq x_2^*(\delta, (N_1, n_2))$ for all $\delta \in [0, 1)$. Moreover, the history independent set of SPE utilities $E_1(\delta)$ at the start of every $t$ even is given by
 
-$$E_1(\delta) = \left\{ s \in S \mid s_1 \geq x_1^*(\delta, (n_1, N_2)), \; s_2 \geq x_2^*(\delta, (N_1, n_2)) \right\}.$$
+$$
+E_1(\delta) = \left\{ s \in S \mid s_1 \geq x_1^*(\delta, (n_1, N_2)), \; s_2 \geq x_2^*(\delta, (N_1, n_2)) \right\}.
+$$
 
 Note that this proposition is also valid in case the disagreement game admits a unique Nash equilibrium, i.e., $A^N$ consists of a single element, because then combining $(n_1, N_2) = (N_1, n_2) = d(a^N)$, $a^N \in A^N$, and the definition of the function $\mathbf{p} \times \mathbf{q}$ simply yields that $x_2^*(\delta, (N_1, n_2)) = x_2^*(\delta, (n_1, N_2))$. Thus, the upper and lower bounds coincide and the set $E_1(\delta)$ reduces to a single point on the Pareto frontier.
 
 Without going through all the details, we mention that it is also straightforward to characterize the history independent set of SPE utility pairs at the subgame that coincides with the start of every odd numbered bargaining round. This set is given by
 
-$$E_2(\delta) = \left\{ s \in S \mid s_1 \geq y_1^*(\delta, (n_1, N_2)), \; s_2 \geq y_2^*(\delta, (N_1, n_2)) \right\}.$$
+$$
+E_2(\delta) = \left\{ s \in S \mid s_1 \geq y_1^*(\delta, (n_1, N_2)), \; s_2 \geq y_2^*(\delta, (N_1, n_2)) \right\}.
+$$
 
 Proposition 7.18 also makes it easy to characterize the limit set of SPE utility pairs. Then we obtain the following results, simply by taking the limit $\delta$ goes to 1.
 
 **Theorem 7.19.** Let $E_j(\delta)$, $j = 1, 2$, denote the history independent set of SPE utilities for $\delta \in (0, 1)$ at the beginning of the bargaining round where player $j$ proposes. Then for $j = 1, 2$ it holds that
 
-$$\lim_{\delta \to 1} E_j(\delta) = \left\{ s \in S \mid s_1 \geq N_1(S, (n_1, N_2)), \; s_2 \geq N_2(S, (N_1, n_2)) \right\},$$
+$$
+\lim_{\delta \to 1} E_j(\delta) = \left\{ s \in S \mid s_1 \geq N_1(S, (n_1, N_2)), \; s_2 \geq N_2(S, (N_1, n_2)) \right\},
+$$
 
 where the function $N_i(\cdot)$, $i = 1, 2$, denotes player $i$'s utility according to the Nash bargaining solution.
 
@@ -294,7 +341,9 @@ Since equilibrium strategies require that a Nash equilibrium is played in case o
 
 **Proposition 7.21.** Let $a^N \in A^N$, $t(\sigma)$ be even and $s^* \in E_1(\delta)$. The strategies of table 7.4 are SPE if and only if
 
-$$\left( 1 - \delta^{t(\sigma)} \right) d\left(a^N\right) + \delta^{t(\sigma)} s^* \geq \left( x_1^*(\delta, (n_1, N_2)), \; x_2^*(\delta, (N_1, n_2)) \right). \tag{7.6}$$
+$$
+\left( 1 - \delta^{t(\sigma)} \right) d\left(a^N\right) + \delta^{t(\sigma)} s^* \geq \left( x_1^*(\delta, (n_1, N_2)), \; x_2^*(\delta, (N_1, n_2)) \right). \qquad\text{(7.6)}
+$$
 
 Note that in case of uniqueness we automatically have that $t(\sigma) = 0$ and $s^*$ coincides with the unique SPE outcome.
 
@@ -350,7 +399,9 @@ Finally, consider procedure 7.11. Then the gap between a player's worst and best
 
 Proposition 7.15 implies that in, for example, player 1's worst SPE the threats are conditioned upon even and odd rounds. Here it is the threat of the actions $(R_1, L_2)$ in even rounds and the mixed Nash equilibrium in odd rounds. These yield the constructed disagreement point $(n_1, N_2) = (\frac{3}{2}, 6)$ with associated agreement $N(S, (n_1, N_2)) = (2\frac{1}{4}, 7\frac{3}{4})$. By symmetry, $(N_1, n_2) = (6, \frac{3}{2})$ with associated agreement $N(S, (N_1, n_2)) = (7\frac{3}{4}, 2\frac{1}{4})$. Theorem 7.19 then yields that the limit set of SPE utility pairs is given by
 
-$$\left\{s \in \mathbb{R}^2_+ \mid s_1, s_2 \geq 2\tfrac{1}{4}, \; s_1 + s_2 \leq 10 \right\}.$$
+$$
+\left\{s \in \mathbb{R}^2_+ \mid s_1, s_2 \geq 2\tfrac{1}{4}, \; s_1 + s_2 \leq 10 \right\}.
+$$
 
 This game is capable of generating perpetual disagreement, as described in corollary 7.22, provided we apply it to the correlated equilibrium in which $(L_1, L_2)$ and $(R_1, R_2)$ are equally probable.$^6$ Then the associated expected utility pair (4,4) lies in the limit set of payoffs and corollary 7.22 states that perpetual disagreement resulting in a breakdown and threats played according to this correlated equilibrium is a SPE outcome.
 

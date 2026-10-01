@@ -6,7 +6,20 @@ published: 2026-02-16
 created: 2026-03-08
 description: "Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.  …"
 tags:
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+This essay is an informal restatement of what epidemiologists call the "prevention paradox": successful prevention removes the visible evidence that justified it, so the intervention can look unnecessary in hindsight. Worth pairing with discussion of hindsight bias and survivorship bias, and of how this dynamic makes ongoing funding for maintenance/safety work politically fragile compared to funding for visible crisis response.
+
+%%
 Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.
 
 The world does not just ”keep working.” It keeps getting saved.

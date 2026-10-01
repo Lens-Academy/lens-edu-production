@@ -1,8 +1,10 @@
 ---
 id: d53b7baa-a45d-483b-bc16-3fa5bee59ab2
-summary_for_tutor: "Covers credible commitment as a strategic tool in negotiations, drawing on Schelling's work and the historical example of Cortes burning his ships. Explains how the ability to commit to threats confers bargaining power. Extends the analysis to AI systems that could instantly rewrite their own code to make threats credible, creating an asymmetric negotiation advantage."
+reading_minutes: 8
+tutor_minutes: 8
+summary_for_tutor: "Excerpt from the introduction to Harold Houba and Wilko Bolt's chapter 'Commitment and Endogenous Threats' in 'Credible Threats in Negotiations'. The ability to commit is a strong bargaining tool: if opponents believe you will not retreat, they may concede, so reducing your own flexibility can be a strength, as Thomas Schelling argued. A commitment that lacks credibility is treated as bluffing. Examples: Cortes destroying all but one of his ships in the conquest of Mexico, which unified his men and led the enemy to retreat, and a labour union publicly announcing a strike it cannot back out of. The lens text then argues that an AI able to rewrite its own code could make any threat credible at a moment's notice."
 title: Commitment and endogenous threats
-tldr: Sometimes the most powerful move isn't to fight — it's to make the other side believe you will. Cortés burned his own ships so his army had no choice but to advance. This reading explores how threats work as tools of negotiation, and what changes when an AI can commit to any threat instantly by rewriting its own code.
+# tldr: Sometimes the most powerful move isn't to fight — it's to make the other side believe you will. Cortés burned his own ships so his army had no choice but to advance. This reading explores how threats work as tools of negotiation, and what changes when an AI can commit to any threat instantly by rewriting its own code.
 ---
 #### Text
 content::

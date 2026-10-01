@@ -6,36 +6,44 @@ discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
 ---
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the fundamental difficulties of AI alignment]]
+source:: [[../Learning Outcomes/Why alignment is fundamentally hard]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why alignment feels counterintuitive]]
+source:: [[../Learning Outcomes/Why alignment feels counterintuitive]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain the emergence of powerseeking]]
+source:: [[../Learning Outcomes/The emergence of power-seeking]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain sharp left turn dynamics]]
+source:: [[../Learning Outcomes/The sharp left turn]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain causal definition of agency]]
+source:: [[../Learning Outcomes/A causal definition of agency]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain how agency can emerge from advanced prediction]]
+source:: [[../Learning Outcomes/Agency from prediction]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain why default outcome is bad]]
+source:: [[../Learning Outcomes/Misalignment as the default outcome]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Explain a coordination failure driven by multipolar incentives]]
+source:: [[../Learning Outcomes/Moloch and multipolar traps]]
+
+# Lens:
+source:: [[../Lenses/The King Midas Problem]]
 
 # Lens: Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d
+%% tldr:: AI alignment has no proven solution yet, so why is it so hard even for careful builders? This module assembles the core reasons: the rocket-alignment analogy, instrumental convergence and power-seeking, the sharp left turn, the nature of agency, and why competitive pressure can push everyone toward an outcome nobody wants. %%
+summary_for_tutor:: Second lens of the module, after the King Midas quote. Frames why alignment is hard even for careful builders and previews the arc in order: whether today's LLMs count as evidence against default misalignment (Byrnes), Yudkowsky's rocket, space-probe and cryptography analogy and the need for real theory, the limits of patching problems as they arise (Decker in Hell), capabilities generalizing further than alignment (the sharp left turn), why misalignment is the default outcome of current training, what makes a system an agent and how agency and power seeking emerge, how proxies diverge at the extremes, and how competition drives outcomes nobody wants (Moloch). Lists the questions learners should be able to answer afterward.
+reading_minutes:: 3
 #### Text
 content::
+%% COMMENTED OUT (AI-generated framing):
 The AI alignment problem currently has no proven solution. This module provides a unified picture of why achieving alignment is inherently challenging and the fundamental challenges we must overcome to find a safe way to build AI. This is especially true given that, even with competent participants, the default outcome can be poor, as competitive pressures and coordination failures can encourage risky deployments and lock the ecosystem into an equilibrium that none of the participants desire.
 
 In this module you will engage with core concepts including the rocket alignment analogy and the need for formal “alignment math”, why alignment arguments feel counterintuitive, instrumental convergence and power seeking, capabilities generalization and the sharp left turn, the nature and emergence of agency, why misalignment may be the default outcome under current training paradigms, and how coordination failure can overwhelm technical solutions.
+%%
 
 Questions you will be able to answer after completing this module:
 * Why is it unrealistic to expect we can list all alignment challenges in advance, and what does this imply about the kind of theory we need?
@@ -52,30 +60,33 @@ Why do “alignment is hard” arguments feel alien to human intuition, and whic
 
 
 # Lens:
-optional:: true
+source:: [[../Lenses/byrnes-sympathy-for-both-sides-of-the-egregious-misalignment-debate]]
+
+# Lens:
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
 # Lens:
-source:: [[../Lenses/6 reasons why it's not intuitive that alignment is hard]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/When should we worry about AI power-seeking]]
+source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
 
 # Lens:
 source:: [[../Lenses/Sharp left turn]]
-
-# Lens:
-source:: [[../Lenses/Discovering when an agent is present in a system]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Pythia by plex]]
 
 # Lens:
 optional:: true
 source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # Lens:
+optional:: true
+source:: [[../Lenses/Discovering when an agent is present in a system]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Pythia]]
+
+# Lens:
+source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
+
+# Lens:
+optional:: true
 source:: [[../Lenses/Meditations on Moloch]]
 

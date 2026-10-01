@@ -1,15 +1,19 @@
 ---
 id: 6a8d7401-4177-4cb6-8ec8-ff7f6e52c230
-summary_for_tutor: "Introduces mechanistic interpretability as the effort to reverse-engineer neural networks into human-understandable algorithms by analyzing individual neurons and connections. Notes key contributors (Chris Olah, Neel Nanda, TransformerLens) and poses the central puzzle: why having full access to every parameter and activation is not sufficient to read off a model's beliefs or intentions."
+reading_minutes: 2
+tutor_minutes: 8
+summary_for_tutor: "Pre-reading discussion lens that opens the Mechanistic Interpretability submodule. The learner sees no explanatory text or definition, only this question: 'We have full access to every parameter and activation in the model, why isn't that enough to just read off what it believes, wants, or will do?' The readings that follow cover why interpretability might help detect misalignment and what makes it hard, such as polysemanticity and superposition (BlueDot's introduction). They also cover skeptical views: Connor Leahy argues that much AI cognition happens outside the network and that interpretability research is dual-use, and Neel Nanda (optional) argues interpretability won't reliably detect deception."
 title: Mechanistic Interpretability
-tldr: We have full access to every number inside a neural network. So why can't we just read off what it believes or wants? Mechanistic interpretability tries to bridge that gap — reverse-engineering how models represent and process information, one circuit at a time.
+# tldr: We have full access to every number inside a neural network. So why can't we just read off what it believes or wants? Mechanistic interpretability tries to bridge that gap — reverse-engineering how models represent and process information, one circuit at a time.
 discussion: https://discord.com/channels/1440725236843806762/1483418591482347723
 ---
 #### Text
 content::
+%% COMMENTED OUT (AI-generated framing):
 **Mechanistic Interpretability** is the study of the internal workings of AI models. It seeks to reverse-engineer neural networks into human-understandable algorithms. Researchers analyze individual neurons and connections to see how they represent concepts.
 
 The field gained momentum through the work of Chris Olah and his teams at OpenAI and Anthropic. Early research focused on image models. Neel Nanda contributed to the field’s accessibility by developing TransformerLens, an open-source library for probing the internal states of transformer models{>>CGL > Link out here to a brief explanation of GPTs?<<}. His research on induction heads identified specific mechanisms for pattern completion in transformers. By providing introductory resources and educational roadmaps, he helped expand the research community beyond specialized labs.
+%%
 
 *Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the readings.*
 

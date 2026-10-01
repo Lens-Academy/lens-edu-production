@@ -1,10 +1,16 @@
 ---
 id: b38d3403-ef4e-48d6-9a94-4efc252fd89d
+reading_minutes: 5
+tutor_minutes: 5
+# tldr: "In 2022, AI agents could handle 30-second coding tasks; today they manage jobs that take a human over fourteen hours. METR found the length of task an agent can complete is doubling roughly every seven months, and lately every four. If that curve holds, where does it put us in three years?"
+summary_for_tutor: "AI Digest explainer of METR's 'Moore's Law for AI agents'. METR tested the most capable agents from 2019 to 2026 on about 230 tasks, mostly coding. Task length (in human time) correlates strongly with success (R^2 = 0.83), and the length of task agents complete at 50% reliability, their 'time horizon', doubled every 7 months over 2019-2025 and every 4 months in 2024-2025. Extrapolating the slower trend gives day-long tasks in 2027 and month-long tasks in 2029; the faster trend gives month-long tasks in 2027. AIs helping build more capable AIs could make growth superexponential. After the article the learner is asked where the curve puts us in three years and what would change their mind; the chat also checks they can explain 'time horizon'."
 title: "A new Moore's Law for AI agents"
 ---
-#### Text
-content::
+%% #### Text
+content:: %%
+%% COMMENTED OUT (AI slop):
 We opened with feedback loops in principle. Here is one measured in practice: how long a task an AI agent can finish on its own, tracked from 2019 to today.
+%%
 
 #### Article
 source:: [[../articles/digest-a-new-moores-law-for-ai-agents-ai-digest]]

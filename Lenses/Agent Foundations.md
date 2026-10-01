@@ -1,15 +1,19 @@
 ---
 id: 9e925489-937b-4317-9bd1-f3d59807ab3a
-summary_for_tutor: Introduces Agent Foundations as a research direction that treats AI safety as a formal mathematical problem, seeking universal laws governing intelligent goal-directed systems regardless of architecture. Contrasts this with empirical approaches that work with current neural networks.
+reading_minutes: 2
+tutor_minutes: 8
+summary_for_tutor: "Pre-reading discussion lens that opens the Agent Foundations submodule. The learner is shown no definition of agent foundations, only an instruction to discuss one question with the tutor before the readings: 'What would make Agent Foundations feel real to you: predictive theorems, better threat models etc?' The readings that follow are Alex Altair on agent foundations as neither math nor standard science (studying agents with mathematical methods, not experiments), John Wentworth (optional) on searching for 'True Names' of concepts that hold up under optimization pressure, and Richard Ngo's 'Realism about rationality', which explains his skepticism that intelligence is simple enough to formalize."
 title: Agent Foundations
-tldr: What if current neural networks are too messy to reason about safely? Agent Foundations treats AI safety as a formal mathematical problem, seeking universal laws that govern any intelligent system — building safety from first principles rather than patching current systems.
+# tldr: What if current neural networks are too messy to reason about safely? Agent Foundations treats AI safety as a formal mathematical problem, seeking universal laws that govern any intelligent system — building safety from first principles rather than patching current systems.
 ---
 
 #### Text
 content::
+%% COMMENTED OUT (AI-generated framing):
 This module approaches safety through the lens of mathematical theory, formal logic, and the fundamental nature of agency.
 
 **Agent Foundations** is a research direction that treats AI safety as a formal mathematical problem. It seeks to understand the fundamental nature of intelligence, agency, and goal-directed behavior. Instead of experimenting with current neural networks, researchers in this field try to build a science of agency from the ground up. They aim to find universal laws that would govern any intelligent system, regardless of its architecture.
+%%
 
 *Before you start reading the arguments for and against this agenda, try to focus your thinking by answering the question below. Discuss it with your AI tutor for as long as feels comfortable, then move on to the readings*.
 

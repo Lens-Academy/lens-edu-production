@@ -6,16 +6,19 @@ discussion:
 ---
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Distinguish between grown and engineered systems|Distinguish between grown and engineered systems]]
+source:: ![[../Learning Outcomes/Grown vs. engineered systems|Distinguish between grown and engineered systems]]
 
 # Learning Outcome:
-source:: ![[../Learning Outcomes/Simulator Theory|Simulator Theory]]
+source:: ![[../Learning Outcomes/Simulator theory|Simulator Theory]]
 
 # Lens: Welcome
 id:: e1322022-9d32-4d52-9f8a-403e5379ff42
+%% tldr:: Get a reasonable grasp of what modern AI systems are, both intuitively and technically. %%
+summary_for_tutor:: Welcome lens. The learner sees one sentence: the module aims to give a reasonable grasp of what modern AI systems are, on both an intuitive and a technical level. The core lenses that follow are Yudkowsky and Soares on AI being grown rather than built, Robert Miles on why "just predicting tokens" places no ceiling on capability, Scott Alexander's review of Janus' simulator theory, and nostalgebraist's "the void" on the under-specified assistant character. Optional lenses cover 3Blue1Brown on neural network structure, Eric J. Michaud's quanta model of neural scaling, and Steven Byrnes on a possible future brain-like AI paradigm. A lens on the security mindset is optional and hidden by default.
+reading_minutes:: 2
 #### Text
 content:: 
-Modern AI is not engineered like a bridge or a compiler. It is trained, grown, and often surprises its creators with emergent skills. This module builds an accurate mental model of that paradigm, then adds the security mindset needed to reason about failure under pressure. Finally, it introduces the “simulators” frame, which explains how an LLM can look like an agent, oracle, or tool while still being a statistical predictor.
+This module aims to give you a reasonable grasp of what modern AI systems are, both on an intuitive and technical level.
 
 # Lens:
 source:: ![[../Lenses/AI Is Grown, Not Built|AI Is Grown, Not Built]]
@@ -26,12 +29,23 @@ hide:: true
 source:: ![[../Lenses/Security Mindset and Ordinary Paranoia|Security Mindset and Ordinary Paranoia]]
 
 # Lens:
-source:: ![[../Lenses/How can LLMs be understood as simulators]]
+source:: ![[../Lenses/robert-miles-ai-safety-just-predicting-tokens]]
 
 # Lens:
 source:: ![[../Lenses/Janus' Simulators - Scott Alexander]]
 
 # Lens:
+source:: ![[../Lenses/nostalgebraist-the-void]]
+
+# Lens:
 optional:: true
-source:: ![[../Lenses/Simulators by Janus]]
+source:: ![[../Lenses/sanderson-but-what-is-a-neural-network]]
+
+# Lens:
+optional:: true
+source:: ![[../Lenses/ericjmichaud-on-neural-scaling-and-the-quanta-hypothesis]]
+
+# Lens:
+optional:: true
+source:: ![[../Lenses/byrnes-foom-doom-1-brain-in-a-box-in-a-basement]]
 
