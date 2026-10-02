@@ -24,6 +24,7 @@ Much of the world is dominated by positive feedback loops. The first bit of grai
 source:: [[../articles/good-speculations-concerning-first-ultraintelligent-machine]]
 from:: "Let an ultraintelligent machine be defined"
 to:: "how to keep it under control."
+hide-author:: true
 
 #### Chat
 instructions::
@@ -45,7 +46,14 @@ optional:: true
 source:: [[../Lenses/rationalanimations-everything-might-change-forever-this-century-or-well-go-extinct]]
 
 # Lens:
+source:: ![[../Lenses/A new Moores Law for AI agents]]
+
+# Lens:
+optional:: true
 source:: ![[../Lenses/What are the differences between a singularity, an intelligence explosion, and a hard takeoff|What are the differences between a singularity, an intelligence explosion, and a hard takeoff]]
+
+# Lens:
+source:: ![[../Lenses/The most important century]]
 
 # Lens:
 optional:: true
@@ -54,10 +62,3 @@ source:: ![[../Lenses/Cascades and Cycles]]
 # Lens:
 optional:: true
 source:: ![[../Lenses/Recursion Magic|Recursion Magic]]
-
-# Lens:
-source:: ![[../Lenses/A new Moores Law for AI agents]]
-
-# Lens:
-optional:: true
-source:: ![[../Lenses/The most important century]]
