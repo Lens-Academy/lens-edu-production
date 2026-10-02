@@ -59,15 +59,27 @@ facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 # Module: [[../modules/AI Safety Atlas - Scalable Oversight|Chapter 8: Scalable Oversight]]
 # Meeting: Week 6
 meeting-doc-template:: https://docs.google.com/document/d/1HjZdnhqBTre4J_yqEcxm3MV9Q6066saq1Z90a07Mnvw/edit
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%% Week 7: guest speaker, no course content %%
+# Meeting: Week 7
+survey:: [[../surveys/Lens Post-Meeting Impact Survey v2]]
+facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
+
+%% Week 8: guest speaker, no course content; the final survey %%
+# Meeting: Week 8
 survey:: [[../surveys/ASA Final Impact Survey v2]]
 facilitator-survey:: [[../surveys/Navigator Post-Meeting Survey]]
 
 %% Surveys added 2026-09-10, following the pattern AI Risk Fundamentals and
-SAIF settled on 2026-09-04. Weeks 1 to 5 use the shared
-[[../surveys/Lens Post-Meeting Impact Survey v2]]; week 6 uses
+SAIF settled on 2026-09-04. Weeks 1 to 7 use the shared
+[[../surveys/Lens Post-Meeting Impact Survey v2]] (week 2: Lens Session 2 Impact Survey v2); week 8 uses
 [[../surveys/ASA Final Impact Survey v2]], which repeats the same five
 quality ratings and adds the course-completion block. ASA Final is a copy of
 AIRF Final Impact Survey v2 with fresh ids and the course name swapped, so
 cross-course comparison is a question-by-question match. Navigator surveys
 reuse the generic pair: Navigator Session 1 Debrief on week 1, Navigator
-Post-Meeting Survey on weeks 2 to 6. %%
+Post-Meeting Survey on weeks 2 to 8. Weeks 7 and 8 (added 2026-10-02, Turner)
+are guest-speaker sessions with no course content, so the final survey moved from
+week 6 to week 8. %%
