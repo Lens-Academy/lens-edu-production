@@ -105,7 +105,8 @@ required:: true
 
 #### Question
 key:: location
-content:: Where are you based most of the time (City, Country)? You can name a few places if you are meaningfully located there.
+content:: Where are you based most of the time (City, Country)?
+description:: You can name a few places if you are meaningfully located there.
 short:: true
 
 #### Text
@@ -113,36 +114,110 @@ content:: ### Career and intention
 
 #### Question
 key:: why_applying
-content:: Why are you applying to this course? How does it fit within your career plans? (100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.) 
+content:: Why are you applying to this course? How does it fit within your career plans?
+description:: 100–200 words. Prioritise being concise and concrete; bullet points are fine. Feel free to use voice-to-text to save your time.
 max-chars:: 2000
 required:: true
-
 
 #### Question
 key:: proud_projects
-content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine). Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs — links are great! (100–200 words.) 
+content:: Describe 1–3 projects you've done that you're most proud of (work-related is fine).
+description:: Say exactly what you were responsible for. Prioritise being concise, concrete and showing outputs: links are great! 100–200 words.
 max-chars:: 2000
-required:: true
-
-#### Question
-key:: ai_safety_programs
-content:: Which courses, programs, or fellowships in AI safety have you done, or are doing?
 required:: true
 
 #### Choice
 key:: engagement_hours
 content:: Engagement hours in AI safety so far
 options::
-- Under 50 hours (about 1 week)
-- 50–100 hours (2–3 weeks)
-- 100–200 hours (4–6 weeks)
-- 200–500 hours (6–12 weeks)
-- 500+ hours (13+ weeks)
+- Under 50 hours (about 1 week full-time)
+- 50–100 hours (2–3 weeks full-time)
+- 100–200 hours (4–6 weeks full-time)
+- 200–500 hours (6–12 weeks full-time)
+- 500+ hours (13+ weeks full-time)
+required:: true
+
+#### Choice
+key:: ais_work_status
+content:: What is your current AI safety stage? If several apply, pick *the highest* on the list.
+description:: Pick where you are now, not what you've done before. Count a role or programme you've been accepted to that starts within 3 months.
+options::
+- In or starting a paid full-time AI safety job
+- In or starting a paid full-time AI safety fellowship or funded research, 3 months or longer (e.g. MATS)
+- In or starting paid part-time AI safety work (e.g. BlueDot facilitating), or a paid fellowship shorter than 3 months (e.g. ERA)
+- In or starting a selective unpaid programme (e.g. SPAR or ARENA)
+- Doing unpaid contributions (e.g. volunteering, advocacy or a local group)
+- Applying to AI safety roles or programmes
+- Exploring AI safety, not applying yet
+- Not pursuing AI safety right now
+required:: true
+
+#### Choice
+key:: ai_safety_programs
+content:: Which courses, programs, or fellowships in AI safety have you done, or have been accepted to? Pick all that apply.
+multi:: true
+options::
+- None so far
+- Self-study
+- University course or local AI safety group
+- AI Safety Collab (ENAIS)
+- BlueDot Courses
+- BlueDot Rapid Grant
+- BlueDot Career Transition Grant
+- BlueDot Facilitating
+- Center for AI Safety course
+- AI Safety Camp
+- ML4Good
+- Global Challenges Project
+- Lens Academy Course
+- Lens Academy Project
+- Lens Academy Facilitating (paid)
+- Lens Academy Facilitating (volunteer)
+- ARENA
+- Pathfinder
+- SPAR
+- ERA Fellowship
+- Cooperative AI course
+- Cooperative AI Summer School
+- Cooperative AI PhD Fellowship
+- BASE (Black in AI Safety and Ethics)
+- Sentient Futures course (e.g. AI × Animals)
+- Sentient Futures Project Incubator
+- CAIDP (Center for AI and Digital Policy)
+- TARA
+- Vista Institute course
+- Vista Institute Fellowship
+- Generator Residency
+- Iliad Intensive
+- Iliad Fellowship
+- Apart Sprint (hackathon)
+- Apart Fellowship
+- Heron AI Security Fellowship
+- Horizon Fellowship
+- Talos Fellowship
+- IAPS AI Policy Fellowship
+- Pivotal Research Fellowship
+- PIBBSS Fellowship
+- LASR Labs
+- GovAI
+- MATS
+- Constellation (Astra or other fellowship)
+- Anthropic Fellows Program
+- OpenAI Fellows Program
+- Other (please write it below)
+required:: true
+
+#### Question
+key:: ai_safety_programs_other
+content:: In 1–4 sentences, describe your current AI safety work, and add any details about the programs above.
+description:: For example: "Volunteering 5h/week for PauseAI; did BlueDot's AGI Strategy course (completed)" or "Applying to SPAR and MATS this month; did ARENA 7.0".
+max-chars:: 600
 required:: true
 
 #### Rating
 key:: transition_intention
-content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)? Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
+content:: How strong is your intention to transition to AI safety full-time in the near future (about 3–12 months)?
+description:: Put 10 if you're already working full-time in AI safety, or in a paid fellowship.
 scale:: 10
 labels::
 - No intention of moving into AI safety
@@ -157,26 +232,52 @@ labels::
 - Already working full-time or in a paid fellowship
 required:: true
 
+#### Choice
+key:: ais_connections
+content:: How many people working in AI safety could you ask for advice or a referral?
+options::
+- None
+- 1–2
+- 3–5
+- 6–10
+- More than 10
+required:: true
+
 #### Text
 content:: ### Concluding
 
-#### Question
+#### Choice
 key:: heard_from
-content:: Where did you hear about this course? Please be specific, e.g. "Saw it in the [community] chat" or "Got referred by [program]".
+content:: Where did you hear about this course? Pick all that apply.
+multi:: true
+options::
+- AISafety.com
+- BlueDot Impact community
+- 80,000 Hours
+- AI Alignment Slack
+- LinkedIn
+- Lens Academy (earlier course, website or email)
+- Friend or colleague
+- Another program or fellowship
+- Discord, Slack or chat group
+- AI assistant
+- Web search
+- LessWrong, EA Forum or a blog
+- Newsletter or mailing list
+- X (Twitter)
+- Event or conference
+- Other (please write it below)
 required:: true
 
-#### Choice
-key:: navigator_interest
-content:: Would you be interested in becoming a navigator (a volunteer course facilitator) at some point, now or later in the course? Totally optional, and it won't affect your application!
-options::
-- Yes, I would like to hear more
-- Maybe, ask me again later in the course
-- No, not for me
-required:: false
+#### Question
+key:: heard_from_other
+content:: Please be specific if you can, e.g. "Saw it in the [community] chat" or "Got referred by [program]".
+
 
 #### Question
 key:: nominations
-content:: Who is the most exceptional person you would nominate for this course? Please include their email and LinkedIn. (You can nominate more than one; if they are a good fit we might reach out to them.)
+content:: Who is the most exceptional person you would nominate for this course?
+description:: Please include their email and LinkedIn. You can nominate more than one; if they are a good fit we might reach out to them.
 
 #### Question
 key:: feedback
