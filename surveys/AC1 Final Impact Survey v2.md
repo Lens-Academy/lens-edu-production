@@ -212,7 +212,8 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating
+- Lens Academy Facilitating (paid)
+- Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
@@ -220,15 +221,21 @@ options::
 - Pathfinder
 - SPAR
 - ERA Fellowship
-- Cooperative AI Foundation
+- Cooperative AI course
+- Cooperative AI Summer School
+- Cooperative AI PhD Fellowship
 - BASE (Black in AI Safety and Ethics)
-- Sentient Futures
+- Sentient Futures course (e.g. AI × Animals)
+- Sentient Futures Project Incubator
 - CAIDP (Center for AI and Digital Policy)
 - TARA
-- Vista Institute for AI Policy
+- Vista Institute course
+- Vista Institute Fellowship
 - Generator Residency
-- Iliad (Fellowship or Intensive)
-- Apart Research
+- Iliad Intensive
+- Iliad Fellowship
+- Apart Sprint (hackathon)
+- Apart Fellowship
 - Heron AI Security Fellowship
 - Horizon Fellowship
 - Talos Fellowship
@@ -255,7 +262,8 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating
+- Lens Academy Facilitating (paid)
+- Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
 - Global Challenges Project
@@ -263,15 +271,21 @@ options::
 - Pathfinder
 - SPAR
 - ERA Fellowship
-- Cooperative AI Foundation
+- Cooperative AI course
+- Cooperative AI Summer School
+- Cooperative AI PhD Fellowship
 - BASE (Black in AI Safety and Ethics)
-- Sentient Futures
+- Sentient Futures course (e.g. AI × Animals)
+- Sentient Futures Project Incubator
 - CAIDP (Center for AI and Digital Policy)
 - TARA
-- Vista Institute for AI Policy
+- Vista Institute course
+- Vista Institute Fellowship
 - Generator Residency
-- Iliad (Fellowship or Intensive)
-- Apart Research
+- Iliad Intensive
+- Iliad Fellowship
+- Apart Sprint (hackathon)
+- Apart Fellowship
 - Heron AI Security Fellowship
 - Horizon Fellowship
 - Talos Fellowship
