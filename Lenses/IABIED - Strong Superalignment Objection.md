@@ -21,13 +21,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 76824c01-0695-4b8d-85ce-e3b40b01c9cf
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the strong version of superalignment as Chapter 11 presents it (using a smarter-than-human AI to solve the alignment problem), and state the chapter's two-step objection: (1) the AI capable of doing this would itself be too dangerous and untrustworthy, and (2) a "special-purpose" alignment AI has no training examples of solved alignment and requires the precise dangerous skill set that makes an unaligned AI catastrophic.
 
@@ -65,13 +66,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: d457447c-43f9-4a6b-94b2-5f09674b145b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -108,6 +110,7 @@ The first half of this chapter rested on something established early in the cour
 
 Without looking anything up: what does that argument need that the growing fact alone does not supply? Name the earlier idea, and say what work it is doing.
 
+force-feedback:: first
 feedback-instructions:: The student has read the second half of Chapter 11, written a free recall, and reflected on it. They have now been asked what this half of the argument needs beyond the idea the previous lens's connection beat landed on.
 
 This beat is built differently from the others in this course. It hands over the first thread on purpose. The work here is the extension, not the search, so do not withhold what the prompt already gave.

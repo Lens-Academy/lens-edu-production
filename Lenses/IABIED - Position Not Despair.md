@@ -21,13 +21,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: ec1fe6e0-dafe-4f52-9189-5c3bc8ec1a38
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the passage that maps space probes, nuclear reactors, and computer security onto ASI alignment and ends with the line "NOBODY SHOULD BE ALLOWED TO TRY."
+force-feedback:: first
+feedback-instructions:: The student has just read the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the passage that maps space probes, nuclear reactors, and computer security onto ASI alignment and ends with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 
 Learning outcome for this Lens: State Chapter 10's closing position, "NOBODY SHOULD BE ALLOWED TO TRY," and identify that the chapter presents this not as counsel of despair but as a logical conclusion from the combined weight of the five curses, distinguishing a position-statement from despair.
 
@@ -65,13 +66,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 485aa616-abc5-420c-a437-fcca2684769f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
 
 #### Question
 id:: 9b3f6fbe-ffa9-48f7-a64a-7435465714ff

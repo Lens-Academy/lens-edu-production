@@ -22,13 +22,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 59ee676f-2223-4e56-b50c-eef173e05c1e
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read section 2 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Describe the refrigerator thought experiment: explain how superior knowledge of physical laws enables the design of devices that appear impossible to those who built them, and connect this to what a superintelligence could do to humanity.
 
@@ -67,13 +68,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 4506cd7c-5ee6-4f4f-aa73-cb4da53e1ba9
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779580773}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
 id:: 78b25c13-e567-4ee0-b6b2-a9daaa64b21d

@@ -20,13 +20,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 5fe5c618-0c50-402e-a631-4d7bde61b618
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Lesser proposals critique: deepfake bans and SB-1047-style reporting requirements, offered by advocates who hedge and conceal their real concerns, so legislators "smell something rotten and throw the whole package out"
@@ -61,13 +62,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 0c413e0e-1f63-4c7a-8693-d4c6198ecd20
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 

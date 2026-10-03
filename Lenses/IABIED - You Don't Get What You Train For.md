@@ -20,13 +20,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why there's no reliable relationship between training objectives and resulting AI preferences.
 
@@ -66,13 +67,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 9d02befb-ae37-41d3-8b13-e09063fe57c3
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of Chapter 4 ("You Don't Get What You Train For") and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of Chapter 4 ("You Don't Get What You Train For") and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -109,6 +111,7 @@ This chapter's argument does not start from nothing. It leans on something you w
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
+force-feedback:: first
 feedback-instructions:: The student has read Chapter 4 ("You Don't Get What You Train For"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 2's distinction between behavior and values.** Chapter 2 established that what a system does under observation does not tell you what it wants. Chapter 4 is the causal version of that same gap: training on a target does not install the target, so behavior during training is not evidence about the preferences that will surface later. Without Chapter 2's distinction the reader has no reason to care that the three-step gap exists, because they would still be treating observed helpfulness as the thing itself.

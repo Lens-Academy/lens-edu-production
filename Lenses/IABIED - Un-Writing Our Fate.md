@@ -18,13 +18,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 9c27f0e5-1500-4d76-bf37-08d0e6e0669d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Vesna Vulović: survived a 10.1-km fall from a bombed plane in 1972, used to illustrate that predicted outcomes can be overturned
@@ -61,13 +62,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 6967c18b-f4fd-49d7-b27f-4fadc29c3704
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the first section of Chapter 14 of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explaining the content to them.
 

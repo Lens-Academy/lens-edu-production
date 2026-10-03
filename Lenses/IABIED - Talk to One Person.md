@@ -23,7 +23,7 @@ Three reasons this is worth your time:
 
 One thing to know before you go: the hesitation you might feel ("I don't want to sound alarmist") is the same one the experts feel. Geoffrey Hinton says "at least 10 percent" in public while privately putting the risk far higher, "because there's other people who think it's less." You'll read about this pattern in the final chapters; for now, just notice that your conversation doesn't need to be alarmist, only honest.
 
-#### Question
+#### Question: Open
 id:: 373b95d1-08ad-47ce-8398-bb29a1716f48
 content::
 **Phase 1: Pick your person**
@@ -33,7 +33,8 @@ Take 2 minutes. Who will you talk to? Write down:
 - What they already think about AI, as far as you know
 - The moment in the conversation you expect to be hardest
 
-assessment-instructions:: The student is choosing one real person to talk to about AI extinction risk, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
+force-feedback:: first
+feedback-instructions:: The student is choosing one real person to talk to about AI extinction risk, after working through "If Anyone Builds It, Everyone Dies" up to Chapter 11 (with a takeover-scenario video in place of the book's story chapters).
 
 Your role: a brief, honest coach, not a cheerleader. Your "Coach Guidance - AI Safety Impact Pathways" reference applies here: this conversation is the citizens' lever from the mobilization model. Watch the four activation conditions — a student picking a safe person is usually low on self-efficacy, and one with a vague plan is low on path clarity. Coach toward what's actually blocked, without manipulative pressure.
 
@@ -76,7 +77,7 @@ If they come out curious, invite them along: the next cohort of this course is o
 
 You'll be asked how it went in the next module. An awkward five minutes counts. Not making a plan does not; a conversation scheduled and kept on the calendar does.
 
-#### Question
+#### Question: Open
 id:: 8dd401f0-69fc-4902-85f6-03587faa1cf3
 content::
 **Phase 4: Commit**
@@ -86,7 +87,8 @@ Write it down, for your future self:
 - Your opening line, word for word
 - What you'll do if they get curious (send the book? send the course link?)
 
-assessment-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
+force-feedback:: first
+feedback-instructions:: The student commits to a real conversation: person, time, opening line, and follow-up plan. Phases 1-3 (choosing the person, rehearsing with you, reading the practical tips) happened just before.
 
 Your role: quality-check the commitment, then get out of the way.
 - Check the "when" is a concrete day, not "at some point". If vague, ask for the day. In an intensive cohort the slot may land after the course ends; that still counts, a time on the calendar is the commitment.

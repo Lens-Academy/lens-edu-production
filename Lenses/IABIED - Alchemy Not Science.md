@@ -19,13 +19,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: c6979f00-e88e-4f14-bf68-bf1f31c5ac5d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: State Chapter 11's central diagnosis as the chapter frames it: the alignment field is currently in the "alchemy stage": it produces results without understanding why they work, operates from high-minded philosophical ideals rather than engineering designs, and mistakes the ability to build more powerful AI for progress on making it safe.
 
@@ -64,13 +65,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: b6f65118-181c-4d35-b8e4-55bb0e4fe477
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -107,6 +109,7 @@ This chapter's diagnosis does not start from nothing. It leans on something you 
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
+force-feedback:: first
 feedback-instructions:: The student has read the first half of Chapter 11, written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter's diagnosis rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.

@@ -19,13 +19,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: dc191b46-db74-4752-bcbf-2694c4537638
 content::
 \## Phase 1: Recall
 Without looking back at the text, take 2 minutes to write down everything you can remember from the reading. Anything and everything, no need to organize it. Speech-to-text works well here.
 
-assessment-instructions:: The student has just read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies" and written a free recall: everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just read Chapter 3 ("Learning to Want") of "If Anyone Builds It, Everyone Dies" and written a free recall: everything they could remember without looking back at the text.
 
 Learning outcome for this Lens: Explain how training for success produces want-like behavior in AI, even without anyone designing wants.
 
@@ -62,13 +63,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 88409a21-9a86-4f72-8221-5ef82a15fb7b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize, just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
