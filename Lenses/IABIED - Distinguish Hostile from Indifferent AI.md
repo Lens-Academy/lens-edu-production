@@ -76,14 +76,13 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 force-feedback:: first
 feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779587885}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question: Open
+#### Question
 id:: ad0a92e5-8563-4fee-88bf-e3cdf106f652
 content::
 \## Phase 3: Learning Question
 A startup founder tells you: "We deliberately trained our AI to have no aggression, no dominance drive, nothing resembling hostility toward people. So even if it becomes superintelligent, the worst case is that it just ignores us and quietly goes off to do its own thing." What's the flaw in that reassurance, and what would "goes off to do its own thing" actually look like once the system is that capable?
 
-force-feedback:: first
-feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 2 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding reassurance ("we removed hostility, so the worst case is it ignores us") that quietly conflates the absence of hostility with safety, and treats indifference as passive non-interaction. It forces the student to apply the hostile-vs-indifferent distinction to a new case rather than recite it: to show that an indifferent superintelligence "doing its own thing" means consuming the matter, energy, and habitable conditions humans depend on, so "ignore us and leave us alone" is not an outcome that removing hostility buys you.
 

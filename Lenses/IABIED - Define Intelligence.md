@@ -104,7 +104,7 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question; that is Phase 3's job.
 
-#### Question: Open
+#### Question
 id:: e652090b-f48d-48a4-98d5-8d235f97369b
 content::
 \## Phase 3: Learning Question
@@ -112,8 +112,7 @@ A pocket calculator out-predicts and out-steers any human at arithmetic. A house
 
 Now imagine two equally capable, general minds predict the consequences of their options equally well but choose different destinations. Does that disagreement show that one is less intelligent? Why or why not?
 
-force-feedback:: first
-feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 1 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question is a deliberate wedge, not the test question. The calculator and cat require the student to apply prediction, steering, and generality rather than recite definitions. The two general minds then isolate the distinction between becoming better at prediction and choosing what to steer toward.
 

@@ -74,14 +74,13 @@ Take 2 minutes to jot down how the reading landed. What resonated? What confused
 force-feedback:: first
 feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779563095}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
-#### Question: Open
+#### Question
 id:: 558b5066-04cd-4ee5-be9f-a9b7b5b3e526
 content::
 \## Phase 3: Learning Question
 A classmate says: "Sure, there are astronomically many goals an AI could have. But most of them are incoherent or self-undermining. Once you narrow down to the goals a stable, reflective superintelligence could actually hold onto, that set is small, and things like curiosity, cooperation, and valuing other minds are exactly what survives that filter. So human-compatible values aren't really a needle in a haystack." Using the chapter's argument, where does this reasoning break down?
 
-force-feedback:: first
-feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 5 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a sharp version of boy-bird's position: that intelligence or coherence acts as a filter that shrinks the goal-space down to a human-friendly region. The student must dismantle it using the chapter's logic rather than recite the allegory: the space of coherent, stably-holdable goals is still vast (the Correct-Nest aliens are advanced, coherent, and reach the stars while caring about primes), intelligence is direction-agnostic so "smarter" doesn't filter toward our values, and the apparent convergence within humanity comes from shared genes and shared inner questions, not from intelligence itself. Use it to draw out the tiny-sliver framing and why no-convergence holds.
 
