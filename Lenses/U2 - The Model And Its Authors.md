@@ -44,9 +44,8 @@ How would you forecast when AI can do a month-long software engineering task on 
 
 List every distinct method you can think of. Not your answer, your methods. For each one, write a single line on what evidence it needs and what would make it unreliable. Do not look anything up. Four minutes.
 
-max-time:: 6:00
 
-assessment-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
+feedback-instructions:: The student is mid-exercise. They have not yet read the authors' survey of forecasting methods, which comes next in this lens.
 
 Do not supply or hint at the authors' five methods (expert surveys, argument-informed intuition, revenue extrapolation, compute extrapolation anchored by the brain, capability benchmark trend extrapolation). Leaking them destroys the exercise.
 
@@ -70,7 +69,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
-to:: possibility of time horizon doublings getting easier or harder at higher horizons
+to:: possibility of time horizon doublings getting easier or harder at higher horizons.
 
 #### Question
 id:: 171d04f7-fda7-4811-becb-754971b05188
@@ -81,7 +80,7 @@ Put your list beside theirs. Which of their five did you have in some form? Whic
 
 Then the harder half. The authors do not treat these as five independent estimates to be averaged. Pick the two you would give the most weight to. Say why, in terms of what evidence each method needs.
 
-assessment-instructions:: The student has their own list of forecasting methods and has now read the authors' five.
+feedback-instructions:: The student has their own list of forecasting methods and has now read the authors' five.
 
 The skill is honest diffing and weighting by evidence source, not evaluation of the authors.
 
@@ -110,13 +109,12 @@ id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
-You have their methods and the structure of their model, and you have not yet seen what any of them concluded.
+You have their five methods, the dates several of them give (from 2027 to 2050), and the structure of their model. You have not yet seen what the authors' own model concludes.
 
-Give your own median year for an AI that can do essentially all of an AI researcher's coding work. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
+Give your own median year for an AI that can do essentially all of an AI researcher's coding work. Build it from what you just read: say which method or number you lean on most, and how you adjust it. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
 
-max-time:: 5:00
 
-assessment-instructions:: The student is committing to a number BEFORE seeing the authors' forecasts, which come next.
+feedback-instructions:: The student is committing to a number BEFORE seeing the authors' forecasts, which come next.
 
 Do not supply the authors' numbers, and do not steer toward or away from any year.
 
@@ -138,7 +136,7 @@ This is a one-turn response.
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
-to:: this list is nowhere near exhaustive
+to:: this list is nowhere near exhaustive but that’s enough for now I guess.
 
 #### Question
 id:: c4105299-b0e6-4779-8440-c45103089990
@@ -151,7 +149,7 @@ Here is the thing to notice, and it is not in the model. Both of them run the mo
 
 Then remember that you wrote down a number before you read any of this. What should you do with your number now? And what would you need to know about how each of the three numbers was produced, before you could combine them at all?
 
-assessment-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
+feedback-instructions:: The student has read the section framing (both authors adjust off the model using intuition and other factors), Eli's all-things-considered distribution, and Daniel's discussion.
 
 FACTS THE TUTOR NEEDS. Eli states 10th percentile 2027.5, 50th 2032.5, 90th 2085, having lengthened his median and raised the 90th from 2062. Daniel does NOT state a median in prose; he says he keeps the model's median and increases uncertainty in both directions, and his distribution appears as a figure. Do not assert a number for Daniel. If the student cannot read the figure, tell them to describe its shape instead and grade on that.
 
@@ -177,7 +175,7 @@ What to do in each reply:
 #### Article
 source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
-to:: You can read more about these changes and their effects in our
+to:: You can read more about these changes and their effects in our [supplementary materials](https://docs.google.com/document/d/1ru6Okbxb6XuH18Cz8439sdQJazMV39hNxsWDokh97r0/edit?tab=t.0#heading=h.fzjrie7c4m4p).
 
 #### Question
 id:: 6cdc5e71-6946-4efb-8651-46bd49871faf
@@ -186,19 +184,15 @@ content::
 
 The same team rebuilt their model. They describe their improvements as producing "a roughly 3-5 year shift in our median for full coding automation", measured against the model they published with AI 2027 in April 2025. This update is from January 2026.
 
-Two things to say about that. First, a group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
+A group moved three to five years on their own considered estimate in about nine months. What does that tell you about how much weight your own number from earlier deserves?
 
-Second. That revision is public, numbered, and explained. Most changes of mind are not. What would you have concluded about this team if they had quietly stopped mentioning the old figure instead?
-
-assessment-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
+feedback-instructions:: The student has just read the comparison between the new model and AI 2027, including the 3.25 to 5 year gap and the definition of the Superhuman Coder milestone. The dates are AI 2027 in April 2025 and this update in January 2026, so the elapsed time is about nine months. Do not let a larger figure pass unchallenged if the student asserts one.
 
 The move here is calibration: a large public revision by competent people is evidence about the reliability of ALL such estimates, including the student's own.
 
-The second question is about the norm rather than the number. A public, numbered, explained revision is a costly signal, and the counterfactual where the old figure is quietly dropped is the common case elsewhere. Do not moralise about this; ask and let them answer.
-
 Maximum 2 tutor turns.
 
-The pass bar: they widen their own uncertainty in response, and they say something specific about what public revision buys that quiet revision does not.
+The pass bar: they widen their own uncertainty in response.
 
 Response length: 80 to 150 words. Short paragraphs only.
 
@@ -208,7 +202,6 @@ Response style:
 
 What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
-2. If they treat the revision as a failure by the team, point out it was volunteered and ask what the alternative would have looked like from outside.
 
 #### Question
 id:: d6316651-341f-4d32-90c4-3f29a411e455
@@ -221,7 +214,7 @@ That question is about how much time there is. This one is not.
 
 The model's third stage begins when AI R&D is fully automated. The authors describe its endpoint as "asymptoting at the limits of intelligence". Suppose everything in this reading happens roughly on schedule and we arrive there. Name one thing that is exactly as unresolved after that point as it is today. Then say why arriving faster or slower does not change it.
 
-Then one about the reading itself rather than about the world.
+The next question is about the reading itself rather than about the world.
 
 Nearly all of what you just read is about how fast. Very little of it is about what for. That is not a criticism of the authors. They were writing a forecasting post, and they said so. We think you will find close to that same ratio across most of what this field writes. Check that claim over the next few months rather than taking it from us.
 
@@ -229,9 +222,8 @@ So, while you were reading, which question felt more interesting to you? Answer 
 
 Last, a smaller question. Daniel calls extrapolating AI revenue "a decent proxy for when AGI will be achieved". Is revenue measuring the thing these forecasts are about? Or is it measuring something that usually moves with it, but could separate from it? Give one concrete way the two could separate.
 
-max-time:: 8:00
 
-assessment-instructions:: This is the closing move of the lens and the most important question in it is the second one.
+feedback-instructions:: This is the closing move of the lens and the most important question in it is the second one.
 
 CRITICAL: do NOT supply, name, or gesture at any unifying framework here, and do not use phrases like "selection pressure", "incentive structure", or "self-repairing". There is a frame this course builds toward and the student is meant to arrive at it themselves over several units. Naming it replaces their derivation with our assertion. If the student produces such a frame themselves, engage with it seriously as theirs.
 
