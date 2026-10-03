@@ -19,13 +19,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: e587dfa6-b495-47c6-92d3-f8c4b7645e2e
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Enumerate the five engineering curses Chapter 10 names (speed, narrow margins, self-amplification, complications, and edge cases) and identify which case study (space probes, Chernobyl, computer security) illustrates each.
 
@@ -62,13 +63,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 722c8f26-8edb-423f-9ec1-87c748f8cb0f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the reading assignment and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 
@@ -105,6 +107,7 @@ This chapter borrows its curses from reactors, probes and computer security. But
 
 Without looking anything up, write down which earlier idea does that work, and how. If more than one comes to mind, pick which one you think is load-bearing and why.
 
+force-feedback:: first
 feedback-instructions:: The student has read the first half of Chapter 10, written a free recall, and reflected on it. They have now been asked which earlier idea licenses transferring the curses from the case studies to AI. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 1's machine advantages, and the intelligence explosion that follows from them.** In the case studies the curses are properties of the domain. Neutron physics happens to be fast; a reactor's margins happen to be narrow. Transfer them to AI and two of the five stop being facts about the domain and become facts about the thing being built. Speed, because a machine substrate runs faster than a biological one, so the gap between the process's timescale and human reaction time is designed in rather than incidental. Self-amplification, because Chapter 1's intelligence explosion is a process that feeds itself. The route can be AI-assisted research, or a system experimenting on and rewriting itself and getting there without help. Either way each gain produces the conditions for the next, which is the RBMK loop with the reactor's physics replaced by the system's own improvement.
@@ -135,13 +138,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1's inventory of machine advantages.
 
-#### Question
+#### Question: Open
 id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
 \## Phase 4: Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. The test asks them to enumerate the five curses and map each to its case study; the wedge instead hands them a plausible-sounding dismissal and asks them to apply the chapter's distinctions rather than recite the list. The friend's claim is exactly the move the chapter pre-empts: it treats all five curses as equally beatable. Use it to draw out (a) the before/after gap: ASI alignment gets no iterations, unlike probes and reactors; (b) why edge cases is a different category from the other four: it intensifies with the adversary's intelligence, while speed, narrow margins, self-amplification, and complications are fixed physical constraints that ingenuity can best; and (c) "grown, not crafted" — computer security is losing even when engineers can read their own code, and AI's engineers cannot read theirs.
 

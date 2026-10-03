@@ -20,13 +20,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 0dd68cbc-c7b2-4fd6-8fee-c635a029de1d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The WWII parable: Allied Powers drafted soldiers, rationed food, spent $6 trillion (today's dollars), deployed 60–80 million personnel (many of them people whose lives weren't immediately at risk from the Axis)
@@ -61,13 +62,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 5daa8d6e-ce91-4bf5-a87f-9b122e2233f0
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, rather than explaining the content to them.
 
@@ -98,13 +100,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### Question: Open
 id:: d91e1c93-fed5-432a-ad9a-f0b4f88ecf15
 content::
 \## Phase 3: Learning Question
 Suppose someone tells you: "A global treaty to restrict AI development is politically unrealistic — no major power has ever coordinated to stop its own scientific and military development." Using only what you just read in Chapter 13, how would you respond? Walk through the argument the chapter makes: what does it point to, what specific claim does it make about human motivation, and how does that convert the "politically impossible" objection into something that can be answered?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Explain how the chapter's WWII analogy responds to the objection that coordinating major powers on AI restriction is politically impossible: what specific feature of the WWII precedent does the chapter invoke, and what claim about human motivation does it rely on?
 

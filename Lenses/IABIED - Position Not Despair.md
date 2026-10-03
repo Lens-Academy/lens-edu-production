@@ -21,13 +21,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: ec1fe6e0-dafe-4f52-9189-5c3bc8ec1a38
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the passage that maps space probes, nuclear reactors, and computer security onto ASI alignment and ends with the line "NOBODY SHOULD BE ALLOWED TO TRY."
+force-feedback:: first
+feedback-instructions:: The student has just read the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies" — the passage that maps space probes, nuclear reactors, and computer security onto ASI alignment and ends with the line "NOBODY SHOULD BE ALLOWED TO TRY."
 
 Learning outcome for this Lens: State Chapter 10's closing position, "NOBODY SHOULD BE ALLOWED TO TRY," and identify that the chapter presents this not as counsel of despair but as a logical conclusion from the combined weight of the five curses, distinguishing a position-statement from despair.
 
@@ -65,21 +66,23 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 485aa616-abc5-420c-a437-fcca2684769f
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c]]
 
-#### Question
+#### Question: Open
 id:: 9b3f6fbe-ffa9-48f7-a64a-7435465714ff
 content::
 \## Phase 3: Learning Question
 A friend reads the last line of the chapter and says: "'NOBODY SHOULD BE ALLOWED TO TRY' is just fatalism with extra steps. Either you think we're doomed (in which case calling for a ban is theater) or you don't, in which case relax. Same anti-progress reflex people had about electricity, vaccines, every new technology." Your friend has folded the closing line into despair on one side and luddism on the other. Is either fold correct? Point to what the chapter's line is actually doing that neither reading captures.
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the closing synthesis section of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a friend's claim that collapses "NOBODY SHOULD BE ALLOWED TO TRY" into two forms of giving up at once: despair on one side ("we're doomed, so a ban is theater") and anti-progress luddism on the other ("same reflex people had about every new technology"). It then asks whether either fold is correct. The student's job is to apply the despair-vs-position-statement distinction, not recite it: to show that a position-statement is a conclusion from specific evidence that calls for a specific action, which is neither the inaction of despair nor a reflexive opposition to the technology as such.
 

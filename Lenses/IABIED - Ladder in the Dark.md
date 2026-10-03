@@ -21,13 +21,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 4bde0725-d8a3-493b-a870-eba8a8d03fcc
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Do it without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall: everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the second section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall: everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - The contrast with Chernobyl managers: AI executives acknowledge high probabilities of killing everyone yet continue anyway, leaving them "not in quite as much denial"
@@ -65,13 +66,14 @@ This is a one-turn response. Do not ask a question or suggest the student reply.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 97b7d7b4-ed00-458f-ae2c-50914df63299
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed: what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading, not to explain the content to them.
 
@@ -102,13 +104,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### Question: Open
 id:: f62ddf26-d341-4ba6-bfc8-a752b053ef80
 content::
 \## Phase 3: Learning Question
 The chapter says AI executives who acknowledge a 20% chance of killing everyone keep building anyway. Is that irrational? Use the ladder-in-the-dark framing to explain whether their behavior makes sense, and what it implies about whether individuals can solve this problem on their own.
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Apply the ladder-in-the-dark framing to explain why uncertainty about the fatal rung does not protect against predictable disaster: trace the chapter's argument that if climbing cannot be stopped while uncertainty remains, death is a predictable collective outcome, even though no specific rung can be identified as lethal in advance.
 

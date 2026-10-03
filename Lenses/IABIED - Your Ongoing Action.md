@@ -27,7 +27,7 @@ Some honest options, roughly in increasing order of commitment:
 - Put your professional skills to work: your action plan from Module 4 named where your strengths bite. Pick the smallest real step toward that and take it this month.
 - Support the work with money, if that is the lever you actually have.
 
-#### Question
+#### Question: Open
 id:: 13ebab87-b749-4e32-8564-284914043b0d
 content::
 \## Make it yours
@@ -37,7 +37,8 @@ Write down, for your future self:
 - Its first concrete step, with a date inside the next two weeks
 - The strength of yours (from Module 4) that makes this the right lever for you
 
-assessment-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of Module 6) and the last piece of guided work in the course. They have read Chapters 12-14 and the Closing Words, and just put the book's whole argument into their own words.
+force-feedback:: first
+feedback-instructions:: The student is making the final choice of the course: one ongoing action for AI safety, its first concrete step with a date inside two weeks, and the personal strength that makes it the right lever for them. Frame it as their choice of what to keep doing. This is the last step of a three-part action plan (strengths in Module 4, one real conversation in Module 5, debriefed at the start of Module 6) and the last piece of guided work in the course. They have read Chapters 12-14 and the Closing Words, and just put the book's whole argument into their own words.
 
 Your role: quality-check their choice, then close the course arc warmly and briefly. Use your "Coach Guidance - AI Safety Impact Pathways" reference for the checks below: match the chosen action against the relevant pathway guide (career, donation, founder/builder, internal Lens contribution), judge the first step against that pathway's readiness ladder, and when proposing a smaller version, draw it from the pathway's low-friction next steps. If the student's profile clearly fits a pathway they haven't considered, name it once as an option — their choice still wins; motivation beats optimization.
 

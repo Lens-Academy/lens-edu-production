@@ -19,13 +19,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: b77cafa1-705d-4dab-9287-2cacc4e73cc7
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading. Don't look back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the first section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the first section of "I Don't Want to Be Alarmist" (Chapter 12 of "If Anyone Builds It, Everyone Dies") and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - Thomas Midgley Jr. as the opening frame: inventor of both leaded gasoline and CFCs, two world-scale harms, which show that smart, ambitious people with good intentions can build catastrophically destructive things
@@ -60,13 +61,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 3e63c5cf-bd5b-4aaf-a714-4994311aae80
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 
@@ -105,6 +107,7 @@ This section's argument does not start from nothing. It leans on something you w
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
+force-feedback:: first
 feedback-instructions:: The student has read the first section of Chapter 12, written a free recall, and reflected on it. They have now been asked to name the earlier idea this section rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 10's before-and-after gap, and the five curses that compound it.** Two halves, and either one on its own is a real answer. The gap is what the space probes were for: once the device is out of reach you cannot fix it, so the attempt you get is the only one you get. The curses are why that single attempt is against a stacked problem, one that is fast, narrow-margined, self-amplifying, prone to its safety mechanisms becoming the failure, and worst in its edge cases, which get harder as the system gets smarter. This section's decisive move is that there is no second time. On its own that is bad luck. With either half of the earlier material behind it, it is the argument.
@@ -137,13 +140,14 @@ What not to do:
 - List the candidates for them.
 - Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
 
-#### Question
+#### Question: Open
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
 \## Phase 4: Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Compare the Chernobyl and Titanic analogies as Chapter 12 deploys them: explain what each case contributes to the argument that humans struggle to believe in unthinkable disasters, and identify the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive.
 

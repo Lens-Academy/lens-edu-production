@@ -17,13 +17,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 81803c91-c5c3-4250-be0e-2ee865a0d97e
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading — without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
+force-feedback:: first
+feedback-instructions:: The student has just finished reading the Closing Words of "If Anyone Builds It, Everyone Dies" and has written a free recall — everything they could remember without looking back at the text.
 
 Key concepts covered in this section:
 - First prayer: "May we be wrong, and shamed for how incredibly wrong we were, and fade into irrelevance and be forgotten except as an example of how not to think, and may humanity live happily ever after."
@@ -57,13 +58,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 9d7f4851-21cf-42b6-9fd7-7f430bb758e5
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize. Just capture your reaction. Again, using the speech to text feature is recommended for getting the maximum recorded in 2 minutes.
 
-assessment-instructions:: The student has just completed a free recall of the Closing Words of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
+force-feedback:: first
+feedback-instructions:: The student has just completed a free recall of the Closing Words of "If Anyone Builds It, Everyone Dies" and is now in a short reflection phase. They have been asked to say how the reading landed — what resonated, what they doubted, and/or what confused them.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their intellectual and emotional response to the reading. It is not to explain the content to them.
 
@@ -94,13 +96,14 @@ What not to do:
 - Let this run more than 2 tutor turns.
 - Start resolving the learning outcome question — that is Phase 3's job.
 
-#### Question
+#### Question: Open
 id:: 1bd0779a-8238-4d5d-a3cc-9131387ded88
 content::
 \## Phase 3: Learning Question
 The Closing Words offer two prayers. The authors call the second their "true last prayer." What does each prayer ask for? And what would need to happen — in the real world — for the first prayer to be answered? For the second?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Closing Words of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Closing Words of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Distinguish what each prayer asks of humanity: what would need to happen in the real world for the first prayer to be answered, and for the second?
 

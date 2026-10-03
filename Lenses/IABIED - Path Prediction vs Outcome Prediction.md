@@ -19,13 +19,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: 3937af5c-466d-4edd-a662-721705c0bba2
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the Coda of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Distinguish between predicting the pathway to a catastrophic outcome and predicting the outcome itself, explain why outcome confidence is achievable even when the exact path cannot be predicted, and apply this distinction to the argument that humanity's position relative to a superintelligent AI is analogous to a human playing chess against Stockfish.
 
@@ -63,13 +64,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 4a0a231b-9a74-474c-9ca1-f27cb2d9a90a
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-c.md]]{>>{"author":"Luc's AI","timestamp":1783779634146}@@This Phase 2 block is byte-identical in 2 lenses (Path Prediction vs Outcome Prediction, Position Not Despair); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question: Open
 id:: ca4137f3-ea64-47bc-8e77-8228275842e9
@@ -79,6 +81,7 @@ The Coda calls this an easy call. The term is not new here: the course opened on
 
 Without looking anything up, say what that distinction was. Then check the Coda against it. Does the prediction the Coda actually makes count as an easy call by the authors' own definition? Say where it qualifies, and where you are not sure it does.
 
+force-feedback:: first
 feedback-instructions:: The student has read the Coda, written a free recall, and reflected on it. They have now been asked to recall the Introduction's hard-calls-and-easy-calls distinction and audit the Coda's prediction against it.
 
 This beat works differently from the connection beats elsewhere in this course, and the difference matters. Those ask the student to find an earlier idea. This one names it, because the Coda names it too. Recalling the framework is the entry price here, not the answer. Do not let the exchange end once they have produced it.
@@ -110,13 +113,14 @@ What not to do:
 - Preview the next phase. It turns on whether an easy call means there is nothing to be done, and that objection has to arrive fresh.
 - Turn this into a review of the Introduction.
 
-#### Question
+#### Question: Open
 id:: a869a31e-b4f8-48b3-9578-c15671517846
 content::
 \## Phase 4: Learning Question
 A friend finishes the Coda and closes the book, defeated: "They say it's an *easy call* that we lose, so the outcome is settled. This is just a doom book. Why write a Part III? Why do anything at all?" Using the Coda's own distinction, show your friend where the reasoning breaks. Is the book predicting that we lose, or something narrower with a condition attached? And what exactly would have to be true before the "easy call" applies at all?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the Coda of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible misreading: that an "easy call" outcome means the book is fatalist and nothing can be done. Their task is to dismantle it using the path/outcome distinction and the Coda's conditional structure ("only if the story is allowed to begin"). Use it to draw out why outcome confidence is the opposite of fatalism: the prediction is conditional on superintelligence being reached, and Part III is precisely about preventing that.
 

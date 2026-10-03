@@ -20,13 +20,14 @@ Return here after reading.
 
 ---
 
-#### Question
+#### Question: Open
 id:: a3db6bc7-dbae-4a4d-82de-3433874ba18d
 content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read section 1 of Chapter 6 ("We'd Lose") of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Define the Aztec warrior analogy as Chapter 6 states it: a defender cannot imagine the mechanism of defeat but the outcome is still predictable from capability asymmetry alone.
 
@@ -64,13 +65,14 @@ What not to do:
 
 This is a one-turn response. Do not ask a question or suggest the student reply. Tell them to move on to the next step.
 
-#### Question
+#### Question: Open
 id:: 1231724f-7419-44b0-b30e-00a79e5db80b
 content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-a.md]]{>>{"author":"Luc's AI","timestamp":1783779555734}@@This Phase 2 block is byte-identical in 4 lenses (Aztec Warrior, Goal-Space, Refrigerator, Hostile/Indifferent); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question: Open
 id:: 1b89db69-aa12-47b8-aa59-a6a2a34d80ad
@@ -80,6 +82,7 @@ This chapter's argument does not start from nothing. It leans on something you w
 
 Without looking anything up, write down which earlier idea it is leaning on, and what work that idea is doing here. If more than one comes to mind, pick which one you think is load-bearing and why.
 
+force-feedback:: first
 feedback-instructions:: The student has read section 1 of Chapter 6 ("We'd Lose"), written a free recall, and reflected on it. They have now been asked to name the earlier idea this chapter rests on. The prompt deliberately does not say which idea, which chapter, or how many candidates there are. Do not supply any of that before they have committed to an answer.
 
 The answer this question is aimed at: **Chapter 1's definition of intelligence as prediction plus steering, and specifically that its power comes from being general.** The analogy licenses predicting an outcome without knowing the mechanism. That inference only holds if the stronger party's advantage is general rather than one trick. Chapter 1 supplied exactly that: a mind that predicts and steers finds some route to its target through whatever the world affords. Greater predictive and steering abilities are what lead to the capability gap. Which route is unknowable to the weaker party, but that there is one follows from what the capability is. Without Chapter 1 the Aztec story is an anecdote about boats rather than an argument.
@@ -110,13 +113,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1.
 
-#### Question
+#### Question: Open
 id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
 content::
 \## Phase 4: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection that conflates two errors: treating overwhelming capability asymmetry like a coin-flip upset (where the underdog sometimes wins), and demanding a specific mechanism (the "winning move") before granting the outcome. The student must dismantle it using the analogy's logic rather than re-describing the Aztec story. Use it to draw out the mechanism-vs-outcome distinction and why a large enough capability gap makes the outcome predictable.
 
