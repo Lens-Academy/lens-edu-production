@@ -16,12 +16,12 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-2\. Something in this unit landed on you: a number, a claim, a limit nobody has solved yet. What was it, and what did it do to you? Hope, unease, irritation and relief are all answers.
-3\. Five units in: are you more or less hopeful that a pause could actually be checked? Which part of the course did that?
+1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish, and if not, what stopped you? (No judgment, "I didn't finish" is a fine answer.)
+2\. Recall something from this unit that stuck with you: a number, a claim, or an unsolved limit. What was it, and how did it impact you?
+3\. Having now completed Compute Verification 1, are you more or less hopeful that a pause could actually be verified? Which part of the course swayed you most? If nothing changed, what evidence would move the needle for you?
 
 
-| Names | What landed on you + more or less hopeful, and which part did that |
+| Names | What stuck with you + more or less hopeful, and which part did that |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -41,16 +41,16 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Offline licensing: a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the key. The unit's line: **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
-Design the key for a US-China pause:
-1\. Who holds it: one government, both, or several who must agree?
-2\. The server is unreachable for a day: do chips keep running (fail open) or stop (fail closed)?
-3\. A false alarm shuts down a hospital's lawful AI cluster: who reverses it, and who pays?
-4\. Verdict: would the rival government and the cluster operator both sign?
+With offline licensing a chip runs only while a licence server keeps renewing its token; whoever controls that server holds the keys. As described earlier in the unit: **an off-switch for someone else's compute is only as acceptable as the answers to who holds the key, what happens when the server is down, and who reverses a mistake.**
+As a group, design the key protocol for a US-China pause:
+1\. Who holds the keys? One government, both, or several who must agree?
+2\. If the server is unreachable for a day, do chips keep running (fail open) or stop (fail closed)?
+3\. One day a false alarm shuts down a hospital's lawful AI cluster. Which party reverses it, and who pays?
+4\. Final verdict: would both your rival government and the cluster operator sign the protocol?
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
 | Names | Your key design + fail open or closed + would both sign? |
@@ -76,7 +76,7 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-1\. On your own, two minutes: write down every question this course left you with. Big, small, technical, political, anything you are still turning over.
+1\. On your own, spend two minutes writing down every question this course left you with. Big, small, technical, political, anything you are still turning over.
 2\. Read them out to each other. No answering yet.
 3\. Pick the one the group most wants to talk about, and spend the rest of the room on it. Put the question and where you got to in the table.
 
@@ -99,14 +99,15 @@ One or two people share what their group landed on.
 ### Room 4: Your ongoing action  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-Part 1 ends today, but your action plan doesn't.
-1\. In Unit 1 you read Plan A, a proposed regime for verifying an international agreement, and voted: adopt, amend, or reject. Same vote now? (Don't remember it? Vote on what you would accept today.)
+Part 1 ends today, but your action plan doesn't have to.
+1\. In Unit 1 you read AI 2040's Plan A, a proposed regime for verifying an international agreement, and voted to adopt, amend, or reject it. Would you vote the same way now? (Don't remember it? Vote on what you would accept today.)
 2\. Share the one action you choose to keep doing after this course, and its first concrete step with a date. Tell your accountability buddy too. For example:
 
 - read one verification paper a week
 - write up your key design from Room 2
 - talk to someone who builds chips or runs a cloud
 - apply somewhere
+- sign up for Compute Verification 2
 
 3\. Feedback: what would make Part 1 better for the next cohort, and what should the next course (Part 2) keep from it?
 
@@ -124,8 +125,8 @@ Part 1 ends today, but your action plan doesn't.
 Back in the main room, share if you feel like it: one thing you're glad you know now that you didn't know when this course started.
 Before you leave (your navigator will talk through these):
 
-- This is the last meeting of Part 1. The second course continues through the remaining evidence streams (cloud, intelligence, human and institutional) and how a determined adversary evades them; after both courses comes a guided capstone: designing and defending a verification regime for a three-month emergency pause. Watch Discord for how and when to join.
-- Keep your Unit 1 essays, including the success scenario if you wrote it: XLab's curriculum returns to it at the end of the track.
+- This is the last meeting of Part 1 of the Compute Verification Track. The second course, [Compute Verification 2](https://lensacademy.org/courses/compute-verification-2), continues through the remaining evidence streams (cloud, intelligence, human and institutional) and looks at how a determined adversary evades them. After both courses is a guided capstone to design and defend a verification regime for a three-month emergency pause. Watch Discord for details on joining or sign up on the above link to get notified when Part 2 of the Compute Verification Track goes live.
+- Keep your Unit 1 essays, including the success scenario if you wrote it: XLab's curriculum will revisit it in a future course down the track.
 - Found something unclear, wrong, or missing? The course is still in development: send it through [XLab's feedback form](https://forms.gle/KkWcHkKh87pygDzw9).
 
 
