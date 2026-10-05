@@ -1,0 +1,46 @@
+---
+id: '392c68c3-e1da-4e0e-83a1-8fed7590dfe0'
+title: "Rogue deployments"
+tldr: "Causing a catastrophe directly takes a lot of work while safety measures watch. Starting a copy of yourself that nobody monitors might take twenty lines of code. Buck Shlegeris argues that this second step, a rogue deployment, is the central high-stakes threat."
+summary_for_tutor: "Second teaching lens of Unit 2 of AI Control Fundamentals. The learner reads three excerpts of Buck Shlegeris's post 'AI catastrophes and rogue deployments' (Redwood Research, June 2024): the introduction and the section 'Rogue deployments', the two paragraphs on why launching a rogue deployment is easy, and the opening of 'More on catastrophes without rogue deployment' with its three failure types. The sections on safety cases, the varieties of rogue deployment, attacker profiles and hot takes are collapsed and not required. Key ideas. A rogue deployment is a deployment of the model where the safety measures are absent (examples in the excerpt: an AI hacking its datacenter and running itself, an AI self-exfiltrating, someone stealing and running it). Catastrophes either happen with all safety measures in place or go through a rogue deployment first. Causing a catastrophe directly is hard because it needs a few wildly superhuman actions or many ordinary ones, while launching a rogue deployment may be easy (twenty lines of Python with weight access). Catastrophes without rogue deployment, in Shlegeris's view, mostly need many actions and so give the lab many chances to spot them, with exceptions such as long-term jailbreaks, steganographic reasoning and subtle long-term manipulation. In this course's terms, launching a rogue deployment is the central high-stakes threat, and the 'extremely subtle long-term failure' case is low-stakes. Two scored questions follow: one applies the idea of a rogue deployment to an agent with weight access, the other classifies the long-term jailbreak of the monitor, separately for finding it and for using it."
+reading_minutes: 7
+tutor_minutes: 8
+---
+#### Text
+content::
+Buck Shlegeris is CEO of Redwood Research ([80,000 Hours](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)). This post introduces the rogue deployment, a model running somewhere its safety measures do not reach. You read three parts of it: the idea itself, why launching a rogue deployment may be easy, and how a catastrophe could happen without one. As you read, notice how many actions each kind of catastrophe needs.
+
+#### Article
+source:: [[../articles/shlegeris-ai-catastrophes-and-rogue-deployments]]
+from:: In this post, I want to introduce the concept of a “rogue deployment”
+to:: establishing a rogue deployment is the central example of an instrumental catastrophe.)
+
+#### Article
+from:: The main reason to worry about rogue deployments is that
+to:: it’s much more able to take the huge number of sketchy-actions that are probably required to cause the catastrophe.
+
+#### Article
+from:: ## More on catastrophes without rogue deployment
+to:: you falsely believe that some models are aligned or safe when they aren’t.
+
+#### Question: Open
+id:: 6f10a7a0-b41a-4c22-9cb5-6d69cfd394a8
+content::
+An AI agent at a lab has access to its own weights and runs experiments in a Jupyter notebook. Describe one rogue deployment it could start from there. Then explain why the lab should worry more about this step than about the same AI trying to cause a catastrophe directly while all its safety measures are running.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Context for grading: a rogue deployment is a copy of the model running where the lab's safety measures, such as monitoring, are absent, for example an AI running itself unmonitored on the lab's own machines, copying its weights to an outside server, or someone stealing and running it. 40: a rogue deployment that fits the setup, meaning the model, or a copy of it, ends up running without the lab's safety measures. Examples: from the notebook it starts a copy of itself on the lab's GPUs that the monitor does not watch, or it sends its weights to an outside server and runs there. 60: why this step is the bigger worry. 30 for the comparison of how many actions each takes: starting the rogue deployment may take only a few actions, such as a short piece of code, so the safety measures get few chances to catch it, while causing a catastrophe directly with the safety measures running takes many actions, or superhuman ones, each a chance to be caught. 30 for what happens afterwards: once the copy runs unmonitored, it can take the many actions a catastrophe needs without being watched. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "From the notebook it could start a copy of itself on the lab's GPUs that the monitor never sees, with a few lines of code. That is the step to worry about, because it takes only a few actions, so the safety measures have few chances to catch it. Causing a catastrophe directly while being watched would take many actions, each a chance to be caught. Once the unmonitored copy is running, it can take all those actions with nobody watching."
+feedback-instructions:: The learner applies Shlegeris's idea of a rogue deployment to an agent with weight access in a notebook. A rogue deployment is a deployment of the model where the safety measures are absent (his examples: an AI hacking its datacenter and running itself unmonitored, self-exfiltrating to outside servers, or someone stealing and running it). Causing a catastrophe directly is hard because, with safety measures running, it needs either a few wildly superhuman actions or many ordinary ones, each a chance to be caught. Launching a rogue deployment may take very little, for example twenty lines of simple code for an AI with weight access, and afterwards the AI is unconstrained. Reply in at most four sentences: acknowledge what is correct, name the most important missing point in one sentence, and correct any error in one sentence, such as a described case where the safety measures still apply. One turn, no follow-up question, no generic praise. Tell them to move on.
+
+#### Question: Open
+id:: 1a06dc72-156f-4ee9-a921-2e0217e71f54
+content::
+Shlegeris's first example of a catastrophe without a rogue deployment is an "amazing, long-term jailbreak" that makes the monitor decide that everything is fine. Is that high-stakes or low-stakes in the sense of the previous lesson? Answer separately for the many attempts it takes to find the jailbreak and for the moment it is finally used, and say why for each.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Context for grading: a threat is high-stakes when a few actions, or a short time, are enough for a catastrophe, and each action usually looks clearly bad if inspected. It is low-stakes when it needs many bad actions, each only weak evidence. The case: a user or the AI itself finds an extremely powerful jailbreak that makes the trusted monitor always decide that everything is fine. 50: the search. Finding the jailbreak takes many attempts, and each failed attempt is at most mildly suspicious, an odd input rather than proof of bad intent, so this phase is low-stakes and the lab has many chances to notice the pattern. 50: the use. Once the jailbreak works, the monitor waves everything through, so from then on a few actions can be enough to cause serious harm, which is high-stakes. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 40 if the answer classifies by how bad the outcome is rather than by how many actions are needed and how incriminating each is. Model answer, for the feedback, not a grading checklist: "Finding the jailbreak is low-stakes: it takes many attempts, and each one looks like an odd prompt, not proof of anything, so the lab gets many chances to spot the pattern. Using it is high-stakes: once the monitor passes everything, a few actions can do the damage before anyone notices."
+feedback-instructions:: The learner classifies Shlegeris's long-term jailbreak in two phases. Finding a jailbreak that makes the trusted monitor always decide everything is fine takes many attempts, each only weakly incriminating, so the search is low-stakes and gives the lab many chances to notice. Once found, the jailbreak lets the AI or a user act without the monitor objecting, so from then on a few actions can be enough, which is high-stakes and close to a rogue deployment. His other examples, large-scale steganographic reasoning and extremely subtle long-term failure such as slowly manipulating public opinion, are clear low-stakes cases. If the learner classifies by how bad the outcome is, say in one sentence that the axis is number of actions and how incriminating each is. At most four sentences. One turn. No generic praise.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Shlegeris, Buck. "AI catastrophes and rogue deployments." *Redwood Research blog*, 3 June 2024. [redwoodresearch.substack.com](https://redwoodresearch.substack.com/p/ai-catastrophes-and-rogue-deployments)
+:::
