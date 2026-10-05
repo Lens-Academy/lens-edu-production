@@ -15,10 +15,10 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
 
-Go around your group, three things:
+Go around your group, three things:{>>{"author":"Andreas's AI","timestamp":1791186538736}@@For the full pass: this says "three things", but item 3 only applies if everyone already shared. Item 3 also says "last meeting" where item 2 says "last unit" (B7).<<}
 
 
-1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** (No judgment, "I didn't finish" is a totally fine answer.)
+1. **Did you finish the book? What was it like to reach the end? If you didn't finish, what got in the way?** ("I didn't finish" is a totally fine answer.)
 
 
 2. **How did your conversation go?** Your action plan asked you to talk to one real person about AI risk. If you already shared last unit, tell us what's happened since. Otherwise, share:
@@ -29,10 +29,7 @@ Go around your group, three things:
 Not yet? Say when it's happening, or what's been in the way.
 
 
-3. If everyone already shared last unit: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, something else?
-
-
-Your scribe notes conversation statuses and reactions; carry your own answer to share in the next room.
+3. If everyone already shared their conversation last meeting: **Where does finishing the book leave you:** hopeful, alarmed, motivated, numb, or something else?
 
 
 | Names | Conversations + Book reactions |
@@ -54,16 +51,16 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Then, as a group, discuss this question and **write your shared response** in the table:
+As a group, discuss this question and **write your shared response** in the table:
 
 
 > **Would you sign it?**
-> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the cost would be "not even 1% as costly as WWII".
-> **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, as a group, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.
+> The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. The authors argue the level of care required from countries would not be "even 1% as much as they cared to fight World War II".
+> **Go around, gut reaction to the proposal:** realistic, necessary, both, neither? Then, **find the weakest link in the plan** (nations won't sign? enforcement fails? we'd need a warning shot first?) **and stress-test it**.{>>{"author":"AI","timestamp":1791094719426}@@Clarity: this block packs four asks into one paragraph (gut reaction, weakest link, stress-test, and the alternative below). AI (mild): the bracketed run of question fragments, and "stress-test it".<<}
 > **And if your group rejects the halt, what do you endorse instead?** Anything can be a valid answer (even keep going), but you have to defend it.
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
 
 
 | Names | Weakest link in the proposal | Your group's verdict |
@@ -87,16 +84,16 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-You've now heard the whole case, from "intelligence is power" to "shut it down". Time to own it. Go around in two rounds, then respond to each other:
+You've now heard the whole case, from "intelligence is power" to "shut it down". Time to test how well you can argue it. Go around in two rounds, then respond to each other:
 
 
 **1. The three-minute version:**
-One of you makes the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. If somebody else wants to try: swap roles. **When someone's three-minute version skips a step, or lands a line worth remembering, say it!** You're each other's rehearsal audience for every future conversation about this.
+One of you makes the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. If somebody else wants to try: swap roles. **When someone's three-minute version skips a step, or lands a line worth remembering, say it!** You're each other's rehearsal audience for every future conversation about this.{>>{"author":"AI","timestamp":1791094721820}@@AI (strong): a grand line telling people why the exercise matters. "Ask honest questions" and "lands a line worth remembering" in the same item read the same way.<<}
 **2. But where do you land?**
-Go around: your #1 takeaway from the course, and the step in the argument you're least convinced by.
+Share your #1 takeaway from the course, and the argument in the book you're least convinced by.
 
 
-Your scribe writes each person's #1 takeaway and the step they're least convinced by.
+Your scribe writes each person's #1 takeaway and the argument they're least convinced by.
 
 
 | Names | #1 takeaway | Least convinced by |
@@ -118,14 +115,14 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-The last room of the whole course. Some possibilities:
+The last room of the whole course. Some possibilities for what to do next:{>>{"author":"AI","timestamp":1791094723436}@@AI (mild): a sentence fragment as the opener. Clarity: "Some possibilities" sounds optional, but items 1 and 2 are the room's asks and item 3 is information.<<}
 
 
-1. **Your ongoing action:** the course ends today but your action plan doesn't! **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
-2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming? Verbal primer for the survey!
-3. Two things you can keep doing with Lens, both in the Meeting 5 Survey:
-    - Keep learning: **we are running an advanced course, Forecasting, Modeling & Shaping AI Futures**. Runs part-time or as a one-unit intensive.
-    - **Become a Navigator!** Guiding others is one of the highest value things you can do today. If you would consider it, [let us know!](https://lensacademy.org/navigators)
+1. **Your ongoing action:** the course ends today but your action plan doesn't have to! **Share the one action you choose to keep doing after this course** (have conversations, write representatives, refer someone, aim your skills at the problem)**, and its first concrete step with a date.**
+2. **Feedback:** this was our last session. **What should the next cohort get more of, and less of?** What almost made you drop, and what kept you coming?
+3. Two things you can keep doing with Lens, both in the Meeting 5 Survey and beyond:
+    - Keep learning: **we are running an advanced course, Advanced Strategy in AI Safety as well as two intermediate courses, Compute Verification 1 and AI Control 1**. These courses run part-time or as a one-week intensive.
+    - **Become a Navigator!** Guiding others is one of the highest value things we think you can do today. If you would consider it, [let us know!](https://lensacademy.org/navigators)
 
 
 | Names | Ongoing action + first step | Feedback for us |
@@ -138,7 +135,7 @@ The last room of the whole course. Some possibilities:
 \pagebreak
 ### After we wrap  [1:27–1:30]
 
-We'll come back together for a final wrap and close on time. That's the course: five units from "intelligence is power" to "where there's life, there's hope". The community doesn't end here: the Discord stays open, the next cohort is open at lensacademy.org for the person you talked to, and if this group mattered to you, consider becoming a navigator for a future cohort. After the wrap, the meeting stays open; hang around and keep talking.
+We'll come back together for a final wrap and close on time. That's the entire course finished: five units all the way from "intelligence is power" to "where there's life, there's hope".{>>{"author":"AI","timestamp":1791094726787}@@AI (strong): summarising flourish, with the same "from X to Y" shape as Room 3.<<} The community keeps on going:{>>{"author":"AI","timestamp":1791094727562}@@AI (mild): another "X doesn't end" line (see Room 4). Clarity: "the next cohort is open at lensacademy.org for the person you talked to" is hard to parse.<<} the Discord stays open, the next cohort is open at lensacademy.org for the person you talked to, and if this group mattered to you, consider becoming a navigator for a future cohort. After the wrap, the meeting stays open; hang around and keep talking.
 **Fill in the Meeting 5 Survey on the Lens platform (it counts for your certificate). It unlocks right after this meeting and pops up the next time you open the course.**
 
 ---
@@ -157,7 +154,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -182,8 +179,8 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the Lens Coach! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Coach or Ask for Help.
+- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
+- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech
 
@@ -193,7 +190,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** Your relationship with your accountability buddy doesn’t have to end with the course.{>>{"author":"AI","timestamp":1791094729886}@@AI (strong): another "doesn't have to end" line. Clarity: it no longer answers the question it sits under ("How do accountability buddies work?").<<} Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
 
 # Tab: Navigator Run-Sheet
 
