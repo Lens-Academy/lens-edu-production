@@ -212,7 +212,6 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating (paid)
 - Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
@@ -262,7 +261,6 @@ options::
 - BlueDot Facilitating
 - Lens Academy Courses
 - Lens Academy Project
-- Lens Academy Facilitating (paid)
 - Lens Academy Facilitating (volunteer)
 - AI Safety Camp
 - ML4Good
