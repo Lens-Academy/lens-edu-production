@@ -31,6 +31,8 @@ Unit 1 goals (What control is):
 - Write down a gut view on control, revisited in Unit 5
 %%
 
+application-survey:: [[../surveys/Application Form]]
+
 # Module: [[../modules/AI Control Fundamentals Overview|Course Overview]]
 
 # Module: [[../modules/AI Control Fundamentals U1 What control is|Unit 1: What control is]]
