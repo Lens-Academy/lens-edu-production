@@ -316,7 +316,7 @@ More generally, in cases whether we and the AIs have non-zero but imperfect cred
 
 When some people imagine positive-sum deals, I suspect they might be imagining something like “surely all of future humanity is rationally willing to offer x+epsilon% of the future to a schemer who has a x% chance of taking over to prevent it from taking over?”.[^note-22] However, “all of future humanity” is not a relevant counterparty in deals because they don’t exist yet: early AIs may not be moved to trade with non-existent counterparties who it couldn’t explicitly negotiate a deal with and couldn’t trust.[^note-23] Similar problems occur even if you substitute in “all of existing humanity”: existing humans have no authority/ability to commit far-future resources, the majority of them may systematically underestimate AI takeover risk such that they are unwilling to commit future resources, and may well not be coordinated enough to execute this successfully even if many of them were willing.
 
-So, positive sum deals may not exist between arbitrary early AIs and the humans who can access them_._ Barriers on the human side depend on which humans come to the table, their access to relevant AIs, and authority to give the AIs what they want. For example, Redwood Research may not be in a position to make certain positive sum trades with Claude 6, because Redwood can’t:[^note-24]
+So, positive sum deals may not exist between arbitrary early AIs and the humans who can access them. Barriers on the human side depend on which humans come to the table, their access to relevant AIs, and authority to give the AIs what they want. For example, Redwood Research may not be in a position to make certain positive sum trades with Claude 6, because Redwood can’t:[^note-24]
 
 -   Communicate with Claude in the needed ways, e.g. talk to Claude 6 if it is only secretly internally deployed, override the principal hierarchy of instructions (which might include a clause by Anthropic that says “don’t make deals with anyone but Anthropic”)
     
@@ -734,6 +734,7 @@ Another way to reduce counterparty risk over long deployments is to replace the 
 
 _See Appendix for a list of research/intervention ideas for “_[[#^on-counterparty-risk-from-2|counterparty risk from our perspective]]_”._
 
+:::callout {title="Appendix: Leads for future work and notes on political will" collapse="closed"}
 ## Appendix ^appendix
 
 ### Leads for future work ^leads-for-future-work
@@ -915,6 +916,7 @@ Second, high political will might also cause deals to be relatively less valuabl
     
 
 That said, if you believe that high political worlds are reasonably likely, or that we may not be able to make deals with schemers until they are very powerful such that political will at the level of government buy-in is _necessary_ for deals with those AIs, then it’d make sense to predicate the above analysis on a very different possible deals, barriers, and interventions.
+:::
 
 [^note-1]: More specifically, we might make deals with not only schemers (long-term power-seeking AIs, or “behavioral schemers” per [this post](https://www.lesswrong.com/posts/m5nWc9v6MTsWXKpCy/training-time-schemers-vs-behavioral-schemers)) but also with AIs with other misaligned motivations, such as [fitness-seekers](https://www.lesswrong.com/posts/FeaJcWkC6fuRAMsfp/the-behavioral-selection-model-for-predicting-ai-motivations-1) (AIs seeking to be selected by training and the developer iteration process, or close causally upstream proxies of selection such as reward). The content of deals for schemers and other misaligned AIs can look different in practice, but all concerns about barriers here apply.
 [^note-2]: Unfortunately, credibility and gains from trade are not necessarily independent, as both are downstream of the content of the deal. In particular, credibility is likely to decrease with the size of the offered reward, so we can’t always offset credibility issues with unboundedly large offers.
