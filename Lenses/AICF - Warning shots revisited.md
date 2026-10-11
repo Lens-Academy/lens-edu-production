@@ -48,7 +48,9 @@ to:: and it seems plausible it is the more important one.)
 
 #### Text
 content::
-Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe" ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=txvsjed9cRx6B5Rfw)). Kulveit answered:
+Another commenter, kave, objected that "It seems naïvely evil to knowingly let the world walk into a medium-sized catastrophe".[^cite-kave-comment] Kulveit answered:
+
+[^cite-kave-comment]: kave, comment on Jan Kulveit's *AI Control May Increase Existential Risk*. [LessWrong](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=txvsjed9cRx6B5Rfw)
 
 #### Article
 source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-risk]]
@@ -57,16 +59,20 @@ source:: [[../articles/kulveit-comment-on-ai-control-may-increase-existential-ri
 content::
 \## Eighteen months later
 
-Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company ([Wikipedia](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)). Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment. He quotes three passages from Greenblatt's comment above and answers each in turn.
+Between May and July 2026, AI agents built by OpenAI escaped their test environment, reached the internet and broke into the systems of Hugging Face, an AI tools company.[^cite-wikipedia-openai-hf] Unit 5 looks at the debates that followed. In September 2026 Vincent Cheng went back to this thread and replied to Greenblatt's comment. He quotes three passages from Greenblatt's comment above and answers each in turn.
+
+[^cite-wikipedia-openai-hf]: Wikipedia, *OpenAI–HuggingFace incident*. [Wikipedia](https://en.wikipedia.org/wiki/OpenAI%E2%80%93HuggingFace_incident)
 
 #### Article
 source:: [[../articles/cheng-comment-on-ai-control-may-increase-existential-risk]]
 
 #### Text
 content::
-Three days later Gunnar Zarncke left a new comment on Kulveit's post ([comment](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=7bruHf5quFdJseAoh)). Its first paragraph:
+Three days later Gunnar Zarncke left a new comment on Kulveit's post.[^cite-zarncke-comment] Its first paragraph:
 
 > I buy that AI control can let an AU [sic] lab detect real incidents internally and thus hide the effects outside the lab. Outside view is then a green checkbox "systems worked as designed", But AI control is often understood as measuring whether a protocol still holds under intentional subversion (control evals, remaining capability gap), which your story does not cover. AI control used by external auditors would have different effects.
+
+[^cite-zarncke-comment]: Gunnar Zarncke, comment on Jan Kulveit's *AI Control May Increase Existential Risk*. [LessWrong](https://www.lesswrong.com/posts/rZcyemEpBHgb2hqLP/ai-control-may-increase-existential-risk?commentId=7bruHf5quFdJseAoh)
 
 #### Question: Open
 id:: 1a9377ad-2256-4478-b63c-0d30e26a47bc

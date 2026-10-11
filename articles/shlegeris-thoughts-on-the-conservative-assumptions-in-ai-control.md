@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Work that I’ve done on techniques for mitigating risk from misaligned AI often makes a number of conservative assumptions about the capabilities of the AIs we’re trying to control. (E.g. [the original AI control paper](https://www.alignmentforum.org/posts/d9FJHawgkiMSPjagR/ai-control-improving-safety-despite-intentional-subversion), [Adaptive Deployment of Untrusted LLMs Reduces Distributed Threats](https://arxiv.org/abs/2411.17693), [How to prevent collusion when using untrusted models to monitor each other](https://www.alignmentforum.org/posts/GCqoks9eZDfpL8L3Q/how-to-prevent-collusion-when-using-untrusted-models-to).) For example:
 
 -   The AIs are consistently trying to subvert safety measures.
@@ -144,7 +151,7 @@ All of the capabilities I listed at the top of this doc pose substantial problem
     
 -   I don’t know how to evaluate how good models are at picking Schelling points without training them in a way that might drastically improve their performance at this task, as discussed in [Schelling game evaluations for AI control](https://www.alignmentforum.org/posts/n2c62YS8RJtD4Aqhh/schelling-game-evaluations-for-ai-control).
     
--   There might not be diverse enough classes of AI control strategies for us to get strong conclusions from model performance on tasks like [Subversion Strategy Eval](https://arxiv.org/abs/2412.12480) in the future. That is, defeating AI control might just require a small number of insights, and once you’ve trained the model to use those insights, there aren’t other insights that you can easily measure generalization to. (See footnote for some thoughts on ways around this.[^1])
+-   There might not be diverse enough classes of AI control strategies for us to get strong conclusions from model performance on tasks like [Subversion Strategy Eval](https://arxiv.org/abs/2412.12480) in the future. That is, defeating AI control might just require a small number of insights, and once you’ve trained the model to use those insights, there aren’t other insights that you can easily measure generalization to. (See footnote for some thoughts on ways around this.[^note-shlegeris-1])
     
 
 I think that control evaluations, which measure model performance at subverting particular safety measures using a particular provided strategy, have fewer of these difficulties. See [here](https://www.alignmentforum.org/posts/3s8PtYbo7rCbho4Ev/notes-on-control-evaluations-for-safety-cases#Ensuring_our_red_team_models_are_competitively_good_at_causing_bad_outcomes) for discussion.
@@ -224,4 +231,4 @@ I think that if there was political will (either inside AI companies or in gover
 
 I currently think that control evaluations are promising both in the broad sense of “experiments that you do to estimate P(doom | scheming)” and the narrow sense of “black-box plan-conservative control evaluations”. I expect to spend substantial time on both the more and less conservative senses of control over the next year.
 
-[^1]: Potential ways around this: -   Broaden your training set to less important strategic capabilities      -   Evaluate on analogous capabilities that we think are similarly difficult      -   Draw scaling curves      -   Try harder with your small number of examples: paraphrasing, few-shot prompting, changing hyperparameters, training on reasoning about the insights, etc
+[^note-shlegeris-1]: Potential ways around this: -   Broaden your training set to less important strategic capabilities      -   Evaluate on analogous capabilities that we think are similarly difficult      -   Draw scaling curves      -   Try harder with your small number of examples: paraphrasing, few-shot prompting, changing hyperparameters, training on reasoning about the insights, etc

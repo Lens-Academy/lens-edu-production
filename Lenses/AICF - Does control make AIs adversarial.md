@@ -12,7 +12,7 @@ A different worry: writing about AIs as adversaries to be watched and contained 
 
 #### Article
 source:: [[../articles/gusev-investigating-self-fulfilling-misalignment-and-collusion-in-ai-control]]
-from:: Does training on AI control literature induce more misaligned models
+from:: "## **TL;DR**"
 to:: but it was brittle and confounded by eval-awareness.
 
 #### Article
@@ -20,7 +20,7 @@ from:: It is not straightforward to interpret the results.
 to:: the goals related to “goodness” jumped significantly from very small base rates.
 
 #### Article
-from:: The study used a single model family (GPT-4.1)
+from:: "## **Limitations**"
 to:: but those findings were confounded by eval-awareness.
 
 #### Text
@@ -33,7 +33,7 @@ from:: LLMs pretrained on data about misaligned AIs themselves become less align
 to:: We recommend labs pretrain for alignment, just as they do for capabilities.
 
 #### Article
-from:: ![](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/cam-alignment-pretraining-ai-discourse-causes-self-fulfilling-mis-alignment-img4-64bea0e4.png)
+from:: "### Base Models: AI Discourse Causally Affects Alignment"
 to:: but does not fully erase them.
 
 #### Article
@@ -60,7 +60,9 @@ content::
 
 The studies above ask whether control could make AIs more dangerous. A separate question is what control could cost if it works as intended. If some future AI systems matter morally, the measures that make control work, such as confining them, watching everything they do and shutting them down, could harm or wrong them. This is not a reason control would fail. It is a possible moral cost of control succeeding.
 
-Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare ([Philosophical Studies, 2025](https://doi.org/10.1007/s11098-025-02302-2)). Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
+Robert Long, Jeff Sebo and Toni Sims argue that there is a real tension between AI safety and AI welfare.[^cite-long-sebo-sims-2025] Read their statement of the tension, what they say about confinement and about monitoring, and their conclusion on when harming AI systems might be permitted.
+
+[^cite-long-sebo-sims-2025]: Robert Long, Jeff Sebo and Toni Sims (2025), *Is there a tension between AI safety and AI welfare?* Philosophical Studies. [Springer](https://doi.org/10.1007/s11098-025-02302-2)
 
 #### Article
 source:: [[../articles/long-is-there-a-tension-between-ai-safety-and-ai-welfare]]
