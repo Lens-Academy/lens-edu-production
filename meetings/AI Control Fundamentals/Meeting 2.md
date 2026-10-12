@@ -227,7 +227,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 
 ### Per-room notes for Unit 2
 
-**General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
+**General, all rooms.** This course presents why people work on control and the criticisms of it, and asks each participant to form their own view by Unit 5. Never steer a group toward a verdict on control, on whether the field should grow, or on whether the companies' monitoring is enough. If a group asks what you think, turn it back to them. Collect everyone's answer before any explanation. The unit is about 3.5 hours, so expect part of the room not to have finished: every prompt works from the doc alone, so do not re-teach.
 **Room 1, One bad action or a thousand.** The welcome page of the unit asked the same prediction, so some will have an earlier answer to compare. Take gut answers, not arguments. Both answers are fine, and Room 2 gives them something concrete to argue about.
 **Room 2, Sort four threats.** The point is the sorting reason, not the label. If a group sorts by how bad the outcome is, point them back to the two questions in the doc. Keep ask 1 to about seven minutes so asks 2 and 3 get time. In ask 3, training across all of an agent's work is the unit's answer for many weak actions (Hebbar and the diffuse-threats reading), because no single action proves anything. Accept any reasoned choice. For your own use, likely discussion, not an answer key: the settings change is the clearest high-stakes case (one action, damning if inspected). The paper summaries are the clearest low-stakes case (many actions, each weak evidence). The capability-test score and the monitor threshold are where groups should disagree: both may need only one or a few actions, but each could pass as an honest mistake. Hebbar calls that corner (few actions, weakly incriminating) probably hopeless, and says research sabotage might sit there. Ask 4 connects to what companies already run: a case can look low-risk and still be one of very few actions a catastrophe needs. Do not say which rule is better.
 **Room 3, Who should do the work, and how big is the field.** Keep ask 1 quick (about five minutes) so ask 3 gets time. In ask 2 any project is fine if the group can say why. For your own use: a monitor benchmark needs only models, so a nonprofit or government institute can do it. The 3 a.m. rules are human processes for control, which Greenblatt says are probably most doable at AI companies. Checking a company's claim needs independence plus the company's cooperation, so an outside evaluator such as METR, or a government team such as the UK AI Security Institute's Control Red Team. A written argument can come from anyone. Accept other reasoned placements. For ask 3, the unit itself says whether a small field means control needs more people is disputed, and Unit 4 takes it up. Expect answers such as "more people needed", "the counts miss the teams inside AI companies", "small does not mean neglected" and "other approaches may matter more". All are fair. Do not rank them.
@@ -238,7 +238,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 2: High-stakes and low-stakes threats
+### Module: High-stakes and low-stakes threats
 
 High-stakes threat (concentrated failure): A threat where one or a few actions, or a short time, are enough to cause a catastrophe, and each bad action tends to be clearly incriminating if inspected. Suspicious actions sometimes have to be blocked until reviewed.
 Low-stakes threat (diffuse or non-concentrated failure): A threat that needs many bad actions, each only weak evidence because it could easily be an honest mistake. Low-stakes does not mean low harm, and slower review after the fact can be acceptable.
@@ -251,7 +251,7 @@ Sandbagging: Deliberately doing worse than one can, for example giving poor idea
 Online training: Training the model during deployment on a proxy for good work, such as code quality or human ratings. It does not need a guess of how an honest model's work would look, but the proxy may be poor and the model can learn to exploit it.
 Incrimination: Becoming confident from the evidence that a model is misaligned. In the low-stakes case it needs a good guess of how suspicious an honest model's work would look, which is hard to get.
 
-### Module: Unit 2: The AI control field
+### Module: The AI control field
 
 Control evaluation setting: A test environment in which a red team plays the scheming model against a protocol. Greenblatt suggests about a third of current control resources go to building and using these.
 Alignment Project: The UK AI Security Institute's fund for alignment and control research, which reached £27m and named its first 60 grantees in February 2026.
