@@ -1,6 +1,6 @@
 ---
 id: '7367ce67-c192-48f0-8080-4c0f28f486f6'
-title: "What control is"
+title: "Control versus alignment"
 tldr: "Banks do not try to guarantee that no employee ever goes rogue. They build systems that hold even when one does. Greenblatt and Shlegeris ask what happens if you treat a powerful AI model the same way: assume it might be scheming, and set things up so it still cannot cause a catastrophe."
 summary_for_tutor: "Lens in Unit 1 of AI Control Fundamentals, adapted from the Advanced AI Control lens 'The case for control (1)'. Greenblatt and Shlegeris (2024), 'The case for ensuring that powerful AIs are controlled', from the opening of the post through the first paragraphs of 'Evaluating whether you have control is doable'. Each part of the reading is followed by the question about it. (1) The opening up to the two lines of defense (alignment and control), then a quick recall on what distinguishes control from alignment. (2) The rest of the opening (why control is worth arguing for, transformatively useful AI, counting a caught AI as a win, evaluating control with capability evaluations), then a quick recall on what transformatively useful AI means and why control is aimed at it, and an optional closed question on why catching a model red-handed counts as a win. (3) The section 'The control property' with the security analogy, then a quick recall on what the control property means. (4) The first paragraphs of 'Evaluating whether you have control is doable' (the two-step evaluation approach, and treating models as untrusted if they pass capability evaluations), then a quick recall on how to decide which models are untrusted. (5) A scenario exercise with three setups (no safeguards, trusted monitoring with a weaker trusted model T and 2% human audits, untrusted monitoring by a copy of U), each asking whether the setup holds the control property and what that depends on. Two further setups (trusted editing, resampling) sit in a closed optional box. The learner has watched Robert Miles's video on the founding control paper just before this lens. After the lens on spies and insiders, a later lens continues the same post: how a red team runs a control evaluation and why alignment cannot yet be checked the same way."
 reading_minutes: 13
@@ -220,12 +220,3 @@ force-feedback:: first
 feedback-instructions:: In at most seven sentences, say what the learner's answer got right and, if anything is missing or wrong, the most important thing, then give the resolution and name the protocol. This is resampling. Because U keeps no memory across retries, a rewound U does not know it was flagged, so surviving a resample requires the retries to be attacks too, and three independent malicious draws are far stronger evidence than one. If U attacks rarely instead, a resample simply draws its benign output and runs that. U is pushed either to incriminate itself or to stay benign, and the control property holds provided the capability gap between U and T is not too large.
 #### End Callout
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The reading this lesson is built from. This lesson covers the opening of the post through the start of "Evaluating whether you have control is doable": the control property, control versus alignment, and how to decide which models are untrusted.*
-
-XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
-*The source lesson this page adapts, including the scenario exercise.*
-:::

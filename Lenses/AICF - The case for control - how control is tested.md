@@ -95,7 +95,7 @@ Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Re
 
 #### Article
 source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]
-from:: Future, highly capable AI systems might covertly pursue misaligned goals
+from:: "### Motivation"
 to:: not just _whether_ change occurs.
 
 #### Question: Open
@@ -110,11 +110,7 @@ from:: Models sometimes display situational awareness
 to:: gave the answers we wanted to see.
 
 #### Article
-from:: We found that OpenAI o4-mini and OpenAI o3 explicitly
-to:: much more evaluation aware than current models.
-
-#### Article
-from:: Through counterfactual tests with OpenAI o3
+from:: "##### Situational awareness increases with training"
 to:: realizing that it is being evaluated.
 
 #### Question: Open
@@ -161,15 +157,3 @@ optional:: true
 from:: # What might control techniques look like?
 to:: See the Appendices [[#^appendix-a-long-list-of-control-techniques|"A long list of control techniques"]] and [[#^appendix-control-techniques-from-our-paper|"Control techniques from our paper"]] for more thoughts on what control techniques could look like.
 
-#### Text
-content::
-:::callout {title="Works cited" tone="neutral" collapse="closed"}
-Greenblatt, Ryan, and Buck Shlegeris. "The case for ensuring that powerful AIs are controlled." *AI Alignment Forum*, 24 Jan. 2024. [alignmentforum.org](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)
-*The reading this lesson is built from. This lesson covers control evaluations, why alignment is harder to evaluate, black-box techniques, and what control techniques might look like.*
-
-Apollo Research. "Stress Testing Deliberative Alignment for Anti-Scheming Training." Apollo Research, with OpenAI, 17 Sep. 2025. [apolloresearch.ai](https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training)
-*The three excerpts on evaluation awareness.*
-
-XLab. "The case for ensuring that powerful AIs are controlled." *AI Control*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/control/introduction/the-case-for-controlling-powerful-ais)
-*The source lesson this page adapts.*
-:::
