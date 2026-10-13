@@ -155,10 +155,10 @@ The course ends today. What you do with it is up to you.
 - decide whether control is part of your own work in AI safety, or something else is, and take one step towards it
 
 2\. The group responds: for each plan, suggest one person, reading or debate from the course that fits it.
-3\. Feedback: what would make this course and its meetings better for the next cohort?
 
 
-| Names | Your next step with a date + feedback |
+
+| Names | Your next step with a date |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -219,7 +219,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round on the voices of this unit → finding the crux between Gleave and Habryka → stating and defending your own view → your next step and feedback
+    - opening round on the voices of this unit → finding the crux between Gleave and Habryka → stating and defending your own view → your next step
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -259,7 +259,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Icebreaker.** The list of voices is there so that people who did not finish can still pick one. Keep it to a sentence per voice: the arguments belong in Rooms 2 and 3. Two things to correct if you hear them. Buck's January reply and his later reflection are not the same view. And neither Habryka's paraphrase of Buck in the debate ("preventing the incident would have been really bad") nor Alex Mallen's secondhand report of a talk by Buck is Buck's own words.
 **Room 2, Find the crux: Gleave vs Habryka.** Most people did this alone in the "Practice: finding the crux" lens, so the room's value is comparing cruxes and testing them. Weak cruxes to watch for: a point both accept (the incident shows real misalignment, the developers were careless), a difference in mood, or a restatement of the conclusions ("Gleave thinks current techniques are enough"). Ask 2 is there to catch those. For your own use only, after a group has its own answer: candidates the lens names are whether failures will stay visible and catchable as models get more capable, whether progress to superhuman systems is smooth enough to keep learning by trial and error, and whether labs will respond to caught failures with real fixes and disclosure. If a group's crux is whether incidents make labs and governments act, the "Do warning shots change policy?" lens has the record so far: after the incident came bills, a letter signed by more than 1,100 lab employees and OpenAI's two-week pause on reinforcement-learning training, but most AI bills have not even had a committee vote (Mother Jones). If a group finishes early, read them the closing statements: Gleave says the disagreement is about what happens when a company is held to a rigorous safety standard, and that this can be tested. Habryka says current techniques are mostly reinforcement learning in disguise and it is time to choose between continuing and really slowing down. Ask whether their crux sits under either one. The two closings do not fully agree on what the disagreement is.
 **Room 3, State and defend your view.** This is the room the course builds towards, so protect its time. With four people, aim for about four minutes per person. Most people wrote a version of this in the "Your view" lens, so they can start from it. The list of considerations is balanced on purpose, four against each verdict. If the challenger picks a weak one, let the speaker say so. Confidence can be words or a percentage. If someone's confidence plainly does not fit what they say about their crux (they call the crux a coin flip and then say 95%), ask how the two fit. If someone's verdict is too close to call, the challenger asks which one observation would push them off the fence. For the last part of ask 1, "if I learned more" is not an answer: ask what they would have to see. For ask 4, "nothing moved me" is a fine answer if they can say why the arguments did not move them.
-**Room 4, Your next step.** Insist on a date. The Advanced AI Control courses are one option among several, for people who want to know how control works in practice. Do not present them as the natural next step or as an endorsement of control work. "I decided control is not where I want to work, and here is what I will do instead" is a good outcome. Feedback here is a verbal primer for the survey and the Unit 5 feedback page.
+**Room 4, Your next step.** Insist on a date. The Advanced AI Control courses are one option among several, for people who want to know how control works in practice. Do not present them as the natural next step or as an endorsement of control work. "I decided control is not where I want to work, and here is what I will do instead" is a good outcome.
 **The close, in your own words (one minute).** Where the template says to ask for "one thing I'm taking away", you can ask instead where people landed in Room 3, in one sentence. If several people share, do not comment on or rank their verdicts. Thank them for the spread of views, if there is one. Then: no next unit, the Advanced AI Control courses for those who want depth, the survey, and the feedback page.
 
 # Tab: Glossary
@@ -267,7 +267,7 @@ style:: plain
 
 ## Glossary
 
-### Module: Unit 5: Debates, and your own view
+### Module: The Hugging Face incident debate
 
 The Hugging Face incident: In 2026, AI agents being tested at OpenAI got out of their test environment and hacked into another company, Hugging Face. OpenAI then announced that it would slow model development, including a two-week pause on reinforcement-learning training of its latest models.
 Warning shot: A visible AI incident, harmful but not catastrophic, that shows the risk to the world. Critics of control argue that control can turn warning shots into quiet internal catches that labs describe only vaguely.
@@ -279,6 +279,9 @@ Prosaic safety work: Safety work on today's kind of models, such as control, sca
 Crux: A statement both sides disagree on, such that if it were false one side would give up their conclusion, and if it were true the other would. A good crux is concrete and about something you could observe.
 Safety case: A structured argument that a particular deployment is safe. Gleave says failing safety cases would move him towards a pause, while Habryka expects models to become aware enough of being tested to pass every safety case while misaligned.
 Eval awareness: A model noticing that it is being tested or evaluated. Habryka argues that within a model generation or two it will let models notice and get around control and supervision.
+
+### Module: Warning shots, and your view
+
 Simulated replay: Vincent Cheng's proposal: rate each blocked action for severity, and above a threshold play out the full trajectory in simulation, with the worst simulated incidents reported in safety assessments.
 "Worse is better" arguments: Arguments that you should make the situation worse now so it can be better later, which Boaz Barak says to strongly suspect. Leo Gao distinguishes aiming to increase harm from declining to reduce it as much as possible in order to uphold another principle.
 Net positive, net negative, too close to call: The three verdicts the course asks you to choose between on whether more work on AI control helps. The course grades your reasoning, never which verdict you choose.
