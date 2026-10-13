@@ -19,7 +19,7 @@ First meeting, so start by getting to know each other. Go around:
 
 1. Who you are: name, where you're joining from, what you work on, and what brought you here. Skeptics welcome.
 2. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
-3. Your gut view, in a sentence or two. Read out the note you wrote at the start of this unit, or answer now: is work on AI control (using a powerful AI model that might be secretly working against us, while making sure it cannot cause a catastrophe) net positive, net negative, or too close to call?
+3. Share the gut view about AI control that you wrote down at the start of this unit ([find it here](https://lensacademy.org/courses/ai-control-fundamentals/module/ai-control-fundamentals-u1)). Where do you agree/disagree with each other?
 
 
 | Names | Who you are + each gut view in a few words |
@@ -53,7 +53,7 @@ A bank that limits and audits each trader stays safe even if one is not trustwor
 2. List its checks that people are trustworthy (aligned), and its systems to prevent damage even if someone is not. (control systems)
 3. If somebody was secretly working against the organization, but behaving well whenever they might be tested, would the organization's control systems prevent them from causing damage?
 
-| Names | Your organisation + what still works when the insider is an AI model + your answer to 3 |
+| Names | Your organisation + its trust checks and its control systems + your answer to 3 |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -71,34 +71,31 @@ One or two people share what their group landed on.
 ### Break: 5 min  [0:47–0:52]
 
 \pagebreak
-### Room 3: Whose honesty does safety rest on?  [0:52–1:10]
+### Room 3: Would you keep the checks?  [0:52–1:10]
 
 **New group. Names first, then straight in.**
 
 
-A lab has AI models write its code:
+You run an AI company. Your new model writes most of your code and is the best ever made. In a month of testing it has done nothing harmful that anyone noticed. But it could still be secretly working against you.
 
-- **U**: new and very capable. It passes the lab's tests of the abilities needed to secretly work against the lab, so it is untrusted.
-- **T**: older and weaker. It clearly fails those tests, so it is trusted.
-- **Humans**: can check only 2% of the work.
+How do you use it?
 
-Four setups:
+- **No checks:** full speed.
+- **Trusted monitoring:** an older model you trust flags suspicious code. Humans check the worst 2%. Nearly full speed.
+- **Untrusted monitoring:** a copy of the new model flags suspicious code. It catches more, but it may be on the new model's side. Costs more compute.
+- **Trusted editing:** the older model rewrites suspicious code. Slower, worse code.
+- **Older model writes:** the new model only points out bugs. Much slower, much worse code.
 
-- **T checks**: U writes. T scores each change for suspicion. Humans check the 2% that score most suspicious.
-- **Copy checks**: U writes. A second copy of U scores each change. Humans check the 2% that score most suspicious.
-- **T writes**: T writes. U reviews and points out bugs, which T can fix or ignore.
-- **Track record**: U writes. U has behaved well for a year, so it now checks its own work.
-
-1. For each setup: if U is secretly working against the lab, which model's honesty does safety depend on?
-2. Rank the setups from safest to least safe.
-3. Now be the red team: the people who play U and search for its best attack. In your safest setup, how would U get harmful code through anyway?
-4. If you still have time: a real model might find an attack your red team missed. What would convince you that a red team searched well enough?
+1. Go around: which would you choose, and why?
+2. A competitor uses no checks and pulls ahead. Your investors want you to drop yours. Do you?
+3. What would make you switch to a safer setup, or a faster one?
+4. If you still have time: what could make the race less of a problem?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
-| Names | Your ranking + your best attack + what would convince you |
+| Names | Your choice + do you keep it under pressure + what would make you switch |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -117,17 +114,17 @@ One or two people share what their group landed on. After that, your navigator w
 ---
 
 \pagebreak
-### Room 4: Buddies, next unit, feedback  [1:15–1:27]
+### Room 4: Buddies, next unit  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
 1. Accountability buddies: the people in this breakout room are your accountability buddies (if you are four or more, split into two groups). Swap contact details in the table now.
 2. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-3. Feedback: what would make the course and this meeting better?
 
 
-| Names | Buddy contacts + your plan for the next unit + feedback |
+
+| Names | Buddy contacts + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -166,9 +163,9 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:24–0:42 | R2 Check the insider, or limit the damage? (reshuffle) |
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
-| 0:52–1:10 | R3 Whose honesty does safety rest on? (reshuffle) |
+| 0:52–1:10 | R3 Would you keep the checks? (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Buddies, next unit, feedback (reshuffle) |
+| 1:15–1:27 | R4 Buddies, next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
@@ -183,7 +180,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - introductions and everyone's gut view → control versus alignment through the insider analogy, and a first criticism → which model each setup trusts, then playing the red team → buddies, planning, feedback
+    - introductions and everyone's gut view → control versus alignment through the insider analogy, and a first criticism → which checks you would keep on a model you cannot trust, with a competitor racing ahead → buddies and planning
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -220,10 +217,10 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 ### Per-room notes for Unit 1
 
 **General, all rooms.** This course presents why people work on control and the criticisms of it, and it wants each participant to form their own view. Never steer anyone toward a verdict on control, in either direction, and do not share your own view on whether control is worth working on. If someone asks what you think, say the course is built so they can judge for themselves. The unit is about 3.5 hours, so many people will have done only part of it: every prompt works from the doc alone, so do not re-teach.
-**Room 1, Getting to know each other.** Keep introductions to about thirty seconds each so ask 3 gets time. Ask 3 is the gut-view note from the Unit 1 welcome, revisited in Unit 5. Take every view as it comes: "hopeless", "obviously doable" and "could make things worse" are all fine. If a room starts arguing, ask them to hear everyone's view first and say Unit 4 and Unit 5 are where these views get tested.
-**Room 2, Check the insider, or limit the damage?** Ask groups to pick an organisation someone has worked in, not "a tech company". Checks to listen for: hiring checks, references, interviews, probation periods. Limits to listen for: separation of duties, logging, review by a second person, least privilege, audits. In ask 3, the reading claims that good behaviour cannot show a model is aligned, because a model working against you would behave well too, while limits can be tested. Do not supply that claim, and treat "the analogy fails" as a real answer. Differences from a human insider that groups may raise: many copies of the model that could coordinate, speed and volume of work, and that a model can be rewound and asked again with no memory of the first try. Listen for Shlegeris's comparison from the "Spies, insiders and auditing" lesson. Guarding against a model is harder than guarding against a human spy, because every copy is probably on the same side, so a second copy is no independent reviewer. It is easier, because the lab controls everything the model sees and can test it with honeypots many times.
-**Room 3, Whose honesty does safety rest on?** No answer key. "T checks" is trusted monitoring from the reading: it rests on T, which is trusted, but only holds if T is good enough to spot U's attacks. "Copy checks" is untrusted monitoring: it rests on a copy of U, which is untrusted and could simply cover for U. Groups who watched Robert Miles may say the lab can test the copy with fake attacks it planted itself and strip hidden signals from the code. That is right, and in the founding experiment it made this setup much safer. Ask them what safety then depends on (that the copy cannot tell the fake attacks from real ones). "T writes" is new: T writes everything and is trusted, and U's reviews only add information, but expect someone to ask whether U could talk T into a harmful "fix". "Track record" trusts U because of its record, which is an alignment argument: a model working against the lab would also behave well for a year. This is the argument Google DeepMind makes in the unit's reading ("permissions based on their verified behavior"). If a group raises it, ask whether giving access step by step could still be a control argument (only if each step stays safe even if the model is scheming). Rankings will differ, and that is fine as long as groups say why. In ask 3, push for something concrete the model does. Ask 4 connects to the reading's claim that a control evaluation only tells you something if the red team is at least as good at finding attacks as a scheming model would be. Do not resolve whether that is achievable.
-**Room 4, Buddies, next unit, feedback.** In the whole-group slot before Room 4, walk through the three buddy steps in the doc (about a minute), and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
+**Room 1, Getting to know each other.** Keep introductions to about thirty seconds each so ask 3 gets time. Ask 3 is the gut-view note from the Unit 1 welcome, revisited in Unit 5. Take every view as it comes: "hopeless", "obviously doable" and "could make things worse" are all fine. Have everyone share their view before the discussion starts. Unit 4 and Unit 5 are where these views get tested, so the room does not need to settle anything.
+**Room 2, Check the insider, or limit the damage?** Ask groups to pick an organisation someone has worked in, not "a tech company". Checks to listen for: hiring checks, references, interviews, probation periods. Limits to listen for: separation of duties, logging, review by a second person, least privilege, audits. Ask 3 is the room's main point: checks of good behaviour cannot catch someone who behaves well whenever they might be tested, while limits on what they can do still hold. The reading makes the same claim about AI models. Let groups reach it themselves, and do not supply it. If a group has time left, ask what changes when the secret insider is an AI model, and treat "the analogy fails" as a real answer. Differences from a human insider that groups may raise: many copies of the model that could coordinate, speed and volume of work, and that a model can be rewound and asked again with no memory of the first try. Listen for Shlegeris's comparison from the "Spies, insiders and auditing" lesson. Guarding against a model is harder than guarding against a human spy, because every copy is probably on the same side, so a second copy is no independent reviewer. It is easier, because the lab controls everything the model sees and can test it with honeypots many times.
+**Room 3, Would you keep the checks?** No answer key, and do not give your own view. Collect everyone's choice in ask 1 before any discussion. The setups are from the reading: trusted monitoring and untrusted monitoring as in the founding experiment, and trusted editing is a close cousin of "defer to trusted". Untrusted monitoring catches more only if the copy is honest, which is exactly what is in doubt (the reading's answer is to test the copy with fake attacks). If someone picks "no checks" because of the clean year, ask whether a model secretly working against the company would also behave well for a year: that is an alignment argument, not a control one. Ask 2 is the safety and usefulness trade-off under competition. Unit 3 comes back to political will, so do not resolve it. In ask 3, listen for "if we caught it once": that is the reading's idea of catching an AI red-handed. Let groups reach it themselves.
+**Room 4, Buddies, next unit.** In the whole-group slot before Room 4, walk through the three buddy steps in the doc (about a minute), and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Unit 2 is about the same length as Unit 1, so people know what that feels like: push for a concrete plan (when, where, how much at a time).
 
 # Tab: Glossary
 style:: plain

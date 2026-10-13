@@ -8,6 +8,22 @@ title: "Political will and buy-in"
 # Learning Outcome:
 source:: [[../Learning Outcomes/Theory of change for AI control]]
 
+# Lens: The routes so far
+id:: d1b901e8-6075-403d-86dd-f1898021f159
+reading_minutes:: 1
+tutor_minutes:: 0
+tldr:: Three ways control is supposed to lower the risk of an AI catastrophe, which the rest of the unit calls routes: stopping attacks, catching an AI red-handed, and the window.
+summary_for_tutor:: Short Lens-written summary in Unit 3 of AI Control Fundamentals, before Greenblatt's Plans A to D. It names the three routes the unit has covered so far, so later questions can refer to them: stopping attacks (monitors block or replace dangerous actions while the AI works), catching it red-handed (catch an attempt, then shut down or study it so later attempts fail), and the window (use AIs that are useful but still controllable to speed up safety work before AIs become too capable to control). One more route comes later in the unit. Do not preview them. No question.
+#### Text
+content::
+The readings so far describe three ways control is supposed to lower the risk of an AI catastrophe. The rest of this unit calls them routes:
+
+- **Stopping attacks:** monitors block or replace dangerous actions while the AI works.
+- **Catching it red-handed:** catch an AI trying to cause harm, then act on the evidence. Shut it down, or study the attempt so later ones fail.
+- **The window:** use AIs that are useful but still controllable to speed up safety work, before AIs become too capable to control.
+
+Each route needs someone to act on it: a safety team, company leadership or a government. The next readings ask how much each route depends on that, and add one more route.
+
 # Lens:
 source:: [[../Lenses/AICF - Plans A to D for misalignment risk]]
 
@@ -49,7 +65,11 @@ content::
 
 Which premise in your routes do you trust least? Say why. Then name one thing someone could actually observe that would change your confidence in it, and say whether it would raise or lower it.
 
-Finally, look back at the guess you wrote at the start of this unit. Which route was it, and which routes have you added since?
+Finally, look back at the guess you wrote at the start of this unit:
+
+::answer{id="5372c08e-c3ae-48ac-8b01-18be0b0cb327"}
+
+Which route was it, and which routes have you added since?
 placeholder:: A few sentences.
 force-feedback:: first
 feedback-instructions:: The learner is practising for the Unit 3 test on control's theory of change. A good answer names a premise one of their routes actually needs (for example: companies give permission and fix what the evaluations find, the red team can find attacks as good as a much stronger model would, results showing failures change what companies or governments do, a regulator would require a control safety case, or the window before uncontrollable AI lasts long enough to use), gives a reason it is doubtful, and names an observation someone could actually make that bears on it and says which way it would move confidence. "More research" or "time will tell" is not an observation. Reply in at most five sentences. Say whether the premise is one their routes need, whether the reason holds, and whether the observation is something that could be seen, and fix the weakest of the three. Do not tell the learner which premise is the right one. No generic praise. At most two turns. If the learner compared their first guess with the unit's routes, acknowledge it in one sentence without judging the guess. Close by telling them the test asks for the same things on a different project, that it also asks in which of Greenblatt's Plans A to D their most will-dependent route would still work, and that at least one of their test routes should work through something other than the monitor blocking or flagging an attack, or responses to a flagged attack.

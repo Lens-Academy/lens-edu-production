@@ -60,7 +60,6 @@ Ryan Greenblatt's plans, from most to least political will (willingness of compa
 1\. Each person takes one or two routes. Going down from Plan A to Plan D, what is the last plan in which each route still makes a real difference?
 2\. At that plan, who has to act for the route to work?
 3\. Pick one route where your group disagrees about that last plan. What does the disagreement turn on?
-4\. If you still have time: which plan is the world closest to today?
 
 
 Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
@@ -89,11 +88,11 @@ One or two people share what their group landed on.
 **New group. Names first, then straight in.**
 
 
-Each route rests on premises. Some of them, with who doubts and who defends them:
+Each route or plan rests on premises. Some of them, with who doubts and who defends them:
 
 - **Catch it red-handed:** a caught attempt gets the developer or governments to slow down. Buck Shlegeris doubts it: a competitor could say AIs just do weird things, or that the logs were forged. Tom Davidson thinks credible evidence would change many sceptics' minds.
 - **The window:** AIs stay useful but controllable long enough to matter. Greenblatt and Shlegeris themselves say this period is "reasonably likely to be too short (e.g., 6 months or 1 year)" if AI is built as fast as possible. They also think holding off uncontrollable AI for several years is plausible.
-- **A few insiders:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this route than before.
+- **Ten people on the inside:** ten concerned staff at a careless company get cheap measures running and keep them. Shlegeris argued ten such people are much better than zero. Two commenters doubt they would have that much room. In 2026 Shlegeris says he is less into this plan than before.
 - **A condition of deployment:** the red team's attacks in a control evaluation are at least as strong as anything the real model could do. The authors of a published control safety case (a written argument, backed by those tests, that a model cannot get past its safety measures) name this premise themselves.
 
 1\. Which premise does your group trust least? Take it from this list, or name another premise one of the routes needs.
@@ -120,16 +119,18 @@ One or two people share what their group landed on.
 ---
 
 \pagebreak
-### Room 4: Next unit, feedback  [1:15–1:27]
+### Room 4: Where are we, and what would move us?  [1:15–1:27]
 
 **New group. Names first, then straight in.**
 
 
-1\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
-2\. Feedback: what would make the course and this meeting better?
+1\. Share the plan from Room 2's list that you placed today's world in (you answered this in the course), and your strongest piece of evidence.
+2\. As a group: what is the most realistic step that would move the world to a higher plan? Who would have to take it?
+3\. Next unit: What is most likely to stop you finishing it, and what's your plan to prevent that? (Send the plan to your buddy after the meeting.)
 
 
-| Names | Your plan for the next unit + feedback |
+
+| Names | Your plan for today's world + the step up + your plan for the next unit |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -169,7 +170,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 The weakest premise (reshuffle) |
 | 1:10–1:15 | Back together (whole group) |
-| 1:15–1:27 | R4 Next unit, feedback (reshuffle) |
+| 1:15–1:27 | R4 Where are we, and what would move us? (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
 ### Lobby/Welcoming the participants
@@ -184,7 +185,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 2. Name the new format (small breakout rooms of 3, new people each time, and a five-minute get-together after each room where anyone can share what their group landed on)
 3. Tell them the doc is in the chat + Discord and to open it + check they can type
 4. Run through the arc
-    - opening round and your first guess → which routes still work with little political will → the weakest premise → planning and feedback
+    - opening round and your first guess → which routes still work with little political will → the weakest premise → where the world is today and what would move it up, then planning
     - say the meeting will take 90 min
 5. Inform participants that you will be jumping between rooms with your camera turned off to listen in and they can ask questions whenever you join
 6. Start room 1
@@ -224,14 +225,14 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Your first guess.** The guess was the open question in the unit's welcome page, so people who stopped early still have one. If someone skipped it, a guess made now is fine. Take guesses without correcting them. A guess that is "it stops the AI" is the most common starting point and a useful contrast for Room 2.
 **Room 2, Which routes still work with little political will?** Get each person onto a route in the first two minutes. For your own use only, not an answer key, here is what the readings say. Greenblatt keeps some control until handoff in Plans A to C, but says organisation-wide control "should be mostly given up on" in Plan D, apart from measures that stop AIs gaining more permissions or access. Shlegeris's ten-people post is written for a Plan D company and argues cheap measures still matter there. Groups that notice this tension have found something real. Shutting down after a catch needs at least a willing leadership. Using a catch to make later attempts fail can be done by a safety team alone. The window's length depends on how much delay can be bought, which needs governments. A deployment condition needs a regulator or a willing company. The unit's last reading shows one company's own risk reports. No outside review of them has been required or requested so far, apart from pilot reviews of parts. Groups stuck on ask 2 can ask who would have to check such a report for it to bind. Accept other mappings with reasons. Protect time for ask 3.
 **Room 3, The weakest premise.** Push groups to pick within three minutes. Ask 2 needs one person to argue the premise honestly, not as a straw man. Point them to the reading's own defenders if they get stuck (Davidson for the catch, the authors' view that holding off uncontrollable AI for "at least several years" is plausible, for the window, Shlegeris's original post for the insiders). Observations must be things someone could see, for example how a company responds to a real misbehaviour incident, or whether safety teams at less careful companies keep monitoring running. "More research" is not an observation. A group that ends more confident is as successful as one that ends less.
-**Room 4, Next unit, feedback.** Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
+**Room 4, Where are we, and what would move us?** Participants placed today's world on Greenblatt's plans in the "Plans A, B, C and D" lesson, so asks 1 and 2 compare those answers. Do not say which plan we are in. Greenblatt put Plan D at about 45% in October 2025, but any placement with evidence is fair, and a step that skips a plan (for example a government acting while companies still do not care) is a fair answer too. Keep asks 1 and 2 to about eight minutes so ask 3 gets time. Unit 4 is a little longer than this one, about 4 hours. Push for a concrete plan (when, where, how much at a time), not a promise.
 
 # Tab: Glossary
 style:: plain
 
 ## Glossary
 
-### Module: Unit 3: Using AI while it can still be controlled
+### Module: Using AI while it can still be controlled
 
 Theory of change: The routes by which work on control is supposed to make an AI catastrophe less likely, and what each route needs in order to work.
 Political will: How much AI companies and governments want to act on AI risk. The unit asks how much each route of control depends on it.
@@ -243,13 +244,13 @@ Sharp left turn: Nate Soares's term for a sudden jump in capabilities that earli
 Sweet spot: Joe Carlsmith's term for a period when AIs are capable enough to help a lot with safety work, but cannot take over given our countermeasures. It is close to Greenblatt and Shlegeris's window.
 Treacherous turn: An AI behaving well until it can act against its developers.
 
-### Module: Unit 3: Catching AIs red-handed
+### Module: Catching AIs red-handed
 
 Catching an AI red-handed: Finding strong evidence that a model deliberately tried to do something catastrophic, such as escaping. Control counts a catch as a win.
 Catch-then-shut-down: After a catch, stop using the model, and use the evidence to argue for caution.
 Few-shot catastrophe prevention: Keep using the model after a catch, but use the few caught attempts to make further attempts fail.
 
-### Module: Unit 3: Political will and buy-in
+### Module: Political will and buy-in
 
 Plan A: Enough political will for a strong international agreement that mostly removes race dynamics and allows a slowdown of about 10 years.
 Plan B: The US government treats buying lead time for US AI companies as a top national security priority, so 1 to 3 years can be spent on misalignment risk.
