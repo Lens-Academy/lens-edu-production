@@ -5,14 +5,14 @@ title: "Using AI while it can still be controlled"
 ---
 %% Part 1 of Unit 3 of AI Control Fundamentals; the unit continues in 'Catching AIs red-handed', 'Political will and buy-in' (split into modules by topic, Elias 2026-10-08). The note below describes the whole unit as it was before the split. %%
 
-%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 7+6, window 6+6, should we invest (with Carlsmith) 11+14, Habryka/Greenblatt 10+12, catching 8+7, would a catch 11+12, Plans A-D 10+10, ten people 9+10, will companies 6+8, safety case (with Anthropic risk reports) 9+11, practice 3+15 = 207, plus about 15 for the LO test, about 222 minutes. Catching (2) is optional. %%
+%% Unit 3 of AI Control Fundamentals: control's theory of change. Time (reading+tutor): welcome 3+3, low-investment world (80k) 7+6, window 6+6, should we invest (with Carlsmith, optional, not counted) 11+14, Habryka/Greenblatt 10+12, catching 8+10, would a catch 11+15, routes so far 1+0, all the routes 1+0, Plans A-D 10+10, ten people 9+13, will companies 6+11, safety case (with Anthropic risk report) 16+17, practice 3+17 = 236, or 211 without the optional lens, plus about 15 for the LO test, about 226 minutes. Catching (2) is optional. %%
 
 # Lens: Welcome to Unit 3
 id:: 64af1a58-6f9e-4a92-bf67-61399abc7f3b
 reading_minutes:: 3
 tutor_minutes:: 3
 tldr:: Control is supposed to make an AI catastrophe less likely, but by which routes, and what does each route need from AI companies and governments? This unit reads people who work on control and people who doubt them.
-summary_for_tutor:: Opening lens of Unit 3 of AI Control Fundamentals, written by Lens. Unit 1 covered what control is. This unit covers control's theory of change: the routes by which it is supposed to reduce risk (blocking attacks while a model is in use, catching attempts and acting on the evidence, getting useful work out of untrusted models during a window before they are too capable to control, and making control a condition of deployment), how much each route depends on the political will of AI companies and governments, and which premises are open to doubt. The learner writes a first guess at how control reduces risk. Do not grade it or correct it. Acknowledge it briefly and send the learner on.
+summary_for_tutor:: Opening lens of Unit 3 of AI Control Fundamentals, written by Lens. Unit 1 covered what control is. This unit covers control's theory of change: the routes by which it is supposed to reduce risk (blocking attacks while a model is in use, catching attempts and acting on the evidence, getting useful work out of untrusted models during a window before they are too capable to control), what can make a company run control at all (a few insiders, the company's own policy, or a requirement such as a control safety case), how much each route depends on the political will of AI companies and governments, and which premises are open to doubt. The learner writes a first guess at how control reduces risk. Do not grade it or correct it. Acknowledge it briefly and send the learner on.
 #### Text
 content::
 In Unit 1 you saw what control is and how it is tested. This unit asks why people work on it: by which routes is control supposed to make an AI catastrophe less likely? You will read people who work on control explaining those routes, and people who doubt them, including doubts from control researchers themselves. One question runs through the unit: how much does each route need AI companies and governments to want to act on AI risk?
@@ -20,7 +20,7 @@ In Unit 1 you saw what control is and how it is tested. This unit asks why peopl
 \## In this unit you will
 
 - Read Buck Shlegeris on why control matters in a world that invests little in AI safety.
-- Read the argument that controlled AI could do useful safety work during a window before AI becomes too capable to control, and replies to it.
+- Read the argument that controlled AI could do useful safety work during a window before AI becomes too capable to control. Optionally, read replies to it and to the case for working on control at all.
 - Read a critic and a control researcher discussing what control is for.
 - Read why catching an AI in an attempt counts as a win, and whether a catch would change what AI developers do.
 - Read Ryan Greenblatt's plans for different levels of political will, and what ten safety-minded people inside a careless company could do.
@@ -42,6 +42,7 @@ source:: [[../Lenses/AICF - Using AI while it can still be controlled]]
 
 # Lens:
 source:: [[../Lenses/AICF - Should we invest in control]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/AICF - Habryka and Greenblatt on what control is for]]
