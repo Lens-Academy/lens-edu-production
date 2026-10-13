@@ -1,5 +1,5 @@
 ---
-title: "Effective Thesis Accelerator Facilitator Post-Program Form"
+title: "Accelerator Facilitator Post-Program Form"
 author:
   - "Effective Thesis"
 source_url: "https://airtable.com/embed/appwUI4Pc2NJPOfmZ/pagHeZnPA3oHwu5Zc/form"
