@@ -34,6 +34,11 @@ inline:: true
 
 #### End Callout
 
+#### Question: Open
+id:: 459278c4-7283-4623-9d98-f2d7e7e983dc
+content:: Enter the confirmation code shown after you submit the form above.
+placeholder:: Confirmation code
+
 #### Text
 content::
 ---
