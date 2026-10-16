@@ -1,5 +1,6 @@
 ---
 id: 'dc075880-2c32-442d-b046-8be0ea2cb00f'
+writing_minutes: 10
 learning-outcome: "Classify a way a scheming AI could cause a catastrophe as high-stakes (a few actions, or a short time, are enough, and each bad action would look clearly suspicious if inspected) or low-stakes (it takes many actions, each only weak evidence of bad intent because it could be an honest mistake), using how many actions are needed and how incriminating each one is rather than how much harm the end result does, and explain what the classification means for the defender: in the high-stakes case suspicious actions have to be stopped before they take effect, while in the low-stakes case slower review after the fact and measures that work across many actions, such as training on the model's outputs, can be enough."
 topic: "[[../Domains and Topics/7 AI Control/Control threat models]]"
 stage: beginner
@@ -23,7 +24,7 @@ An AI company uses a capable AI model, which might be secretly misaligned, as an
 
 a. Classify each as high-stakes or low-stakes (also called concentrated and diffuse), and say why.
 
-b. The company plans to review the agent's actions a day after they run, rather than before. For one case you called high-stakes and one you called low-stakes (if you called none low-stakes, use the closest case), say whether that would be good enough, and why. If it is not good enough, say what would have to happen instead. For the low-stakes case, also name one other kind of measure that would suit it, and say why it suits this kind of threat.
+b. The company plans to review the agent's actions a day after they run, rather than before. Pick one case you called high-stakes and one you called low-stakes. If you called none low-stakes, use the closest case. For each, say whether that would be good enough, and why. If it is not good enough, say what would have to happen instead. For the low-stakes case, also name one other kind of measure that would suit it, and say why it suits this kind of threat.
 
 c. A colleague says: "Low-stakes threats are the minor ones, so the company should deal with them last." What do you make of the colleague's view? Explain.
 placeholder:: Answer a, b and c in turn
@@ -40,3 +41,6 @@ notes:: Shlegeris's rogue deployments, the central high-stakes example, in three
 ## Lens:
 source:: [[../Lenses/AICF - Low-stakes control and research sabotage]]
 notes:: Hebbar's ControlConf talk, 0:00 to 16:28: the two axes, research sabotage as a mostly low-stakes threat, why online training matters more for low-stakes threats, and his contrast of incrimination and online training (which the lens's second question uses, beyond this outcome's scope). His speculative strategy and evaluation methods are optional. Plus the introduction of "Diffuse AI Control on Fuzzy Tasks" (Anthropic, EPFL and Redwood authors, 2026) on why diffuse threats call for different defences.
+## Lens:
+source:: [[../Lenses/AICF - Practice high-stakes or low-stakes]]
+notes:: Scored practice: classify three new threats, judge whether a week-later review is enough, name a defence across many actions, then correct the "quiet means low-stakes" mistake (test part c).

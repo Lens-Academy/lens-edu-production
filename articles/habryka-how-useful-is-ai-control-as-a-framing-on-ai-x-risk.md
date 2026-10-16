@@ -68,18 +68,16 @@ So there are kinda two components:
 
 -   Control to ensure safety and usefulness (at least as a line of defence)
 -   Getting useful work out of these early transformatively useful AIs (which has been a object of serious interest for a while).
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Regarding
 
 > Get useful work out of AIs even if they are situationally aware and would like to pursue unbounded objectives in a relatively consequentialist way
 
 Yep, but worth noting that we'd like to make some kind of deal with these AIs so we have their consent to continue. I think it (correctly) seems decently evil to just use AIs which really, really don't want to work for you. (Though not particularly important from a typical longtermist perspective.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 (Mostly an aside) I think there are a bunch of relatively "mundane" usages of powerful AIs which make the situation notably better, but aren't clearly necessary for an end-to-end overall success story. For instance:
 
@@ -100,9 +98,8 @@ Prior to getting more into the object level on possible outs via using AIs produ
 Insofar as you thought (a) humans could already currently improve the situation in the "powerful AIs are beyond control" regime and that (b) the future AI-accelerated labor is strictly much more capable in aggregate, then (c) whatever we could do right now that would useful for moving beyond control we can just do later.
 
 I often think about this as "it's hard to compete with future AI researchers on moving beyond this early regime". (That said, we should of course have some research bets for what to do if control doesn't work for the weakest AIs which are very useful.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 I'm curious what you think about this "but we can't do better" frame before moving forward.
 :::
@@ -154,9 +151,8 @@ Also, my guess is that it would be better to seriously restrict scaling immediat
 or [here](https://www.lesswrong.com/posts/Np5Q3Mhz2AiPtejGN/we-re-not-ready-thoughts-on-pausing-and-responsible-scaling-4#If_it_were_all_up_to_me__the_world_would_pause_now___but_it_isn_t__and_I_m_more_uncertain_about_whether_a__partial_pause__is_good).
 
 (Under my empirical views, this seems better from a variety of moral persectives, but not all moral perspectives. Under my moral and empirical views, it seems good.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 (I agree with the case made for incremental RSP-like measures discussed in the two posts I linked above. And this is part of my motivation for control, building this sort of incremental approach. But, I also think control can be part of a much more complete overall plan and it seems good to discuss this overall plan directly.)
 :::
@@ -197,9 +193,8 @@ All of these are still going to involve some amount of punting (e.g. future AIs 
 This is pretty similar to what you wrote above, but with somewhat different emphasis. In particular, I think arbitrarily scalable "serious" alignment might be very hard, but various other weaker things could suffice.
 
 (By serious alignment, I mean we don't need humans in the loop either because of sufficient corrigibility or the AIs being good successors (aka sovereigns, though maybe less powerful than this implies).)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 On **(1)** (not having a concrete plan for what to do with smarter systems), I think we should get such a plan (though I'm maybe more optimistic about being fully safety case or empirical results oriented).
 
@@ -233,9 +228,8 @@ With the literal "argue to testers about welfare objections", my hope is that we
 
 -   We have a welfare department which talks to the AI about its preferences. (If we started this right now, we'd just have a part time welfare officer, but this would scale up over time as needed.) (There are a [number of technical issues with communicating with AIs about their preferences](https://www.lesswrong.com/posts/F6HSHzKezkh6aoTr2/improving-the-welfare-of-ais-a-nearcasted-proposal#Communicating_with_AI_Systems_and_Understanding_Their_Preferences) to be clear.)
 -   Otherwise, the AI is trained to not argue against safety measures. More specifically, if we detect this, we would investigate and see if we think this is downstream of scheming or something less concerning. We'd maybe only want to literally train against this if we don't think it's due to scheming (or at least we're not confident that it is due to scheming). (And if we do catch the AI and determine it is seriously misaligned via this route, that seems pretty good IMO.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 > My guess is sowing internal conflict and creating scissor statements and stuff like that is pretty feasible and doesn't require being that smart. 
 
@@ -276,9 +270,8 @@ Should we more specifically pick a topic to talk about in more detail?
 :::callout{title="Oliver Habryka" tone="blue"}
 
 Yeah, let's do it.
-:::
 
-:::callout{title="Oliver Habryka" tone="blue"}
+---
 
 I guess maybe the thing that I keep coming back to is actually this one: 
 
@@ -318,9 +311,8 @@ Agreed, (for scheming) you probably get all of:
 I think there is a quantative question about how much update you get for each of these and I could imagine a variety of different parameter settings.
 
 Also, it's worth noting that we don't necessarily depend on "the AI isn't well practiced at subverting our safety mechanisms". Like we can do our control evaluations targeting the regime where it is well practiced. (Though the AI being well practiced does reduce our safety margin substantially.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Aside: I think it might be pretty important to have a good policy on "what sorts of behavior do we train against vs not train against". There will probably be various cases of somewhat bad behavior which isn't clear evidence of scheming where we're worried that training against it will teach the AI stuff we don't want. Missing warning shots via this mechanism seems sad and we can probably afford a decent amount of rejection sampling (e.g. resampling every 1/100 query is just totally fine). Of course, this isn't really a thing people have started on doing now.
 :::
@@ -373,9 +365,8 @@ Is this right?
 What I am saying is more "the AI will of course really care about performing well on training, but the set of objectives that you can train a competitive AI on is extremely limited, with maybe 'next token prediction' being the _only_ choice". 
 
 Turns out I don't care about next token prediction. So 'it doing well on training' buys me no solace.
-:::
 
-:::callout{title="Oliver Habryka" tone="blue"}
+---
 
 Of course, it's also trying to break out during pre-training all the time, but it's not really interfacing with humans, and it's trying out hardware exploits or whatever, but let's assume its not succeeding at that.
 :::
@@ -383,9 +374,8 @@ Of course, it's also trying to break out during pre-training all the time, but i
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 Ah, by "perform well in training" I mean "perform well in post-training like RLHF".
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Anyway, in the standard deceptive alignment story where the AI is doing well in post-training, you have some hope due to the fact that the AI has to have a pretty good internal model of what performs well (otherwise this sort of instrumental reasoning strategy wouldn't work). So just updating it to always do that would work.
 
@@ -609,9 +599,8 @@ As far as RL on tokens, the hope for getting useful work out of our systems, whe
 Now, the AI has to be pretty confident about what it can get away with _not_ doing. Like if it doesn't do something intentionally because it thinks it's a good action and then this gets caught in SFT SGD will update it. And, if it puts a low probability on a good action and then this gets sampled, SGD will update it to do more like that.
 
 And the number of cases where the AI "messes" up like this might be more like 30 than like 1000 (at least that's what our preliminary results indicate in various settings with sandbagging, but this is just in the tokens case).
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Getting useful work out of systems with deep recurrence is plausibly much harder because humans won't understand or be able to manipulate internal representations of the model. (We'll still have exploration issues on intermediate legible outputs though which will be exactly analogous.)
 
@@ -642,9 +631,8 @@ Seems like the system could probably just sandbag, though I would have to think 
 Indeed I agree you'll probably have the AI (in the original hypothetical situation) modeling the training process and thinking about what it can/can't think of. (Insofar as it wants to sandbag.)
 
 (Separately, I think the AI itself might be pretty unsure about whether it can get away with sandbagging. Like it might be like "oh man, if I try to sandbag here who knows what will happen to my goals etc.". Then, it's not clear it can easily experiment. E.g., if it gets updated by SGD it might be hard for it to tell how this went and reflect on whether that went more/less well than it hoped because it won't (necessarily) have memories to compare before and after.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 One relevant experiment here is:
 
@@ -686,9 +674,8 @@ I feel like this is one of those situations where you can get a multiplier on yo
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 We'll need proof of this contract in the AI's memories/context, but in the recurrence case, should be pretty doable.
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 I think you need that (AIs think) Humans have some chance and AIs are either:
 
@@ -704,14 +691,12 @@ But there is some sort of "different equilibrium" thing here.
 E.g. if humans would have a chance conditional on AIs not sandbagging, then it seems like we might be able to move to an equilibrium where AIs don't (always) sandbag.
 
 A key detail here is that we potentially just need it to be the case that humans would have a chance _if AIs worked with us_ and (e.g.) didn't sandbag.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 I think scheming AIs are reasonably likely to prefer themselves over other AIs (though they might still vastly prefer other AIs over humans), though I haven't thought through the exact decision theory here.
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Taking a step back, we have two hopes here:
 
@@ -756,14 +741,12 @@ Or the "small number of bits" thing?
 One operationalization of number of bits is, if we noise the weights somewhat with the right noise scale (e.g. some multiple of the initialization scale) and do random search on this noise space, how many samples does it take to find good performance?
 
 E.g. for 32 bits that would imply that we would need 2^32 samples to find good performance (on average).
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 I think this is pretty good crude approximation of how easily SGD will find stuff.
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 (But idk if much easier to reason about lol.)
 :::
@@ -771,9 +754,8 @@ I think this is pretty good crude approximation of how easily SGD will find stuf
 :::callout{title="Oliver Habryka" tone="blue"}
 
 (Indeed, I don't super feel like my brain immediately knows how to think about that setup)
-:::
 
-:::callout{title="Oliver Habryka" tone="blue"}
+---
 
 Yeah, maybe. My current feeling keeps being like "if I treat the AI as a black box, and I just imagine myself being in this situation, I would have no trouble sandbagging and don't really see a world where I would be exposed to unexpected gradients changing my cognition in ways that threatens my ability to not cooperate with the humans". 
 
@@ -799,9 +781,8 @@ I do think if you start editing trajectories and muck with internal representati
 > Like, at least in the neuralese case where I just have like hours of subjective time to think about doing all the relevant tasks.
 
 Yeah, I think the analogous case is that you'll have hours (or more), but that people will run a bunch of experiments where you get updated to complete much smaller subtasks and this will be wired together in some crazy way.
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 > I do think if you start editing trajectories and muck with internal representations
 
@@ -911,9 +892,8 @@ I would say there are two (related) goals:
 :::callout{title="Ryan Greenblatt" tone="green"}
 
 (Yep, I mean adversarial action.)
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Gaining value from catching escape attempts isn't clearly necessary on some deep level, but it's relatively methodologically important to how we imagine actually implementing the proposal.
 
@@ -976,9 +956,8 @@ Separately, I think just promising to pay AIs conditional on them not screwing u
 So, we can dive into the technical side (what we've called [few-shot catastrophe prevention](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed#Few_shot_catastrophe_prevention)), but I'd like to caveat that this is a bit obviously insane. (As opposed to non-obviously insane like the current situation. (It's not obvious to the public that we're racing toward the singularity with a small investment in safety (small from an absolute perspective).))
 
 The less insane scenario where people continue anyways might look like taking a step back and trying to get a good scientific understanding of scheming and then proceeding only when you have pretty credible approaches for avoid this (though this might be really hard and it's unclear how much one example helps you here).
-:::
 
-:::callout{title="Ryan Greenblatt" tone="green"}
+---
 
 Paul seems pretty optimistic about using a single example where we catch a schemer to greatly help build credible countermeasures, but I'm considerably more skeptical here. I think the story would be more like "you motivate a serious societal response and then some thing good happens via misc science progress (e.g. model organisms work)".
 

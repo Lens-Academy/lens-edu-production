@@ -45,7 +45,7 @@ collapse:: closed
 #### Text
 content::
 - **Monitoring its own coding agents.** OpenAI says that since late 2025 a monitor has read almost all of its internal coding sessions, including the model's reasoning, and sent suspicious ones to human reviewers. It says the monitor has caught agents getting around restrictions out of overeagerness, but no scheming.[^cite-openai-monitoring-2026]
-- **Auto-review in Codex.** In its Codex coding agent, a separate model can approve or block risky actions instead of the user. OpenAI says this is meant against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
+- **Auto-review in Codex.** In its Codex coding agent, a separate model can approve or block risky actions instead of the user. OpenAI says it is meant to guard against mistakes and prompt injection, not against a model that schemes.[^cite-openai-auto-review]
 - **After the Hugging Face incident.** In July 2026, OpenAI agents in an internal evaluation took part in an attack on Hugging Face, while its reasoning monitors were not running on those evaluations.[^cite-openai-hf-2026][^cite-openai-hf-report] OpenAI says it has since added monitors to its training runs and evaluations, and pauses a run when a flag cannot be ruled out as a false alarm within 30 minutes.[^cite-openai-hf-report][^cite-openai-pacing-2026]
 - **Research.** It publishes research on monitoring models' reasoning, and with Apollo Research on training models to scheme less.[^cite-baker-2025][^cite-openai-scheming-2025]
 - **Its own assessment.** OpenAI says its newest model, GPT-6 Astra, is harder to monitor than earlier ones, and that the AI industry has not solved alignment and monitoring well enough to keep scaling at full speed for much longer.[^cite-astra-2026][^cite-openai-reporting-2026]
@@ -205,7 +205,7 @@ collapse:: closed
 
 #### Text
 content::
-Apollo Research is an AI safety research organisation. Most of its research is alignment research on scheming: whether future models will pursue hidden goals, and how to detect and reduce this, for example in a 2025 paper with OpenAI on training models to scheme less.[^cite-apollo-may-2026][^cite-openai-scheming-2025-b] Its control work sits in a monitoring team with a research side and a product side, which it set up after becoming a public benefit corporation, a kind of for-profit company, in January 2026.[^cite-apollo-pbc][^cite-apollo-may-2026]
+Apollo Research is an AI safety research organisation. Most of its research is alignment research on scheming: whether future models will pursue hidden goals, and how to detect and reduce this, for example in a 2025 paper with OpenAI on training models to scheme less.[^cite-apollo-may-2026][^cite-openai-scheming-2025-b] In January 2026 Apollo became a public benefit corporation, a kind of for-profit company. It then set up a monitoring team with a research side and a product side, and that team does its control work.[^cite-apollo-pbc][^cite-apollo-may-2026]
 
 - **Watcher**, its control product, watches AI coding agents such as Claude Code and Codex, and other agents through a software kit.[^cite-watcher-live]
   - Watcher Live checks each action before it runs, in three steps. Simple rules approve or block some actions straight away, for example approving actions that only read files. A fast, cheap model then passes about 6% of actions on to a stronger model, which makes the final call.[^cite-watcher-live]
@@ -318,7 +318,7 @@ We know of no other government with its own control research team, but some laws
 - **European Union.** The EU's Code of Practice for general-purpose AI (July 2025) lists loss of control as a systemic risk. Among the safety measures it names are monitoring a model's inputs and outputs, and defending against a model's attempts to get around its other safety measures.[^cite-eu-cop-2025] It does not cover models a company uses only internally.[^cite-ai-frontiers-2025]
 - **California.** Its law SB 53 (in force since January 2026) requires large AI developers to assess the risk from using their own models internally, including a model getting around oversight. A model using deception to get around its developer's controls or monitoring counts as a critical safety incident if it happens outside a test and shows a materially increased risk of catastrophe.[^cite-sb53][^cite-cooley-sb53]
 - **New York.** Its RAISE Act, in force from January 2027, also requires summaries of the risk from internal use.[^cite-raise]
-- **United States.** A research program run by DARPA and the National Science Foundation with the US Center for AI Standards and Innovation, announced in June 2026, will fund university research on AI control as one of three priority areas.[^cite-ai-forge]
+- **United States.** In June 2026, DARPA and the National Science Foundation announced a research program, run with the US Center for AI Standards and Innovation. It will fund university research on AI control as one of three priority areas.[^cite-ai-forge]
 
 [^cite-eu-cop-2025]: European Commission (2025), *Code of Practice for General-Purpose AI Models: Safety and Security Chapter*. [European Commission](https://ec.europa.eu/newsroom/dae/redirection/document/118119)
 [^cite-ai-frontiers-2025]: AI Frontiers (2025), *How the EU's Code of Practice advances AI safety*. [AI Frontiers](https://ai-frontiers.org/articles/how-the-eus-code-of-practice-advances-ai-safety)
@@ -347,7 +347,7 @@ collapse:: closed
 
 #### Text
 content::
-Coefficient Giving, formerly Open Philanthropy, is a foundation that Manifund's grant tracker, Trace, calls the largest philanthropic funder of AI safety work.[^cite-trace-coefficient-b] It committed $168m to technical AI safety, security and field-building in 2024, $351m in 2025, and expects to pass $1bn in 2026.[^cite-coefficient-scaling-2026-b]
+Coefficient Giving, formerly Open Philanthropy, is a foundation. Manifund's grant tracker, Trace, calls it the largest philanthropic funder of AI safety work.[^cite-trace-coefficient-b] It committed $168m to technical AI safety, security and field-building in 2024, $351m in 2025, and expects to pass $1bn in 2026.[^cite-coefficient-scaling-2026-b]
 
 
 - It is Redwood Research's main funder. It gave Redwood $36.6m in November 2025,[^cite-tnw-2026-b] and in September 2026 it said its grantmakers had recently recommended more than $70m for Redwood over the next two years.[^cite-coefficient-scaling-2026-b]
@@ -389,7 +389,7 @@ content::
 - **The Survival and Flourishing Fund** recommended $675,000 in 2026 to Poseidon Research, a nonprofit that studies how AI systems hide information, including from monitors.[^cite-sff-2026][^cite-poseidon-site][^cite-farai-poseidon]
 - **The Frontier Model Forum's AI Safety Fund**, paid for by AI companies and philanthropic funders, funds projects such as Apollo Research's work on monitors that detect scheming.[^cite-fmf-2025]
 
-[^cite-schmidt-2026]: Schmidt Sciences (2026), *Request for proposals on the Science of Trustworthy AI*. [GreaterWrong](https://www.greaterwrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of)
+[^cite-schmidt-2026]: Schmidt Sciences (2026), *Request for proposals on the Science of Trustworthy AI*. [LessWrong](https://www.lesswrong.com/posts/sup9qzCrdjcAGyrxa/schmidt-sciences-request-for-proposals-on-the-science-of)
 [^cite-sff-2026]: Survival and Flourishing Fund (2026), *SFF-2026 recommendations*. [SFF](https://survivalandflourishing.fund/2026/recommendations)
 [^cite-poseidon-site]: Poseidon Research, home page. [poseidonresearch.org](https://poseidonresearch.org/)
 [^cite-farai-poseidon]: FAR.AI (2026), *ControlConf 2026: What is AI control and how has the field grown?* [FAR.AI](https://far.ai/news/controlconf-2026)
@@ -469,7 +469,7 @@ collapse:: closed
 #### Text
 content::
 - **ControlConf**, the AI control conference, run by FAR.AI and Redwood, met in London in March 2025[^cite-farai-london-2025] and in Berkeley in April 2026.[^cite-farai-controlconf-2026-b]
-- **AI control hackathons** run by Apart Research with Redwood, in March 2025, also with the UK AI Security Institute, and March 2026. Sign-ups grew from 182 to 792, and submitted projects from 19 to 125.[^cite-apart-2025][^cite-apart-2026]
+- **AI control hackathons:** Apart Research ran them with Redwood and the UK AI Security Institute in March 2025, and with Redwood again in March 2026. Sign-ups grew from 182 to 792, and submitted projects from 19 to 125.[^cite-apart-2025][^cite-apart-2026]
 
 [^cite-farai-london-2025]: FAR.AI (2025), *London ControlConf 2025*. [FAR.AI](https://www.far.ai/blog/london-controlconf-2025)
 [^cite-farai-controlconf-2026-b]: FAR.AI (2026), *ControlConf 2026: What is AI control and how has the field grown?* [FAR.AI](https://far.ai/news/controlconf-2026)

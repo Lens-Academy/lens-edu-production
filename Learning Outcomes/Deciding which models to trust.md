@@ -1,5 +1,6 @@
 ---
 id: '1ead777c-908d-4ad2-bc6e-dcee11e66cf2'
+writing_minutes: 8
 learning-outcome: "Decide which models in a deployment to treat as trusted and which as untrusted, using whether a model is capable of scheming effectively as the criterion rather than how it has behaved or what inspection of it has found, and apply that decision when choosing which model may oversee an untrusted one, including what relying on a weaker trusted model costs."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
@@ -15,7 +16,9 @@ id:: 5df098d8-2009-436c-87ac-1fc63b7477bc
 content::
 A lab must decide which of its models it may treat as **trusted**, meaning it can rule out that the model is secretly working against it.
 
-"Scheming-capability evaluations" below means the lab's tests of the abilities a model would need to scheme effectively, such as reasoning about its own situation and planning a multi-step attack while hiding it.
+A term used below:
+
+- **Scheming-capability evaluations:** the lab's tests of the abilities a model would need to scheme effectively, such as reasoning about its own situation and planning a multi-step attack while hiding it.
 
 - **Model P** is two generations old. It clearly fails the scheming-capability evaluations.
 - **Model Q** is the current production model. It passes the scheming-capability evaluations. In a year of heavy use it has never been caught doing anything suspicious.
@@ -36,6 +39,9 @@ notes:: Shows trusted monitoring: a weaker trusted model scores the stronger mod
 ## Lens:
 source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Teaches the capability criterion for trust, practised in the untrusted-models recall right after it. Its scenario questions have the learner judge trusted monitoring and other setups.
+## Lens:
+source:: [[../Lenses/AICF - Spies, insiders and auditing]]
+notes:: Why a copy of an untrusted model is no independent reviewer (copies are correlated), and the trusted-monitoring hierarchy with scarce human auditing. Practised in its two questions.
 ## Lens:
 source:: [[../Lenses/AICF - The case for control - how control is tested]]
 notes:: Practised in the trust practice question.
