@@ -47,13 +47,13 @@ The previous lens argued about a national AGI project. Both sides of that argume
 There are two readings.
 
 - **The first** checks the evidence behind a claim. Karson Elmgren traces a widely repeated claim back to its source. The claim is that China declared a goal of building AGI in 2017. The source is one phrase in one planning document, and a translation.
-- **The second** is a short data insight from Epoch AI. It measures the US-China capability gap instead of describing it. Its title gives the answer away, so commit to your own number first. Keep one caveat in mind as you read it. The average it reports covers the whole period since 2023, and the first year of that period is when Chinese models were still catching up. Over the more recent part of the period, the gap is smaller. Retrieved 2026-09-07. The figure changes, so check the date on anything you repeat.
+- **The second** is a short data insight from Epoch AI. It measures the US-China capability gap instead of describing it. Its title gives the answer away, so commit to your own number first. Keep one caveat in mind as you read it. The average it reports covers the whole period since 2023, and the first year of that period is when Chinese models were still catching up. Over the more recent part of the period, the gap is smaller. The figure is as of 7 September 2026 and keeps changing.
 
 If you want to follow the detective work, the sections the author marked optional and his supplementary evidence are collapsed below. And if you finish this lens wanting a view from inside Chinese policy, the Carnegie piece [How China Views AI Risks, and What to Do About Them](https://carnegieendowment.org/research/2025/10/how-china-views-ai-risks-and-what-to-do-about-them) shows what Chinese AI policy looks like when you read it directly.
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The readings themselves are the authors' own work.*
 
-#### Question
+#### Question: Open
 id:: 363a04d7-332f-4598-8949-d1f827a05f25
 content::
 \## Commit to a number
@@ -109,7 +109,6 @@ and never say whether their number is close. They are about to see the measureme
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/elmgren-no-the-2017-new-generation-ai-development-plan-did-not-include-a-goal-of-building-agi]]
