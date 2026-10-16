@@ -3,6 +3,8 @@ title: "Interpretability Will Not Reliably Find Deceptive AI"
 source_url: "https://www.alignmentforum.org/posts/PwnadG4BFjaER3MGf/interpretability-will-not-reliably-find-deceptive-ai"
 author:
   - "Neel Nanda"
+author_url:
+  - "https://www.neelnanda.io/"
 published: 2025-05-04
 created: 2026-02-27
 description: "Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views • TL;DR: …"
@@ -23,7 +25,9 @@ Add discussion note here:
 
 %%
 
+:::hide
 *Disclaimer: Post written in a personal capacity. These are personal opinions and do not in any way represent my employer's views*
+:::
 
 **TL;DR:**
 
@@ -32,7 +36,9 @@ Add discussion note here:
 - However, interpretability should be viewed as part of an overall **portfolio** of defences: a layer in a **defence-in-depth strategy**
 - **It is not the one thing that will save us**, and it still won’t be enough for high reliability.
 
+:::hide
 *EDIT: This post was originally motivated by refuting the claim "interpretability is the only reliable path forward for detecting deception in advanced AI", but on closer reading this is a stronger claim than Dario's post explicitly makes. I stand by the actual contents of the post, but have edited the framing a bit, and also emphasised that I used to hold the position I am now critiquing, apologies for the mistake*
+:::
 
 ## Introduction
 
