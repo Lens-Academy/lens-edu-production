@@ -14,7 +14,6 @@ We opened with feedback loops in principle. Here is one measured in practice: ho
 
 #### Article
 source:: [[../articles/digest-a-new-moores-law-for-ai-agents-ai-digest]]
-to:: "one of the most important trends in human history."
 
 #### Text
 content::
