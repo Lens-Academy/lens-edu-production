@@ -10,7 +10,11 @@ glossary_terms:
 ---
 #### Text
 content::
-This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A short recall question follows each part of the reading, and a practice question closes the lens. Where the post says "early transformatively useful AIs", it means the first AIs useful enough to substantially reduce risk from later AIs, for example by speeding up safety research, and not arbitrarily powerful ones. A spoken interview on where control evaluations can fail, and a section on why control evaluations only look at what a model can do, are optional and folded.
+This continues the same post by Greenblatt and Shlegeris. It explains how a red team can test whether a model is controlled, and why there is no comparable test yet for whether a model is aligned. A short recall question follows each part of the reading, and a practice question closes the lens. A spoken interview on where control evaluations can fail, and a section on why control evaluations only look at what a model can do, are optional and folded.
+
+A term in the post:
+
+- **Early transformatively useful AIs:** the first AIs useful enough to substantially reduce risk from later AIs, for example by speeding up safety research. Not arbitrarily powerful ones.
 
 #### Article
 source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
@@ -91,7 +95,9 @@ feedback-instructions:: In at most four sentences: confirm what the learner got 
 
 #### Text
 content::
-Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Research, working with OpenAI, published evidence that models already notice when they are being tested and sometimes behave better because of it. Four short excerpts follow. The first is Apollo's definition of scheming. The same ability is also a problem for control: Greenblatt and Shlegeris's second condition for a control evaluation is measuring capabilities in a way the model cannot sabotage, and a model that can tell when it is being tested could deliberately underperform on the capability evaluations that decide which models count as trusted.
+Greenblatt and Shlegeris wrote this in January 2024. In September 2025 Apollo Research, working with OpenAI, published evidence that models already notice when they are being tested and sometimes behave better because of it. Four short excerpts follow. The first is Apollo's definition of scheming.
+
+Noticing tests is a problem for control too. Greenblatt and Shlegeris's second condition for a control evaluation is that capabilities are measured in a way the model cannot sabotage. A model that can tell when it is being tested could deliberately underperform on the capability evaluations that decide which models count as trusted.
 
 #### Article
 source:: [[../articles/apolloresearch-stress-testing-deliberative-alignment-for-anti-scheming-training]]

@@ -1,5 +1,6 @@
 ---
 id: '424c1c19-b1dc-4e30-8ccb-92cec6715f31'
+writing_minutes: 12
 learning-outcome: "Given a short description of how an organisation deploys an AI agent, judge whether the set-up would keep the organisation safe if the untrusted model were trying to cause harm: map its parts (untrusted and trusted models, monitor, human audit, response to a flagged action) and the unacceptable outcome, then use that map to say what evidence would show it is safe and why the organisation's own case does not, which attack a red team should try first, and which assumption or uncovered risk could still lead to that outcome."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
@@ -28,8 +29,14 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 
 # Suggested Lenses:
 ## Lens:
+source:: [[../Lenses/AICF - What control is meant to stop]]
+notes:: Optional. Buck Shlegeris on the outcomes control is meant to stop inside an AI company (data centre takeover, weight theft, research sabotage, influencing future training), the kind of unacceptable outcome part 2 asks for.
+## Lens:
 source:: [[../Lenses/AICF - The case for control - what control is]]
 notes:: Scenario exercise: judge three set-ups, then name the unacceptable outcome and one assumption or gap for a new one (parts 1, 2 and 5).
+## Lens:
+source:: [[../Lenses/AICF - Spies, insiders and auditing]]
+notes:: The words for the parts of a set-up: monitor, escalation, human auditing, honeypots. Practised in its question placing trusted monitoring in Shlegeris's hierarchy.
 ## Lens:
 source:: [[../Lenses/AICF - Control in use today]]
 notes:: Practice in reading a real company set-up (Google DeepMind).
@@ -42,6 +49,9 @@ notes:: Teaches the assumptions behind part 5: that a red team can find attacks 
 ## Lens:
 source:: [[../Lenses/AICF - Worst case, but not all-powerful]]
 notes:: Teaches the worst-case assumptions control evaluations make. What they do not assume is in an optional part.
+## Lens:
+source:: [[../Lenses/AICF - First criticisms]]
+notes:: Phuong's weaknesses of control (trusted monitors fall behind, risk compensation), two of the gaps part 5 credits, then Kulveit's warning-shot argument as a first criticism. Phuong is optional.
 ## Lens:
 source:: [[../Lenses/AICF - Take apart a deployment pitch]]
 notes:: Optional scored roleplay practice on a different set-up, with feedback, covering parts 1 to 5.

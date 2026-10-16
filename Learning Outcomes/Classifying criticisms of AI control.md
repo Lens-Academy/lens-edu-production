@@ -1,5 +1,6 @@
 ---
 id: '702cb65b-8342-4e14-992f-bb98dddf122f'
+writing_minutes: 15
 learning-outcome: "Evaluate an argument about AI control with the same rigour whichever side it is on. For a criticism of control, say what it disputes: whether it claims that control does not work (it will not stop a capable scheming model, or will stop working as models get more capable), that it works but is not worth the effort (scheming is unlikely, other failures matter more, or the work would happen anyway), or that it works and makes things worse overall, state what the criticism gets right, and give the strongest response to the point it disputes, comparing the realistic world with control against the realistic world without it rather than against a perfect solution. For an argument in favour of control, name the premise most open to doubt and say why."
 topic: "[[../Domains and Topics/7 AI Control/The control agenda]]"
 stage: beginner
@@ -64,3 +65,6 @@ notes:: The false-confidence case of the "makes things worse" kind, and power co
 ## Lens:
 source:: [[../Lenses/AICF - What about superintelligence]]
 notes:: A two-sided criticism (MIRI: does not work for superintelligence, and not worth the effort), with Redwood and a UK AISI co-authored paper agreeing on the limit.
+## Lens:
+source:: [[../Lenses/AICF - Practice sorting and answering criticisms]]
+notes:: Scored practice for parts 1 and 2 on new cases: sort and answer two criticisms, then find the weakest premise in two arguments for control, one of them Google DeepMind's.
