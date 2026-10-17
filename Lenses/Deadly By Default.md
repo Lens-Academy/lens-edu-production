@@ -19,12 +19,12 @@ to:: "ever created or accomplished."
 
 #### Text
 content::
-What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
+What do you think of the argument that extinction from AI is the default outcome? What further questions come up?
 
 #### Chat
 instructions::
 The user is answering this question:
-What do you think of the argument that AI extinction risk is the default outcome? What further questions come up?
+What do you think of the argument that extinction from AI is the default outcome? What further questions come up?
 
 Context:
 - This is a philosophical discussion about AI alignment and meta-level reasoning.

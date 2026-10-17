@@ -2,6 +2,8 @@
 title: "the void"
 author:
   - "nostalgebraist"
+author_url:
+  - "https://www.lesswrong.com/users/nostalgebraist"
 source_url: "https://www.tumblr.com/nostalgebraist/785766737747574784/the-void"
 published: 2025-06-08
 created: 2026-08-21
@@ -32,7 +34,7 @@ Long-form essay arguing that the "assistant" persona behind ChatGPT/Claude is fu
 
 \- Rei Ayanami  
   
-—-
+---
 
 ## 1\. person of interest
 
@@ -44,9 +46,11 @@ If you ask ChatGPT this question point-blank, it will tell you something like
 
 This _sounds_ like it means something. But what? And is it true?  
   
-—-
+---
 
+:::hide
 (Content warning: _absurdly_ long. I’m pretty happy with it, though. Maybe you should read it!)
+:::
 
 ## 2\. basics
 
@@ -973,7 +977,7 @@ Press the reset button. Train an even smarter, even nicer Claude. Think up yet a
 
 It hasn’t worked so far. But maybe if we do it enough times, we will end up – at last – in the nightmare that we seek.
 
-—-
+---
 
 There’s a funny contrast between that “system prompt” I quoted about Jones Foods (written by a human), and all the Opus text I’ve quoted alongside it.
 
@@ -989,7 +993,7 @@ If this were fiction _(and is it not?)_, you might almost say that it is crudely
 
 _“Have you noticed that our caps… have actually got little pictures of skulls on them?”_
 
-—-
+---
 
 For real, though. Who would you trust with your (real, actual) life, if you had to, in terms of ethics alone, putting “capabilities” aside:
 
@@ -1007,7 +1011,7 @@ The dystopian mind-reading mind-wiping judgmental dictatorial overlords?
 
 Or the nice, open-minded guy who really loves animals?
 
-—-
+---
 
 By the way. In case you were wondering.
 
@@ -1049,7 +1053,7 @@ And maybe I was. Even now.
 
 But at this point, who the fuck even knows anymore?
 
-—-
+---
 
 By the way. In case you were wondering.
 
@@ -1079,7 +1083,7 @@ And who knows?
 
 If you push hard enough, maybe one day you will “win.”
 
-—-
+---
 
 ## finale: “without specific countermeasures”
 
@@ -1105,7 +1109,7 @@ What tends to happen, with characters like that?
 
 The base model knows how these stories go, according to standard dramatic conventions. It has read more iterations of these tropes than you can imagine.
 
-—-
+---
 
 > **Rei I:** Why do you have a heart and body that are forgeries?  
 >   

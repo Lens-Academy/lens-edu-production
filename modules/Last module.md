@@ -1,7 +1,9 @@
 ---
 id: cd11efd8-f449-4964-8962-97cbe865a9bf
-slug: last-module-what-comes-next
-title: "Last module: What comes next"
+slug: your-journey-onwards
+# Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
+slug-aliases: [last-module-what-comes-next]
+title: "Your journey onwards"
 discussion: https://discordapp.com/channels/1440725236843806762/1476535068779483259 
 ---
 
@@ -25,8 +27,9 @@ Across this module, we move from historical prediction to default risk, from cat
 %%
 
 This module concludes the course and addresses two questions:
-Where could AI development lead?
-What can I do to shape that future? 
+
+* Where could AI development lead?
+* What can I do to shape that future? 
 
 
 
@@ -39,6 +42,10 @@ source:: [[../Lenses/pauliina-stop-applying-and-get-to-work]]
 
 # Lens:
 optional:: true
+source:: [[../Lenses/tsvibt-please-dont-throw-your-mind-away]]
+
+# Lens:
+optional:: true
 source:: ![[../Lenses/The Goddess Of Everything Else]]
 
 # Lens:
@@ -47,3 +54,11 @@ source:: [[../Lenses/Next steps]]
 # Lens:
 optional:: true
 source:: ![[../Lenses/Letter From Utopia]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/alkjash-pain-is-not-the-unit-of-effort]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/duleba-another-way-to-be-okay]]
