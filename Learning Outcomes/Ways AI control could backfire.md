@@ -39,14 +39,11 @@ feedback-instructions:: Name the strongest part of the answer in one sentence, t
 source:: [[../Lenses/AICF - Warning shots revisited]]
 notes:: Kulveit's warning-shot argument, Greenblatt's reply, Kulveit's answer and Vincent Cheng's 2026 comment after the Hugging Face incident. Its second question is the practice item for this outcome.
 ## Lens:
-source:: [[../Lenses/AICF - Safety-washing and false confidence]]
-notes:: Manheim on oversight as "a story", Schmied's list of ways safety work could be net negative.
+source:: [[../Lenses/AICF - How control could speed AI up]]
+notes:: Capabilities acceleration through more usable models (Bushnaq; Habryka in an optional box), with Buck's answer, worked out by Mallen.
 ## Lens:
 source:: [[../Lenses/AICF - Would a profit-only lab build it]]
-notes:: Capabilities acceleration through more usable models (Habryka, Cale), with replies (Hobbhahn, Mallen, Oesterheld).
+notes:: Safety monitors may mostly make AI reliable enough to sell, and so speed AI up (Cale), with Hobbhahn's reply.
 ## Lens:
 source:: [[../Lenses/AICF - Does control breed better schemers]]
 notes:: Training against caught behaviour as a backfire path.
-## Lens:
-source:: [[../Lenses/AICF - Does control make AIs adversarial]]
-notes:: Optional. Self-fulfilling misalignment: a fine-tuning study on control writing and a larger pretraining study on AI writing in general, with a fix (adding data about AIs behaving well).
