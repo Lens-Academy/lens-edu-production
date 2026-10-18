@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 A 'corrigible' agent is one that [doesn't interfere](https://www.lesswrong.com/w/non-adversarial-principle) with what [we](https://www.lesswrong.com/w/programmer) would intuitively see as attempts to 'correct' the agent, or 'correct' our mistakes in building it; and permits these 'corrections' despite the apparent [instrumentally convergent reasoning](https://www.lesswrong.com/w/instrumental-convergence) saying otherwise.
 
 -   If we try to suspend the AI to disk, or shut it down entirely, a corrigible AI will let us do so. (Even though, if suspended, [the AI will then be unable to fulfill what would usually be its goals](https://www.lesswrong.com/w/you-can-t-get-the-coffee-if-you-re-dead).)

@@ -3,7 +3,7 @@ title: "Global Economic Inequality"
 source_url: https://ourworldindata.org/global-economic-inequality-introduction
 author:
   - Max Roser
-published: 2022-02-23
+published: 2021-12-09
 created: 2026-05-28
 description: An introduction to global economic inequality — how vast the income gaps between countries are, why where you are born matters more than who you are, and what this implies for how we can help.
 tags:
@@ -13,11 +13,28 @@ tags:
   - global-poverty
   - economic-inequality
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+This article uses World Bank poverty data expressed in 2011 international-$, which the Bank has since revised (see the callout near the end of the article); figures like the $6.70/day poorer-half line will not match the latest World Bank releases. Worth prompting discussion on the growth-vs-redistribution framing: the piece argues redistribution alone cannot end poverty, which pairs well with debate on the scale and mechanisms of aid effectiveness.
+
+%%
 
 # Global Economic Inequality
 
 ## How much does it matter to be born into a productive, industrialized economy?
+
+:::callout {tone="amber"}
+**Note:** Since the publication of this article, the World Bank has updated its poverty data. See the note at the end for more information.
+:::
 
 What is most important for how healthy, wealthy, and educated you are is not who you are, but *where* you are. Your knowledge and how hard you work matter too, but much less than the one factor that is entirely outside anyone's control: whether you happen to be born into a productive, industrialized economy or not.
 
@@ -55,15 +72,15 @@ Seeing how much our living conditions depend on the productivity of the economy 
 
 To see this, consider a world without any inequality between countries. If all countries were equally rich, where someone lives would not influence where someone ends up in the global income distribution.
 
-In contrast, consider a situation of extreme inequality between countries, such as today's inequality between a poor and rich country.[^1] In this case, the home country of a person determines *everything*. The shown data for Ethiopia and Denmark makes this clear: the two distributions don't overlap. A person born in Denmark has almost certainly an income above the global average, and someone born in Ethiopia has almost certainly an income lower than that.
+In contrast, consider a situation of extreme inequality between countries, such as today's inequality between a poor and rich country.[^note-roser-1] In this case, the home country of a person determines *everything*. The shown data for Ethiopia and Denmark makes this clear: the two distributions don't overlap. A person born in Denmark has almost certainly an income above the global average, and someone born in Ethiopia has almost certainly an income lower than that.
 
 ![](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/7c3c0de3-ebcb-404a-3e8c-3e619beb5500/w=3186)
 
 Beyond just two countries, how much does a person's home country matter for where they are in today's global income distribution?
 
-Inequality researcher Branko Milanovic studied this question and found that the country where a person lives explains *two-thirds* of the variation of income differences between all people in the world.[^2] Where a person lives is the most important factor of their income.
+Inequality researcher Branko Milanovic studied this question and found that the country where a person lives explains *two-thirds* of the variation of income differences between all people in the world.[^cite-roser-2] Where a person lives is the most important factor of their income.
 
-For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population [[97%](https://ourworldindata.org/explorers/migration)] lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
+For a variety of reasons — from family ties to the political restrictions that impede migration — very few people move between countries. Most of the world population [[96%](https://ourworldindata.org/grapher/migrant-populations?tab=line&country=~OWID_WRL&metric=immigrants&unit=share)] lives in the country they were born in. And so, for most people, it is not only the country they live in that determines their income but also the country they were born in.
 
 This is not to say that a person's work ethic, talent, and skills do not matter for their income. They do. But it is to say that all these personal factors together matter much less than the factor that is entirely outside of a person's control: whether they are born into a large, productive economy or not.
 
@@ -81,19 +98,19 @@ What can we take away from these three insights?
 
 # Redistribution
 
-Redistribution through the state [plays a large role](https://ourworldindata.org/income-inequality-before-and-after-taxes) in reducing inequality *within* countries and could also reduce global inequality. However, the reality is that, no matter in which rich country you pay your taxes, almost none of that goes to the world's poor people.[^3] The redistribution governments do is not reaching the poorest people: it is domestic, not international redistribution.
+Redistribution through the state [plays a large role](https://ourworldindata.org/income-inequality-before-and-after-taxes) in reducing inequality *within* countries and could also reduce global inequality. However, the reality is that, no matter in which rich country you pay your taxes, almost none of that goes to the world's poor people.[^cite-roser-3] The redistribution governments do is not reaching the poorest people: it is domestic, not international redistribution.
 
 If you want to reduce global inequality and support poorer people, you do, however, have this opportunity. You can donate some of your money.
 
 You might be able to live on a little less, and this money could make a big difference to a poorer person.
 
-The most direct way is to send some of your money to poor people; the non-profit organization [GiveDirectly](https://www.givedirectly.org/) makes this possible. Or you can donate to an *effective* charity that supports the world's poorest. In the footnote, you can find out how to find such a charity and how I donate.[^4]
+The most direct way is to send some of your money to poor people; the non-profit organization [GiveDirectly](https://www.givedirectly.org/) makes this possible. Or you can donate to an *effective* charity that supports the world's poorest. In the footnote, you can find out how to find such a charity and how I donate.[^note-roser-4]
 
 # Economic growth
 
 Some suggest we can end poverty without additional growth by reducing global inequality. This is not the case. Reducing global inequality can achieve a lot, but it is important to be clear that redistribution alone would still mean that billions of people would live in very poor material conditions. The world [is](https://ourworldindata.org/poverty-minimum-growth-needed) *[far](https://ourworldindata.org/poverty-minimum-growth-needed)* [too poor](https://ourworldindata.org/poverty-minimum-growth-needed) to end poverty without large growth.
 
-To achieve a more equal world without poverty, the world needs very large economic growth.[^5]
+To achieve a more equal world without poverty, the world needs very large economic growth.[^note-roser-5]
 
 We can see this when we look at our global history. Two centuries ago, the world was much more equal: Average income, measured with GDP per capita in the chart, was low everywhere, and most people [were extremely poor](https://ourworldindata.org/extreme-history-methods).
 
@@ -107,7 +124,7 @@ Those places that have achieved large growth show how much better the living con
 
 To take one concrete example, let's consider maternal mortality. In high-income countries, where mothers can rely on well-equipped hospitals and support from doctors and midwives when complications occur, maternal deaths have become rare (the risk of death [has declined 300-fold](https://ourworldindata.org/measurement-matters-the-decline-of-maternal-mortality) in the last generations). But in the rest of the world, it is still very common: every year, [295,000 mothers die](https://ourworldindata.org/maternal-mortality) just when they give life to their child.
 
-What would the world look like if the risk of death for mothers was globally as low as in the world's richest countries? The vast majority of mothers who die this year would survive.[^6]
+What would the world look like if the risk of death for mothers was globally as low as in the world's richest countries? The vast majority of mothers who die this year would survive.[^note-roser-6]
 
 ![](https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/bffaae17-c907-4c81-c2a8-5d4a1aff6300/w=2281)
 
@@ -119,22 +136,47 @@ What we have seen in the data here is one of the most important insights of deve
 
 What gives people the chance for a good life is when the entire society and economy around them changes for the better. This is what development and economic growth are about: transforming a place so that what was previously only attainable for a few comes into reach for all.
 
+:::hide
 #### Acknowledgments
 
 I want to thank Joe Hasell and Toby Ord for their feedback on this article and visualizations.
+:::
 
----
+:::callout {title="The World Bank has updated its poverty and inequality data since the publication of this article" tone="amber"}
+This article uses a previous release of the World Bank's poverty and inequality data, in which incomes were expressed in 2011 international dollars.
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
+The World Bank has since updated its methods, and now measures incomes in 2021 international-$. As part of these changes, the International Poverty Line used to measure extreme poverty has also been updated: from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3 a day (in 2021 prices).
 
-[^1]: I have written a detailed description of this chart and the shown data in [my post on Global poverty in an unequal world](https://ourworldindata.org/higher-poverty-global-line).
+Because of the change of units, many of the figures mentioned in this article will differ from the latest World Bank figures.
 
-[^2]: Branko Milanovic (2015) — "Global Inequality of Opportunity: How Much of Our Income Is Determined By Where We Live?", The Review of Economics and Statistics 97(2): 452-460. He wrote a summary on VoxEU <https://voxeu.org/article/income-inequality-and-citizenship>
+Explore the latest data and read more about the World Bank's methodology:
 
-[^3]: See [this map](https://ourworldindata.org/grapher/foreign-aid-given-as-a-share-of-national-income?tab=map) of Net ODA as a share of the donor country's GNI. Few countries reach the goal of 0.7% of national income, meaning the share of taxes paid on ODA is extremely small. I think it should be higher, development aid is one way in which the populations of the richest countries [can](http://millionssaved.cgdev.org/) improve the situation in the world's poorest places.
+* [Poverty Data Explorer](https://ourworldindata.org/explorers/poverty-explorer)
+* [The $3 International Poverty Line](https://ourworldindata.org/new-international-poverty-line-3-dollars-per-day)
+* [From $1.90 to $2.15 a day: the updated International Poverty Line](https://ourworldindata.org/from-1-90-to-2-15-a-day-the-updated-international-poverty-line)
+:::
 
-[^4]: One of the most important things to know about charities is that their impact varies hugely — some are ineffective or even do more harm than good. In contrast, others can do extremely good work on a large problem in a very cost-effective way. [GiveWell](https://www.givewell.org/) is a research team that finds the charities that make the biggest difference per each dollar or euro you donate. On their site, you will find their recommended charities and very transparent and in-depth research on how they arrived at these recommendations. Giving via GiveWell is one way to donate that I'd recommend. The way that I donate is via [Effective Altruism Funds](https://funds.effectivealtruism.org). They also rely on Givewell's research, but they also focus on other areas. As a donor, you can set your priorities between these different areas, but beyond that, you trust the team of the Effective Altruism Funds to make decisions for you. I pay into the 'Fund' with a recurring transfer every month.
+:::hide
+## Continue reading on Our World in Data
 
-[^5]: For evidence on this, see my post ['How much economic growth is necessary to reduce global poverty substantially?'](https://ourworldindata.org/poverty-minimum-growth-needed)
+[How much economic growth is necessary to reduce global poverty substantially?](https://ourworldindata.org/poverty-minimum-growth-needed)
+:::
 
-[^6]: In the world's richest countries, the maternal mortality ratio (MMR) is more than 100-fold lower than the global average (211/2=105.5-fold). In the world's richest countries, the MMR per 100,000 live births is 2; worldwide, it is 211. Worldwide, 295,000 mothers die every year. Every year 295,000 mothers die in childbirth. If the risk of death for mothers were globally as low as in the world's richest countries, 2,800 mothers would die. 292,200 mothers would not die.
+[^note-roser-1]: I have written a detailed description of this chart and the shown data in [my post on Global poverty in an unequal world](https://ourworldindata.org/higher-poverty-global-line).
+
+[^cite-roser-2]: Branko Milanovic (2015) — "Global Inequality of Opportunity: How Much of Our Income Is Determined By Where We Live?", The Review of Economics and Statistics 97(2): 452-460. Online here: <https://www.mitpressjournals.org/doi/abs/10.1162/REST_a_00432#.VKCF2CcA> He wrote a summary on VoxEU <https://voxeu.org/article/income-inequality-and-citizenship>
+
+[^cite-roser-3]: See [this map](https://ourworldindata.org/grapher/foreign-aid-given-as-a-share-of-national-income?tab=map) of Net ODA as a share of the donor country's GNI. Few countries reach the goal of 0.7% of national income, meaning the share of taxes paid on ODA is extremely small. I think it should be higher, development aid is one way in which the populations of the richest countries [can](http://millionssaved.cgdev.org/) improve the situation in the world's poorest places.
+
+[^note-roser-4]: One of the most important things to know about charities is that their impact varies hugely — some are ineffective or even do more harm than good. In contrast, others can do extremely good work on a large problem in a very cost-effective way. [GiveWell](https://www.givewell.org/) is a research team that finds the charities that make the biggest difference per each dollar or euro you donate. On their site, you will find their recommended charities and very transparent and in-depth research on how they arrived at these recommendations. Giving via GiveWell is one way to donate that I'd recommend. The way that I donate is via [Effective Altruism Funds](https://funds.effectivealtruism.org). They also rely on Givewell's research, but they also focus on other areas. As a donor, you can set your priorities between these different areas, but beyond that, you trust the team of the [Effective Altruism Funds](https://funds.effectivealtruism.org) to make decisions for you. This has the advantage that their team has more knowledge about the various effective charities than you, or I can possibly know, which gives them the chance to give to those charities that have the greatest potential and need at a particular time. I pay into the 'Fund' with a recurring transfer every month.
+
+[^note-roser-5]: For evidence on this, see my post ['How much economic growth is necessary to reduce global poverty substantially?'](https://ourworldindata.org/poverty-minimum-growth-needed)
+
+[^note-roser-6]: In the world's richest countries, the maternal mortality ratio (MMR) is more than 100-fold lower than the global average (211/2=105.5-fold). In the world's richest countries, the MMR per 100,000 live births is 2; worldwide, it is 211. [Source](https://ourworldindata.org/grapher/maternal-mortality-ratio-who-gho?tab=chart&time=latest&country=OWID_WRL~NOR)
+
+    - Worldwide, 295,000 mothers die every year. [Source](https://ourworldindata.org/grapher/number-of-maternal-deaths?tab=chart&time=latest&country=~OWID_WRL).
+    - This means (100,000/211)\*295,000 =139,810,426 births yearly.
+    - If the global MMR were 2 rather than 211 per 100,000, then this would result in (139,810,426/100,000)\*2=2,796 Deaths of mothers.
+    - [Or a more straightforward calculation of the same: 295,000/(211/2)=2,796]
+
+    Every year 295,000 mothers die in childbirth. If the risk of death for mothers were globally as low as in the world's richest countries, 2,800 mothers would die. 292,200 mothers would not die.

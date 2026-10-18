@@ -16,6 +16,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Superforecasting in a Nutshell
 
 {>>TODO: Licensed content<<}

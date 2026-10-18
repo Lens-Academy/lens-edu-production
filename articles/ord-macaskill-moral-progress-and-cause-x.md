@@ -16,6 +16,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 *The effective altruism community has grown tremendously since it began in 2009. In the opening keynote of EA Global: San Francisco 2016, Toby Ord and Will MacAskill discuss this history and consider what might happen in the movement’s future.*
 
 # Transcript: Toby Ord and Will MacAskill’s Opening Keynote at the EAG San Francisco 2016

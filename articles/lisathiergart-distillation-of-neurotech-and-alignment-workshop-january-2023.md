@@ -10,7 +10,20 @@ accessed: 2026-07-09
 description: "Disclaimer: This post is preliminary and doesn't yet fully align with the rigorous standards we typically aim for in LessWrong publications. It recap…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 **Disclaimer:** This post is preliminary and doesn't yet fully align with the rigorous standards we typically aim for in LessWrong publications. It recaps the dynamic discussions from the neurotech for AI alignment workshop and therefore does not necessarily represent any single participant’s or author’s viewpoint. Shared ahead of the Foresight WBE workshop, our intent is to foster enriching discussion among participants. We welcome your input as we continue refining these insights. 
 
@@ -57,10 +70,10 @@ After the ideation & brainstorming phase, participants were tasked with identify
 3.  _Understanding how humans form values_
     1.  **Summary:** This cluster looks at studying how humans form values to better train agents to form their values similarly.
     2.  **Example approach 1:** Investigate Eliezer Yudkowsky's claim that the human brain contains some innate cognitive structures or mechanisms that contribute to the development of moral reasoning. If correct, build this structure or mechanism into AGI and train it similarly to how humans learn. 
-4.  _Cyborgism_[^1]
-    1.  **Summary:** Cyborgism is the idea of using technology such as AI to enhance human abilities and potential, for example by interleaving human and AI-generated cognition. Cyborgism could enable more effective communication of human values and preferences to the AI, and also enable the development of more transparent and explainable AI systems, which may help ensure that AI systems are used in ways that are beneficial to humanity. [^2]
-    2.  **Example approach 1:** Train a 'brain embeddings to <behavior>' model, then use recordings of humans thinking about positive stuff to condition the model's behavior.
-        1.  Analogy: we currently use 'text to <behavior>' models, then use text to condition the model's behavior. Presumably, brain embeddings will provide a more precise transfer of complex values than will text.
+4.  _Cyborgism_[^note-lisathiergart-1]
+    1.  **Summary:** Cyborgism is the idea of using technology such as AI to enhance human abilities and potential, for example by interleaving human and AI-generated cognition. Cyborgism could enable more effective communication of human values and preferences to the AI, and also enable the development of more transparent and explainable AI systems, which may help ensure that AI systems are used in ways that are beneficial to humanity. [^note-lisathiergart-2]
+    2.  **Example approach 1:** Train a 'brain embeddings to \<behavior>' model, then use recordings of humans thinking about positive stuff to condition the model's behavior.
+        1.  Analogy: we currently use 'text to \<behavior>' models, then use text to condition the model's behavior. Presumably, brain embeddings will provide a more precise transfer of complex values than will text.
 5.  _Whole brain emulation_
     1.  **Summary:** Whole brain emulation (WBE) aspires to capture the functionality of biological/human brains by emulating its structure and function on a computational substrate. Despite advancements, the feasibility of WBE remains debatable, and it carries risks like sampling bias and the exacerbation of inequalities if access is restricted to a few individuals.
     2.  **Example approach 1:** The computational substrate model inherits all of human cognition including its values. Together with access to data and processing unlimited by biology, WBE agents are competitive with the AGI.
@@ -155,8 +168,7 @@ A distinguishing factor for neurotech approaches is their reliance on hardware i
 
 Another significant contributor to overall development cost and time is compliance with regulatory guidelines, such as ethical review and potential new medical legislation, before legally using WBE technology. This difference between neurotech and non-neurotech approaches is noteworthy, as the latter less frequently require ethical evaluation in the current legal landscape.
 
-##   
-**Tradeoff on Investment: Maximally Accelerating a Single Technology vs. Diversifying Investment**
+## **Tradeoff on Investment: Maximally Accelerating a Single Technology vs. Diversifying Investment**
 
 When contemplating resource allocation in AI alignment, a key strategic question arises: Should investment be concentrated in a single expensive technology, like WBE, to maximize its R&D speed, or should resources be spread across multiple approaches, each with a sub-maximum R&D pace? (This tradeoff is mostly only valid under the assumption of finite investment resources relative to cost, which does seem likely soon.)
 
@@ -180,9 +192,12 @@ On the other hand, it may be possible that the total pot of resources is substan
 
 Neurotech-based AI alignment strategies and their potential impact are in early stages but hold promise as exploratory solutions. If you feel that you have insights to contribute to further discussions or would like to participate in future workshops, we encourage you to get involved. Given the complexity, multi-disciplinary, and nascent nature of these approaches, additional perspectives are particularly valuable at this stage. We also host a slack space for online discussions which we welcome new members to. To reach out, feel free to respond through LessWrong or contact us directly at [sumner@convergentresearch.org](mailto:sumner@convergentresearch.org) or [lisa.thiergart@gmail.com](mailto:lisa.thiergart@gmail.com).
 
+:::hide
 # Acknowledgements
 
 We like to express our gratitude to all the participants of the Neurotech and AI alignment workshop. Thank you for devoting your time and contributing to an insightful and productive discussion that has significantly deepened our understanding of this critical area. We also thank Milan Cvitkovic, David Dalrymple and Bogdan Cirstea for providing feedback on an earlier version of this post. Finally, we’d like to offer special thanks to David Dalrymple for delivering a compelling keynote presentation that set the stage for our discussions. 
 
-[^1]: Cyborgism (especially in a recent alignment agenda) is sometimes used more narrowly to mean “ using AI (primarily pretrained GPT models) to augment human cognition". However in this workshop we intentionally do not restrict the term to language model cooperation and also include uses associated with the term “cyborg”.
-[^2]: There are some concerns with this approach. For example, if the AI is able to directly influence an individual's decision-making processes, there is a risk that the individual's autonomy could be compromised. There are also ethical concerns associated with cyborgism. For example, if the integration of AI is only available to a select group of individuals, it could exacerbate existing inequalities and create new ones.
+:::
+
+[^note-lisathiergart-1]: Cyborgism (especially in a recent alignment agenda) is sometimes used more narrowly to mean “ using AI (primarily pretrained GPT models) to augment human cognition". However in this workshop we intentionally do not restrict the term to language model cooperation and also include uses associated with the term “cyborg”.
+[^note-lisathiergart-2]: There are some concerns with this approach. For example, if the AI is able to directly influence an individual's decision-making processes, there is a risk that the individual's autonomy could be compromised. There are also ethical concerns associated with cyborgism. For example, if the integration of AI is only available to a select group of individuals, it could exacerbate existing inequalities and create new ones.

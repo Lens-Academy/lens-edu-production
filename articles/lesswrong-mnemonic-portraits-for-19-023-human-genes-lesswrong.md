@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Back in 2013, Scott Alexander wrote in [Extreme mnemonics](https://slatestarcodex.com/2013/08/14/extreme-mnemonics/):
 
 > *JS-154 is one of five metabolic products of netamine; however, the enzyme that produces it is unknown. It is manufactured in cells in the far rostral region of of the cerebrum, but after binding with a leukocynoid it takes a role in maintaining the blood-brain barrier – in particular guiding the movements of lipid molecules.*
@@ -51,7 +58,7 @@ From single-cell sequencing experiments, we know that cell types are not rigid e
 
 But you can ask *How many protein-coding genes are there?* totally fine. The answer, in humans, is around 19 thousand. Gene boundaries are a lot more digital and measurement-independent than cell type boundaries. So the natural mnemonic mapping is the one where cells are more like vehicles, cities, or pocket universes - inhabited by gene characters.
 
-19 thousand is a lot of characters to memorize. But it will be roughly the same number of characters today, in 10 years, or in 1,000 years, all keeping the same names[^1]. So it's worth starting to get familiar with them today.
+19 thousand is a lot of characters to memorize. But it will be roughly the same number of characters today, in 10 years, or in 1,000 years, all keeping the same names[^cite-lesswrong-1]. So it's worth starting to get familiar with them today.
 
 ## Isomorphisms
 
@@ -75,7 +82,7 @@ Sex needs to be mapped to something that splits proteins into two roughly equal-
 
 **Character weight** → **protein mass.**
 
-45 kg = 45 kilo[dalton](https://en.wikipedia.org/wiki/Dalton_(unit)) (kDa).
+45 kg = 45 [kilodalton](https://en.wikipedia.org/wiki/Dalton_(unit)) (kDa).
 
 ![IGHJ1 (2 kg) and TTN (3816 kg) gene characters](https://res.cloudinary.com/lesswrong-2-0/image/upload/v1780003494/lexical_client_uploads/hybi8jcql903zxckguwz.png)
 
@@ -373,4 +380,4 @@ Where the data was lacking, I let the LLM be more creative with interpretation f
 
 The gene comparison images were somewhat cherry-picked - it took me about 30 minutes per comparison to find good representatives. I expect the images to become better matched to their isomorphism if the Iconoplasm canonical picks can be progressively refined by the gene fandom.
 
-[^1]: If we don't count that episode where SEPT1 and MARCH1 got renamed by geneticists because Microsoft Excel formatting [kept misreading them as dates](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates).
+[^cite-lesswrong-1]: If we don't count that episode where SEPT1 and MARCH1 got renamed by geneticists because Microsoft Excel formatting [kept misreading them as dates](https://www.theverge.com/2020/8/6/21355674/human-genes-rename-microsoft-excel-misreading-dates).
