@@ -1,6 +1,7 @@
 ---
-title: "The Longtermist AI Governance Landscape: A Basic Overview"
+title: "The longtermist AI governance landscape: a basic overview"
 source_url: https://forum.effectivealtruism.org/posts/ydpo7LcJWhrr2GJrx/the-longtermist-ai-governance-landscape-a-basic-overview
+allowUnreachableUrl: true
 author:
   - Sam Clarke
 published: 2022-01-18
@@ -15,18 +16,31 @@ tags:
   - longtermism
   - existential-risk
   - work-in-progress
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 *Aim: to give a basic overview of what is going on in longtermist AI governance.*
 
 *Audience: people who have limited familiarity with longtermist AI governance and want to understand it better. I don't expect this to be helpful for those who already have familiarity with the field. ETA: Some people who were already quite familiar with the field have found this helpful.*
 
-This post outlines the different kinds of work happening in longtermist AI governance. For each kind of work, I'll explain it, give examples, sketch some stories for how it could have a positive impact, and list the actors I'm aware of who are currently working on it.
+This post outlines the different kinds of work happening in longtermist AI governance. For each kind of work, I'll explain it, give examples, sketch some stories for how it could have a positive impact, and list the actors I'm aware of who are currently working on it.[^note-groups]
 
 Firstly, some definitions:
 
-- *AI governance* means bringing about local and global norms, policies, laws, processes, politics, and institutions (not just governments) that will affect social outcomes from the development and deployment of AI systems.
-- *Longtermist AI governance*, in particular, is the subset of this work that is motivated by a concern for the very long-term impacts of AI. This overlaps significantly with work aiming to govern transformative AI (TAI).
+- *AI governance* means bringing about local and global norms, policies, laws, processes, politics, and institutions (not just governments) that will affect social outcomes from the development and deployment of AI systems.[^cite-open-philanthropy-definition]
+- *Longtermist AI governance*, in particular, is the subset of this work that is motivated by a concern for the very long-term impacts of AI. This overlaps significantly with work aiming to govern [transformative AI](https://forum.effectivealtruism.org/tag/transformative-artificial-intelligence) (TAI).
 
 It's worth noting that the field of longtermist AI governance is very small. I'd guess that there are around 60 people working in AI governance who are motivated by a concern for very long-term impacts.
 
@@ -48,7 +62,7 @@ We'll now go through each of these kinds of work in more detail.
 
 ## Strategy research
 
-*Longtermist AI strategy research* ultimately aims to identify high-level goals we could pursue that, if achieved, would clearly increase the odds of eventual good outcomes from advanced AI, from a longtermist perspective (following Muehlhauser, I'll sometimes refer to this aim as 'getting *strategic clarity*').
+*Longtermist AI strategy research* ultimately aims to identify high-level goals we could pursue that, if achieved, would clearly increase the odds of eventual good outcomes from advanced AI, from a longtermist perspective (following [Muehlhauser](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance#Key_bottlenecks), I'll sometimes refer to this aim as 'getting *strategic clarity*').
 
 This research can itself vary on a spectrum between *targeted* and *exploratory* as follows:
 
@@ -59,36 +73,36 @@ This research can itself vary on a spectrum between *targeted* and *exploratory*
 
 ### Examples
 
-- Work on TAI forecasting, e.g. biological anchors and scaling laws for neural language models.
+- Work on TAI forecasting, e.g. [biological anchors](https://www.cold-takes.com/forecasting-transformative-ai-the-biological-anchors-method-in-a-nutshell/) and [scaling laws for neural language models](https://arxiv.org/abs/2001.08361).
   - Example of strategic relevance: if TAI is soon, then slowly growing a large field of experts seems less promising; if TAI is very far, then longtermist AI governance should probably be relatively deprioritised.
-- Work on clarifying the sources of AI x-risk, e.g. writing by Christiano, Critch, Carlsmith, Ngo and Garfinkel.
+- Work on clarifying the sources of AI x-risk, e.g. writing by [Christiano, Critch](https://www.alignmentforum.org/posts/HBxe6wdjxK239zajf/what-failure-looks-like), [Carlsmith](https://www.alignmentforum.org/posts/HduCjmXTBD4xYTegv/draft-report-on-existential-risk-from-power-seeking-ai), [Ngo](https://www.alignmentforum.org/s/mzgtmmTKKn5MuCzFJ) and [Garfinkel](https://forum.effectivealtruism.org/posts/9sBAW3qKppnoG3QPq/ben-garfinkel-how-sure-are-we-about-this-ai-stuff).
   - Example of strategic relevance: if most x-risk from AI comes from advanced misaligned AI agents, then governance should focus on influencing the first actors to build them.
-- Work on investigating the speed of AI progress around TAI, e.g. investigation and analysis by AI Impacts.
-  - Example of strategic relevance: if AI progress occurs discontinuously, then there are likely to be only a small number of high-stakes actors, and most of the value of governance will come from influencing those actors.
+- Work on investigating the speed of AI progress around TAI, e.g. [investigation](https://aiimpacts.org/discontinuous-progress-investigation/) and [analysis](https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/) by AI Impacts.
+  - Example of strategic relevance: if AI progress occurs [discontinuously](https://aiimpacts.org/likelihood-of-discontinuous-progress-around-the-development-of-agi/#Definitions), then there are likely to be only a small number of high-stakes actors, and most of the value of governance will come from influencing those actors.
 
 It's easy to confuse strategy research (and especially *exploratory* strategy research) with *broadly scoped* research. As many of the above examples show, strategy research can be *narrowly scoped* - that is, it can answer a fairly narrow question. Examples of broadly vs. narrowly scoped questions:
 
 - On scaling laws:
   - Broad question: in general, how does the performance of deep learning models change as you increase the size of those models?
-  - Narrower question: how does the performance of *large language models specifically (e.g. GPT-3)* change as you increase the size of those models? (The question tackled in this paper.)
+  - Narrower question: how does the performance of *large language models specifically (e.g. GPT-3)* change as you increase the size of those models? (The question tackled in [this paper](https://arxiv.org/abs/2001.08361).)
 - On sources of AI x-risk:
   - Broad question: how much x-risk is posed by advanced AI in general?
-  - Narrower question: how much x-risk is posed *by influence-seeking AI agents specifically*? (The question tackled in this report.)
+  - Narrower question: how much x-risk is posed *by influence-seeking AI agents specifically*? (The question tackled in [this report](https://www.alignmentforum.org/posts/HduCjmXTBD4xYTegv/draft-report-on-existential-risk-from-power-seeking-ai).)
 
 Indeed, I think it's often better to pick narrowly scoped questions, especially for junior researchers, because they tend to be more tractable.
 
-Luke Muehlhauser has some recommendations for those who want to try this kind of work: see point 4 in this post. And see this post for some examples of open research questions.
+Luke Muehlhauser has some recommendations for those who want to try this kind of work: see point 4 in [this post](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance#My_advice_to_longtermists_interested_in_AI_governance). And see [this post](https://forum.effectivealtruism.org/posts/kvkv6779jk6edygug/some-ai-governance-research-ideas) for some examples of open research questions.[^note-tactics-questions]
 
 ### Stories for impact
 
-- *Direct impact*: there are many possible goals in AI governance, and we need to prioritise the most important ones. This work is often motivated by researchers' impressions that there is very little clarity about topics which affect what goals we should pursue. For example, see the results of these surveys which show wide disagreement about AI x-risk scenarios and the total amount of AI x-risk, respectively.
+- *Direct impact*: there are many possible goals in AI governance, and we need to prioritise the most important ones. This work is often motivated by researchers' impressions that there is very little clarity about topics which affect what goals we should pursue. For example, see the results of [these](https://forum.effectivealtruism.org/posts/2tumunFmjBuXdfF2F/survey-on-ai-existential-risk-scenarios-1) [surveys](https://www.alignmentforum.org/posts/QvwSr5LsxyDeaPK5s/existential-risk-from-ai-survey-results) which show wide disagreement about AI x-risk scenarios and the total amount of AI x-risk, respectively.
 - *Indirect impact:*
   - Field-building: having a clear understanding of what we're working to achieve and why it matters would help attract more people to the field.
   - Communicating the need for policy change: if you want to convince people to do costly or dramatic things in the future, you'd better have clear things to say about what we're working to achieve and why it matters.
 
 ### Who's doing it?
 
-Some people at the following orgs: FHI, GovAI, CSER, DeepMind, OpenAI, GCRI, CLR, Rethink Priorities, OpenPhil, CSET, plus some independent academics.
+Some people at the following orgs: [FHI](https://www.fhi.ox.ac.uk/), [GovAI](https://governance.ai/), [CSER](https://www.cser.ac.uk/), [DeepMind](https://deepmind.com/), [OpenAI](https://openai.com/), [GCRI](https://gcrinstitute.org/), [CLR](https://longtermrisk.org/), [Rethink Priorities](https://rethinkpriorities.org/), [OpenPhil](https://www.openphilanthropy.org/), [CSET](https://cset.georgetown.edu/),[^note-cset-work] plus some independent academics.
 
 ## Tactics research
 
@@ -98,13 +112,13 @@ It's worth noting that there can be reasons to do tactics research even if you h
 
 ### Examples
 
-- The Windfall Clause
+- [The Windfall Clause](https://www.fhi.ox.ac.uk/wp-content/uploads/Windfall-Clause-Report.pdf)
   - Plan: develop a tool for distributing the benefits of AI for the common good
   - High-level goals which this plan is pursuing: reducing incentives for actors to race against each other to be the first to develop advanced AI; reducing economic inequality.
-- Mechanisms for Supporting Verifiable Claims
+- [Mechanisms for Supporting Verifiable Claims](https://arxiv.org/abs/2004.07213)
   - Plan: develop practices by which AI developers could make their own claims about AI development more verifiable (that is, claims to which developers can be held accountable)
   - High-level goals which this plan is pursuing: developing mechanisms for demonstrating responsible behaviour of AI systems; enabling more effective oversight; reducing pressure to cut corners for the sake of gaining a competitive edge.
-- AI & Antitrust
+- [AI & Antitrust](https://yjolt.org/ai-antitrust-reconciling-tensions-between-competition-law-and-cooperative-ai-development)
   - Plan: proposing ways to mitigate tensions between competition law and the need for cooperative AI development
   - High-level goal which this plan is pursuing: increasing cooperation between companies developing advanced AI.
 
@@ -117,7 +131,7 @@ It's worth noting that there can be reasons to do tactics research even if you h
 
 ### Who's doing it?
 
-Some people at the following orgs: FHI, GovAI, CSER, DeepMind, OpenAI, GCRI, CSET, Rethink Priorities, LPP, plus some independent academics.
+Some people at the following orgs: [FHI](https://www.fhi.ox.ac.uk/), [GovAI](https://governance.ai/), [CSER](https://www.cser.ac.uk/), [DeepMind](https://deepmind.com/), [OpenAI](https://openai.com/), [GCRI](https://gcrinstitute.org/), [CSET](https://cset.georgetown.edu/), [Rethink Priorities](https://rethinkpriorities.org/), [LPP](https://www.legalpriorities.org/), plus some independent academics.
 
 # Policy development, advocacy and implementation
 
@@ -138,55 +152,55 @@ As mentioned earlier, policy insight sometimes flows 'backwards'. For example, p
 ### Examples
 
 - Government policy:
-  - Committing to not incorporate AI technology into nuclear command, control and communications (NC3), e.g. as advocated for by CLTR in their Future Proof report.
-  - Government monitoring of AI development, e.g. as developed in this whitepaper on AI monitoring.
-  - Making nascent regulation or AI strategies/principles sensitive to risks from advanced AI systems (as well as current ones), e.g. feedback by various EA orgs about the EU AI Act.
+  - Committing to not incorporate AI technology into nuclear command, control and communications (NC3), e.g. as advocated for by CLTR in their [Future Proof](https://11f95c32-710c-438b-903d-da4e18de8aaa.filesusr.com/ugd/e40baa_8692f88bd29f483aa5f77656c8bd4888.pdf) report.
+  - Government monitoring of AI development, e.g. as developed in this [whitepaper on AI monitoring](https://arxiv.org/abs/2108.12427).
+  - Making nascent regulation or AI strategies/principles sensitive to risks from advanced AI systems (as well as current ones), e.g. [feedback](https://forum.effectivealtruism.org/posts/bd7yr3eozzzhMuKCi/what-is-the-eu-ai-act-and-why-should-you-care-about-it#Commonly_suggested_improvements) by various EA orgs about the EU AI Act.
 - Corporate policy:
-  - Developing norms for the responsible dissemination of AI research, given its potential for misuse, e.g. these recommendations by PAI.
+  - Developing norms for the responsible dissemination of AI research, given its potential for misuse, e.g. [these recommendations](https://partnershiponai.org/paper/responsible-publication-recommendations/) by PAI.
 
 These ideas vary on a spectrum between more targeted (e.g. not integrating AI into NC3) to more general (in the sense of creating general-purpose capacity to deal with a broad class of problems that will likely arise, e.g. most of the others above). I think our policy development, advocacy and implementation today should mostly focus on more general ideas, given our uncertainties about how AI will play out (whilst also pushing for obviously good specific ideas, when they arise).
 
 ### Stories for impact
 
 - *Direct impact:* having good policies in place increases our chances of successfully navigating the transition to a world with advanced AI.
-- *Indirect impact:* even if you can't be sure that some policy idea is robustly good, developing/advocating/implementing it will help build insight, expertise, connections and credibility of longtermist AI governance people. We don't want to get to an AI "crunch time", and only then start learning about how to develop policy and decision-making.
+- *Indirect impact:* even if you can't be sure that some policy idea is robustly good, developing/advocating/implementing it will help build insight, expertise, connections and credibility of longtermist AI governance people. We don't want to get to an AI "crunch time",[^cite-crunch-time] and only then start learning about how to develop policy and decision-making.
   - That said, we should be very careful with implementing policies that could end up being harmful, e.g. by constraining future policy development.
 
 ### Who's doing it?
 
 - Development:
-  - Of government policy: CLTR, FLI, GovAI, CSET, CSER, FHI, TFS
-  - Of corporate policy: OpenAI, DeepMind, GovAI, CSER, FHI, PAI
+  - Of government policy: [CLTR](https://www.longtermresilience.org/), [FLI](https://futureoflife.org/), [GovAI](https://governance.ai/), [CSET](https://cset.georgetown.edu/), [CSER](https://www.cser.ac.uk/), [FHI](https://www.fhi.ox.ac.uk/), [TFS](https://thefuturesociety.org/)
+  - Of corporate policy: [OpenAI](https://openai.com/), [DeepMind](https://deepmind.com/), [GovAI](https://governance.ai/), [CSER](https://www.cser.ac.uk/), [FHI](https://www.fhi.ox.ac.uk/), [PAI](https://partnershiponai.org/)
 - Advocacy:
-  - For government policy: CLTR, CSET, FLI, TFS
-  - For corporate policy: PAI
+  - For government policy: [CLTR](https://www.longtermresilience.org/), [CSET](https://cset.georgetown.edu/), [FLI](https://futureoflife.org/), [TFS](https://thefuturesociety.org/)
+  - For corporate policy: [PAI](https://partnershiponai.org/)
 - Implementation:
   - Of government policy: people in various civil services
-  - Of corporate policy: OpenAI, DeepMind
+  - Of corporate policy: [OpenAI](https://openai.com/), [DeepMind](https://deepmind.com/)
 
 # Field-building
 
-This is work that explicitly aims to grow the field or community of people who are doing valuable work in longtermist AI governance. One could think of this work as involving both (1) bringing in new people, and (2) making the field more effective.
+This is work that explicitly aims to grow the field or community of people who are doing valuable work in longtermist AI governance.[^note-field-building] One could think of this work as involving both (1) bringing in new people, and (2) making the field more effective.
 
 ### Examples
 
 1. Bringing in new people by creating:
-   - policy fellowships, such as the OpenPhil Technology Policy Fellowship;
-   - online programs or courses to help junior people get synced up on what is happening in AI governance;
+   - policy fellowships, such as the [OpenPhil Technology Policy Fellowship](https://www.openphilanthropy.org/focus/global-catastrophic-risks/technology-policy-fellowship);
+   - [online programs](https://forum.effectivealtruism.org/posts/68ANc8KhEn6sbQ3P9/ai-governance-fundamentals-curriculum-and-application) or courses to help junior people get synced up on what is happening in AI governance;
    - high quality, broadly appealing intro material that reaches many undergraduates;
    - more scalable research fellowships to connect, support and credential interested junior people.
 2. Making the field more effective by creating:
    - research agendas;
-   - ways for senior researchers to easily hire research assistants.
+   - ways for senior researchers to easily hire research assistants.[^note-research-assistants]
 
 ### Stories for impact
 
 - *Growth model*: building a longtermist AI governance field with lots of aligned people with the capacity and relevant expertise to do important research and policy work (perhaps especially when this work is less bottlenecked by lack of strategic clarity).
-- *Metropolis model:* building a longtermist AI governance field with dense connections to broader communities (e.g. policymaking, social science, machine learning), such that the field can draw on diverse expertise from these communities.
+- *Metropolis model:*[^cite-metropolis-model] building a longtermist AI governance field with dense connections to broader communities (e.g. policymaking, social science, machine learning), such that the field can draw on diverse expertise from these communities.
 
 ### Who's doing it?
 
-GovAI, OpenPhil, SERI, CERI, CHERI and EA Cambridge. From a broader view, all cause-general EA movement building as well. This is the least explored kind of work discussed in this post.
+[GovAI](https://governance.ai/), [OpenPhil](https://www.openphilanthropy.org/), [SERI](https://cisac.fsi.stanford.edu/stanford-existential-risks-initiative/content/stanford-existential-risks-initiative), [CERI](https://camxrisk.org/), [CHERI](https://eageneva.org/cheri) and [EA Cambridge](https://www.eacambridge.org/). From a broader view, all cause-general EA movement building as well. This is the least explored kind of work discussed in this post.
 
 # Other views of the longtermist AI governance landscape
 
@@ -209,6 +223,22 @@ Or, you could carve things up by geographic hub (though not all organisations ar
 
 Or, you could carve up the landscape based on different "theories of victory", i.e. complete stories about how humanity successfully navigates the transition to a world with advanced AI. There's a lot more that could be said about all of this; the aim of this post has just been to give a concise overview of the kinds of work that are currently happening.
 
-*Acknowledgements: this is my own synthesis of the landscape, but is inspired and/or draws directly from EA forum posts by Allan Dafoe, Luke Muehlhauser and Convergence Analysis. Thanks also to Jess Whittlestone for helpful conversation, plus Matthijs Maas, Yun Gu, Konstantin Pilz, Caroline Baumöhl and especially a reviewer from SERI for feedback on a draft.*
+:::hide
+*Acknowledgements: this is my own synthesis of the landscape, but is inspired and/or draws directly from EA forum posts by [Allan Dafoe](https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact), [Luke Muehlhauser](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance) and [Convergence Analysis](https://forum.effectivealtruism.org/posts/oovy5XXdCL3TPwgLE/a-case-for-strategy-research-what-it-is-and-why-we-need-more#The_research_spine_of_effective_altruism__three_levels). Thanks also to Jess Whittlestone for helpful conversation, plus Matthijs Maas, Yun Gu, Konstantin Pilz, Caroline Baumöhl and especially a reviewer from SERI for feedback on a draft.*
+:::
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License.](https://creativecommons.org/licenses/by/4.0/)*
+[^note-groups]: I’ve surely forgotten some important groups from this list, and I may have misclassified or otherwise misrepresented some of them - please let me know if that’s the case!
+
+[^cite-open-philanthropy-definition]: This borrows directly from [Open Philanthropy’s definition](https://www.openphilanthropy.org/blog/ai-governance-grantmaking#Our_priorities_within_AI_governance).
+
+[^note-tactics-questions]: Note that some of these are *tactics research* questions rather than strategy research questions.
+
+[^note-cset-work]: CSET mostly does tactics research, policy development and policy advocacy, but its work on mapping the semiconductor supply chain falls under strategy research.
+
+[^cite-crunch-time]: Muehlhauser [defines this as](https://forum.effectivealtruism.org/posts/M2SBwctwC6vBqAmZW/a-personal-take-on-longtermist-ai-governance) “a period lasting 1-20 years when the decisions most impactful on TAI outcomes might be made”.
+
+[^note-field-building]: This is distinct from the field-building benefits of other kinds of work discussed in this document, since it is *solely and explicitly* focused on building the field.
+
+[^note-research-assistants]: Which can also help bring in new people.
+
+[^cite-metropolis-model]: This idea directly borrows from [Allan Dafoe’s forum post](https://forum.effectivealtruism.org/posts/42reWndoTEhFqu6T8/ai-governance-opportunity-and-theory-of-impact).

@@ -1,7 +1,11 @@
 ---
 title: "Sources of advantage for digital agents over biological agents"
 author:
+  - "Nick Bostrom"
   - "AI Impacts"
+author_url:
+  - "https://en.wikipedia.org/wiki/Nick_Bostrom"
+  - "https://aiimpacts.org/"
 source_url: https://aiimpacts.org/sources-of-advantage-for-artificial-intelligence/
 published: 2016-09-04
 created: 2026-02-06
@@ -20,10 +24,12 @@ Add discussion note here:
 ...
 
 %%
+:::hide
 Artificial agents should have several advantages over humans.
 ## Details ^details
 
 The following is an excerpt from [Superintelligence](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (Bostrom, 2014), reproduced with permission. It outlines ten advantages Bostrom expects digital intelligences to have over human intelligences.
+:::
 
 > **Sources of advantage for digital intelligence**
 >  

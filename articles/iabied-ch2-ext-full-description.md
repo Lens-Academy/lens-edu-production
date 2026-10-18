@@ -175,7 +175,7 @@ A similar sort of caution applies to a large language model. The word "large" is
 
 [^note-iabied-ftnt68]: Some people refer to open-weight models as "open-source" models. This description does not seem quite right to us. Meta released the final weights, but did not release the exact computer program that *trained* Llama 3.1, or the huge collection of data Llama was trained on. So even if you were willing to spend millions of dollars to do it, you could not actually run the program that Meta ran to *grow* Llama 3.1. Meta didn't release the AI-growing code, only the grown and tuned AI.
 
-Furthermore, even if Meta did release the data and the training program, we don't think that the resulting program would merit the label "open-source," which was traditionally reserved for computer programs that published ("opened") their human-readable "source code." Releasing the incomprehensible 1s and 0s (the "binary code," if you will) does not traditionally meet the requirements for a program to be considered "open source." But AIs are *just* inscrutable numbers; there is no human-comprehensible source to be released. So there's a sense in which modern AIs *can't* be open-sourced; no human-comprehensible source code exists. Any attempt to publish an AI is necessarily a radically different practice than open-sourcing traditional software.
+    Furthermore, even if Meta did release the data and the training program, we don't think that the resulting program would merit the label "open-source," which was traditionally reserved for computer programs that published ("opened") their human-readable "source code." Releasing the incomprehensible 1s and 0s (the "binary code," if you will) does not traditionally meet the requirements for a program to be considered "open source." But AIs are *just* inscrutable numbers; there is no human-comprehensible source to be released. So there's a sense in which modern AIs *can't* be open-sourced; no human-comprehensible source code exists. Any attempt to publish an AI is necessarily a radically different practice than open-sourcing traditional software.
 
 [^note-iabied-ftnt69]: As we finish writing this in the summer of 2025, there are smarter open-weight systems with fewer parameters than Llama 3.1 405B, and even smarter open-weight systems with even more parameters. But when we began drafting the book, 405B was among the largest and smartest models with weights that had been irrevocably released into the wild and with an architecture and size that was exactly known. So that's what our book chapter promised to explain in the online supplement. Also, 405B is *simpler* than 2025-era open systems. We would not actually want to substitute a more recent LLM with only 77B parameters. The more modern "mixture of experts" system would be somewhat harder to explain.
 
@@ -183,33 +183,33 @@ Furthermore, even if Meta did release the data and the training program, we don'
 
 [^note-iabied-ftnt71]: Using smaller vectors, here's how it might look to match one query against two key-and-value pairs. The keys and queries have to be the same size for it to work.
 
-query: [-1, +1, -2]
+    query: [-1, +1, -2]
 
-key and value #a: [+1, +2, -1] and [0, 3, 1, 2]
+    key and value #a: [+1, +2, -1] and [0, 3, 1, 2]
 
-key and value #b: [-2, +1, +1] and [2, -2, 0, 1]
+    key and value #b: [-2, +1, +1] and [2, -2, 0, 1]
 
-We compare the query against a key by multiplying together the first elements of the vectors, the second elements, etc., and summing them up:
+    We compare the query against a key by multiplying together the first elements of the vectors, the second elements, etc., and summing them up:
 
-query X key #a = (-1 \* +1) + (+1 \* +2) + (-2 \* -1) = -1 + 2 + 2 = 3
+    query X key #a = (-1 \* +1) + (+1 \* +2) + (-2 \* -1) = -1 + 2 + 2 = 3
 
-query X key #b = (-1 \* -2) + (+1 \* +1) + (-2 \* + 1) = 2 + 1 + -2 = 1
+    query X key #b = (-1 \* -2) + (+1 \* +1) + (-2 \* + 1) = 2 + 1 + -2 = 1
 
-We're now going to mix the values together and produce an average value weighted by the degree to which queries match keys. This weighted-average value is the answer to the query that gets passed on for further processing.
+    We're now going to mix the values together and produce an average value weighted by the degree to which queries match keys. This weighted-average value is the answer to the query that gets passed on for further processing.
 
-The strength of the raw match gets scaled exponentially to become this weight. For simplicity, let's use the powers of two. #a gets weight $2^3=8$. #b gets weight $2^1=2$. If we add them together, that's a total weight of $10$.
+    The strength of the raw match gets scaled exponentially to become this weight. For simplicity, let's use the powers of two. #a gets weight $2^3=8$. #b gets weight $2^1=2$. If we add them together, that's a total weight of $10$.
 
-So now the answer to the query is 8/10 of value #a1 plus 2/10 of value #b:
+    So now the answer to the query is 8/10 of value #a1 plus 2/10 of value #b:
 
-(0.8 × [0, 3, 1, 2]) + (0.2 × [2, -2, 0, 1])
+    (0.8 × [0, 3, 1, 2]) + (0.2 × [2, -2, 0, 1])
 
-= [0.0, 2.4, 0.8, 1.6] + [0.4, −0.4, 0.0, 0.2]
+    = [0.0, 2.4, 0.8, 1.6] + [0.4, −0.4, 0.0, 0.2]
 
-= [0.4, 2.0, 0.8, 1.8]
+    = [0.4, 2.0, 0.8, 1.8]
 
-(As a further detail on how this all works in 2024-era attention, the real, larger queries and keys will contain some preprogrammed position information — cues as to where in the list of 1,000 tokens any particular token falls, which are built into its corresponding queries and keys. Again, if you want to understand these details, the keyword is "positional encodings."
+    (As a further detail on how this all works in 2024-era attention, the real, larger queries and keys will contain some preprogrammed position information — cues as to where in the list of 1,000 tokens any particular token falls, which are built into its corresponding queries and keys. Again, if you want to understand these details, the keyword is "positional encodings."
 
-This allows a query to say, "Hey, I'd like to look at the word that's right next to me," or, "Hey, I'd like to look for words about birds within just the last ten words," in the language of numbers that get multiplied by other numbers and summed. Llama 3.1 405B in particular uses Rotary Positional Embeddings, which are slightly complicated and clever. So, sorry; if you want to know how RoPEs work, you're going to have to look it up.)
+    This allows a query to say, "Hey, I'd like to look at the word that's right next to me," or, "Hey, I'd like to look for words about birds within just the last ten words," in the language of numbers that get multiplied by other numbers and summed. Llama 3.1 405B in particular uses Rotary Positional Embeddings, which are slightly complicated and clever. So, sorry; if you want to know how RoPEs work, you're going to have to look it up.)
 
 [^note-iabied-ftnt72]: As another aside about the attention layer, Llama uses "causal masking," meaning that each token's queries can only look at the keys from *before* it. Basically, that's because each token is trying to ultimately predict what token comes next; looking ahead would be cheating!
 

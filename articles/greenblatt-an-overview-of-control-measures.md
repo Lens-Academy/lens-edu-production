@@ -3,13 +3,20 @@ title: "An overview of control measures"
 author:
   - "Ryan Greenblatt"
 source_url: "https://blog.redwoodresearch.org/p/an-overview-of-control-measures"
-published: 2025-04-14
+published: 2025-04-06
 created: 2026-07-02
 accessed: 2026-07-02
 description: "What methods can we use to ensure control?"
 tags:
   - "article-importer"
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 
 We often talk about ensuring control, which in the context of this doc refers to preventing AIs from being able to cause existential problems, even if the AIs attempt to subvert our countermeasures. To better contextualize control, I think it's useful to discuss the main countermeasures (building on [my prior discussion](https://www.lesswrong.com/posts/fCazYoZSSMadiT6sf/prioritizing-threats-for-ai-control) of the main threats). I'll focus my discussion on countermeasures for reducing existential risk from misalignment, though some of these countermeasures will help with other problems such as human power grabs.
 

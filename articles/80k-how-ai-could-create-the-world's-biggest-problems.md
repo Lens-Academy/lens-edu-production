@@ -1,8 +1,8 @@
 ---
 title: "How AI could create the world’s biggest problems"
+source_url: https://80000hours.org/problem-profiles/artificial-intelligence/
 author:
   - "Zershaaneh Qureshi"
-source_url: "https://80000hours.org/problem-profiles/artificial-intelligence/"
 published: 2026-06-23
 created: 2026-06-29
 accessed: 2026-06-29
@@ -10,6 +10,13 @@ description: "Could working on AI risks be the highest-impact career choice toda
 tags:
   - "article-importer"
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 
 Imagine you’re living 15,000 years ago. Your people are hunter-gatherers and you sleep under the stars. If someone told you humans would one day build cities with millions of people, fly through the air, or carry all human knowledge in their pockets, you couldn’t even begin to picture what they meant.
 
@@ -48,7 +55,7 @@ In short, we think it’s plausible advanced AI could radically transform the wo
 
 We go through the specific challenges we think are most pressing in our [problem profiles](https://80000hours.org/problem-profiles/). This article explains why advanced AI gives rise to such important issues _in general_.
 
-There are a lot of arguments you could make here — like the argument that advanced AI will constitute a [“second species”](https://web.archive.org/web/20260115164944/https://wiki.aiimpacts.org/arguments_for_ai_risk/list_of_arguments_that_ai_poses_an_xrisk/second_species_argument_for_ai_xrisk) or that AI will make the 21st century [“the most important century”](https://web.archive.org/web/20260114050815/https://www.cold-takes.com/most-important-century/) for humanity.[^1]
+There are a lot of arguments you could make here — like the argument that advanced AI will constitute a [“second species”](https://web.archive.org/web/20260115164944/https://wiki.aiimpacts.org/arguments_for_ai_risk/list_of_arguments_that_ai_poses_an_xrisk/second_species_argument_for_ai_xrisk) or that AI will make the 21st century [“the most important century”](https://web.archive.org/web/20260114050815/https://www.cold-takes.com/most-important-century/) for humanity.[^note-80k-1]
 
 But here’s the argument that makes the risks feel especially compelling to us:
 
@@ -78,7 +85,7 @@ That’s because, unlike other technologies, AI has the potential to compete wit
 
 Some technologies, like ATMs, mimic extremely limited forms of human labour. Others, like steam engines and computers, also amplify what humans can do. But **the idea behind artificial intelligence is that it’ll be able to do _almost any_ work humans can do — and do so mostly autonomously**.
 
-ATMs didn’t make all the bank tellers unemployed[^2] because there were other tasks the humans could easily shift into. But imagine an ATM that could not only hand out cash, but also manage the bank’s IT systems, contribute to company strategy, and give customers tailored financial advice. Imagine it could do this mostly without our help, and more cheaply than human workers would. If that were the case, it’s not clear why the bank would keep humans employed _at all_.[^3]
+ATMs didn’t make all the bank tellers unemployed[^note-80k-2] because there were other tasks the humans could easily shift into. But imagine an ATM that could not only hand out cash, but also manage the bank’s IT systems, contribute to company strategy, and give customers tailored financial advice. Imagine it could do this mostly without our help, and more cheaply than human workers would. If that were the case, it’s not clear why the bank would keep humans employed _at all_.[^note-80k-3]
 
 Now suppose the same system that did all this for the bank could also do equivalent work for tech companies, scientific research labs, consultancy firms, think tanks, _The New York Times_, the US government, and so on.
 
@@ -94,7 +101,7 @@ For example, consider the rapid progress language models have made on the [GPQA]
 
 They’ve also [shown impressive improvement](https://epoch.ai/benchmarks/swe-bench-verified) on **software engineering tasks**. For example, Anthropic’s agentic coding tool Claude Code [enables users to build applications by describing what they want](https://www.axios.com/2026/01/07/anthropics-claude-code-vibe-coding) — even if they have no coding experience.
 
-A senior engineer at Google reported that Claude Code [took one hour to generate a prototype of a system her team had spent a year exploring approaches to building](https://the-decoder.com/google-engineer-says-claude-code-built-in-one-hour-what-her-team-spent-a-year-on/). And Anthropic built its ‘Cowork’ product (a more user-friendly version of Claude Code for non-developers) in under two weeks by [getting Claude Code to write most of the code](https://www.youtube.com/watch?v=FMfoR1h8axc).[^4]
+A senior engineer at Google reported that Claude Code [took one hour to generate a prototype of a system her team had spent a year exploring approaches to building](https://the-decoder.com/google-engineer-says-claude-code-built-in-one-hour-what-her-team-spent-a-year-on/). And Anthropic built its ‘Cowork’ product (a more user-friendly version of Claude Code for non-developers) in under two weeks by [getting Claude Code to write most of the code](https://www.youtube.com/watch?v=FMfoR1h8axc).[^cite-80k-4]
 
 Current AI systems can also:
 
@@ -103,7 +110,7 @@ Current AI systems can also:
 -   **Improve robotics**: Many leading robotics models are now AI-driven. For example, Boston Dynamics is [enhancing its Atlas robots with Google DeepMind AI](https://www.wired.com/story/google-boston-dynamics-gemini-powered-robot-atlas/) to help them better understand and manipulate their environments. These robots will [be deployed for industrial work at Hyundai factories](https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/).
 -   **Carry out extended tasks independently on your computer**: Unlike earlier models that could only generate text, new ‘agentic’ AIs like [Claude Code](https://claude.com/product/claude-code) and [OpenAI’s Codex](https://openai.com/index/introducing-gpt-5-2-codex) can now use many tools on your computer, execute code, search the web, and chain together multiple steps — allowing them to complete extended, real-world tasks with far less human involvement.
 -   **Help with AI development itself**: There’s also evidence that [AI systems can outperform humans in AI R&D tasks](https://metr.org/AI_R_D_Evaluation_Report.pdf), at least when limited to a two-hour time window.
--   Do much more.[^5]
+-   Do much more.[^note-80k-5]
 
 There are still plenty of things AI systems can’t reliably do — especially most work that takes days or longer to complete — but the list of things these systems can’t do is diminishing, and [the pace of AI progress has been impressive](https://80000hours.org/ai/guide/when-will-agi-arrive/#i-whats-driven-recent-ai-progress-and-will-it-continue).
 
@@ -113,17 +120,17 @@ But we expect that AIs will become much more widely capable than they are today,
 
 In fact, [many people in the field](https://aiimpacts.org/wp-content/uploads/2023/04/Thousands_of_AI_authors_on_the_future_of_AI.pdf) think that AI will get good enough to do essentially _anything_ that humans can do — and more.
 
-One milestone here would be developing **artificial general intelligence (AGI)**. People use this term in many different ways, but we’ll use it to describe AI systems that can compete with humans on almost all cognitive tasks, or at least the most _economically valuable_ ones — think advanced scientific research, designing new technologies and products, running businesses, consulting, and so on.[^6] This is the kind of system leading AI companies are [actively trying to build](https://openai.com/our-structure/), and they’re funnelling billions of dollars into being the first to get there.
+One milestone here would be developing **artificial general intelligence (AGI)**. People use this term in many different ways, but we’ll use it to describe AI systems that can compete with humans on almost all cognitive tasks, or at least the most _economically valuable_ ones — think advanced scientific research, designing new technologies and products, running businesses, consulting, and so on.[^note-80k-6] This is the kind of system leading AI companies are [actively trying to build](https://openai.com/our-structure/), and they’re funnelling billions of dollars into being the first to get there.
 
 Looking at recent trends in AI development, we think it’s surprisingly plausible (though far from guaranteed) that we’ll get this sort of AGI [within the next decade](https://80000hours.org/ai/guide/when-will-agi-arrive/).
 
-But it probably won’t stop there. There’s no reason to think that humans represent the ceiling of mental ability — so eventually, AI could _greatly exceed_ human performance on many (if not all) cognitive tasks. Plausibly, they could even do work that’s as far beyond human abilities as calculus is beyond chimpanzee abilities.[^7]
+But it probably won’t stop there. There’s no reason to think that humans represent the ceiling of mental ability — so eventually, AI could _greatly exceed_ human performance on many (if not all) cognitive tasks. Plausibly, they could even do work that’s as far beyond human abilities as calculus is beyond chimpanzee abilities.[^note-80k-7]
 
 It also might not take long before society makes giant advances in robotics. Although today’s robots are very rudimentary, [they’re improving](https://www.physicalintelligence.company/blog/pi0). And as our AIs get cognitively smarter, they’ll also get better at both controlling robotic limbs and designing them. This means AI systems might quickly become able to outperform humans on many _physical_ tasks as well.
 
 Over the next few sections, we’ll explain how the advanced AIs of the future could transform society and present serious risks.
 
-Our argument focuses on the prospect that humanity develops AGI or something similar. This isn’t the only important milestone (see below). But we think that if AI can match human abilities at the cognitive tasks that most drive innovation and economic production, that’s likely enough to enable the rapid progress we describe in the following sections.[^8] And if AI becomes even more impressive than this — which we think is probable — the effects could be even more dramatic.
+Our argument focuses on the prospect that humanity develops AGI or something similar. This isn’t the only important milestone (see below). But we think that if AI can match human abilities at the cognitive tasks that most drive innovation and economic production, that’s likely enough to enable the rapid progress we describe in the following sections.[^note-80k-8] And if AI becomes even more impressive than this — which we think is probable — the effects could be even more dramatic.
 
 #### Could less advanced AI systems still pose existential risks?
 
@@ -134,7 +141,7 @@ In this article, we’re focusing on AI systems that are very skilled at a wide 
 But we don’t think this is the _only_ milestone in AI capabilities progress worth worrying about. For example:
 
 -   Even narrowly capable AI tools could be used to cause serious harm. An AI that excels at biotechnology research could make it easier for people to develop dangerous pathogens — regardless of whether it can also trade stocks or carry out business strategies. An AI that is only useful for launching powerful cyberattacks could still shift the global balance of power. And so on.
--   We might face rapid, destabilising changes to society _in the lead up_ to developing AGI, not just _after it arrives_. As AI gradually automates more and more tasks, we could see increasing levels of disruption across the economy — including increased risks of AI systems acting against human interests, being used dangerously, or concentrating power in the hands of the few. As we’ll discuss [later on](#3-This-transformation-could-be-extremely-rapid-and-dramatic), AI systems starting to automate AI R&D itself could be especially disruptive, introducing dramatic feedback loops in AI progress.
+-   We might face rapid, destabilising changes to society _in the lead up_ to developing AGI, not just _after it arrives_. As AI gradually automates more and more tasks, we could see increasing levels of disruption across the economy — including increased risks of AI systems acting against human interests, being used dangerously, or concentrating power in the hands of the few. As we’ll discuss [[#^transformation-rapid-dramatic|later on]], AI systems starting to automate AI R&D itself could be especially disruptive, introducing dramatic feedback loops in AI progress.
 
 This could be enough reason to prioritise working on AI risks now, even if you don’t think we’ll get AGI any time soon.
 
@@ -142,7 +149,7 @@ This could be enough reason to prioritise working on AI risks now, even if you d
 
 So what would it mean if AI systems could outperform humans on such a wide range of tasks?
 
-The first thing people often think of here is widespread unemployment. This is a serious possibility, and would have severe consequences for society.[^9] But we think focusing on it is actually missing an even bigger story.
+The first thing people often think of here is widespread unemployment. This is a serious possibility, and would have severe consequences for society.[^note-80k-9] But we think focusing on it is actually missing an even bigger story.
 
 A world with machines that can replace this much human labour would look so dramatically different that it can be hard to imagine.
 
@@ -150,15 +157,15 @@ For some sense of comparison, think of how different the world is today to how i
 
 With each of these major breakthroughs in technology, the world has been transformed.
 
-Take the first Agricultural Revolution. Before agriculture, humans were mostly hunter-gatherers and often lived in small bands.[^10] The development of farming technologies like ploughs allowed us to produce far more food per person, leading to the first cities. And, to an increasing extent, some people could specialise in tasks other than finding food — which allowed humans to invent metalwork, writing, and early governance systems.
+Take the first Agricultural Revolution. Before agriculture, humans were mostly hunter-gatherers and often lived in small bands.[^note-80k-10] The development of farming technologies like ploughs allowed us to produce far more food per person, leading to the first cities. And, to an increasing extent, some people could specialise in tasks other than finding food — which allowed humans to invent metalwork, writing, and early governance systems.
 
 The Industrial Revolution followed a similar pattern. The arrival of technologies like the steam engine [dramatically increased productivity](https://www.britannica.com/money/productivity/Historical-trends) — and sparked innovations in manufacturing and communication. Once again, this led to radical changes in how humans live: goods that were once luxury items became available to ordinary people, railways connected distant cities, and huge swathes of people shifted from rural to urban life.
 
 What’s going on here?
 
-Each period of transformation in history has its own complex story, and there are competing theories about what drove them. But one popular explanation says we keep seeing the same rough pattern: powerful new technology both enables us to sustain larger populations and lets people do more with the same bodies and minds. This means more human labour and greater productivity — which has compounding effects, as it leads to a wave of even _further_ innovation.[^11]
+Each period of transformation in history has its own complex story, and there are competing theories about what drove them. But one popular explanation says we keep seeing the same rough pattern: powerful new technology both enables us to sustain larger populations and lets people do more with the same bodies and minds. This means more human labour and greater productivity — which has compounding effects, as it leads to a wave of even _further_ innovation.[^note-80k-11]
 
-Since innovation often feeds economic growth, humanity has also become much wealthier in this process. In fact, since the late stages of the Industrial Revolution, we’ve seen roughly exponential growth in GDP[^12] — though this is only an imperfect indicator of how much change has happened _qualitatively_.
+Since innovation often feeds economic growth, humanity has also become much wealthier in this process. In fact, since the late stages of the Industrial Revolution, we’ve seen roughly exponential growth in GDP[^cite-80k-12] — though this is only an imperfect indicator of how much change has happened _qualitatively_.
 
 ![chart from Our World in Data showing GDP by world region from 1820–2022, with exponential global GDP growth starting around 1950 and skyrocketing in the 2000s.](https://80000hours.org/wp-content/uploads/2026/02/gdp-world-regions-stacked-area-2-1-1024x723.png)
 
@@ -176,15 +183,15 @@ Like other technological breakthroughs, it could enable society to produce far m
 
 This could mean the transformation brought about by AI is _extremely_ rapid, and more dramatic than anything we’ve seen before.
 
-### 3\. This transformation could be extremely rapid and dramatic
+### 3\. This transformation could be extremely rapid and dramatic ^transformation-rapid-dramatic
 
 So what could happen as AIs automate more and more of the economy?
 
 At the very least, we expect to see the total amount of labour quickly increase — since, unlike humans, AI systems **can be easily copied at scale**, given enough hardware.
 
-Let’s say we build an AI that could replace a human engineer. Estimates suggest huge uncertainty here, but running anywhere between thousands and [hundreds of millions](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453) of copies of this AI at once may be feasible, depending on the circumstances.[^13]
+Let’s say we build an AI that could replace a human engineer. Estimates suggest huge uncertainty here, but running anywhere between thousands and [hundreds of millions](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453) of copies of this AI at once may be feasible, depending on the circumstances.[^note-80k-13]
 
-And this number could grow fast. With efficiency improvements to the algorithms behind these AI workers, we’ll be able to run a greater number of copies with the same amount of compute.[^14] We might also be able to allocate more compute to running copies, by buying more chips or designing more efficient ones. Soon, we could have an AI workforce the size of a significant fraction of the world’s working-age population.[^15]
+And this number could grow fast. With efficiency improvements to the algorithms behind these AI workers, we’ll be able to run a greater number of copies with the same amount of compute.[^note-80k-14] We might also be able to allocate more compute to running copies, by buying more chips or designing more efficient ones. Soon, we could have an AI workforce the size of a significant fraction of the world’s working-age population.[^note-80k-15]
 
 AI workers could also have other advantages over human workers:
 
@@ -206,7 +213,7 @@ Here’s how it could unfold:
 
 ![A cycle with 4 stages, titled "AI-driven intelligence explosion"; The stages are: faster progress in building better AI; more capable AI systems; better automation of AI R&D; AI automates R&D.](https://80000hours.org/wp-content/uploads/2026/02/AI-cycle-diagram-FINAL-1024x932.png)
 
-If this happens, it could create a positive feedback loop in which AI systems get better and better — possibly over a very short period of time.[^16]
+If this happens, it could create a positive feedback loop in which AI systems get better and better — possibly over a very short period of time.[^note-80k-16]
 
 And this wouldn’t just mean building AI systems that are better and better _at AI R&D_. It would mean speeding up improvements to AI capabilities more broadly, giving us increasingly capable and general AI workers to deploy _across the wider economy_ — which, in turn, could accelerate progress in most areas of society.
 
@@ -220,12 +227,12 @@ What would this even look like? For one thing, scientific discoveries could be m
 
 The world could get much richer, too, since many innovations can increase economic production. In fact, some researchers think an influx of new ideas from AI workers would lead to [“explosive” economic growth](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/) — and in turn, some of this new wealth could be used to accelerate idea production even _further_.
 
-We’re not sure we’ll actually see an explosion in economic growth, since there could be bottlenecks on turning innovation into increased GDP. But we think there’s at least a decent chance this _will_ happen. And more importantly, even without explosive _economic_ growth, there could still be a radical, qualitative transformation of society and our ways of life — which is what matters most to our story.[^17]
+We’re not sure we’ll actually see an explosion in economic growth, since there could be bottlenecks on turning innovation into increased GDP. But we think there’s at least a decent chance this _will_ happen. And more importantly, even without explosive _economic_ growth, there could still be a radical, qualitative transformation of society and our ways of life — which is what matters most to our story.[^note-80k-17]
 
 How quickly could society be transformed, exactly? There will ultimately be some constraints on the trajectory of human progress. For example:
 
 -   At some point, we’ll [hit bottlenecks on AI development](https://epochai.substack.com/i/162161015/a-software-singularity-is-unlikely) — e.g. the availability of compute, energy, or high quality data — that limit how much better AI workers can get over a short period of time.
--   In every field, making progress could get increasingly difficult as AI workers quickly exhaust the low-hanging fruit of discoveries and new ideas.[^18]
+-   In every field, making progress could get increasingly difficult as AI workers quickly exhaust the low-hanging fruit of discoveries and new ideas.[^note-80k-18]
     
 -   If some types of work are particularly resistant to being automated — like complex physical tasks, or certain legal or political processes — this could also slow down the flywheel.
     
@@ -260,26 +267,38 @@ If we handle things wisely, we could create a flourishing future with unpreceden
 
 In other words, we think these issues have _[existential](https://80000hours.org/articles/existential-risks/) stakes_, making them among the most pressing problems in the world.
 
-And although we’re hopeful that [these issues are tractable](#5-work-on-these-problems-is-tractable-but-neglected), we can’t just assume our institutions will navigate them well _by default_. After all, this is confusing, unprecedented territory. And we’ve seen society stumble into disaster when facing new challenges we haven’t sufficiently planned for — just think about the slow institutional responses to early COVID-19 warnings, or the numerous [close calls](https://en.wikipedia.org/wiki/Nuclear_close_calls) we’ve seen with [nuclear weapons](https://80000hours.org/problem-profiles/nuclear-security/).
+And although we’re hopeful that [[#^work-tractable-neglected|these issues are tractable]], we can’t just assume our institutions will navigate them well _by default_. After all, this is confusing, unprecedented territory. And we’ve seen society stumble into disaster when facing new challenges we haven’t sufficiently planned for — just think about the slow institutional responses to early COVID-19 warnings, or the numerous [close calls](https://en.wikipedia.org/wiki/Nuclear_close_calls) we’ve seen with [nuclear weapons](https://80000hours.org/problem-profiles/nuclear-security/).
 
 :::collapse
 #### Read more about specific AGI risks
 
 We’ve written a series of articles explaining the AI-related issues we think pose the greatest chance of existential catastrophe, why we need people working on them, and what you can do to help.
 
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2022/08/panels-photo-720x448.jpg)](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/04/leviathan_thomas_hobbes_cover-720x448.jpg)](https://80000hours.org/problem-profiles/extreme-power-concentration/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2024/09/image9-720x448.jpg)](https://80000hours.org/problem-profiles/moral-status-digital-minds/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97-720x448.jpg)](https://80000hours.org/problem-profiles/gradual-disempowerment/)
-    
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2025/06/1203081_07-720x448.jpg)](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)
+-   ![](https://80000hours.org/wp-content/uploads/2022/08/panels-photo.jpg)
 
--   [![Decorative post preview](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1-720x448.jpg)](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
+    [Risks from power-seeking AI](https://80000hours.org/problem-profiles/risks-from-power-seeking-ai/)
+    
+-   ![](https://80000hours.org/wp-content/uploads/2025/04/leviathan_thomas_hobbes_cover.jpg)
+
+    [Extreme power concentration](https://80000hours.org/problem-profiles/extreme-power-concentration/)
+    
+-   ![](https://80000hours.org/wp-content/uploads/2024/09/image9.jpg)
+
+    [The moral status of digital minds](https://80000hours.org/problem-profiles/moral-status-digital-minds/)
+    
+-   ![](https://80000hours.org/wp-content/uploads/2025/03/%D7%A2%D7%A5_%D7%A2%D7%9C_%D7%90%D7%99_%D7%9E%D7%9C%D7%97_%D7%91%D7%90%D7%9E%D7%A6%D7%A2_%D7%99%D7%9D_%D7%94%D7%9E%D7%9C%D7%97.jpg)
+
+    [Gradual disempowerment](https://80000hours.org/problem-profiles/gradual-disempowerment/)
+    
+-   ![](https://80000hours.org/wp-content/uploads/2025/06/1203081_07.jpg)
+
+    [Catastrophic misuse of AI](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/)
+
+-   ![](https://80000hours.org/wp-content/uploads/2020/04/cdc-hGCng7YZLLs-unsplash-1.jpg)
+
+    [Preventing catastrophic pandemics](https://80000hours.org/problem-profiles/preventing-catastrophic-pandemics/)
 :::
-#### The speed of this transition could matter a lot
+#### The speed of this transition could matter a lot ^transition-speed
 
 There are two ways speed can matter critically to this transition:
 
@@ -296,7 +315,7 @@ There is lively debate over how soon advanced AI systems might arrive and how qu
 
 This means we can’t just ignore the risks or delay acting on them. We need to find robust solutions before it’s too late.
 
-### 5\. Work on these problems is tractable but neglected
+### 5\. Work on these problems is tractable but neglected ^work-tractable-neglected
 
 We’ve been helping people who want to work on this problem for over a decade. In this time, the field has grown substantially.
 
@@ -304,7 +323,7 @@ A [2025 analysis](https://forum.effectivealtruism.org/posts/7YDyziQxkWxbGmF3u/ai
 
 We’d estimate that there are actually a few thousand people focusing their work on the most important risks raised by AGI. But to put that into perspective, [Nature Conservancy](https://www.nature.org/en-us/) alone has 3,000–4,000 employees, and it’s just one of many organisations working on environmental protection and climate change. Other global issues like public health also receive a lot of attention — for example, the World Health Organisation [employs over 8,000 people](https://www.who.int/about/who-we-are).
 
-This means AI risks are severely neglected in comparison to many other world problems — so each additional person working to address them can make a bigger difference.[^19]
+This means AI risks are severely neglected in comparison to many other world problems — so each additional person working to address them can make a bigger difference.[^note-80k-ai-problems-19]
 
 We’re also optimistic that we can make progress on these problems. After all, humans are _choosing_ to design and deploy these technologies, which means we have some influence over how things go.
 
@@ -321,7 +340,7 @@ We’ve argued that automating human labour could transform the world at an unpr
 -   **Human-dependent tasks could turn out to be critical bottlenecks.** Some economically valuable tasks — for example, those requiring complex interaction with the physical world, or managing projects over weeks or months — could just take an especially long time to automate. At least in the early stages of automation, the speed of AI-driven innovation or economic production could be seriously constrained by the pace at which humans can do those remaining tasks.
 -   **Our model of human progress could be missing key components.** We’ve argued that increased labour and new ideas can drive rapid progress, pointing to historical examples like the Industrial Revolution. But other drivers we haven’t explicitly considered here, like institutional or cultural changes, could be crucial — and at the time we get AIs capable of replacing human workers, these drivers could just be weaker than would be necessary to support something like “a century of progress in a decade.”
 
-In any of these scenarios, we still think AI could change the world (and pose serious risks). But these changes probably wouldn’t happen _as rapidly_ as we’ve imagined. And as we argued, [speed does matter](#the-speed-of-this-transition-could-matter-a-lot): it affects how much time we have to adapt to the changing circumstances and make wise decisions.
+In any of these scenarios, we still think AI could change the world (and pose serious risks). But these changes probably wouldn’t happen _as rapidly_ as we’ve imagined. And as we argued, [[#^transition-speed|speed does matter]]: it affects how much time we have to adapt to the changing circumstances and make wise decisions.
 
 If the above objections are correct, it might also be really hard to sustain a period of supercharged innovation and economic production. In that case, progress could fizzle out quickly — perhaps even _before_ we see societal changes as dramatic as we did during the Industrial Revolution.
 
@@ -421,7 +440,7 @@ There’s real uncertainty here, and the sceptics might be right that there are 
 
 All three of these things seem quite possible.
 
-And even this much probably isn’t necessary for AI to pose serious — or even existential-scale — risks. For example, [the argument that people could catastrophically misuse AI](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/) mostly depends on AI systems becoming useful tools for designing weapons. An AI that’s great at assisting humans with biotechnology research could make it far easier for people to develop dangerous pathogens — regardless of how well it performs at other types of research, or how much human oversight it needs.[^20]
+And even this much probably isn’t necessary for AI to pose serious — or even existential-scale — risks. For example, [the argument that people could catastrophically misuse AI](https://80000hours.org/problem-profiles/catastrophic-ai-misuse/) mostly depends on AI systems becoming useful tools for designing weapons. An AI that’s great at assisting humans with biotechnology research could make it far easier for people to develop dangerous pathogens — regardless of how well it performs at other types of research, or how much human oversight it needs.[^cite-80k-20]
 
 So even if you think we’ll never build AIs that are _fully_ general or _completely_ autonomous, the risks could still be extremely serious.
 
@@ -538,9 +557,9 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
 ## Footnotes
 
-[^1]: The AI Impacts website has [a summary of prominent arguments that AI poses existential risks](https://wiki.aiimpacts.org//arguments_for_ai_risk/list_of_arguments_that_ai_poses_an_xrisk/start), as well as individual articles on each of these arguments.
+[^note-80k-1]: The AI Impacts website has [a summary of prominent arguments that AI poses existential risks](https://wiki.aiimpacts.org//arguments_for_ai_risk/list_of_arguments_that_ai_poses_an_xrisk/start), as well as individual articles on each of these arguments.
 
-[^2]: In fact, employment of tellers increased after the introduction of the ATM.
+[^note-80k-2]: In fact, employment of tellers increased after the introduction of the ATM.
 
     Economist James Bessen explained on the [EconTalk podcast](https://www.econtalk.org/james-bessen-on-learning-by-doing/):
 
@@ -548,15 +567,15 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
     >
     > What happened? Well, the average bank branch in an urban area required about 21 tellers. That was cut because of the ATM machine to about 13 tellers. But that meant it was cheaper to operate a branch. Well, banks wanted, in part because of deregulation but just for deregulation but just for basic marketing reasons, wanted to increase the number of branch offices. And when it became cheaper to do so, demand for branch offices increased. And as a result, demand for bank tellers increased. And it increased enough to offset the labor-saving losses of jobs that would have otherwise occurred. So, again, it was one of these more dynamic things where the labor-saving technology actually created more jobs.
 
-[^3]: There are some arguments suggesting we'll still keep humans employed in this scenario. For example, Maxwell Tabarrok has argued that even if AIs become better than humans at every task, [they'll still have to specialise in the tasks they have the greatest comparative advantage at](https://www.maximum-progress.com/p/agi-will-not-make-labor-worthless) — and humans will remain employed in the areas where their own disadvantage is smallest.
+[^note-80k-3]: There are some arguments suggesting we'll still keep humans employed in this scenario. For example, Maxwell Tabarrok has argued that even if AIs become better than humans at every task, [they'll still have to specialise in the tasks they have the greatest comparative advantage at](https://www.maximum-progress.com/p/agi-will-not-make-labor-worthless) — and humans will remain employed in the areas where their own disadvantage is smallest.
 
     We're not sure how strong arguments like these are. As we'll discuss later, once we have an AI that can replace a human worker, we might easily be able to run a huge number of copies of it. In that case, AI labour won't be so scarce that we'll have to restrict its uses to the tasks AIs are best at — we could probably afford to implement much more widespread automation.
 
     And even if *some* work continues being performed by humans, the effects of automating large parts of the economy would still be significant, just as the Industrial Revolution transformed society while still leaving some work for humans.
 
-[^4]: For more on what Claude Code can do, and what that might mean for the future of both AI and the software engineering world, check out [this piece from SemiAnalysis](https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point) arguing that Claude Code is an "inflection point" for AI agents.
+[^cite-80k-4]: For more on what Claude Code can do, and what that might mean for the future of both AI and the software engineering world, check out [this piece from SemiAnalysis](https://newsletter.semianalysis.com/p/claude-code-is-the-inflection-point) arguing that Claude Code is an "inflection point" for AI agents.
 
-[^5]: This is just a selection of examples we find especially compelling, but there's plenty more that AI systems can do.
+[^note-80k-5]: This is just a selection of examples we find especially compelling, but there's plenty more that AI systems can do.
 
     - [Sora](https://openai.com/sora/) and [Veo](https://deepmind.google/technologies/veo/veo-2/) can produce impressive videos based on text prompts.
     - Frontier models are becoming increasingly 'multi-modal,' combining the abilities to process text, images, and spoken languages.
@@ -567,11 +586,11 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
     - AI self-driving cars are becoming more popular, with [Waymo now conducting 450,000 rides per week in the US as of December 2025](https://www.cnbc.com/amp/2025/12/08/waymo-paid-rides-robotaxi-tesla.html).
     - In tests run by the US Air Force, [AI systems generate valid military strategies up to 90% faster than traditional methods would](https://www.nellis.af.mil/News/Article/4370792/human-machine-teaming-in-battle-management-a-collaborative-effort-across-borders/).
 
-[^6]: While this characterisation of 'AGI' reflects how some leading AI companies talk about their ambitions, it's slightly narrower than other popular definitions. For example, many people [use 'AGI' to refer to *fully general* systems, which can do literally every cognitive task a human can do](https://www.independent.co.uk/news/ap-openai-amazon-michael-cohen-science-b2523568.html).
+[^note-80k-6]: While this characterisation of 'AGI' reflects how some leading AI companies talk about their ambitions, it's slightly narrower than other popular definitions. For example, many people [use 'AGI' to refer to *fully general* systems, which can do literally every cognitive task a human can do](https://www.independent.co.uk/news/ap-openai-amazon-michael-cohen-science-b2523568.html).
 
     What matters for this article is not whether we get these fully general systems, but that advanced AI will exhibit the *specific abilities* we think are likely to be challenging for humanity. So we've tried to highlight a range of tasks we think it could be particularly consequential to automate.
 
-    As our co-founder Ben Todd says in a footnote to "[The case for AGI by 2030](/ai/guide/when-will-agi-arrive/)":
+    As our co-founder Ben Todd says in a footnote to "[The case for AGI by 2030](https://80000hours.org/ai/guide/when-will-agi-arrive/)":
 
     > Usually it's better to try to forecast specific abilities rather than 'AGI'. Otherwise, people focus on different definitions of AGI depending on what they think could cause transformative impacts on society. For instance, people who think an acceleration of AI R&D is what matters may focus on a definition they believe is sufficient for that threshold; while someone who thinks what matters is a broad economic acceleration will be more concerned by the ability to do real jobs and robotics.
     >
@@ -579,34 +598,34 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
     >
     > On the other hand, if AIs remain limited to cognitive tasks, they won't be able to automate the entire chain of production, limiting some of the most dramatic possible outcomes.
 
-[^7]: This is already happening to some extent. AI systems have many inherent advantages over humans, like their ability to process huge amounts of information in minutes, which means they can do things humans simply can't. For example, [AlphaFold can predict the structures of proteins based on an input list of molecules](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) — something human minds are fundamentally unable to do. As our AI systems get more and more sophisticated, they might unlock new abilities that humans can barely even imagine.
+[^note-80k-7]: This is already happening to some extent. AI systems have many inherent advantages over humans, like their ability to process huge amounts of information in minutes, which means they can do things humans simply can't. For example, [AlphaFold can predict the structures of proteins based on an input list of molecules](https://blog.google/technology/ai/google-deepmind-isomorphic-alphafold-3-ai-model/) — something human minds are fundamentally unable to do. As our AI systems get more and more sophisticated, they might unlock new abilities that humans can barely even imagine.
 
-[^8]: Some people think progress this rapid won't be possible unless we also automate the *physical* tasks involved in innovation and production — or else progress will get bottlenecked on the pace that humans can do manual work.
+[^note-80k-8]: Some people think progress this rapid won't be possible unless we also automate the *physical* tasks involved in innovation and production — or else progress will get bottlenecked on the pace that humans can do manual work.
 
     We think this is an open question. But our instinct is that AI systems that can't do any physical tasks themselves, but have sufficiently advanced cognitive abilities, could still indirectly speed up many important physical tasks. For example, they could design much more efficient production processes, or push more humans to take up jobs requiring physical labour as AIs fill the ones that don't.
 
     In any case, as we said earlier, we think rapid cognitive improvements in AI could lead to rapid improvements in robotics. So even if there's a serious bottleneck here, it might not hold progress back for long.
 
-[^9]: Fortunately, [there are already promising ideas for solving this problem](https://www.noemamag.com/heres-how-to-share-ais-future-wealth/) — such as the introduction of universal basic income and democratising ownership of AI capital.
+[^note-80k-9]: Fortunately, [there are already promising ideas for solving this problem](https://www.noemamag.com/heres-how-to-share-ais-future-wealth/) — such as the introduction of universal basic income and democratising ownership of AI capital.
 
-[^10]: Some anthropologists think there was a lot of variation in social structure during this period of history — that is, while some groups were small and egalitarian, others were larger and more hierarchical. (For more, see [this article by Manvir Singh](https://aeon.co/essays/not-all-early-human-societies-were-small-scale-egalitarian-bands).)
+[^note-80k-10]: Some anthropologists think there was a lot of variation in social structure during this period of history — that is, while some groups were small and egalitarian, others were larger and more hierarchical. (For more, see [this article by Manvir Singh](https://aeon.co/essays/not-all-early-human-societies-were-small-scale-egalitarian-bands).)
 
     Still, it seems clear that the Agricultural Revolution reshaped human ways of life.
 
-[^11]: This 'population-ideas' account of the history of human progress has been popular since it was [put forward by Michael Kremer in the 1990s](https://faculty.econ.ucdavis.edu/faculty/gclark/210a/readings/kremer1993.pdf), but is sometimes disputed.
+[^note-80k-11]: This 'population-ideas' account of the history of human progress has been popular since it was [put forward by Michael Kremer in the 1990s](https://faculty.econ.ucdavis.edu/faculty/gclark/210a/readings/kremer1993.pdf), but is sometimes disputed.
 
     We think it's possible that this account is over-simplified or incomplete. For example, some economists have emphasised the role of other important factors — [like institutional development](https://ia801506.us.archive.org/27/items/WhyNationsFailTheOriginsODaronAcemoglu/Why-Nations-Fail_-The-Origins-o-Daron-Acemoglu.pdf) and culture — in shaping human progress.
 
     But even if the 'population-ideas' account doesn't capture the *whole* story behind the Agricultural or Industrial Revolution, it still seems likely that new technologies played at least *some* important role in these periods of accelerated human progress — and could do so again in future.
 
-[^12]: For most of human history, GDP per capita has been roughly flat. The approximately exponential trend shown in the graph here is [a very recent phenomenon that we started seeing in the early 1800s](https://www.weforum.org/stories/2018/02/height-lifespan-gdp-humanity-has-stagnated-for-most-of-its-history/). And even since then, growth hasn't been perfectly exponential — it has varied considerably year on year, with periods of acceleration (like the post-WWII boom) and slowdowns (e.g. during major recessions). But when we zoom out to look at economic growth over centuries, we see that these fluctuations don't disrupt the overall trend.
+[^cite-80k-12]: For most of human history, GDP per capita has been roughly flat. The approximately exponential trend shown in the graph here is [a very recent phenomenon that we started seeing in the early 1800s](https://www.weforum.org/stories/2018/02/height-lifespan-gdp-humanity-has-stagnated-for-most-of-its-history/). And even since then, growth hasn't been perfectly exponential — it has varied considerably year on year, with periods of acceleration (like the post-WWII boom) and slowdowns (e.g. during major recessions). But when we zoom out to look at economic growth over centuries, we see that these fluctuations don't disrupt the overall trend.
 
-[^13]: This is an enormous range. We've seen lots of different estimates in different contexts, and there's a lot of uncertainty:
+[^note-80k-13]: This is an enormous range. We've seen lots of different estimates in different contexts, and there's a lot of uncertainty:
 
     - The authors of [AI 2027](https://ai-2027.com/) predict that when we get the first *unreliable* AI coding agent, we might just deploy a few thousand copies — but when we get 'Agent-3,' the first *superhuman* AI coding agent, we'll deploy hundreds of thousands of copies of it.
     - In [Machines of loving grace](https://www.darioamodei.com/essay/machines-of-loving-grace), Anthropic CEO Dario Amodei suggests we'll be able to run "millions of instances" of a powerful AI system with the materials used to train it.
     - [Epoch estimated in October 2025](https://epoch.ai/gradient-updates/how-many-digital-workers-could-openai-deploy) that companies like OpenAI theoretically have enough hardware *today* to deploy around seven million "digital workers" to perform the tasks AIs are currently good at — but the authors acknowledge their uncertainty, giving a huge 90% confidence interval of 400,000 to 300 million.
-    - [Tom Davidson has argued](/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453) that once we train a system that could fully replace a human AI engineer, we might run 100 million copies of it.
+    - [Tom Davidson has argued](https://80000hours.org/podcast/episodes/tom-davidson-how-quickly-ai-could-transform-the-world/#the-interview-begins-000453) that once we train a system that could fully replace a human AI engineer, we might run 100 million copies of it.
 
     The variation here is partly because we're imagining AI workers at different levels of proficiency in each context — and the incentives to run lots of copies of them will depend on how good they are. If they're fairly unreliable, like the "stumbling agents" described in AI 2027, it won't make sense to deploy hundreds of millions of them. But as they get more reliable and more generally capable, companies will have an appetite for running many more.
 
@@ -616,7 +635,7 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     We recommend [AI 2027](https://ai-2027.com/) for a detailed walkthrough of how we might quickly end up with a vast and very capable AI workforce, even if we start off by just deploying a few thousand AI workers. (Although we are sceptical that AI will develop transformative capabilities *as fast* as the authors of AI 2027 suggest, we think their analysis is well worth reading.)
 
-[^14]: We're already seeing fast efficiency improvements to AI systems — as time passes, we can do far more with the same amount of compute.
+[^note-80k-14]: We're already seeing fast efficiency improvements to AI systems — as time passes, we can do far more with the same amount of compute.
 
     In 2024, [researchers at Epoch](https://epoch.ai/blog/algorithmic-progress-in-language-models) found that:
 
@@ -624,13 +643,13 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     And if we see an 'intelligence explosion' (as we describe later), these efficiency improvements might happen even faster than before — which could enable the AI workforce to expand shockingly quickly.
 
-[^15]: If we're automating physical labour as well as cognitive labour, scaling the workforce up will also require making progress in robotics. But once we have the algorithms and hardware we need to automate many physical tasks, some researchers have argued that it won't take long to produce a large fleet of robots to do them — see, for example, [this article by Ben Todd](https://benjamintodd.substack.com/p/how-quickly-could-robots-scale-up), which argues that we could scale to a billion robots within five years.
+[^note-80k-15]: If we're automating physical labour as well as cognitive labour, scaling the workforce up will also require making progress in robotics. But once we have the algorithms and hardware we need to automate many physical tasks, some researchers have argued that it won't take long to produce a large fleet of robots to do them — see, for example, [this article by Ben Todd](https://benjamintodd.substack.com/p/how-quickly-could-robots-scale-up), which argues that we could scale to a billion robots within five years.
 
     This seems especially likely if we get what Forethought calls an "[industrial explosion](https://www.forethought.org/research/the-industrial-explosion)."
 
     The idea of rapidly scaling up robot workers is also a key part of the "race" scenario laid out in [AI 2027](https://ai-2027.com/race).
 
-[^16]: Some researchers distinguish between multiple types of feedback loop in which AI systems help us build better and better AIs. For example, Forethought's article on "Three Types of Intelligence Explosion" highlights the following types:
+[^note-80k-16]: Some researchers distinguish between multiple types of feedback loop in which AI systems help us build better and better AIs. For example, Forethought's article on "Three Types of Intelligence Explosion" highlights the following types:
 
     > * A software feedback loop, where AI develops better software. Software includes AI training algorithms, post-training enhancements, ways to leverage runtime compute (like o3), synthetic data, and any other non-compute improvements.
     >
@@ -642,7 +661,7 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     See [Forethought's article](https://web.archive.org/web/20260218092313/https://www.forethought.org/research/three-types-of-intelligence-explosion) for a much more detailed analysis here.
 
-[^17]: To explain further: it's not guaranteed that a surge of new ideas would translate into rapid economic growth, as measured in GDP. Some researchers point to [Baumol's cost disease](https://en.wikipedia.org/wiki/Baumol_effect) as a reason to expect this wouldn't happen.
+[^note-80k-17]: To explain further: it's not guaranteed that a surge of new ideas would translate into rapid economic growth, as measured in GDP. Some researchers point to [Baumol's cost disease](https://en.wikipedia.org/wiki/Baumol_effect) as a reason to expect this wouldn't happen.
 
     We're not economists, so we can't say definitively what to expect in this instance. But it does seem possible that we could sustain a period of accelerated human progress even without explosive economic growth. For example, in a footnote to "[Preparing for the intelligence explosion](https://web.archive.org/web/20260219143924/https://www.forethought.org/research/preparing-for-the-intelligence-explosion)," Forethought argues that we can experience major "physical growth" (i.e. in manufactured goods, buildings, and infrastructure) even if economic growth is much more modest. They provide an example of the US agricultural sector:
 
@@ -650,10 +669,10 @@ _Thanks also to Arden Koehler, Adam Bales, Andreas Mogensen, Benjamin Todd, Niel
 
     For more analysis of how AI automation would affect economic growth, including the effects of Baumol's cost disease, see "[Artificial intelligence and economic growth](https://stanford.edu/~chadj/AI.pdf)" by Aghion et al.
 
-[^18]: An influential paper, "[Are ideas getting harder to find?](https://web.stanford.edu/~chadj/IdeaPF.pdf)," has made the broader argument here in detail.
+[^note-80k-18]: An influential paper, "[Are ideas getting harder to find?](https://web.stanford.edu/~chadj/IdeaPF.pdf)," has made the broader argument here in detail.
 
     > Long-run growth in many models is the product of two terms: the effective number of researchers and their research productivity. We present evidence from various industries, products, and firms showing that research effort is rising substantially while research productivity is declining sharply. A good example is Moore's Law. The number of researchers required today to achieve the famous doubling of computer chip density is more than 18 times larger than the number required in the early 1970s. More generally, everywhere we look we find that ideas, and the exponential growth they imply, are getting harder to find.
 
-[^19]: There are other extremely serious problems that are even more neglected than AI risks, in absolute terms — [factory farming](/problem-profiles/factory-farming/#neglectedness) seems like an example. But neglectedness is just [one factor in determining how pressing we think a problem is, overall](/articles/problem-framework/). The potential scale of the risks from AI is a big part of why we've ranked them as more pressing, all things considered, than issues like factory farming.
+[^note-80k-ai-problems-19]: There are other extremely serious problems that are even more neglected than AI risks, in absolute terms — [factory farming](https://80000hours.org/problem-profiles/factory-farming/#neglectedness) seems like an example. But neglectedness is just [one factor in determining how pressing we think a problem is, overall](https://80000hours.org/articles/problem-framework/). The potential scale of the risks from AI is a big part of why we've ranked them as more pressing, all things considered, than issues like factory farming.
 
-[^20]: In fact, it seems we already have AI systems that could aid the development of bioweapons. In July 2025, [OpenAI warned](https://fortune.com/2025/07/18/openai-chatgpt-agent-could-aid-dangerous-bioweapon-development/) that its 'ChatGPT Agent' feature might "meaningfully help a novice to create severe biological harm." These risks could heighten as frontier models become more advanced.
+[^cite-80k-20]: In fact, it seems we already have AI systems that could aid the development of bioweapons. In July 2025, [OpenAI warned](https://fortune.com/2025/07/18/openai-chatgpt-agent-could-aid-dangerous-bioweapon-development/) that its 'ChatGPT Agent' feature might "meaningfully help a novice to create severe biological harm." These risks could heighten as frontier models become more advanced.

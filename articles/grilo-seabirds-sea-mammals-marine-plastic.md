@@ -13,7 +13,20 @@ tags:
   - animal-welfare
   - cause-prioritization
   - work-in-progress
+llm-review:
+  date: 2026-08-28
+  model: "sonnet"
+  version: "article-qc-v1.1"
+  source:
+    fetched: 2026-08-28
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 # The Number of Seabirds and Sea Mammals Killed by Marine Plastic Pollution is Quite Small Relative to the Catch of Fish
 
@@ -21,7 +34,7 @@ Disclaimer: plastic pollution may well kill way more animals besides seabirds an
 
 ### Summary
 
-- 1 kg of plastic is emitted to the ocean per capita per year[^1].
+- 1 kg of plastic is emitted to the ocean per capita per year[^note-grilo-1].
 - 0.0001 seabirds and 0.00001 sea mammals are killed by marine plastic pollution per capita per year.
 - 200 wild fish are caught per capita per year.
 - The catch of wild fish is 2 M times as large as the number of seabirds, and 20 M times as large as the number of sea mammals killed by marine plastic pollution.
@@ -47,8 +60,6 @@ The data and calculations are presented below.
 - Ratio between the catch of wild fish and the number of seabirds killed by marine plastic pollution: WFpC / DSBpC = 234 / (145 μ) = **1.62 M**.
 - Ratio between the catch of wild fish and the number of sea mammals killed by marine plastic pollution: WFpC / DSMpC = 234 / (14.5 μ) = **16.2 M**.
 
-*This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).*
-
-[^1]: 1 kg is the global value, and it is much smaller for many countries. Most of the countries emit less than 0.1 % of the plastic waste to the ocean (see [this](https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?country=Africa~Asia~Europe~South+America~North+America~Oceania) map), although [3 %](https://ourworldindata.org/plastic-pollution#where-does-our-plastic-accumulate-in-the-ocean-and-what-does-that-mean-for-the-future) of the global plastic waste is emitted to the ocean.
+[^note-grilo-1]: 1 kg is the global value, and it is much smaller for many countries. Most of the countries emit less than 0.1 % of the plastic waste to the ocean (see [this](https://ourworldindata.org/grapher/share-of-global-plastic-waste-emitted-to-the-ocean?country=Africa~Asia~Europe~South+America~North+America~Oceania) map), although [3 %](https://ourworldindata.org/plastic-pollution#where-does-our-plastic-accumulate-in-the-ocean-and-what-does-that-mean-for-the-future) of the global plastic waste is emitted to the ocean.
 
 {>>TODO: Licensed content<<}
