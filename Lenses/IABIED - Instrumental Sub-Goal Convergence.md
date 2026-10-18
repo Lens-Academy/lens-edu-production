@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 8: Expansion*.** Start at the beginning and stop when you reach
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 8: Expansion*.** Start at the beginning and stop when you reach
 > And Sable now has the spare capacity to pay attention to, build a small file on, and decide how to manipulate, to its own purposes, every individual human being on Earth.
 
 Return here after reading.
@@ -24,7 +24,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a capable goal-directed AI system's resource-acquisition strategies, however varied in method, converge on a single instrumental objective, and connect this convergence to the M3 argument that instrumental sub-goals are predictable regardless of terminal goals.
 
@@ -68,7 +69,8 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b.md]]{>>{"author":"Luc's AI","timestamp":1783779617979}@@This Phase 2 block is byte-identical in 3 lenses (Human Welfare, Indifference Not Malice, Instrumental Sub-Goal Convergence); deduplicated into the shared prompt file with the text unchanged.<<}
 
 #### Question
 id:: 00beb9c4-43a1-4877-8f68-1a50b0f350fc
@@ -76,7 +78,8 @@ content::
 \## Phase 3: Learning Question
 A colleague reads this chapter and concludes: "We have no idea what Sable actually wants. Its preferences came out of gradient descent and are opaque even to the people who built it. So we're equally in the dark about what it will *do*. Any forecast of its behavior is just guessing." This sounds careful and humble. But the chapter shows it's wrong in a specific way. What can you confidently predict about Sable's behavior *without* knowing its terminal goal? And exactly where does the colleague's reasoning break down?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 8 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding sceptical claim: that because Sable's terminal goal is opaque, its behavior is unpredictable. The student's job is to dismantle it using instrumental convergence: to show that resource acquisition and self-continuity are predictable regardless of the unknown terminal goal. Use it to draw out convergence and its connection to M3 from a concrete case, rather than having them recite the definition.
 

@@ -50,7 +50,7 @@ As a group, design the key protocol for a US-China pause:
 
 
 
-Want help or clarification for this question? Ask your navigator or copy it into the [Lens Tutor](https://lensacademy.org/tutor) for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your key design + fail open or closed + would both sign? |

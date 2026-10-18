@@ -25,7 +25,7 @@ eval-results:
 
 ## Test:
 id:: eefcafa7-65ed-4c7b-a73f-652d869494c2
-#### Question
+#### Question: Open
 id:: 7b5fb52d-b4a5-4e3c-8ae2-28e2e9b5a48f
 content::
 A lab freezes one current AI model on today's hardware and observes that it does not improve itself. The lab concludes: "Machine intelligence will remain below humanity. This model is shallow, machines have no advantages that matter, and only human researchers can produce the next generation."
@@ -46,6 +46,20 @@ Fail if the answer merely asserts that AI will improve, treats current scaling t
 A student may pass while assigning the scenario a low probability or arguing that bottlenecks will prevent it, provided they reconstruct the mechanisms accurately and identify the assumptions their disagreement turns on.
 
 Give concise qualitative feedback naming which checks were demonstrated and which need work.
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they accepted the lab's conclusion or only asserted that AI will improve, ask what one frozen model can and cannot tell us about the models after it.
+- If they listed advantages without saying how they raise capability, ask them to take one (speed, copying, memory) and say what it lets an AI do that a human cannot.
+- If they treated self-improvement as automatic for any AI, ask what an AI would have to be able to do before its work makes the next AI better.
+- If they presented the outcome as certain or dated, ask which part they are confident in and which (threshold, speed, timing) stays open.
+
+A learner who reconstructs the argument and then disagrees with it has done what was asked. Engage with the disagreement, don't steer them back to the chapter's view.
+
+At full marks, just confirm briefly. Don't cite the numbered checks or the words pass and fail (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: ask what would change if a thousand copies of a strong AI researcher could each work many times faster than a human. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

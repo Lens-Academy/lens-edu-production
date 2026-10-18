@@ -1,8 +1,14 @@
 ---
 id: '100c2fee-ecc0-4270-8023-efaac2efa4ce'
 learning-outcome: Given a trend extrapolated forward to a conclusion, identify the functional form the extrapolation assumes, name the interaction between parts of the system that would break that form, state which direction the resulting error runs, and construct the alternative curve that the same data also supports.
-domain: none
+topic: none
 stage: intermediate
+eval-results:
+  content-sha: 1f0fd9f8
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 348a053f-c379-4f8a-9d2b-0d5efd34a2a4
@@ -23,7 +29,6 @@ Three things:
 
 3. Draw a second curve through the same two data points that implies a materially different date. State what would have to be true about radiology for your curve to be the right one, and what observation between now and 2030 would distinguish it from the analysts' line.
 
-max-time:: 25:00
 
 assessment-instructions:: The student has completed a module on forecasting method, including the fractional-progress survey method and its 372-year result, and the general problem of inferring a functional form from a trend. This test is set in radiology, not AI, so an answer that reconstructs the assigned readings cannot pass. The underlying object is a functional-form question: two points constrain a curve only if you have already assumed its shape, and the shape assumption is doing all the work.
 

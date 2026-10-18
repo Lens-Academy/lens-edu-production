@@ -19,7 +19,7 @@ source:: ![[../Lenses/EA Intro - What Do You Think Introduction]]
 # Submodule: Bayes' rule and evidence
 
 # Learning Outcome: EA Intro - Apply Bayes Rule to Update Beliefs
-source:: ![[../Learning Outcomes/EA Intro - Apply Bayes Rule to Update Beliefs]]
+source:: ![[../Learning Outcomes/Bayesian updating]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Bayes Rule Guide]]
@@ -33,7 +33,7 @@ source:: ![[../Lenses/EA Intro - What Is Evidence]]
 # Submodule: Independent impressions
 
 # Learning Outcome: EA Intro - Explain Independent Impressions
-source:: ![[../Learning Outcomes/EA Intro - Explain Independent Impressions]]
+source:: ![[../Learning Outcomes/Independent impressions]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Independent Impressions]]
@@ -41,10 +41,10 @@ source:: ![[../Lenses/EA Intro - Independent Impressions]]
 # Submodule: Learning from mistakes
 
 # Learning Outcome: EA Intro - Identify Lessons from EA's Mistakes
-source:: ![[../Learning Outcomes/EA Intro - Identify Lessons from EA's Mistakes]]
+source:: ![[../Learning Outcomes/Lessons from EA's mistakes]]
 
 # Learning Outcome: EA Intro - Explain Why Maximization Is Perilous
-source:: ![[../Learning Outcomes/EA Intro - Explain Why Maximization Is Perilous]]
+source:: ![[../Learning Outcomes/Why maximization is perilous]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Lessons for EA (Toby Ord EAG)]]
@@ -55,7 +55,7 @@ source:: ![[../Lenses/EA Intro - EA Is About Maximization and Maximization Is Pe
 # Submodule: Less common causes
 
 # Learning Outcome: EA Intro - Enumerate Less Common Cause Candidates
-source:: ![[../Learning Outcomes/EA Intro - Enumerate Less Common Cause Candidates]]
+source:: ![[../Learning Outcomes/Less common cause candidates]]
 
 # Lens:
 source:: ![[../Lenses/EA Intro - Big List of Cause Candidates]]

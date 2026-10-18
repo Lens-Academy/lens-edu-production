@@ -114,7 +114,7 @@ feedback-instructions:: The student has read the first half of Chapter 11, writt
 
 The answer this question is aimed at: **Chapter 2, that AI is grown rather than crafted.** The alchemy stage is recipe-level competence without principle-level understanding, and that is what you necessarily get when the artifact was grown instead of designed. The alchemists could make Aqua Regia without chemistry because they did not build the atoms either. Without Chapter 2 the alchemy diagnosis reads as a young field that effort and funding will eventually mature. With it, the diagnosis follows from how the output is produced, which is why the chapter can say the missing ingredient is not effort or intelligence.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name growing rather than crafting, and say what it does here: it is why the field has recipes and no principles, rather than merely not having got round to the principles yet. Confirm briefly, then move on.
 - **Strong near miss: "you don't get what you train for" (Chapter 4).** Adjacent and legitimate. Accept it, then push once: that says the result diverges from the target. What earlier idea says we cannot explain why it diverges?
@@ -142,13 +142,14 @@ What not to do:
 - Turn this into a review of Chapter 2.
 - Say anything about how this connection relates to the next lens in this unit. It does, and that is the next lens's work, not yours.
 
-#### Question
+#### Question: Open
 id:: 060e4240-03c1-4a7f-8d82-21919b0027b5
 content::
 \## Phase 4: Learning Question
 A friend who works in machine learning tells you: "The alchemy comparison is out of date. Every new model is run against thousands of safety evaluations and red-team tests, and the scores climb with each release. That's not philosophy and vibes. It's rigorous empirical measurement. The field has clearly left the alchemy stage." Using the chapter's diagnosis, where exactly does this argument go wrong, and is there any part of it your friend has right?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding argument that rising safety-benchmark scores prove the field has left the alchemy stage, and asks them to debug it rather than recite the diagnosis. Use it to draw out the difference between measuring that a technique works and understanding why it works, and between capability/eval progress and engineering-principle understanding.
 

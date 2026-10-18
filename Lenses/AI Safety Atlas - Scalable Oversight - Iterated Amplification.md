@@ -8,6 +8,7 @@ tutor_minutes: 6
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Scalable Oversight - Iterated Amplification|Iterated Amplification]]
 
 #### Text

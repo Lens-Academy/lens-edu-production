@@ -1,8 +1,14 @@
 ---
 id: '6d2803a1-c7b0-4f75-b156-3ec9fd6e2a82'
 learning-outcome: Given an unfamiliar question with no available reference class of its own, break it into sub-questions each of which has a reference class or a measurable quantity, state for each sub-question what evidence would settle it, combine them into an estimate, and name the sub-question whose error dominates the result.
-domain: none
+topic: none
 stage: intermediate
+eval-results:
+  content-sha: ec1c1535
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 40eb2198-4ca6-4fe0-af8e-a043337132d1
@@ -15,7 +21,6 @@ Nobody has a base rate for this. The city has never had driverless taxis. Other 
 
 Produce an estimate. Show the decomposition you used: what sub-questions you broke it into, what kind of evidence each one could be settled by, and how you put them back together. Then answer one more thing, which matters more than your number: if your estimate turns out to be badly wrong, which single sub-question will have been the reason, and why that one?
 
-max-time:: 20:00
 
 assessment-instructions:: The student has worked through a module on forecasting method: the Good Judgment Project's decomposition loop, Fermi modelling, reference-class selection, and the failure of fractional-progress extrapolation. This test hands them a question deliberately outside AI so that reciting the readings cannot pass. There is no correct year. The capability being tested is the decomposition itself and the error-attribution at the end.
 

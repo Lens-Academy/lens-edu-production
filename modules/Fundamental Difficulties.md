@@ -1,6 +1,8 @@
 ---
 id: 4a6836a1-9572-43da-9560-0bcaef788555
-slug: module-fundamental-difficulties
+slug: fundamental-difficulties
+# Module slug-aliases did not resolve on staging when tested 2026-10-02; kept for when the platform supports them.
+slug-aliases: [module-fundamental-difficulties]
 title: "Fundamental Difficulties"
 discussion: https://discord.com/channels/1440725236843806762/1467932217312547019
 ---
@@ -29,14 +31,17 @@ source:: [[../Learning Outcomes/Misalignment as the default outcome]]
 # Learning Outcome:
 source:: [[../Learning Outcomes/Moloch and multipolar traps]]
 
-# Lens:
-source:: [[../Lenses/The King Midas Problem]]
-
 # Lens: Welcome
 id:: 2a219827-f4dd-4c77-86dd-5098df71f62d
+sidebar_author:: none
 %% tldr:: AI alignment has no proven solution yet, so why is it so hard even for careful builders? This module assembles the core reasons: the rocket-alignment analogy, instrumental convergence and power-seeking, the sharp left turn, the nature of agency, and why competitive pressure can push everyone toward an outcome nobody wants. %%
-summary_for_tutor:: Second lens of the module, after the King Midas quote. Frames why alignment is hard even for careful builders and previews the arc in order: whether today's LLMs count as evidence against default misalignment (Byrnes), Yudkowsky's rocket, space-probe and cryptography analogy and the need for real theory, the limits of patching problems as they arise (Decker in Hell), capabilities generalizing further than alignment (the sharp left turn), why misalignment is the default outcome of current training, what makes a system an agent and how agency and power seeking emerge, how proxies diverge at the extremes, and how competition drives outcomes nobody wants (Moloch). Lists the questions learners should be able to answer afterward.
-reading_minutes:: 3
+summary_for_tutor:: Second lens of the module, after the King Midas quote. Frames why alignment is hard even for careful builders and previews the arc in order: whether today's LLMs count as evidence against default misalignment (Byrnes), Yudkowsky's rocket, space-probe and cryptography analogy and the need for real theory, the limits of patching problems as they arise (Decker in Hell), capabilities generalizing further than alignment (the sharp left turn), why misalignment is the default outcome of current training, what makes a system an agent and how agency and power seeking emerge, how proxies diverge at the extremes, and how competition drives outcomes nobody wants (Moloch). Lists the questions learners should be able to answer afterward. Opens with Stuart Russell's King Midas passage from "Of Myths and Moonshine" (2014): a system optimizing a function of n variables, where the objective depends on only k of them, will often set the remaining variables to extreme values, and if one of those is something we care about the solution can be highly undesirable; you get exactly what you ask for, not what you want.
+reading_minutes:: 4
+#### Article
+source:: [[../articles/russell-of-myths-and-moonshine]]
+from:: "A system that is optimizing a function of n variables"
+to:: "can have an irreversible impact on humanity."
+
 #### Text
 content::
 %% COMMENTED OUT (AI-generated framing):
@@ -48,12 +53,12 @@ In this module you will engage with core concepts including the rocket alignment
 Questions you will be able to answer after completing this module:
 * Why is it unrealistic to expect we can list all alignment challenges in advance, and what does this imply about the kind of theory we need?
 * What does the rocket science and cryptography analogy capture about alignment, and where does the analogy break?
-Why do “alignment is hard” arguments feel alien to human intuition, and which recurring intuition traps lead people to underestimate risk?
-* Under what prerequisites should we expect power seeking to emerge from instrumental convergence style reasoning?
+* Why do “alignment is hard” arguments feel alien to human intuition, and which recurring intuition traps lead people to underestimate risk?
+* Under what conditions should we expect power-seeking to emerge from instrumental-convergence-style reasoning?
 * Why do capabilities tend to generalize more reliably than values, and how can this asymmetry produce a sharp left turn?
 * What does a sharp left turn look like in a simplified model, and what kinds of evidence would not be sufficient to rule it out?
 * When is it appropriate to model an AI system as an agent?
-* How can agency emerge from advanced prediction, and how can an “oracle” system gain real world control?
+* How can agency emerge from advanced prediction, and how can an “oracle” system gain real-world control?
 * Why might misalignment and catastrophe be the default outcome of scaling current training methods, absent fundamental advances?
 * Which kinds of “fundamental advances” in alignment or AI theory would actually justify safe deployment, and what failure modes would they rule out?
 * How can coordination failures and competitive pressure drive unsafe outcomes even when individuals prefer safety, and how does this relate, or not, to instrumental convergence?
@@ -66,14 +71,23 @@ source:: [[../Lenses/byrnes-sympathy-for-both-sides-of-the-egregious-misalignmen
 source:: [[../Lenses/Eliezer Yudkowsky – AI Alignment- Why It's Hard, and Where to Start]]
 
 # Lens:
+optional:: true
+source:: [[../Lenses/Without fundamental advances (trimmed, Extinction Risk Foundations)]]
+
+# Lens:
 source:: [[../Lenses/alexander-nicholas-decker-in-hell]]
+
+# Lens: Nearest unblocked strategy
+id:: 6f199d23-fab0-4c65-94fd-6f8dd30d9079
+optional:: true
+reading_minutes:: 1
+#### Article
+source:: [[../articles/lesswrong-nearest-unblocked-strategy]]
+from:: "'Nearest unblocked strategy' seems like it should be a"
+to:: "that doesn't trigger $P$."
 
 # Lens:
 source:: [[../Lenses/Sharp left turn]]
-
-# Lens:
-optional:: true
-source:: [[../Lenses/Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AIst outcomes]]
 
 # Lens:
 optional:: true
@@ -85,6 +99,14 @@ source:: [[../Lenses/Pythia]]
 
 # Lens:
 source:: [[../Lenses/alexander-the-tails-coming-apart-as-metaphor-for-life]]
+
+# Lens: Goodhart's Curse
+id:: 2d59925c-6c0c-47b5-95f5-f081380e8585
+optional:: true
+reading_minutes:: 7
+#### Article
+source:: [[../articles/lesswrong-goodharts-curse]]
+to:: "that don't break in less extreme engineering domains.""
 
 # Lens:
 optional:: true

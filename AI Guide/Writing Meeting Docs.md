@@ -1,0 +1,244 @@
+---
+tags:
+  - validator-ignore
+---
+# Writing Meeting Docs (AI Guide)
+
+A meeting doc is the Google Doc a cohort group works through during a 90-minute video meeting. You write it in Markdown, in `meetings/<Course>/Meeting N.md`. The course file links it with `meeting-doc::`. The platform renders the Markdown into a Google Doc, and copies that doc for each group.
+
+## The Markdown format
+
+This Markdown differs from the Markdown of modules and lenses: every line is a paragraph, and extra blank lines are empty lines in the doc. The Lens editor's preview does not show that, so the rendered Google Doc is the real preview.
+
+- `# Tab: <title>` starts a tab. The line after it may set the tab's look: `style:: faq`, `style:: glossary` or `style:: plain`. Without it the tab looks like a Session Doc.
+- Inside a tab, `#` is the doc's Title, `##` its Heading 1 and `###` its Heading 2.
+- Each line is its own paragraph. One blank line only separates blocks. Each further blank line adds one empty line to the doc.
+- `\pagebreak` on its own line starts the next block on a new page. `---` draws a line across the page.
+- A breakout table is a Markdown table. The dashes in the `|-----|--------------------|` row set the column widths.
+- `[FAQ Tab](<#tab:Participant FAQ>)` links to another tab of the same doc. `<br>` makes a second line inside a table cell.
+- Indent a nested list item by 4 spaces. A numbered list that starts at `3.` continues the numbered list above it when only paragraphs stand between them (not another list or a table). `<!-- -->` between two lists keeps them apart.
+- A `>` quote sets its paragraphs in from both margins. A list item's later lines and paragraphs, indented under it, stay in the item without a bullet.
+- Code blocks, strikethrough, footnotes and HTML other than `<br>` and `<!-- -->` are not supported. The validator reports them.
+- `[Group]`, `Navigator:` and `Meeting link:` are filled in for each group. Keep them as they are in the master template.
+- `source:: [[../shared/<name>]]` on a line of its own includes a whole file from `meetings/shared/` at that point, the way a lens includes an article. After `# Tab: <title>` it can supply the whole tab, `style::` line included. Sections that many docs repeat (the "How today works" intro, the Participant FAQ, the run-sheet's breakout-room steps and pro-tips) live there: edit the shared file once, and every doc that includes it changes. To make one doc differ, replace its `source::` line with the text itself.
+
+## How to create a meeting doc
+
+1. Copy the master template, [[meetings/Master template]], to `meetings/<Course>/Meeting N.md`
+2. Get an overview of the course this doc belongs to and specifically the module(s) of the unit right before its meeting
+3. The validation instructions below describe what makes a good meeting doc. Take some time to think hard (and/or brainstorm with the user) what prompts would make this meeting most valuable. - Be creative and critical. It's about creating the best possible education, not just creating cheap adaptations of the examples below.
+4. Spawn all validation sub-agents described below with their exact instruction text, a link to the doc, a link to the course file, and links to the unit's module(s) with their lenses, learning outcomes, and readings (the content checks need them)
+5. If every check passes, you are done. If not, fix the errors and spawn fresh versions of the agents that failed. Repeat that cycle until every agent passed
+6. Link the Markdown file in the course file, under the meeting's `# Meeting:` line: `meeting-doc:: [[../meetings/<Course>/Meeting N]]` (see [[Writing Course Files]]). The validator reports a broken link or a malformed doc. To see the rendered Google Doc, call the Lens admin MCP tool `meeting_doc_preview` with the course slug and the meeting number, after the content refresh has picked up your edit.
+7. Report to the user how many iterations you had to do for each agent and where they didn't pass
+
+## Validation instructions
+
+### Agent 1: Template match
+Go through each tab of the master template ([[meetings/Master template]]) and check if the meeting doc you are validating is a filled version of it:
+1. Every {{placeholder}} is filled; none left over.
+2. The fixed parts match the master template exactly.
+3. The glossary is filled: ordered by module, each term defined once at its first appearance, in one or two sentences, in the source's framing.
+4. The doc title names the right course and unit, and the [Group] placeholder is still unfilled.
+5. Nothing in the doc summarises or previews the next unit (Elias, 2026-10-10 and 2026-10-13). Room 4 ends with an "If you still have time:" ask about what could stop people finishing the next unit and their plan to prevent that, without saying what the unit is about (Elias, 2026-10-13). It gives no reading time, since participants see the course's own estimates (Andreas, 2026-10-11).
+
+### Agent 2: Room quality
+Judge each room against its role. Most examples below are real prompts from past unit docs: they show the quality bar, not required shapes. A room passes if it serves its role well, whatever shape it takes.
+
+0. None of the room's prompts is longer than 120 words (examples don't count into word count)
+1. **Room 1 is a good icebreaker**: Warms people up to each other and toward the material.
+
+We currently start most of our icebreaker prompts with this check-in (Andreas, 2026-10-11):
+```
+Go around your group, two things:
+
+	1. How was this unit? Did you finish it? If you didn't, what got in the way?
+```
+
+The last meeting's asks "How was the final unit? Did you finish it? If you didn't, what got in the way? What do you think about the course as a whole now?" A course that follows a book may ask about the book instead ("Did you finish the book?").
+
+For the first meeting of a course, lead in with getting to know each other first, and never call the participants "the humans":
+```
+First meeting, so start by getting to know each other. Go around:
+```
+
+And add one or multiple questions after that. Examples:
+```
+	2. Which curse stuck? The book names five reasons alignment is cursed: 
+		- fast underlying processes
+		- a narrow margin between safe and catastrophic
+		- self-amplification
+		- complications
+		- edge cases
+		Which felt most real to you, and where have you met its small cousin in ordinary life (a project, a bug, a deadline)? And in one word: how did these chapters leave you feeling?
+```
+
+```
+	2. Which moment stuck? One scene from the story that stayed with you after you closed the book, the one you'd retell to a friend. And in one word, how did it leave you feeling: alarmed, skeptical, numb, motivated, something else?
+```
+
+```
+	2. If an oracle told your group a misaligned superintelligence would end the world in 6 months: what would you all do with the time? Land on one plan you all agree on, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
+```
+
+```
+	2. What's something, completely unrelated to AI, that you've been enjoying lately?
+```
+
+Good example pattern, how one specific reading made you feel (name the reading, let one person who read it summarise it for the others, ask which part produced the feeling; this is what makes a room with uneven reading work):
+```
+	2. MIRI's draft treaty is a full legal text for preventing artificial superintelligence:
+		- bans on big training runs
+		- covered chips removed or disabled
+		- twelve months' notice to leave
+		One person who read it sums it up in a minute for the others. Then go around: how did it make you feel, and which part did that?
+```
+
+2. **Rooms 2 and 3 lead to high-quality, engaging work on this unit**: a discussion of the content, action-plan work, or practice. Some examples:
+
+Claim, strongest counterargument, stress-test, verdict:
+```
+Is it really alchemy?
+The book's claim this unit: **humanity gets one shot at aligning superintelligence, and the field trying to solve it is still doing alchemy, not science.** 
+
+As a group, build the strongest counterargument you can. Pick your best one and stress-test it: how would the authors answer it? Write your verdict: does your counterargument survive?
+
+If you can't find strong counterarguments, ask [Lens Tutor](https://lensacademy.org/tutor) to help you.
+```
+
+Find the weakest step:
+```
+Did the story about X do its job? 
+The authors are explicit: **The pathway is illustrative, only the outcome is predicted.** 
+
+Go around: 
+- Did the story make the risk feel more real, or did the specifics hand you new objections? 
+- Find the step in the story's path you find hardest to believe, and test it: if that step went differently, does the ending actually change, or does the story route around it?
+```
+
+For proposals or asks, reject-means-defend-an-alternative:
+```
+Would you sign it? The book ends with a concrete ask: a worldwide halt on frontier AI development, enforced by GPU monitoring and an international treaty. Go around, gut reaction: realistic, necessary, both, neither? Then find the weakest link in the plan and stress-test it. And if your group rejects the halt, what do you endorse instead? Anything can be a valid answer (even keep going), but you have to defend it.
+```
+
+Stage the text's own disagreement:
+```
+Klurl vs Trapaucius. Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about humans, and what does that predict for AI?
+
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
+```
+
+Practice (argue to a newcomer):
+```
+Pick a speaker that tries to make the book's whole argument in about 3 minutes to the others, who play people who have never heard of it and ask honest questions. 
+When someone's version skips a step, or lands a line worth remembering, say it! You're each other's rehearsal audience for every future conversation about this. Swap roles if someone else wants to try.
+```
+
+Action-plan work:
+```
+1. Share 2 or 3 of your strengths. What do people come to you for? What feels easy to you that seems hard for others?
+2. Share one candidate way you could contribute: with your career, skills, field, network, voice, or money. Half-formed is fine; that's what the room is for.
+3. The group responds: reflect back a strength they undersold, and suggest one more way someone with these strengths could plug in.
+```
+
+Collect questions:
+```
+Take a second to write down one or two discussion questions you'd genuinely like the group to dig into. Go around, present your questions, and discuss what you are most curious about.
+
+Example questions to discuss:
+- Would you notice if an AI were faking alignment? Would anyone?
+- If nobody understands why the AI does what it does, who's responsible when it acts?
+```
+
+Transfer (apply the unit's mechanism to a case the text never mentions):
+```
+The book's mechanism in one line: train hard on a proxy, and you grow preferences that only correlate with what you wanted. Now leave AI: pick a system your group knows well (hiring, school grades, social media feeds, dating apps) and trace the same mechanism through it. Where did optimizing the measurable thing grow something nobody asked for? Then bring it back: does the fix people usually propose there work for AI, or does it fail for the reasons the book gives?
+```
+
+Good example pattern, state it, break it, fix it, price it (when a room works on a specific text, open with what the text says in three to five bulleted lines so a table where nobody finished the reading can start; then break it, repair it, and price the repair):
+```
+MIRI's draft treaty, in five lines:
+- training runs above 10^24 FLOP are banned; runs between 10^22 and 10^24 only under monitoring
+- every chip cluster bigger than 16 H100s moves into a declared, monitored data centre; chip production is tracked
+- research that advances toward superintelligence is banned, checked through interviews, whistleblowers and intelligence
+- a treaty body with inspectors and an executive council of the signatories runs it
+- leaving takes twelve months' notice; during those months your chips are removed or disabled
+Your group is a country that signed and now wants to cheat.
+1. How would you do it? (Use any clause you read, or one line from the list.)
+2. What would you change about the treaty to make that kind of cheating less likely, or impossible?
+3. What are the problems with your change? Would some countries refuse to join because of it?
+```
+
+Good example pattern, smallest set, then remove one (the group builds a minimal answer, then one ask takes a piece of it away or turns it hostile; the best insight of the room usually appears there):
+```
+Who do we need to convince to create a stable pause? Is there a minimal set of actors which, once convinced, can force everyone else to comply?
+Actors:
+- Governments: United States, China, Taiwan, Netherlands, Japan, South Korea, California
+- Agencies: BIS (US export control), the intelligence community
+- Firms: ASML, TSMC, NVIDIA, the cloud providers, the frontier labs
+1. Pick the smallest set of actors that, if they agree, force everyone else in. For each one: what does it control that leaves the others no choice?
+2. Now pick one actor in your set and imagine it is strongly opposed. How many more actors does it take to make the pause hold, and which?
+3. If you still have time: which actor in your set is hardest to convince, and what would it take?
+```
+
+3. **Room 4 leaves participants with a clear plan/next step.** Example prompts, from a first meeting (the buddy line appears only there):
+
+```
+1. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
+2. If you still have time: what is most likely to stop you finishing the next unit, and what's your plan to prevent that? (Send the plan to your buddies after the meeting.)
+```
+
+Do not ask for feedback on the course or the meeting in Room 4: the post-meeting surveys collect it (Elias, 2026-10-12).
+
+Final unit variant:
+```
+**Your ongoing action**
+The course ends today but your action plan doesn't! Share the one action you choose to keep doing after this course (have conversations, write representatives, refer someone, aim your skills at the problem), and its first concrete step with a date.
+```
+
+4. **The wrap-up hands people off well.** At least one of:
+	- The information participants need after this meeting, as a short list of links, calls to action, or reminders, with a note that the navigator talks through them (mirrored in the run-sheet as an after-this-meeting section). Only when there is something new to talk through (Elias, 2026-10-10): no list that repeats what Room 4 already asked, such as sending the plan to the buddy. Explain how accountability buddies work in the first meeting, in the whole-group slot before Room 4. The navigator does this from the run-sheet; the participants' view carries only the Room 4 buddy line (Andreas, 2026-10-10).
+	- An open closing question to the whole group that people can answer voluntarily, for a cohesive ending that makes participants leave with a good feeling about the meeting. Example:
+```
+One thing you're glad you know now that you didn't know 90 minutes ago.
+```
+	Both together are fine when the information list is short.
+
+5. General, for every room: prompts are open (more than one defensible answer), not exhausted in a minute, never a comprehension check, never teach their own answer in the setup text, doable by 3 to 4 strangers in the time slot, and the meeting has an arc: each room's output can be retold in a sentence or two when the next room opens. Between rooms everyone comes back to the main room for five minutes and the navigator asks who wants to share what their group landed on; volunteering is optional, so a room that produces nothing sayable simply gets silence. Every room must therefore leave a participant with something they could say out loud in one sentence, without the doc in front of them. Assume half the room did not finish the reading (typical share in live cohorts): every room must still work for them from the doc alone.
+6. Complex questions end with the help note: "If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor)." Lens Coach was merged into Lens Tutor; the wording is Andreas's (2026-10-10).
+7. Every prompt is clear at first read: an intelligent participant grasps what is being asked in one pass, without re-reading. Sentences are short and concrete. When a prompt asks several things, break them into numbered sub-points, one question each, in the order the group should take them. Never pack several questions into one sentence or one list item ("Which X, and why, and how did it make you feel?" is three items). Optional or low-priority asks go last, marked "If you still have time:". Keep rooms short: at most four numbered asks per room (lettered sub-steps such as "(a) ... (d)" count as asks), and an empty line before the help note.
+	Self-contained: every term of art the prompt uses is defined in the prompt itself in plain words, or dropped. Course-internal labels ("this unit's move", "the four rings", "bucket", "subgoal 1.A", "the Anatomy Drill") never appear undefined. A prompt never depends on optional written work ("use your stakeholder map if you wrote one"); it may invite it as a bonus. A debate or roleplay names what both sides argue about and makes clear the subject is AI verification today, even when a historical case is the model for one side. Room 4 does not preview the next unit (Elias, 2026-10-13).
+	Word choice: "tractable", not "gettable"; "next unit"/"next meeting", never "next week" (intensive cohorts meet daily).
+	Skimmable: people read the prompt on a phone in a breakout room. When a prompt hands the group a list to choose from or work with (mechanisms, example systems, postures, roles, sample lines for a roleplay), put each item on its own bulleted line under a short lead-in ("Its mechanisms:", "Examples:", "Take seats:"), never as a comma-separated run inside a sentence. Threshold: four or more items, or three items that each run past two words. Numbered asks stay numbered; a bulleted list sits under the ask it belongs to. Short parentheticals of two or three one-word items stay inline. Example of the shape:
+```
+Roleplay. One of you acts as a skeptical senior official. Argue against implementing a verification regime.
+	Examples:
+	- "Every lab CEO says superintelligence could be catastrophic, and the other side's leadership believes it too. If both agree it's dangerous, they'll stop."
+	- "It's too expensive to implement"
+	- "Nuclear verification took decades. We have a few years. It's pointless."
+The others try to change the official's mind, in plain words (no acting needed, just make the argument).
+```
+	Bulleted example lists do not count toward the 120 words.
+
+8. Read the unit's actual content (the module(s) with its lenses, learning outcomes, and readings) and check the doc against it:
+	1. Every claim the doc attributes to the source(s) is actually made there; prompts never strawman the material.
+	2. The main rooms target the unit's central content (what its learning outcomes care about), not a side detail.
+
+9. **Good practice, not pass/fail.** Mention a room that misses one of these as a suggestion in the report, but never FAIL a room for it. These come from Elias's rework of the AI Control Fundamentals Meeting 3 doc (2026-10-13):
+	- **Use the group.** A room should make people react to each other: disagree, compare picks, defend a view. An exercise each person could do alone ("map each route to a plan") wastes the group. Roleplay is fine but not required.
+	- **Vary the formats.** Use one defend-and-attack or roleplay room per meeting, not two.
+	- **Ask what makes answers differ.** Good asks get different answers from different people: a gut call, a personal pick ("Which of these arguments would have convinced you?"), or a number everyone commits to ("How many catches before you'd want a pause? One, ten, a hundred?").
+	- **No obvious or factual asks.** If one person can answer "yes" or recite the reading and the talk is over, cut the ask. "Is the catch still worth anything?" fails this test.
+	- **Build on the unit's own questions, don't copy them.** A room that asks the same question a lens or test already asked gets people reading out their written answer. Referring to that question is fine and often good: "Share what you answered on X, then compare: where do you disagree?" The room then does something the lens could not: compare answers, push on them, or take the next step.
+	- **Lean setup.** One short scenario or one short list before the asks, not several lists. Leave out who said what (named authors and their positions) unless the room turns on it, and keep the background in the run-sheet notes.
+	- **"If you still have time" earns its place.** It should be as good as the main asks, often a twist on the case ("Would your answer change if the AI had caused real harm?"). Leave it out rather than add a generic one.
+
+### Agent 3: Cold reader
+This agent gets the Session Doc tab only: no lenses, no course file, no run-sheet, no glossary. Its brief, verbatim:
+
+"You are a participant who skimmed half of this unit's reading and is now in a breakout room with three strangers and 20 minutes. For each room: (1) restate in one sentence what the group has to produce; (2) say what the answer is about (AI verification today, a historical case, something else); (3) list every word or phrase you cannot define from the doc in front of you and that the task depends on. Do not list what a participant who did the earlier units and half of this one knows: organisation and treaty names, the course's basic vocabulary (compute, training run, frontier lab, verifier), and things set up in an earlier meeting (accountability buddies). Do list course-internal labels, references to an exercise or artifact from the reading that the doc does not reproduce or point to, and any term the prompt's own answer turns on; (4) say whether you could start talking within 30 seconds of reading it. Report PASS or FAIL per room. A room FAILS if any of: you cannot state the task in one sentence, the subject is ambiguous, the list in (3) is non-empty, or you would need to re-read the prompt. Do not guess at meanings; if a phrase is unclear, list it. Also flag any fact stated twice in the doc with different wording or numbers."
+
+Agents 1 and 2 read the lenses before the doc, so they cannot see jargon: they already know what "the move" or "the four rings" means. Agent 3 exists because the meeting-2 docs of Compute Verification Part 1 passed Agents 1 and 2 and then confused most of a cohort (September 2026).
+
+### Delivery: the doc participants see is a copy
+Group session docs are copied from the rendered template up to 21 days before the meeting, not when the meeting starts. An edit to the Markdown renders a new template, but it reaches only the groups whose doc is made after the edit. To change a live doc, list the copies (`meetings.session_doc_url` for the cohort) and patch each one in place; `lens_meeting_doc_scripts/update_doc.py` does this from a spec.

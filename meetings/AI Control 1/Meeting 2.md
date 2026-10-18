@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2\. The paper's whole setting:
 
 - a strong model solves 5,000 programming problems and may hide a flaw in any of them
@@ -61,7 +61,7 @@ Your group is the committee that decides what the lab actually deploys. The pape
 3\. What would have to be true for you to ship the first option, not using the strong model at all?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | What you ship + its price + your fallback |
@@ -100,7 +100,7 @@ Who is right, and why?
 3\. If you still have time: what would put the humans back?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | The evidence you would demand + your answer to the colleague |

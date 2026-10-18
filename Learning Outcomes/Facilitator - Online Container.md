@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 5facae86
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds specific named items in parentheses as the required content with no 'or equivalent' hedge, so a judge applying it literally would fail a student whose valid harder/easier items fall outside that list."}
+  evidence: {C3: "**3** — Names three harder (body language/group energy, silence feels worse, side connections, latecomers slip in) AND three easier (sharing reference material live, pair work via breakouts, recording with consent, including across timezones)."}
 ---
 
 ## Test:

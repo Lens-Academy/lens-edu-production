@@ -1,5 +1,7 @@
 ---
 id: 'df4040b8-b7d6-457c-b102-7fd02ae97390'
+reading_minutes: 10
+tutor_minutes: 30
 title: "Day Zero, Revisited"
 tldr: The one time you are told to scroll back to your day-zero snapshot. Read it, then write the model you actually leave with.
 summary_for_tutor: "Closes the course. The student reads their day-zero model for the first time since writing it, rewrites their ten-year model with four required layers, redoes the hundred-point allocation with their name attached, and names where their next hour goes. One mirror, no grade."
@@ -68,7 +70,7 @@ carefully and stay ready to act" is a real answer if you say what would make you
 
 And one line quoting the sentence in your day-zero snapshot that most surprises you now.
 
-assessment-instructions::
+feedback-instructions::
 CONTEXT YOU NEED. You do not have the rest of this course, so here is the situation.
 
 This is the final lens of the final unit of a course about AI futures, written for
@@ -111,4 +113,3 @@ can produce. Do not grade. Do not score. Do not praise.
 
 Write 90 to 150 words. Short paragraphs. No lists.
 
-max-time:: 15

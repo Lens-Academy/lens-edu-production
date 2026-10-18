@@ -8,4 +8,5 @@ title: "Appendix: Long-term questions"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Appendix Long-term Questions|Appendix: Long-term questions]]

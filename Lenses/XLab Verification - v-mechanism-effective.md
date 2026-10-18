@@ -4,7 +4,8 @@ title: "What makes a verification mechanism effective?"
 tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how sellable, how much it proves, and how fast it rots. Rank twelve mechanisms on four lanes, keep the set, and use it as a baseline as you learn more in Part 2 and the separate capstone."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples, plus a closed callout on the page giving each metric's five rung labels. The mechanism-sort widget then runs the rating exercise itself: twelve mechanism cards, four five-rung scales each, markers landing on four ranking lanes, sealed at the end. Do not reveal the reference map or grade against it; that comparison belongs to the separate capstone after Parts 1 and 2. A short page note after the widget says there is no key and no score, then an open question on the heuristics used. Then the Swiss-cheese section, a one-line lead-in to the evidence-taxonomies widget (five maps of the same twelve mechanisms, with per-mechanism placement panels and the strengths and limits of each map inside the widget), and three optional choice checks built from those maps."
 tags: [wip]
-duration_minutes: 40
+reading_minutes: 40
+tutor_minutes: 12
 ---
 #### Text
 content::
@@ -58,6 +59,10 @@ Rate each mechanism on four metrics; every rating drops it onto the ranking lane
 **Durability.** How fast does it decay, from technical progress, adversary adaptation, or political change? Does technical progress erode its assumptions? Can adversaries adapt around it? Does it survive political change? A high scorer works about as well in five years as today. Rungs: Leaking now, Decaying, Needs upkeep, Ages slowly, Decade-proof.
 :::
 
+#### Text
+content::
+As you go through this exercise, jot down in your notebook the heuristics you're using to judge whether a mechanism is technically feasible, politically feasible, effective, and durable.
+
 #### Widget
 source:: [[../widgets/mechanism-sort]]
 
@@ -67,7 +72,7 @@ There is no grading here, and no key. This set exists to be revised: the separat
 
 #### Question: Open
 id:: 590f109a-6299-4945-a377-286c926726ef
-content:: As you’re going through this exercise, jot down in your notebook: what were the heuristics you used to evaluate whether a verification mechanism was:
+content:: Now that you’ve gone through the exercise, look back at what you jotted down: what were the heuristics you used to evaluate whether a verification mechanism was:
 
 - Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current technical analogs?
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?

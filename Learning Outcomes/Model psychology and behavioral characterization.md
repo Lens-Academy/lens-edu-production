@@ -1,0 +1,8 @@
+---
+id: 'f56ed0e0-986b-4587-a32d-548c2660baf4'
+learning-outcome: "Read evidence from Model psychology and behavioral characterization"
+topic: "[[../Domains and Topics/5 Interpretability/Monitoring model behaviour]]"
+stage: intermediate
+tags:
+  - skill-tree-placeholder
+---

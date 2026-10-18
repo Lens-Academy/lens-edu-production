@@ -121,7 +121,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -141,11 +141,11 @@ Your navigator isn't in every room, so:
 
 - **What happens between rooms?** Everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on, and waits. A sentence or two is plenty.
 - **Do I have to share?** No. Nobody is made to speak, and a silent pause is a normal outcome. If your navigator invites you by name and you would rather not, “pass” is a complete answer.
-- **I can’t remember what we decided.** Read the last line your scribe wrote in your room’s table.
+- **I cannot remember what we decided.** Read the last line your scribe wrote in your room’s table.
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
+- **I don't understand the question or a claim.** Ask [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
 - **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech
@@ -156,7 +156,7 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **{{KEEP ONLY IF this course uses accountability buddies, otherwise delete this bullet. How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.}}
+- **{{KEEP ONLY IF this course uses accountability buddies, otherwise delete this bullet. How do accountability buddies work?** Buddy groups are formed in the first meeting as trios or pairs. For the rest of the course, you check in with each other before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind. If your accountability buddies are no longer taking the course, ask your navigator to place you with a new group.}}
 
 # Tab: Navigator Run-Sheet
 
@@ -207,7 +207,7 @@ source:: [[shared/Navigator Run-Sheet - Zoom breakout timer]]
 
 
 1. Ask for "one thing I'm taking away" from anyone who wants it (~10 sec each; a few voices is plenty, people have already shared between rooms).
-2. **Next-unit heads-up: {{remind them of next unit's reading and any action-plan step}}.**
+2. **Remind them to send their plan for the next unit to their accountability buddy{{, and any other action-plan step}}.**
 3. **End on time.** Then say the meeting **stays open** for anyone who wants to keep talking; stay and facilitate, or say goodbye and leave (they can keep going without you).
 
 

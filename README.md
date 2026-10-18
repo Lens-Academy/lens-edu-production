@@ -55,7 +55,7 @@ id:: <uuid>
 content::
 Lorum Ipsum
 
-# Learning Outcome: Define Intelligence
+# Learning Outcome: Intelligence as prediction plus steering
 source:: ![[../Learning Outcomes/Intelligence as prediction plus steering]]
 
 # Lens:

@@ -4,7 +4,8 @@ title: "Hardware"
 tldr: "A lab hands you 20,000 valid cryptographic tokens and says they prove the cluster complied with the pause. Before reading anything, judge seven conclusions those tokens might support. You will grade your own answers at the end of the hardware section."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opening lens of section 2.1. The page sets the scenario (a laboratory's 20,000 valid attestation tokens) and the three-point scale, then the claim-ledger widget carries the opening puzzle: seven proposed conclusions, each judged supported / possibly supported if the system was designed to measure it / unsupported by attestation alone, kept with a button that flips the ledger to a read-only record the learner returns to in lesson 2.1.8. The widget is ungraded and shows no answer key; do not give the answers, they are revealed in lesson 2.1.8. The page text around it holds the scenario and scale above the widget, and below it the reminder to keep the answers, the central question, the core-section objectives, the function map table, the repeated method, the readings list and the source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
 tags: []
-duration_minutes: 20
+reading_minutes: 8
+tutor_minutes: 0
 ---
 #### Text
 content::
@@ -12,7 +13,7 @@ content::
 
 \#### Before you begin
 
-**Core time:** 165–180 minutes, split into two sessions.
+**Core time:** about 195 minutes, split into two sessions.
 **Optional: Technical extension** 35–45 minutes.
 
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
@@ -65,9 +66,7 @@ The rest of this section uses one repeated method:
 - **Rahman and Tajdari:** telemetry results, adversarial tests, hardware assumptions, and limitations.
 - **Baker et al., Six Layers:** on-chip, off-chip digital, and off-chip analog verification.
 
-:::callout {title="Sources" tone="neutral" collapse="closed"}
-H. Birkholz et al., [“Remote ATtestation procedureS (RATS) Architecture”](https://www.rfc-editor.org/rfc/rfc9334.html), IETF RFC 9334, January 2023. NVIDIA, “Architecture Overview,” [*Attestation Quick Start Guide*](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html), documentation current August 1, 2026: first-party implementation documentation, not an independent adversarial evaluation. T. O’Gara et al., “Hardware-Enabled Mechanisms for Verifying Responsible AI Development,” [arXiv:2505.03742](https://arxiv.org/abs/2505.03742), 2025. Robi Rahman and Sabiha Tajdari, “Detecting Hidden ML Training With Zero-Overhead Telemetry,” [arXiv:2606.19262](https://arxiv.org/abs/2606.19262), June 2026: a preprint, presented as a component demonstration. Baker et al., “Verifying International Agreements on AI: Six Layers of Verification,” [arXiv:2507.15916](https://arxiv.org/abs/2507.15916), 2025.
-:::
+
 
 #### Text
 content::

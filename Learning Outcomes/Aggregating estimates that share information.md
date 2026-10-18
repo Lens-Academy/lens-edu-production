@@ -1,8 +1,14 @@
 ---
 id: 'bb7a45a3-3a37-4741-b102-9c654bed4164'
 learning-outcome: Given several estimates of the same quantity, determine how much the estimators' information overlaps, state whether the correct aggregate lies inside or outside the range of the individual estimates, and explain why averaging is the right move under one overlap structure and the wrong move under another.
-domain: none
+topic: none
 stage: intermediate
+eval-results:
+  content-sha: 1b865cb2
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: b39c1796-cc71-4996-9deb-a896cc1baa53
@@ -25,7 +31,6 @@ Part 2. Now suppose instead that all three attended the same briefing, saw the s
 
 Part 3. The regulator has the three numbers but does not know which of the two worlds she is in. What could she ask the engineers, without asking them to re-forecast, that would tell her?
 
-max-time:: 20:00
 
 assessment-instructions:: The student has completed a module on forecasting method, including aggregation and the extremization result. The chemical-plant setting is unfamiliar so a student who memorised the coin example from the reading cannot simply restate it; they must recognise the same structure in new clothes.
 

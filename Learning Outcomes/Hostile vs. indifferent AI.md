@@ -21,25 +21,42 @@ eval-results:
 
 ## Test:
 id:: 64b45784-164e-4744-bc73-347d9604e9b0
-#### Question
+#### Question: Open
 id:: b97cdeb0-5619-4e8c-a8ed-fdacfcf58cfd
 content::
-A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then addresses the rebuttal that we could just "keep AI in a box" or restrict its capabilities, and explains why indifference combined with sufficient capability is all that's needed for catastrophe.
+A common misconception about AI risk is that the danger comes from an AI that actively hates or rebels against humanity. Chapter 5 reframes this: the real concern is an AI that is simply indifferent to us. Because human-compatible goals are a tiny sliver of the space of all possible goals, a superintelligent AI would almost certainly not share our values. Not out of malice, but because there was never any reason it would. The chapter then works through the hopes that an indifferent AI might still spare us (that we would be useful to it, that it would trade with us, that it would need us, that it would keep us as pets, or that it would simply leave us alone) and shows why each one fails.
 
 Why does the chapter argue that an AI does not need to be hostile toward humans in order to cause human extinction? Explain why indifference is sufficient.
 
 assessment-instructions::
-Score according to the following rubric.
-**1** — Conflates hostile and indifferent AI, or claims the danger is that AI will "turn evil" or "rebel." *Example: "AI will want to destroy humanity because it sees us as a threat."*
+Score out of 100. Pick the level that best describes the answer as a whole, then a score inside that level's range: near the top if the answer fully reaches the level, near the bottom if it only just does. Judge what the answer shows the learner understands, not only what it spells out: a correct extension that depends on a point shows that point is understood, even if the answer states it briefly. An extension shows nothing about points it does not depend on.
 
-**2** — Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
+**Level 1 (0-20):** Conflates hostile and indifferent AI, or claims the danger is that AI will "turn evil" or "rebel." *Example: "AI will want to destroy humanity because it sees us as a threat."*
 
-**3** — Correctly explains the core distinction with chapter evidence: a superintelligent AI pursuing non-human goals would consume or redirect resources humans need, not because it wants to harm us but because our survival isn't part of its objectives. It is like a construction project that destroys an anthill: not out of malice but out of indifference. *Example: "The chapter says the AI wouldn't hate us. It just wouldn't care. If it's optimizing for something that has nothing to do with human welfare, it would use up the atoms and energy we need to survive. We'd be like ants in the path of a bulldozer: not targeted, just irrelevant."*
+**Level 2 (21-40):** Understands abstractly that AI might not share human values, but cannot explain why indifference alone is dangerous. *Example: "The AI wouldn't care about us, but I'm not sure why that's as bad as it being hostile."*
 
-**4** — As above, plus connects to the rebuttals structure: addresses why proposed safeguards (boxing, restrictions, shutoff switches) fail against a sufficiently intelligent indifferent agent, because the agent has instrumental reasons to circumvent them even without hostility. *Example: Adds "The chapter also addresses the 'just keep it in a box' idea. Even an indifferent AI would have reason to escape constraints. Not because it's malicious, but because restrictions interfere with whatever goal it is pursuing. A sufficiently smart system would find ways around our safeguards as a side effect of competent goal pursuit."*
+**Level 3 (41-65):** Sees that an indifferent AI could harm us as a side effect of pursuing something else, but does not explain how (what it would take or change that we need), or does not say why that is enough on its own. *Example: "It doesn't need to hate us. It could hurt us by accident while it's busy doing something else."*
 
-**5** — As above, plus articulates why indifference makes the problem harder, not easier: hostility would at least give us a clear adversary to defend against, whereas indifference means the AI has no reason to negotiate, compromise, or even notice us, which makes alignment the only viable strategy rather than containment or deterrence. *Example: Adds "Counterintuitively, indifference is worse than hostility. A hostile AI is at least an adversary you can try to reason with or defend against. An indifferent AI has no reason to negotiate or spare you. You're just not a factor in its calculations. That's why the chapter says containment won't work and alignment is the only real path forward. You can't deter something that doesn't consider you relevant."*
+**Level 4 (66-85):** Explains both: a superintelligent AI pursuing goals that have nothing to do with us would use or reshape the matter, energy and space we need to survive, not to harm us but because our survival is not part of what it is aiming at; and since nothing in its goals gives it a reason to preserve us, indifference is enough. An analogy (a construction project and an anthill, a bulldozer and ants) is one way to say this and is not needed. Explaining why one particular hope fails (that we would be useful to it, it would trade with us, it would need us, keep us as pets, or leave us alone) belongs to the same part and is not needed for it. An answer that does both has answered the question in full, and without an extension it stays in this range. *Example: "The chapter says the AI wouldn't hate us. It just wouldn't care. If it's optimizing for something that has nothing to do with human welfare, it would use up the atoms and energy we need to survive. We'd be like ants in the path of a bulldozer: not targeted, just irrelevant."*
 
+**Level 5 (86-100):** All of level 4, plus a correct extension beyond what the question asks. An extension is a further point with its own reasoning; restating the points above in more precise or technical terms is still level 4, and so is explaining why one particular hope fails. Two that fit: what all the hopes of being spared have in common (each needs the AI to choose our survival, which a goal unrelated to us gives it no reason to do); or why indifference is harder to deal with than hostility (a hostile AI is an adversary we could reason with, deter or defend against, while an indifferent one has no reason to negotiate or even notice us, so only its actually caring about human survival would spare us). Another extension of the same substance counts equally. Within this range the score reflects the whole answer: near the top only when the level 4 points and the extension are both well developed, and near the bottom when a strong extension rests on a thin base. *Example: "...That's why every hope in the chapter, from being useful to being kept as pets, fails: sparing us would only happen if the AI wanted it to. You can't bargain with something that doesn't consider you relevant."*
+
+force-feedback:: first
+feedback-instructions:: Respond to the argument the learner actually made, and credit only what the answer says: do not attribute to them a point they did not make. Aim the reply at the idea they are missing, not at the score: frame the push as something about the material, never as what would earn more points. If they ask about their score, explain it by what the answer showed and what it left out, without naming levels or bands.
+
+Open on the strongest thing in their answer and why it holds, in one sentence. If the answer goes beyond the question while one of its two parts (how an indifferent AI would harm us, why that is enough on its own) is only asserted, that part is the push: deepening the base comes before going further. Otherwise, push once, chosen by where they stopped:
+
+- If they described an AI that hates or rebels against us, ask what an AI pursuing some unrelated goal would do with the matter and energy around it, if it neither liked nor disliked us.
+- If they said it would not share our values but not why that is dangerous, ask what happens to an anthill when a road is built through it, and what the builders felt about the ants.
+- If they said it could harm us as a side effect but not how, or not why nothing would stop it, ask what it would actually take or change that we need, and what in its goals would make it hold back.
+- If they argued that one of the hopes would save us (that we would be useful, trade with it, be needed, be kept as pets or be left alone), ask what in the AI's own goals would make it choose that over the cheaper alternative.
+- If they answered both parts and went no further, the moves left go beyond the question: what all the hopes of being spared have in common, or why indifference is harder to deal with than hostility. Ask about whichever their answer comes closest to.
+
+If they made one of these moves, or another of the same substance, with both parts solid, say so plainly in a sentence or two after the opening, without walking back through the parts they got right, and stop, with no follow-up question: inventing a further push would be false, so this reply can be shorter than the length below.
+
+At most one follow-up question. No generic praise, and do not recite the rubric back to them.
+
+Response length: 100 to 160 words. Short paragraphs. No lists.
 
 # Suggested Lenses:
 ## Lens:

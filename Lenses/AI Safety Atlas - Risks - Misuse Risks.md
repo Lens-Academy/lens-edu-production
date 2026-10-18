@@ -8,6 +8,7 @@ title: "Misuse Risks"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Risks - Misuse Risks|Misuse Risks]]
 
 #### Text

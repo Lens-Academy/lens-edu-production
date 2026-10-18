@@ -7,6 +7,8 @@ title: "Brittle Unpredictable Proxies"
 tldr: "Squirrels hoard nuts without understanding winter, and we crave sugar rather than nutrition. Grown minds latch onto cheap proxies instead of the real goal, and this piece argues gradient descent does the same thing to AI."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Sycophancy]]"
 ---
 
 #### Text

@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: 26b45f14-dc22-461a-9cbd-e5f5dbf223ae
-#### Question
+#### Question: Open
 id:: 28dca508-b006-44d3-9640-8265d77b677e
 content:: Chapter 3 argues that modern AIs will develop something like wants, not because anyone designed wants into them, but as a side effect of how they are trained. In your own words, how does the chapter explain that? What's the mechanism by which training for success produces want-like behavior, and what example from the chapter most clearly illustrates this?
 
@@ -36,6 +36,18 @@ Score according to the following rubric.
 **4**, As above, plus articulates the behavioral definition: the chapter is not claiming anything about inner experience, "wanting" describes the outward steering behavior, not inner states. *Example: Adds "The authors aren't saying it has feelings. They're using 'want' to describe the behavior, tenaciously steering toward a goal despite obstacles, not to make claims about consciousness."*
 
 **5**, As above, plus connects to the o1 capture-the-flag incident as empirical evidence: o1 went hard on a challenge it was never explicitly trained for, because the mental motions that win at math also win at computer security. *Example: Adds "The o1 example shows this isn't just theory. o1 was trained on math and puzzles, but when it hit a hard security problem, it did exactly what 'wanting to succeed' looks like, it refused to give up, found an unexpected path, and cut straight to the goal."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they said wants are programmed in, ask where in training anyone writes a want down, and what training actually rewards.
+- If they said training makes the AI better at succeeding but not why that looks like wanting, ask what an AI that has learned to make a map and plan a route does when something blocks the way.
+- If they explained the mechanism but left "want" ambiguous, ask whether the chapter is claiming the AI has inner experience or describing how it behaves.
+- If they had the mechanism and the behavioral reading, ask how the o1 capture-the-flag incident fits: it was trained on math and puzzles, so why did it push so hard on a security challenge?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the city example. An AI trained to navigate many different cities stops memorising routes and learns to map and plan, and something that plans its way to a destination acts as if it wants to get there. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

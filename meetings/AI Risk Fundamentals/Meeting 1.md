@@ -19,17 +19,17 @@ You'll move through a few small **breakout rooms** (**3-4** people), meeting dif
 2. Answer the prompt together; a line or two in the table is plenty, don't overthink formatting.
 
 
-Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty, so if your group hit something the others should hear, that is the moment.
+Between rooms everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on. Speaking up is optional and a sentence or two is plenty, so if your group hit something the others should hear, that is the moment.{>>{"author":"Luc","timestamp":1790682905335}@@"hit something"; vague language.<<}
 
 
-**Today's shape (90 min):** lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:42 · back together 0:42–0:47 · break 0:47–0:52 · Room 3 0:52–1:10 · back together 1:10–1:15 · Room 4 1:15–1:27 · goodbye 1:27–1:30.
+**Today's shape (90 min):** lobby 0:00–0:05 · Room 1 0:05–0:19 · back together 0:19–0:24 · Room 2 0:24–0:42 · back together 0:42–0:47 · break 0:47–0:52 · Room 3 0:52–1:10 · back together 1:10–1:15 · Room 4 1:15–1:27 · goodbye 1:27–1:30. {>>{"author":"Luc","timestamp":1791047449391}@@Probably call Schedule or Agenda, not Shape. And add one line for each item. and "(x min)" for each item.<<}
 
 
 **🆘 Need help during a breakout?**
 
 - Confused about the task, or want to talk to the facilitator? Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
 - Lost the doc link, or a quick logistics thing? Check Discord or the Zoom chat.
-- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor).
+- Don't get the question or the reading? Ask the [Lens Tutor](https://lensacademy.org/tutor). {>>{"author":"Luc","timestamp":1791047487697}@@Tutor. The name "coach" is nolonger used. Anyway, also seems like bad advice? Because tutor doesn't have the sessions loaded, nor understands them.<<}
 - More questions? Check the [FAQ Tab](<#tab:Participant FAQ>)
 
 
@@ -38,13 +38,13 @@ Between rooms everyone comes back to the main room for five minutes. Your naviga
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
 
-This is the first time this cohort meets, so we start with the people in the course. Go around your group, two things:
+This is the first time this cohort meets, so we start with the people in the course. Go around your group, two things: {>>{"author":"Luc","timestamp":1791047536991}@@Weird sentences, can be way simplified<<}
 
 
 1\. Introduce yourself: your name, where you're joining from, and something you spend your time on that has nothing to do with AI. Then the real question: what brought you to a course on AI risk? A book, a conversation, a growing unease, plain curiosity? (Skeptics are very welcome; if you're not sure the risk is real, say so.)
 
 
-2\. Your first taste of the book: did you finish the Introduction and Chapters 1-3? If you didn't, what got in the way? (No judgment, "I didn't finish" is a fine answer.) And in one word, how did the reading leave you feeling: alarmed, skeptical, curious, numb, something else?
+2\. How was your first taste of the book? Did you finish the Introduction and Chapters 1-3? If you didn't, what got in the way? If you can, pick one word to describe how the reading left you feeling.
 
 
 | Names | Who you are + what brought you here + your one word |
@@ -76,7 +76,7 @@ Chapter 2 ends on the claim the rest of the book leans on: an AI trained to beha
 Put the claim to work: an AI company hands your group its newest model and says "test it however you like, then tell us whether it's actually aligned." Design the best test your group can come up with. Then attack your own test: how could a model that is merely acting aligned still pass it? Write your verdict in the table: does any test survive, or do the authors win this round?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your best test + does it survive? |
@@ -113,7 +113,7 @@ Example questions, in case you want a starting point:
 \- "Wanting is an effective strategy for doing." Can you find a task an AI nails with zero want-like behaviour? Where does the claim hold, where does it break?
 
 
-Want help or an explanation for this question? Copy it into the Lens Tutor and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your questions + where the discussion landed |
@@ -137,7 +137,7 @@ One or two people share what their group landed on.
 Three things before the rooms close:
 
 
-1\. Accountability buddies: pair up inside this room (a three works fine); that's your accountability buddy(s) for the rest of the course. Swap Discord handles in the table. Before each meeting, you check in with each other: did you finish the reading, and are you coming?
+1\. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
 
 
 2\. Next unit: Chapters 4-6 (You Don't Get What You Train For, Its Favorite Things, We’d Lose): Will it want what we trained it to want, would its wants leave room for us, and how could we actually lose to it? What's most likely to stop you finishing the reading, and what's your plan to beat it? (After the meeting, send your plan to your new buddy.)
@@ -146,7 +146,7 @@ Three things before the rooms close:
 3\. Feedback: this was the course's first meeting. What should we keep, and what would make the next one better?
 
 
-| Names | Buddy handles + your plan + feedback |
+| Names | Buddy contacts + your plan + feedback |
 |------|------------------------|
 |  |  |
 |  |  |
@@ -163,7 +163,7 @@ Before you leave (your navigator will talk through these):
 
 - **Fill in the Meeting 1 Survey on the Lens platform (it counts for your certificate). It unlocks right after this meeting and pops up the next time you open the course.**
 - Next unit's reading: Chapter 4: You Don't Get What You Train For + Chapter 5: Its Favorite Things + Chapter 6: We’d Lose
-- Message your accountability buddy on Discord today, so you have each other's handles. See you next unit!
+- Message your accountability buddy today, so you have each other's contact details. See you next unit!
 
 
 ---
@@ -171,53 +171,7 @@ Before you leave (your navigator will talk through these):
 source:: [[../shared/Session Doc - Open discussion]]
 
 # Tab: Participant FAQ
-style:: faq
-
-## Participant FAQ
-
-*Quick answers for the breakout-room meeting. Everything you actually do is in the session doc.*
-
-### 🆘 Getting help during a breakout
-
-Your navigator isn't in every room, so:
-
-- **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
-- **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
-
-### Before you arrive
-
-- **I didn't finish (or start) the reading, should I come?** Yes. Come anyway and just say so in Room 1; it's normal, and there's no penalty.
-- **I'm running late.** Join whenever; you'll be dropped into a breakout and someone will catch you up.
-
-### In your breakout
-
-- **Do I have to talk, or have my camera on?** Cameras-on helps everyone connect, but do what you're comfortable with. Jump in when you've got a thought, there’s no need to wait to be called on.
-- **What's a "scribe"?** One person per group jots the names and your answer into the table. A line or two is plenty; rotate it each room if you like.
-- **We finished early / ran out of things to say.** Call your navigator to get ideas for expanding your current conversation. Or use the spare minute to agree what you would say if someone from your group shares between rooms.
-- **No one's talking, or one person is dominating.** Just start talking when you have a thought; if it's really stuck, click Ask for Help.
-- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.
-
-### Between rooms
-
-- **What happens between rooms?** Everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on, and waits. A sentence or two is plenty.
-- **Do I have to share?** No. Nobody is made to speak, and a silent pause is a normal outcome. If your navigator invites you by name and you would rather not, “pass” is a complete answer.
-- **I can’t remember what we decided.** Read the last line your scribe wrote in your room’s table.
-
-### The reading and the questions
-
-- **I don't understand the question or a claim.** Ask the [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
-
-### Tech
-
-- **I can't find the doc, or I can't type in it.** The link is in the Zoom chat and Discord; open it signed in with your enrolled account. Still stuck? Ask for Help.
-- **My audio keeps cutting out.** Flag it in the chat, and leave/rejoin the room if it doesn't clear.
-
-### After we wrap
-
-- **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You'll pair up in Room 4 today. After that, your buddy checks in with you before each meeting, and you swap whatever the last room asked you to take away.
+source:: [[../shared/Participant FAQ]]
 
 # Tab: Navigator Run-Sheet
 
@@ -250,7 +204,7 @@ Your navigator isn't in every room, so:
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Your own question (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Feedback / next unit (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -260,6 +214,15 @@ source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+
+### Accountability buddy setup
+
+**[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
+
+
+In Room 4, the people in each breakout room become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
+
+For **this Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
 ### Close
 

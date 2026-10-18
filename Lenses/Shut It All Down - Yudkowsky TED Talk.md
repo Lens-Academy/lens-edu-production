@@ -1,6 +1,6 @@
 ---
 id: 'db5e145e-a10a-4fae-b795-8d255b760e01'
-title: "Will Superintelligent AI End the World? (Yudkowsky, TED)"
+title: "Will Superintelligent AI End the World?"
 reading_minutes: 11
 tutor_minutes: 5
 # tldr: "What if the answer to 'how do we make superintelligence safe?' is 'we don't build it yet'? In this short TED talk, Eliezer Yudkowsky argues we get one critical try at alignment and are nowhere near ready, and calls for an enforced international ban on large AI training runs."
@@ -16,6 +16,10 @@ Eliezer Yudkowsky, who started working on AI alignment in 2001, makes the case f
 
 #### Video
 source:: [[../video_transcripts/ted-will-superintelligent-ai-end-the-world-eliezer-yudkowsky]]
+
+#### Text
+content::
+Here is the [List of Lethalities](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities) referenced in the video.
 
 #### Text
 content::

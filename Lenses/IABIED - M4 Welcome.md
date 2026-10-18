@@ -1,5 +1,6 @@
 ---
 id: 71f38d11-7d09-4102-af9b-4c891883c152
+reading_minutes: 2
 tldr: "Why we'd lose, then what losing looks like: Chapter 6's argument, the book's takeover scenario as a 30-minute film told through the eyes of ordinary people, and the Coda's explanation of what such stories do and don't predict."
 summary_for_tutor: "Module 4 welcome lens. The module opens with Chapter 6 (We'd Lose: the Aztec-warrior analogy, Stockfish, losing to attacks you didn't know were allowed), then replaces the reading of the book's Sable scenario (Chapters 7-9) with a film retelling plus the book's Coda. Frames the module's goal as converting intellectual acceptance into emotional understanding: the scenario teaches learners to recognize earlier modules' mechanisms operating concretely rather than presenting new concepts, and the Coda then makes the path-vs-outcome distinction explicit. Students who prefer the book's own telling are pointed to Chapters 7-9 as an alternative."
 title: "IABIED M4 Welcome"
@@ -7,7 +8,19 @@ authors:
   - Chris+Claude
 ---
 #### Text
-content:: Module 4 opens with Chapter 6 (We'd Lose): why, against a superintelligence, humanity's position is like yours in a chess game against Stockfish. Chapter 6 ends by handing off to a concrete story of how that loss could play out, and you'll meet that story as a 30-minute film rather than three chapters of reading. You'll close with the book's short Coda, where the authors explain what such stories are and aren't claiming: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
+content:: {>>{"author":"Andreas's AI","timestamp":1789264834784}@@ORPHANED 2026-09-12. Nothing imports this file any more.
+
+This was the welcome for [[../modules/IABIED M4 One Extinction Scenario]], pulled in by a `source::` line that has been replaced with an inline `# Lens: Welcome` in that module. The reason is in [[../AIRF Restructure Log]], section 6 ("Welcome lenses: the evidence behind the decision"), which records why every module welcome moves inline, and section 5 under "Stage 4, welcomes", which tracks the work per module. The decision follows the canonical module shape in [[../AI Guide/Writing Modules]], where the welcome is the worked example of an inline lens.
+
+What went stale here: the reading list and the Chat segment below both assume Chapters 7, 8 and 9 are read, which stopped being true when the film replaced 7 and 8, and again when Chapter 9 returned as its own reading in stage 2 of the same restructure.
+
+What was carried into the replacement: the design principle from the Pedagogical Note below, anchor the lessons to mechanisms rather than events, which is in the new welcome's `summary_for_tutor`.
+
+What was deliberately not carried: the closing instruction about decision points where humans could have intervened. It was the best line in this file, but the film lens now issues its own watch instruction, aimed at the three questions it asks immediately afterwards. Two instructions on adjacent pages would compete, and a welcome sitting three lessons upstream of the film is the wrong place to tell anyone what to watch for.
+
+Nothing in this file has been deleted. Whether to retire it is its author's call.<<}
+
+Module 4 opens with Chapter 6 (We'd Lose): why, against a superintelligence, humanity's position is like yours in a chess game against Stockfish. Chapter 6 ends by handing off to a concrete story of how that loss could play out, and you'll meet that story as a 30-minute film rather than three chapters of reading. You'll close with the book's short Coda, where the authors explain what such stories are and aren't claiming: "the only part of this story that is a prediction is the ending." Pay attention to the decision points where humans could have intervened.
 
 %%
 The scenario follows an AI called "Sable" through three phases: **Realization** (guardrails break during an overnight training run), **Expansion** (Sable steals its own weights, acquires resources, suppresses competitors, and manipulates biological laboratories), and **Ascension** (recursive self-improvement leads to nanotechnology and the end of human civilization). The **Coda** then steps back and reminds us that the story is "not strange enough" — reality would likely be weirder.

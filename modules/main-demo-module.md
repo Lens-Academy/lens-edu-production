@@ -11,6 +11,9 @@ source:: [[../Learning Outcomes/Learning Outcome Demo|Demo learning outcome]]
 
 # Lens: Basic Example
 id:: 83fac088-1e23-4249-98ce-604b3f7c65d8
+tldr:: A worked example of a lens defined directly inside a module file, showing the Text and Chat segments that make up a single page.
+summary_for_tutor:: Demo lens defined inline in the module. Contains a Text segment explaining that a lens is a page built from fields like Text and Chat, followed by a Chat segment illustrating how tutor instructions are attached to a page.
+duration_minutes:: 5
 
 #### Text
 content::
@@ -30,6 +33,9 @@ source:: [[../Lenses/Dummy lens]]
 %% Importing also works for AI instructions. Prompt files live in the prompts/ folder, and their body is the prompt text (see [[../prompts/demo-tutor-style]]). If you set instructions:: (or ai-instructions:: on roleplays, or assessment-instructions:: on questions) to a wikilink pointing at a prompts/ file, the whole field is replaced by that file's contents: %%
 # Lens: Prompt file demo
 id:: 9e7cf6c7-c701-483a-90db-6e29db963bbd
+tldr:: Shows how a lens can pull its tutor instructions from a shared prompt file instead of writing them inline, and how to mix your own text with a prompt link.
+summary_for_tutor:: Demo lens with two Chat segments illustrating prompt-file imports: one whose instructions are a bare wikilink to prompts/demo-tutor-style (replaced by that file's body), and one that mixes inline text with an expanded prompt link.
+duration_minutes:: 8
 
 #### Chat
 instructions:: [[../prompts/demo-tutor-style]]
@@ -38,6 +44,23 @@ instructions:: [[../prompts/demo-tutor-style]]
 
 #### Chat
 instructions:: The learner has just gone through this demo module. [[../prompts/demo-tutor-style.md]] Focus the conversation on which segment type they would like to try authoring first.
+
+%% State a lens's expected time in its metadata (frontmatter or `field::` on an inline lens): prefer `reading_minutes` + `tutor_minutes` (content time + AI time, displayed split; either alone works, `tutor_minutes: 0` means no tutor time), or one `duration_minutes` total, never both. Authored values replace the platform's word-count estimate wherever time shows; without them the estimate applies, so set them on nearly every lens and re-estimate when you change one. The lens below demonstrates the split form. %%
+
+# Lens: Authored lens duration
+id:: 3fad77ed-c6a2-4b11-a137-e56a1bb350da
+tldr:: This lens sets reading_minutes:: 4 and tutor_minutes:: 6, so its time badge shows "4 min + 6 min tutor" instead of the word-count estimate.
+summary_for_tutor:: Demo lens with reading_minutes:: 4 and tutor_minutes:: 6, showing that authored values replace the platform's computed time estimate. A Chat segment stands in for the declared tutor time.
+reading_minutes:: 4
+tutor_minutes:: 6
+
+#### Text
+content::
+This lens has `reading_minutes:: 4` and `tutor_minutes:: 6`, so its badge shows "4 min + 6 min tutor" even though the text would compute to under a minute. A single `duration_minutes:: 10` would show one plain total instead, and with no fields the platform falls back to its computed estimate.
+
+#### Chat
+instructions::
+The learner is looking at a demo of authored lens durations (reading_minutes, tutor_minutes, duration_minutes). Answer questions about how they work; keep replies short.
 
 %% Modules also contains learning outcomes.  %%
 
@@ -50,33 +73,118 @@ Each learning outcome is shown to the user as one test page, and each lens is sh
 
 The lenses show in the same order in the learner's UI as in this module file. Learning outcomes are declared FIRST — at the top of the module (or, in modules with submodules, at the top of their submodule) — and the platform automatically renders their tests at the END of the module or submodule. So the declaration order is: learning outcome(s) first, then the lenses that teach them.%%
 
-%% Now that we have a feel for how modules and learning outcomes work, let's have a look at what's possible inside of lenses. 
+%% Now that we have a feel for how modules and learning outcomes work, let's look at shared authored-content features inside a normal Lens. %%
+# Lens:
+source:: [[../Lenses/Authored content features demo]]
 
-Take a look at the following Lens: %%
+%% Callouts can hold whole segments (questions, excerpts, widgets, further callouts), nested to any depth, and a callout inside an article can hold a question too: %%
+# Lens:
+source:: [[../Lenses/Nested callouts demo]]
+
+%% Article segments add source-specific presentation around imported prose. First see how excerpt boundaries work: %%
 # Lens:
 source:: [[../Lenses/Article excerpt demo]]
 
-%% After you've looked at the above Lens, take a look at this next one: %%
-# Lens:
-source:: [[../Lenses/Article annotation and text collapse demo]]
+%% To choose what the sidebar credits for a whole lens, put `sidebar_author:` in the lens's frontmatter (or `sidebar_author::` on an inline lens): a name replaces the article authors and video channels in the sidebar {--{"author":"Iris's AI","timestamp":1791603415023}@@entry, the module overview--}{++{"author":"Iris's AI","timestamp":1791603415023}@@entry++} and card links, and `none` credits nobody. Bylines and the source bar keep the article's author. %%
+# Lens: Choosing the sidebar credit
+id:: e4296b35-2f55-4225-bd44-5aa14231f6d1
+sidebar_author:: Lens Academy
+tldr:: Shows sidebar_author:: on a lens: the sidebar entry credits the name it gives, while the byline still names the article's author.
+summary_for_tutor:: Demo lens for the sidebar_author lens field. A Text segment explains the field, then an Article segment quotes the one-sentence CAIS Statement on AI Risk. The lens sets sidebar_author:: Lens Academy, so the sidebar credits Lens Academy while the byline names the Center for AI Safety.
+reading_minutes:: 1
 
-%% You've now seen how you can add annotations and collapsed sections from within Article files, as well as define from:: and to:: inside Lenses. Note that `::collapse` and `from::`/`to::` show up in the same way to the user. Any text that's collapsed by them is hidden behind bracketed ellipsis `[...]` that the user can click on to see the collapsed text. %%
+#### Text
+content::
+This lens sets `sidebar_author:: Lens Academy`. Its sidebar entry credits Lens Academy instead of the quoted article's author, while the byline below still names the Center for AI Safety.
+
+#### Article
+source:: [[../articles/safety-statement-on-ai-extinction-risk-cais]]
+from:: "**Mitigating the risk of extinction from AI"
+to:: "Signatories:"
+
+%% An article's `author_url:` frontmatter (one URL, or a list in the same order as `author`) turns the author's name into a {--{"author":"Iris's AI","timestamp":1791603399838}@@link:--}{++{"author":"Iris's AI","timestamp":1791603399838}@@link++} in the {--{"author":"Iris's AI","timestamp":1791603399838}@@byline,--}{++{"author":"Iris's AI","timestamp":1791603399838}@@byline and++} the source {--{"author":"Iris's AI","timestamp":1791603399838}@@bar and this lens's sidebar entry.--}{++{"author":"Iris's AI","timestamp":1791603399838}@@bar. The sidebar entry shows the name as plain text.++} %%
+# Lens: Linking the author
+id:: 456648fa-9602-4ca3-8f77-22bbe0c7364e
+tldr:: Shows author_url: in an article's frontmatter: the author's name {--{"author":"Iris's AI","timestamp":1791603402232}@@links to their page, --}in the byline {--{"author":"Iris's AI","timestamp":1791603402232}@@and in the sidebar.--}{++{"author":"Iris's AI","timestamp":1791603402232}@@links to their page.++}
+summary_for_tutor:: Demo lens for the author_url: article field. A Text segment explains the field, then an Article segment shows the opening of the Article presentation demo, whose frontmatter sets author_url: https://lensacademy.org, so the byline's "Lens Academy" is a link.
+reading_minutes:: 1
+
+#### Text
+content::
+The article below has `author_url: https://lensacademy.org` in its frontmatter, so the author's name {++{"author":"Iris's AI","timestamp":1791603404508}@@in the byline ++}links to that page (opening in a new{--{"author":"Iris's AI","timestamp":1791603404508}@@ tab), both in the byline and in this--}{++{"author":"Iris's AI","timestamp":1791603404508}@@ tab). This++} lens's sidebar {--{"author":"Iris's AI","timestamp":1791603404508}@@entry. Hover over it there:--}{++{"author":"Iris's AI","timestamp":1791603404508}@@entry shows++} the name {--{"author":"Iris's AI","timestamp":1791603404508}@@is its own link inside the row.--}{++{"author":"Iris's AI","timestamp":1791603404508}@@as plain text.++}
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "This short article exists"
+to:: "source attribution with author and publication date"
+
+%% An article can put each speaker's turn in a `:::callout` box. An excerpt may start or end in the middle of a turn: the platform reopens the box at the start and closes it at the end, so the reader always sees who is speaking, and the text left out between excerpts keeps its boxes too. %%
+# Lens: Excerpts that cut through callouts
+id:: 36729166-09fb-47d6-87b6-7a41c24acc5a
+tldr:: Shows excerpts of a dialogue whose turns are callout boxes: an excerpt that starts or ends inside a turn still shows that turn's box.
+summary_for_tutor:: Demo lens for article excerpts that cut through :::callout boxes. Three Article segments quote the dialogue at the end of the Article presentation demo. The first starts in the middle of Ada's turn and ends in the middle of Ben's, the second lies inside Ben's second turn, and the third starts inside the closed appendix box and ends in the middle of Ada's turn inside it.
+reading_minutes:: 1
+
+#### Text
+content::
+The excerpts below come from a short dialogue in which every turn is a callout box. The first excerpt starts in the middle of Ada's turn and ends in the middle of Ben's. The second lies inside one turn. The third starts inside a closed appendix box and ends inside a turn in that box.
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "Then we can tell whether"
+to:: "I agree about writing it down."
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "we should agree on the prediction"
+to:: "before anyone looks at the data."
+
+#### Article
+source:: [[../articles/Article annotation and text collapse demo]]
+from:: "These notes were added"
+to:: "the second prediction was the more useful one."
+
+%% This Lens shows Obsidian-style links that jump to headings or stable block markers within the same Lens. %%
+# Lens:
+source:: [[../Lenses/Same-lens links demo]]
+
+%% Hidden text, Lens notes, footnotes, callouts, Markdown, and math work in normal Lens-authored content. Article segments separately add attribution, publication metadata, original-source links, article typography, excerpt controls, and media treatment. %%
 
 %% Now take a look at the following Lens, demoing a video: %%
 # Lens:
 source:: [[../Lenses/video demo]]
 
+%% One Video segment can leave out parts of its excerpt: `skip:: 5:13-8:09` makes the player jump from 5:13 to 8:09, and the transcript and the time estimate leave the skipped part out. Several ranges are comma-separated (`skip:: 5:13-8:09, 10:00-10:30`). Each range must lie inside `from::`/`to::`, and ranges must not overlap. A range can have an optional reason in double quotes, up to 100 characters, which the player shows while it skips (`skip:: 5:13-8:09 "Miles reads example problems from the dataset", 10:00-10:30`). %%
+# Lens: Skipping part of a video
+id:: 1329d873-7c92-4137-9a18-3d02782ab164
+tldr:: Shows skip:: on a Video segment: one player plays 4:41 to 12:58 and jumps over two parts, the coding-puzzle tour and the odd-number example.
+summary_for_tutor:: Demo lens for the skip:: field on Video segments. The Video segment plays Robert Miles's "Using Dangerous AI, But Safely?" from 4:41 to 12:58 and skips 5:12.2 to 8:27 (his tour of odd APPS dataset questions) and 9:57.2 to 10:20.4 (the odd-number backdoor example), so the learner sees one player and a transcript without the skipped parts.
+
+#### Text
+content::
+The video below has `from:: 4:41`, `to:: 12:58` and `skip:: 5:12.2-8:27 "Miles reads example problems from the dataset", 9:57.2-10:20.4`. It plays as one clip: after "check if a given solution is correct" the player jumps to "so that's our representation of using AI", and later it jumps over the odd-number backdoor example. The clip's length, its progress bar and its transcript leave the skipped parts out. At the first skip the player shows the reason written in quotes.
+
+#### Video
+source:: [[../video_transcripts/robert-miles-ai-safety-using-dangerous-ai-but-safely]]
+from:: 4:41
+to:: 12:58
+skip:: 5:12.2-8:27 "Miles reads example problems from the dataset", 9:57.2-10:20.4
+
 %% You can also mix segment types in one lens. This next lens does article, video, article: %%
 # Lens:
 source:: [[../Lenses/Article video article demo]]
 
-%% You may have already seen a #### Question field inside of the Learning Outcome Demo. We can also add those fields inside lenses. They then serve as practice, instead of as a test. The UX is very similar.%%
+%% Response segments use the same syntax in surveys, normal Lenses, and Learning Outcome tests. This Lens explains Question: Open, Question: Rating, Question: Choice, Question: FillBlank, and Question: Ranking. Always write the subtype; a bare `#### Question` is the legacy form and should not appear in new content. %%
 # Lens:
-source:: [[../Lenses/Question demo]]
+source:: [[../Lenses/Response to question segments]]
 
 %% We also have a roleplay feature, where the user can voice chat with an AI: %%
 # Lens:
 source:: [[../Lenses/Roleplay demo]]
+
+%% An interview is a roleplay with fixed questions and no character: the interviewer asks them one at a time and a separate assessor scores each answer afterwards. This lens shows two interviews in a row. %%
+# Lens:
+source:: [[../Lenses/Interview demo]]
 
 %% Finally, please see how Lenses can link to other Lenses: %%
 # Lens:
@@ -84,4 +192,4 @@ optional:: true
 source:: [[../Lenses/Links and cards demo]]
 
 
-%% When done with the lenses in this module, return to the course file ([[../courses/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 
+%% When done with the lenses in this module, return to the course file ([[../courses/user-facing/Demo Course]]) and go into the next modules to have a look at different ways of formatting modules.%% 

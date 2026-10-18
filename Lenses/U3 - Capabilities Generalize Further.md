@@ -47,7 +47,7 @@ The reading is written for people already in the field. Its footnotes and asides
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 4fa5f086-266c-4db2-be77-b157ed9aff94
 content::
 \## Find a case you have seen
@@ -107,7 +107,6 @@ Do not grade. Do not score. Do not praise.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]

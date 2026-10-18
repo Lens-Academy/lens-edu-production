@@ -46,7 +46,7 @@ The authors' section 5 answers the obvious objections, and Appendix A is the tre
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 
-#### Question
+#### Question: Open
 id:: 470aff2f-99ff-4398-beb4-3faa7cd3eaf1
 content::
 \## Your turn first
@@ -82,7 +82,6 @@ Do not grade. Do not score. Do not praise. Never say whether the treaty is reali
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/scher-an-international-agreement-to-prevent-the-premature-creation-of-artificial-superintelligence]]

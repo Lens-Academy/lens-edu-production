@@ -8,6 +8,7 @@ title: "Systemic Challenges"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Governance - Systemic Challenges|Systemic Challenges]]
 
 #### Text

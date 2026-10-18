@@ -8,6 +8,7 @@ tutor_minutes: 10
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Multi Objective Generalization|Multi Objective Generalization]]
 
 #### Text

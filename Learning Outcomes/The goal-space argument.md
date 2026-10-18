@@ -21,7 +21,7 @@ eval-results:
 
 ## Test:
 id:: 10dd3907-2bae-4eee-9985-fe1a6506f5b3
-#### Question
+#### Question: Open
 id:: 8d3c65bc-69e4-489b-b221-8dfe883620b6
 content::
 Chapter 5 opens with an allegory about an alien civilization obsessed with the "correct" number of stones in their nests. A young alien argues that most species in the universe would not share this value, and that getting smarter wouldn't change that. The text then applies this same logic to AI: most possible goal-sets for a superintelligent AI would not include building a future full of happy, free people.
@@ -39,6 +39,18 @@ Score according to the following rubric.
 **4** — As above, plus articulates the direction-agnostic intelligence point: intelligence is an optimization engine that amplifies whatever goals the system has, without selecting for any particular goals. *Example: Adds "Intelligence is direction-agnostic: it's like a powerful engine that goes wherever the steering wheel points. A smarter AI is better at achieving its goals, but 'smarter' doesn't mean 'more aligned with humans.' That's the whole point of the alien girl's argument."*
 
 **5** — As above, plus connects the goal-space argument to the chapter's broader stakes: this is why the problem is so hard: it's not that we need to prevent AI from choosing bad goals, but that human-compatible goals are a needle in an astronomical haystack, and there's no known method to aim for that needle. *Example: Adds "This is what makes alignment so difficult. It's not about preventing a malicious AI: it's that building an AI whose goals happen to include human flourishing requires hitting an incredibly specific target in an enormous space, and we don't yet know how to aim. The default outcome isn't hostility; it's indifference."*
+
+force-feedback:: first
+feedback-instructions:: Respond to what the learner actually wrote. Open on the strongest thing in it, in one sentence. Then push once, chosen by where they stopped:
+
+- If they gave a general "AI is too powerful" answer, ask how many different goals an AI could in principle have, and how many of those include a future of happy, free people.
+- If they said AI might not share our values without saying why, ask what getting smarter would do to the young alien's point about the stones.
+- If they had the vast space of goals and the small target, ask whether intelligence pulls a mind toward particular goals or only makes it better at pursuing the ones it already has.
+- If they had that, ask what this means for building an AI that does share our goals: what would we need to be able to do that we cannot do yet?
+
+At full marks, just confirm briefly. Don't cite level numbers or band names (the learner sees a percentage). If asked about the score, say in plain words what the answer did and the one thing it missed. If they say they don't understand, give one concrete foothold: the stones. However clever another species became, nothing about being clever would make it care how many stones are in a nest. If they still don't attempt it, rephrase the question.
+
+One follow-up question. No generic praise, don't recite the rubric. 100 to 160 words, short paragraphs, no lists.
 
 
 # Suggested Lenses:

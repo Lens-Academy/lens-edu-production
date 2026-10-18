@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: af31e0f3
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: fail, C2: fail, C3: fail}
+  notes: {B1: "Question leans on course-internal scaffolding — an unparseable section reference that would dangle if asked at a random moment.", C2: "Pass bar requires rough timings for each phase, which the question never asks for.", C3: "Pass level hard-requires specific memorized time ranges rather than stating a concept that must be conveyed in any wording."}
+  evidence: {B1: "it makes use of three different mechanisms from §2.1 simultaneously", C2: "Correctly describes Think → Pair → Share with rough timings (1-3 min / 3-5 min / 5-10 min)", C3: "with rough timings (1-3 min / 3-5 min / 5-10 min)"}
 ---
 
 ## Test:

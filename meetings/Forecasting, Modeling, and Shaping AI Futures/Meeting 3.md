@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 Go around your group. Make sure everyone has a turn to answer the first question before the room moves on to the second.
 
-1. Did you finish the unit? How was it? If you couldn’t finish, just share that.
+1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2. Early in the unit you were asked to build a catastrophe with no villain. Nobody plans it, no accident, just ordinary systems doing what they were told.{>>{"author":"AI","timestamp":1791094775516}@@AI (mild): a definition built from fragments. Otherwise this item is a good exercise reminder: it says what the exercise was and gives people who skipped it a way in.<<} Read yours out to the rest of the room.
     - If you did not write one, build one now. Take two minutes; the group will wait.{>>{"author":"AI","timestamp":1791094776173}@@AI (mild): reassurance tags ("the group will wait", "works just as well").<<}
     - Scribe: write one line per person saying where their catastrophe starts. You will need these in the next room.
@@ -42,7 +42,7 @@ One or two people share what their group landed on.
 
 
 1. In your catastrophe, is there a point where one person could have stopped it? If yes, what would they have had to give up? Go around and let everyone answer before anyone argues.
-2. Then argue. This unit's readings disagree on where the bulk of the risk lies, and the course does not settle it. Nate Soares says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. Kulveit et al. say the hard part is between systems, where every AI does exactly what it was told, and the institutions that served people outgrew the people who they were originally created for.
+2. Then argue. This unit's readings disagree on where the bulk of the risk lies, and the course does not settle it. Nate Soares says the hard part is inside the system: it gets more capable, and the constraints we put on it do not keep up. Kulveit et al. say the hard part is between systems, where every AI does exactly what it was told, and the institutions that served people outgrew the people who they were originally created for.{>>{"author":"Andreas's AI","timestamp":1791666679420}@@Content, from participant feedback (Andreas, 2026-10-10): some participants found this an unfair account of Kulveit et al. The paper's mechanism is that the economy, culture and states serve people largely because they depend on human work and thinking, and that this weakens as AI takes over that work. "Outgrew" leaves the mechanism out. A known cost of shortening the line for time; fix in the full pass.<<}
 
 
 Which of these two scenarios does your catastrophe more closely resemble? And if you had to work on only one of them, which would you choose and why?

@@ -8,6 +8,7 @@ title: "Conclusion"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Conclusion]]
 
 #### Text

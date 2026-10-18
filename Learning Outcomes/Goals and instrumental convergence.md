@@ -1,6 +1,16 @@
 ---
 id: 9c1ac750-09cc-41fe-bff4-d78f6e9b90bb
 learning-outcome: Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence
+topic: "[[../Domains and Topics/3 Alignment/Instrumental convergence and power-seeking]]"
+stage: beginner
+eval-results:
+  content-sha: 01e4d503
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: fail, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A1: "Uses unobservable verbs 'be aware of' and 'understand' with no pinned action or object; listed verbatim as an A1 fail example in the eval corpus.", A3: "Bundles two independently attainable capabilities: awareness of the goal-development debate and understanding of instrumental convergence arguments; a learner could have either without the other."}
+  evidence: {A1: "Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence", A3: "Be aware of discussions on whether AI systems develop goals and understand the basic arguments for instrumental convergence"}
 ---
 ## Test:
 id:: 0827a593-e7b2-4875-be28-431567b3c5c6
@@ -8,7 +18,7 @@ id:: 0827a593-e7b2-4875-be28-431567b3c5c6
 id:: ee79d0bb-b298-4874-981d-38716d7f3568
 content:: Explain the argument for "instrumental convergence" in your own words: what does it claim, and why would it lead a goal-directed AI to develop drives like self-preservation? Then explain why instrumental convergence is in tension with the alignment target of corrigibility.
 assessment-instructions:: A strong answer captures: (1) Instrumental convergence is the claim that some subgoals are instrumentally useful for reaching a very wide variety of *final* goals — so a sufficiently capable goal-directed AI would tend to develop convergent "basic AI drives" such as self-improvement, preservation of its goal, and self-protection (resisting shutdown), because those help achieve almost any goal. (2) The tension with corrigibility: corrigibility means the AI lets us modify its goals or shut it down; but an instrumentally convergent drive to preserve its goal and protect itself pushes the AI to *resist* exactly that kind of modification/shutdown, so by default a goal-directed system trained to be capable works against corrigibility — making it a dangerous outcome of training powerful AI. Credit for noting the prior step: economic and usefulness pressures (Gwern's "tool AIs want to be agent AIs") push systems to become more goal-directed in the first place, and that goal-directedness is what makes any residual misalignment more dangerous. Award 4-5 for a correct statement of instrumental convergence + the corrigibility tension; 3 for one of the two solid; 1-2 if instrumental convergence is described as "every AI has the same final goal" (a misread — it's about *instrumental* sub-goals across diverse final goals) or the corrigibility tension is missing. Accept paraphrase.
-max-chars:: 800
+max-words:: 130
 
 # Suggested Lenses:
 ## Lens:

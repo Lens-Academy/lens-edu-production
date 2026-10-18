@@ -1,8 +1,14 @@
 ---
 id: 'ff6e5728-7ea0-4ee1-a702-7dc428def34a'
 learning-outcome: Given a reported experimental result about an AI system behaving deceptively, determine which threat-model claims the result supports, which it leaves untouched, and which it would have to be redesigned to test; and state what the same observation would look like if the alarming interpretation were false.
-domain: none
+topic: none
 stage: intermediate
+eval-results:
+  content-sha: 248ca9b0
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 517aaa5e-0ae3-4e52-ac51-a125e1f1cdda
@@ -18,7 +24,6 @@ Both readings are too fast. Give your own.
 
 Say what this result establishes, what it does not establish, and which specific further experiment would most change your view. For the experiment you name, state in advance what each possible outcome would tell you. Finally: if the reassuring interpretation is correct, what exactly is producing the 6% and the 91%?
 
-max-time:: 20:00
 assessment-instructions:: The student has worked through empirical scheming results, having predicted the outcomes before reading them. This scenario is constructed and matches no single real paper, though it resembles the family. The student cannot answer from recall of a specific study.
 
 The capability: reading an experimental result for what it licenses. The two failure modes are in the stem deliberately, so a student who lands on either has been anchored rather than reasoning.

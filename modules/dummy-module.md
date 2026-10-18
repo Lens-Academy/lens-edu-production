@@ -8,6 +8,8 @@ title: Dummy module
 
 # Lens: Placeholder
 id:: c21422ea-ebde-45ca-9a27-ba756f9bc7a9
+tldr:: Intentionally empty dummy module used by the demo to show module importing; the contents are not the point.
+summary_for_tutor:: Dummy placeholder lens for demo purposes; contents are intentionally meaningless. Do not attempt to teach from it.
 
 #### Text
 content::

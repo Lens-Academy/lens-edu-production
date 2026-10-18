@@ -7,6 +7,8 @@ title: "Are you suggesting that ChatGPT could kill us all?"
 tldr: "No. The worry is about forthcoming advances in AI."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Intelligence explosion]]"
 ---
 
 #### Text
