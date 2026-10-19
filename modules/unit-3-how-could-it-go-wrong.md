@@ -27,6 +27,12 @@ Control appears once, at the end, as an argument against it. That is deliberate.
 we can mention in passing but isn't central. Redwood is all in on control." Her further
 reason: control plausibly makes it harder for AIs to do the alignment research we would
 be asking them to do, which is not a clean win the way solving the problem would be.
+
+Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
+reorder, rename or remove lenses. Add new material only as a new lens appended
+at the end. Adding or removing a lens moves the scoring denominator overnight;
+a question inside an existing lens does not. Keep reading and tutor minutes
+accurate when content changes.
 %%
 
 # Submodule: How it could go fast

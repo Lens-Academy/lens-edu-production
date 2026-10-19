@@ -64,10 +64,10 @@ source:: ![[../Lenses/IABIED - How Did It Go]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/13 - Chapter 12 - I Don't Want to Be Alarmist]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The one-chance problem]]
+source:: ![[../Learning Outcomes/The one-chance problem]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The ladder in the dark]]
+source:: ![[../Learning Outcomes/The ladder in the dark]]
 
 %%
 Trimmed to reduce question load in the final unit (course went from 6 meetings to 5):
@@ -191,10 +191,10 @@ source:: ![[../Lenses/IABIED - QA - AI Differs from Precedents]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/14 - Chapter 13 - Shut It Down]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/The WWII analogy]]
+source:: ![[../Learning Outcomes/The WWII analogy]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Narrow coalition strategy]]
+source:: ![[../Learning Outcomes/Narrow coalition strategy]]
 
 %%
 # Lens:
@@ -242,7 +242,7 @@ Skim whatever catches your eye.
 ::card[[../Lenses/IABIED - QA - Is It Hopeless]]
 ::card[[../Lenses/IABIED - QA - Shut Down Global AI Development]]
 ::card[[../Lenses/IABIED - QA - Keep the Coalition Large]]
-{>>{"author":"Elias's AI","timestamp":1785314118199}@@Correction to an earlier suggestion in this review: I had carded 'Can International Cooperation Really Work' here as an unreachable-import repair. That was wrong to do, because its body is still a "TODO: Embed Q&A content" placeholder and carding it showed learners an empty card. Card removed; the hidden import stays, and it should be carded again once the content is embedded. 'Early Warnings' and 'Isn't AI Different from Nuclear Reactors' remain imported under Ch12 because they are card targets inside the 'IABIED - The One-Chance Problem' lens.<<}
+
 
 # Lens: IABIED - QA - The Draft Treaty
 optional:: true
@@ -333,10 +333,10 @@ source:: ![[../Lenses/IABIED - QA - Keep the Coalition Large]]
 add_to_ai_context:: [[../../Lens Edu Private/IABIED Book Content/15 - Chapter 14 - Where There's Life, There's Hope]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Un-writing our fate]]
+source:: ![[../Learning Outcomes/Un-writing our fate]]
 
 # Learning Outcome:
-source:: [[../Learning Outcomes/Role-specific action]]
+source:: ![[../Learning Outcomes/Role-specific action]]
 
 %%
 # Lens:
@@ -357,7 +357,7 @@ source:: [[../Lenses/IABIED - Role-Specific Action]]
 %%
 Demoted to optional to reduce final-unit load:
 # Learning Outcome: IABIED - The Two Prayers
-source:: [[../Learning Outcomes/The two prayers]]
+source:: ![[../Learning Outcomes/The two prayers]]
 
 # Lens:
 source:: [[../Lenses/IABIED - The Two Prayers - PQ]]

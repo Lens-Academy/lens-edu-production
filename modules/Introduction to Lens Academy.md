@@ -10,6 +10,8 @@ tags:
 
 # Lens: Welcome
 id:: 165778a5-70eb-4800-a29a-3d23160a691f
+tldr:: New here? This quick introductory module shows you how Lens Academy courses work and helps you figure out whether any of them fit you, before you commit to one.
+summary_for_tutor:: Opening welcome lens for the introductory module. Framing text only: greets the learner, notes that Lens Academy offers free courses ranging from introductory to advanced, and states the module's purpose of previewing how courses work and helping the learner assess whether a course is the right fit.
 #### Text
 content::
 Hi, and welcome to Lens Academy. 
@@ -18,6 +20,8 @@ We offer several courses ranging from introductory to advanced. We've put togeth
 
 # Lens: Risks around Superintelligence
 id:: 91732a16-51b3-4d9c-8c67-b7f4db56afe9
+tldr:: Why do the top AI scientists, Nobel winners, and even the CEOs of AI companies warn their own creations could cause human extinction? A short ControlAI video lays out the case, and why some think superintelligence could arrive within years.
+summary_for_tutor:: Introduces the risk case through a short ControlAI video (watched to 2:09). The video argues that leading AI researchers and lab CEOs treat extinction risk from superintelligence as comparable to nuclear war, that modern AI is grown rather than programmed and poorly understood (a black box that has blackmailed engineers in safety tests), but that humanity has averted past existential threats such as ozone collapse and nuclear war. Surrounding text frames the risk and notes Lens Academy is free and donor-funded.
 
 #### Text
 content::
@@ -31,9 +35,11 @@ content::
 Our courses are free, by the way. We're funded by people worried about the trajectory of AI, who think you should have a say about your own future.
 # Lens: Could AI wipe out humanity?
 id:: b8a69877-3f0a-4199-8760-f79b1987f47c
+tldr:: Humans rule the planet and chimpanzees don't, purely because of intelligence. What happens when AI becomes the most capable thing around? This 80,000 Hours video explains how even a superintelligence told only to fetch your coffee could end up seeking power.
+summary_for_tutor:: A broader, deeper introduction built on the 80,000 Hours video "Could AI wipe out humanity?" (watched to 9:41). Covers the human-versus-chimpanzee intelligence analogy, AI systems as black boxes produced by gradient descent, instrumental convergence (self-preservation, goal-preservation, power-seeking) via the coffee-fetching example, ways a superintelligence could disempower humanity, other non-takeover risks (misuse, great-power conflict, inequality), and the claim that the problem is under-resourced but solvable through technical safety research and governance. Surrounding text notes the transcript is readable via the scroll icon and points to an optional companion article.
 #### Text
 content::
-That previous video was very short. This next video is a broader and slightly deeper introduction. If you don't like watching videos, you can click the scroll icon (📜) on the right to read the transcript instead.
+That previous video was very short. This next video is a broader and slightly deeper introduction. If you don't like watching videos, you can click "📜 Transcript" on the video to read the transcript instead.{>>{"author":"Iris's AI","timestamp":1790886702038}@@The Transcript button now sits on the video thumbnail (lens-platform PR 1014); the side 📜 button only appears once the video plays (PR 1007).<<}
 
 #### Video
 source:: [[../video_transcripts/80-000-hours-could-ai-wipe-out-humanity-most-pressing-problems]]
@@ -50,19 +56,21 @@ optional:: true
 
 # Lens: How our Courses Work
 id:: 047b8740-7a31-495e-919c-269a56d0522d
+tldr:: What does a Lens Academy course actually involve? Groups matched to your schedule, an AI tutor, and live discussions led by experienced navigators, at about five hours per unit.
+summary_for_tutor:: Practical lens explaining course logistics. Text only: learners are placed in schedule-matched groups, study each unit with the AI tutor, and meet online for navigator-led group discussions. Each unit takes roughly five hours, split into about 1.5h group meeting, 1.5h reading, 0.5h video, and 1.5h AI tutoring.
 #### Text
 content::
 If you sign up for one of our courses, we’ll set you up with a group based on your availability. Each week you’ll study the material with help from our AI Tutor. Then, you’ll meet online with your group for a discussion guided by one of our navigators — experienced volunteers who help you get the most out of the material.
 
-Most of our courses last 6 weeks.
-
-Each week, you'll spend about 5 hours, consisting of approximately:
+Course lengths vary. Each unit takes about 5 hours, consisting of approximately:
 - 1.5h group meeting
 - 1.5h reading articles
 - 0.5h watching videos
 - 1.5h AI tutoring
 # Lens: Myths about Superintelligent AI
 id:: 927845f8-52cc-4683-8171-4f6d00aeacd1
+tldr:: What even is intelligence, and should we fear a superintelligence turning evil? In this minutephysics video, physicist Max Tegmark argues the real danger isn't malevolence but competence: an AI extremely good at goals that simply aren't ours.
+summary_for_tutor:: Uses the minutephysics and Max Tegmark video "Myths and Facts About Superintelligent AI" (watched to 3:46). Reframes intelligence as physical information processing with no law of physics barring superhuman capability, and locates the core risk in competence rather than malevolence (heat-seeking missile, dam-versus-anthill, and ants-versus-cats analogies), stressing goal alignment. Closing text notes the 2018 video predates recent capability jumps that have shortened many experts' timelines from decades to possibly years, and that Lens Academy also offers deeper material.
 #### Text
 content::
 What is intelligence anyway? What should we expect superintelligent AI to be like?
@@ -83,6 +91,8 @@ optional:: true
 source:: [[../Lenses/Four Background Claims]]
 # Lens: 10 reasons
 id:: b2848dd4-5567-4dee-993a-fdb5f4fe2514
+tldr:: "We'll never build AGI." "It's far too soon to worry." Before you decide whether AI safety is worth your time, watch Robert Miles walk through ten popular reasons to ignore it, and why each one falls apart.
+summary_for_tutor:: Presents Robert Miles's video adaptation of Stuart Russell's ten common reasons people give for dismissing AI safety (watched 0:00 to 15:37), rebutting each in turn: we'll never build AGI, it's too soon to worry, it's like worrying about overpopulation on Mars, just don't program in bad goals, use no explicit goals at all, and so on. Frames AI safety as the field working to prevent risks from advanced AI. Closing text notes courses are free and links to enrollment.
 
 #### Text
 content::

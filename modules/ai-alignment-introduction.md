@@ -11,6 +11,8 @@ their own files so the teaching lenses can be reused across courses. %%
 
 ## Lens: Overview
 id:: aa19a6c7-5e32-4819-a8da-6676eb9d6487
+tldr:: The AI alignment problem is really two problems stacked: deciding what we even want an AI to do, and technically getting it to do that. This module maps both, plus why an AI's goal-directedness makes any leftover misalignment far more dangerous.
+summary_for_tutor:: Overview lens for Iliad Intensive module A.1. Frames AI alignment as two combined challenges, choosing an alignment target versus technically aligning systems to it, and previews the module's five threads: decomposing AI risks; alignment targets (CEV, intent alignment, constitutions, corrigibility); decompositions of the technical problem (training stories, outer/inner alignment, inductive biases) and their critiques; goal-directedness and instrumental convergence; and forecasting risk plus the spectrum of solution approaches. States prerequisites (basic deep learning, ideally reinforcement learning) and advises reading each lens's main content before opening linked posts. The chat tutor orients and paces the learner and connects the five threads without lecturing the full module.
 
 #### Text
 content:: This module introduces the AI alignment problem as two combined challenges. First, we need to choose an *alignment target* — our vision for how an AI system, or a collection of such systems, should ideally behave. Second, we need to solve the technical problem of how to *align* AI systems with this vision.
@@ -74,7 +76,7 @@ source:: [[../Lenses/lesswrong-corrigibility]]
 # Submodule: Training stories and outer-inner alignment
 
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Training stories and outer-inner alignment]]
+source:: [[../Learning Outcomes/Training stories and outer–inner alignment]]
 
 ## Lens:
 source:: [[../Lenses/Decomposing the alignment problem]]
@@ -122,7 +124,7 @@ source:: [[../Lenses/omohundro-the-basic-ai-drives]]
 # Submodule: Forecasting risk and solution approaches
 
 ## Learning Outcome:
-source:: [[../Learning Outcomes/Forecasting risk and solution approaches]]
+source:: [[../Learning Outcomes/Risk levels and solution approaches]]
 
 ## Lens:
 source:: [[../Lenses/Forecasting risk and choosing an approach]]

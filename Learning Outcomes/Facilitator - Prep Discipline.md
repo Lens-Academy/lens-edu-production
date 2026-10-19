@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: f12c9215
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds closed, unhedged lists of specific prep moves as the required content — no 'or equivalent', so a student naming other valid high-value/busywork moves would be failed."}
+  evidence: {C3: "Names at least three high-value moves (did the reading once with participant's eye; three good questions ordered; one backup plan for one foreseeable problem; rough session shape/timing) AND three busywork moves (scripting opening word-for-word; writing detailed answers to own questions; designing elaborate activities; re-reading 4 times)."}
 ---
 
 ## Test:

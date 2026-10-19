@@ -7,6 +7,8 @@ title: Alignment in Practice
 
 # Lens: Placeholder
 id:: 0c743108-062a-493b-ba3b-bceb37910b22
+tldr:: Placeholder module for the demo; real alignment-in-practice content to be ported from Iliad later.
+summary_for_tutor:: Placeholder lens with lorem-ipsum text; the module has no real content yet. Do not attempt to teach from it.
 
 #### Text
 content:: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. This module is a placeholder for the demo; real content to be ported from Iliad later.
