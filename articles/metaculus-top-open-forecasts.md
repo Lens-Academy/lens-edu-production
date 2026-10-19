@@ -14,6 +14,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Top open Metaculus forecasts
 
 *By EA Handbook*

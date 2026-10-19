@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 This post identifies a new existential risk factor which has not been recognised in prior literature; Brain-Computer interfaces. Brain-Computer interfaces refer to technologies which allow the brain to interface directly with an external device. In particular, BCIs have been developed to read mental and emotional content from neural activity, and have been developed to intentionally stimulate or inhibit certain kinds of brain activity. At present BCIs are used primarily for therapeutic purposes, but their potential use case is much wider.
 
 We recognise that this sounds somewhat like science fiction. Skepticism here is warranted. However, the current state of the technology is much more advanced than most are aware of. In particular, well-corroborated research prototypes already exist (Moses et al 2019; Guenther et al 2009); a number of companies, including Facebook and Neuralink are working to commercialise this technology over the coming decades (Constine, 2017; Musk 2019); and there is widespread agreement among BCI researchers that this technology is not just feasible, but will be on market in the near future (Nijboer et al 2011). The risks this technology poses however, have been almost entirely neglected.

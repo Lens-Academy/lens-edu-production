@@ -15,6 +15,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 *The Forum team published this with Kelsey's permission. We've slightly edited the original content, which you can find [here](https://web.archive.org/web/20190701003844/https://theunitofcaring.tumblr.com/post/185847413171/what-do-you-think-about-the-more-fringe-parts-of).*
 
 ## Question to the blog

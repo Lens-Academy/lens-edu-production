@@ -5,6 +5,13 @@ source_url: https://lensacademy.org
 published: 2026
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ## H2 More articles coming soon!
 
 Let's test

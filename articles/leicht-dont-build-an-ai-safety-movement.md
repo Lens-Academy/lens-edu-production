@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Safety advocates are about to change the AI policy debate for the worse. Faced with political adversity, few recent policy wins, and a perceived lack of obvious paths to policy victory, the movement yearns for a different way forward. One school of thought is growing in popularity: **to create political incentive to get serious about safety policy, one must ‘build a movement’**. That is, one must create widespread salience of AI safety topics and channel it into an organised constituency that puts pressure on policymakers.
 
 Recent weeks are seeing **more and more signs of efforts to build a popular movement.** In two weeks, AI safety progenitors Eliezer Yudkowsky and Nate Soares are [publishing](https://intelligence.org/2025/05/15/yudkowsky-and-soares-announce-major-new-book-if-anyone-builds-it-everyone-dies/) a general-audience book to shore up public awareness and support — with a media tour to boot, I’m sure. PauseAI’s campaigns are growing in popularity and ecosystem support, with a recent UK-based swipe at Google DeepMind drawing national [headlines](https://time.com/7313320/google-deepmind-gemini-ai-safety-pledge/). And successful safety career accelerator MATS is now also in the business of funneling young talent into [attempts to build a movement](https://x.com/DavidSKrueger/status/1961585960711557345). Now, these efforts are in their very early stages; and might still just stumble on their own. But they point to a broader motivation — one that’s worth seriously discussing now.
@@ -19,7 +26,7 @@ I think the push toward building a popular AI safety movement is serious, well-f
 
 And on broader terms, I think this movement is **likely to be captured by reductive overtones** and ultimately muddy the policy conversation through untractable or misguided proposals. Just as much as I worry about the AI policy debate derailing by its inevitable politisation through flashpoints like job impacts, **I worry about the safety movement forcefully introducing the same kind of chaos in an attempt to flip the gameboard.**
 
-![](https://substackcdn.com/image/fetch/$s_!gQOw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F389ceb35-d36c-4c6e-8987-96a224972318_4325x2445.jpeg)
+![](https://substackcdn.com/image/fetch/$s_!gQOw!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F389ceb35-d36c-4c6e-8987-96a224972318_4325x2445.jpeg)
 
 The terreur is a decent example of movement-building gone wrong.
 
@@ -35,7 +42,7 @@ For the movement to galvanise _existing_ political support, its message needs to
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!mi5h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F926c96d6-55f4-46b3-8457-3c08572cd3e6_1640x691.png)
+![](https://substackcdn.com/image/fetch/$s_!mi5h!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F926c96d6-55f4-46b3-8457-3c08572cd3e6_1640x691.png)
 
 ](https://substackcdn.com/image/fetch/$s_!mi5h!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F926c96d6-55f4-46b3-8457-3c08572cd3e6_1640x691.png)
 
@@ -63,7 +70,7 @@ To make matters much worse, the lack of sticking power of _reasonably safetyist 
 
 **Safety-focused ideas can quickly lose their grasp on the movement they helped build**, and give way to these issues. It’s not exactly an uncommon experience to build some movement that leans on popular and populist undercurrents and have it become an everything bagel of populist commitments. General anti-corporate or anti-tech sentiment will be a big part of what motivates people to join the movement, and could well stick around. So could adjacent worries around bias, discrimination, the environment, or general equality. And when movement leadership struggles to find a good safety-focused story for what people should ask and do, it’s easy for these much more tractable broader-brush components of the movement to increasingly determine its direction. **You can avoid that via message discipline, but as I’ve argued, the message of a safety movement doesn’t lend itself well to discipline a movement.** For a safety advocate, that means you shouldn’t count on the movement remaining very useful for long. For everyone else, it means someone is introducing a chaotic political force into the policy conversation — beware.
 
-![](https://substackcdn.com/image/fetch/$s_!eTFW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ac3e1f2-b337-4d7e-bed8-e08581c043bd_1230x424.png)
+![](https://substackcdn.com/image/fetch/$s_!eTFW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ac3e1f2-b337-4d7e-bed8-e08581c043bd_1230x424.png)
 
 The climate movement, for instance, has increasingly shifted toward sticky political ideas outside of its initial scope, but favoured by its constituent groups.
 
@@ -73,9 +80,9 @@ So, maybe this movement fails and doesn’t go so well. From the narrow safetyis
 
 **First, incubating a movement drastically reduces the credibility and political usefulness of existing popular support.** That popular support goes a long way toward safety asks today already: it motivates policymakers across the spectrum to espouse safety-adjacent ideas, and it’s been instrumental in one of the few political victories in recent months – the [death of a proposed federal moratorium](https://www.washingtonpost.com/technology/2025/07/01/ai-moratorium-defeat-senate-silicon-valley/) on state AI legislation. Popular support for AI regulation and thereby opposition to this moratorium was channeled through avatars like Steve Bannon and Senator Marsha Blackburn and ultimately convinced 99 senators to strike down the amendment. This worked because policymakers had been convinced that there was _genuine, grassroots_ opposition to the moratorium, and supporters of the moratorium had no good response.
 
-If that episode had been preceded by movement-building efforts in the populist right, I’m not sure the popular support would have had the same weight. Public asks could have been easily identified as being driven by groups with agendas, reducing their credibility and organic appearance. Supporters of the moratorium could have pointed at incubation efforts to discredit this support; noting that waves of calls could be linked to.[^1] Even as it stands right now, senior administration officials are keeping a watchful eye on AI safety funding streams and how they relate to policy advocacy, readily dismissing much input that can be linked to major funders in the safety space. That dismissal can quickly extend to \*all\* public support once incubation efforts inevitably become public. Soon, **even organic support for AI regulation that would also have existed otherwise will be painted with the same brush**,reducing its credibility in the eyes of decisionmakers and ultimately hurting political leverage.
+If that episode had been preceded by movement-building efforts in the populist right, I’m not sure the popular support would have had the same weight. Public asks could have been easily identified as being driven by groups with agendas, reducing their credibility and organic appearance. Supporters of the moratorium could have pointed at incubation efforts to discredit this support; noting that waves of calls could be linked to.[^note-leicht-1] Even as it stands right now, senior administration officials are keeping a watchful eye on AI safety funding streams and how they relate to policy advocacy, readily dismissing much input that can be linked to major funders in the safety space. That dismissal can quickly extend to \*all\* public support once incubation efforts inevitably become public. Soon, **even organic support for AI regulation that would also have existed otherwise will be painted with the same brush**,reducing its credibility in the eyes of decisionmakers and ultimately hurting political leverage.
 
-![](https://substackcdn.com/image/fetch/$s_!E4AT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb901a590-8865-4730-9651-6540f785fd03_1628x635.png)
+![](https://substackcdn.com/image/fetch/$s_!E4AT!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb901a590-8865-4730-9651-6540f785fd03_1628x635.png)
 
 Top White House officials are already concerned about astroturfing.
 
@@ -93,7 +100,7 @@ And second, **AI safety faces real political adversity, and it will inevitably b
 
 This is not dissimilar to the general discussion of the radical flank effect in the context of e.g. environmental protests. [Much](https://ui.adsabs.harvard.edu/abs/2024NatSu...7.1626O/abstract) [research](https://link.springer.com/article/10.1007/s42087-025-00485-y) [suggests](https://www.nature.com/articles/d41586-024-03431-0) that vocal activist groups _can_ benefit moderates, as long as these moderates are perceived as clearly distinct and cannot be linked to the more radical protests. This degree of distinction is very unlikely to occur in the specific context of proactively incubated safety-focused movements.
 
-![](https://substackcdn.com/image/fetch/$s_!MY7b!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70f0a738-1849-4191-836f-310e55fc23d2_1456x894.png)
+![](https://substackcdn.com/image/fetch/$s_!MY7b!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F70f0a738-1849-4191-836f-310e55fc23d2_1456x894.png)
 
 Data on an arguably unsuccessful instance of radical flanks, where support among those who did not identify with the environmental movement fell as a consequence of protests by Just Stop Oil. The whole report has some interesting nuance on the conditions of effective radical flanks.
 
@@ -107,4 +114,4 @@ In the spirit of constructive input, I think **a better version of this banks on
 
 AI safety has two things going for it at the moment: Latent authentic political support and high expert-level credibility. **Incubating an AI safety popular movement puts all of that at risks. Funders and drivers of this push should reconsider.**
 
-[^1]: The only reason this hasn’t happened this time around was because the PauseAI contribution to the anti-moratorium case paled dramatically in comparison to the Bannon-led push.
+[^note-leicht-1]: The only reason this hasn’t happened this time around was because the PauseAI contribution to the anti-moratorium case paled dramatically in comparison to the Bannon-led push.

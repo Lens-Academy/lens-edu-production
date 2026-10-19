@@ -1,7 +1,6 @@
 ---
 title: "Why Agent Foundations? An Overly Abstract Explanation"
-author:
-  - "johnswentworth"
+author: [johnswentworth](https://www.lesswrong.com/users/johnswentworth)
 source_url: "https://www.lesswrong.com/posts/FWvzwCDRgcjb9sigb/why-agent-foundations-an-overly-abstract-explanation"
 published: 2022-03-25
 created: 2026-08-21

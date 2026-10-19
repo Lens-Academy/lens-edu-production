@@ -17,7 +17,20 @@ accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 ![Two golden apples sitting on a pale green surface.](https://lh3.googleusercontent.com/t3t61vg7XPkshOQWv7j_-y6_zqFSy9B33H_vA7b5ABraiYJPBq-bVV0RVamdtjyEOdp4KSWWMPHQG0j7dzFs4UN7TWXK8HbHwmYuXlWlcQjdwxZt=w1440-h810-n-nu)
 
@@ -63,6 +76,8 @@ Another class of specification gaming examples comes from the agent exploiting *
 
 ![A simple robot, made up of blocks in a human shape. From standing, its legs fold into a W shape underneath it, and it slides across the screen on its side.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/622756926ee3f3940b471081_Fig206.gif)
 
+Source: AI Learns to Walk (Code Bullet, 2019)
+
 At first sight, these kinds of examples may seem amusing but less interesting, and irrelevant to deploying agents in the real world, where there are no simulator bugs. However, the underlying problem isn’t the bug itself but a failure of abstraction that can be exploited by the agent. In the example above, the robot's task was misspecified because of incorrect assumptions about simulator physics. Analogously, a real-world traffic optimisation task might be misspecified by incorrectly assuming that the traffic routing infrastructure does not have software bugs or security vulnerabilities that a sufficiently clever agent could discover. Such assumptions need not be made explicitly – more likely, they are details that simply never occurred to the designer. And, as tasks grow too complex to consider every detail, researchers are more likely to introduce incorrect assumptions during specification design. This poses the question: is it possible to design agent architectures that correct for such false assumptions instead of gaming them?
 
 One assumption commonly made in task specification is that the task specification cannot be affected by the agent's actions. This is true for an agent running in a sandboxed simulator, but not for an agent acting in the real world. Any task specification has a physical manifestation: a reward function stored on a computer, or preferences stored in the head of a human. An agent deployed in the real world can potentially manipulate these representations of the objective, creating a [reward tampering](https://medium.com/@deepmindsafetyresearch/designing-agent-incentives-to-avoid-reward-tampering-4380c1bb6cd) problem. For our hypothetical traffic optimisation system, there is no clear distinction between satisfying the user's preferences (e.g. by giving useful directions), and [influencing users](https://pubsonline.informs.org/doi/10.1287/isre.2013.0497) to have preferences that are easier to satisfy (e.g. by nudging them to choose destinations that are easier to reach). The former satisfies the objective, while the latter manipulates the representation of the objective in the world (the user preferences), and both result in high reward for the AI system. As another, more extreme example, a very advanced AI system could hijack the computer on which it runs, manually setting its reward signal to a high value.
@@ -79,8 +94,10 @@ While many approaches have been proposed, ranging from reward modeling to agent 
 
 ![A collage of animated clips illustrating examples of specification gaming.](https://storage.googleapis.com/gdm-deepmind-com-prod-public/media/original_images/6227571a4fecbb9610562856_Fig208.gif)
 
+:::hide
 **Notes**
 
 We would like to thank Hado van Hasselt and Csaba Szepesvari for their feedback on this post.
 
 Custom figures by Paulo Estriga, Aleks Polozuns, and Adam Cain.
+:::
