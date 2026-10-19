@@ -1,7 +1,7 @@
 ---
 title: "Deadly by Default"
 source_url: "https://homosabiens.substack.com/p/deadly-by-default"
-author: Duncan Sabien
+author: [Duncan Sabien](https://homosabiens.substack.com/)
 published: 2024-07-26
 created: 2026-03-07
 description: "A primer on existential risk from artificial intelligence (8000 words/25-45min)"
@@ -67,7 +67,7 @@ At every step of development, taking your system and making it more powerful let
 
 At every step of development, taking your system and making it more flexible lets you use it and sell it in more domains. This opens up new markets, and lets you make more money.
 
-At every step of development, taking your system and finding a way to run it more cheaply lets you sell it to more people*,* which again opens up new markets and makes you more money.
+At every step of development, taking your system and finding a way to run it more cheaply lets you sell it to more people, which again opens up new markets and makes you more money.
 
 There’s essentially always more money waiting out there, for someone with a better AI. There are always people who are looking at *today’s* AI and thinking *hmmm, this doesn’t **quite** do what I need it to do but it’s getting closer.* Investors want in, and doctors and scientists and politicians and generals and hedge fund managers who see the potential want to be able to whisper in the ear of the developers, and their desire to influence the shape of the future system means that the developers get to whisper *back.*
 
@@ -105,7 +105,7 @@ There’s the *internal* complexity of computation (which I’ll talk about more
 
 Importantly: since the whole point of a superintelligence is that it sees and understands reality far better than we do, and can reach much further afield to find the best solutions to various problems, *we* *will not be able to follow and comprehend* *its strategies.* A chess novice does not understand why a chess grandmaster moved a particular piece. The world’s best Go players *still* don’t understand what AlphaZero is doing most of the time. Sure, we might be able to follow *some* of an AI’s strategic reasoning, especially if we ask it to explain it in language we’re capable of following. But on the whole, what the AI is *for* is the set of problems that are too complex for us to wrangle, and we should expect that many of its solutions will be as incomprehensible to us as the workings of the veterinary medical system and the global supply chain are to our dogs.
 
-Or, in other words, at some point, we will *switch over* from “doing things because they make sense to us” to “doing things because the AI told us to and when we follow its instructions good things happen in unexpected ways*.*”
+Or, in other words, at some point, we will *switch over* from “doing things because they make sense to us” to “doing things because the AI told us to and when we follow its instructions good things happen in unexpected ways.”
 
 (Unexpected and by default inexplicable *even after the fact.*)
 

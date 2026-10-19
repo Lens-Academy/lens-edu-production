@@ -1,7 +1,7 @@
 ---
 title: "The World Keeps Getting Saved and You Don’t Notice"
 source_url: "https://www.lesswrong.com/posts/qnvmZCjzspceWdgjC/the-world-keeps-getting-saved-and-you-don-t-notice"
-author: Bogoed
+author: [Bogoed](https://www.lesswrong.com/users/bogoed)
 published: 2026-02-16
 created: 2026-03-08
 description: "Nothing groundbreaking, just something people forget constantly, and I’m writing it down so I don’t have to re-explain it from scratch.  …"
@@ -54,6 +54,8 @@ Anyway, here are a few of my takeaways:
 	Say out loud what the risk is, tell us what you did about it. Tell us what would have happened if it weren't for you.
 	If you don’t, people may eventually assume the danger was imaginary. If enough people assume that, they might stop funding, supporting, or doing the quiet work that keeps the floor from collapsing.
 
+:::hide
 P.S. Please, let me know if someone wrote a similar thing better.
 
 P.P.S. Was irritated by NOTHING EVER HAPPENS meme again. Also thought about "myriads of careful hands" -metaphor and liked it.
+:::

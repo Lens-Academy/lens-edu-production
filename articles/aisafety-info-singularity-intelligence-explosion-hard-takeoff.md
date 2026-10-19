@@ -1,6 +1,6 @@
 ---
 title: "What are the differences between a singularity, an intelligence explosion, and a hard takeoff?"
-author: AISafety.info
+author: [AISafety.info](https://aisafety.info/)
 published: 2026-01-16
 source_url: https://aisafety.info/questions/8IHO/What-are-the-differences-between-a-singularity,-an-intelligence-explosion,-and-a-hard-takeoff
 llm-review:

@@ -1,7 +1,6 @@
 ---
 title: "Nicholas Decker In Hell"
-author:
-  - "Scott Alexander"
+author: [Scott Alexander](https://www.astralcodexten.com/)
 source_url: "https://www.astralcodexten.com/p/nicholas-decker-in-hell"
 published: 2026-09-01
 created: 2026-09-15

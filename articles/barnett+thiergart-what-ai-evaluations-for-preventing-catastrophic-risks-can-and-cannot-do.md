@@ -2,8 +2,8 @@
 title: "What AI evaluations for preventing catastrophic risks can and cannot do"
 source_url: "https://arxiv.org/html/2412.08653v1"
 author:
-  - "Peter Barnett"
-  - "Lisa Thiergart"
+  - [Peter Barnett](https://peterbarnett.org/)
+  - [Lisa Thiergart](https://www.lesswrong.com/users/lisathiergart)
 published: 2024-11-26
 created: 2026-02-27
 description: "AI evaluations are an important component of the AI governance toolkit, underlying current approaches to safety cases for preventing catastrophic risks. Our paper examines what these evaluations can and cannot tell us. Evaluations can establish lower bounds on AI capabilities and assess certain misuse risks given sufficient effort from evaluators."

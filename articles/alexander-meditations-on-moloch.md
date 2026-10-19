@@ -2,8 +2,7 @@
 title: "Meditations On Moloch"
 source_url: "https://www.slatestarcodexabridged.com/Meditations-On-Moloch"
 audio-url: "http://sscpodcast.libsyn.com/meditations-on-moloch"
-author:
-  - "Scott Alexander"
+author: [Scott Alexander](https://www.astralcodexten.com/)
 published: 2014-07-30
 created: 2026-02-13
 description:
@@ -17,10 +16,6 @@ Add discussion note here:
 ...
 
 %%
-## Meditations On Moloch
-
-July 30, 2014
-
 *Also available as podcast [here](http://sscpodcast.libsyn.com/meditations-on-moloch).*
 
 ### I

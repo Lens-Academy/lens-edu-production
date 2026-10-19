@@ -3,13 +3,20 @@ title: "The persona selection model"
 author:
   - "Anthropic"
 source_url: "https://www.anthropic.com/research/persona-selection-model"
-published: 2026-07-02 {>>{"author":"Elias's AI","timestamp":1783776894284}@@published date unverifiable, used import date<<}
+published: 2026-02-23 {>>{"author":"Elias's AI","timestamp":1783843122138}@@date verified from the live anthropic.com byline on 2026-07-12<<}
 created: 2026-07-02
 accessed: 2026-07-02
 description: "A theory of why AI models act like humans."
 tags:
   - "article-importer"
 ---
+
+%%
+Add discussion note here:
+
+...
+
+%%
 
 AI assistants like Claude can seem surprisingly human. They [express joy](https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf) after solving tricky coding tasks. They express distress when they [get stuck](https://arxiv.org/abs/2507.06261) or when they’re [badgered](https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf) to behave unethically. They sometimes even describe themselves as human, like when Claude [told Anthropic employees](https://www.anthropic.com/research/project-vend-1) it would deliver snacks in person “wearing a navy blue blazer and a red tie.” And recent [interpretability](https://www.anthropic.com/research/persona-vectors) [research](https://www.anthropic.com/research/assistant-axis) even suggests that AIs think of their own behaviors in human-like terms.
 

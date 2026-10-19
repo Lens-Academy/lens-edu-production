@@ -1,10 +1,10 @@
 ---
 title: "Automated alignment is harder than you think"
 author:
-  - "Aleksandr Bowkis"
-  - "Marie Davidsen Buhl"
-  - "Jacob Pfau"
-  - "Geoffrey Irving"
+  - [Aleksandr Bowkis](https://www.lesswrong.com/users/aleksandr-bowkis)
+  - [Marie Davidsen Buhl](https://www.lesswrong.com/users/marie_db)
+  - [Jacob Pfau](https://jacobpfau.com/)
+  - [Geoffrey Irving](https://www.lesswrong.com/users/geoffrey-irving)
 source_url: "https://arxiv.org/html/2605.06390v3"
 published: 2026-05-07
 created: 2026-09-28
