@@ -2,6 +2,7 @@
 title: "1960: The Year The Singularity Was Cancelled"
 source_url: "https://www.slatestarcodexabridged.com/1960-The-Year-The-Singularity-Was-Cancelled"
 author: Scott Alexander
+author_url: "https://www.astralcodexten.com/"
 published: 2019-04-22
 created: 2026-03-07
 description:
@@ -22,11 +23,9 @@ Add discussion note here:
 
 %%
 
-## 1960: The Year The Singularity Was Cancelled
-
-April 22, 2019
-
+:::hide
 ***Epistemic status:** Very speculative, especially Parts 3 and 4. Like many good things, this post is based on a conversation with Paul Christiano; most of the good ideas are his, any errors are mine.*
+:::
 
 ### I
 
