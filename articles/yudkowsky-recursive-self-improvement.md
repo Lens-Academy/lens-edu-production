@@ -3,7 +3,20 @@ title: "Recursive Self-Improvement"
 author: Eliezer Yudkowsky
 published: 2008-12-01
 source_url: https://www.lesswrong.com/posts/JBadX7rwdcRFzGuju/recursive-self-improvement
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 **Followup to**: [Life's Story Continues](https://www.lesswrong.com/lw/w3/lifes_story_continues), [Surprised by Brains](https://www.lesswrong.com/lw/w4/surprised_by_brains), [Cascades, Cycles, Insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight), [Recursion, Magic](https://www.lesswrong.com/lw/w6/recursion_magic), [Engelbart: Insufficiently Recursive](https://www.lesswrong.com/lw/w8/engelbart_insufficiently_recursive), [Total Nano Domination](https://www.lesswrong.com/lw/w9/total_nano_domination)
 
@@ -11,7 +24,7 @@ I think that at some point in the development of Artificial Intelligence, we are
 
 Most people who object to this scenario, object to the "fast" part. Robin Hanson objected to the "local" part. I'll try to handle both, though not all in one shot today.
 
-We are setting forth to analyze the developmental velocity of an Artificial Intelligence. We'll break down this velocity into [optimization slope, optimization resources, and optimization efficiency](https://www.lesswrong.com/lw/w3/lifes_story_continues). We'll need to understand [cascades, cycles, insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight) and r[ecursion](https://www.lesswrong.com/lw/w6/recursion_magic); and we'll stratify our recursive levels into the [metacognitive, cognitive, metaknowledge, knowledge, and object level](https://www.lesswrong.com/lw/w6/recursion_magic).
+We are setting forth to analyze the developmental velocity of an Artificial Intelligence. We'll break down this velocity into [optimization slope, optimization resources, and optimization efficiency](https://www.lesswrong.com/lw/w3/lifes_story_continues). We'll need to understand [cascades, cycles, insight](https://www.lesswrong.com/lw/w5/cascades_cycles_insight) and [recursion](https://www.lesswrong.com/lw/w6/recursion_magic); and we'll stratify our recursive levels into the [metacognitive, cognitive, metaknowledge, knowledge, and object level](https://www.lesswrong.com/lw/w6/recursion_magic).
 
 Quick review:
 

@@ -1,7 +1,6 @@
 ---
 title: "Optimization and the Singularity"
-author:
-  - "Eliezer Yudkowsky"
+author: [Eliezer Yudkowsky](https://www.yudkowsky.net/)
 source_url: "https://www.lesswrong.com/posts/HFTn3bAT6uXSNwv4m/optimization-and-the-singularity"
 published: 2008-06-23
 created: 2026-09-28

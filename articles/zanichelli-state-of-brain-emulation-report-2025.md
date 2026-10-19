@@ -15,6 +15,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 ## Quantitative Biology > Neurons and Cognition
 
 **arXiv:2510.15745** (q-bio)
