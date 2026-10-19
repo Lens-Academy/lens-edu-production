@@ -1,12 +1,12 @@
 ---
 id: '6d5902ff-97ed-4bee-99f8-b18934e97177'
 learning-outcome: "Distinguish an agent's terminal values (wanted for their own sake) from its instrumental values (wanted because of what the agent believes they lead to), use the fact that instrumental values depend on the agent's beliefs to design a change in beliefs or circumstances that would reveal which kind a given value is, and interpret the result, including why a behaviour that persists after the change is not yet proof of a terminal value."
-topic: "[[../Domains and Topics/4 Agent Foundations/Goal-directedness and coherence]]"
+concept: "[[../Concepts/Goal-directedness and coherence]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Instrumental/Terminal Distinction. AFFINE prerequisites: none listed. Not yet copied into requires:. %%
 ## Test:

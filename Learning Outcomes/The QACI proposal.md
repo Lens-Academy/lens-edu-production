@@ -1,12 +1,12 @@
 ---
 id: '276aa9ac-7599-48bf-8702-ffad970ad908'
 learning-outcome: "Explain how a formal-goal proposal such as QACI defines an AI's goal as a mathematical question about what specific humans would answer if a stored question were counterfactually replaced (with those humans able to pose further such questions, which gives them long reflection), and classify failures of such a design as flaws in what the formal goal points at or as failures of the AI to pursue or approximate that goal."
-topic: "[[../Domains and Topics/3 Alignment/Alignment targets]]"
+concept: "[[../Concepts/Alignment targets]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: QACI. AFFINE prerequisites: Outer / Inner Alignment. Not yet copied into requires:. The only assigned reading is the heavily mathematical formalization post; a module will need a gentler explanation of the plan. %%
 ## Test:

@@ -1,12 +1,12 @@
 ---
 id: '45264136-726a-4d63-9cb4-21d34e63800a'
 learning-outcome: "Evaluate belief changes that are not conditioning on a certain observation by the standards of radical probabilism: apply Jeffrey updating to uncertain evidence, judge other changes (such as those produced by further thinking) against the constraints that still apply, such as no predictable direction of change and eventual convergence, and explain how a bookie could exploit an agent that violates them."
-topic: "[[../Domains and Topics/4 Agent Foundations/Imprecise probability and infra-Bayesianism]]"
+concept: "[[../Concepts/Imprecise probability and infra-Bayesianism]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Radical probabilism. AFFINE prerequisites: Probability. Not yet copied into requires:. %%
 ## Test:

@@ -1,12 +1,12 @@
 ---
 id: 'b30e9344-0e37-49d6-999d-c4e91e085cd7'
 learning-outcome: "Evaluate a strategy of building the first very powerful AI from known, human-understood algorithms that do not modify themselves: explain which alignment problems it would make easier, why its value depends on unknown facts about how much capability self-improvement adds, and why designing a system not to self-improve does not by itself stop it from improving how it thinks."
-topic: "[[../Domains and Topics/4 Agent Foundations/Recursive self-improvement]]"
+concept: "[[../Concepts/Recursive self-improvement]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: KANSI (known-algorithm non-self-improving agent). AFFINE prerequisites: Recursive self-improvement. Not yet copied into requires:. %%
 ## Test:

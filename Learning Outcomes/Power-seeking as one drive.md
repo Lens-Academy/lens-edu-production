@@ -1,12 +1,12 @@
 ---
 id: '17085134-13c1-4e32-b1d2-a94ddc5b22a5'
 learning-outcome: "Explain how self-preservation, resource acquisition, self-improvement and goal preservation can all be derived from one recursive drive (acting so that more and better planning is directed at one's goal in future), use it to predict the instrumental behaviour of an unfamiliar agent, and identify the conditions under which that drive does not pay off."
-topic: "[[../Domains and Topics/3 Alignment/Instrumental convergence and power-seeking]]"
+concept: "[[../Concepts/Instrumental convergence and power-seeking]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Instrumental Convergence. AFFINE prerequisites: Instrumental/Terminal Distinction. Not yet copied into requires:. %%
 ## Test:

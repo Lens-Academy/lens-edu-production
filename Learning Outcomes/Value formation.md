@@ -1,12 +1,12 @@
 ---
 id: 'e2694d60-915e-4a5a-a457-f83026c97d56'
 learning-outcome: "Explain how a learning agent's many context-specific drives can be generalised into broader goals that unify them, and predict how this can yield goals that match the trained behaviour in familiar contexts but diverge in new ones, including which conditions of training and later reflection would favour one generalisation over another."
-topic: "[[../Domains and Topics/3 Alignment/You don't get what you train for]]"
+concept: "[[../Concepts/You don't get what you train for]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Value formation. AFFINE prerequisites: Value. Not yet copied into requires:. %%
 ## Test:

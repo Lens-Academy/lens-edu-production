@@ -1,12 +1,12 @@
 ---
 id: '06091514-adeb-4cda-a3b8-5b6c2f78307c'
 learning-outcome: "Describe prediction and planning as the same operation, reducing the expected mismatch (cross-entropy) between the distribution of world states and a model, that differ in which side is adjusted (the model to fit the world, or the world to fit the model), and use the resulting asymmetry (mass-covering forward divergence versus mode-seeking reverse divergence) to work out how a forecaster and a controller will behave differently given the same distribution."
-topic: "[[../Domains and Topics/4 Agent Foundations/Prediction and predictors]]"
+concept: "[[../Concepts/Prediction and predictors]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Planning/Prediction Duality?. AFFINE prerequisites: Agency, Performative Prediction. Not yet copied into requires:. %%
 ## Test:

@@ -1,12 +1,12 @@
 ---
 id: '361d43f2-3490-437f-bee2-9e476ee22c6f'
 learning-outcome: "Explain why an agent that predicts its own actions as part of the world it models treats its own choice as evidence about what functionally similar agents will choose, use this to predict how such an agent acts in a social dilemma compared with an agent that treats its action as an outside intervention, and identify how that prediction, and the agent's exposure to exploitation, depend on how similar the other agents actually are."
-topic: "[[../Domains and Topics/4 Agent Foundations/Multi-agent and hierarchical agency]]"
+concept: "[[../Concepts/Multi-agent and hierarchical agency]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: MUPI (Embedded Universal Predictive Intelligence). AFFINE prerequisites: Decision theory. Not yet copied into requires:. %%
 ## Test:

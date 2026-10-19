@@ -1,12 +1,12 @@
 ---
 id: '691aeea7-a256-4846-9206-bc792e0b2501'
 learning-outcome: "Explain why, in real agents, whether a subgoal behaves as instrumental (subordinate to the plan it serves, limited by that plan's other needs, and dropped when the plan changes) or as terminal (pursued for itself regardless of the rest of the plan) depends on how the subgoal is implemented and overseen rather than on its content, and use this to predict how a subgoal will behave when the plan it serves changes."
-topic: "[[../Domains and Topics/4 Agent Foundations/Goal-directedness and coherence]]"
+concept: "[[../Concepts/Goal-directedness and coherence]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Instrumental/Terminal Distinction. AFFINE prerequisites: none listed. Not yet copied into requires:. %%
 ## Test:

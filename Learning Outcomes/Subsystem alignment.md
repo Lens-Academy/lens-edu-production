@@ -1,12 +1,12 @@
 ---
 id: '6e4b7eaa-db20-4f0f-b7ba-66047ab5ff9a'
 learning-outcome: "Given a system that delegates part of its work to a subsystem scored on its own objective (a subagent, a trained module, or a search process), identify how the subsystem can score well on that objective while working against the goal of the whole, name the feature of the delegation that makes this possible, and evaluate proposals to constrain the subsystem, including the cost that tighter limits also remove the subsystem's ability to find what its designer did not foresee."
-topic: "[[../Domains and Topics/4 Agent Foundations/Multi-agent and hierarchical agency]]"
+concept: "[[../Concepts/Multi-agent and hierarchical agency]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Multiple Agency. AFFINE prerequisites: Agency. Not yet copied into requires:. %%
 ## Test:

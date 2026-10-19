@@ -1,12 +1,12 @@
 ---
 id: '96962c2a-1022-4f9c-8ebe-b31efb47ba6a'
 learning-outcome: "Explain why an AI that perfectly predicts human approval of observed outcomes still does not capture what the humans value, because their values are defined over latent variables in their own world-model (states of the world they infer but never observe directly), and identify what correspondence between the human's and the AI's world-models would have to be found for the AI to act on those values."
-topic: "[[../Domains and Topics/4 Agent Foundations/Ontology and ontological crises]]"
+concept: "[[../Concepts/Ontology and ontological crises]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: The Pointers Problem. AFFINE prerequisites: Goodhart. Not yet copied into requires:. %%
 ## Test:

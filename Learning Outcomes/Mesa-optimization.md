@@ -1,12 +1,12 @@
 ---
 id: 'cc0b71b0-c9c3-4b7c-b7b1-c42697f5d25d'
 learning-outcome: "Given a training setup, explain how the trained model could itself become an optimizer whose internal objective differs from the training objective while producing the same behaviour on the training distribution, predict how the two objectives would diverge in deployment, and explain why the training process no longer corrects that divergence once training has stopped."
-topic: "[[../Domains and Topics/3 Alignment/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Mesa-Optimization. AFFINE prerequisites: Outer / Inner Alignment, Optimization. Not yet copied into requires:. %%
 ## Test:

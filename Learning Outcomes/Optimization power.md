@@ -1,12 +1,12 @@
 ---
 id: 'fde292b8-dd92-4860-b6ee-d9c9f609e8cf'
 learning-outcome: "Quantify the optimization a process exerts, in bits, as how improbable it would be to get an outcome at least as good (by a stated preference ordering) under a stated baseline distribution, explain why the figure changes when the baseline changes, and explain why one improbable outcome shows optimization only if the process reaches such outcomes reliably across starting conditions and disturbances."
-topic: "[[../Domains and Topics/4 Agent Foundations/Optimization]]"
+concept: "[[../Concepts/Optimization]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Optimization. AFFINE prerequisites: Value. Not yet copied into requires:. %%
 ## Test:

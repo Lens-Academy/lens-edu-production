@@ -1,12 +1,12 @@
 ---
 id: '8c1b1746-f171-4506-9862-6cc79cf83158'
 learning-outcome: "Explain why choosing the option that scores highest on an imperfect proxy systematically selects options where the proxy overestimates true value, why this gap grows with the size and power of the search, and evaluate proposed mitigations by what each does to that selection effect and where it still fails."
-topic: "[[../Domains and Topics/3 Alignment/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Goodhart. AFFINE prerequisites: none. Not yet copied into requires:. The existing placeholder LO "Goodharting" covers the causal model of proxy failure in general; this LO covers the selection effect of strong optimisation on a proxy. %%
 ## Test:

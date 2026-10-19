@@ -1,12 +1,12 @@
 ---
 id: 'f5faf87f-c139-452e-a37d-46e9d13b44e1'
 learning-outcome: "Distinguish a disagreement or confusion caused by the concepts in use (an ontology that lumps distinct things together, or in which one side's question cannot be stated) from a disagreement about evidence within shared concepts, and propose a re-carving of the concepts that turns the question into one that evidence can settle."
-topic: "[[../Domains and Topics/4 Agent Foundations/Ontology and ontological crises]]"
+concept: "[[../Concepts/Ontology and ontological crises]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Ontology. AFFINE prerequisites: none. Not yet copied into requires:. %%
 ## Test:

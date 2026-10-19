@@ -1,12 +1,12 @@
 ---
 id: '8b8d8fbe-98c8-4ad3-a568-1d48cb6c4b9e'
 learning-outcome: "Given a low-probability high-stakes claim, separate uncertainty inside the model from uncertainty about the model, and explain how evidence quality, priors, sensitivity, and omitted mechanisms should affect the decision weight of the estimate."
-topic: "[[../Domains and Topics/15 Rationality and Epistemics/Quantitative reasoning]]"
+concept: "[[../Concepts/Quantitative reasoning]]"
 stage: beginner
 writing_minutes: 10
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 1c775cb0-453d-4f0e-8bfd-27a7d7b28ff0

@@ -1,12 +1,12 @@
 ---
 id: 'a3cadaff-eedf-4419-8966-c0c9e9a6191f'
 learning-outcome: "Given an unfamiliar decision problem, derive what causal, evidential and updateless (functional) decision theory each recommend from the kind of counterfactual each uses and whether it updates on what it has already observed, and evaluate a claim that one theory 'performs better' on the problem by identifying which counterfactual the proposed performance measure already assumes."
-topic: "[[../Domains and Topics/4 Agent Foundations/Decision theory]]"
+concept: "[[../Concepts/Decision theory]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Decision Theories. AFFINE prerequisites: Decision theory. Not yet copied into requires:. %%
 ## Test:

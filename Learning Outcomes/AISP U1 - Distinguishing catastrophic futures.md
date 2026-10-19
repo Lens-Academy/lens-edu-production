@@ -1,12 +1,12 @@
 ---
 id: 'b2e2063c-0543-4062-bfa7-9cbe04a912ae'
 learning-outcome: "Given a severe AI outcome, distinguish immediate harm from irreversible loss of future options, and identify whether the scenario involves extinction, permanent disempowerment, accumulative collapse, or another catastrophic long-run state."
-topic: "[[../Domains and Topics/11 Strategy/The core extinction argument]]"
+concept: "[[../Concepts/The core extinction argument]]"
 stage: beginner
 writing_minutes: 10
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 7bc05f3d-61ff-49c9-b9a0-524579fdaf7d

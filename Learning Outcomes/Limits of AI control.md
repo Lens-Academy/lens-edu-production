@@ -1,12 +1,12 @@
 ---
 id: '4e511e35-3219-4b88-9250-f38efcd2d20c'
 learning-outcome: "Given a theoretical impossibility result about control or verification (such as the law of requisite variety or the undecidability of checking arbitrary programs), state what it actually rules out for controlling an AI system, identify the extra assumptions an argument needs to get from the result to 'AI cannot be controlled', and distinguish the impossibility of perfect, fully general control from the impossibility of adequate control in a specific setting."
-topic: "[[../Domains and Topics/3 Alignment/Corrigibility and limited optimization]]"
+concept: "[[../Concepts/Corrigibility and limited optimization]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Control (in the technical sense) and its limits. AFFINE prerequisites: Alignment's Many Meanings. Not yet copied into requires:. The only AFFINE reading is a talk video that could not be fetched when this was drafted; the outcome follows the talk's framing ('theoretical limits to control: do any of them actually tell us anything?') and standard results. Check against the talk. %%
 ## Test:

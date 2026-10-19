@@ -5,8 +5,8 @@ authors:
   - Andreas+Claude
 tags:
   - learning-outcome
-  - wip
-topic: "[[../Domains and Topics/11 Strategy/Loss of control and takeover]]"
+  - work-in-progress
+concept: "[[../Concepts/Loss of control and takeover]]"
 stage: intermediate
 requires:
   - "[[Hostile vs. indifferent AI]]"

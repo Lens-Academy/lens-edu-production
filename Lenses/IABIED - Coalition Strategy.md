@@ -104,7 +104,7 @@ What not to do:
 id:: b33b796b-3a4c-4824-8250-afb223540aac
 content::
 \## Phase 3: Learning Question
-Chapter 13 says the coalition working to prevent human extinction must keep its ask narrow, but "narrow" isn't the same as "weak." What exactly must the coalition ask for? What must it refuse to bundle with that ask, and why does the chapter say bundling would be a mistake even if the added positions seem related to the main cause?
+Chapter 13 says to keep the coalition on this issue as broad as possible, and not to package it together with any other position. What is the one thing it says nearly all of us can agree on? Which other positions does it name, and why does it say adding any other ask is a mistake?
 
 force-feedback:: first
 feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second section of Chapter 13 ("Shut It Down") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.

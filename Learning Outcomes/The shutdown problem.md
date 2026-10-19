@@ -1,12 +1,12 @@
 ---
 id: '4d3ffe50-c143-4488-bb67-ffa5ae81f18e'
 learning-outcome: "Given a design that combines a task objective with a shutdown objective, predict whether the agent will try to prevent or cause its own shutdown, keep shutdown working in systems it builds, or tie shutdown to bad news, and explain each prediction from the agent's expected-utility comparison, including why making the agent indifferent to the button removes one incentive only by creating others."
-topic: "[[../Domains and Topics/3 Alignment/Corrigibility and limited optimization]]"
+concept: "[[../Concepts/Corrigibility and limited optimization]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Corrigibility. AFFINE prerequisites: Decision theory, Agency. Not yet copied into requires:. %%
 ## Test:

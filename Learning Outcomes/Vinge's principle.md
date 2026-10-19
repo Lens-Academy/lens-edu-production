@@ -1,12 +1,12 @@
 ---
 id: '139ccf2c-0673-4086-9dc2-07aadcc29128'
 learning-outcome: "Evaluate a safety argument about a more capable agent by identifying where it depends on predicting the agent's specific actions, explain why that dependence fails in rich domains (a less capable agent cannot predict a more capable agent's exact moves, although it can still predict outcomes) but can hold in narrow, exhaustively checkable ones, and state what kind of claim a sound guarantee must make instead."
-topic: "[[../Domains and Topics/4 Agent Foundations/Recursive self-improvement]]"
+concept: "[[../Concepts/Recursive self-improvement]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Vinge's principle. AFFINE prerequisites: AGI/ASI's various meanings. Not yet copied into requires:. %%
 ## Test:

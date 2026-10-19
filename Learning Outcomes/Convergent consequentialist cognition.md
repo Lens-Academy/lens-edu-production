@@ -1,12 +1,12 @@
 ---
 id: '9323d0ff-00d4-4848-925e-f8f248461507'
 learning-outcome: "Explain why a system optimized to reliably achieve hard, novel outcomes tends to acquire or reintroduce consequentialist cognition (choosing actions or plans by their predicted effects on outcomes), locate where that cognition would re-enter a system designed not to be an agent, and identify conditions under which this argument weakens."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agency]]"
+concept: "[[../Concepts/Agency]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Agency. AFFINE prerequisites: Optimization, Decision theory. Not yet copied into requires:. %%
 ## Test:

@@ -1,12 +1,12 @@
 ---
 id: 'fc73949e-aa1c-4842-a62f-fac5d5e92807'
 learning-outcome: "Given a self-locating problem in which the number of observers depends on an unknown fact, compute the credences that the self-indication and self-sampling assumptions give, explain which question about proportions of observers each credence answers and how the reference class changes the self-sampling answer, and show how the choice between them depends on how the decision-maker values outcomes across its copies."
-topic: "[[../Domains and Topics/4 Agent Foundations/Acausal reasoning and anthropics]]"
+concept: "[[../Concepts/Acausal reasoning and anthropics]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Anthropics. AFFINE prerequisites: Decision theory. Not yet copied into requires:. %%
 ## Test:

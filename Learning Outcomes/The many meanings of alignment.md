@@ -1,12 +1,12 @@
 ---
 id: 'b38e0f5c-21e2-4b1c-8e75-38f06fab6cec'
 learning-outcome: "Distinguish the different problems that the word \"alignment\" is used to name (for example making AI reliably do what users ask, preventing takeover by AI pursuing unintended goals, making AI cognition understandable, deciding whose values AI should serve, and protecting human agency and long-run societal outcomes), and identify when an argument treats progress on one of them as progress on another without stating how they are related."
-topic: "[[../Domains and Topics/3 Alignment/The alignment research landscape]]"
+concept: "[[../Concepts/The alignment research landscape]]"
 stage: intermediate
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Alignment's Many Meanings. AFFINE prerequisites: none. Not yet copied into requires:. %%
 ## Test:

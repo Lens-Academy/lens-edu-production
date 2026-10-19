@@ -1,12 +1,12 @@
 ---
 id: 'f5de2870-f274-471f-830f-bb936dcc9c56'
 learning-outcome: "Given a proposed approach to an alignment problem, identify an obstruction: a general reason, stated relative to explicit assumptions, why this approach and every approach sharing its key feature cannot succeed as intended; and distinguish it from a single counterexample or fixable flaw that a patch to the approach would remove."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agent foundations research]]"
+concept: "[[../Concepts/Agent foundations research]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Obstruction. AFFINE prerequisites: none listed. Not yet copied into requires:. The AFFINE reading is a short shortform comment pointing to Terence Tao's description of obstructions in mathematics research; the outcome draws on that notion. %%
 ## Test:

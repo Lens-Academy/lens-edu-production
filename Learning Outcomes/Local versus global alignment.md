@@ -1,12 +1,12 @@
 ---
 id: '088529b4-7c0f-43a7-bc62-d836af314cc4'
 learning-outcome: "Distinguish evidence that an AI system (or the process that produces it) acts aligned in the current capability regime from evidence that this will persist as systems become superhuman, and explain mechanisms by which the first can hold at every step while the second fails."
-topic: "[[../Domains and Topics/3 Alignment/Why alignment is hard]]"
+concept: "[[../Concepts/Why alignment is hard]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Local vs asymptotic/global alignment. AFFINE prerequisites: Alignment's Many Meanings. Not yet copied into requires:. %%
 ## Test:

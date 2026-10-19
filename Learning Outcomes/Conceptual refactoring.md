@@ -1,12 +1,12 @@
 ---
 id: 'c1b23d36-eeb5-4ae9-a885-569a92b824aa'
 learning-outcome: "Refactor a concept that an alignment discussion depends on but uses inconsistently: find the conflicting demands that different claims place on it, propose a revised or split concept that meets those demands, and propagate the change by restating the original claims with the new concepts and checking which still hold."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agent foundations research]]"
+concept: "[[../Concepts/Agent foundations research]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Conceptual refactoring. AFFINE prerequisites: Ontology. Not yet copied into requires:. %%
 ## Test:

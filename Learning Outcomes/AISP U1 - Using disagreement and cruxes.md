@@ -1,12 +1,12 @@
 ---
 id: 'eaac71ef-2ca1-4e58-973f-5316d8210fb7'
 learning-outcome: "Given persistent disagreement among informed people, identify the source of disagreement, formulate a useful crux or information-gathering question, and choose a response that preserves decision-relevant information instead of mechanically averaging opinions."
-topic: "[[../Domains and Topics/15 Rationality and Epistemics/Truth-seeking and disagreement]]"
+concept: "[[../Concepts/Truth-seeking and disagreement]]"
 stage: beginner
 writing_minutes: 10
 tags:
   - learning-outcome
-  - wip
+  - work-in-progress
 ---
 ## Test:
 id:: 26bf59f0-2316-4bca-95ef-6dd6d4b956db

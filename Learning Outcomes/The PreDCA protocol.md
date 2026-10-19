@@ -1,12 +1,12 @@
 ---
 id: '5da8eec8-6a05-4e04-b58b-9e62c8772e04'
 learning-outcome: "Explain how the PreDCA protocol tries to remove the risk of an AI tampering with its source of preferences, by identifying its user as an agent that causally preceded the AI and inferring that user's utility function only from their behaviour before the AI existed, and identify which failure modes this removes and which it leaves open."
-topic: "[[../Domains and Topics/3 Alignment/Alignment targets]]"
+concept: "[[../Concepts/Alignment targets]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: PreDCA. AFFINE prerequisites: Infra-Bayesianism, Decision Theory. Not yet copied into requires:. The assigned reading is a stub wiki page; this LO was drafted from its two linked posts (a distillation and a critique of PreDCA). %%
 ## Test:

@@ -1,12 +1,12 @@
 ---
 id: 'a0cee92c-b97b-4b2e-98db-450bed6fc735'
 learning-outcome: "Distinguish wireheading (an agent acting on the channel that measures or rewards a goal instead of on the goal itself) from other ways of scoring well on a proxy, and explain how whether an agent evaluates outcomes by the signal or by its model of the world state the signal tracks affects its incentive to tamper with the channel."
-topic: "[[../Domains and Topics/3 Alignment/Inner and outer alignment]]"
+concept: "[[../Concepts/Inner and outer alignment]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Wireheading. AFFINE prerequisites: Goodhart. Not yet copied into requires:. %%
 ## Test:

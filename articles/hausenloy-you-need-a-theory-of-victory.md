@@ -10,9 +10,8 @@ description: "The cause of AI safety is losing. Consider asking: how can we win?
 tags:
   - "article-importer"
 ---
-
+ata
 %%
-ARTICLE STUB — the article itself has not been imported yet.
 
 Initial thoughts, 2026-07-26:
 - Possible intermediate material for Theory of change and impact pathways.

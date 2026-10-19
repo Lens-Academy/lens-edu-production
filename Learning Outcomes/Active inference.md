@@ -1,12 +1,12 @@
 ---
 id: 'd6467e1e-e7f8-4873-9800-dd2682e9d0a8'
 learning-outcome: "Explain how active inference treats perception and action as two ways of reducing the same mismatch between predicted and actual observations, with an agent's goals encoded as confident predictions about what it will observe, and use the relative confidence (precision) of predictions and evidence to predict whether an agent will revise its beliefs or act on the world in a given situation."
-topic: "[[../Domains and Topics/4 Agent Foundations/Agency]]"
+concept: "[[../Concepts/Agency]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Active Inference. AFFINE prerequisites: Probability. Not yet copied into requires:. %%
 ## Test:

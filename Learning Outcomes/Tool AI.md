@@ -1,12 +1,12 @@
 ---
 id: '491f84ff-b43a-4158-b3b6-0189123a0161'
 learning-outcome: "Judge whether a proposed AI system behaves as a tool in the safety-relevant sense (it solves a subproblem the user has defined without side effects on the rest of the user's plan, its work stays visible and correctable, and it does not pursue goals beyond the task), and explain why a system asked to achieve a goal its users cannot yet break into well-defined subproblems loses these properties."
-topic: "[[../Domains and Topics/3 Alignment/Corrigibility and limited optimization]]"
+concept: "[[../Concepts/Corrigibility and limited optimization]]"
 stage: advanced
 authors:
   - Luc+Claude
 tags:
-  - wip
+  - work-in-progress
 ---
 %% Imported from the AFFINE Tech Tree (https://learn.affi.ne/). AFFINE topic: Tool AI. AFFINE prerequisites: The Space Of Types of AI. Not yet copied into requires:. %%
 ## Test:
