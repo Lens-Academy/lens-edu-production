@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 2db9640c
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds a specific unhedged list of five norms inside the required item, so a literal judge would reject equally valid learner-generated norms."}
+  evidence: {C3: "Lists 3-5 norms (steel-man before push back; share airtime; confidentiality on identity not on ideas; changing your mind is high-status; one conversation at a time)."}
 ---
 
 ## Test:

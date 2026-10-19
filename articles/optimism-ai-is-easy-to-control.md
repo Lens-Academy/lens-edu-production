@@ -3,19 +3,32 @@ title: "AI is easy to control"
 author:
   - "AI Optimism"
 source_url: "https://optimists.ai/2023/11/28/ai-is-easy-to-control/"
-published: 2023-11-29
+published: 2023-11-28
 created: 2026-06-21
 accessed: 2026-06-21
 description: "Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable i…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
 
-Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable is that it is **more controllable** than human labor. The personality and conduct of an AI can be controlled to much finer grained precision than that of any human employee. Chatbots like GPT-4 and Claude undergo a “supervised fine tuning” phase, where their neural circuitry is directly optimized to say certain words, phrases, and sentences in specified contexts. Algorithms like [direct preference optimization](https://arxiv.org/abs/2305.18290) (DPO) and [reinforcement learning from human feedback](https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html) (RLHF) are also used to holistically shape chatbots’ brains into the kind of systems most preferred by human graders. And by carefully curating the dataset on which the AI is initially trained, we can also control _all_ of the AI’s most formative experiences. Since AIs are computer programs, they can be cheaply copied and run on many computers in parallel, making it economically viable to invest millions or even billions of dollars on carefully training a “single” artificial employee. Needless to say, none of this is possible or ethical to perform on human employees.[^1]
+This essay argues one side of an active, contested debate in AI safety (the "AI Optimist" position) and states its own conclusions, such as a ~1% takeover probability, as settled facts rather than open estimates. Pair it with a counterargument piece (e.g. from AI safety researchers more concerned about misalignment or takeover risk) so learners can weigh both perspectives rather than treat this as consensus.
+
+%%
+
+Why are billions of dollars being poured into artificial intelligence R&D this year? Companies certainly expect to get a return on their investment. Arguably, the main reason AI is profitable is that it is **more controllable** than human labor. The personality and conduct of an AI can be controlled to much finer grained precision than that of any human employee. Chatbots like GPT-4 and Claude undergo a “supervised fine tuning” phase, where their neural circuitry is directly optimized to say certain words, phrases, and sentences in specified contexts. Algorithms like [direct preference optimization](https://arxiv.org/abs/2305.18290) (DPO) and [reinforcement learning from human feedback](https://papers.nips.cc/paper_files/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html) (RLHF) are also used to holistically shape chatbots’ brains into the kind of systems most preferred by human graders. And by carefully curating the dataset on which the AI is initially trained, we can also control _all_ of the AI’s most formative experiences. Since AIs are computer programs, they can be cheaply copied and run on many computers in parallel, making it economically viable to invest millions or even billions of dollars on carefully training a “single” artificial employee. Needless to say, none of this is possible or ethical to perform on human employees.[^note-optimism-1]
 
 These days, many people are worried that we will lose control of artificial intelligence, leading to human extinction or a similarly catastrophic “AI takeover.” We hope the arguments in this essay make such an outcome seem implausible. But even if future AI turns out to be less “controllable” in a strict sense of the word— simply because, for example, it thinks faster than humans can directly supervise— we also argue it will be easy to _instill our values_ into an AI, a process called “ **alignment**.” Aligned AIs, by design, would prioritize human safety and welfare, contributing to a positive future for humanity, even in scenarios where they, say, acquire the level of autonomy current-day humans possess.
 
-In what follows, we will argue that AI, even superhuman AI, will remain much more controllable than humans for the foreseeable future. Since each generation of controllable AIs can help control the next generation, it looks like this process can continue indefinitely, even to very high levels of capability. Accordingly, we think **a** **catastrophic AI takeover is roughly 1% likely** — a tail risk [^2] worth considering, but not the dominant source of risk in the world. We will not attempt to directly address pessimistic arguments in this essay, although we will do so in a forthcoming document. Instead, our goal is to present the basic reasons for being optimistic about humanity’s ability to control and align artificial intelligence into the far future.
+In what follows, we will argue that AI, even superhuman AI, will remain much more controllable than humans for the foreseeable future. Since each generation of controllable AIs can help control the next generation, it looks like this process can continue indefinitely, even to very high levels of capability. Accordingly, we think **a** **catastrophic AI takeover is roughly 1% likely** — a tail risk [^note-optimism-2] worth considering, but not the dominant source of risk in the world. We will not attempt to directly address pessimistic arguments in this essay, although we will do so in a forthcoming document. Instead, our goal is to present the basic reasons for being optimistic about humanity’s ability to control and align artificial intelligence into the far future.
 
 ## AIs are white boxes
 
@@ -33,6 +46,7 @@ By contrast, AIs implemented using artificial neural networks (ANN) are **white 
 
 Backprop efficiently computes the optimal direction (called the “gradient”) in which to change the synaptic weights of the ANN in order to improve its performance the most, on any criterion we specify. The animation below shows backprop being used to compute the gradient for an ANN classifying an image of the number 5. ANNs are trained by running backprop, nudging the weights a small step along the gradient, then running backprop again, and so on many times until performance stops increasing. Needless to say, we can’t do anything remotely like gradient descent on a human brain, or the brain of any other animal!
 
+%% validator-ignore-next-line --code article.image-low-resolution --reason AI-couldn't-find-higher-resolution-image %%
 ![](https://optimists.ai/wp-content/uploads/2023/11/neuralnetwork-training.gif?w=727)
 
 Gradient descent is very powerful because, unlike a black box method, it’s almost [impossible to trick](https://www.beren.io/2023-01-21-gradient-hacking-extremely-difficult/). All of the AI’s thoughts are “transparent” to gradient descent and are included in its computation. If the AI is secretly planning to kill you, gradient descent will notice this and make it less likely to do that in the future, because the neural circuitry needed to make the secret murder plot can be dismantled and reconfigured into circuits that directly improve performance. In general, gradient descent has a strong tendency to favor the [simplest solution](https://arxiv.org/abs/1905.11604) which performs well, and secret murder plots aren’t actively useful for improving performance on the tasks humans will actually optimize AIs to perform.
@@ -84,9 +98,9 @@ This means that AIs will not learn to “ [play the training game](https://www.p
 1.  Values are pervasive in language model pre-training datasets. Essentially every domain of discourse contains implicit or explicit evaluative judgements. In contrast, the types of knowledge needed for dangerous capabilities appear at much lower frequencies in the training corpus.
 2.  Since values are _shared_ and understood by almost everyone in a society, they cannot be very complex. Unlike science and technology, where division of labor enables the accumulation of ever more complex knowledge, values must remain simple enough to be learned by children within a few years.
 
-![](https://optimists.ai/wp-content/uploads/2023/11/untitled.png?w=853)
+![](https://optimists.ai/wp-content/uploads/2023/11/untitled.png)
 
-Because values are simple, current language models are already very capable of morally evaluating complex actions that a superintelligence might be capable of. In [the non-cherry picked example](https://chat.openai.com/share/a8c91a3f-8d68-4838-b405-85ff2a68a0bc) above, GPT-4 shows it can recognize that it’s wrong to kill people, even in “out of distribution” scenarios with futuristic technologies it doesn’t know how to invent. By saying “The use of _any technology_ to harm individuals_,_” GPT shows it has grokked the underlying simple moral rule “do no harm,” allowing it to generalize its ethics to cases far outside the training distribution. Strikingly, GPT-4 is also able to infer from context that the term “unspool” is being used in an idiosyncratic way to refer to some kind of harm.
+Because values are simple, current language models are already very capable of morally evaluating complex actions that a superintelligence might be capable of. In [the non-cherry picked example](https://chat.openai.com/share/a8c91a3f-8d68-4838-b405-85ff2a68a0bc) above, GPT-4 shows it can recognize that it’s wrong to kill people, even in “out of distribution” scenarios with futuristic technologies it doesn’t know how to invent. By saying “The use of _any technology_ to harm individuals,” GPT shows it has grokked the underlying simple moral rule “do no harm,” allowing it to generalize its ethics to cases far outside the training distribution. Strikingly, GPT-4 is also able to infer from context that the term “unspool” is being used in an idiosyncratic way to refer to some kind of harm.
 
 Outside of the example scenario shown, GPT-4 is generally cautious when discussing uses for powerful capabilities beyond its training distribution, even for innocuous purposes. It frequently recommends “consulting with experts”, “safety considerations”, “considering the ethical implications and potential risks”, “complying with laws and regulations”, and so on. It’s also very quick to recommend against actions that seem like they might impact a human, even when discussing capabilities far beyond those directly addressed in training. These examples strongly suggest that **alignment generalizes further than capabilities**. We should expect that the values we instill into AIs in the near term will be preserved quite well even as they surpass human performance across many tasks.
 
@@ -96,5 +110,5 @@ There are many reasons to expect that AIs will be easy to control and easy to al
 
 _Written by Nora Belrose and Quintin Pope, with input from the broader AI Optimist community._
 
-[^1]: Throughout this essay, we directly compare AI controllability to human controllability in ways that may sound off-putting or disrespectful to some readers. We fervently condemn attempts to control humans like we control AIs, and we think it’s important to start talking about the ethics of AI control now. Future AIs will exhibit emotions and desires in ways that deserve serious ethical consideration.
-[^2]: Using the looser [SKEW index](https://en.wikipedia.org/wiki/SKEW) definition of “tail risk” as an event more than two standard deviations away from the mean. Other sources define it as three std. deviations from the mean.
+[^note-optimism-1]: Throughout this essay, we directly compare AI controllability to human controllability in ways that may sound off-putting or disrespectful to some readers. We fervently condemn attempts to control humans like we control AIs, and we think it’s important to start talking about the ethics of AI control now. Future AIs will exhibit emotions and desires in ways that deserve serious ethical consideration.
+[^note-optimism-2]: Using the looser [SKEW index](https://en.wikipedia.org/wiki/SKEW) definition of “tail risk” as an event more than two standard deviations away from the mean. Other sources define it as three std. deviations from the mean.

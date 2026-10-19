@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: 20e3d369
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: fail, B1: pass, C2: pass, C3: pass}
+  notes: {A3: "Two unrelated frames bundled: a learner could describe 'lead from behind' while failing to describe the four-perspectives frame (and vice versa) — separable capabilities that belong in separate files."}
+  evidence: {A3: "Describe the 'lead from behind' posture and the four-leadership-perspectives frame"}
 ---
 
 ## Test:

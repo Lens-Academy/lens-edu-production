@@ -23,7 +23,8 @@ Without looking back: what is the mechanism, and what are the three systems it o
 
 Then: what does the paper say happens when you consider the three together that does not happen when you consider each alone?
 
-assessment-instructions:: The student has read Kulveit et al.'s "Gradual Disempowerment" and previously read Christiano's "What failure looks like".
+
+feedback-instructions:: The student has read Kulveit et al.'s "Gradual Disempowerment" and previously read Christiano's "What failure looks like".
 
 Key content:
 - The core claim: human influence over economic, cultural, and political systems rests substantially on those systems needing humans, as workers, as consumers, as taxpayers, as soldiers, as sources of legitimacy. AI substitution removes that dependence.
@@ -59,7 +60,8 @@ Two readings now, both describing catastrophe with nobody at fault.
 
 Which of the two do you find more plausible, and what is the actual source of the difference in your reaction? Is it the mechanism, or is it something about how the story is told?
 
-assessment-instructions:: A processing phase comparing two structural-failure accounts. Help the student articulate what is driving their reaction. Do not adjudicate which reading is correct.
+
+feedback-instructions:: A processing phase comparing two structural-failure accounts. Help the student articulate what is driving their reaction. Do not adjudicate which reading is correct.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -90,6 +92,7 @@ A policy analyst proposes:
 The last sentence is the mistake. Why?
 
 And: is there a version of this proposal that would work, or is the whole approach wrong?
+
 
 assessment-instructions:: The student has read both structural-failure accounts. This wedge question hands them a competent-sounding proposal built on an additive assumption. It is not the test question.
 

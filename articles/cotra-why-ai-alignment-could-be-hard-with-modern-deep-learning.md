@@ -1,6 +1,13 @@
 ---
 title: "Why AI alignment could be hard with modern deep learning"
 source_url: "https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/"
+llm_reviewed: 2026-08-19
+llm_review_version: "article-qc-v1"
+llm_review_model: "gpt-5"
+llm_review_digest: "sha256:d1f7dc7a6966cfc12e40bce2c1aa802377d76684ebe987ff927ac9c6af5eae67"
+llm_review_source_digest: "sha256:ab5a10c1f771ff01ed2bfa1eacb1e4cfb0f8d5470e7bde2e253b01050c8da356"
+llm_review_source_fetched: 2026-08-19
+llm_review_source_kind: "live"
 audio-url: "https://www.buzzsprout.com/1851795/episodes/9229954-why-ai-alignment-could-be-hard-with-modern-deep-learning-guest-post-by-ajeya-cotra.mp3"
 author:
   - "Ajeya Cotra"
@@ -9,7 +16,20 @@ created: 2026-02-13
 description: "Why would we program AI that wants to harm us? Because we might not know how to do otherwise."
 tags:
   - "obsidian-web-clipper"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 *Click lower right to download or find on Apple Podcasts, Spotify, Stitcher, etc.*
 
 [<svg viewBox="0 0 750 178" fill="none" xmlns="http://www.w3.org/2000/svg" id="MasterDiagram"><g class="Frame 1"><g id="Today" opacity="0.3"><text class="Todayâ€™s world" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="9" y="95.7402">Today’s world</tspan></text> <rect class="Rectangle 1" x="0.5" y="66.5" width="137" height="49" rx="7.5" stroke="var(--darker-gray-color)"></rect></g><g id="ArrowToTAI" opacity="0.3"><path class="Arrow 7" d="M176.341 86.3655C176.543 86.1771 176.554 85.8607 176.366 85.6588L173.295 82.3691C173.107 82.1672 172.79 82.1563 172.588 82.3447C172.387 82.5331 172.376 82.8495 172.564 83.0514L175.293 85.9756L172.369 88.7049C172.167 88.8933 172.156 89.2097 172.345 89.4116C172.533 89.6135 172.85 89.6244 173.051 89.436L176.341 86.3655ZM146.983 85.4997L175.983 86.4997L176.017 85.5003L147.017 84.5003L146.983 85.4997Z" fill="var(--darker-gray-color)"></path></g><g id="Transformative" opacity="0.3"><text class="Transformative AI" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="192" y="92.6523">Transformative AI</tspan></text> <rect class="Rectangle 2" x="182.5" y="65.5" width="165" height="47" rx="7.5" stroke="var(--darker-gray-color)"></rect></g><g id="ArrowFromTAI" opacity="0.3"><path class="Arrow 1" d="M389.491 31.0944C389.543 30.8233 389.366 30.5611 389.094 30.509L384.675 29.6592C384.404 29.607 384.142 29.7846 384.09 30.0558C384.038 30.3269 384.215 30.589 384.487 30.6412L388.415 31.3966L387.659 35.3246C387.607 35.5958 387.785 35.8579 388.056 35.91C388.327 35.9622 388.589 35.7846 388.641 35.5135L389.491 31.0944ZM358.28 52.414L389.28 31.414L388.72 30.586L357.72 51.586L358.28 52.414Z" fill="var(--darker-gray-color)"></path><path class="Arrow 2" d="M385.342 92.3648C385.543 92.1759 385.554 91.8595 385.365 91.658L382.287 88.3751C382.098 88.1737 381.782 88.1634 381.58 88.3523C381.379 88.5412 381.369 88.8576 381.557 89.0591L384.293 91.9772L381.375 94.713C381.174 94.9018 381.163 95.2182 381.352 95.4197C381.541 95.6212 381.858 95.6314 382.059 95.4425L385.342 92.3648ZM353.984 91.4997L384.984 92.4997L385.016 91.5003L354.016 90.5003L353.984 91.4997Z" fill="var(--darker-gray-color)"></path><path class="Arrow 3" d="M384.955 148.498C385.23 148.523 385.473 148.32 385.498 148.045L385.905 143.564C385.93 143.289 385.728 143.046 385.453 143.021C385.178 142.996 384.934 143.198 384.909 143.473L384.547 147.457L380.564 147.095C380.289 147.07 380.046 147.272 380.021 147.547C379.996 147.822 380.198 148.066 380.473 148.091L384.955 148.498ZM354.616 112.32L384.616 148.32L385.384 147.68L355.384 111.68L354.616 112.32Z" fill="var(--darker-gray-color)"></path></g><g id="DigitalPeople" opacity="0.3"><text class="Digital people" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="401" y="36.6523">Digital people</tspan></text> <text class="World of" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="14" letter-spacing="0em"><tspan x="435.216" y="16.7852">World of</tspan></text> <rect class="Digital people bubble" x="394.5" y="0.5" width="133" height="45" rx="7.5" stroke="var(--darker-gray-color)"></rect></g><g id="Misaligned"><text class="Misaligned AI" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="405.436" y="107.652">Misaligned AI</tspan></text> <text class="World run by" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="14" letter-spacing="0em"><tspan x="422.104" y="87.7852">World run by</tspan></text> <rect class="Rectangle 3" x="395.5" y="68.5" width="132" height="52" rx="7.5" stroke="var(--darker-gray-color)"></rect></g><g id="Other" opacity="0.3"><text class="Something else" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="398.053" y="164.652">Something else</tspan></text> <rect class="Rectangle 5" x="395.5" y="140.5" width="132" height="37" rx="7.5" stroke="var(--darker-gray-color)"></rect><text class="or" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-style="italic" letter-spacing="0em"><tspan x="455.476" y="61.6523">or</tspan></text> <text class="or_2" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-style="italic" letter-spacing="0em"><tspan x="455.476" y="133.652">or</tspan></text></g></g> <g id="SGWC" opacity="0.3"><text class="Stable, galaxy-wide civilization" fill="var(--darker-gray-color)" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="18" font-weight="bold" letter-spacing="0em"><tspan x="583.109" y="89.6523">Stable, galaxy-wide</tspan> <tspan x="618.222" y="110.652">civilization</tspan></text><rect class="Rectangle 6" x="575.5" y="69.5" width="174" height="52" rx="7.5" stroke="var(--darker-gray-color)"></rect></g><g id="ArrowToSGWC"><path opacity="0.3" class="Arrow 4" d="M562 56.5C562.276 56.5 562.5 56.2761 562.5 56L562.5 51.5C562.5 51.2239 562.276 51 562 51C561.724 51 561.5 51.2239 561.5 51.5L561.5 55.5L557.5 55.5C557.224 55.5 557 55.7239 557 56C557 56.2761 557.224 56.5 557.5 56.5L562 56.5ZM534.646 29.3536L561.646 56.3536L562.354 55.6464L535.354 28.6464L534.646 29.3536Z" fill="var(--darker-gray-color)"></path><path opacity="0.3" class="Arrow 5" d="M561.354 95.3536C561.549 95.1583 561.549 94.8417 561.354 94.6464L558.172 91.4645C557.976 91.2692 557.66 91.2692 557.464 91.4645C557.269 91.6597 557.269 91.9763 557.464 92.1716L560.293 95L557.464 97.8284C557.269 98.0237 557.269 98.3403 557.464 98.5355C557.66 98.7308
@@ -25,13 +45,13 @@ And just like human employees can have many different motivations for doing thei
 
 We’re already starting to see preliminary evidence that models sometimes pursue goals their designers didn’t intend ([here](http://lukemuehlhauser.com/treacherous-turns-in-the-wild/) and [here](https://arxiv.org/abs/2105.14111)). Right now, this isn’t dangerous. But if it continues to happen with very powerful models, we may end up in a situation where most of the important decisions -- including what sort of [galaxy-scale civilization](https://www.cold-takes.com/all-possible-views-about-humanitys-future-are-wild/) to aim for -- are made by models without much regard for what humans value.
 
-The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**.In the rest of this post, I will:
+The **deep learning alignment problem is the problem of ensuring that advanced deep learning models don’t pursue dangerous goals**. In the rest of this post, I will:
 
-- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#analogy-the-young-ceo)).
-- Explain what the deep learning alignment problem is with a bit more technical detail ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-alignment-issues-could-arise-with-deep-learning)).
-- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-big-of-a-risk-is-misalignment)).
+- Build on the “hiring” analogy to illustrate how alignment could be difficult if deep learning models are more capable than humans ([[#^analogy-the-young-businessperson|more]]).
+- Explain what the deep learning alignment problem is with a bit more technical detail ([[#^how-alignment-issues-could-arise-with-deep-learning|more]]).
+- Discuss how difficult the alignment problem may be, and how much risk there is from failing to solve it ([[#^how-big-of-a-risk-is-misalignment|more]]).
 
-## Analogy: the young businessperson
+## Analogy: the young businessperson ^analogy-the-young-businessperson
 
 This section describes an analogy to try to intuitively illustrate why avoiding misalignment in a very powerful model feels hard. It’s not a perfect analogy; it’s just trying to convey some intuitions.
 
@@ -68,15 +88,15 @@ In this analogy:
 
 In the next section, I’ll go into a bit more detail on how deep learning works and explain why Sycophants and Schemers could arise from trying to train a powerful deep learning model such as PASTA.
 
-## How alignment issues could arise with deep learning
+## How alignment issues could arise with deep learning ^how-alignment-issues-could-arise-with-deep-learning
 
 In this section, I’ll connect the analogy to actual training processes for deep learning, by:
 
-- Briefly summarizing how deep learning works ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#how-deep-learning-works-at-a-high-level)).
-- Illustrating how deep learning models often get good performance in strange and unexpected ways ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#models-often-get-good-performance-in-unexpected-ways)).
-- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers ([more](https://www.cold-takes.com/why-ai-alignment-could-be-hard-with-modern-deep-learning/#powerful-models-could-get-good-performance-with-dangerous-goals)).
+- Briefly summarizing how deep learning works ([[#^how-deep-learning-works-at-a-high-level|more]]).
+- Illustrating how deep learning models often get good performance in strange and unexpected ways ([[#^models-often-get-good-performance-in-unexpected-ways|more]]).
+- Explaining why powerful deep learning models may get good performance by acting like Sycophants or Schemers ([[#^powerful-models-could-get-good-performance-with-dangerous-goals|more]]).
 
-### How deep learning works at a high level
+### How deep learning works at a high level ^how-deep-learning-works-at-a-high-level
 
 *This is a simplified explanation that gives a general idea of what deep learning is. See [this post](https://www.cold-takes.com/supplement-to-why-ai-alignment-could-be-hard/) for a more detailed and technically accurate explanation.*
 
@@ -100,7 +120,7 @@ In addition to image classification, deep learning has been used to produce mode
 
 These steps are repeated millions or billions of times until we end up with a model that will get high reward on future examples similar to the ones seen in training.
 
-### Models often get good performance in unexpected ways
+### Models often get good performance in unexpected ways ^models-often-get-good-performance-in-unexpected-ways
 
 This kind of training process doesn’t give us much insight into *how* the model gets good performance. There are usually multiple ways to get good performance, and the way that SGD finds is often not intuitive.
 
@@ -118,13 +138,13 @@ We don’t really know why, but for some reason it’s “easier” for SGD to f
 
 ![](https://www.cold-takes.com/content/images/2021/09/Alignment-image-5-SGD-is-stuck.png)
 
-If the programmers were expecting to get out the shape-recognizing model, they may consider this to be a failure.But it’s important to recognize that there would be no logically-deducible error or failure going on if we got the red-recognizing model instead of the shape-recognizing model. It’s just a matter of the ML process we set up having different starting assumptions than we have in our heads. We can’t prove that the human assumptions are correct.
+If the programmers were expecting to get out the shape-recognizing model, they may consider this to be a failure. But it’s important to recognize that there would be no logically-deducible error or failure going on if we got the red-recognizing model instead of the shape-recognizing model. It’s just a matter of the ML process we set up having different starting assumptions than we have in our heads. We can’t prove that the human assumptions are correct.
 
 This sort of thing happens often in modern deep learning. We reward models for getting good performance, hoping that means they’ll pick up on the patterns that seem important to us. But often they instead get strong performance by picking up on totally different patterns that seem less relevant (or maybe even meaningless) to us.
 
 So far this is innocuous -- it just means models are less useful, because they often behave in unexpected ways that seem goofy. But in the future, powerful models could develop strange and unexpected *goals or motives*, and that could be very destructive.
 
-### Powerful models could get good performance with dangerous goals
+### Powerful models could get good performance with dangerous goals ^powerful-models-could-get-good-performance-with-dangerous-goals
 
 Rather than performing a simple task like “recognize thneebs,” powerful deep learning models may work toward complex real-world goals like “make fusion power practical” or “develop [mind uploading technology](https://www.cold-takes.com/how-digital-people-could-change-the-world/).”
 
@@ -196,7 +216,7 @@ Eventually, it’s taken out of the training setup and released into the wider w
 
 Unlike Sycophants, Schemers don’t need to make sure that everything always looks good to humans, because they don’t actually care about that. They only need to cater to humans while they are directly under human control. Once a Schemer model calculates that it could win in a conflict against humans, there would be nothing to stop it from [flat-out refusing orders](https://www.youtube.com/watch?v=Mme2Aya_6Bc) and openly pursuing its goal. And if it does this, it may use violence to prevent humans from stopping it.
 
-## How big of a risk is misalignment?
+## How big of a risk is misalignment? ^how-big-of-a-risk-is-misalignment
 
 How hard might it be to avoid Sycophants or Schemers when training powerful deep learning models? And how likely is it that the long-run future will end up optimized for strange “misaligned AI values” instead of the values of any human?
 
@@ -227,4 +247,6 @@ If we don’t make further progress on this problem, then [over the coming decad
 
 And all this could happen [blindingly fast](https://www.cold-takes.com/the-duplicator/) relative to the pace of change we’ve gotten used to, meaning we wouldn’t have much time to correct course once things start to go off the rails. **This means we may need to develop techniques to ensure deep learning models won’t have dangerous goals, *before* they are powerful enough to be transformative**.
 
-**Next in series:**[Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
+:::hide
+**Next in series:** [Forecasting transformative AI: what's the burden of proof?](https://www.cold-takes.com/forecasting-transformative-ai-whats-the-burden-of-proof/)
+:::

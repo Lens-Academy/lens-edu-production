@@ -12,6 +12,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 4th August 2025
 
 AI systems may soon fully automate AI R&D. [Eth & Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#article) argues that this could precipitate a _software intelligence explosion_ – a period of rapid AI progress due to AI improving AI software.
@@ -40,8 +47,6 @@ We assume that software progress is driven by two inputs: 1) _cognitive labour_ 
 
 Our model holds compute fixed and simulates a feedback loop of AI improving AI software
 
-## Image
-
 So the feedback loop we simulate is: better AI → more cognitive labour for AI research → more AI software progress → better AI →...
 
 The model has three key parameters that drive the results:
@@ -66,37 +71,19 @@ The model has three key parameters that drive the results:
 
 Diagram showing the meaning of the model’s three main parameters
 
-## Image
-
 The following table summarises our estimates of the three key parameters:
 
 | **Parameter** | **Estimation methods** | **Values used in the model** |
 | --- | --- | --- |
-| **Initial speed-up** in software progress from deploying ASARA | \- Various surveys of AI researchers on the speed-ups from ASARA and the strength of compute bottlenecks.  
-  
-\- Listing and estimating the gains of specific things ASARA could do  
-  
-\- Applying a simple Cobb-Douglas model of software progress | Compared to progress in 2020-2024, software progress will be faster by a factor of **2 - 32, with a median of 8** |
-| **Returns to software R&D**  
-  
-(After the initial speed-up, does progress accelerate or decelerate?) | \- Empirical evidence on growth of cognitive inputs to AI research and the pace of resultant software improvements  
-  
-\- Adjustments to this empirical evidence to account for compute bottlenecks and AI becoming smarter over time | The pace of software progress will **probably (~60%) accelerate over time** after the initial speed-up (at least initially).  
-  
-(We estimate 0.4 < r < 3.6 0.4<r<3.6, with a median of r \= 1.2 r=1.2) |
-| **Distance to “effective limits” of AI software** | \- Estimating that if ASARA is trained with 1e28 FLOP, training efficiency could improve ~4 OOMs before matching that of human learning  
-  
-\- Listing and estimating plausible efficiency gains on top of human learning, e.g. from better data and better learning algorithms. This involves a fair amount of guesswork and is a massive remaining uncertainty. | **6 - 16 OOMs of efficiency gains** after ASARA before hitting effective limits  
-  
-This translates to 6-16 years worth of AI progress, because the [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.) for AI training has recently risen by [~10X/year](https://epoch.ai/trends) |
+| **Initial speed-up** in software progress from deploying ASARA | Various surveys of AI researchers on the speed-ups from ASARA and the strength of compute bottlenecks; listing and estimating the gains of specific things ASARA could do; applying a simple Cobb-Douglas model of software progress | Compared to progress in 2020-2024, software progress will be faster by a factor of **2 - 32, with a median of 8** |
+| **Returns to software R&D** (After the initial speed-up, does progress accelerate or decelerate?) | Empirical evidence on growth of cognitive inputs to AI research and the pace of resultant software improvements; adjustments to this empirical evidence to account for compute bottlenecks and AI becoming smarter over time | The pace of software progress will **probably (~60%) accelerate over time** after the initial speed-up (at least initially). We estimate $0.4 < r < 3.6$, with a median of $r = 1.2$. |
+| **Distance to “effective limits” of AI software** | Estimating that if ASARA is trained with 1e28 FLOP, training efficiency could improve ~4 OOMs before matching that of human learning; listing and estimating plausible efficiency gains on top of human learning, e.g. from better data and better learning algorithms. This involves a fair amount of guesswork and is a massive remaining uncertainty. | **6 - 16 OOMs of efficiency gains** after ASARA before hitting effective limits. This translates to 6-16 years worth of AI progress, because the [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.) for AI training has recently risen by [~10X/year](https://epoch.ai/trends). |
 
-We put log-uniform probability distributions over the model parameters and run a Monte Carlo ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#summary-of-parameter-assumptions)).
+We put log-uniform probability distributions over the model parameters and run a Monte Carlo ([[#^summary-of-parameter-assumptions|more]]).
 
 ![Three-panel visualization showing model parameter estimates: initial ASARA speed-up (2x to 32x capabilities growth), acceleration probability (60% yes, 40% no), and efficiency improvement potential (6-16 OOMs from ASARA to limits)](https://images.ctfassets.net/4owxfjx3z3if/51RDay8nssAXgzrkkNsZCv/dd10ae4bd809cb8fdfe9c5c6b28b3d0c/model-parameter-estimates-visualization.png?w=3840&q=85&fm=webp)
 
 Our assumptions about the model’s three key parameters
-
-## Image
 
 **You can enter your own inputs to the model on [this website](https://accelerated-ai-progress.streamlit.app/).**
 
@@ -113,8 +100,6 @@ Here are the model’s bottom lines (to 1 sig fig):
 
 How many years of total AI progress will the software intelligence explosion compress into just one year?
 
-## Image
-
 Remember, the simulations conservatively assume that compute is held constant. They compare the pace of AI _software_ progress after ASARA to the recent pace of _overall_ AI progress, so “3 years of progress in 1 year” means “6 years of software progress in 1 year”.
 
 While the exact numbers here are obviously not to be trusted, we find the following high-level takeaway meaningful: **averaged over one year, AI progress could easily be >3X faster, could potentially be >10X faster, but won’t be 30X faster absent a major paradigm shift.** In particular:
@@ -128,9 +113,9 @@ While the exact numbers here are obviously not to be trusted, we find the follow
 
 We also consider two model variants, and find that this high-level takeaway holds in both:
 
-1.  **Retraining new models from scratch.** In this variant, some fraction of software progress is “spent” making training runs faster as AI progress accelerates. [More](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#retraining-time).
+1.  **Retraining new models from scratch.** In this variant, some fraction of software progress is “spent” making training runs faster as AI progress accelerates. [[#^retraining-time|More]].
     
-2.  **Gradual boost.** In this variant, we simulate a gradual increase in AI capabilities from today’s AI to ASARA, with software progress accelerating along the way. [More.](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)
+2.  **Gradual boost.** In this variant, we simulate a gradual increase in AI capabilities from today’s AI to ASARA, with software progress accelerating along the way. [[#^gradual-boost-from-pre-asara-systems|More.]]
     
 
 ### Discussion
@@ -141,7 +126,7 @@ There’s two reference points we can take.
 
 One reference point is historical AI progress. It took three years to go from GPT-2 to ChatGPT (i.e. GPT-3.5); it took another three years to go from GPT-3.5 to o3. That’s a lot of progress to see in one year just from software. We’ll be _starting_ from systems that match top human experts in all parts of AI R&D, so we will end up with AI that is _significantly_ superhuman in many broad domains.
 
-Another reference point is [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.). The amount of effective compute used for AI development has increased at roughly [10X/year](https://epoch.ai/trends). So, three years of progress would be a 1000X increase in effective compute; six years would be a million-fold increase. Ryan Greenblatt [estimates](https://redwoodresearch.substack.com/p/what-does-10x-ing-effective-compute?utm_source=post-email-title&publication_id=2318730&post_id=166749974&utm_campaign=email-post-title&isFreemail=true&r=jaafn&triedRedirect=true&utm_medium=email) that a million-fold increase might correspond to having 1000X more copies that think 4X faster and are _significantly_ more capable. In which case, _the software intelligence explosion could take us from **30,000 top-expert-level AIs each thinking 30X human speed** to **30 million superintelligent AI researchers each thinking 120X human speed**, with the capability gap between each superintelligent AI researcher and the top human expert about 3X as big as the gap between the top expert and a median expert._[1](#user-content-fn-1),[2](#user-content-fn-2)
+Another reference point is [effective compute](https://futuretech.mit.edu/news/what-drives-progress-in-ai-trends-in-compute#:~:text=Compute%20progress%20means%20that%20AI,models%2C%20and%20explore%20innovative%20approaches.). The amount of effective compute used for AI development has increased at roughly [10X/year](https://epoch.ai/trends). So, three years of progress would be a 1000X increase in effective compute; six years would be a million-fold increase. Ryan Greenblatt [estimates](https://redwoodresearch.substack.com/p/what-does-10x-ing-effective-compute?utm_source=post-email-title&publication_id=2318730&post_id=166749974&utm_campaign=email-post-title&isFreemail=true&r=jaafn&triedRedirect=true&utm_medium=email) that a million-fold increase might correspond to having 1000X more copies that think 4X faster and are _significantly_ more capable. In which case, _the software intelligence explosion could take us from **30,000 top-expert-level AIs each thinking 30X human speed** to **30 million superintelligent AI researchers each thinking 120X human speed**, with the capability gap between each superintelligent AI researcher and the top human expert about 3X as big as the gap between the top expert and a median expert._[^cite-forethought-how-quick-ft-1],[^note-forethought-how-quick-ft-2]
 
 ### Limitations
 
@@ -167,13 +152,15 @@ Overall, **we think of this model as a back-of-the-envelope calculation**. It’
 
 The rest of the paper lays out our analysis in more detail. We proceed as follows:
 
+{>>{"author":"Luc's AI","timestamp":1787136385918}@@The source has a seven-item outline here; the imported article omits that entire list. Re-import or restore the missing outline from the source.<<}
+
 ## Relation to previous work
 
 [Eth & Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion#article) argue that a software intelligence explosion is plausible. They focus on estimating the returns to software R&D and argue they could allow for accelerating AI progress after ASARA is deployed. This paper builds on this work by doing more detailed quantitative modelling of the software intelligence explosion, especially the initial speed-up in progress due to ASARA and the distance to the effective limits of software. Both Eth and Davidson (2025) and this paper draw heavily on estimates from [Besiroglu et al. (2024)](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity).
 
 [Davidson (2023)](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) (and its [online tool](https://takeoffspeeds.com/)) and [Davidson et al. (2025)](https://www.forethought.org/research/three-types-of-intelligence-explosion) model all inputs to AI progress including hardware R&D and increased compute spending. [Davidson (2023)](https://www.openphilanthropy.org/research/what-a-compute-centric-framework-says-about-takeoff-speeds/) also models the effects of partial automation. By contrast, this paper (and its own [online tool](https://accelerated-ai-progress.streamlit.app/)) more carefully models the dynamics of software progress after full automation.
 
-[Kokotajlo & Lifland (2025)](https://ai-2027.com/research/takeoff-forecast) is the research supplement for AI-2027. They use a different methodology to forecast a software intelligence explosion, relying less on estimates of the returns to software R&D and more on estimates for how long it would take human researchers to develop superhuman AI without AI assistance. Their forecast is towards the more aggressive end of our range. A rough calculation suggests that our model assigns a ~20% probability to the intelligence explosion being faster than their median scenario.[3](#user-content-fn-3)
+[Kokotajlo & Lifland (2025)](https://ai-2027.com/research/takeoff-forecast) is the research supplement for AI-2027. They use a different methodology to forecast a software intelligence explosion, relying less on estimates of the returns to software R&D and more on estimates for how long it would take human researchers to develop superhuman AI without AI assistance. Their forecast is towards the more aggressive end of our range. A rough calculation suggests that our model assigns a ~20% probability to the intelligence explosion being faster than their median scenario.[^cite-forethought-how-quick-ft-3]
 
 [Erdil & Barnett (2025)](https://epoch.ai/gradient-updates/most-ai-value-will-come-from-broad-automation-not-from-r-d) express scepticism about an software intelligence explosion lasting for more than one order of magnitude of algorithmic progress. By contrast, this paper predicts it will likely last for at least several orders of magnitude.
 
@@ -194,9 +181,9 @@ We analyse a scenario in which:
 -   Recent scaling laws on capabilities roughly continue: each doubling of effective compute for developing AI improves capabilities by the same amount as it has in recent years.
     
 
-We forecast software progress _after_ ASARA is deployed (though a [variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems) also simulates a gradual ramp-up to ASARA).
+We forecast software progress _after_ ASARA is deployed (though a [[#^gradual-boost-from-pre-asara-systems|variant]] also simulates a gradual ramp-up to ASARA).
 
-## Model dynamics
+## Model dynamics ^model-dynamics
 
 _(Readers can skip this section and go straight to the estimates of the parameter values.)_
 
@@ -204,7 +191,17 @@ The model simulates the evolution of AI software.
 
 We start with the following standard [semi-endogenous](https://en.wikipedia.org/wiki/Jones_model) law of motion for AI software:
 
-S ˙ (L,C) \= a \[R (L,C)\] λ S 1 − β (Software L.O.M) \\,\\dot{S}(L, C) = a\[R(L, C)\]^{\\lambda} S^{1-\\beta} \\qquad\\qquad\\qquad\\quad \\text{(Software L.O.M)} R (L,C) \= (b L) α (c C) 1 − α (Research Input) R(L, C) = (bL)^{\\alpha}(cC)^{1-\\alpha} \\qquad\\qquad\\qquad\\qquad\\;\\;\\, \\text{(Research Input)} L \= d S (Cognitive Labour) \\qquad\\;\\;\\, L = dS \\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\;\\, \\text{(Cognitive Labour)}
+$$
+\dot{S}(L, C) = a[R(L, C)]^{\lambda} S^{1-\beta} \qquad\qquad\qquad\quad \text{(Software L.O.M)}
+$$
+
+$$
+R(L, C) = (bL)^{\alpha}(cC)^{1-\alpha} \qquad\qquad\qquad\qquad\;\;\, \text{(Research Input)}
+$$
+
+$$
+L = dS \qquad\qquad\qquad\qquad\qquad\qquad\;\, \text{(Cognitive Labour)}
+$$
 
 where:
 
@@ -214,44 +211,59 @@ where:
     
 -   C C is compute for experiments, assumed to be constant
     
--   λ \\lambda captures "stepping on toes", whereby there are diminishing returns to applying more research effort in parallel (nine women can't make a baby in a month!).
+-   $\lambda$ captures "stepping on toes", whereby there are diminishing returns to applying more research effort in parallel (nine women can't make a baby in a month!).
     
--   β (\> 0) \\beta (> 0) captures software improvements getting harder to find as software improves
+-   $\beta (> 0)$ captures software improvements getting harder to find as software improves
     
--   α \\alpha captures the diminishing returns of cognitive labour to improving software
+-   $\alpha$ captures the diminishing returns of cognitive labour to improving software
     
 -   a a, b b, c c and d d are constants that are collectively pinned down by growth rates at the beginning of the model
     
 
 Note that this model assumes that, in software R&D, the elasticity of substitution between cognitive labour and compute equals 1. This is an important assumption, discussed further [here](https://www.forethought.org/research/will-compute-bottlenecks-prevent-a-software-intelligence-explosion) and [here](https://forum.effectivealtruism.org/posts/xoX936hEvpxToeuLw/estimating-the-substitutability-between-compute-and).
 
-From these equations we [derive](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#derivation-of-our-pseudo-code-from-the-semi-endogenous-growth-model) how much faster (or slower) each successive doubling of software is compared to the last:
+From these equations we [[#^derivation-of-our-pseudo-code-from-the-semi-endogenous-growth-model|derive]] how much faster (or slower) each successive doubling of software is compared to the last:
 
-Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\text{Doubling Time}(2S, C) = \\text{Doubling Time}(S,C) \\times 2^{\\beta - \\lambda \\alpha}
+$$
+\text{Doubling Time}(2S, C) = \text{Doubling Time}(S,C) \times 2^{\beta - \lambda \alpha}
+$$
 
 To reduce the number of distinct parameters and use parameters that can be directly estimated from the empirical evidence we have, we write this as:
 
-Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S, C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r}-1)}
+$$
+\text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
+$$
 
-where p p and r r are _deflated_ stepping on toes and returns to software R&D; deflated by the diminishing returns of cognitive labour as a research input, α \\alpha. Specifically,
+where $p$ and $r$ are _deflated_ stepping on toes and returns to software R&D; deflated by the diminishing returns of cognitive labour as a research input, $\alpha$. Specifically,
 
-p ≔ λ α p \\;\\; \\coloneqq \\;\\; \\lambda \\alpha r ≔ λ α β r \\;\\; \\coloneqq \\;\\; \\dfrac{\\lambda \\alpha}{\\beta}
+$$
+p \coloneqq \lambda\alpha, \qquad r \coloneqq \frac{\lambda\alpha}{\beta}
+$$
 
 Notice the doubling time becomes smaller just if r \> 1 r > 1.
 
-The standard semi-endogenous growth model allows growth to proceed indefinitely. If r \> 1 r > 1, that means software tends to infinity in finite time.[4](#user-content-fn-4) But in reality, there will be some effective limit on how good software can become. To model this, we define a ceiling for software and assume r r declines as software approaches the ceiling – specifically, each time software doubles we subtract some constant k k from r r. We choose k k so that, once software reaches the ceiling, r \= 0 r=0 and further progress in software is impossible. (The way we’ve modelled the change in r r is very specific; it could be too aggressive or too conservative – see [more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#how-the-returns-to-software-rd-).)
+The standard semi-endogenous growth model allows growth to proceed indefinitely. If r \> 1 r > 1, that means software tends to infinity in finite time.[^cite-forethought-how-quick-ft-4] But in reality, there will be some effective limit on how good software can become. To model this, we define a ceiling for software and assume r r declines as software approaches the ceiling – specifically, each time software doubles we subtract some constant k k from r r. We choose k k so that, once software reaches the ceiling, r \= 0 r=0 and further progress in software is impossible. (The way we’ve modelled the change in r r is very specific; it could be too aggressive or too conservative – see [[#^returns-to-software-rd-rr|more]].)
 
-### Pseudocode
+### Pseudocode ^pseudocode
 
 This leaves us with the following pseudocode:
 
-Software i + 1 \= 2 × Software i \\qquad\\;\\;\\, \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i}-1)} \\times \\text{Doubling-Time}\_i r i + 1 \= r i − r 0 Doublings-Till-Ceiling \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}} Doubling-Time 0,Doublings-Till-Ceiling,\\qquad\\qquad\\qquad\\qquad\\quad \\text{Doubling-Time}\_0, \\;\\text{Doublings-Till-Ceiling}, r 0,p are given;\\qquad\\qquad\\qquad\\qquad\\quad r\_0, \\; p \\text{ are given}; Time 0 \= 0,Software 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad \\text{Time}\_0 = 0, \\; \\text{Software}\_0 = 1
+$$
+\begin{aligned}
+\text{Software}_{i+1} &= 2\times\text{Software}_i \\
+\text{Time}_{i+1} &= \text{Time}_i+\text{Doubling-Time}_i \\
+\text{Doubling-Time}_{i+1} &= 2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i \\
+r_{i+1} &= r_i-\frac{r_0}{\text{Doublings-Till-Ceiling}}
+\end{aligned}
+$$
+
+$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}$, $r_0$, and $p$ are given; $\text{Time}_0=0$ and $\text{Software}_0=1$.
 
 The pseudo-code requires four inputs:
 
--   Doubling-Time 0 \\text{Doubling-Time}\_0. We calculate this from 1) the recent software doubling time (which we [assume is 3 months](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#ai-software-has-recently-been-doubling-every-3-months)) and 2) our estimate of the **initial speed-up of software progress from deploying ASARA**.
+-   Doubling-Time 0 \\text{Doubling-Time}\_0. We calculate this from 1) the recent software doubling time (which we [[#^ai-software-has-recently-been-doubling-every-3-months|assume is 3 months]]) and 2) our estimate of the **initial speed-up of software progress from deploying ASARA**.
     
--   Doublings-Till-Ceiling \\text{Doublings-Till-Ceiling}, i.e. the **distance to the effective limits on software**.[5](#user-content-fn-5)
+-   Doublings-Till-Ceiling \\text{Doublings-Till-Ceiling}, i.e. the **distance to the effective limits on software**.[^cite-forethought-how-quick-ft-5]
     
 -   r 0 r\_0, the (deflated) **returns to software R&D** when ASARA is first developed.
     
@@ -260,7 +272,7 @@ The pseudo-code requires four inputs:
 
 The four **bolded quantities** – initial speed-up, distance to effective limits, returns to software R&D, and diminishing returns to parallel labour – are the four parameters that users of the model must specify. We estimate them in the next section.
 
-To translate the model’s trajectories of _software_ progress into units of _overall_ AI progress, the model [assumes](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#calculating-the-summary-statistics) that software progress has recently been responsible for 50% of total AI progress.
+To translate the model’s trajectories of _software_ progress into units of _overall_ AI progress, the model [[#^calculating-the-summary-statistics|assumes]] that software progress has recently been responsible for 50% of total AI progress.
 
 **You can choose your own inputs to the model [here](https://accelerated-ai-progress.streamlit.app/); code for the simulations produced is [here](https://github.com/thoulden/Accelerated_AI_Progress).**
 
@@ -283,7 +295,7 @@ _**After ASARA is deployed, software progress is faster by a factor of f f. f f 
 
 ASARA is a vague term – it just refers to full automation of AI R&D. But you could automate AI R&D by replacing each human with a slightly-better AI system, or by replacing them with 1 million way-better AI systems. In the former case the amount of cognitive labour going into AI R&D wouldn’t increase much, in the latter case it would increase by a huge factor.
 
-So what definition of ASARA should we use? There’s a few considerations here (see more in footnote [6](#user-content-fn-6)), but the most important thing is to pick one definition and stick with it. Let’s stipulate that **ASARA can replace each human researcher with 30 equally capable AI systems each thinking 30X human speed**.[7](#user-content-fn-7) So the total cognitive labour for AI R&D increases by 900X.
+So what definition of ASARA should we use? There’s a few considerations here (see more in footnote [^note-forethought-how-quick-ft-6]), but the most important thing is to pick one definition and stick with it. Let’s stipulate that **ASARA can replace each human researcher with 30 equally capable AI systems each thinking 30X human speed**.[^note-forethought-how-quick-ft-7] So the total cognitive labour for AI R&D increases by 900X.
 
 ASARA (so defined) is less capable than AI 2027’s [superhuman AI researcher](https://ai-2027.com/research/takeoff-forecast), which would be equally numerous and fast as ASARA but replace the capabilities of the _**best**_ human researcher (which we expect to be worth much more than 30 average human researchers). ASARA is probably closer to AI 2027’s superhuman coder, that matches top humans at coding but lags behind on research taste.
 
@@ -300,7 +312,7 @@ There are a few angles on this question:
     
 -   **Survey researchers about the per-person _slowdown_ from reduced compute.** If you have way more virtual researchers, each one of them will have much less compute. How much more slowly will they make progress?
     
-    -   AI 2027 interviewed AI researchers and found that with 10X less compute they thought they’d make 40% slower progress. From this, along with a few other assumptions, they [estimate](https://ai-2027.com/research/takeoff-forecast#method-2-surveys-on-subquestions) that ASARA would accelerate software progress by a factor of **21X**.[8](#user-content-fn-8)
+    -   AI 2027 interviewed AI researchers and found that with 10X less compute they thought they’d make 40% slower progress. From this, along with a few other assumptions, they [estimate](https://ai-2027.com/research/takeoff-forecast#method-2-surveys-on-subquestions) that ASARA would accelerate software progress by a factor of **21X**.[^note-forethought-how-quick-ft-8]
         
     
 -   **Analysing specific sources of speed-up.** AI 2027 evaluates specific speed-ups that abundant AI labour would enable — smaller experiments, better prioritisation, better experiments, less wasted compute. They explicitly account for compute bottlenecks in their analysis but still find large gains.
@@ -310,18 +322,18 @@ There are a few angles on this question:
     
 -   **Thought experiment about an AI lab with fewer + slower researchers.** ASARA would increase the number and speed of researchers working on AI R&D. We might expect the _opposite_ effect if we instead decreased the number of human researchers and made them much slower. In particular, imagine if frontier AI labs had 30X fewer researchers and they each thought 30X more slowly – how much slower would AI progress be? If you think progress would be a lot slower, that suggests ASARA might speed up progress a lot. Ryan Greenblatt and Eli LIfland explore this idea [here](https://www.lesswrong.com/posts/hMSuXTsEHvk4NG6pm/slow-corporations-as-an-intuition-pump-for-ai-r-and-d).
     
--   **Use a simple economic model of R&D** (the [same model as we use in our simulation](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#model-dynamics))
+-   **Use a simple economic model of R&D** (the [[#^model-dynamics|same model as we use in our simulation]])
     
-    -   In particular, this model is: g S \= L α C 1 − α S − β,L \= L parallel λ g\_S = L^{\\alpha} C^{1 - \\alpha} S^{-\\beta}, L = L\_{\\text{parallel}}^{\\lambda}
+    -   In particular, this model is: $g_S = L^{\alpha} C^{1 - \alpha} S^{-\beta}, L = L_{\text{parallel}}^{\lambda}$
         
-    -   Our [median model assumptions](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#summary-of-parameter-assumptions) correspond to α \= 0.5 \\alpha = 0.5, λ \= 0.6 \\lambda = 0.6.
+    -   Our [[#^summary-of-parameter-assumptions|median model assumptions]] correspond to $\alpha = 0.5$, $\lambda = 0.6$.
         
     -   ASARA brings two changes: 1) 30X as many researchers in parallel, 2) every researcher thinks 30X faster
         
-        -   1.  multiplies L parallel L\_{\\text{parallel}} by 30, which multiplies the rate of software progress by 30 α λ \= 2.8 30^{\\alpha^{\\lambda}} = 2.8.
+        -   1.  multiplies $L_{\text{parallel}}$ by 30, which multiplies the rate of software progress by $30^{\alpha^{\lambda}} = 2.8$.
                 
             
-        -   2.  multiplies L L by 30 which multiplies the rate of software progress by 30 α \= 30 0.5 \= 5.5 30^{\\alpha} = 30^{0.5} = 5.5.
+        -   2.  multiplies $L$ by 30 which multiplies the rate of software progress by $30^{\alpha} = 30^{0.5} = 5.5$.
                 
             
         -   Multiplying these independent effects together, we get the total speed up of **15X**.
@@ -348,8 +360,6 @@ Overall, we're going to err conservative here and use a log-uniform distribution
 
 How many times faster is software progress after ASARA is deployed compared to today?
 
-## Image
-
 As we've said, there’s massive uncertainty here and significant room for reasonable disagreement.
 
 To visualise how this parameter affects the results, we can run simulations with the initial speed up equalling 2, 8, and 32:
@@ -358,11 +368,9 @@ To visualise how this parameter affects the results, we can run simulations with
 
 Simulations of the software intelligence explosion with different values for the Initial speed-up parameter.
 
-## Image
-
 In the model, if the initial speed is twice as fast then the whole software intelligence explosion happens twice as fast and the maximum pace of progress is twice as fast.
 
-### Returns to software R&D, rr
+### Returns to software R&D, rr ^returns-to-software-rd-rr
 
 _**On our median guess for returns to software R&D, progress initially gets faster over time but then starts slowing down after training efficiency improves by a few OOMs.**_
 
@@ -374,7 +382,7 @@ If r < 1 r < 1, then software progress will slow down over time. If r \= 1 r = 1
 
 Luckily, the value of r r can be studied empirically. r r is the answer to the following question:
 
-**When (cumulative [9](#user-content-fn-9)) cognitive research inputs double, how many times does software double [10](#user-content-fn-10)?**
+**When (cumulative [^cite-forethought-how-quick-ft-9]) cognitive research inputs double, how many times does software double [^note-forethought-how-quick-ft-10]?**
 
 We can study this question by observing how many times software has doubled each time the human researcher population has doubled.
 
@@ -384,22 +392,22 @@ A simple way of thinking about this is that software doubles when you can run tw
   
 But software improvements don’t just improve runtime efficiency: they also improve _capabilities_ and _thinking speed_. We translate such improvements to an equivalent increase in parallel copies. So if some capability improvement c c increases the pace of AI progress by the same amount as doubling the number of parallel copies, we say that c c doubled software.  
   
-In practice, this means we’ll need to make some speculative assumptions about how to translate capability improvements into an equivalently-useful increase in parallel copies. For an analysis which considers only runtime efficiency improvements, see [this](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#returns-to-software-rd-efficiency-improvements-only) appendix. |
+In practice, this means we’ll need to make some speculative assumptions about how to translate capability improvements into an equivalently-useful increase in parallel copies. For an analysis which considers only runtime efficiency improvements, see [[#^returns-to-software-rd-efficiency-improvements-only|this]] appendix. |
 | --- |
 
 Box 1: What does it mean for “software” to double?
 
-The best quality data on this question is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency. They estimate **r \= ∼ 1.4 \\boldsymbol{r = \\;\\sim 1.4}**: every time the researcher population doubled, training efficiency doubled 1.4 times.[11](#user-content-fn-11) We can use this as a starting point, and then make various adjustments:
+The best quality data on this question is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency. They estimate **$r \sim 1.4$**: every time the researcher population doubled, training efficiency doubled 1.4 times.[^note-forethought-how-quick-ft-11] We can use this as a starting point, and then make various adjustments:
 
--   **Upwards for improving capabilities.** Improving training efficiency improves capabilities, as you can train a model with more effective compute. Imagine we use a 2X training efficiency gain to train a model with twice as much effective compute. How many times would that double “software”? (I.e., how many doublings of parallel copies would be equally useful?) There are various sources of evidence here:[12](#user-content-fn-12) toy ML experiments suggest the answer is ~1.7; human productivity studies suggest the answer is ~2.5. We put more weight on the former, so we'll estimate 2. This doubles our median estimate to r \= ∼ 2.8 (1.4 ∗ 2) \\boldsymbol{r = \\, \\sim 2.8} \\; (1.4 \* 2).
+-   **Upwards for improving capabilities.** Improving training efficiency improves capabilities, as you can train a model with more effective compute. Imagine we use a 2X training efficiency gain to train a model with twice as much effective compute. How many times would that double “software”? (I.e., how many doublings of parallel copies would be equally useful?) There are various sources of evidence here:[^cite-forethought-how-quick-ft-12] toy ML experiments suggest the answer is ~1.7; human productivity studies suggest the answer is ~2.5. We put more weight on the former, so we'll estimate 2. This doubles our median estimate to **$r \sim 2.8$** ($1.4 \times 2$).
     
--   **Upwards for post-training enhancements.** So far, we’ve only considered pre-training improvements. But post-training enhancements like fine-tuning, scaffolding, and prompting also improve capabilities (o1 was developed using such techniques!). These can allow faster thinking, which could be a big factor. But there might also be strong diminishing returns to post-training enhancements holding base models fixed. We'll adjust our median estimate up from 2.8 to r \= ∼ 4 (2.8 ∗ 1.45) \\boldsymbol{r = \\; \\sim 4} \\; (2.8 \* 1.45).
+-   **Upwards for post-training enhancements.** So far, we’ve only considered pre-training improvements. But post-training enhancements like fine-tuning, scaffolding, and prompting also improve capabilities (o1 was developed using such techniques!). These can allow faster thinking, which could be a big factor. But there might also be strong diminishing returns to post-training enhancements holding base models fixed. We'll adjust our median estimate up from 2.8 to **$r \sim 4$** ($2.8 \times 1.45$).
     
--   **Downwards for less growth in compute for experiments.** Today, rising compute means we can run increasing numbers of GPT-3-sized experiments each year. This helps drive software progress. But compute isn’t growing in our scenario. That might mean that returns to additional cognitive labour diminish more steeply. On the other hand, the most important experiments are ones that use similar amounts of compute to training a SOTA model. Rising compute hasn't actually increased the number of these experiments we can run, as rising compute increases the training compute required for these SOTA models. And experiments are much less of a bottleneck for post-training enhancements. But this still reduces our median estimate down to r \= ∼ 3 \\boldsymbol{r = \\; \\sim 3}. (See [Eth and Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion) for more discussion.)
+-   **Downwards for less growth in compute for experiments.** Today, rising compute means we can run increasing numbers of GPT-3-sized experiments each year. This helps drive software progress. But compute isn’t growing in our scenario. That might mean that returns to additional cognitive labour diminish more steeply. On the other hand, the most important experiments are ones that use similar amounts of compute to training a SOTA model. Rising compute hasn't actually increased the number of these experiments we can run, as rising compute increases the training compute required for these SOTA models. And experiments are much less of a bottleneck for post-training enhancements. But this still reduces our median estimate down to **$r \sim 3$**. (See [Eth and Davidson (2025)](https://www.forethought.org/research/will-ai-r-and-d-automation-cause-a-software-intelligence-explosion) for more discussion.)
     
--   **Downwards for fixed scale of hardware.** In recent years, the scale of hardware available to researchers has increased massively. Researchers could invent new algorithms that only work at the new hardware scales for which no one had previously tried to to develop algorithms. Researchers may have been plucking low-hanging fruit for each new scale of hardware. But in the software intelligence explosions we're considering, this won’t be possible because the hardware scale will be fixed. OAI [estimate](https://arxiv.org/abs/2005.04305) ImageNet efficiency via a method that accounts for this (by focussing on a fixed capability level),[13](#user-content-fn-13) and find a 16-month doubling time, as compared with Epoch’s 9-month doubling time. This reduces our estimate down to r \= ∼ 1.7 (3 ∗ 9 / 16) \\boldsymbol{r = \\; \\sim 1.7} \\; (3 \* 9/16)
+-   **Downwards for fixed scale of hardware.** In recent years, the scale of hardware available to researchers has increased massively. Researchers could invent new algorithms that only work at the new hardware scales for which no one had previously tried to to develop algorithms. Researchers may have been plucking low-hanging fruit for each new scale of hardware. But in the software intelligence explosions we're considering, this won’t be possible because the hardware scale will be fixed. OAI [estimate](https://arxiv.org/abs/2005.04305) ImageNet efficiency via a method that accounts for this (by focussing on a fixed capability level),[^cite-forethought-how-quick-ft-13] and find a 16-month doubling time, as compared with Epoch’s 9-month doubling time. This reduces our estimate down to **$r \sim 1.7$** ($3 \times 9/16$).
     
--   **Downwards for the returns to software R&D becoming worse over time.** In most fields, returns diminish more steeply than in software R&D.[14](#user-content-fn-14) So perhaps software will tend to become more like the average field over time. To estimate the size of this effect, we can take our estimate that software is ~10 OOMs from effective limits (discussed [below](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#distance-to-the-effective-limits-to-software)), and assume that for each OOM increase in software, r r falls by a constant amount, reaching zero once effective limits are reached. If r \= 1.7 r = 1.7, then this implies that r r reduces by 0.17 for each OOM. Epoch estimates that pre-training algorithmic improvements are growing by an OOM every ~2 years, which would imply a reduction in r r of 0.51 (3 ∗ 0.17) 0.51 \\; (3 \* 0.17) by 2030. This reduces our median estimate to r \= ∼ 1.2 (1.7 − 0.5) \\boldsymbol{r = \\; \\sim 1.2} \\; (1.7 - 0.5).
+-   **Downwards for the returns to software R&D becoming worse over time.** In most fields, returns diminish more steeply than in software R&D.[^note-forethought-how-quick-ft-14] So perhaps software will tend to become more like the average field over time. To estimate the size of this effect, we can take our estimate that software is ~10 OOMs from effective limits (discussed [[#^distance-to-the-effective-limits-to-software|below]]), and assume that for each OOM increase in software, $r$ falls by a constant amount, reaching zero once effective limits are reached. If $r=1.7$, then this implies that $r$ reduces by 0.17 for each OOM. Epoch estimates that pre-training algorithmic improvements are growing by an OOM every ~2 years, which would imply a reduction in $r$ of 0.51 ($3\times0.17$) by 2030. This reduces our median estimate to **$r\sim1.2$** ($1.7-0.5$).
     
 
 Overall, our median estimate of r r is 1.2. We use a log-uniform distribution with the bounds 3X higher and lower (0.4 to 3.6).
@@ -408,15 +416,11 @@ Overall, our median estimate of r r is 1.2. We use a log-uniform distribution wi
 
 Log-uniform probability distribution for returns to software R&D parameter (r), showing equal probability density from 0.4 to 3.6 with median at 1.2, determining whether AI progress accelerates or decelerates
 
-## Image
-
 To visualise how this parameter affects the results, we can run simulations with different values of r r.
 
 ![Graph showing AI capabilities growth over 3 years comparing different returns to software R&D values: r=2.4 (green) shows rapid exponential growth, r=1.2 (purple) shows moderate acceleration, r=0.6 (yellow) shows deceleration versus baseline (gray)](https://images.ctfassets.net/4owxfjx3z3if/5UpgdR04oJ9pev9C0zHwc3/7f2009b8baa81742a6f9d6655ebe6db2/ai-capabilities-returns-rd-scenarios.png?w=3840&q=85&fm=webp)
 
 Graph showing AI capabilities growth over 3 years comparing different returns to software R&D values: r=2.4 (green) shows rapid exponential growth, r=1.2 (purple) shows moderate acceleration, r=0.6 (yellow) shows deceleration versus baseline (gray)
-
-## Image
 
 Simulations of the software intelligence explosion with different values for the returns to software R&D, r r.
 
@@ -428,11 +432,9 @@ Also, when r r starts higher, effective limits are approached more rapidly and s
 
 Graph showing how returns to software R&D parameter (r) declines over time as AI approaches effective limits: high initial r values (2.4, green) drop rapidly to zero, moderate values (1.2, purple) decline gradually, low values (0.6, yellow) remain stable
 
-## Image
-
 Simulations of the path of returns to software R&D, r r. r r falls over time as software approaches effective limits.
 
-### Distance to the effective limits to software
+### Distance to the effective limits to software ^distance-to-the-effective-limits-to-software
 
 _**We estimate that, when we train ASARA, software will be 6-16 OOMs from effective limits. This is equivalent to 6-16 years worth of AI progress (at recent rates) before capping out.**_
 
@@ -442,7 +444,7 @@ How big is the gap between the software we’ll have when we develop ASARA and t
 
 #### Gap from ASARA to human learning
 
-Human lifetime learning is estimated to take [1e24 FLOP](https://docs.google.com/document/d/1IJ6Sr-gPeXdSJugFulwIpvavc0atjHGM82QjIfUSBGQ/edit?tab=t.0#heading=h.87mp14r9lgsj).[15](#user-content-fn-15) As a very toy calculation, let’s assume that ASARA is trained with 1e28 FLOP [16](#user-content-fn-16) and that at runtime it matches a human expert on a per compute basis.[17](#user-content-fn-17) This means ASARA is 4 OOMs less training efficient than human lifetime learning.[18](#user-content-fn-18)
+Human lifetime learning is estimated to take [1e24 FLOP](https://docs.google.com/document/d/1IJ6Sr-gPeXdSJugFulwIpvavc0atjHGM82QjIfUSBGQ/edit?tab=t.0#heading=h.87mp14r9lgsj).[^cite-forethought-how-quick-ft-15] As a very toy calculation, let’s assume that ASARA is trained with 1e28 FLOP [^note-forethought-how-quick-ft-16] and that at runtime it matches a human expert on a per compute basis.[^cite-forethought-how-quick-ft-17] This means ASARA is 4 OOMs less training efficient than human lifetime learning.[^note-forethought-how-quick-ft-18]
 
 There’s a lot of uncertainty here from the training FLOP for ASARA and the compute used by the human brain, so let’s say ASARA’s training is 2-6 OOMs less efficient than human lifetime learning.
 
@@ -452,9 +454,9 @@ But human lifetime learning is not at the limit of learning efficiency. There is
 
 Improvements to the _data_ used in human learning:
 
--   **Not enough data – the brain is severely “undertrained”.** Chinchilla optimal scaling suggests that models should be trained on ~20X as many tokens as they have parameters. On this account, the human brain is severely “undertrained”: it has maybe ~1e14 “parameters” (synapses) but only processes ~1e9 “data points” (1 data point per second for 30 years) during lifetime learning. If the Chinchilla scaling laws applied to the brain, then you could train a model with the same performance as the brain but with 4-5 OOMs less training compute – see [this appendix](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#distance-to-effective-limits-human-learning). Of course, the brain architecture might have a completely different optimal scaling to Chinchilla. But it is very plausible that the brain is significantly undertrained due to hard biological constraints: organisms don’t live long enough to keep learning for 1000s of years! We'll call this **10-100,000X**.
+-   **Not enough data – the brain is severely “undertrained”.** Chinchilla optimal scaling suggests that models should be trained on ~20X as many tokens as they have parameters. On this account, the human brain is severely “undertrained”: it has maybe ~1e14 “parameters” (synapses) but only processes ~1e9 “data points” (1 data point per second for 30 years) during lifetime learning. If the Chinchilla scaling laws applied to the brain, then you could train a model with the same performance as the brain but with 4-5 OOMs less training compute – see [[#^distance-to-effective-limits-human-learning|this appendix]]. Of course, the brain architecture might have a completely different optimal scaling to Chinchilla. But it is very plausible that the brain is significantly undertrained due to hard biological constraints: organisms don’t live long enough to keep learning for 1000s of years! We'll call this **10-100,000X**.
     
--   **Low fraction of data is relevant.** Take a human ML expert. They only spend a small fraction of their time doing focussed learning that is relevant to doing AI R&D (at most 8 hours a day on average, and plausibly much less given the time spent on poetry, history, etc). This seems like a factor of **at least 3-10X**.[19](#user-content-fn-19)
+-   **Low fraction of data is relevant.** Take a human ML expert. They only spend a small fraction of their time doing focussed learning that is relevant to doing AI R&D (at most 8 hours a day on average, and plausibly much less given the time spent on poetry, history, etc). This seems like a factor of **at least 3-10X**.[^note-forethought-how-quick-ft-19]
     
 -   **Data quality could be much higher.** Even when humans are learning relevant material, the _quality_ of the data they would be processing is far from optimal. When an outstanding communicator puts significant effort into organising and presenting content, human learning can be much more efficient. During the software intelligence explosion AI could curate better data sets still, including demonstrations of significantly superhuman performance. It seems like this would be **at least 3X and plausibly 300X**.
     
@@ -474,14 +476,14 @@ Improvements to the brain algorithm:
     -   It’s hard to know how significant this will be overall, maybe **3-100X**.
         
     
--   **Significant variation between humans.** There is significant variation in cognitive abilities between different humans. It may be possible to significantly increase human intelligence (e.g. by >100 IQ points) just by combining together all the best mutations and making more of the same kinds of changes that drive human variation. This might be another **3-10X**.[20](#user-content-fn-20)
+-   **Significant variation between humans.** There is significant variation in cognitive abilities between different humans. It may be possible to significantly increase human intelligence (e.g. by >100 IQ points) just by combining together all the best mutations and making more of the same kinds of changes that drive human variation. This might be another **3-10X**.[^note-forethought-how-quick-ft-20]
     
 -   **Fundamental improvements in the brain’s learning algorithm.** Evolution is a blind search process and does not always find the optimal solutions to problems – e.g. giraffes have a [nerve](https://www.mcgill.ca/oss/article/student-contributors-did-you-know-general-science/unintelligent-design-recurrent-laryngeal-nerve) that loops up and down their neck only to end up right next to where it started. AI could write _vastly_ more complicated learning algorithms than the human brain algorithm, which is encoded within the human genome and so cannot exceed [~1e9 bits](https://en.wikipedia.org/wiki/Human_genome#Information_content). In the limit, AI could hard-code knowledge [GOFAI](https://en.wikipedia.org/wiki/GOFAI) -style rather than learning it. Again, it’s hard to know how big this will be. Maybe **3-30X**.
     
 -   **Coordination.** Humans must coordinate via language, which is slow and imperfect. By contrast, AIs could potentially communicate via multidimensional vectors and copies could share their activations with one another. This might significantly raise the collective capabilities achievable by large teams. Maybe **3-10X**.
     
 
-Overall, the additional learning efficiency gains from these sources suggest that effective limits are 4 - 14 OOMs above the human brain. The high end seems extremely high, and we think there’s some risk of double counting some of the gains here in the different buckets, so we will bring down our high end to 10 OOMs. We’re interpreting these OOMs as up limits _upwards_ (increasing capabilities with fixed training compute) not as the limits _downwards_ (reducing training compute but holding capabilities constant).[21](#user-content-fn-21)
+Overall, the additional learning efficiency gains from these sources suggest that effective limits are 4 - 14 OOMs above the human brain. The high end seems extremely high, and we think there’s some risk of double counting some of the gains here in the different buckets, so we will bring down our high end to 10 OOMs. We’re interpreting these OOMs as up limits _upwards_ (increasing capabilities with fixed training compute) not as the limits _downwards_ (reducing training compute but holding capabilities constant).[^cite-forethought-how-quick-ft-21]
 
 So ASARA has room for 2 - 6 OOMs of training efficiency improvements before reaching the efficiency of the human lifetime learning, and a further 4 - 10 OOMs before reaching effective limits, for a total of **6 - 16 OOMs**.
 
@@ -493,15 +495,11 @@ In recent years, effective training compute has risen by about [10X per year](ht
 
 When we train ASARA, how far will software be from effective limits?
 
-## Image
-
 To visualise how this parameter affects the results, we can run simulations with different limits.
 
 ![Graph showing AI capabilities growth over 4 years comparing different distances to effective limits: 14 years (green) enables highest growth, 10.5 years (purple) shows moderate plateau, 7 years (yellow) shows earlier saturation versus baseline (gray)](https://images.ctfassets.net/4owxfjx3z3if/5llo6E2FApLvriwNCDnGne/cde286c59becaa806f9866b3a906f10c/ai-capabilities-effective-limits-scenarios.png?w=3840&q=85&fm=webp)
 
 Simulations of the software explosion with difference values for the distance to effective limits (measured in years of AI progress at 2020-4 rates).
-
-## Image
 
 When effective limits are further away, software progress accelerates for longer and plateaus at a higher level.
 
@@ -511,18 +509,18 @@ _Whether_ AI progress accelerates vs decelerates depends on the parameter r r. B
 
 The meaning of p p is: if you instantaneously doubled the amount of parallel cognitive labour directed towards software R&D, how many times would the pace of software progress double?
 
-As discussed above, p \= λ α p = \\lambda \\alpha.
+As discussed above, $p = \lambda \alpha$.
 
--   λ \\lambda captures diminishing returns to parallel efforts – nine women can’t make a baby in a month! We use λ \= 0.6 λ=0.6.[22](#user-content-fn-22)
+-   $\lambda$ captures diminishing returns to parallel efforts – nine women can’t make a baby in a month! We use $\lambda = 0.6$.[^note-forethought-how-quick-ft-22]
     
--   α \\alpha captures the relative importance of cognitive labour inputs to software R&D, as contrasted with inputs of compute for experiments. We assume the share of software progress that’s attributable to cognitive labour is 0.5.
+-   $\alpha$ captures the relative importance of cognitive labour inputs to software R&D, as contrasted with inputs of compute for experiments. We assume the share of software progress that’s attributable to cognitive labour is 0.5.
     
 
 So our median estimate is p \= 0.6 ∗ 0.5 \= 0.3 p = 0.6\*0.5 = 0.3.
 
 We use a log-uniform distribution over p p from 0.15 0.15 to 0.6 0.6.
 
-## Summary of parameter assumptions
+## Summary of parameter assumptions ^summary-of-parameter-assumptions
 
 The Monte Carlo samples four parameters from, three from log-uniform distributions and one from a uniform distribution (distance to effective limits).
 
@@ -535,17 +533,17 @@ The Monte Carlo samples four parameters from, three from log-uniform distributio
 
 | Recall we derive our model from the following law of motion:  
   
-S ˙ (L,C) \= a \[R (L,C)\] λ S 1 − β (Software L.O.M) \\dot{S}(L,C) = a\[R(L,C)\]^{\\lambda} S^{1- \\beta} \\qquad\\qquad\\qquad\\; \\text{(Software L.O.M)}  
-R (L,C) \= (b L) α (c C) 1 − α (Research Input) R(L,C) = (bL)^{\\alpha}(cC)^{1- \\alpha} \\qquad\\qquad\\qquad\\qquad \\text{(Research Input)}  
+$\dot{S}(L,C) = a[R(L,C)]^{\lambda} S^{1-\beta} \qquad\qquad\qquad\; \text{(Software L.O.M)}$  
+$R(L,C) = (bL)^{\alpha}(cC)^{1-\alpha} \qquad\qquad\qquad\qquad \text{(Research Input)}$  
   
-We define p \= λ α p = \\lambda \\alpha and r \= λ α / β r = \\lambda \\alpha / \\beta.  
+We define $p = \lambda \alpha$ and $r = \lambda \alpha / \beta$.  
   
-Our median estimates of p p and r r correspond to α \= 0.5 \\alpha=0.5, λ \= 0.6 \\lambda=0.6, β \= 0.25 \\beta=0.25.  
+Our median estimates of $p$ and $r$ correspond to $\alpha=0.5$, $\lambda=0.6$, $\beta=0.25$.  
   
-Note that we independently sample p p and r r; we don’t sample the underlying λ \\lambda, α \\alpha, and β \\beta – we discuss this choice in an [appendix](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#objection-to-our-sampling-procedure). |
+Note that we independently sample $p$ and $r$; we don’t sample the underlying $\lambda$, $\alpha$, and $\beta$ – we discuss this choice in an [[#^objection-to-our-sampling-procedure|appendix]]. |
 | --- |
 
-Box 2: What do our assumptions imply about the values of λ \\lambda, α \\alpha, and β \\beta?
+Box 2: What do our assumptions imply about the values of $\lambda$, $\alpha$, and $\beta$?
 
 You can change all of these assumptions in the [online tool](https://accelerated-ai-progress.streamlit.app/).
 
@@ -560,15 +558,13 @@ You can change all of these assumptions in the [online tool](https://accelerated
 
 Probability curve for retraining model variant showing likelihood of compressing AI progress into one year: 57% chance for 3+ years, 18% chance for 10+ years, with declining probability for more dramatic compression
 
-## Image
-
 It goes without saying that this is all very rough and at most one significant figure should be taken seriously.
 
 The appendix contains the results for two variants of the model:
 
--   **Retraining cost.** This variant models the fact that we’ll need to train new generations of AI from scratch during the intelligence explosion and, if progress is accelerating, those training runs will have to become quicker over time. [More](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#retraining-time).
+-   **Retraining cost.** This variant models the fact that we’ll need to train new generations of AI from scratch during the intelligence explosion and, if progress is accelerating, those training runs will have to become quicker over time. [[#^retraining-time|More]].
     
--   **Gradual boost.** This variant models AI systems intermediate between today’s AI and ASARA. It assumes AI gradually accelerates software progress more and more over time. [More.](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems)
+-   **Gradual boost.** This variant models AI systems intermediate between today’s AI and ASARA. It assumes AI gradually accelerates software progress more and more over time. [[#^gradual-boost-from-pre-asara-systems|More.]]
     
 
 Both variants are consistent with the bottom line that **the software intelligence explosion will probably compress >3 years of AI progress into 1 year, but is somewhat unlikely to compress >10 years into 1 year**.
@@ -577,13 +573,13 @@ _You can choose your own inputs to the model [here](https://accelerated-ai-progr
 
 ## Limitations and caveats
 
-**We're not modelling the actual mechanics of the software intelligence explosion.** For example, there’s no gears-level modelling of how synthetic data generation [23](#user-content-fn-23) might work or what specific processes might drive very rapid progress. We don’t even separate out post-training from pre-training improvements, or capability gains from inference gains. Instead we attempt to do a high-level extrapolation from the patterns in _inputs_ and _outputs_ to AI software R&D, considered holistically. As far as we can tell, this doesn’t bias the results in a particular direction, but the exercise is very speculative and uncertain.
+**We're not modelling the actual mechanics of the software intelligence explosion.** For example, there’s no gears-level modelling of how synthetic data generation [^cite-forethought-how-quick-ft-23] might work or what specific processes might drive very rapid progress. We don’t even separate out post-training from pre-training improvements, or capability gains from inference gains. Instead we attempt to do a high-level extrapolation from the patterns in _inputs_ and _outputs_ to AI software R&D, considered holistically. As far as we can tell, this doesn’t bias the results in a particular direction, but the exercise is very speculative and uncertain.
 
 Similarly, we don’t model specific AI capabilities but instead represent AI capabilities as an abstract scalar, corresponding to how capable they are at AI R&D.
 
 **Significant low-hanging fruit may be plucked before ASARA.** If ASARA is good enough to speed up software progress by 30X, earlier systems may already have sped it up by 10X. By the time ASARA is developed, the earlier systems would have plucked the low-hanging fruit for improving software. Software would be closer to effective limits and returns to software R&D would be lower (lower r r). So the simulation will overestimate the size of the software intelligence explosion.
 
-How could we do better? The [gradual boost model variant](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#gradual-boost-from-pre-asara-systems) does just this by modelling the gradual development of ASARA over time and modelling the software progress that happens before ASARA is developed. Our high-level bottom line holds true: the software intelligence explosion will probably compress 3 years of AI progress into 1 year, but is somewhat unlikely to compress 10 years into 1 year.
+How could we do better? The [[#^gradual-boost-from-pre-asara-systems|gradual boost model variant]] does just this by modelling the gradual development of ASARA over time and modelling the software progress that happens before ASARA is developed. Our high-level bottom line holds true: the software intelligence explosion will probably compress 3 years of AI progress into 1 year, but is somewhat unlikely to compress 10 years into 1 year.
 
 **Assuming the historical scaling of capabilities with compute continues.** We implicitly assume that, during the software intelligence explosion, doubling the effective compute used to develop AI continues to improve capabilities as much as it has done historically. This is arguably an aggressive assumption, as it may be necessary to spend significant compute on generating high-quality data (which wasn’t needed historically). This could also be conservative if we find new architectures or algorithms with more favourable scaling properties than historical scaling.
 
@@ -599,50 +595,77 @@ _Thanks to Ryan Greenblatt, Eli Lifland, Max Daniel, Raymond Douglas, Ashwin Ach
 
 ## Appendices
 
-### Derivation of our pseudo code from the semi-endogenous growth model
+### Derivation of our pseudo code from the semi-endogenous growth model ^derivation-of-our-pseudo-code-from-the-semi-endogenous-growth-model
 
 We start with the following environment (described in the main text):
 
-S ˙ (L,C) \= a \[R (L,C)\] λ S 1 − β (Software L.O.M) \\, \\dot{S}(L, C) = a\[R(L, C)\]^{\\lambda} S^{1-\\beta} \\qquad\\qquad\\; \\text{(Software L.O.M)} R (L,C) \= (b L) α (c C) 1 − α (Research Input) R(L, C) = (bL)^{\\alpha}(cC)^{1-\\alpha} \\qquad\\qquad\\qquad \\text{(Research Input)} L \= d S (Cognitive Labour) \\qquad\\;\\;\\, L = dS \\qquad\\qquad\\qquad\\qquad\\quad\\;\\;\\, \\text{(Cognitive Labour)}
+$$
+\dot{S}(L, C) = a[R(L, C)]^{\lambda} S^{1-\beta} \qquad\qquad\;\; \text{(Software L.O.M)}
+$$
+
+$$
+R(L, C) = (bL)^{\alpha}(cC)^{1-\alpha} \qquad\qquad\qquad \text{(Research Input)}
+$$
+
+$$
+L = dS \qquad\qquad\qquad\qquad\quad\;\;\, \text{(Cognitive Labour)}
+$$
 
 Combining these three expressions we get the growth rate of software, as a function of software level and compute:
 
-g S (S,C) \= S λ α − β C λ (1 − α) × a (b d) λ α c λ (1 − α) g\_S(S,C) \\;\\; = \\;\\; S^{\\lambda \\alpha - \\beta} C^{\\lambda(1-\\alpha)} \\times a(bd)^{\\lambda \\alpha} c^{\\lambda(1-\\alpha)} \= S λ α − β C λ (1 − α) × Constant \\qquad\\qquad\\;\\, = \\;\\; S^{\\lambda \\alpha - \\beta} C^{\\lambda(1-\\alpha)} \\times \\text{Constant}
+$$
+g_S(S,C) = S^{\lambda \alpha - \beta} C^{\lambda(1-\alpha)} \times a(bd)^{\lambda \alpha} c^{\lambda(1-\alpha)}
+$$
+
+$$
+= S^{\lambda \alpha - \beta} C^{\lambda(1-\alpha)} \times \text{Constant}
+$$
 
 From here, the time it takes for software to double is given by
 
-Doubling Time (S,C) \= log ⁡ (2) g S (S,C) \\text{Doubling Time} (S,C) = \\frac{\\log(2)}{g\_S(S,C)}
+$$
+\text{Doubling Time}(S,C)=\frac{\log(2)}{g_S(S,C)}
+$$
 
 Next, if we want to express the doubling time under software level 2 S 2S in terms of the doubling time for software under software level S S, we can divide expressions:
 
-Doubling Time (2 S,C) Doubling Time (S,C) \= g S (S,C) g S (2 S,C) \\quad\\;\\; \\displaystyle \\frac{\\text{Doubling Time}(2S,C)}{\\text{Doubling Time}(S,C)} = \\frac{g\_S(S,C)}{g\_S(2S,C)} ⟹ Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 β − λ α \\Longrightarrow \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{\\beta - \\lambda \\alpha}
+$$
+\frac{\text{Doubling Time}(2S,C)}{\text{Doubling Time}(S,C)}=\frac{g_S(S,C)}{g_S(2S,C)}
+\Longrightarrow \text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{\beta-\lambda\alpha}
+$$
 
-So we can see that after a doubling of software, the time it takes to complete the next doubling halves λ α − β \\lambda \\alpha - \\beta times. To map this expression to the parameters in the rest of this analysis, we define p p and r r as in the main text:
+So we can see that after a doubling of software, the time it takes to complete the next doubling halves $\lambda \alpha - \beta$ times. To map this expression to the parameters in the rest of this analysis, we define $p$ and $r$ as in the main text:
 
-p:\= λ α p:= \\lambda \\alpha r:\= λ α β r:= \\dfrac{\\lambda \\alpha}{\\beta}
+$$
+p \coloneqq \lambda\alpha, \qquad r \coloneqq \frac{\lambda\alpha}{\beta}
+$$
 
-And therefore, to get the doubling time expression in the [pseudo code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode) note β − λ α \= p (r − 1 − 1) \\beta - \\lambda \\alpha \\; = \\; p (r^{-1} - 1), therefore
+And therefore, to get the doubling time expression in the [[#^pseudocode|pseudo code]] note $\beta - \lambda \alpha = p (r^{-1} - 1)$, therefore
 
-Doubling Time (2 S,C) \= Doubling Time (S,C) × 2 p (1 r − 1) \\text{Doubling Time}(2S,C) = \\text{Doubling Time}(S,C) \\times 2^{p(\\frac{1}{r} - 1)}
+$$
+\text{Doubling Time}(2S,C)=\text{Doubling Time}(S,C)\times 2^{p(\frac{1}{r}-1)}
+$$
 
 Therefore, so long as we know the initial doubling time of software and p p and r r for each time period, we can chain together doubling times to calculate a path of software.
 
 ### Additional model assumptions
 
-In addition to the [pseudo code](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#pseudocode), the results reported in the piece are also determined by three additional assumptions:
+In addition to the [[#^pseudocode|pseudo code]], the results reported in the piece are also determined by three additional assumptions:
 
-1.  AI software has recently been doubling every 3 months ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#ai-software-has-recently-been-doubling-every-3-months)).
+1.  AI software has recently been doubling every 3 months ([[#^ai-software-has-recently-been-doubling-every-3-months|more]]).
     
-2.  Half of AI progress is due to software and half is due to compute ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#calculating-the-summary-statistics)).
+2.  Half of AI progress is due to software and half is due to compute ([[#^calculating-the-summary-statistics|more]]).
     
-3.  Our sampling procedure for the Monte Carlo ([more](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#objection-to-our-sampling-procedure)).
+3.  Our sampling procedure for the Monte Carlo ([[#^objection-to-our-sampling-procedure|more]]).
     
 
-#### AI software has recently been doubling every 3 months
+#### AI software has recently been doubling every 3 months ^ai-software-has-recently-been-doubling-every-3-months
 
 A model parameter specifies the _initial speed-up_ in software progress from deploying ASARA. But we also need to make an assumption about how fast AI software has progressed recently. Then we can calculate:
 
-Initial software doubling time after ASARA \= recent software doubling time initial speed-up \\text{Initial software doubling time after ASARA} = \\frac{\\text{recent software doubling time}}{\\text{initial speed-up}}
+$$
+\text{Initial software doubling time after ASARA}=\frac{\text{recent software doubling time}}{\text{initial speed-up}}
+$$
 
 We assume that recently software has doubled every 3 months.
 
@@ -650,9 +673,9 @@ Why 3 months? [Epoch estimates](https://epoch.ai/trends) that training efficienc
 
 But the simulation measures “software” in units of parallel labour. A doubling of software is any software improvement as useful as an improvement that doubles the number of parallel copies you can run.
 
-The main body [argues](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#returns-to-software-rd-) that, measured in these units, software doubles more quickly than training efficiency because better training efficiency allows you to access better capabilities, and this is more valuable than having twice as many parallel copies. Based on this consideration, we adjust the 6 months down to 3 months.
+The main body [[#^returns-to-software-rd-rr|argues]] that, measured in these units, software doubles more quickly than training efficiency because better training efficiency allows you to access better capabilities, and this is more valuable than having twice as many parallel copies. Based on this consideration, we adjust the 6 months down to 3 months.
 
-#### Calculating the summary statistics
+#### Calculating the summary statistics ^calculating-the-summary-statistics
 
 The simulation spits out a trajectory for AI software progress over time. From that we can calculate “there was a 1 year period where we had 10 years of **software** progress at recent rates of progress”.
 
@@ -663,13 +686,13 @@ There was a 1 year period where we had 10 years of _software_ progress → There
 
 You can change this assumption in the [online tool](https://accelerated-ai-progress.streamlit.app/).
 
-#### Objection to our sampling procedure
+#### Objection to our sampling procedure ^objection-to-our-sampling-procedure
 
-It might seem ill-advised to independently sample r \= α λ β r = \\frac{\\alpha \\lambda}{\\beta} and p \= α λ p = \\alpha \\lambda. Should we not instead sample β \\beta and α λ \\alpha \\lambda? After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample α λ \\alpha \\lambda holding r r fixed – this means that a higher value for α λ \\alpha \\lambda will change the (implicit) value of β \\beta.
+It might seem ill-advised to independently sample $r = \frac{\alpha\lambda}{\beta}$ and $p = \alpha\lambda$. Should we not instead sample $\beta$ and $\alpha\lambda$? After all, these are the more fundamental inputs that determine the model behaviour. For example, we will sample $\alpha\lambda$ holding $r$ fixed – this means that a higher value for $\alpha\lambda$ will change the (implicit) value of $\beta$.
 
-We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about r r. This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: r \= g outputs g inputs r = \\frac{g\_{\\text{outputs}}}{g\_{\\text{inputs}}}. Given our evidence on r r, it is the case that from our epistemic position it is appropriate that a higher estimate of α λ \\alpha \\lambda should change our estimate of β \\beta.
+We tentatively think our sampling procedure is appropriate given our epistemic position. The best evidence we have to calibrate the model is evidence about $r$. This comes from observing the ratio between the growth rate of inputs and the growth rate of outputs to AI R&D: $r = \frac{g_{\text{outputs}}}{g_{\text{inputs}}}$. Given our evidence on $r$, it is the case that from our epistemic position it is appropriate that a higher estimate of $\alpha\lambda$ should change our estimate of $\beta$.
 
-To be concrete, suppose our evidence tells us that r \= 2 r = 2. Then we sample from our distribution over α λ \\alpha \\lambda. If we sample a high value, it is appropriate for us to assume that β \\beta is also high, so that our assumption about α λ \\alpha \\lambda remains consistent with our evidence about r r.
+To be concrete, suppose our evidence tells us that $r = 2$. Then we sample from our distribution over $\alpha \lambda$. If we sample a high value, it is appropriate for us to assume that $\beta$ is also high, so that our assumption about $\alpha \lambda$ remains consistent with our evidence about $r$.
 
 A more sophisticated approach here is surely possible. But our model is intended as a glorified BOTEC and we don’t expect additional sophistication would significantly affect the bottom line. And our remaining uncertainty about the bottom line stems much more from uncertainty about the right parameter values than from uncertainty about the sampling procedure.
 
@@ -677,7 +700,7 @@ A more sophisticated approach here is surely possible. But our model is intended
 
 We explore two variants of the model that make it more realistic in certain respects.
 
-#### Retraining time
+#### Retraining time ^retraining-time
 
 We have accounted for the time to train new AI systems in our estimate of the _initial_ speed of software progress. But retraining also affects how the pace of AI progress should change over time.
 
@@ -687,29 +710,29 @@ Let’s say that AI progress requires two steps: improving software and retraini
 
 Flowchart showing retraining model cycle: improved AI software leads to retraining AI, which produces better AI, creating feedback loop for continued improvement
 
-## Image
-
 As software progress becomes very fast, retraining will become a bottleneck. To avoid this, some of your software improvements can be “spent” on reducing the duration of training rather than on improving capabilities. As a result of this expenditure, the pace of AI progress accelerates more slowly. (An inverse argument shows that the pace of AI progress also _decelerates_ more slowly, as you can expand the time for training as progress slows.)
 
 A simple way to model this is to assume that **each time the pace of software progress doubles, the duration of training must halve**. Software progress and training become faster in tandem.
 
-How can we incorporate this into the model? Suppose that the model previously stated that software doubled N N times before the pace of software progress doubled. We should increase this to N + 1 N+1. The extra software doubling is spent on reducing the duration of training. Our rough median estimate for N N is 5, as argued in [this appendix](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#how-the-speed-of-software-progress-changes-over-time).
+How can we incorporate this into the model? Suppose that the model previously stated that software doubled N N times before the pace of software progress doubled. We should increase this to N + 1 N+1. The extra software doubling is spent on reducing the duration of training. Our rough median estimate for N N is 5, as argued in [[#^how-the-speed-of-software-progress-changes-over-time|this appendix]].
 
 ![Diagram showing retraining model timing: total time to create next generation AI includes both software improvement and retraining phases, with accelerating progress requiring faster retraining to avoid bottlenecks](https://images.ctfassets.net/4owxfjx3z3if/40gkSK4CZA9Lp78dUmubLl/8faccff8b69b088f70fdb5f3ffb3b01e/retraining-time-allocation-diagram.png?w=3840&q=85&fm=webp)
 
 Diagram showing retraining model timing: total time to create next generation AI includes both software improvement and retraining phases, with accelerating progress requiring faster retraining to avoid bottlenecks
 
-## Image
-
 Specifically, we adjust the line of code that describes how software progress changes each time software doubles:
 
-Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i \\text{Doubling-Time}\_{i+1} \\;\\; = \\;\\; 2^{p(\\frac{1}{r\_i} - 1)} \\times \\text{Doubling-Time}\_i
+$$
+\text{Doubling-Time}_{i+1}=2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i
+$$
 
 The exponent on 2 here is the reciprocal of N N: p ((1 / r) − 1) \= 1 / N p((1/r) - 1) = 1/N. So we replace this exponent with
 
-1 N + 1 \= p (1 r − 1) 1 + p (1 r − 1) \\displaystyle \\frac{1}{N+1} = \\frac{p(\\frac{1}{r}-1)}{1+p(\\frac{1}{r}-1)}
+$$
+\frac{1}{N+1}=\frac{p(\frac{1}{r}-1)}{1+p(\frac{1}{r}-1)}
+$$
 
-This analysis assumed that software was accelerating over time – N \> 0 N>0, p ((1 / r) − 1) \> 0 p((1/r) - 1)>0. Repeating the argument for the case where software is decelerating – N < 0 N<0, p ((1 / r) − 1) < 0 p((1/r) - 1)<0 – yields p ((1 / r) − 1) (1 − (p ((1 / r) − 1))) \\frac{p((1/r) - 1)}{(1 - (p((1/r) - 1)))}. Therefore the correct exponent in both cases is λ ((1 / r) − 1) (1 + ∣ λ ((1 / r) − 1) ∣) \\frac{\\lambda((1/r) - 1)}{\\left(1 + |\\lambda((1/r) - 1)|\\right)}.
+This analysis assumed that software was accelerating over time: $N>0$ and $p((1/r)-1)>0$. Repeating the argument for the case where software is decelerating—$N<0$ and $p((1/r)-1)<0$—yields $\frac{p((1/r)-1)}{1-p((1/r)-1)}$. Therefore the correct exponent in both cases is $\frac{\lambda((1/r)-1)}{1+|\lambda((1/r)-1)|}$.
 
 We rerun the analysis with this new exponent and find that the results do not change significantly.
 
@@ -723,11 +746,9 @@ We rerun the analysis with this new exponent and find that the results do not ch
 
 Graph showing probability of compressing at least X years into one year. Declining orange curve from 1.0 to 0.0 probability over 0-20 years compressed. Vertical lines mark 3 years (57% probability) and 10 years (19% probability).
 
-## Image
-
 See [here](https://www.forethought.org/research/will-the-need-to-retrain-ai-models) for more analysis of how retraining affects the dynamics of the software intelligence explosion.
 
-#### Gradual boost (from pre-ASARA systems)
+#### Gradual boost (from pre-ASARA systems) ^gradual-boost-from-pre-asara-systems
 
 In the main results we assume ASARA boosts the pace of software progress by 2-32x (median 8x) and the simulation starts from when this boost is first felt. In the ‘compute growth’ scenario we assume that this boost ‘ramps up’ (exponentially) over 5 years, mapping to the time frame over which we expect compute for AI development could continue to grow rapidly.
 
@@ -735,17 +756,25 @@ In the main results we assume ASARA boosts the pace of software progress by 2-32
 
 Graph showing acceleration factor f(t) growing linearly from 0.1 to 8 over 5 years in gradual boost model, representing gradual ramp-up from minimal AI assistance to full ASARA capabilities
 
-## Image
-
 In the simulation, the initial boost to research productivity from deployment of AI is an additional 10% on top of the usual rate of software progress. The boost then grows linearly over time until it reaches the sampled maximum value (between 2 and 32).
 
 To implement this in the model, we assume that the boost in each time period originates from compute growth, which grows at an exogenous (and exponential) rate until it reaches a ceiling. We assume this ceiling occurs after 12 doublings of compute (or a 4096× increase relative to the initial compute level) which occurs after five years from the start time of the model.
 
-Software i + 1 \= 2 × Software i \\qquad\\;\\; \\text{Software}\_{i+1} = 2 \\times \\text{Software}\_i f i + 1 \= 1 + f 0 + (f max − f 0) × min ⁡ { Time i,Time Boost End } \\qquad\\qquad\\qquad f\_{i+1} = 1 + f\_0 + (f\_{\\text{max}} - f\_0) \\times \\min\\{\\text{Time}\_i, \\text{Time}\_{\\text{Boost End}}\\} Time i + 1 \= Time i + Doubling-Time i \\qquad\\qquad\\; \\text{Time}\_{i+1} = \\text{Time}\_i + \\text{Doubling-Time}\_i Doubling-Time i + 1 \= 2 p (1 r i − 1) × Doubling-Time i × f i f i + 1 \\text{Doubling-Time}\_{i+1} = 2^{p(\\frac{1}{r\_i} -1)} \\times \\text{Doubling-Time}\_i \\times \\frac{f\_i}{f\_i +1} r i + 1 \= r i − r 0 Doublings-Till-Ceiling Software \\qquad\\qquad\\qquad\\, r\_{i+1} = r\_i - \\frac{r\_0}{\\text{Doublings-Till-Ceiling}\_{\\text{Software}}} Doubling-Time 0,Doublings-Till-Ceiling Software,\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Doubling-Time}\_0, \\text{Doublings-Till-Ceiling}\_{\\text{Software}}, Time Boost End,r 0,p,f 0,f max, are given;\\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_{\\text{Boost End}}, r\_0, p, f\_0, f\_{\\text{max}}, \\;\\text{ are given}; Time 0 \= 0,Software 0 \= 1,Compute 0 \= 1 \\qquad\\qquad\\qquad\\qquad\\quad\\, \\text{Time}\_0 = 0, \\text{Software}\_0 = 1, \\text{Compute}\_0 = 1
+$$
+\begin{aligned}
+\text{Software}_{i+1} &= 2\times\text{Software}_i \\
+f_{i+1} &= 1+f_0+(f_{\max}-f_0)\times\min\{\text{Time}_i,\text{Time}_{\text{Boost End}}\} \\
+\text{Time}_{i+1} &= \text{Time}_i+\text{Doubling-Time}_i \\
+\text{Doubling-Time}_{i+1} &= 2^{p(\frac{1}{r_i}-1)}\times\text{Doubling-Time}_i\times\frac{f_i}{f_i+1} \\
+r_{i+1} &= r_i-\frac{r_0}{\text{Doublings-Till-Ceiling}_{\text{Software}}}
+\end{aligned}
+$$
+
+$\text{Doubling-Time}_0$, $\text{Doublings-Till-Ceiling}_{\text{Software}}$, $\text{Time}_{\text{Boost End}}$, $r_0$, $p$, $f_0$, and $f_{\max}$ are given; $\text{Time}_0=0$, $\text{Software}_0=1$, and $\text{Compute}_0=1$.
 
 In the simulation it is assumed that f 0 \= 0.1 f\_0 = 0.1. Given exponential growth in compute, f (C) f(C) increases linearly with time until it reaches the compute ceiling, at which point f f remains at f max f\_{\\text{max}}.
 
-When running this version of the simulation we increase r r. This is because we [previously discounted r r](https://www.forethought.org/research/how-quick-and-big-would-a-software-intelligence-explosion-be#returns-to-software-rd-) on account of software progress made in the run-up to ASARA making returns to software R&D more steep. But this simulation models the gradual ramp up to ASARA so this discount isn’t needed.
+When running this version of the simulation we increase r r. This is because we [[#^returns-to-software-rd-rr|previously discounted r r]] on account of software progress made in the run-up to ASARA making returns to software R&D more steep. But this simulation models the gradual ramp up to ASARA so this discount isn’t needed.
 
 |  | **Lower bound** | **Median** | **Upper bound** |
 | --- | --- | --- | --- |
@@ -771,36 +800,32 @@ Here are the results:
 
 Probability curve for gradual boost model variant showing likelihood of compressing AI progress into one year: 59% chance for 3+ years, 32% chance for 10+ years, with declining probability for more dramatic compression
 
-## Image
-
 The software intelligence explosion is _more_ dramatic, presumably because we used more aggressive parameter values for r r and the distance to effective limits.
 
-### Returns to software R&D: efficiency improvements only
+### Returns to software R&D: efficiency improvements only ^returns-to-software-rd-efficiency-improvements-only
 
 In the main text, we include both runtime efficiency and capabilities improvements in our estimates of r r for software progress. But the capabilities improvements are necessarily more speculative: to pin down what counts as a doubling, we need to implicitly translate capabilities improvements into equivalent improvements in runtime efficiency.
 
 To check how robust our main estimate is to this speculative translation, we can ask what r r is when considering only direct runtime efficiency improvements.
 
-As above, the highest quality and most relevant estimate is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency.[24](#user-content-fn-24) They estimate r \= ∼ 1.4 \\boldsymbol{r = \\; \\sim 1.4} (every time the researcher population doubled, training efficiency doubled 1.4x).
+As above, the highest quality and most relevant estimate is Epoch’s [analysis](https://arxiv.org/abs/2405.10494) of computer vision training efficiency.[^note-forethought-how-quick-ft-24] They estimate $r \sim 1.4$ (every time the researcher population doubled, training efficiency doubled 1.4x).
 
 Again we'll make a couple of adjustments:
 
--   **Downwards for runtime efficiency.** To estimate returns to software improvements, we need to convert from training efficiency (the inputs) into runtime efficiency (the outputs). The logic of the [Chinchilla paper](https://arxiv.org/pdf/2203.15556) implies that increasing training efficiency by 4X will increase runtime efficiency by between 2X and 4X.[25](#user-content-fn-25) This means we should reduce our estimate of r r by up to a factor of 2. We'll reduce it to r \= ∼ 1 \\boldsymbol{r = \\; \\sim1}.
+-   **Downwards for runtime efficiency.** To estimate returns to software improvements, we need to convert from training efficiency (the inputs) into runtime efficiency (the outputs). The logic of the [Chinchilla paper](https://arxiv.org/pdf/2203.15556) implies that increasing training efficiency by 4X will increase runtime efficiency by between 2X and 4X.[^cite-forethought-how-quick-ft-25] This means we should reduce our estimate of $r$ by up to a factor of 2. We'll reduce it to $r \sim 1$.
     
--   **Upwards for post-training enhancements.** Improvements to pre-training algorithms are not the only source of runtime efficiency gains. There are also techniques like: model distillation; calling smaller models for easier tasks; pruning (removing parameters from a trained model); post-training quantisation (reducing the numerical precision of the weights); more efficient caching of results and activations (especially for agents that re-read the same context multiple times). We'll increase our estimate to r \= ∼ 1 − 2 \\boldsymbol{r = \\; \\sim 1-2}.
+-   **Upwards for post-training enhancements.** Improvements to pre-training algorithms are not the only source of runtime efficiency gains. There are also techniques like: model distillation; calling smaller models for easier tasks; pruning (removing parameters from a trained model); post-training quantisation (reducing the numerical precision of the weights); more efficient caching of results and activations (especially for agents that re-read the same context multiple times). We'll increase our estimate to $r \sim 1-2$.
     
 
 r r is necessarily lower when we’re considering only efficiency improvements - but it still seems fairly likely that r \> 1 r>1, even excluding capabilities improvements.
 
-### Distance to effective limits: human learning
+### Distance to effective limits: human learning ^distance-to-effective-limits-human-learning
 
 How much more efficient could human learning be if the brain wasn’t undertrained?
 
 ![Chinchilla scaling diagram showing human brain severely undertrained with 1e14 synapses and 1e24 FLOP learning, positioned far from optimal efficiency frontier, suggesting 4+ OOM training efficiency gains possible](https://images.ctfassets.net/4owxfjx3z3if/4bYgWa3tipGUdtEVBcgCyd/891b70c66735ecf530f7927e992b2726/chinchilla-scaling-human-brain-comparison.png?w=3840&q=85&fm=webp)
 
 This is a naive extrapolation from the Chinchilla paper results. The blue line shows the optimal scaling path. The training FLOP and parameters for human lifetime learning is shown at the top right – the human brain is severely undertrained. The pink lines indicate how much training FLOP would produce a model with the same loss as the brain, if the model were trained optimally.
-
-## Image
 
 \[Thanks to Marius Hobbhahn and Daniel Kokotajlo for help with this diagram.\]
 
@@ -814,7 +839,7 @@ _**Each time software doubles, r r decreases by a constant absolute amount; r r 
 
 The returns to software R&D are represented by the parameter r r. How does r r change over time?
 
-One way to think about r r is: each time you double _cumulative cognitive inputs_ to software R&D, software doubles r r times.[26](#user-content-fn-26)
+One way to think about r r is: each time you double _cumulative cognitive inputs_ to software R&D, software doubles r r times.[^note-forethought-how-quick-ft-26]
 
 This means that if r r halves, the pace of software progress halves (holding the growth of cumulative inputs fixed). r r is directly proportional to the pace of progress (holding the growth of cumulative inputs fixed).
 
@@ -830,10 +855,74 @@ The model assumes that:
 
 **This assumption could easily be very wrong in either direction.** Returns might become steeper much more quickly, far from effective limits, perhaps because many OOMs of improvement require massive computational experiments that are not available. Alternatively, it’s possible that returns stay similar to their current value until we are within an OOM of effective limits.
 
-#### How the speed of software progress changes over time
+#### How the speed of software progress changes over time ^how-the-speed-of-software-progress-changes-over-time
 
 The math of the model states that every time software doubles, the pace of software progress doubles p (1 − 1 / r) p(1 - 1/r) times.
 
 Let’s assume software progress becomes faster over time (r \> 1) (r>1). How quickly does it become faster?
 
 Let’s assume r \= 2.5 r=2.5 (which is close to our median conditioning on r \> 1 r>1) and p \= 0.3 p=0.3, each time software doubles the pace of software progress doubles 0.18 times. In other words, a very rough median estimate is that, **in a software intelligence explosion, every time software doubles 5 times, the pace of software progress itself will double**.
+
+## Footnotes
+
+[^cite-forethought-how-quick-ft-1]: Greenblatt guesses that the improvement in capability from 6 OOMs of effective compute would be the same as 8 OOMs of rank improvement within a profession. We’ll take the relevant profession to be technical employees of frontier AI companies and assume the median such expert is the 1000th best worldwide. So 8 OOMs of improvement would be 8/3 = 2.7 steps the same size as from a median expert to a top expert.
+
+[^note-forethought-how-quick-ft-2]: Minor caveat: The starting point in this example (“30,000 top-expert-level AIs thinking 30x human speed”) corresponds to a slightly higher capability level than our definition of ASARA. We define ASARA as AI that can replace *every* employee with 30x copies running at 30x speed; if there are 1000 employees this yields 30,000 AI thinking 30x human whose average capability matches the *average* capability of the human researchers. Rather than top-expert-level ASARA is mean-expert-level.
+
+[^cite-forethought-how-quick-ft-3]: AI-2027 median forecast is 8 months from the superhuman coder to the superintelligent AI researcher (SIAR). The superhuman coder roughly corresponds to ASARA (it’s better at coding and maybe a bit worse at ideation), so AI-2027 forecasts ~8 months from ASARA to SIAR. I estimate that SIAR is roughly 6 years worth of AI progress above ASARA. (*Explaining this estimate: The gap between the SIAR and a top human expert is defined as 2X the gap between a top human expert and a median human expert within an AGI company. That latter gap corresponds to a 1000-fold rank ordering improvement (as the median lab expert is ~1000th best in the world). So SIAR is a 1 million-fold rank ordering improvement on the top human expert. The top human expert is maybe ~100-fold rank ordering improvement on top of ASARA, which matches the mean company employee and so is better than the median. So SIAR is maybe a ~100 million-fold rank ordering improvement on ASARA. Ryan Greenblatt [estimates](https://redwoodresearch.substack.com/p/what-does-10x-ing-effective-compute?utm_source=post-email-title&publication_id=2318730&post_id=166749974&utm_campaign=email-post-title&isFreemail=true&r=jaafn&triedRedirect=true&utm_medium=email) that a 100 million-fold rank ordering corresponds to 6 OOMs of effective compute, which is roughly 6 years of recent AI progress. So, SIAR is ~6 years of AI progress above ASARA. Of course, this is all very rough!*) This means that AI-2027 forecasts 6 years of AI progress in 8 months. This is more aggressive than our median forecast, but not in the tails. AI-2027 then additionally assumes that very rapid AI progress continues so that after 5 further months AI is superintelligent in every cognitive domain (rather than just AI research, as for SIAR). If this is another 4 years of progress (at recent rates) then AI-2027 are forecasting 10 years of AI progress in 13 months, which corresponds to our ~20th percentile most aggressive scenarios. So, very roughly and tentatively, it looks like our model assigns ~20% probability to the software intelligence explosion being faster than AI-2027’s median forecast.
+
+[^cite-forethought-how-quick-ft-4]: In [economic growth models](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4814445), $r$ is typically defined as $r = \frac{\lambda}{\beta}$. Here we define a similar parameter, but discounted by cognitive labour’s share of AI R&D, $r_{\mathrm{cog}} = \frac{\alpha \times \lambda}{\beta}$.
+
+[^cite-forethought-how-quick-ft-5]: Note that [Aghion, Jones and Jones (2019](https://web.stanford.edu/~chadj/AJJ-AIandGrowth.pdf)) describe a slightly different condition for infinite technological progress in finite time: $\beta<0$. Our finite time explosion condition is slightly different due to the fact that in our model software levels enter the research inputs function. Explosion conditions for a similar model are presented in [Davidson et al. (2025)](https://thomas-houlden.com/assets/shs_slides.pdf).
+
+[^note-forethought-how-quick-ft-6]: In the section below where we estimate the distance to effective limits, we first estimate this in units of ‘years of AI progress at recent rates’. We convert this to $\text{Doublings-Till-Ceiling}$ by assuming AI progress has made 4 doublings of effective compute inputs per year.
+
+[^note-forethought-how-quick-ft-7]: There’s a spectrum of ASARA definitions that we could use, ranging from *weak* (e.g. a 10X increase in the cognitive labour going into AI R&D) to *strong* (e.g. a 100,000X increase). As AI improves, we’ll pass through the full spectrum. Both extremes of the spectrum have downsides for our purposes in this forecast. If we use a *weak* definition, then we’ll forecast a software intelligence explosion that is initially slow and accelerates gradually over time, e.g. over multiple years, eventually still becoming very fast. But then we’ll miss the fact that *rising compute* (which we’re not modelling) will cause the software intelligence explosion to accelerate much more quickly than our forecasts. Alternatively, we could use a *strong* definition of ASARA. But then we’ll have only achieved ASARA by already making significant rapid software progress – i.e. a big chunk of the software intelligence explosion will have already occurred. Our definition attempts to balance these concerns. A variant of this model discussed below considers ASARA being *gradually* developed, which avoids the need to choose one arbitrary point in the sand.
+
+[^note-forethought-how-quick-ft-8]: Of course, in fact ASARA will have very different comparative strengths and weaknesses to human researchers. We can define ASARA as AI which is as impactful on the pace of AI progress as if it replaced each human with 30 copies each thinking 30X faster.
+
+[^cite-forethought-how-quick-ft-9]: They happen to calculate the speed-up from exactly the definition of ASARA we are using here: replacing each researcher with 30X copies each thinking 30X as fast.
+
+[^note-forethought-how-quick-ft-10]: In areas of technology, if you double your research workforce overnight, the level of technology won’t immediately double. So we look at how many times output (in this case, efficiency) doubles when the *cumulative* research inputs doubles. On this definition of ‘cumulative input’, having 200 people work for a year constitutes twice as much cumulative input as having 100 people work for a year.
+
+[^note-forethought-how-quick-ft-11]: What does it mean for software to “double”? See box 1 a few paragraphs below!
+
+[^cite-forethought-how-quick-ft-12]: Epoch’s preliminary analysis indicates that the $r_{\mathrm{cog}}$ value for LLMs would likely be somewhat higher. We don’t adjust upwards this, because it’s a speculative and probably minor adjustment.
+
+[^cite-forethought-how-quick-ft-13]: You get the answer to this question by taking [these estimates of $N$](https://docs.google.com/document/d/1DZy1qgSal2xwDRR0wOPBroYE_RDV1_2vvhwVz4dxCVc/edit?tab=t.0#bookmark=id.eqgufka8idwl) and then adding 0.5. Why? Doubling training efficiency has two effects:   
+    	- First, you can train a model with 2X the effective compute (your compute is the same, but you’ve doubled training efficiency, so *effective* compute is doubled too). This doubles your output-per-runtime-FLOP $N$ times, as estimated in the [source](https://docs.google.com/document/d/1DZy1qgSal2xwDRR0wOPBroYE_RDV1_2vvhwVz4dxCVc/edit?tab=t.0#bookmark=id.eqgufka8idwl). This effect is equivalent to doubling runtime efficiency $N$ times. 
+    	- Secondly, it also allows you to *run* that model with sqrt(2) less compute. This literally doubles runtime efficiency 0.5 times. 
+    	- So if you double training efficiency this increases output by the same as if you’d doubled runtime efficiency $N+0.5$ times.
+
+[^note-forethought-how-quick-ft-14]: This isn’t actually a fixed hardware scale, because the hardware required *decreases* over time. A fixed hardware scale might see slightly faster improvements.
+
+[^cite-forethought-how-quick-ft-15]: See [Nagy et al (2013)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0052669) and [Bloom et al (2020)](https://web.stanford.edu/~chadj/IdeaPF.pdf).
+
+[^note-forethought-how-quick-ft-16]: This assumes the human brain does the equivalent of 1e15 FLOP/second and lifetime learning lasts for 30 years (=1e9 seconds).
+
+[^cite-forethought-how-quick-ft-17]: This is 10X less than [Epoch’s estimate](https://epoch.ai/blog/can-ai-scaling-continue-through-2030#fnref:59) of what the biggest AI lab could achieve by the end of the decade.
+
+[^note-forethought-how-quick-ft-18]: In other words, each FLOP of computation is (on average) equally useful for doing AI R&D whether it’s done by ASARA or done in a human expert’s brain. Why make this assumption? It matches our definition as ASARA as AI that increases cognitive output for AI R&D by ~1000X. If the lab uses the same amount of compute for training ASARA as for running it (1e21 FLOP/s), and ASARA matches humans on a per-compute basis, and the [human brain uses 1e15 FLOP](https://www.openphilanthropy.org/research/how-much-computational-power-does-it-take-to-match-the-human-brain/), then the lab could run 1 million human-equivalents. If there are 1000 human researchers then they could run 30 copies of each thinking 30X as quick, matching our definition of ASARA. [See calc](https://docs.google.com/spreadsheets/d/1hh2KWYN-kuPP2yZvraxgBiv48evFCU5wmFUZ4RlkWl0/edit?usp=sharing).
+
+[^note-forethought-how-quick-ft-19]: Thanks to Carl Shulman for this argument.
+
+[^note-forethought-how-quick-ft-20]: 3X relative to humans spending 8 hours a day on focussed learning, as AI systems could do this for 24 hours a day.
+
+[^cite-forethought-how-quick-ft-21]: A [rough BOTEC](https://docs.google.com/spreadsheets/d/1MFRH2A-atWr5LA1nd3UNgs0Nd-GGybqx_d7fS2rPkT0/edit?gid=0#gid=0) suggests that using 2X the computation in human lifetime learning corresponds to ~30 IQ points, so 100 IQ points would be 10X.
+
+[^note-forethought-how-quick-ft-22]: We think the downwards limits could be much smaller as, expanding downwards, you eventually hit very hard limits – it’s just not possible to train AGI with the amount of compute used in one GPT-4 forward pass.
+
+[^cite-forethought-how-quick-ft-23]: We're not aware of good evidence about the value of this parameter. See discussion of this parameter [here](https://takeoffspeeds.com/playground.html) under “R&D parallelization penalty”.
+
+[^note-forethought-how-quick-ft-24]: In this model, synthetic data generation probably should be considered a technique to increase effective training compute – get better capabilities with a fixed supply of compute.
+
+[^cite-forethought-how-quick-ft-25]: Epoch also [analysed](https://arxiv.org/abs/2405.10494) runtime efficiency in other domains:
+    
+    	- Computer chess: $r_{\mathrm{cog}} = 0.8$
+    	- Boolean satisfiability: $r_{\mathrm{cog}} = 1.6$
+    	- Problem solvers: $r_{\mathrm{cog}} = 3.5$
+    	- Linear programming: $r_{\mathrm{cog}} = 1.1$
+    
+    	These estimates are broadly consistent with our median estimate above of $r_{\mathrm{cog}} = \; \sim 1.2$.
+
+[^note-forethought-how-quick-ft-26]: If we assume all efficiency improvements come from making models smaller (i.e. achieving the same performance with fewer parameters), then we’d expect training efficiency to grow twice as quickly as runtime efficiency. This conclusion is implied by a landmark 2022 [paper](https://arxiv.org/pdf/2203.15556) from DeepMind, often informally referred to as the “Chinchilla paper.” The Chinchilla paper found that when training an LLM with a fixed computational budget, it’s best to scale the size of the model and the amount of data used to train the model equally; therefore, if a model can be made $Z$ times smaller, the runtime efficiency will grow by $Z$, while the training efficiency would grow by $Z^2$ (since training on each data point will require $1/Z$ as much computations, and you will only need to train on $1/Z$ as many data points as well). This line of reasoning, however, does not apply to efficiency improvements coming from other avenues, which in many instances will have comparable effects in speeding up training and running systems.

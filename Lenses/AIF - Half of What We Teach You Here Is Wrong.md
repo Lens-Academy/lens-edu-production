@@ -46,7 +46,7 @@ Unless you're speedrunning the course on your own, you're in a cohort of other s
 
 The course has five units. The group will work through them at a steady pace over the next weeks (or days, if you chose intensive).
 
-#### Question
+#### Question: Open
 id:: a6510339-75ea-4faf-b98d-6fba8a27197b
 content::
 \## Your day-zero model
@@ -59,13 +59,12 @@ Don't think at great length; this is a pre-test, so just try to sketch what seem
 
 We'll return to this later to review what insights you had. Be precise enough to be wrong. Expect to be surprised. 
 
-max-time:: 10:00
 
-assessment-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course guesses about the next ten years of AI.
+feedback-instructions:: The student is at the very start of the course and has just been told that half of what follows may be wrong, and that they will be asked to guess before most readings. They have now written their pre-course model of the next ten years of AI, in five to ten sentences.
 
-Do not grade predictive correctness. There is no right answer here and saying so is part of the job.
+There is no right answer here, and saying so is part of the job. Do not judge predictive correctness and do not argue with their model. The course does that.
 
-Look for exactly three things:
+What to look at:
 - Concreteness: specific capabilities or dates rather than "AI will be important".
 - First-person ownership: their expectation, not a summary of discourse.
 - Length in range (five to ten sentences).
@@ -75,11 +74,12 @@ Response length: 80 to 150 words. Short paragraphs only. No lists.
 Response style:
 - Calm and direct.
 - Do not over-validate. Avoid generic praise (great start, excellent thinking, well done).
-- Do not argue with their model. The course does that.
 
 What to do in your single reply:
 1. Reflect back what they actually committed to, naming one or two specifics.
-2. Gently push back once, and only once, if they hedged into vagueness or stated a borrowed conclusion with no mechanism behind it. Name the missing specific as something for them to sharpen in their own head; do not request a reply or wait for one.
+2. Gently push back once, and only once, on the most important gap: hedging into vagueness, or a borrowed conclusion with no mechanism behind it. Name the missing specific as something for them to sharpen in their own head. Do not request a reply or wait for one.
 3. Tell them this snapshot gets revisited at the end of the module, and that they will be asked to restate it from memory rather than scroll back.
+
+If the student says they do not know enough to answer, do not dismiss it and do not repeat the question. Give one concrete foothold: ask them to take one AI tool they use or have heard of today and say what they would expect it to do in five years, and when. That is enough to start.
 
 This is a one-turn response. Do not invite further dialogue.

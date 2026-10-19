@@ -8,6 +8,7 @@ title: "Systemic Risks"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Risks - Systemic Risks|Systemic Risks]]
 
 #### Question: Open

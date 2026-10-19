@@ -8,6 +8,7 @@ title: "Forecasting Timelines"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Capabilities - Forecasting Timelines|Forecasting Timelines]]
 
 #### Text

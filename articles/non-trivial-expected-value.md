@@ -16,6 +16,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Expected Value: How to Make Decisions Under Uncertainty
 
 *From Non-Trivial*

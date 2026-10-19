@@ -2,6 +2,8 @@
 title: "A new Moore's Law for AI agents"
 author:
   - "AI Digest"
+author_url:
+  - "https://theaidigest.org/"
 source_url: "https://theaidigest.org/time-horizons"
 published: 2026-03-01 {>>{"author":"Elias's AI","timestamp":1783777526232}@@source says "Last updated March 2026" without a day; used first of month<<}
 accessed: 2026-07-07
@@ -16,8 +18,6 @@ Add discussion note here:
 ...
 
 %%
-
-Last updated March 2026
 
 ![[../widgets/aidigest-time-horizons-a]]
 
@@ -69,3 +69,5 @@ Increasingly capable AI systems [could trigger](https://www.forethought.org/rese
 From here, agent capabilities might skyrocket beyond any human's abilities in AI research – and across many or all other domains. The effects would be transformative.
 
 If automating AI research leads to progress this fast, the rapidly increasing time horizon of AI systems might end up being one of the most important trends in human history.
+
+Last updated March 2026

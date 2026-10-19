@@ -39,7 +39,7 @@ This reading is not careers advice. It says what needs doing. It does not say wh
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 0fafa2e1-3c26-4d6c-8317-93ea6a4d153a
 content::
 \## Choose before you see the menu
@@ -70,7 +70,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/macaskill-concrete-projects-to-prepare-for-superintelligence]]

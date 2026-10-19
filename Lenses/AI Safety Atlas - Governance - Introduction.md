@@ -8,6 +8,7 @@ title: "Introduction"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Governance - Introduction|Introduction]]
 
 #### Question: Open

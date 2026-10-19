@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 _In this post, I share important lessons I learned whilst co-founding BlueDot Impact about the impact of creating educational materials and spaces._
 
 ## Introduction / TL;DR
@@ -21,7 +28,7 @@ Sometimes that’s because nobody has heard of your problem, and _advocacy_ is n
 
 Education (to me) is the act of collecting the knowledge that exists about your field into a sensible structure, and transmitting it to others in such a way that they can develop their own understanding.
 
-In this post I describe how the AI Safety Fundamentals course helped to drive the fields of AI alignment and AI governance forward. I’ll then draw on some more general lessons for other fields that may benefit from education, which you can skip straight to [here](#generic-lessons).
+In this post I describe how the AI Safety Fundamentals course helped to drive the fields of AI alignment and AI governance forward. I’ll then draw on some more general lessons for other fields that may benefit from education, which you can skip straight to [[#^generic-lessons-for-education|here]].
 
 I don’t expect much of what I say to be a surprise to passionate educators, but when I was starting out with BlueDot Impact I looked around for write-ups on the value of education and found them lacking. This might help others who are starting out with field building and are unsure about putting time into education work.
 
@@ -117,7 +124,7 @@ I want to use this space to flag that the science of learning will help you to d
 -   Using [learning activities](https://itali.uq.edu.au/teaching-guidance/teaching-practices/designing-learning-activities) that get students using the skills you want them to learn.
 -   Create opportunities to [give students feedback](https://www.ctl.ox.ac.uk/giving-effective-feedback) on their exercises and ideas they share in classes. You could also facilitate peer-to-peer feedback, but feedback from an expert is best.
 
-![](https://jamiebernardi.com/wp-content/uploads/2024/03/sol.png?w=829)
+![](https://jamiebernardi.com/wp-content/uploads/2024/03/sol.png)
 
 A highly simplified model of the science of learning.
 
@@ -136,7 +143,7 @@ This won’t come as news to anyone who is impassioned by education. I regularly
 – Furthermore, people take your course because they’re already interested in the topic – so you’ll never know the counterfactual of which steps they took because of your course.However, the more specific you are about the aims of your course, the more concretely you can measure that. For example, we would measure how many people completed an upskilling (or similar) project that builds towards their career in AI safety.  
 – Otherwise, you can measure how successful your _education_ was by assessing participants with tests or coursework (sound familiar?).
 
-## Generic lessons for education
+## Generic lessons for education ^generic-lessons-for-education
 
 ## How education helps build fields
 
@@ -172,7 +179,7 @@ Running a course rarely stops at putting together materials and publishing them 
 
 A good educational course also includes _community building_ and engagement work, for the following reasons:
 
--   **Social contagion** for your course**.** People who go through the AISF curriculum in their own time online likely heard about the curriculum from [more than one peer](https://wdmchamber.org/change-how-to-make-big-things-happen-summary#:~:text=behaviors%20spread%20faster%20when%20multiple%20social%20contacts%20adopt%20them), who each told them it was worth their time to take it. That can only happen if a group of people in a similar network have been through the materials. Engaging with existing communities is a good way to ensure you have a critical mass of early advocates for your course.
+-   **Social contagion** for your course. People who go through the AISF curriculum in their own time online likely heard about the curriculum from [more than one peer](https://wdmchamber.org/change-how-to-make-big-things-happen-summary#:~:text=behaviors%20spread%20faster%20when%20multiple%20social%20contacts%20adopt%20them), who each told them it was worth their time to take it. That can only happen if a group of people in a similar network have been through the materials. Engaging with existing communities is a good way to ensure you have a critical mass of early advocates for your course.
 -   **Social and** [**peer learning**](https://en.wikipedia.org/wiki/Peer_learning) **opportunities.** It’s important that people have someone to discuss the things they’re learning with others. Furthermore, doing a course as part of a group leads to higher completion rates, through setting a social norm to keep going.
 -   **Building networks for next steps.** If your field is at an early stage, it’s likely that there aren’t predefined next steps for people to go onto. Building strong networks of interested people is therefore important because:
     -   It supports people in leveraging their existing position to continue to contribute to your field (e.g. a PhD student is able to collaborate with someone they met on the course, even if their professor doesn’t have expertise in your area).

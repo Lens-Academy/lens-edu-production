@@ -8,4 +8,5 @@ title: "Appendix: National Governance"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Governance - Appendix National Governance|Appendix: National Governance]]

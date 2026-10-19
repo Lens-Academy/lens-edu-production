@@ -3,7 +3,8 @@ id: '572be6c8-55e4-438d-8a5d-2d0dcf108cd9'
 title: "Optional: Further Exploration"
 tldr: "Develop your own success scenario, explore AI 2027, or follow the readings most relevant to your argument."
 summary_for_tutor: "Optional extensions, separate from completing Option A or B. Preserves the 500 to 800 word success-scenario essay, the AI 2027 reflection, six curated readings, and works cited. Between the AI 2027 reading card and the curated readings the page now carries four interactive charts rebuilt from the scenario's own figures, in the order the article uses them: METR time horizons, superhuman-coder arrival forecasts, Epoch inference prices at a fixed level of capability, and the takeoff milestones. Each chart is introduced by a short Text segment on the page that carries its title and framing sentences, including the authors' definitions of a superhuman coder and of takeoff; the widgets themselves hold only the controls, the chart, the per-item detail and the data sources. The success-scenario essay is revisited at the end of the track."
-duration_minutes: 40
+reading_minutes: 45
+tutor_minutes: 11
 tags: [wip]
 add_to_ai_context:
   - "[[../articles/dean-ai-2040-verification-plan]]"
@@ -29,7 +30,7 @@ Questions to consider:
 - Where is your scenario most fragile, and what development would most likely force you to redesign it?
 
 Keep this essay. You will return to it at the end of the track and see what, if anything, you would now change. (500 to 800 words)
-assessment-instructions:: Any success scenario is admissible; score whether it is specified well enough that the learner could later notice it going wrong. Four things, 25 points each: (1) the answer says what would make the outcome a success and which risks or tradeoffs remain acceptable inside it, so the bar is stated rather than assumed; (2) the agreement or institutional settlement that sustains the outcome is named, along with the actors whose participation it needs and the hardest coordination problem among them; (3) what verification must establish with high confidence is separated from where the regime can tolerate residual uncertainty; (4) the scenario's own fragility is stated, the technological and geopolitical assumptions it leans on hardest and the development that would force a redesign. Penalise a description of a good world with no institution or mechanism holding it there.
+assessment-instructions:: Score out of 100. Any success scenario is admissible; grade whether it is specified well enough that the learner could later notice it going wrong. 25 each: (1) what would make the outcome a success and which risks or tradeoffs remain acceptable inside it, so the bar is stated rather than assumed; (2) the agreement or institutional settlement that sustains the outcome, the actors whose participation it needs, and the hardest coordination problem among them; (3) what verification must establish with high confidence, separated from where the regime can tolerate residual uncertainty; (4) the scenario's fragility: the technological and geopolitical assumptions it leans on hardest and the development that would force a redesign. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the essay describes a good world with no agreement, institution or mechanism holding it there. Model answer, for the feedback, not a grading checklist: "An example, one of many good answers. Success, ten years on: no model has been trained beyond an agreed compute threshold without international approval, and frontier development continues slowly inside a small number of declared, monitored clusters. Acceptable costs: small unmonitored clusters below the threshold, some misuse of existing models, and slower economic gains. The settlement is a US-China agreement, joined by Taiwan, the Netherlands, Japan and South Korea as the holders of the chip supply chain, that caps training compute and runs a joint verification body with inspectors at declared data centres. The hardest coordination problem is getting both superpowers to accept inspection of their most sensitive facilities at the same time. Verification must establish with high confidence where the covered chips are and that no run above the threshold took place; it can tolerate uncertainty about small clusters and about exactly what each permitted run trained. The scenario leans on chips remaining the bottleneck and on chip monitoring becoming trustworthy; a large gain in algorithmic efficiency that made dangerous models trainable on small clusters would force a redesign."
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 
@@ -38,7 +39,7 @@ id:: 1c084225-1a21-41f3-a60a-66fa50287d02
 optional:: true
 content:: Optional: Explore AI 2027
 
-Read [AI 2027](https://ai-2027.com/), the same team’s earlier scenario, including both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
+Read AI 2027, the same team’s earlier scenario, embedded below with both of its endings. As you read, ask the question this section trained: at which branch points would verification infrastructure have changed what the actors could credibly agree to?
 #### Text
 content::
 \### [AI 2027](https://ai-2027.com)
@@ -47,6 +48,32 @@ AI Futures Project (2025)
   The earlier scenario from the same team: how a race ends badly, dramatized. Read both of its endings.
 
 The four charts below rebuild figures from that scenario out of the data published behind them, so you can read the exact numbers the pictures only suggest.
+
+#### Article
+source:: [[../articles/ai-2027]]
+optional:: true
+
+#### Text
+content::
+\### AI 2027, ending 1: Race
+
+The Oversight Committee votes to keep using Agent-4.
+
+#### Article
+source:: [[../articles/kokotajlo-ai-2027]]
+from:: The committee votes 6–4 to continue internal use of Agent-4.
+optional:: true
+
+#### Text
+content::
+\### AI 2027, ending 2: Slowdown
+
+The Oversight Committee votes to slow down and reassess.
+
+#### Article
+source:: [[../articles/ai-2027-ai-2027]]
+from:: Due to the immense public pressure as well as their own fears of misalignment, the Oversight Committee overseeing OpenBrain votes 6–4 to slow down and reassess.
+optional:: true
 
 #### Text
 content::
@@ -113,6 +140,13 @@ Scher (2026)
   monitoring alone does not solve: algorithmic research, experiments,
   personnel, code, and other less physically legible activity.
 
+#### Article
+source:: [[../articles/scher-verifying-restrictions-on-frontier-ai-research]]
+optional:: true
+
+#### Text
+content::
+
 \### [Verification for International AI Governance](https://aigi.ox.ac.uk/wp-content/uploads/2025/07/Verification_for_International_AI_Governance.pdf)
 Oxford Martin AI Governance Initiative (2025)
 
@@ -121,6 +155,14 @@ Oxford Martin AI Governance Initiative (2025)
   access, privacy constraints, and the type of agreement states are trying to
   verify.
 
+#### Article
+source:: [[../articles/harack-verification-for-international-ai-governance]]
+from:: # Executive Summary
+to:: If key states get serious about these problems, a combination of unilateral, collaborative, and open efforts should be sufficient to enable the creation of a robust verification system within a few years.
+optional:: true
+
+#### Text
+content::
 \### [An International Agreement to Prevent the Premature Creation of Artificial Superintelligence](https://arxiv.org/abs/2511.10783)
 Scher et al. (2025)
 
@@ -135,6 +177,12 @@ Scher and Thiergart, MIRI Technical Governance Team (2025)
   If you want the mechanism catalog. Read selectively: choose the policy goal
   or mechanism closest to your essay and ask whether its evidence, access
   requirements, and remaining R&D gaps change your conclusion.
+
+#### Article
+source:: [[../articles/scher-mechanisms-to-verify-international-agreements-about-ai-development-table-edit-published-version]]
+from:: ## Executive Summary ^executive-summary
+to:: designing verification regimes aimed at key policy goals such as frontier model training following a safety case (discussed briefly in [[#^safety-case-verification|the appendix]]).
+optional:: true
 
 #### Text
 content::

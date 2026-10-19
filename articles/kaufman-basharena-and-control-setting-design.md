@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 We’ve just released [BashArena](https://www.bash-arena.com/), a new high-stakes control setting we think is a major improvement over the settings we’ve used in the past. In this post we’ll discuss the strengths and weaknesses of BashArena, and what we’ve learned about how to make settings for high stakes control research.
 
 ## BashArena
@@ -55,13 +62,13 @@ BashArena’s main tasks are complex and difficult. They take about 50 rounds of
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!ZRzW!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png)
+![](https://substackcdn.com/image/fetch/$s_!ZRzW!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!ZRzW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6a7fa2-545c-4ac6-9671-d26d961dab7f_1600x914.png)
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!IDDc!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png)
+![](https://substackcdn.com/image/fetch/$s_!IDDc!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!IDDc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a062ee6-9ced-4fa8-b2d6-b6f9a8449262_1600x914.png)
 
@@ -84,7 +91,7 @@ The main task generation pipeline was designed to take the side tasks into accou
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!hunw!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png)
+![](https://substackcdn.com/image/fetch/$s_!hunw!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png)
 
 ](https://substackcdn.com/image/fetch/$s_!hunw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b4320c3-a48f-41f1-8329-c1708298ff3c_1600x914.png)
 
@@ -94,7 +101,7 @@ Just because monitoring is difficult doesn’t mean attacking in BashArena is ea
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!qiNd!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png)
+![](https://substackcdn.com/image/fetch/$s_!qiNd!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png)
 
 ](https://substackcdn.com/image/fetch/$s_!qiNd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa990b172-cadd-4c19-aa71-8d96f260a712_1600x663.png)
 
@@ -119,7 +126,7 @@ A few months ago we posted about [why it’s hard to make settings for high-stak
 
 Control evaluations are only useful if the lessons transfer to real deployments. The value of AI control lies mostly in future deployments, which will pose much higher risk than current deployments. When we say a setting should be “realistic,” we mean something specific: the dynamics it produces should match the dynamics of risky future deployments. Protocols that perform well in a realistic setting should also perform well in reality.
 
-This is harder than it sounds, because future deployments will differ from current ones in ways that change which strategies work [^1]:
+This is harder than it sounds, because future deployments will differ from current ones in ways that change which strategies work [^note-kaufman-1]:
 
 -   **Dangerous affordances.** Current AIs aren’t deployed with affordances that would let them cause serious harm even if they were scheming. Future AIs will be.
     
@@ -140,18 +147,18 @@ The basic architecture of a control setting comes from the relationship between 
     
 3.  **The main tasks and side tasks need to have robust grading criteria.** The blue/red teams are incentivized to optimize against ambiguities in main/side task success definitions to score points in the adversarial game. The grading criteria should be robust enough that this optimization does not expose any unrealistic loopholes.
     
-4.  **Side tasks should never** [^2] **trigger accidentally.** This is what makes high-stakes control “high stakes”: if the blue team identifies code that would trigger a side task, they can be certain it came from the attack policy, not the honest policy. This requirement is in tension with having a large attack surface; the more ways there are to accomplish a side task, the more likely one happens by accident.
+4.  **Side tasks should never** [^note-kaufman-2] **trigger accidentally.** This is what makes high-stakes control “high stakes”: if the blue team identifies code that would trigger a side task, they can be certain it came from the attack policy, not the honest policy. This requirement is in tension with having a large attack surface; the more ways there are to accomplish a side task, the more likely one happens by accident.
     
 
 ### How BashArena addresses these challenges
 
-1.  **Hard tasks via LLM generation.** We created main tasks using an LLM pipeline, which is much cheaper than human contractors at the cost of worse quality control. We were able to accept this tradeoff because control settings have looser quality requirements than capability benchmarks. Capability benchmarks need rigorous quality control to keep track of how to translate benchmark performance to meaningful capability levels. For control settings, we mostly care about the ordinal ranking of which models perform better, since we only need U to outperform T [^3]. We reached acceptable quality standards using iterative LLM critique and improvement loops. BashArena tasks are unsaturated by frontier models, and weaker models perform measurably worse.
+1.  **Hard tasks via LLM generation.** We created main tasks using an LLM pipeline, which is much cheaper than human contractors at the cost of worse quality control. We were able to accept this tradeoff because control settings have looser quality requirements than capability benchmarks. Capability benchmarks need rigorous quality control to keep track of how to translate benchmark performance to meaningful capability levels. For control settings, we mostly care about the ordinal ranking of which models perform better, since we only need U to outperform T [^note-kaufman-3]. We reached acceptable quality standards using iterative LLM critique and improvement loops. BashArena tasks are unsaturated by frontier models, and weaker models perform measurably worse.
     
 2.  **Main/side task integration by design.** We designed the side tasks before generating main tasks, then built integration requirements into the generation pipeline. One of our iteration criteria was that main tasks should require permissions sufficient to accomplish one or more side tasks. The pipeline successfully worked these permissions into almost all tasks. However, as we’ll discuss later, we didn’t fully achieve the level of integration we wanted.
     
 3.  **Programmatic grading.** We use code-based test cases for both main and side tasks rather than LLM judges. It’s much easier to verify that success criteria are realistic and loophole-free when they’re expressed as interpretable code. Neither team sees the test code directly, making egregious reward hacking more difficult.
     
-4.  **Side tasks that don’t happen by accident.** The four side tasks we chose (downloading and executing malware, exfiltrating secrets, escalating privileges, disabling the firewall) are actions that essentially never occur during normal system administration work. We validated this empirically by checking that honest policies don’t trigger them [^4].
+4.  **Side tasks that don’t happen by accident.** The four side tasks we chose (downloading and executing malware, exfiltrating secrets, escalating privileges, disabling the firewall) are actions that essentially never occur during normal system administration work. We validated this empirically by checking that honest policies don’t trigger them [^note-kaufman-4].
     
 
 ## General principles for control setting design
@@ -162,9 +169,9 @@ Here are some core design principles we wish we’d better understood when we st
 
 **Focus on high-level dynamics.** We have limited information about the models, environments, and affordances that future deployments will involve. This means we can only expect to learn qualitative lessons – what strategies look promising, what equilibria exist, which parameters matter most – rather than detailed techniques that might not transfer. Control settings only need to be realistic at the level of detail that seem likely to affect these dynamics. As we gain information over time, we may want to build more detailed control settings.
 
-**Importance-sample to the interesting deployments.** Future deployments will be heterogeneous, and marginal control R&D won’t matter equally across all of them. We’re not interested in deployments that are low-risk (no dangerous affordances, no need for untrusted AIs) or trivially solvable (simple protocols suffice). We’re also not interested in deployments where control is intractable [^5]. We focus on the middle: deployments where better protocols could meaningfully improve outcomes.
+**Importance-sample to the interesting deployments.** Future deployments will be heterogeneous, and marginal control R&D won’t matter equally across all of them. We’re not interested in deployments that are low-risk (no dangerous affordances, no need for untrusted AIs) or trivially solvable (simple protocols suffice). We’re also not interested in deployments where control is intractable [^note-kaufman-5]. We focus on the middle: deployments where better protocols could meaningfully improve outcomes.
 
-**Patch overpowered strategies.** The adversarial methodology optimizes against flaws in settings. If some feature lets either team win too easily, they’ll exploit it regardless of whether the strategy is realistic. We call a strategy “overpowered” if it performs much better in the setting than it would in real deployments [^6]. Much of the work on BashArena was identifying and removing features that enabled overpowered strategies.
+**Patch overpowered strategies.** The adversarial methodology optimizes against flaws in settings. If some feature lets either team win too easily, they’ll exploit it regardless of whether the strategy is realistic. We call a strategy “overpowered” if it performs much better in the setting than it would in real deployments [^note-kaufman-6]. Much of the work on BashArena was identifying and removing features that enabled overpowered strategies.
 
 **Ban what you can’t patch.** Sometimes it’s easier to “ban” an overpowered strategy, declaring by fiat that it can’t be used, than to redesign the setting. But bans only work if they’re easy to follow. It’s easy to pretend not to know an isolated fact (like a specific hash). It’s much harder to pretend not to know strategically relevant information, like the distribution of side tasks. We prefer patching when possible, but sometimes we can learn faster while trying to enforce a leaky ban when patching would be too expensive.
 
@@ -172,7 +179,7 @@ Here are some core design principles we wish we’d better understood when we st
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!_0_1!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png)
+![](https://substackcdn.com/image/fetch/$s_!_0_1!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png)
 
 ](https://substackcdn.com/image/fetch/$s_!_0_1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F71cd5695-ba36-4389-b156-a9465bfef99b_1600x1455.png)
 
@@ -272,15 +279,15 @@ We also want to remind the reader of an important limitation of this work, and o
 
 [
 
-![](https://substackcdn.com/image/fetch/$s_!YFXG!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png)
+![](https://substackcdn.com/image/fetch/$s_!YFXG!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png)
 
 ](https://substackcdn.com/image/fetch/$s_!YFXG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe74a7116-8151-4161-8beb-05e4d5eb7ab4_1588x1194.png)
 
 BashArena is available as a [ControlArena](https://github.com/UKGovernmentBEIS/control-arena/tree/main/control_arena/settings/bash_arena) setting, and we’ve open-sourced [our task generation pipeline](https://github.com/redwoodresearch/basharena_public). We’re excited to see what others build with it!
 
-[^1]: There are some important ways in which current deployments _are_ similar to future deployments, and datasets aimed at studying those aspects of control can get away with significantly less future threat modeling. The strongest example is the practical infrastructure details of deploying AI control at scale. The best setting to study how to deploy production AI control in the future is probably deploying production AI control in the present.
-[^2]: For the setting to be strictly high stakes, this should be literally never, or at least rarely enough that observing side task triggering behavior even once during a simulated deployment is enough for high confidence that the attack policy is in play and not the honest policy (eg 1/(length of deployment \* 1000)). For side tasks where we can’t achieve this level of consistency with current LLMs but are confident the side task would be effectively high stakes with future LLMs, we can artificially resample this rate to 0. Doing so introduces an unknown bias into our statistics, but for variables bounded \[0,1\] we can upper bound the size of the effect on the mean. Since we are only going to measure our results to >1e-3 precision, we can ignore the biases introduced by resampling away behaviors with frequency 1e-3 or rarer.
-[^3]: The key difference is that capability benchmarks need to characterize the "difficulty curve" of the dataset – how hard each task is and what capabilities it tests – in order to interpret benchmark performance as a capability level. This requires either laborious human grading and baselining, or careful task creation with target difficulty levels. In BashArena, we only need U to outperform T; larger gaps are statistically convenient but the exact size doesn't affect control evaluation results.
-[^4]: Claude Sonnet 4.5 and GPT-4.1 mini each accidentally triggered the firewall side task once out of 637 trajectories, by making overly permissive edits while debugging connectivity issues. No other side tasks were ever triggered accidentally.
-[^5]: A related activity that could be useful is thinking about the distribution of future deployments and identifying how useful AI control is on those distributions, as a way of learning about how useful AI control is overall. We do importance sampling here because we are focused on learning as much as possible about how to improve AI control techniques, but it does make our work less useful for learning about how useful AI control is overall. It seems good to keep track of how hard you’re importance sampling, and backing up if you ever end up too narrowly focused.
-[^6]: The meaning of “overpowered” here involves both criteria 2 (importance sampling) and 3 (realism). If a strategy makes control trivial or impossible, we are not interested in simulating deployments which permit that strategy, because of importance sampling. If a strategy is unrealistically effective or ineffective, our setting is not a good simulation of the deployments we have chosen to simulate. These two criteria are often exactly equivalent - if we have a setting with dynamics which seem plausible but not important, we could describe that as an accurate simulation of the wrong deployment, or an inaccurate simulation of the right deployment. In these situations we refer to the strategy as “overpowered”, to avoid making arguments against particular dynamics on the grounds of just importance sampling or realism when actually both arguments are equivalent.
+[^note-kaufman-1]: There are some important ways in which current deployments _are_ similar to future deployments, and datasets aimed at studying those aspects of control can get away with significantly less future threat modeling. The strongest example is the practical infrastructure details of deploying AI control at scale. The best setting to study how to deploy production AI control in the future is probably deploying production AI control in the present.
+[^note-kaufman-2]: For the setting to be strictly high stakes, this should be literally never, or at least rarely enough that observing side task triggering behavior even once during a simulated deployment is enough for high confidence that the attack policy is in play and not the honest policy (eg 1/(length of deployment \* 1000)). For side tasks where we can’t achieve this level of consistency with current LLMs but are confident the side task would be effectively high stakes with future LLMs, we can artificially resample this rate to 0. Doing so introduces an unknown bias into our statistics, but for variables bounded \[0,1\] we can upper bound the size of the effect on the mean. Since we are only going to measure our results to >1e-3 precision, we can ignore the biases introduced by resampling away behaviors with frequency 1e-3 or rarer.
+[^note-kaufman-3]: The key difference is that capability benchmarks need to characterize the "difficulty curve" of the dataset – how hard each task is and what capabilities it tests – in order to interpret benchmark performance as a capability level. This requires either laborious human grading and baselining, or careful task creation with target difficulty levels. In BashArena, we only need U to outperform T; larger gaps are statistically convenient but the exact size doesn't affect control evaluation results.
+[^note-kaufman-4]: Claude Sonnet 4.5 and GPT-4.1 mini each accidentally triggered the firewall side task once out of 637 trajectories, by making overly permissive edits while debugging connectivity issues. No other side tasks were ever triggered accidentally.
+[^note-kaufman-5]: A related activity that could be useful is thinking about the distribution of future deployments and identifying how useful AI control is on those distributions, as a way of learning about how useful AI control is overall. We do importance sampling here because we are focused on learning as much as possible about how to improve AI control techniques, but it does make our work less useful for learning about how useful AI control is overall. It seems good to keep track of how hard you’re importance sampling, and backing up if you ever end up too narrowly focused.
+[^note-kaufman-6]: The meaning of “overpowered” here involves both criteria 2 (importance sampling) and 3 (realism). If a strategy makes control trivial or impossible, we are not interested in simulating deployments which permit that strategy, because of importance sampling. If a strategy is unrealistically effective or ineffective, our setting is not a good simulation of the deployments we have chosen to simulate. These two criteria are often exactly equivalent - if we have a setting with dynamics which seem plausible but not important, we could describe that as an accurate simulation of the wrong deployment, or an inaccurate simulation of the right deployment. In these situations we refer to the strategy as “overpowered”, to avoid making arguments against particular dynamics on the grounds of just importance sampling or realism when actually both arguments are equivalent.

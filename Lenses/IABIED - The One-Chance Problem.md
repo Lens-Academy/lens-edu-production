@@ -112,7 +112,7 @@ feedback-instructions:: The student has read the first section of Chapter 12, wr
 
 The answer this question is aimed at: **Chapter 10's before-and-after gap, and the five curses that compound it.** Two halves, and either one on its own is a real answer. The gap is what the space probes were for: once the device is out of reach you cannot fix it, so the attempt you get is the only one you get. The curses are why that single attempt is against a stacked problem, one that is fast, narrow-margined, self-amplifying, prone to its safety mechanisms becoming the failure, and worst in its edge cases, which get harder as the system gets smarter. This section's decisive move is that there is no second time. On its own that is bad luck. With either half of the earlier material behind it, it is the argument.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target, either half.** They name irreversibility and the before-and-after gap, or they name the curses. Both are Chapter 10 and both do real work here. Confirm briefly, then move on.
 - **The strongest answer puts the two together:** one attempt, and that attempt against a problem with five structural reasons to fail. If they give one half cleanly it is worth a single question toward the other, but do not treat a clean half as incomplete.
@@ -140,13 +140,14 @@ What not to do:
 - List the candidates for them.
 - Resolve the self-reinforcing trap, that denial is what would stop anyone meeting the higher burden of proof. That is this chapter's own move and the next phase's material.
 
-#### Question
+#### Question: Open
 id:: e01aa66f-dc27-4c7e-b28b-b1c31b7b1d8f
 content::
 \## Phase 4: Learning Question
 Chapter 12 uses Chernobyl and Titanic to establish an argument, then says those cases have a decisive disanalogy with ASI. Why does the chapter bother with the analogies at all if the disanalogy is what really matters? What work are Chernobyl and Titanic doing in the argument?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first section of Chapter 12 ("I Don't Want to Be Alarmist") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 Learning outcome for this Lens: Compare the Chernobyl and Titanic analogies as Chapter 12 deploys them: explain what each case contributes to the argument that humans struggle to believe in unthinkable disasters, and identify the critical disanalogy between those historical cases and an ASI failure that the chapter treats as decisive.
 

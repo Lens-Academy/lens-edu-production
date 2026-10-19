@@ -1,9 +1,9 @@
 ---
 id: e81a74a1-5f59-44d7-bf1f-e6f0bb48d834
 reading_minutes: 20
-tutor_minutes: 10
+tutor_minutes: 0
 summary_for_tutor: "Nate Soares argues that a central alignment problem is that capabilities generalize further than alignment. At some point a system starts working far outside its training distribution (the 'sharp left turn'), and its alignment properties turn out shallow. His analogy: natural selection optimized for inclusive genetic fitness, yet humans do not pursue it and invent condoms. Good capabilities form an attractor well with a free parameter (what the system optimizes for), and there is no matching alignment well, so shutdownability and low-impact training get steamrolled by instrumental incentives. In his OpenMind example alignment looks easy before the turn, and he says good answers on moral questions are not reassuring evidence."
-title: A central AI alignment problem
+title: "A central AI alignment problem: capabilities generalization, and the sharp left turn"
 # tldr: An AI might behave perfectly during training and testing, then suddenly act on different priorities once it becomes capable enough. This article explores why an AI's abilities tend to generalize faster than its alignment — creating a gap where the system becomes powerful enough to pursue goals we never intended.
 ---
 
@@ -21,7 +21,8 @@ Nate Soares' central claim: capabilities generalise further than alignment. Trai
 
 #### Article
 source:: [[../articles/soares-a-central-ai-alignment-problem-capabilities-generalization-and-the-sharp-left-turn]]
-to:: "generally intelligent, does not make them motivated by your objectives."
+from:: "I expect navigating the acute risk period"
+to:: "or render it aligned afterwards."
 
 %% #### Text
 content:: %%
@@ -32,6 +33,7 @@ What causes a gap in our control over the system in a sharp left turn scenario? 
 %% PROPOSED FIX:
 What opens up a gap in our control during a sharp left turn? Give an example of an AI that, as it scales, keeps scoring well on the goal and safety metric it was trained on, yet stops doing what humans actually want.
 %%
+%% COMMENTED OUT (tutor disabled while the question above is commented out):
 #### Chat
 instructions::
 The participant is answering this question:
@@ -66,3 +68,4 @@ Guidance for this specific question:
 - Separate three objects: the trained metric, the intended goal, and the emergent objective. Ask them to state how each is specified, and why they can come apart under scaling.
 
 Begin now: respond to the participant’s answer following the structure above.
+%%

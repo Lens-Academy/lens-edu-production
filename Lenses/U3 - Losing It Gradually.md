@@ -34,7 +34,7 @@ For this to work, something must be making our institutions take human welfare i
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 18c1540b-0fae-4398-86bd-36f424ea1e40
 content::
 \## Say why it holds now
@@ -88,7 +88,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 4
 
 #### Article
 source:: [[../articles/1-gradual-disempowerment-systemic-existential-risks-from-incremental-ai-development]]

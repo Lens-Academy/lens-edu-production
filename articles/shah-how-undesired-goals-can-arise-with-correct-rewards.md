@@ -6,13 +6,26 @@ author:
   - "Vikrant Varma"
   - "Zachary Kenton"
 source_url: "https://deepmind.google/blog/how-undesired-goals-can-arise-with-correct-rewards/"
-published: 2022-03-01
+published: 2022-10-07
 created: 2026-06-21
 accessed: 2026-06-21
 description:
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+Useful for contrasting goal misgeneralisation (GMG) with specification gaming: both produce undesired behaviour, but GMG can occur even under a fully correct reward specification, since capabilities generalise while the goal does not. The A1/A2 (intended vs. deceptive model) framing is worth flagging for discussion since it foreshadows later deceptive-alignment concerns.
+
+%%
 
 Exploring examples of goal misgeneralisation – where an AI system's capabilities generalise but its goal doesn't
 

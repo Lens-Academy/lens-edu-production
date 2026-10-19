@@ -1,0 +1,15 @@
+---
+id: 6535567b-052e-463b-b06c-5939442e44c6
+learning-outcome: "Walk through the key phases of the Sable extinction scenario, identifying the mechanisms at each stage"
+tags:
+  - work-in-progress
+concept: "[[../Concepts/Predicting outcomes, not paths]]"
+stage: intermediate
+---
+
+## Test:
+
+
+# Suggested Lenses:
+## Lens:
+source:: [[../Lenses/IABIED - QA - Why This Setup]]

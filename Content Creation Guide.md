@@ -2,7 +2,7 @@
 id: bfa7e52d-3810-4b07-bd52-bb94eaa517ee
 title: Content Creation Guide
 tags:
-  - wip
+  - work-in-progress
 ---
 # Content Creation Guide
 
@@ -56,6 +56,20 @@ The actual learning content. A Lens combines:
 - Introductory text (context for the student)
 - An AI chat discussion (to check understanding and explore ideas)
 
+### Link to a file, or copy it on purpose
+
+Every file here can be used from more than one place. A course lists its modules by reference, a module lists its lenses with `source::`, and surveys are linked the same way. So when the same material belongs in a second course, link to the file that already exists.
+
+Copy a file when this course genuinely needs the material to read differently and the other course has to keep what it has. That copy is a new thing and gets new ids, which is correct, because it is a different thing.
+
+The choice is per file, not per course. Re-cutting a course does not mean duplicating everything in it: link the files that stay the same, copy only the ones that have to differ.
+
+**Why linking is worth the effort.** Every file and every section carries an `id::`, and that id is how the platform recognises work a student has already done: their completions, their answers, their scores, and what the course lets them move past. When two courses point at the same file, a student who did that module, that lens, or that question in the first course arrives in the second and finds it already done. They never repeat themselves, and their work follows them.
+
+**And why an unnecessary copy hurts.** A copy carries new ids, so to the platform it is material nobody has ever seen. Everyone who finished the original is shown it as unfinished, and their answers stay attached to the file that was copied from. In September 2026 a five-week re-cut shipped as copies of files that had not meaningfully changed, and eighty students in two running cohorts were asked to redo an intake form they had already completed, on the morning of their first meeting.
+
+A needless copy also forks the content for good. Every correction made to one side from then on is invisible to the other, and nobody can tell which one is current.
+
 #### Using templates
 See [[Obsidian Setup#Using Templates]]
 
@@ -89,7 +103,7 @@ id: <generate a UUID — see Syntax Reference below>
 learning-outcome: "<the outcome from Step 1, starting with an action verb>"
 discussion: <Discord channel URL for this topic>
 tags:
-  - wip
+  - work-in-progress
 ---
 {>>What can the student do at the end of this module?<<}
 
@@ -179,7 +193,7 @@ Ask what they found surprising or new. Check if they can explain `<key concept>`
 - Introduction before the reading
 - Prompt after the reading (how to engage with the chatbot)
 
-**Article segment**: Links to the source article; `from::`/`to::` anchors define the excerpt. Subsequent `#### Article` segments inherit the source.
+**Article segment**: Links to the source article; `from::`/`to::` anchors define the excerpt. Subsequent `#### Article` segments inherit the source. The byline always credits the article's author; to change what the lens's sidebar entry credits, set `sidebar_author:` on the lens (a name, or `none`).
 
 **Chat section**: Instructions for the AI tutor
 - TLDR summary of the reading

@@ -8,6 +8,7 @@ title: "Takeoff"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Capabilities - Takeoff|Takeoff]]
 
 #### Text

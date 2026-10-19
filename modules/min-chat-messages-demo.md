@@ -8,20 +8,25 @@ title: Interaction requirements demo
 
 The defaults:
 - Chat never blocks completion — a learner can move on without messaging the tutor.
-- A `#### Question` must be answered once before completion, and opens a feedback conversation on the answer (`feedback::` defaults to true; set `feedback:: false` to turn it off).
+- A response segment (`#### Question: Open`, `Rating`, `Choice`, `FillBlank`, `Ranking`) must be answered once before completion. It opens a feedback conversation on the answer only if it has `feedback-instructions::`.
 
 The fields:
 - `min_chat_messages` (lens frontmatter, or `min_chat_messages::` on an inline lens; default 0): the learner must send at least this many messages to the Lens Tutor on that lens before "Mark section complete" works. Every message counts — page chat box, a question's feedback conversation, or the sidebar — except the auto-sent feedback request itself.
 - `optional:: true` makes a question skippable; on a whole lens, that lens never blocks completion.
+- `#### Question Set` with `minimum-questions-answered:: N`: the questions under it (one heading level down) need only N answers between them.
+- `:::require_x_optional_lenses{x=N}` around `::card` lines: the lens that holds the list needs N of the listed optional lenses completed.
 
 
 What learners see: while a requirement is unmet, "Mark section complete" is grayed out above a live "To finish this page:" checklist (e.g. "Send 2 messages to the Lens Tutor", "Answer question 2") — each item links to the spot.
 
-The five lenses below demonstrate each case. Preview the module and try them. %%
+The lenses below demonstrate each case. Preview the module and try them. %%
 
 # Lens: Lens with a 2-message minimum
 id:: 593ceb17-ebd3-4c31-b250-3229b758ffc6
+tldr:: What stops a learner from skipping past a discussion? This lens sets a two-message minimum, so "Mark section complete" stays locked until you have actually talked to the tutor.
+summary_for_tutor:: Demo lens with min_chat_messages:: 2. A Text segment explains the requirement and a Chat segment invites casual conversation; completion is blocked until the learner sends two messages from any chat entry point.
 min_chat_messages:: 2
+duration_minutes:: 5
 
 #### Text
 content::
@@ -33,42 +38,54 @@ Chat casually with the learner about whatever they bring up; keep replies short.
 
 # Lens: Question with the default requirement
 id:: eeb40ecf-e7e1-4536-8bda-a5cf286439d7
+tldr:: A plain open question, no special settings, so what does it take to move on? By default you must answer once; there is no feedback chat unless the author asks for one.
+summary_for_tutor:: Demo lens with a single Question: Open segment and no extra fields, showing the default behavior: one completed answer is required before completion and no feedback conversation opens because there are no feedback-instructions.
+duration_minutes:: 5
 
 #### Text
 content::
-This page has a plain question with no extra fields. Questions require one completed answer by default (and get a feedback conversation, since `feedback::` defaults to true). Until you answer it you can't mark this lens as completed.
+This page has a plain `Question: Open` with no extra fields. Response segments require one completed answer by default. Until you answer it you can't mark this lens as completed. No feedback chat opens, because the segment has no `feedback-instructions::`.
 
-#### Question
-id:: 57b12db0-0bf1-427d-a331-d695defa71b6
+#### Question: Open
+id:: d607297d-bda6-437c-8a2e-51b40aae7e4b
 content:: What is your favorite color, and why?
 
 # Lens: Question plus a message minimum
 id:: 43d2334e-990d-43be-98e2-aa7ff046cb16
+tldr:: Two gates at once: answer the question and send two messages. This lens shows how a required question and a chat minimum stack independently, and how feedback replies count toward both.
+summary_for_tutor:: Demo lens combining a required Question: Open with min_chat_messages:: 2. Explains that the two requirements are independent, that replies in the question's feedback conversation count toward the message minimum, and carries feedback-instructions for a playful follow-up.
 min_chat_messages:: 2
+duration_minutes:: 5
 
 #### Text
 content::
-This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. Replies you type in the question's feedback conversation count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
+This lens combines a required question with `min_chat_messages:: 2`. The two requirements are independent: you must answer the question AND send 2 messages to the tutor. This question has `feedback-instructions::`, so a feedback conversation opens on your answer. Replies you type there count toward the message minimum (the auto-sent feedback request itself does not), so answering and then discussing the feedback satisfies both.
 
-#### Question
-id:: ac707954-bb92-464a-b762-ade8ea25985c
+#### Question: Open
+id:: 006af336-57e3-44f3-bc3a-6cfc2cb541da
 content:: Name a food you could eat every day. What makes it work for you?
-assessment-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
+feedback-instructions:: Any sincere answer is fine; ask one playful follow-up question at a time.
 
 # Lens: Skippable question
 id:: 2c11c696-8fcb-4d2e-9725-f171c2e55c95
+tldr:: How do you offer a reflection prompt without forcing anyone to answer it? Mark the question optional and it becomes skippable, so completion never waits on it.
+summary_for_tutor:: Demo lens with a Question: Open marked optional:: true, overriding the default single-answer requirement so completion is never blocked. Illustrates the pattern for nice-to-have reflection prompts.
+duration_minutes:: 2
 
 #### Text
 content::
 This question has `optional:: true`, which overrides the default requirement of one answer and makes it skippable. "Mark section complete" works even without answering. Use this for nice-to-have reflection prompts that should not hold anyone up.
 
-#### Question
-id:: 4f4d1908-1bdc-4d2c-97e6-8351cabc9b9d
+#### Question: Open
+id:: 11444bd9-63d8-4b60-8680-cb20ecdc6d82
 optional:: true
 content:: Purely optional: is there anything from this module you want to note down for later?
 
 # Lens: Control chat without a minimum
 id:: d3d75f10-d930-4fc1-a52c-fcfcc65f05a0
+tldr:: The baseline case: a chat lens with no requirements, where "Mark section complete" works right away, even if you never say a word.
+summary_for_tutor:: Control demo lens with no min_chat_messages, showing the default behavior where completion is available immediately. A Text segment states this and a Chat segment offers optional casual conversation.
+duration_minutes:: 2
 
 #### Text
 content::
@@ -77,3 +94,58 @@ This lens has no `min_chat_messages`, so it shows the default behavior: "Mark se
 #### Chat
 instructions::
 Chat casually with the learner if they say anything; keep replies short.
+
+# Lens: Question Set
+id:: eabd0f43-308f-4199-9f30-3f94983eba2e
+tldr:: Three questions, but you only have to answer two. A Question Set lets the learner pick which questions to answer, and "Mark section complete" unlocks once enough are answered.
+summary_for_tutor:: Demo lens with a Question Set (minimum-questions-answered:: 2) around three Question: Open segments. The learner may answer any two; completion is blocked until two are answered.
+duration_minutes:: 3
+
+#### Text
+content::
+A `#### Question Set` with `minimum-questions-answered:: 2` groups the questions under it. They sit one heading level down (`##### Question: Open`), and the set ends at the next `####` heading, with no end marker. The learner must answer 2 of the 3; the other one stays optional. Until then, "Mark section complete" lists "Answer 2 of the questions in the set".
+
+#### Question Set
+minimum-questions-answered:: 2
+
+##### Question: Open
+id:: e8dedee8-da7a-4dc7-9dec-01abe233649a
+content:: What is a skill you learned recently?
+
+##### Question: Open
+id:: 616518ff-1e54-4eaa-9e37-04362c94951d
+content:: What is a book or film you would recommend to a friend?
+
+##### Question: Open
+id:: 78e4b9e7-808e-49d1-a9eb-fcc3519af88b
+content:: Where would you like to travel next?
+
+# Lens: Finish 2 of 3 optional lenses
+id:: 58e6fdb4-d13d-4589-a3b2-4a2e1d1b6973
+tldr:: How do you ask a learner to read some, but not all, of a list of optional lenses? Put the cards in a require_x_optional_lenses list, and this page unlocks once enough of them are finished.
+summary_for_tutor:: Demo lens holding a :::require_x_optional_lenses{x=2} list of three optional lens cards (demo lenses A, B and C, imported below as optional). The learner must complete two of the three listed lenses before this lens can be marked complete.
+duration_minutes:: 3
+
+#### Text
+content::
+Wrap lens cards in `:::require_x_optional_lenses{x=2}` and `:::`. This page can then be marked complete only once 2 of the listed lenses are finished, wherever the learner finished them. The box says "Finish 2 of these 3 optional lenses to complete the current lens", and shows a green "2 lenses completed" when that is done. Each card must point to an optional lens of this same module; the content check reports an error otherwise.
+
+:::require_x_optional_lenses{x=2}
+::card[[../Lenses/Optional lens list demo - A]]
+
+::card[[../Lenses/Optional lens list demo - B]]
+
+::card[[../Lenses/Optional lens list demo - C]]
+:::
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - A]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - B]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/Optional lens list demo - C]]

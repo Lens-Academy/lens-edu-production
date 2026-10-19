@@ -7,6 +7,8 @@ title: "Doesn't the Claude chatbot show signs of being aligned?"
 tldr: "\"What Claude says\" isn't the same as \"what Claude prefers.\""
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/System prompt]]"
 ---
 
 #### Text

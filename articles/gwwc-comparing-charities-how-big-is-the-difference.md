@@ -15,6 +15,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Comparing Charities: How Big is the Difference?
 
 {>>TODO: Licensed content<<}

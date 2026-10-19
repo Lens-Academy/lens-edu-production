@@ -4,6 +4,14 @@ title: "Unit 2: How Do We Know?"
 id: 'b0194d96-a8ed-4dd7-bf98-9b4cabc319df'
 ---
 
+%% Live-cohort rule (2026-09-08): while a cohort is inside this unit, do not split,
+reorder, rename or remove lenses. Add new material only as a new lens appended
+at the end. Adding or removing a lens moves the scoring denominator overnight;
+a question inside an existing lens does not. Keep reading and tutor minutes
+accurate when content changes. Five lenses carry optional:: true (Reference
+Classes, AI 2027, AI 2040, Predict-O-Matic, Going Further); the opening frame
+names them so the student can plan. %%
+
 # Submodule: Where we are starting from
 
 # Lens: Cold Open
@@ -11,6 +19,9 @@ source:: [[../Lenses/U2 - Cold Open]]
 
 # Lens: Opening frame
 id:: 99ce0fb8-e37d-4a3e-b1de-cecee69182d0
+tldr:: Forecasting methods do not guarantee accuracy; they make your reasoning decomposable, evidence-linked, and testable when the future is uncertain.
+summary_for_tutor:: Introduces Unit 2 from the poor track record of AI prediction. It previews evidence on forecasting accuracy, decomposition, reference classes, extrapolation, nonlinear interactions, aggregation with shared evidence, and reflexive forecasts, while explaining that assessments require applying methods to unfamiliar domains.
+reading_minutes:: 2
 #### Text
 content::
 \## What this unit is for
@@ -22,6 +33,8 @@ The track record of AI prediction is bad, and bad in a patterned way rather than
 What follows: the evidence on what actually correlates with forecasting accuracy, which is not what most people would guess. Then the internals, what a forecast is made of, what a trend line assumes, and the several distinct ways the parts of a system can interact so that the obvious arithmetic is the wrong arithmetic. Then what happens to all of it when the thing you are forecasting can hear you.
 
 A test sits at the end of each of the next three sections, and none of them is about the readings. You will be handed questions from transport, radiology, and chemical engineering, and asked to do the thing rather than describe it. An answer that reconstructs an assigned argument is a failing answer even when it reconstructs it accurately. If you find yourself wanting to write down what a reading said, that is the signal you have not yet got the thing the reading was pointing at.
+
+Five lenses in this unit are marked optional: Reference Classes And Their Denominators, AI 2027, AI 2040, The Parable of Predict-O-Matic, and Going Further On Timelines. The three tests do not depend on any of them. If you are short on time, Reference Classes is the shortest and the one to keep; the other four are extensions.
 
 # Submodule: What predicts accuracy
 
@@ -98,6 +111,9 @@ optional:: true
 
 # Lens: Closing
 id:: 8a8c1976-538f-4cd9-b66b-2e95726ed21c
+tldr:: A forecast becomes useful when every part is checkable: its evidence, denominator, curve assumptions, interactions, and dependence on shared information.
+summary_for_tutor:: Closes Unit 2 by consolidating four practices: decompose into evidence-settled parts, specify reference-class denominators, expose curve and interaction assumptions, and weight agreement by evidence independence. It then asks learners to compare their Cold Open answers with later transfer tests and diagnose whether their reasoning, not just their vocabulary, changed.
+reading_minutes:: 10
 #### Text
 content::
 \## Where that leaves you
@@ -120,6 +136,38 @@ Open what you wrote in the Cold Open at the start of this unit: the flights, the
 
 The three tests you have taken, at the end of each section, were those same three objects in different clothes. That was the only honest way to find out whether anything changed. Read your old answers against what you wrote in the tests, and notice specifically what you would write instead now, and why. If the answer is that you would use better vocabulary for the same reasoning, the unit did not work on you, and that is worth knowing.
 
+#### Question: Open
+id:: 1d35af4f-bf47-49ed-b610-9e0aa3b036d4
+content::
+\## Revision 2
+
+Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one method from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
+
+
+assessment-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and restated it from memory at the end of that unit. They have now finished Unit 2: decomposition into parts with evidence sources, reference classes and their denominators, when extrapolation stops being licensed, and aggregation by what the estimators saw.
+
+Compare against nothing. You do not have their earlier text and should not ask for it. Restating from memory rather than scrolling back is deliberate: it is the skill being practiced.
+
+The skill is honest revision.
+
+Reward:
+- A named method from this unit that changed a number or a mechanism in their model.
+- "I now hold X more loosely because Y."
+- "Nothing moved, and here is what would move me", where the what-would-move-me is concrete. That is a legitimate pass.
+
+Gently flag: a restatement that is the same confidence with this unit's vocabulary. If their revision uses the unit's words (decompose, reference class, denominator, extremize) without any of those words changing a claim, name that plainly and ask which specific belief actually moved.
+
+Response length: 100 to 180 words. Short paragraphs only. No lists.
+
+Response style:
+- Calm and direct.
+- Do not over-validate. Avoid generic praise.
+- Do not argue with the content of their model.
+
+Maximum 2 tutor turns. Keep an internal turn counter. Close by telling them this artifact gets revisited in later units, again from memory.
+
+#### Text
+content::
 \## Additional resources for this topic
 
 ::card[[../Lenses/U2 - Reference Classes And Their Denominators]]

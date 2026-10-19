@@ -84,7 +84,7 @@ This isn't just speculation. Neuroscience has found what's called a "[double dis
 
 Importantly, the flaw in this kind of thinking isn't that a chess program secretly *is* a typical animal. The flaw is in letting your brain instinctively divide the universe sharply into animals and non-animals in the first place *—* or into minds that are pretty much humanlike inside and minds that are stereotypically mechanical.
 
-A chess AI is *neither.* It neither works like a human *nor* like our stereotypes of a mindless, unthinking "mere machine." It is a machine, yes, but its play does not need to *feel mechanical* to human sensibilities for evaluating chess moves. It is a machine for finding *winning* moves, including moves that feel inspired*.*
+A chess AI is *neither.* It neither works like a human *nor* like our stereotypes of a mindless, unthinking "mere machine." It is a machine, yes, but its play does not need to *feel mechanical* to human sensibilities for evaluating chess moves. It is a machine for finding *winning* moves, including moves that feel inspired.
 
 > Seven years after Kasparov made his mistaken prediction, he faced an early version of Deep Blue. He won three games to Deep Blue's one, winning the match. Afterwards, Kasparov [wrote](https://time.com/archive/6728763/the-day-that-i-sensed-a-new-kind-of-intelligence/):
 >
@@ -185,17 +185,17 @@ For more on what the AIs *will* wind up wanting, read on to Chapter 4.
 
 [^note-iabied-ftnt86]: Today, we also have chess programs that work a little more like how Kasparov envisioned, blending search trees (which can be thought of as more "logical") with neural networks (more "intuitive").
 
-Those new programs are, in fact, much more powerful than Deep Blue. The current top chess programs, like Stockfish, have as one component neural networks that evaluate chess positions "on sight" without looking ahead. These networks probably incorporate a similar sense to Kasparov's about loose pawn formations (although, since they are neural networks, nobody knows for sure).
+    Those new programs are, in fact, much more powerful than Deep Blue. The current top chess programs, like Stockfish, have as one component neural networks that evaluate chess positions "on sight" without looking ahead. These networks probably incorporate a similar sense to Kasparov's about loose pawn formations (although, since they are neural networks, nobody knows for sure).
 
-If you subtracted this network from the modern chess machine *—* if you deprived it of perceptual intuitions about momentary chessboard states *—* its play would get worse. Likewise, if you force the modern chess machine to play *purely* intuitively, with no lookahead further than the board resulting from the next move, the measured chess power drops by a lot.
+    If you subtracted this network from the modern chess machine *—* if you deprived it of perceptual intuitions about momentary chessboard states *—* its play would get worse. Likewise, if you force the modern chess machine to play *purely* intuitively, with no lookahead further than the board resulting from the next move, the measured chess power drops by a lot.
 
-So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
+    So Kasparov was not wrong in the intuition that better "intuitive" board evaluation is helpful when playing chess. But he was wrong about the ability of sheer brute force to find moves that *felt* creative, intuitive, or inspired. Deep Blue had a dumb position evaluator and still found the creative-feeling moves.
 
 [^note-iabied-ftnt88]: An example can be found in *[Planet Stories](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/)* [magazine](https://www.heritage-posters.co.uk/product/planet-stories-spring-1942-cover-art-poster-allen-anderson/).
 
 [^note-iabied-ftnt89]: Yes, we realize that by now, the modern internet may have pictures of brawny human men carrying off giant bugs. If those pictures don't exist already, they'll come into existence about twelve and a half seconds after this webpage goes public. But we don't think it was on any magazine covers back then.
 
-Those were simpler times.
+    Those were simpler times.
 
 #### Notes
 

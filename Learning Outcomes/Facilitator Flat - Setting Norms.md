@@ -5,6 +5,14 @@ authors:
   - Yatharth+Claude
 tags:
   - facilitator-training
+eval-results:
+  content-sha: b0fb00b4
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: fail}
+  notes: {C3: "Pass level embeds a specific five-item norm list unhedged inside the required criterion, so a literal judge would demand those named examples even though the question asks the learner to name norms of their own choosing."}
+  evidence: {C3: "Lists 3-5 norms (steel-man before push back; share airtime; confidentiality on identity not on ideas; changing your mind is high-status; one conversation at a time)."}
 ---
 
 ## Test:

@@ -17,6 +17,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 # Reducing Global Catastrophic Risks
 
 {>>TODO: Licensed content<<}

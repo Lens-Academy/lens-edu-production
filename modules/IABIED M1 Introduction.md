@@ -18,7 +18,7 @@ reading_minutes:: 3
 content:: Welcome to our introductory AI safety course. We're using the book *If Anyone Builds It, Everyone Dies* as our primary source for this book club.
 
 :::callout {title="The Book" tone="amber"}
-You'll need your own copy of the book, in print, e-book, or audio format. If you don't have one yet, [see available formats and places to buy it](https://lensacademy.org/if-anyone-builds-it-everyone-dies). We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club (read: course) will push in the opposite direction: we'll ask you to interact with our AI tutor and do homework assignments for each unit in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
+You'll need your own copy of the book, in print, e-book, or audio format. If you don't have one yet, [see available formats and places to buy it](https://lensacademy.org/if-anyone-builds-it-everyone-dies). We use the word "book-club" lightly in this context. The author of this module (Chris) has been a long-time member of a book club and has been told that his book club is unusual in that they focus on the books, whereas most book clubs (apparently) serve as an excuse to drink wine and socialize. This book club (read: course) will push in the opposite direction: we'll ask you to interact with our AI tutor and do tests for each unit in order to help the material stick.{>>{"author":"Luc","timestamp":1782498312986}@@Request/suggestion to nolonger brand this course as a bookclub.<<}
 
 :::
 
@@ -27,18 +27,18 @@ We cover roughly 40 pages of the book per unit (one unit swaps most of its readi
 - 90 minutes with the AI tutor and the supplementary materials
 - 90 minutes in the meeting
 
-That comes to about four and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary: the first is the heaviest, and the one built around the film is the lightest by roughly an hour and a half.
+That comes to about four and a half hours per unit for a fast reader doing the required parts, and a good deal more for anyone who also works through the optional material. Units vary in density, so please make considerations when developing your study plan. A few lenses a day can lead to a deeper (and less stressful!) learning experience than trying to cram all the readings in before your session.
 
 \### Structure
 Before the first meeting, you'll be assigned to a cohort in the Lens Academy Discord server. That's a private channel that only your fellow cohort members (and admins) can see. If you haven't already, take a moment to introduce yourself in your cohort channel and paste a copy of your intro into `#intros-offers-asks` so the entire Discord server can see it.
 
-We'll cover the book across 5 units, each ending in a group meeting. For each unit, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, most units your facilitator will post some pre-meeting homework shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
+We'll cover the book across 5 units, each ending in a group meeting. For each unit, you'll log in here and this interface will guide you through readings, AI tutor conversations, and additional activities. In addition, some units your facilitator may post some pre-meeting notes shortly before the meeting. Be sure to have your Discord notifications turned on for your cohort channel so you don't miss those.
 
 Our target flow for reading the book looks like:
 1. Pre-questions - we prime you with an interesting question before you read
 2. Reading - you read a section of the book
-3. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
-4. Connection (Occasionally) - some readings ask you to work out which earlier idea they lean on, without telling you which one it is
+3. Connection (Occasionally) - some readings ask you to work out which earlier idea they lean on, without telling you which one it is
+4. Tutor discussion - you come back and answer some questions and discuss with the AI tutor
 5. (Optional) Exploration - the tutor will suggest additional topics you might want to explore based on the conversation so far.
 
 \### The path
@@ -48,11 +48,11 @@ The Introduction, then three chapters that work as one argument: what intelligen
 :::
 
 :::callout {title="Unit 2: Nonhuman Minds, Part 2" tone="blue"}
-Three questions in sequence. Whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
+Three of the biggest questions the book asks in sequence: whether what a system wants is what you trained for, what it is likely to want instead, and what happens if we try to stop it.
 :::
 
 :::callout {title="Unit 3: One Extinction Scenario" tone="blue"}
-The shape of this unit is different. Two short extension readings, then most of the book's own extinction scenario as a thirty-minute film rather than as chapters, the chapter that follows it, and the Coda. It ends by asking where your own leverage on the problem might be.
+Two short extension readings, then most of the book's own extinction scenario as a thirty-minute film rather than as chapters, the chapter that follows it, and the Coda. It ends by asking where your own leverage on the problem might be.
 :::
 
 :::callout {title="Unit 4: Facing the Challenge, Part 1" tone="blue"}

@@ -117,7 +117,7 @@ This beat is built differently from the others in this course. It hands over the
 
 The answer this question is aimed at: **Chapter 3, that training produces want-like behavior nobody specified.** Growing explains why we cannot understand the system. It does not by itself explain why a more capable system would be untrustworthy. If a grown system were only a very good tool with no wants of its own, the capability paradox would dissolve: you would build the strong one, set it on alignment, and check the work. Chapter 3 is what closes that escape. Capability and untrustworthiness arrive together because the training method that produces the former leads to the latter.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name wants emerging from training, and say what it does here: it is why you cannot separate "capable enough to solve alignment" from "dangerous enough that you should not have built it." Confirm briefly, then close.
 - **Adjacent and worth credit: the no-training-examples problem.** A student who says the earlier idea supplies that, on the grounds that what a system ends up with is a function of what it was trained on, has seen something real. Accept it, then ask which of the objection's two steps their idea actually holds up.
@@ -144,13 +144,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 3.
 
-#### Question
+#### Question: Open
 id:: 12018d2d-0fad-4473-a962-5a556d827ac0
 content::
 \## Phase 4: Learning Question
 A lab thinks it has patched the trust problem. It will build two superhuman AIs that share no memory: one invents an alignment plan, and a second, adversarial AI is rewarded only for finding hidden flaws in that plan. "If the critic can't break the plan after millions of attempts, we'll trust it." Using Chapter 11's reasoning, does bolting on the adversarial checker get the lab out of the hole, or not? Point to exactly where the move holds or fails.
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the second half of Chapter 11 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. It hands the student a clever-sounding patch to the strong-superalignment plan (an adversarial second AI that checks the first) and asks them to apply the chapter's objection rather than recite it. The patch does not escape the objection; the student's job is to say exactly where it breaks. The critic AI needs the same dangerous skill set (it too must reason about AI internals and alignment), so the lab now has two untrustworthy dangerous AIs, not one. "No flaw found" is not verification of correctness — two unaligned minds can converge on the same persuasive-but-wrong or deceptive plan, and neither has a ground-truth notion of "solved alignment" (no training examples exist) to check against. Unlike the biomedical AI's narrower protein-checker, this checker is not narrower or safer than the thing it checks. And the patch deepens the original problem rather than solving it: it requires building two superhuman AIs, both needing the dangerous skill set, doubling the "you shouldn't build an AI like that" exposure the chapter warns about.
 

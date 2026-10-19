@@ -1,7 +1,7 @@
 ---
 title: "Clarifying limitations of time horizon"
 author:
-  - "METR"
+  - "Thomas Kwa"
 source_url: "https://metr.org/notes/2026-01-22-time-horizon-limitations/"
 published: 2026-01-22
 created: 2026-07-02
@@ -9,8 +9,14 @@ accessed: 2026-07-02
 description: "Thomas Kwa responds to some misinterpretations of our time horizon work, and explains limitations and the core finding."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
-
 %%
 Add discussion note here:
 
@@ -36,7 +42,7 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
 -   **Benchmark vs real-world task distribution**
     -   Like most benchmark developers, we mostly make tasks that models can’t do yet but may be capable of in 1-2 years. Even though we try to design these tasks to be equally “fair” to humans and models, there is still the possibility of selection bias.
     -   Benchmark construction has many design choices. We try to make tasks representative of the real world, but as in any benchmark, there are inherent tradeoffs between realism, diversity, fixed costs (implementation), and variable costs (ease of running the benchmark). [Inspect](https://inspect.aisi.org.uk/) has made this easier but there will obviously be factors that cause our benchmarks to favor or disfavor models.
-    -   Because anything automatically gradable can be an RL environment, and models are extensively trained using RLVR [^1], making gradable tasks that don’t overestimate real-world performance at all essentially means making more realistic RLVR settings than labs, which is hard.
+    -   Because anything automatically gradable can be an RL environment, and models are extensively trained using RLVR [^cite-metr-1], making gradable tasks that don’t overestimate real-world performance at all essentially means making more realistic RLVR settings than labs, which is hard.
 -   **Our benchmarks differ from the real world in many ways**, some of which are discussed in the original paper.
     -   Low vs high context (low-context tasks are isolated and don’t require prior knowledge about a codebase)
     -   Well-defined vs poorly defined
@@ -62,7 +68,7 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
         -   If an AI has a 3-year time horizon, does this mean an AI can competently substitute for a human for a 3-year long project with the same level of feedback from a manager, or be able to do the human’s job completely independently? We have no tasks involving multi-turn interaction with a human so there is no right answer.
     -   There is a [good argument](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks?commentId=xQ7cW4WaiArDhchNA) that AGI would have an infinite time horizon and so time horizon will eventually start growing superexponentially. However, the AI Futures timelines model is highly sensitive to exactly how superexponential future time horizon growth will be, which we have little data on. This parameter, “Doubling Difficulty Growth Factor”, can change the date of the first Automated Coder AI between 2028 and 2050.
 
-## Despite these limitations, what conclusions do I still stand by?
+## Despite these limitations, what conclusions do I still stand by? ^despite-limitations-conclusions
 
 -   **Time horizon is a way to convert performance on a benchmark, along with human calibration data, into an intuitive measure of AI capability compared to humans.** Although estimates of time horizon are inherently imprecise, estimating time horizons that range over several orders of magnitude allows us to infer the rate of improvement on software/research tasks over time.
 -   **The most important numbers to estimate were the slope of the long-run trend** (one doubling every 6-7 months) and a linear extrapolation of this trend predicting when AIs would reach 1 month / 167 working hours time horizon (2030), not the exact time horizon of any particular model. I think the paper did well here.
@@ -73,4 +79,4 @@ Therefore, I’d like to clarify some of my beliefs about limitations of our met
     -   The paper had a small number of tasks (only ~170) because we prioritize quality over quantity. The dataset size was originally fine but is now becoming a problem as we lack longer, 2h+ tasks to evaluate future models.
         -   I think we’re planning to update the task suite soon to include most of the HCAST tasks (the original paper had only a subset) plus some new tasks. Beyond this, we have various plans to continue measuring AI capabilities, both through benchmarks and other means like [RCTs](https://metr.org/blog/2025-07-10-early-2025-ai-experienced-os-dev-study/).
 
-[^1]: See e.g. DeepSeek R1 paper: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948)
+[^cite-metr-1]: See e.g. DeepSeek R1 paper: [https://arxiv.org/abs/2501.12948](https://arxiv.org/abs/2501.12948)

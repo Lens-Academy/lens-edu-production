@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 _(Last revised: June 2026. See changelog at the bottom.)_
 
 # 1.1 Post summary / Table of contents

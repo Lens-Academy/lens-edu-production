@@ -1,12 +1,14 @@
 ---
 id: 05b9b28d-28bf-495c-9869-16badf2dbb63
+tldr: "A teacher transfers what they know; a facilitator helps a group think together about material they've already met. This lens maps how that single shift rewires nearly every move you make — and why online discussions pull you back toward teaching within ten minutes if you let them."
+summary_for_tutor: "Establishes the core teacher/facilitator distinction: a teacher is the source of knowledge and succeeds when students learn what the teacher knew, whereas a facilitator helps a group think together about already-encountered material and succeeds when participants understand it better and can locate themselves in relation to it. Presents a table contrasting teacher and facilitator responses to common situations (a question, a wrong answer, silence, a dominating participant, not knowing, the ending), points to a 5-minute 'Instructor vs Facilitator' video by Bill Wilder, and explains why online cohort settings intensify the gravitational pull toward teaching."
 title: "1.1 The core distinction: teaching vs facilitating"
 tags:
   - facilitator-training
 reading_minutes: 8
 ---
 #### Text
-content:: A teacher's job is to **transfer knowledge**. The teacher is the source{++{"author":"Anshuman","timestamp":1782667590112}@@ of information++}{--{"author":"Anshuman","timestamp":1782667588471}@@. --}Success looks like: at the end of the class, students know what the teacher knew at the start.
+content:: A teacher's job is to **transfer knowledge**. The teacher is the source of information. Success looks like: at the end of the class, students know what the teacher knew at the start.
 
 A facilitator's job is to **help a group think together** about material they've already encountered. The facilitator is not the source of the knowledge; success looks like: at the end of the session, participants understand the material better than they could have alone — and feel more grounded in what they want to do about it. The group helps each other both interrogate the ideas and locate themselves in relation to them.
 

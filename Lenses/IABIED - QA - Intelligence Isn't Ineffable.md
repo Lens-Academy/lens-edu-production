@@ -7,6 +7,8 @@ title: "Intelligence Isn't Ineffable"
 tldr: "Is intelligence too mysterious to ever understand? The authors say no, and note that claims of ineffability have a dismal track record in science. Four arguments for why minds are intelligible in principle, even though we are nowhere near there yet."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/AI alignment]]"
 ---
 #### Text
 content::

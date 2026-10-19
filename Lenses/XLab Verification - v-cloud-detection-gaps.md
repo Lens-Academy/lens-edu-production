@@ -1,0 +1,86 @@
+---
+id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
+title: "Detection gaps and policy limits"
+tldr: "A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
+summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance, with all assigned sections included, and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
+tags: [wip]
+reading_minutes: 30
+tutor_minutes: 0
+---
+#### Text
+content::
+\## 2.2.3 Detection gaps and policy limits
+
+KYC can link cloud activity to an identified customer, but motivated users may
+split or reroute workloads to avoid scrutiny. The RAND reading examines these
+technical gaps; the Carnegie article asks whether broader controls can work
+across providers and jurisdictions.
+
+\### Strategies and Detection Gaps in a Game-Theoretic Model of Compute Governance
+Moon, Vedula, Geneson, and Bar-on | RAND Corporation (2025)
+
+Read the following excerpts:
+
+- **Summary → Findings and Recommendations** (printed pp. iv–v).
+- **Cloud Service Provider Monitoring Strategies** through the end of **Detection Game** (printed pp. 4–5). Identify the mandatory metrics, the reporting rule, and the win condition.
+- **Finding Detection Gaps** and **Finding a Detection Gap** through the sequential-training calculation; stop before **Predictions About Models in the Detection Gap** (printed pp. 5–7).
+- **Closing Detection Gaps**: its opening, then **Output and User Identity** in full (printed pp. 9–11). Note which proposals add another metric and which add another kind of information.
+
+Do not turn the BLOOM calculation into a timeless threshold recommendation. Its job here is to show how an evader can exploit the unit over which a rule aggregates activity.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ## Findings and Recommendations ^findings-and-recommendations
+to:: - Continuing research into effective thresholds for compute monitoring is required to create a robust compute-based monitoring framework that can adapt to technological progress.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: #### Cloud Service Provider Monitoring Strategies ^cloud-service-provider-monitoring
+to:: In this calculation, the number of accounts used by the evader is not strictly determined. Increasing the number of FLOPs per session from  $10^{22}$  to just under  $10^{23}$  will decrease the number of accounts required for training at the cost of extending the length of a session. The calculations to determine this relationship are straightforward, and we omit them.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ### Closing Detection Gaps ^closing-detection-gaps
+to:: In this section, we outline four CSP threshold strategies that close our model’s detection gap. We also mention several proposals for AI governance in the literature that are not based on thresholds and relate them to our problem of detecting AI training.
+
+#### Article
+source:: [[../articles/moon-strategies-and-detection-gaps-in-a-game-theoretic-model-of-compute-governance-rra3686-1]]
+from:: ### *Output and User Identity* ^output-and-user-identity
+to:: [^note-shell-companies]: Given the existing policies and procedures of detecting shell companies and countering illicit use, such as those followed by such organizations as the Financial Action Task Force and the U.S. Department of the Treasury’s Financial Crimes Enforcement Network, detecting illicit use for AI training might require additional nuances to these policies (Financial Crimes Enforcement Network, undated; U.S. Department of the Treasury, undated).
+
+#### Text
+content::
+RAND shows how evasion depends on what a rule measures and how activity is
+grouped. Carnegie then asks what broader coverage would cost—and whether it
+would push users toward providers or jurisdictions beyond the rule.
+
+\### The Geopolitical Debates Over Controlling Cloud Compute
+Noah Tan | Carnegie Endowment for International Peace (2026)
+
+Read the following excerpts:
+
+- **What Do Cloud Controls Attempt to Solve?** in full.
+- In **The Case Against Cloud Controls**, begin with “Some analysts also contend that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack” and read to the end of the section.
+- **Cloud Controls Must Contend With “Who” and “What” They Restrict** in full.
+
+Extract the decisions the technical readings do not settle: which users and activities are covered, who bears the compliance burden, how evasion shifts across jurisdictions, and what over-broad coverage costs.
+{>>{"author":"Elias's AI","timestamp":1788016201186}@@The Carnegie article is already imported as articles/tan-the-geopolitical-debates-over-controlling-cloud-compute, so the three assigned sections are inlined below. The RAND report is not: the stored articles/moon-... file holds only the rand.org landing page (key takeaways, recommendations), not the report text, so that reading card stays a link.<<}
+
+#### Article
+source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
+from:: ### What Do Cloud Controls Attempt to Solve?
+to:: Restricting only rentals to foreign data centers would naturally encourage Chinese firms to consider pivoting toward the other loophole—renting cloud compute directly from U.S.-based data centers.
+
+#### Article
+source:: [[../articles/tan-the-geopolitical-debates-over-controlling-cloud-compute]]
+from:: Some analysts also [contend](https://carnegieendowment.org/research/2024/12/ai-artificial-intelligence-export-united-states) that cloud restrictions risk pushing users in third-party countries toward China’s competing AI stack.
+to:: Whatever the answers may be, Washington will play an important role in determining the future of U.S.-China AI competition.
+
+#### Text
+content::
+:::callout {title="Works cited" tone="neutral" collapse="closed"}
+Both readings, Moon et al. (2025) for RAND and Tan (2026) for Carnegie, are cited inline above with their links.
+
+XLab. "2.2.3 Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
+*The source lesson this page adapts.*
+:::

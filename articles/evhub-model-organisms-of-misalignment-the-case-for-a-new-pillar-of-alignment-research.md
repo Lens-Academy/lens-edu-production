@@ -14,6 +14,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 **TL;DR**: This document lays out the case for research on “model organisms of misalignment” – in vitro demonstrations of the kinds of failures that might pose existential threats – as a new and important pillar of alignment research.
 
 If you’re interested in working on this agenda with us at Anthropic, we’re hiring! Please apply to the [research scientist](https://jobs.lever.co/Anthropic/eb9e6d83-626c-4f59-8a0e-fa7c413b2014) or [research engineer](https://jobs.lever.co/Anthropic/436ca148-6440-460f-b2a2-3334d9b142a5) position on the Anthropic website and mention that you’re interested in working on model organisms of misalignment.

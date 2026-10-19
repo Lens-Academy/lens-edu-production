@@ -8,6 +8,7 @@ title: "Defining and Measuring AGI"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Capabilities - Defining and Measuring AGI|Defining and Measuring AGI]]
 
 #### Question: Open

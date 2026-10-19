@@ -8,6 +8,7 @@ title: "Implementation"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Governance - Implementation|Implementation]]
 
 #### Text

@@ -8,6 +8,7 @@ tutor_minutes: 7
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Specification Gaming - Learning from Imitation|Learning from imitation]]
 
 #### Text

@@ -1,8 +1,13 @@
 ---
 id: 'bfee82b6-8588-4467-b262-289dbde09149'
 learning-outcome: State the disagreement between two rival accounts of what makes alignment hard, one holding that alignment fails to generalize as capabilities generalize, the other that the target was never a well-defined thing to point at; identify what observation would distinguish them; and determine which account a given proposed solution implicitly assumes.
-domain: none
 stage: advanced
+eval-results:
+  content-sha: b8be80a2
+  date: 2026-08-24
+  model: claude-opus-5
+  suite-version: 2
+  checks: {A1: pass, A2: pass, A3: pass, B1: pass, C2: pass, C3: pass}
 ---
 ## Test:
 id:: 7ceb8922-bad8-400e-a152-fbafc10e26d0
@@ -20,7 +25,6 @@ Researcher B says the quantity they measured to 99.4% accuracy is not the quanti
 
 Reconstruct both objections. Then state precisely where A and B disagree with each other, not just where each disagrees with the lab. Finally, describe an experiment or observation whose result would count as evidence for one of these two views over the other, and say what each would predict.
 
-max-time:: 25:00
 assessment-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem. This test never names either author or either paper, and the scenario is not from either text. The student must recognize the two positions from their structure and, critically, must separate them from each other rather than merging them into a single "alignment is hard" blur.
 
 The merge is the dominant failure mode. Both objections sound like "your metric does not mean what you think", so students collapse them. They are different claims:

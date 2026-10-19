@@ -10,7 +10,7 @@ title: AI Risk Fundamentals Unit 2 Session Doc Template
 
 ### Meeting link:
 
-source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
+source:: [[../shared/Session Doc - How today works]]
 
 \pagebreak
 ### Room 1: Icebreaker  [0:05–0:19]
@@ -18,7 +18,7 @@ source:: [[../shared/Session Doc - How today works (AI Risk Fundamentals)]]
 Go around your group, two things:
 
 
-1. **How was working through this unit's content?** Answer any of: did you finish? more or less enjoyable than last unit? harder or easier? If you didn't finish, what got in the way? *(No judgment, "I didn't finish" is a totally fine answer.)*
+1. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 
 
 2. **If an oracle told your group a misaligned superintelligence would end the world in 6 months — what would you all do with the time?** Land on **one plan you all agree on**, ideally a mash-up of everyone's ideas. It's an icebreaker, so wacky / not-cohesive / not-serious is totally fine.
@@ -52,7 +52,7 @@ Then, as a group, discuss this question and **write your shared response** in th
 > **Klurl vs Trapaucius.** Trapaucius argues that any being smart enough will grasp its "purpose" and pursue only that. Klurl replies: "they'd know, but would they care?" Who's right about *humans* — and what does that predict for AI?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 
@@ -81,7 +81,7 @@ Chapter 5 opens with aliens who treasure a prime number of stones in their nests
 Two rounds, as a group:
 1\. Steelman a skeptic: "These AIs are trained on human text and human feedback, so their concepts, and their goals, will be human-shaped, not alien." Build the strongest version of that objection you can, then give the authors' best rebuttal. Which side wins?
 2\. The whole chain: Chapter 4 says we can't control what they want; Chapter 5 says the wants won't include us; Chapter 6 says that if it comes to it, we’d lose. Which link is weakest, and what would it take to break it?
-Want help or an explanation for this question? Copy it into the Lens Tutor and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Skeptic verdict | Weakest link + what would break it |
@@ -147,53 +147,7 @@ source:: [[../shared/Session Doc - Open discussion]]
 - The Aztec warrior wonders what else the strangers might know how to do. The book's own answer: the real way a superintelligence wins is with attacks you didn't know were allowed. Where is humanity most exposed, and why does the book point at biology and the brain?
 
 # Tab: Participant FAQ
-style:: faq
-
-## Participant FAQ
-
-*Quick answers for the breakout-room meeting. Everything you actually do is in the session doc.*
-
-### 🆘 Getting help during a breakout
-
-Your navigator isn't in every room, so:
-
-- **Confused about the task, or want a human?** Click “••• More” > “Ask for Help” > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the Lens Tutor. It's for understanding, not for handing you the answer.
-- **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
-
-### Before you arrive
-
-- **I didn't finish (or start) the reading, should I come?** Yes. Come anyway and just say so in Room 1; it's normal, and there's no penalty.
-- **I'm running late.** Join whenever; you'll be dropped into a breakout and someone will catch you up.
-
-### In your breakout
-
-- **Do I have to talk, or have my camera on?** Cameras-on helps everyone connect, but do what you're comfortable with. Jump in when you've got a thought, there’s no need to wait to be called on.
-- **What's a "scribe"?** One person per group jots the names and your answer into the table. A line or two is plenty; rotate it each room if you like.
-- **We finished early / ran out of things to say.** Call your navigator to get ideas for expanding your current conversation. Or use the spare minute to agree what you would say if someone from your group shares between rooms.
-- **No one's talking, or one person is dominating.** Just start talking when you have a thought; if it's really stuck, click Ask for Help.
-- **Do we need a "right answer"?** No! The point is the discussion, not a tidy answer.
-
-### Between rooms
-
-- **What happens between rooms?** Everyone comes back to the main room for five minutes. Your navigator asks who wants to share what their group landed on, and waits. A sentence or two is plenty.
-- **Do I have to share?** No. Nobody is made to speak, and a silent pause is a normal outcome. If your navigator invites you by name and you would rather not, “pass” is a complete answer.
-- **I can’t remember what we decided.** Read the last line your scribe wrote in your room’s table.
-
-### The reading and the questions
-
-- **I don't understand the question or a claim.** Ask the Lens Tutor! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
-
-### Tech
-
-- **I can't find the doc, or I can't type in it.** The link is in the Zoom chat and Discord; open it signed in with your enrolled account. Still stuck? Ask for Help.
-- **My audio keeps cutting out.** Flag it in the chat, and leave/rejoin the room if it doesn't clear.
-
-### After we wrap
-
-- **What happens at 1:30? We close on time.** The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+source:: [[../shared/Participant FAQ]]
 
 # Tab: Navigator Run-Sheet
 

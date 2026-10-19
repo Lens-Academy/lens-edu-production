@@ -8,4 +8,5 @@ title: "Appendix: Expert Surveys"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Capabilities - Appendix Expert Surveys|Appendix: Expert Surveys]]

@@ -18,6 +18,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 {>>TODO: Licensed content<<}
 
 ![Title slide: Why S-Risks Are the Worst Existential Risks, and How to Prevent Them — Max Daniel, EAG Boston 2017](https://longtermrisk.org/files/2017-06-04-S-risk-talk-at-EAG-Boston.001.jpeg)

@@ -1,7 +1,7 @@
 ---
 id: '181f044a-76cc-4be0-939a-9068fa93739e'
 learning-outcome: "For a protocol that replaces an untrusted model's moderately suspicious outputs with work from a weaker trusted model instead of using or auditing them, explain how widening that band raises safety, including how it forces a best-responding attacker into attacks that cost it success (subtler attacks that more often fail, or fewer usable opportunities), explain what sets its cost in usefulness (the share of mostly innocent outputs replaced and the capability gap between the two models), and predict how a change to the band or to the trusted model moves safety and usefulness."
-topic: "[[../Domains and Topics/7 AI Control/Control protocols]]"
+concept: "[[../Concepts/Control protocols]]"
 stage: intermediate
 requires:
   - "[[Trusted versus untrusted models]]"
@@ -19,7 +19,9 @@ A lab uses a capable model U to write data-pipeline jobs. U may be scheming and 
 The lab is considering three changes, one at a time:
 
 (i) Widen the rewrite band so that it covers the 24% of jobs just below the audited 1%.
+
 (ii) Keep the band at 9%, but have a newer trusted model T2, correct 65% of the time, write the replacement jobs. T keeps doing the scoring.
+
 (iii) Narrow the rewrite band so that it covers only the 2% of jobs just below the audited 1%.
 
 1. For each change, say what happens to safety and to usefulness (the share of jobs that end up correct), and explain why. Where you can, estimate the change in usefulness.

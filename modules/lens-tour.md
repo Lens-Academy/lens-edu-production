@@ -1,0 +1,32 @@
+---
+id: '724dec66-a66b-4402-b77e-cbdd2aeaa3da'
+slug: lens-tour
+title: "How Lens works"
+---
+
+%% Funder-facing product tour. Design constraints, so that later edits do not undo them:
+
+1. It is read on the website, not in the editor, by people who will not open a second tab. Everything that needs to be understood must be visible in rendered content. Do not move explanation into %-comments.
+2. It is short on purpose. (Funders don't have a lot of time)
+3. Each lens opens with a "What this page demonstrates" callout naming the platform features it shows. That is the whole conceit; keep it.
+4. The sources are real (Wikipedia's existential-risk overview, the Kurzgesagt explainer) because rendering a real source in place is a feature you cannot fake with placeholder text. But every question, the roleplay and the test are about the platform, not about AI safety: the reader is a funder on a twenty-minute visit, not a student, and each interaction has to be answerable in seconds from what they have just seen. Do not "improve" these into subject-matter assessments; that was the first draft and it was wrong.
+5. Feature coverage, so nothing is dropped by accident: Article excerpts with anchors and source inheritance, Video excerpt by timestamp, graded Question with a private rubric, Chat gated by min_chat_messages, Question: Choice / Ranking / FillBlank (text and numeric) / Rating, Roleplay with a learner-customisable scenario, callouts, notes, footnotes, resource cards, authored durations, and a learning-outcome test rendered at the end of the module.
+6. "Tour - Behind The Scenes" has five screenshot slots marked SCREENSHOT SLOT 1 to 5. They render as nothing until images exist, so the page is publishable as is. %%
+
+# Learning Outcome:
+source:: [[../Learning Outcomes/What a Lens course does]]
+
+# Lens:
+source:: [[../Lenses/Tour - Start Here]]
+
+# Lens:
+source:: [[../Lenses/Tour - Reading With A Tutor]]
+
+# Lens:
+source:: [[../Lenses/Tour - Video And Quick Checks]]
+
+# Lens:
+source:: [[../Lenses/Tour - Practice Against Pushback]]
+
+# Lens:
+source:: [[../Lenses/Tour - Behind The Scenes]]

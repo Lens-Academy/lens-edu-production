@@ -112,7 +112,7 @@ feedback-instructions:: The student has read the first half of Chapter 10, writt
 
 The answer this question is aimed at: **Chapter 1's machine advantages, and the intelligence explosion that follows from them.** In the case studies the curses are properties of the domain. Neutron physics happens to be fast; a reactor's margins happen to be narrow. Transfer them to AI and two of the five stop being facts about the domain and become facts about the thing being built. Speed, because a machine substrate runs faster than a biological one, so the gap between the process's timescale and human reaction time is designed in rather than incidental. Self-amplification, because Chapter 1's intelligence explosion is a process that feeds itself. The route can be AI-assisted research, or a system experimenting on and rewriting itself and getting there without help. Either way each gain produces the conditions for the next, which is the RBMK loop with the reactor's physics replaced by the system's own improvement.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target: machine advantages, or the speed of a machine substrate.** They should say what it does here: it is why speed is not borrowed from Chernobyl but built in. Confirm briefly, then move on.
 - **Also on target, and arguably sharper: the intelligence explosion.** A student who maps it onto the self-amplification curse has found the harder half. Credit it fully and do not steer them back to speed. Take whichever route they name, AI-assisted research or a system experimenting on and rewriting itself. What is being tested is that they saw the process feed itself, not which trigger they picked, and Chapter 1 puts no single name to the second route, so use their wording rather than supplying one.
@@ -138,13 +138,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1's inventory of machine advantages.
 
-#### Question
+#### Question: Open
 id:: 6713edde-7767-40e1-a5ce-d76a2651a346
 content::
 \## Phase 4: Learning Question
 A friend reads the same chapter and shrugs: "Every one of these curses has already been beaten. We've flown space probes that reached Mars, we run reactors that don't explode, and we ship software that mostly holds up. Engineering is just grinding failure modes down one at a time. Give the AI people enough iterations and they'll grind these down too." Using the chapter's own distinctions, where exactly does that argument break?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on the first half of Chapter 10 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. The test asks them to enumerate the five curses and map each to its case study; the wedge instead hands them a plausible-sounding dismissal and asks them to apply the chapter's distinctions rather than recite the list. The friend's claim is exactly the move the chapter pre-empts: it treats all five curses as equally beatable. Use it to draw out (a) the before/after gap: ASI alignment gets no iterations, unlike probes and reactors; (b) why edge cases is a different category from the other four: it intensifies with the adversary's intelligence, while speed, narrow margins, self-amplification, and complications are fixed physical constraints that ingenuity can best; and (c) "grown, not crafted" — computer security is losing even when engineers can read their own code, and AI's engineers cannot read theirs.
 

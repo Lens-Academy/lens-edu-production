@@ -16,6 +16,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 > The sentence "snow is white" is *true* if and only if snow is white.
 >
 > — Alfred Tarski

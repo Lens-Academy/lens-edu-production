@@ -56,7 +56,7 @@ Here is one related state strategy, to read later rather than now. What if the p
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the authors' own work.*
 
-#### Question
+#### Question: Open
 id:: 1ca15ba5-5072-487e-939a-8caf253ec88e
 content::
 \## Pick a side
@@ -128,7 +128,6 @@ catastrophe less likely is making a serious argument, not a mistake.
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/wildeford-should-the-us-do-a-manhattan-project-for-agi]]
