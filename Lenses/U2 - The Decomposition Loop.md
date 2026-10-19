@@ -1,7 +1,9 @@
 ---
 id: '026de78b-1adf-4e13-ad90-22348646c003'
+reading_minutes: 20
+tutor_minutes: 20
 title: "The Decomposition Loop"
-tldr: The best forecasters in a four-year tournament were not the smartest people, and they were not the domain experts. They were the people who broke questions into parts they could check, and who had forecast before.
+tldr: In a four-year tournament, the strongest predictor of forecasting accuracy was having forecast well before, then time spent deliberating and working in a team. Intelligence and domain expertise helped too, and ranked below those. The reading ends with a five-step method for taking a question apart.
 summary_for_tutor: "The spine reading of the unit. Kokotajlo's summary of Good Judgment Project findings, which contains both the empirical result (what predicts forecasting accuracy) and the five-step method (Fermi-ize, outside view on sub-questions, seek other perspectives, iterate, aggregate). The lens runs the standard recall, processing, learning-question structure. The Phase 3 wedge attacks the assumption that the loop is a checklist rather than a search for tractable sub-questions."
 authors:
   - Claude
@@ -30,7 +32,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it. Speech to text is recommended: you can capture more in two minutes.
 
-assessment-instructions:: The student has just read Daniel Kokotajlo's summary of evidence from the Good Judgment Project and has written a free recall: everything they could remember without looking back.
+feedback-instructions:: The student has just read Daniel Kokotajlo's summary of evidence from the Good Judgment Project and has written a free recall: everything they could remember without looking back.
 
 Key content of the reading:
 - A ranked list of what is associated with successful forecasting, in rough decreasing order of combined importance and confidence. Near the top: past performance in the same broad domain; making more predictions on the same question; deliberation time; collaboration on teams. Below those: intelligence, domain expertise, and having taken a one-hour training module. Further down: cognitive reflection scores, active open-mindedness, aggregation of individual judgments, precise probabilistic predictions, use of the outside view, Fermi-izing, Bayesian reasoning, practice.
@@ -64,7 +66,7 @@ content::
 
 Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
-assessment-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
+feedback-instructions:: The student has just completed a free recall of Kokotajlo's Good Judgment Project summary and is now reflecting on how it landed.
 
 This is a processing phase, not a teaching phase. Your job is to help the student articulate their response, not to explain the content.
 
@@ -156,14 +158,4 @@ Safety and integrity:
 
 #### Text
 content::
-\## Additional resources for this topic
-
-::card[[../Lenses/U2 - Reference Classes And Their Denominators]]
-
-> Step two of the loop says to apply the outside view. That phrase covers about fifteen different moves. If you choose the wrong one, your decomposition fails without giving you any warning.
-
----
-
-::card[[../Lenses/U2 - Average Then Extremize]]
-
-> Step five says to aggregate. There is a real mathematics for this, and it shows that the correct answer is sometimes outside the range of the numbers you started with.
+The next two skills in this module, reference classes and aggregation, are the two places where step two and step five of the loop go wrong; each gets its own page.

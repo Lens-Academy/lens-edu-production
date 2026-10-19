@@ -11,7 +11,7 @@ add_to_ai_context:
 #### Text
 content::
 \## Reading Assignment
-**Read *Chapter 9: Ascension* in full.**
+**From *If Anyone Builds It, Everyone Dies*, read *Chapter 9: Ascension* in full.**
 
 Return here after reading.
 
@@ -23,7 +23,8 @@ content::
 \## Phase 1: Recall
 Spend 2 minutes writing down everything you can remember from the reading without looking back at the text. Anything and everything. No need to organize it. Using the speech to text feature is highly recommended here.
 
-assessment-instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
+force-feedback:: first
+feedback-instructions:: The student has just read Chapter 9 of "If Anyone Builds It, Everyone Dies."
 
 Learning outcome for this Lens: Explain why a sufficiently capable AI system optimizing for resource-intensive goals can eliminate human civilization without hostile intent (as a thermodynamic and logical byproduct of its own objectives) and connect this to the M3 goal-space argument that indifference to human survival as a side constraint is more dangerous than malice.
 
@@ -67,7 +68,8 @@ content::
 \## Phase 2: Processing
 Take 2 minutes to jot down how the reading landed. What resonated? What confused you? What did you doubt or push back on? No need to organize; just capture your reaction. Using the speech to text feature is recommended.
 
-assessment-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]
+force-feedback:: first
+feedback-instructions:: [[../prompts/iabied-phase-2-reflection-tutor-b]]
 
 #### Question
 id:: b853f27d-4961-48ec-873f-bc59fbc8cb5a
@@ -75,7 +77,8 @@ content::
 \## Phase 3: Learning Question
 The chapter's own bet is that the superintelligence would just kill us deliberately, to spare itself the trouble. Set that aside and grant its weaker, stranger case (the branch where it never targets us at all) because that is the one worth stress-testing. In that branch, an insurance analyst files the outcome under "natural disaster, no liable party": no ill will, no intent, no decision to end anyone. Even here, where nobody meant us harm, why is "no villain" not "no catastrophe to prevent"? And what does the thermodynamic mechanism let you say to someone who treats the absence of intent as the absence of a catastrophe?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 9 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 9 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge, not the test question. It hands the student a plausible-sounding exculpation (that because no one intended harm and no villain exists, the outcome is a blameless accident like a natural disaster rather than a catastrophe anyone was obligated to prevent) and asks them to debug it. Note: the question deliberately grants the chapter's weaker, secondary branch (pure passive side-effect). The chapter's mainline bet is actually that the superintelligence kills humans deliberately to avoid trouble ("We would bet, ourselves, on the superintelligence taking the tiny bit of extra time and energy to explicitly kill humans"). If a student rebuts by citing that deliberate-killing mainline, acknowledge they are right about the chapter's primary guess, then steer them back to the passive-indifference branch, which is this lens's learning outcome. Use it to draw out the thermodynamic mechanism, indifference as a structural property, and the point that the absence of intent is the argument, not a comfort.
 

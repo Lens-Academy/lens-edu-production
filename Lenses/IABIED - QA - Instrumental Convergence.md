@@ -7,6 +7,8 @@ title: "Instrumental Convergence"
 tldr: "Almost any goal gets easier if you stay alive, gather resources, and stop anyone from switching you off. That is why the authors think they can predict an AI's dangerous behavior without knowing what it ultimately wants."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Terminal goal]]"
 ---
 #### Text
 content::

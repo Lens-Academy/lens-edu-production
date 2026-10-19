@@ -8,6 +8,7 @@ title: "Socio-Technical Strategies"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Socio-Technical Strategies|Socio-Technical Strategies]]
 
 #### Text

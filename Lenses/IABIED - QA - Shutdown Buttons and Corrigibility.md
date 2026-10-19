@@ -7,6 +7,8 @@ title: "Shutdown Buttons and Corrigibility"
 tldr: "How do you build an AI that lets you press the off switch? Almost any goal gives it a reason to resist, and every clever mathematical patch creates a new pathology where it manipulates the button instead. MIRI put top mathematicians on this and nobody found a clean answer."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Utility function]]"
 ---
 #### Text
 content::

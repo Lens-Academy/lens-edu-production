@@ -27,7 +27,8 @@ Without looking back, state each position in two sentences. Then state, in one s
 
 If you cannot find a disagreement, say so plainly. That is a real possible answer and more useful than a manufactured one.
 
-assessment-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem.
+
+feedback-instructions:: The student has read Soares on the sharp left turn and Wentworth on the pointers problem.
 
 Soares's position: capabilities generalize further than alignment. Once a system's capabilities start generalizing well beyond the training environment, into regimes that allow significant reshaping of the world, the alignment predictably fails to generalize with them. This ruins your ability to direct the system and breaks whatever constraints you were relying on for corrigibility. His framing: the problem is keeping the system aligned through that transition, or realigning it afterwards, and he claims most of the field assumes this problem away.
 
@@ -62,7 +63,8 @@ Which of the two, on first reading, felt more like the real problem to you?
 
 Then: is that a judgment about the arguments, or about which one is easier to picture? Soares describes an event. Wentworth describes a condition. Events are easier to imagine.
 
-assessment-instructions:: A processing phase. The student is reporting an intuition and being asked to examine its source. Do not adjudicate which position is correct; neither the field nor this course has settled it.
+
+feedback-instructions:: A processing phase. The student is reporting an intuition and being asked to examine its source. Do not adjudicate which position is correct; neither the field nor this course has settled it.
 
 Response length: 80 to 150 words. Short paragraphs only. No lists.
 
@@ -91,6 +93,7 @@ A research group publishes a proposal:
 Which of the two authors would consider this aimed at the right problem, and which would say it misses entirely? Be specific about what the objecting author's complaint would be.
 
 Then, the harder half: is there a version of this research program that both authors would agree is worth doing? If yes, describe it. If no, say what makes it impossible.
+
 
 assessment-instructions:: The student has read both positions. This wedge hands them a proposal that is squarely aimed at one author's problem while being close to irrelevant to the other's. It is not the test question.
 

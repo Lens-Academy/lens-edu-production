@@ -14,6 +14,15 @@ Two things to weigh as you read. First, this thread **survives the merge-circula
 #### Article
 source:: [[../articles/genesmith-how-to-make-superbabies]]
 
+#### Text
+content::
+GeneSmith & kman make the optimistic case. For a survey of the whole space that reaches a much narrower verdict, read Tsvi Benson-Tilsen's overview. He works through brain emulation, adult brain gene editing, signalling molecules, brain-brain interfaces, massive neural transplantation, and "support for thinking," and concludes that germline engineering is "the way that will work."
+
+Two things to hold onto. His FAQ dismisses as "weaksauce" much of what the rest of this module covers — BCIs, nootropics, brain training, mnemonic systems, and software exobrains — so he is a useful adversary for the whole BCI thread, not just this lens. And he labels his own summary table a "table of made-up numbers," so treat the quantities as illustrative rather than as evidence.
+
+#### Article
+source:: [[../articles/tsvibt-overview-of-strong-human-intelligence-amplification-methods]]
+
 #### Chat
 optional:: true
 instructions::

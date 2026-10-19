@@ -1,5 +1,7 @@
 ---
 id: '83312d18-5db0-41f5-b23a-6a67368c0943'
+reading_minutes: 15
+tutor_minutes: 5
 title: Going Further On Timelines
 tldr: Optional. The unit depends on one trend line, so here is the team that produced it, explaining what it does and does not support. It also gives routes into takeoff and into the earlier model.
 summary_for_tutor: "Optional depth lens for Unit 2. Inlines METR's own note on the limitations of their time-horizon result, which is the trend every forecast in the unit depends on. Then cards to existing lenses on three types of intelligence explosion, the METR time-horizon work itself, and broad timelines. No graded exercise; one open question the tutor should treat as a conversation rather than an assessment. Students who skip this lose no required content."
@@ -28,7 +30,7 @@ You have now read a forecast built on this trend, and the trend's authors explai
 
 Does anything in their caveats change the number you wrote down earlier in this unit? If yes, say which caveat, and in which direction. If no, say what a caveat would have to say in order to move you. An answer that nothing could move is worth noticing.
 
-assessment-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
+feedback-instructions:: This is an optional lens with no grade attached. Treat it as a conversation.
 
 The student has read METR's own account of what the time-horizon result does and does not support, having earlier committed to a median year of their own.
 

@@ -87,7 +87,7 @@ feedback-instructions:: The student has read section 1 of Chapter 6 ("We'd Lose"
 
 The answer this question is aimed at: **Chapter 1's definition of intelligence as prediction plus steering, and specifically that its power comes from being general.** The analogy licenses predicting an outcome without knowing the mechanism. That inference only holds if the stronger party's advantage is general rather than one trick. Chapter 1 supplied exactly that: a mind that predicts and steers finds some route to its target through whatever the world affords. Greater predictive and steering abilities are what lead to the capability gap. Which route is unknowable to the weaker party, but that there is one follows from what the capability is. Without Chapter 1 the Aztec story is an anecdote about boats rather than an argument.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name intelligence as prediction plus steering, or as a general capacity to steer outcomes, and say what it is doing here: it is why a capability gap licenses a prediction rather than a guess. Confirm briefly, then move on.
 - **Strong near miss: the machine advantages from Chapter 1.** Right chapter, wrong part, and wrong in an interesting way. Accept it, then push once: a list of specific advantages is the very sort of mechanism this chapter says you do not need. What in that chapter tells you the advantage is general rather than a list of tricks?
@@ -113,13 +113,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapter 1.
 
-#### Question
+#### Question: Open
 id:: 0754d407-0131-48b2-bcd0-3647d2e25f75
 content::
 \## Phase 4: Learning Question
 A classmate says: "I get the capability-gap argument, but upsets happen all the time: the underdog beats the favorite, David beats Goliath. So 'the AI is far more capable' doesn't actually license 'the AI wins.' Until you can point to the specific move that beats us, 'we'd lose' is speculation, not a prediction." Is your classmate right? Where, if anywhere, does the reasoning break down?
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on section 1 of Chapter 6 of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge; it is not the test question. It hands the student a plausible-sounding objection that conflates two errors: treating overwhelming capability asymmetry like a coin-flip upset (where the underdog sometimes wins), and demanding a specific mechanism (the "winning move") before granting the outcome. The student must dismantle it using the analogy's logic rather than re-describing the Aztec story. Use it to draw out the mechanism-vs-outcome distinction and why a large enough capability gap makes the outcome predictable.
 

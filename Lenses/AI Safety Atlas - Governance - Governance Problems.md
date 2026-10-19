@@ -8,6 +8,7 @@ title: "Governance Problems"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Governance - Governance Problems|Governance Problems]]
 
 #### Text

@@ -1,0 +1,92 @@
+---
+id: 'e515dbc5-48a2-4c72-8edb-98396923f9de'
+title: "Should we invest in control?"
+tldr: "Greenblatt and Shlegeris name the two claims their case for working on control rests on. Then Richard Ngo and aysja disagree about whether buying time with control leads anywhere if AI keeps getting more capable. Joe Carlsmith names the ways the window could fail: there may be none, it may be too short, or we may not be able to get useful work out of the AIs in it."
+summary_for_tutor: "Unit 3 of AI Control Fundamentals (why people work on control), right after 'Using AI while it can still be controlled'. The learner reads the appendix of Greenblatt and Shlegeris's 'The case for ensuring that powerful AIs are controlled' (January 2024), 'Should AI-takeover-concerned people invest in control?'. It rests on two key claims: (1) we don't know how to ensure that AIs aren't scheming (which fails if non-scheming is trivial or quite likely doable to ensure), and (2) investment in control will substantially improve evaluation quality or produce techniques that substantially reduce risk from scheming AIs (which fails if control is too easy, so simple measures suffice, or infeasibly hard). The authors conclude investing in control should be a high fraction of the portfolio for preventing takeover. Then two comments: Richard Ngo's reply to Emmett Shear's objection that against an ever more powerful enemy you lose eventually (control is complementary with alignment and incremental, and raises the level of general intelligence at which things go wrong, buying time), and aysja's reply that this assumes no sharp left turns and that work on smaller systems carries over to the next ones. A sharp left turn is Nate Soares's term for a sudden jump in capabilities that earlier alignment work does not carry over to. Last, three excerpts of Joe Carlsmith's 'AI for AI safety' (March 2025, then at Open Philanthropy, not Redwood): the 'AI for AI safety sweet spot' (AIs capable enough to radically improve safety progress, risk evaluation and capability restraint if their capabilities can be elicited, while disempowering humanity is not an option for them given countermeasures), which he calls a salient target for capability restraint, and his steps (get to the sweet spot, stay there, elicit, do a lot of AI for AI safety). Section 4.2 lists ways to fail to benefit: no sweet spot, a sweet spot too narrow given the pace of progress, or failure to elicit capabilities. Section 5.1 gives three core objections: evaluation failures, differential sabotage, dangerous rogue options. This names the window route's own weakest premises and ties them to political will (capability restraint, investment). Do not say who is right or whether control is worth investing in."
+reading_minutes: 11
+tutor_minutes: 14
+tags:
+  - reading
+---
+#### Text
+content::
+Greenblatt and Shlegeris end their post with an appendix on whether people worried about AI takeover should invest in control at all. It names the claims their case rests on.
+
+#### Article
+source:: [[../articles/greenblatt+buck-the-case-for-ensuring-that-powerful-ais-are-controlled]]
+from:: "# Appendix: Should AI-takeover-concerned people invest in control?"
+to:: "this should be a high fraction of the portfolio for preventing takeover."
+
+#### Question: Open
+id:: a4b57f5d-b219-4e15-8dc5-a665513f4e65
+content::
+Two people decide not to work on control. One says AI developers will try so hard on alignment that their AIs almost certainly won't scheme. The other says that even the first AIs worth controlling will find a way past any monitor a lab could build. Which of the appendix's two key claims does each of them reject? Then say which objection you find more convincing, and what you could observe that would change your mind about it.
+placeholder:: A few sentences.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Context for grading: Greenblatt and Shlegeris rest the case for working on control on two key claims. First, we do not know how to ensure that AIs are not scheming, which fails if non-scheming is trivial to ensure, or quite likely doable because developers will put in substantial effort and succeed. Second, investing in control will substantially improve evaluation quality or produce techniques that substantially reduce risk from scheming AIs, which fails if control is too easy, so simple measures suffice, or infeasibly hard, so effort cannot help, at all important capability levels. 25: the first person rejects the first claim, because they think developers can make sure their AIs do not scheme. 25: the second person rejects the second claim, because they think control is too hard for research to help. 25: a reason the chosen objection is more convincing that actually bears on it. Either may be chosen. 25: something that could actually be observed and that bears on the chosen objection, for example evidence on whether current models scheme in realistic settings despite alignment efforts, or control evaluations showing whether monitors keep catching strong red-team attacks as models get more capable. "More research" or "time will tell" earns 0 of these 25. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The first rejects the claim that we don't know how to make sure AIs aren't scheming. The second rejects the claim that putting effort into control will substantially improve evaluations or techniques, because they think control is hopeless. I find the second more convincing, because a model capable enough to be worth controlling might find attacks no red team thinks of. If control evaluations kept catching strong red-team attacks as models got more capable, I would change my mind."
+feedback-instructions:: The learner applies the appendix "Should AI-takeover-concerned people invest in control?" to two objections. The first person rejects the first key claim (we don't know how to ensure AIs aren't scheming), in the way the authors name: non-scheming is quite likely doable to ensure. The second rejects the second key claim (investment in control will substantially improve evaluations or techniques), in its named way: control is infeasibly hard. In at most five sentences: say whether both mappings are right and correct a wrong one in one sentence, say whether the reason and the observation fit the chosen objection, and name the most useful fix. Do not say which objection is stronger. If the learner says they do not understand, ask them what would make working on control pointless. No generic praise. At most two turns.
+
+#### Text
+content::
+\## Does the window route lead anywhere?
+
+When the post came out, Emmett Shear objected on Twitter that control is "a bad way to solve the problem" because against an ever more capable enemy you lose eventually. Below are two comments from under the post. In the first, Richard Ngo answers Shear: he gives two reasons to like control anyway. In the second, aysja answers Ngo and questions what his approach assumes.
+
+A term in her comment:
+
+- **Sharp left turn:** Nate Soares's idea of [a sudden jump in capabilities that earlier alignment work does not carry over to](https://www.lesswrong.com/posts/GNhMPAWcfBCASy8e6).
+
+#### Article
+source:: [[../articles/ngo-comment-on-the-case-for-ensuring-that-powerful-ais-are-controlled]]
+
+#### Article
+source:: [[../articles/aysja-comment-on-the-case-for-ensuring-that-powerful-ais-are-controlled]]
+
+#### Question: Open
+id:: 443c06ce-6669-4300-af17-3f6f8c42e161
+content::
+Shear says that if the process continues, you lose eventually.
+
+1. Does Ngo's reply answer that, or change the question?
+2. What does aysja think Ngo's approach assumes?
+3. What would you need to know to decide between Ngo and aysja?
+placeholder:: A few sentences.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Grade the reasoning, never which side the learner takes. Context for grading: Emmett Shear objected that control is a bad way to solve the problem, because against an ever more powerful and sophisticated enemy, "If the process continues you just lose eventually". Richard Ngo replies with two reasons to like control: it is complementary with alignment, and it is iterative and incremental, ramping up from setups that would control human-level AIs to setups that would control slightly superhuman ones. He does not claim control wins forever. He proposes a "g(doom)" framing: each person should try to raise the level of general intelligence at which bad things happen, and control significantly raises it, buying more time for automated alignment, governance efforts and so on. aysja replies that this incremental approach assumes there likely won't be sharp left turns (sudden jumps in capability that earlier work does not carry over to) and that the work done on smaller systems will apply to the next ones. She says we do not know this will hold, and that if AI systems undergo sudden and extreme shifts in intelligence, the iterative approach is very risky. She also suspects that in a confused field, progress comes more from one or a few people developing a robust theory than from thousands contributing increments. 35: Ngo's reply, with a verdict that rests on what he says: he does not claim control holds forever but changes the goal to raising the level of intelligence at which things go wrong and buying time for other efforts. Calling this changing the question, or answering Shear by denying that control has to win forever, both earn full marks if they rest on that. 15 of these 35 for a verdict that does not say what Ngo's goal is. 35: aysja's assumptions: no sudden jumps in capability (no sharp left turns), and work on smaller systems carrying over to the next ones. 20 of these 35 for only one of the two. 30: something you would need to know that bears on the disagreement, for example whether capabilities rise smoothly or jump, whether control methods that work on today's models keep working on the next ones, or whether the time bought would actually be used for alignment or governance. "Time will tell" or "more research" earns 0 of these 30. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Ngo mostly changes the question. He accepts that control will not win forever, but says the goal is to raise the level of intelligence at which things go wrong, which buys time for automated alignment and governance. aysja thinks this assumes there will be no sudden jump in capabilities and that what works on smaller systems carries over to the next ones. To decide, I would need to know whether AI capabilities will rise smoothly or jump, and whether control methods that work on one generation of models keep working on the next."
+feedback-instructions:: The learner just read Richard Ngo's comment (quoting Emmett Shear's objection that against an ever more powerful enemy "you just lose eventually") and aysja's reply. Ngo does not claim control wins forever. He changes the goal: control is complementary with alignment and incremental, and each contribution raises the level of general intelligence at which things go wrong ("g(doom)"), buying time for automated alignment, governance and other efforts. aysja replies that the incremental approach assumes no sharp left turns and that work on smaller systems carries over to the next ones, and that if capabilities jump suddenly the iterative approach is very risky. She also thinks progress in a confused field often comes from one or a few people developing a robust theory rather than thousands contributing increments. What would decide it: whether capabilities rise smoothly or jump, and whether the time bought is actually used well, which links back to political will. In at most five sentences, check the learner's reading of each side, correct any misreading in one sentence, and say whether their "what would decide it" is something that could be observed. Do not say who is right. No generic praise. At most two turns.
+
+#### Text
+content::
+\## Where the window route could fail
+
+Joe Carlsmith, then a senior advisor at Open Philanthropy and not part of Redwood, wrote ["AI for AI safety"](https://www.alignmentforum.org/posts/F3j4xqpxjxgQD3xXh/ai-for-ai-safety) in March 2025. You read three short parts: what he calls the sweet spot, the ways we could fail to benefit from it, and his three core objections to using AI for safety work.
+
+Two terms in the excerpts:
+
+- **Sweet spot:** close to Greenblatt and Shlegeris's window. AIs useful enough to help with safety, but not able to take over given our countermeasures.
+- **Security factors:** three abilities from his earlier essay: making new AI capabilities safe, measuring the risk, and restraining AI development when needed.
+
+#### Article
+source:: [[../articles/carlsmith-ai-for-ai-safety]]
+from:: "# 4\. The AI for AI safety sweet spot"
+to:: "and that AI labor can help with this."
+
+#### Article
+from:: "## 4.2 Can we benefit from a sweet spot?"
+to:: "Let’s look at those more directly now."
+
+#### Article
+from:: "## 5.1 Three core objections to AI for AI safety"
+to:: "these have importantly different properties (more in my next essay)."
+
+#### Question: Open
+id:: 5172e65a-c122-472a-956c-febae0602cdf
+content::
+Carlsmith names three ways we might fail to benefit from a sweet spot.
+
+1. Which one would most weaken Greenblatt and Shlegeris's hope for a window, and why?
+2. What would an AI company or a government have to do to make that failure less likely?
+placeholder:: A few sentences.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Grade the reasoning, never which failure the learner picks. Context for grading: Joe Carlsmith's "sweet spot" is a period when frontier AIs are capable enough to radically improve safety progress, risk evaluation and capability restraint, if their capabilities can be elicited, while disempowering humanity is not an option for them given our countermeasures. It is close to Greenblatt and Shlegeris's window route: use AIs that are useful but still controllable to speed up safety work, before AIs become too capable to control. In his section 4.2 Carlsmith names three ways to fail to benefit from it: (1) no sweet spot, because by the time AIs are capable enough to radically help, they can already disempower humanity despite our countermeasures, (2) a sweet spot too narrow given how fast the capability frontier advances, depending on its size, the default speed of progress and our ability to slow down if we try, and (3) a sweet spot large enough to spend time in, but we cannot usefully elicit the AIs' capabilities. His steps include getting to the sweet spot, staying in it (which needs capability restraint), and adequate investment by relevant actors in using AI labour for safety. 20: names one of the three failures correctly. 40: why it would weaken the window route, tied to what the route needs, for example: with no sweet spot there is never an AI that is both useful enough and still controllable, with a narrow one there is too little time to get much safety work done, and without elicitation the controlled AIs produce little useful safety work. 20 of these 40 for a reason that does not connect the failure to the window route. 40: an action by an AI company or a government that would make that failure less likely and fits it, for example: for a narrow sweet spot, slowing down or restraining capabilities, such as a company choosing to pause or a government requiring it, for no sweet spot, stronger countermeasures such as better control, which let more capable AIs be used safely, for elicitation, investing in safety work and in methods to get useful work out of the AIs during the window. 20 of these 40 for an action that does not fit the chosen failure or is too vague to act on, such as "do more safety". Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "A sweet spot that is too narrow would weaken the window route most, because the route needs time to get a lot of safety work out of controlled AIs before they become too capable, and a fast-moving frontier would blow through it. To make it less likely, a company would have to be willing to slow down at that point, or a government would have to restrain capabilities, for example by requiring a pause until the safety work catches up."
+feedback-instructions:: The learner just read three excerpts of Joe Carlsmith's "AI for AI safety" (March 2025): the sweet spot (frontier AIs capable enough to radically improve safety progress, risk evaluation and capability restraint if their capabilities can be elicited, while disempowering humanity is not an option for them given our countermeasures), section 4.2 and section 5.1. The three ways to fail in 4.2: (1) no sweet spot, because AIs capable enough to help are already able to disempower us despite countermeasures, (2) a sweet spot too narrow given how fast the frontier advances, depending on its size, the default speed of progress and our ability to slow down, and (3) a sweet spot we cannot use because we cannot elicit the AIs' useful capabilities. Section 5.1 adds evaluation failures, differential sabotage of safety work by power-seeking AIs, and dangerous rogue options. Any choice is fine if the reason connects it to the window route. Useful links to will: a narrow window can be widened only by capability restraint (Carlsmith's step 2, which needs companies or governments willing to slow down), better countermeasures can widen the sweet spot (his own note), and elicitation needs investment in safety work during the window (his step 4, "adequate investment by relevant actors"). In at most five sentences: say whether the learner names one of the three correctly, whether the reason ties it to the window route, and whether the action they name would actually make that failure less likely and who would have to want it. Do not say whether the window route will work. If the learner says they do not understand, ask what would happen if AIs became able to take over in the same month they became useful for alignment research. No generic praise. At most two turns.

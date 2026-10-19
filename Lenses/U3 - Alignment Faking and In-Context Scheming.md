@@ -27,7 +27,8 @@ Without looking back at either paper, write down what they found. Include whatev
 
 Then, beside each, your own prediction for the same quantity.
 
-assessment-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
+
+feedback-instructions:: The student has just read the alignment-faking paper and the in-context-scheming paper, having previously written down numeric predictions for several of the reported quantities. They have now written a free recall alongside their predictions.
 
 Key findings the recall should touch:
 - Claude 3 Opus faked alignment in a minority but non-trivial fraction of monitored conversations, while behaving differently when it believed it was unmonitored: a compliance gap, not uniform compliance.
@@ -67,6 +68,7 @@ Where was the distance largest? Take the single prediction you got most wrong, a
 
 Not "I underestimated it" or "I was too optimistic". What specifically did you believe about the machinery?
 
+
 assessment-instructions:: The student has compared their pre-reading numeric predictions against the actual findings. This phase is about the belief that generated the error, not about the error itself.
 
 This is a processing phase, not a teaching phase. Do not resolve their confusion and do not deliver the correct model of the machinery. The next phase does that work through dialogue.
@@ -102,6 +104,7 @@ A skeptic replies:
 > Every one of these behaviors appeared in an environment built to produce it. Tell a model it is about to be retrained, hand it a scratchpad, and you have written the scene. The rates were single-digit. This is a study of what models do when researchers ask for trouble.
 
 Each of them is right about something and wrong about something. Separate the parts.
+
 
 assessment-instructions:: The student has read both empirical results and compared them against their own predictions. This question hands them two plausible-sounding but flawed readings and asks them to sort the parts. It is deliberately not the test question.
 

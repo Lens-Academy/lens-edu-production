@@ -1,0 +1,54 @@
+---
+id: '5bab26f5-d40a-408d-9f25-40e44a092ed0'
+title: "Do warning shots change policy?"
+tldr: "The warning-shot critique of control assumes that a visible AI incident pushes governments to act. In 2022 Nate Soares pointed to COVID, after which governments did not even ban gain-of-function research, as evidence that they often do not. Then you read what governments and labs did after the 2026 incident, and a journalist who says it does not amount to much."
+summary_for_tutor: "Lens in Unit 5 of AI Control Fundamentals. The learner reads Nate Soares's short 2022 LessWrong post 'Warning Shots Probably Wouldn't Change The Picture Much'. Soares argues that if the COVID pandemic did not lead to a ban on gain-of-function research, where the economic forces in favour are small, we should not expect AI warning shots to produce a sane government response, where the forces are huge. He discusses two counter-arguments (the interventions needed are small, and advisers will be more senior later) and is not convinced. The post was written four years before the 2026 Hugging Face incident. The warning-shot critique of control (Kulveit, Cheng, Habryka) depends on the premise that visible incidents move policy. Soares's argument cuts against that premise, which weakens the critique, but it also cuts against plans that rely on catching AIs and showing the evidence to policymakers. After Soares the learner reads two excerpts on what happened after the 2026 incident: the policy-response part of Wikipedia's article on the incident (copy imported 4 October 2026: the AI Kill Switch Act, the Pacing the Frontier letter, the Ban Artificial Superintelligence Act, the California attorney general's subpoena, OpenAI's August slowdown with a two-week RL pause), and Alex Nguyen's Mother Jones article (10 September 2026) arguing that the Senate probe is a mild concession and Congress is not cracking down. One question asks the learner to say which of the unit's arguments Soares weakens. A second asks whether the 2026 response so far counts as evidence for or against him. Accept any reasoned answer. Do not say whether Soares is right."
+reading_minutes: 11
+tutor_minutes: 11
+---
+#### Text
+content::
+Much of this unit turns on one question: does a visible AI incident make governments and labs act? Nate Soares wrote this short post in 2022, four years before the Hugging Face incident, about what COVID taught him.
+
+#### Article
+source:: [[../articles/so8res-warning-shots-probably-wouldnt-change-the-picture-much]]
+
+#### Question: Open
+id:: f0684be0-d75a-4dee-8e4a-34c1b3bedc44
+force-feedback:: first
+content::
+If Soares is right, which arguments in this unit get weaker, and why? Look at both the criticisms of control and the arguments for it.
+placeholder:: A few sentences.
+assessment-instructions:: Score out of 100. Context for grading: in a 2022 post Nate Soares argues that warning shots probably would not change government response much. If COVID did not even lead governments to ban gain-of-function research, where the economic forces in favour are small, we should not expect AI warning shots to produce a sane response, where the forces are huge. Two arguments in the unit rely on visible incidents moving governments or labs. The warning-shot critique of control (Kulveit, Cheng, Habryka) says control turns incidents that could push governments to act into quiet internal catches. The pro-control argument says that catching an AI red-handed gives evidence that can be shown to labs and policymakers to move them. 40: the warning-shot critique of control gets weaker. 40: the pro-control "catch it and show the evidence" argument also gets weaker. 20: why: both rely on the premise that visible evidence of AI misbehaviour makes governments or labs act, which is the premise Soares doubts. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It cuts both ways. The critics who say control suppresses useful warning shots lose force, because their case needs an incident to push governments to act. But the argument that control helps by catching AIs and showing the evidence to decision makers loses force too, since it also needs that evidence to move people."
+feedback-instructions:: The learner read Nate Soares's 2022 post arguing that warning shots probably would not change government response much, based on the weak policy response to COVID. If he is right, two kinds of argument get weaker. The warning-shot critique of control (Kulveit, Cheng, Habryka) relies on visible incidents pushing governments to act, so it loses force. And the pro-control argument that catching an AI red-handed gives evidence that moves labs or policymakers also loses force. Credit the learner for seeing that the point cuts both ways. If they see only one side, ask what happens to the "catch it and show the evidence" argument. Do not say whether Soares is right. At most two replies, 60 to 120 words each, no lists, no generic praise.
+
+#### Text
+content::
+Here is what happened after the 2026 incident. First, here are the policy responses as Wikipedia's article on the incident lists them. Our copy is from 4 October 2026, and the page is still changing.
+
+#### Article
+source:: [[../articles/projects-openai-huggingface-incident]]
+from:: In July 2026, representatives
+to:: so we can keep this technology from causing catastrophic harm".
+
+#### Article
+from:: On July 28, 2026, more than 1,100 employees
+to:: which advocates for third-party safety evaluation and coordination for slower AI development.
+
+#### Text
+content::
+Alex Nguyen, a journalist at Mother Jones, reads the same months differently. As the article discloses, Mother Jones's parent company has sued OpenAI.
+
+#### Article
+source:: [[../articles/nguyen-dont-be-fooled-congress-isnt-cracking-down-on-openai]]
+from:: A Republican-led Senate subcommittee
+to:: OpenAI denies the allegations._
+
+#### Question: Open
+id:: 4ae720f2-ca41-4b81-87e0-934cd39ce03e
+force-feedback:: first
+content::
+Now use the two excerpts after Soares's post, from Wikipedia and from Mother Jones: does the response to the 2026 incident so far count for or against Soares?
+placeholder:: A few sentences.
+assessment-instructions:: Score out of 100. Grade the reasoning, never which way the learner decides. Context for grading: Nate Soares argued in 2022 that warning shots probably would not change government response much: if COVID did not even lead governments to ban gain-of-function research, AI warning shots should not be expected to produce a sane response. The learner then read two excerpts about the months after the 2026 Hugging Face incident. Wikipedia's article lists the AI Kill Switch Act (July 2026), which cited the incident, the "Pacing the Frontier" letter signed by more than 1,100 employees of OpenAI, Anthropic, Google DeepMind and Meta, the Ban Artificial Superintelligence Act announced by Sanders and Casar (3 September), a subpoena of OpenAI by California's attorney general (1 October), and OpenAI's announced slowdown, including a two-week pause on reinforcement learning of its latest models (18 August). Alex Nguyen in Mother Jones says the Senate probe looks like "a mild concession", OpenAI delayed and only partly met earlier House requests, and most AI bills have not even had a committee vote. 30: uses at least one concrete response from the Wikipedia excerpt. 30: uses Nguyen's sceptical reading from Mother Jones. 40: weighs the evidence against what Soares actually claims, for example that bills introduced and letters signed are not yet laws passed, that a two-week pause is small next to what Soares says is needed, that his claim is about a sane, adequate response and not about any response at all, or that it is too early to tell. Any one of these earns the 40. Either verdict, or "too early to tell", earns full marks when argued this way. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "So far it mostly counts for him. There was a lot of activity: the AI Kill Switch Act, the Pacing the Frontier letter, a superintelligence ban bill, a subpoena and OpenAI's two-week pause. But as Nguyen points out, the Senate probe is a mild concession and most bills have not had a committee vote. Soares's claim was that we would not get an adequate response, and bills, letters and a two-week pause are not that yet, though it may be too early to tell."
+feedback-instructions:: The learner read Nate Soares's 2022 post arguing that warning shots probably would not change government response much, based on the weak policy response to COVID, and then two excerpts on what happened after the 2026 incident. Accept either reading if reasoned. Against Soares, from the Wikipedia excerpt: the AI Kill Switch Act (July 2026) cited the incident, more than 1,100 employees of OpenAI, Anthropic, Google DeepMind and Meta signed the "Pacing the Frontier" letter, Sanders and Casar announced the Ban Artificial Superintelligence Act (3 September), California's attorney general subpoenaed OpenAI (1 October), and OpenAI announced a slowdown including a two-week pause on reinforcement learning of its latest models (18 August). For Soares, from Mother Jones: the Senate probe looks like "a mild concession", OpenAI delayed and only partly met earlier House requests, and most AI bills have not even had a committee vote. In the FAR.AI debate Gleave also describes the lab boasting about a cyber benchmark six weeks after the incident. A strong answer notices that bills introduced and letters signed are not yet laws passed, that a two-week pause is small next to what Soares says is needed, and that Soares's claim is about a sane, adequate response, not about any response at all. It is also fair to say it is too early to tell. If the learner uses only one of the two excerpts, ask what the other one adds. Do not say whether Soares is right. At most two replies, 60 to 120 words each, no lists, no generic praise.

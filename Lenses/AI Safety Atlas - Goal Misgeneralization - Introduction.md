@@ -8,6 +8,7 @@ tutor_minutes: 5
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Goal Misgeneralization - Introduction]]
 
 #### Question: Open

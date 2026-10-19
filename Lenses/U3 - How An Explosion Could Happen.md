@@ -40,7 +40,7 @@ Unit 2 gave you the tools for this: decompose until the parts have evidence behi
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human. The reading itself is the author's own work.*
 
-#### Question
+#### Question: Open
 id:: 453ab574-46aa-4aaa-ba04-4221be5769ff
 content::
 \## Your turn first
@@ -104,7 +104,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/forethought-three-types-of-intelligence-explosion]]

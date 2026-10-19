@@ -1,5 +1,7 @@
 ---
 id: '0d01e37e-38e6-4371-961b-7a69c7135650'
+reading_minutes: 15
+tutor_minutes: 10
 title: "Reference Classes And Their Denominators"
 tldr: '"Take the outside view" sounds like one instruction. Kokotajlo counted the meanings and found two lists of about seven moves each. Some of those moves are excellent. Others let you avoid thinking while you still sound rigorous. The fix is to name the move you made.'
 summary_for_tutor: "Teaches reference-class selection through Kokotajlo's Taboo 'Outside View'. Two things to get across: the phrase is overloaded, and the choice of reference class is a substantive claim requiring defence rather than a neutral first step. The load-bearing skill is asking what the denominator is, i.e. which cases were eligible for the class and which were quietly excluded. Optional lens; the module lists it as optional but recommended before the test."
@@ -30,7 +32,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back. No need to organize it.
 
-assessment-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
+feedback-instructions:: The student has just read Kokotajlo's Taboo "Outside View" and written a free recall.
 
 Key content:
 - The phrase "outside view" has expanded far beyond its original meaning of reference-class forecasting. Kokotajlo compiles TWO lists, each of about seven items, and the pairing is the point: "Big List O' Things People Describe As Outside View" (trend extrapolation, foxy aggregation, bias correction, deference to the wisdom of the many, the anti-weirdness heuristic, priors, Ajeya's timelines model) against a matching list for INSIDE view (having a gears-level model, having any model at all, deference to the wisdom of the few, intuition-based-on-detailed-imagining, trend extrapolation combined with an argument, drawing on subject-matter expertise, and Ajeya's timelines model again). Both lists end with "and probably many more I don't remember", and Ajeya's model appears on BOTH, which is the sharpest single illustration that the labels have stopped carrying information.

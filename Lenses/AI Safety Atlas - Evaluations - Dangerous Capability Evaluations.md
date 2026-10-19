@@ -8,6 +8,7 @@ tutor_minutes: 6
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Evaluations - Dangerous Capability Evaluations|Dangerous Capability Evaluations]]
 
 #### Text

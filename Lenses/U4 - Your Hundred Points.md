@@ -30,7 +30,7 @@ The course does not take a side on this, and you do not need to settle it. What 
 
 *The framing and questions on this page were written by Claude, an AI, and reviewed by a human.*
 
-#### Question
+#### Question: Open
 id:: 5037a624-ba92-47cb-b09b-2ba3618fb935
 content::
 \## Your hundred points
@@ -77,16 +77,14 @@ Do not grade. Do not score. Do not praise. There is no correct allocation at thi
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 10
 
-#### Question
+#### Question: Open
 id:: 9f903c63-bb03-4ca8-ba0c-d74e08dd7093
 content::
 \## Revision 3
 
 The allocation above is a bet. This question is about the model behind the bet. Without scrolling back, restate your ten-year model from memory, and then change it. What did this unit move? Name one strategy lever from this unit that changed a number or a mechanism in your model, and one thing you now hold more loosely. If nothing moved, say that, and say what would move you.
 
-max-time:: 8:00
 
 feedback-instructions:: The student wrote a day-zero model of the next ten years of AI in Unit 1 and has restated it from memory at the end of each unit since. They have now finished Unit 4, which walked through rival strategies for reducing AI risk (technical alignment, treaties, inside-lab practice, national projects, anti-concentration guardrails, buying time) and ended with them allocating 100 points across those levers.
 

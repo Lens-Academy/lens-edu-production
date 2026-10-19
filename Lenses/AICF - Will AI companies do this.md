@@ -1,0 +1,42 @@
+---
+id: '0de3b22a-3102-4ced-a98a-3ca7c3323680'
+title: "Will AI companies do this?"
+tldr: "Every route needs someone to actually run the control measures. Buck Shlegeris sorts them by how much buy-in they need from the company, and says he has lowered his hopes for what companies will do."
+summary_for_tutor: "Unit 3 of AI Control Fundamentals (why people work on control), after 'Ten people on the inside'. The learner watches two parts of the 80,000 Hours podcast video #214 (Rob Wiblin with Buck Shlegeris, April 2025). (1) 'Will AI companies do any of this stuff?': Shlegeris is optimistic that companies implement mediocre or pretty good versions. Level 1 investment is a control team allowed to audit logs the agent teams forward, plus some basic 'replacing' of suspicious actions (even replacing 2% gives substantial safety compared to nothing), which needs little from the rest of the company. Level 2 lets the control team change how the agent scaffold is written (for example paraphrasing what the AI sees so it is harder for it to collude with itself), which needs substantially more investment and buy-in. Beyond that he no longer thinks much: when he and Greenblatt started, they hoped control could support safety cases with low risk from scheming models, but 'nowadays that just seems pretty implausible, so I’ve stopped thinking about the really high-assurance stuff.' (2) From 'The pitch to AI companies': he now thinks there is a list of about 40 things, none very hard, that would probably handle much of the problem for AIs that could obsolete AI researchers, but he has 'updated drastically downward on how many things AI companies have the time/appetite to do.' The point: how the routes depend on company buy-in, and a contrast with the next lens, a safety case sketch Shlegeris co-wrote in January 2025. Do not say whether companies will adopt control."
+reading_minutes: 6
+tutor_minutes: 11
+tags:
+  - reading
+---
+#### Text
+content::
+Every route in this unit assumes someone runs the control measures. In the same 80,000 Hours interview as before, Rob Wiblin asks Shlegeris whether AI companies will actually do any of this.
+
+Two terms from the interview:
+
+- **Auditing:** the control team investigates logged agent actions for signs of an attack.
+- **Replacing:** swapping the most suspicious actions for safer ones before they run.
+
+#### Video
+source:: [[../video_transcripts/80-000-hours-controlling-ai-that-wants-to-take-over-so-we-can-use-it-anyway-buck-shlegeris]]
+from:: 61:14.6
+to:: 77:43.6
+skip:: 64:45.7-77:04.4
+
+#### Question: Open
+id:: 5329100b-6c43-4b3a-9d84-0dc0dac6ce6e
+content::
+What does Shlegeris's level 1 need from the company, and what does level 2 need on top?
+placeholder:: A few sentences.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Context for grading: on a 2025 podcast Buck Shlegeris describes level 1 control investment as one control team that audits logs of agent actions, which the teams building the AI agents must agree to forward, plus ideally some basic replacing of suspicious actions, which costs a little performance. Level 2 additionally lets the control team change how the agent scaffold is written (for example paraphrasing what the AI sees so it cannot easily coordinate with itself across actions), which needs substantially more investment and buy-in from the company. 50: level 1 needs little from the company: the agent teams forward their logs (and ideally accept some replacing of suspicious actions at a small performance cost). 50: level 2 needs the company to let the control team change how the agents are built, with more investment and buy-in. If the learner swaps the labels level 1 and level 2 in one place but uses them correctly elsewhere, treat it as a slip and take off at most 5. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Level 1 only needs the agent teams to forward logs to a control team, and ideally accept some replacing of suspicious actions at a small performance cost. Level 2 needs the company to let the control team change how the agent scaffolds are built, which needs much more buy-in."
+feedback-instructions:: The learner just watched two parts of Buck Shlegeris on the 80,000 Hours podcast. Level 1: one control team audits logs that the agent teams must agree to forward, plus, ideally, some basic replacing of suspicious actions, which costs a little performance. It needs little buy-in: the agent teams send logs and accept a small performance hit. Level 2: the control team may change how the agent scaffold is written (for example paraphrasing what the AI sees so it is harder for it to collude with itself across actions), which needs substantially more investment and buy-in from the company. In at most four sentences, say what the learner got right and correct errors in one sentence. If they swap level 1 and level 2 in one place but use the labels correctly elsewhere, call it a slip in a few words. No generic praise. At most two turns.
+
+#### Question: Open
+id:: e47895d5-32b1-4416-bfed-185448e67448
+content::
+Which of the routes so far could level 1 alone support, and which would it leave weak? Say why.
+placeholder:: A few sentences.
+force-feedback:: first
+assessment-instructions:: Score out of 100. Context for grading: on a 2025 podcast Buck Shlegeris describes level 1 control investment as one control team that audits logs of agent actions, which the teams building the AI agents must agree to forward, plus ideally some basic replacing of suspicious actions. Level 2 additionally lets the control team change how the agent scaffold is written, which needs much more buy-in. The course unit has named three routes by which control lowers risk: stopping attacks while a model works, catching an AI red-handed and acting on the evidence, and the window (getting useful safety work out of AIs while they can still be controlled). 100: a reasoned split of the routes. For example, level 1 supports catching through auditing and a little stopping through replacing, while stopping subtle attacks that span many actions, or trusting AIs with a lot of safety work in the window, may need level 2. Any split with a sound reason for each route the learner names earns full marks, whichever routes they pick. A split with no reasons earns at most 35. Give credit whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Level 1 supports catching an AI red-handed, since the logs get audited, and a little stopping through replacing. Stopping subtle attacks that span many actions, and trusting AIs with a lot of safety work in the window, would likely need level 2. Catching also only helps if someone acts on what is caught."
+feedback-instructions:: The learner just watched Buck Shlegeris describe level 1 (a control team audits forwarded logs, plus some replacing of suspicious actions) and level 2 (the control team may also change how the agent scaffold is written). The routes so far are stopping attacks, catching an AI red-handed and acting on it, and the window. Level 1 supports catching (auditing) and some stopping (replacing). Stopping subtle multi-step attacks, or trusting AIs with a lot of safety work in the window, may need level 2. Any split with a sound reason is fine. In at most four sentences, say what the learner got right, add the most important missing piece, and correct errors in one sentence. Credit every route the learner covers, and do not ask for routes they left out. No generic praise. At most two turns.

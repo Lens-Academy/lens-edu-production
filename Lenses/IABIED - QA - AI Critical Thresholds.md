@@ -7,6 +7,8 @@ title: "Will AI cross critical thresholds and take off?"
 tldr: "Probably."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Parameter]]"
 ---
 
 #### Text

@@ -8,6 +8,7 @@ title: "Dangerous Capabilities"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Risks - Dangerous Capabilities|Dangerous Capabilities]]
 
 #### Text

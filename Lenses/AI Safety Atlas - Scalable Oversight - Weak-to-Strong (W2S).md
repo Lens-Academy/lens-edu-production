@@ -8,6 +8,7 @@ tutor_minutes: 6
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Scalable Oversight - Weak-to-Strong (W2S)|Weak-to-Strong (W2S)]]
 
 #### Text

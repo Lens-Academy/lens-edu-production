@@ -1,5 +1,7 @@
 ---
 id: 'b056a45b-7583-41f0-96a3-8ae48ca766fe'
+reading_minutes: 25
+tutor_minutes: 20
 title: "A Method That Visibly Fails"
 tldr: Ask researchers what fraction of the problem they have solved, extrapolate the rate, and you get 372 years. Nobody believes it, including the people who gave the estimates. A method whose failure you can see is worth more than a method whose failure stays hidden.
 summary_for_tutor: "Teaches functional-form assumptions through a worked method that produces an absurd number. Xu and Shulman on fractional progress estimates; the 372-year figure is the teaching object. The point is not that the method is bad, it is that the residual is adversely selected, so linear extrapolation of a self-selecting remainder is wrong in a predictable direction. Feeds directly into the nonlinear-interactions workshop lens that follows."
@@ -42,7 +44,7 @@ content::
 
 Spend 2 minutes writing down everything you can remember from the reading, without looking back at the text. Anything and everything. No need to organize it.
 
-assessment-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
+feedback-instructions:: The student has just read Xu and Shulman on fractional progress estimates and written a free recall.
 
 Key content:
 - The method: survey researchers on what fraction of the path to human-level AI their subfield has covered in a period, then extrapolate the rate linearly.
@@ -78,7 +80,7 @@ content::
 
 Take 2 minutes to write down your reaction to the reading. What felt important to you? What confused you? What did you doubt or disagree with?
 
-assessment-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
+feedback-instructions:: The student has recalled the Xu and Shulman reading and is now reflecting.
 
 This is a processing phase, not a teaching phase.
 

@@ -8,6 +8,7 @@ title: "Challenges"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Challenges|Challenges]]
 
 #### Text

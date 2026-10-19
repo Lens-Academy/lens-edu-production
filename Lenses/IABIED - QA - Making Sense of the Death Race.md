@@ -7,6 +7,8 @@ summary_for_tutor: "Examines why AI researchers and executives continue racing t
 title: "Making Sense of the Death Race"
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/p(doom)]]"
 ---
 
 #### Text

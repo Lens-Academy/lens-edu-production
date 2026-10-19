@@ -7,6 +7,8 @@ title: "But aren't there big obstacles to reaching superintelligence?"
 tldr: "It isn't clear."
 tags:
   - supplementary
+glossary_terms:
+  - "[[../glossary/Neural network]]"
 ---
 
 #### Text

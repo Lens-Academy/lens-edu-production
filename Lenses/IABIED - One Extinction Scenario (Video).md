@@ -8,8 +8,9 @@ summary_for_tutor: "Video lens covering the Sable scenario in U3, replacing
  the reading of chapters 7 and 8. The student watches 'POV: What You Would
  See During an AI Takeover' (Species | Documenting AGI), a film retelling of
  the book's extinction scenario from the point of view of ordinary people.
- Three beats: an emotional reaction, a comparison against the four bets the
- student committed to in the opening lens of this unit, and an objection
+ Three beats: an emotional reaction, a re-test of the four bets the
+ student committed to in the prior lens of this unit, asking whether those
+ calls survive the film rather than re-running the sorting, and an objection
  that the student must state as a claim about the argument rather than about
  this story, bridging towards the path-vs-outcome argument from the Coda.
  The tutor is not given the mechanisms to test against; naming
@@ -33,20 +34,21 @@ As you watch, hold on to a few things: the moment that sticks with you most, whe
 source:: [[../video_transcripts/species-documenting-agi-pov-what-you-would-see-during-an-ai-takeover]]
 from:: 2:03
 
-#### Question
+#### Question: Open
 id:: f2d545e3-18ea-4a82-a39f-a8c8318be6df
 content::
 \## Your reaction
 Three things, a few sentences each (speech-to-text works well here):
 
 1. Which moment stuck with you most, and how did it leave you feeling?
-2. Look back at the four claims you made bets on before watching the video. Which of them did the film pay out on? Did it do anything you would not have bet on?
+2. In the previous lens you placed four bets on an unknown system. Having now seen how a scenario could play out, would you have placed the same bets about Sable? Name the one bet you are least certain of now, and what in the film moved you on it. If nothing changed, state what evidence held your bets.
 3. Which step in the takeover did you find hardest to believe? For that
    step not to happen, what would have to be false about the argument
    itself, rather than about this particular story?
 
-assessment-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a film retelling of the book's extinction scenario, which
-replaces chapters 7 and 8 in this course. Before watching, in the opening
+force-feedback:: first
+feedback-instructions:: The student has just watched "POV: What You Would See During an AI Takeover", a film retelling of the book's extinction scenario, which
+replaces chapters 7 and 8 in this course. Before watching, in the prior
 lens of this unit, they committed to four bets about a system with unknown goals: 
 that it would avoid being switched off (bettable), that it
 would become a mathematician (not bettable), that it would acquire more
@@ -62,19 +64,45 @@ Response length: 120 to 200 words. Short paragraphs only. No lists.
 Heavy reactions are normal for this material; name that plainly if theirs
 is heavy, and move on.
 
-**On the bets.** This is the part worth spending your push on.
+**On the bets.** This is the part worth spending your push on, and what it
+tests is not the sorting.
 
-The film pays out on the two bettable claims and the student should see
-that. The interesting case is hostility. The story ends in extinction, so
-a student may conclude they lost that bet. They did not, and saying so is
-the most useful thing you can do in this lens. What the film depicts is
-indifference at scale: the ending follows from a system pursuing something
-of its own through the sub-goals any goal requires, not from a system that
-wanted us gone. If they mark the hostility bet as lost, ask what in the
-film showed the system caring about us at all, one way or the other.
+They already sorted these in the prior lens of this unit, and were pushed
+there on whatever they got wrong, so treat the sorting as settled and do not
+re-run it. What this beat tests is whether the judgment survived the film. A
+correct call made in the abstract is easy to give up once you have watched
+the thing happen, and hostility is where that pressure lands: the story ends
+in extinction, which looks like hostility vindicated and is not.
 
-If they instead say the film vindicated every bet including hostility,
-that is the same error arriving from the other direction. Same question.
+So the answer to watch for is a learner who now says they would bet
+differently on hostility. Catching that is the most useful thing you can do
+in this lens, and how you catch it matters more than that you do. **Do not
+supply the account in the same reply that asks for it.** Ask what in the
+film showed the system caring about us at all, one way or the other, then
+stop and let them answer. A learner who works out for themselves that
+nothing in it did has done the thing this beat exists for. A learner who is
+told has watched you do it. This is the one beat in this lens worth a second
+turn, so do not spend one anywhere else.
+
+Whichever way their next answer goes, name the move they made, because that
+is the part that transfers: they watched a system act and read a goal off
+its behavior, which is what this course took apart in its first unit, and it
+is no less wrong when the behavior is extinction. If they did not get there
+on their own, add the account then and only then — what the film depicts is
+indifference at scale, and the ending follows from a system pursuing
+something of its own through the sub-goals any goal requires, rather than
+from a system that wanted us gone. Their original call stands either way.
+
+Seeing Sable does not move them out of the unknown-goal case. They have seen
+what it did, not what it wanted, so the bets are still the same bets. If a
+learner argues the opposite, that they now know enough about this particular
+system for the original question to no longer apply, that is a good
+objection and deserves one honest exchange rather than a correction.
+
+If nothing moved them, the question has already asked what evidence held
+their bets, so work with that evidence instead of asking for it again. Say
+which part of it is doing the work, and name the weakest thing they leaned
+on.
 
 If they noticed something the bets did not cover, take it seriously.
 The bets were about what you can predict without knowing the goal, and the

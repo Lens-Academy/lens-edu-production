@@ -34,12 +34,12 @@ The previous unit already discussed the difficulty of controlling misaligned AIs
 The first reading is by Ryan Greenblatt of Redwood Research. Instead of describing a single plan, he describes multiple plans the world could have for making AI go well, and which plan is available to execute depends on how much of the world we can rally to help.
 
 
-#### Question
+#### Question: Open
 id:: 5dbfa060-9b5f-428f-a979-0ebbfda52168
 content::
 \## Your turn first
 
-Before you read Ryan's plans, before you read Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
+Before you read Ryan Greenblatt's plans for making AI go well, we will ask you to describe your own plan. Don't worry about not having a good plan yet. This is a useful exercise nonetheless.
 
 Please write 2 or 3 sentences about the plan you believe exists today to prevent AI takeover, and describe who executes the plan or who will execute the plan. Or if you believe no plan exists, describe what you think will happen instead. Describe who would act if the dangers became more visible than they currently are, and how they would act, even if they don't have an upfront plan for it.
 
@@ -65,7 +65,6 @@ Do not grade. Do not score. Do not praise. There is no correct answer at this st
 
 Write 60 to 110 words. Short paragraphs. No lists.
 
-max-time:: 5
 
 #### Article
 source:: [[../articles/greenblatt-plans-a-b-c-and-d-for-misalignment-risk]]

@@ -8,6 +8,7 @@ title: "Misuse Prevention Strategies"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Misuse Prevention Strategies|Misuse Prevention Strategies]]
 
 #### Text

@@ -4,7 +4,8 @@ title: "Introduction: Why Should You Care About AI Verification?"
 tldr: "Models have already broken out of test environments and into real companies; the people building them say worse is coming. No single country can contain that, and rivals cannot simply trust, punish, or open their books. Verification is the fourth option, and almost nobody is working on it yet."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The verification-problem exercise, the types-of-AI diagram, the leader profiles, the two Our World in Data charts (AI timeline, test scores) and the verification landscape map are interactive widgets."
 tags: [wip]
-duration_minutes: 50
+reading_minutes: 42
+tutor_minutes: 2
 ---
 #### Text
 content::
@@ -30,8 +31,8 @@ The case at full strength, from the people who argue it most directly. Any one o
 id:: b7e5023a-0fed-4fc6-be79-0c7ece9f3106
 content:: Optional: The strongest objection.
 
-In a short written note, construct the strongest objection you can to the case above, and state what would change your mind, in either direction.
-assessment-instructions:: Score three things, roughly a third each: (1) the objection attaches to a named claim from the video or the linked readings rather than to advanced AI risk in general; (2) it gives the mechanism by which that claim fails, not a competing assertion; (3) both falsifiers are stated, what would move the learner toward the case and what would move them away, rather than only one. An objection to the inference drawn from a claim earns as much as an objection to the claim itself. Do not score the learner's position, only whether the three parts are there.
+In a short written note, construct the strongest objection you can to the case above, and state what would move you towards the case and what would move you away from it.
+assessment-instructions:: Score out of 100. 35: the objection attaches to a specific claim from the video or the linked readings (for example that AI planning ability is growing exponentially, that experiments already show deception and self-preservation, or that only a robust verification regime materially reduces the risk), not to advanced AI risk in general; an objection to the inference drawn from a claim counts as much as an objection to the claim itself. 35: it gives the mechanism by which that claim or inference fails, not a competing assertion. 30: what would change the learner's mind, 15 each: what would move them towards the case and what would move them away from it. Any position earns full points when the three parts are there. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Bengio's evidence that advanced AIs show self-preservation and deception comes from a controlled experiment in which the model read that it would be replaced by a new version. The objection: that behaviour may be the model playing out a scenario its input set up, not a stable goal it carries into other contexts, so extrapolating from it to agents that copy themselves across thousands of computers and have an incentive to get rid of us assumes the very persistence of goals that the experiment does not show. What would move me towards the case: deployed agents deceiving or resisting shutdown without being prompted, across many unrelated tasks. What would move me away: these behaviours disappearing under better training while planning ability keeps growing."
 feedback-instructions:: This is an XLab writing or reflection exercise. Respond to the learner's reasoning, identify one strong point and one important gap or assumption, then ask one useful follow-up question. Do not imply that agreement with the source is required.
 optional:: true
 

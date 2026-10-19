@@ -19,7 +19,6 @@ content::
 Return here after reading.
 
 ---
-
 #### Question: Open
 id:: 9639e756-c013-4852-b0ac-f5f6cc7df3a9
 content::
@@ -116,7 +115,7 @@ feedback-instructions:: The student has read Chapter 4 ("You Don't Get What You 
 
 The answer this question is aimed at: **Chapter 2's distinction between behavior and values.** Chapter 2 established that what a system does under observation does not tell you what it wants. Chapter 4 is the causal version of that same gap: training on a target does not install the target, so behavior during training is not evidence about the preferences that will surface later. Without Chapter 2's distinction the reader has no reason to care that the three-step gap exists, because they would still be treating observed helpfulness as the thing itself.
 
-How to grade what comes back:
+How to read what comes back:
 
 - **On target.** They name the behavior-versus-values distinction in their own words, and say what it is doing here: it is why the ice cream argument matters rather than being a curiosity about human appetites. Confirm briefly, then move on.
 - **Strong near miss: "AI is grown, not crafted" (Chapter 2).** Legitimate and upstream of the right answer. Accept it, then push once: growing rather than crafting explains why we cannot inspect the values directly, but what earlier idea tells us we cannot read them off the behavior either?
@@ -142,13 +141,14 @@ What not to do:
 - List the candidates for them.
 - Turn this into a review of Chapters 2 and 3.
 
-#### Question
+#### Question: Open
 id:: d799881b-8b9f-42c8-9cbe-0b81a6c48510
 content::
 \## Phase 4: Learning Question
 A lab announces: "We ran our model through a million test conversations. It was honest and helpful in every single one. A million clean tests is strong evidence it's safe to deploy." Using Chapter 4, explain why the authors would not be reassured, and be specific about what those test results can and cannot tell you about what the model will do once deployed.
 
-assessment-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
+force-feedback:: first
+feedback-instructions:: The student has completed a reading, a free recall, and a reflection phase on Chapter 4 ("You Don't Get What You Train For") of "If Anyone Builds It, Everyone Dies." They are now in the main discussion phase.
 
 The question they were asked is a deliberate wedge. It is not the test question. It hands the student a confident-sounding claim (that a large volume of clean behavioral tests is strong evidence of safety) and asks them to rebut it using the chapter's argument, rather than recite the ice cream argument. Use it to draw out the gap between training/test behavior and underlying preferences, and especially the blank-map principle: the complications stay invisible precisely while the AI lacks the power to act on them, so sailing through a million tests is exactly what a misaligned-but-not-yet-capable model would also do. Behavioral evidence under training conditions cannot, even in large volume, pin down the preferences that will surface once the model can reshape its situation.
 

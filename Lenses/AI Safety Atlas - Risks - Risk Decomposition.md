@@ -8,6 +8,7 @@ title: "Risk Decomposition"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Risks - Risk Decomposition|Risk Decomposition]]
 
 #### Question: Open

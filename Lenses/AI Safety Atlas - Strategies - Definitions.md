@@ -8,6 +8,7 @@ title: "Definitions"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Definitions|Definitions]]
 
 #### Question: Open

@@ -35,7 +35,7 @@ One term before you start. The authors use "AGI" throughout: artificial general 
 
 Before you read any of it, you will build your own version of their set of methods.
 
-#### Question
+#### Question: Open
 id:: 0718d0de-6524-4ab6-be19-20fb05f56fca
 content::
 \## Every way you can think of
@@ -71,7 +71,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## AGI timelines forecasting methods
 to:: possibility of time horizon doublings getting easier or harder at higher horizons.
 
-#### Question
+#### Question: Open
 id:: 171d04f7-fda7-4811-becb-754971b05188
 content::
 \## The diff
@@ -104,12 +104,12 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## How our model works
 to:: as the project gets bottlenecked by their limited supply of experiment compute.
 
-#### Question
+#### Question: Open
 id:: 2ab11725-db44-4166-ba8a-97f9a7226895
 content::
 \## Your number, before theirs
 
-You have their five methods, the dates several of them give (from 2027 to 2050), and the structure of their model. You have not yet seen what the authors' own model concludes.
+You have their five methods, the dates several of them give (from 2027 to 2116), and the structure of their model. You have not yet seen what the authors' own model concludes.
 
 Give your own median year for an AI that can do essentially all of an AI researcher's coding work. Build it from what you just read: say which method or number you lean on most, and how you adjust it. State the one assumption your number is most sensitive to, and say which direction your number moves if that assumption is wrong.
 
@@ -138,7 +138,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Timelines and takeoff forecasts
 to:: this list is nowhere near exhaustive but that’s enough for now I guess.
 
-#### Question
+#### Question: Open
 id:: c4105299-b0e6-4779-8440-c45103089990
 content::
 \## Two people, one model, different answers
@@ -177,7 +177,7 @@ source:: [[../articles/kokotajlo-ai-futures-model-dec-2025-update]]
 from:: ## Comparison to our previous
 to:: You can read more about these changes and their effects in our [supplementary materials](https://docs.google.com/document/d/1ru6Okbxb6XuH18Cz8439sdQJazMV39hNxsWDokh97r0/edit?tab=t.0#heading=h.fzjrie7c4m4p).
 
-#### Question
+#### Question: Open
 id:: 6cdc5e71-6946-4efb-8651-46bd49871faf
 content::
 \## A three-to-five year shift, in nine months
@@ -203,7 +203,7 @@ Response style:
 What to do in each reply:
 1. If they conclude only "forecasts are unreliable", ask what they would still use a forecast FOR, given that.
 
-#### Question
+#### Question: Open
 id:: d6316651-341f-4d32-90c4-3f29a411e455
 content::
 \## What has to keep happening, and what is left afterwards
@@ -248,7 +248,7 @@ Up to 3 tutor turns.
 Look for, in rough order of value:
 - On part two: anything genuinely invariant to timing. Who decides what the systems are for, whose values get in, whether anyone can tell what a system is actually pursuing, what happens to people with no leverage. All good answers.
 - A stated reason WHY speed does not touch it, not just an assertion that it does not.
-- On part three: any concrete decoupling of revenue from capability, in either direction.
+- On part four: any concrete decoupling of revenue from capability, in either direction.
 
 Response length: 120 to 200 words. Short paragraphs only.
 

@@ -8,6 +8,7 @@ title: "Combining Strategies"
 ---
 
 #### Article
+render-as-non-article-text:: true
 source:: [[../articles/AI Safety Atlas - Strategies - Combining Strategies|Combining Strategies]]
 
 #### Text
