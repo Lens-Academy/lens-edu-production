@@ -2,8 +2,8 @@
 title: "Without fundamental advances, misalignment and catastrophe are the default outcomes of training powerful AI"
 source_url: "https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/without-fundamental-advances-misalignment-and-catastrophe"
 author:
-  - "Jeremy Gillen"
-  - "Peter Barnett"
+  - [Jeremy Gillen](https://www.lesswrong.com/users/jeremy-gillen)
+  - [Peter Barnett](https://peterbarnett.org/)
 published: 2024-01-26
 created: 2026-02-13
 description: "A pdf version of this report is available here. …"
@@ -24,8 +24,6 @@ Add discussion note here:
 ...
 
 %%
-by [Jeremy Gillen](https://www.lesswrong.com/users/jeremy-gillen?from=post_header), [peterbarnett](https://www.lesswrong.com/users/peterbarnett?from=post_header) | 26th Jan 2024 | [Review by Jeremy Gillen](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#ebYbeASupnTdb9vAx) | [Review by plex ](https://www.lesswrong.com/posts/GfZfDHZHCuYwrHGCd/#BnWtd2ARfuYXfdf2t)
-
 A pdf version of this report is available [here](https://intelligence.org/wp-content/uploads/2024/02/Misalignment_and_Catastrophe.pdf).
 # Summary
 
@@ -776,9 +774,9 @@ Because of the short time that the human has to evaluate the AI’s work and ass
 [^note-gillen-barnett-6]: By “doing” we mean fully obsoleting or at least dramatically speeding up humans at a task. An AI speeding up human research 30x would be doing 97% of the work and very likely be able to do effectively all of the work.
 
 [^note-gillen-barnett-7]: More examples of diverse obstacles, for different tasks:
-- A designer trying to build a [fusion rocket](https://en.wikipedia.org/wiki/Fusion_rocket) has to interface with the steel producer and run tests to see if the steel is good, and renegotiate or switch suppliers depending on the results.
-- An advanced coding assistant will sometimes have to debug weird hardware glitches, things outside of normal coding. E.g. To build extremely efficient algorithms, you need to be experimenting with different ways to exploit caching, especially in GPUs.
-- Math AI has to communicate extremely complicated results to humans. For this purpose it might need to develop a new formalism for thinking about problems, or define new types of mathematical object that allow people to draw on intuitions (i.e. similar to Feynman diagrams).
+    - A designer trying to build a [fusion rocket](https://en.wikipedia.org/wiki/Fusion_rocket) has to interface with the steel producer and run tests to see if the steel is good, and renegotiate or switch suppliers depending on the results.
+    - An advanced coding assistant will sometimes have to debug weird hardware glitches, things outside of normal coding. E.g. To build extremely efficient algorithms, you need to be experimenting with different ways to exploit caching, especially in GPUs.
+    - Math AI has to communicate extremely complicated results to humans. For this purpose it might need to develop a new formalism for thinking about problems, or define new types of mathematical object that allow people to draw on intuitions (i.e. similar to Feynman diagrams).
 
 [^note-gillen-barnett-8]: Examples of “resources” could include: time, money, energy, skills, knowledge, other people’s labor, food, memory, writing space, or shared context with coworkers.
 

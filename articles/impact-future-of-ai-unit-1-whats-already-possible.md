@@ -9,7 +9,20 @@ accessed: 2026-06-12
 description: "Surveys current AI capabilities in image generation, video production, graphic design, and code-based web application building, as the opening lesson of BlueDot Impact's Future of AI course."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+This lesson name-checks specific frontier models (e.g. Kling 3.0, Seedance 2.0, ChatGPT Images 2.0) and demo videos current as of mid-2026; editors should periodically confirm the linked demos and model names are still the best available examples, since this space moves quickly.
+
+%%
 
 The world is in a crazy place. Five years ago, AI models struggled to form coherent sentences. Today, they are reaching beyond human-level performance across a wide range of tasks. A new model launch advances the state of the art nearly every week, and if anything the pace of progress is speeding up.
 

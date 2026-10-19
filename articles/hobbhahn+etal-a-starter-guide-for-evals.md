@@ -2,11 +2,11 @@
 title: "A starter guide for evals"
 source_url: "https://www.lesswrong.com/posts/2PiawPFJeyCQGcwXG/a-starter-guide-for-evals"
 author:
-  - "Marius Hobbhahn"
-  - "Jérémy Scheurer"
-  - "Mikita Balesni"
-  - "rusheb"
-  - "AlexMeinke"
+  - [Marius Hobbhahn](https://www.mariushobbhahn.com/)
+  - [Jérémy Scheurer](https://jeremyscheurer.com/)
+  - [Mikita Balesni](https://mikitabalesni.com/)
+  - [rusheb](https://www.lesswrong.com/users/rusheb)
+  - [AlexMeinke](https://alexmeinke.de/)
 published: 2024-01-08
 created: 2026-02-27
 description: "This is a starter guide for model evaluations (evals). Our goal is to provide a general overview of what evals are, what skills are helpful for evalu…"
