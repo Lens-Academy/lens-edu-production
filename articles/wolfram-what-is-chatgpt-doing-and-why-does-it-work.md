@@ -1,26 +1,37 @@
 ---
-title: What Is ChatGPT Doing … and Why Does It Work?
-source_url: https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/
-author: Stephen Wolfram
+title: "What Is ChatGPT Doing … and Why Does It Work?"
+author:
+  - "Stephen Wolfram"
+source_url: "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
 published: 2023-02-14
-created: 2026-02-04
-description: Stephen Wolfram explores the broader picture of what's going on inside ChatGPT and why it produces meaningful text. Discusses models, training neural nets, embeddings, tokens, transformers, language syntax.
+created: 2026-09-02
+accessed: 2026-09-02
+llm-review:
+  date: 2026-09-02
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-02
+    kind: "live"
+description: "Stephen Wolfram explores the broader picture of what's going on inside ChatGPT and why it is that it can do so well in producing meaningful text."
 tags:
-  - clippings
+  - "article-importer"
 ---
-See also:  
-[***“LLM Tech Comes to Wolfram Language”* »**](https://writings.stephenwolfram.com/2023/06/llm-tech-and-a-lot-more-version-13-3-of-wolfram-language-and-mathematica/#llm-tech-comes-to-wolfram-language)  
-[***A discussion about the history of neural nets* »**](https://www.youtube.com/watch?v=XKC-4Tosdd8)
 
-![](https://content.wolfram.com/sites/43/2023/02/hero3-chat-exposition.png "What Is ChatGPT Doing ... and Why Does It Work?")
+%%
+Add discussion note here:
 
-## It’s Just Adding One Word at a Time
+...
+
+%%
+
+## It’s Just Adding One Word at a Time ^it-s-just-adding
 
 That [ChatGPT](https://chat.openai.com/) can automatically generate something that reads even superficially like human-written text is remarkable, and unexpected. But how does it do it? And why does it work? My purpose here is to give a rough outline of what’s going on inside ChatGPT—and then to explore why it is that it can do so well in producing what we might consider to be meaningful text. I should say at the outset that I’m going to focus on the big picture of what’s going on—and while I’ll mention some engineering details, I won’t get deeply into them. (And the essence of what I’ll say applies just as well to other current “large language models” \[LLMs\] as to ChatGPT.)
 
 The first thing to explain is that what ChatGPT is always fundamentally trying to do is to produce a “reasonable continuation” of whatever text it’s got so far, where by “reasonable” we mean “what one might expect someone to write after seeing what people have written on billions of webpages, etc.”
 
-So let’s say we’ve got the text “ *The best thing about AI is its ability to* ”. Imagine scanning billions of pages of human-written text (say on the web and in digitized books) and finding all instances of this text—then seeing what word comes next what fraction of the time. ChatGPT effectively does something like this, except that (as I’ll explain) it doesn’t look at literal text; it looks for things that in a certain sense “match in meaning”. But the end result is that it produces a ranked list of words that might follow, together with “probabilities”:
+So let’s say we’ve got the text “ _The best thing about AI is its ability to_ ”. Imagine scanning billions of pages of human-written text (say on the web and in digitized books) and finding all instances of this text—then seeing what word comes next what fraction of the time. ChatGPT effectively does something like this, except that (as I’ll explain) it doesn’t look at literal text; it looks for things that in a certain sense “match in meaning”. But the end result is that it produces a ranked list of words that might follow, together with “probabilities”:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img1.png)
 
@@ -60,7 +71,7 @@ And every time one does this, different random choices will be made, and the tex
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img8.png)
 
-It’s worth pointing out that even at the first step there are a lot of possible “next words” to choose from (at temperature 0.8), though their probabilities fall off quite quickly (and, yes, the straight line on this log-log plot corresponds to an *n* ⁻¹ [“power-law” decay that’s very characteristic of the general statistics of language](https://www.wolframscience.com/nks/notes-8-8--zipfs-law/)):
+It’s worth pointing out that even at the first step there are a lot of possible “next words” to choose from (at temperature 0.8), though their probabilities fall off quite quickly (and, yes, the straight line on this log-log plot corresponds to an _n⁻¹_ [“power-law” decay that’s very characteristic of the general statistics of language](https://www.wolframscience.com/nks/notes-8-8--zipfs-law/)):
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img10.png)
 
@@ -76,7 +87,7 @@ And here’s a random example at “temperature 0.8”:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img13.png)
 
-## Where Do the Probabilities Come From?
+## Where Do the Probabilities Come From? ^where-do-the-probabilities
 
 OK, so ChatGPT always picks its next word based on probabilities. But where do those probabilities come from? Let’s start with a simpler problem. Let’s consider generating English text one letter (rather than word) at a time. How can we work out what the probability for each letter should be?
 
@@ -118,7 +129,7 @@ And we see here, for example, that the “q” column is blank (zero probability
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img22.png)
 
-With sufficiently much English text we can get pretty good estimates not just for probabilities of single letters or pairs of letters (2-grams), but also for longer runs of letters. And if we generate “random words” with progressively longer *n* -gram probabilities, we see that they get progressively “more realistic”:
+With sufficiently much English text we can get pretty good estimates not just for probabilities of single letters or pairs of letters (2-grams), but also for longer runs of letters. And if we generate “random words” with progressively longer _n_ -gram probabilities, we see that they get progressively “more realistic”:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img23.png)
 
@@ -126,17 +137,17 @@ But let’s now assume—more or less as ChatGPT does—that we’re dealing wit
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img24.png)
 
-Not surprisingly, this is nonsense. So how can we do better? Just like with letters, we can start taking into account not just probabilities for single words but probabilities for pairs or longer *n* -grams of words. Doing this for pairs, here are 5 examples of what we get, in all cases starting from the word “cat”:
+Not surprisingly, this is nonsense. So how can we do better? Just like with letters, we can start taking into account not just probabilities for single words but probabilities for pairs or longer _n_ -grams of words. Doing this for pairs, here are 5 examples of what we get, in all cases starting from the word “cat”:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img25.png)
 
-It’s getting slightly more “sensible looking”. And we might imagine that if we were able to use sufficiently long *n* -grams we’d basically “get a ChatGPT”—in the sense that we’d get something that would generate essay-length sequences of words with the “correct overall essay probabilities”. But here’s the problem: there just isn’t even close to enough English text that’s ever been written to be able to deduce those probabilities.
+It’s getting slightly more “sensible looking”. And we might imagine that if we were able to use sufficiently long _n_ -grams we’d basically “get a ChatGPT”—in the sense that we’d get something that would generate essay-length sequences of words with the “correct overall essay probabilities”. But here’s the problem: there just isn’t even close to enough English text that’s ever been written to be able to deduce those probabilities.
 
 In a [crawl of the web](https://commoncrawl.org/) there might be a few hundred billion words; in books that have been digitized there might be another hundred billion words. But with 40,000 common words, even the number of possible 2-grams is already 1.6 billion—and the number of possible 3-grams is 60 trillion. So there’s no way we can estimate the probabilities even for all of these from text that’s out there. And by the time we get to “essay fragments” of 20 words, the number of possibilities is larger than the number of particles in the universe, so in a sense they could never all be written down.
 
 So what can we do? The big idea is to make a model that lets us estimate the probabilities with which sequences should occur—even though we’ve never explicitly seen those sequences in the corpus of text we’ve looked at. And at the core of ChatGPT is precisely a so-called “large language model” (LLM) that’s been built to do a good job of estimating those probabilities.
 
-## What Is a Model?
+## What Is a Model? ^what-is-a-model
 
 Say you want to know (as [Galileo did back in the late 1500s](https://archive.org/details/bub_gb_49d42xp-USMC/page/404/mode/2up)) how long it’s going to take a cannon ball dropped from each floor of the Tower of Pisa to hit the ground. Well, you could just measure it in each case and make a table of the results. Or you could do what is the essence of theoretical science: make a model that gives some kind of procedure for computing the answer rather than just measuring and remembering each case.
 
@@ -150,11 +161,11 @@ How do we figure out how long it’s going to take to fall from a floor we don�
 
 We could pick different straight lines. But this is the one that’s on average closest to the data we’re given. And from this straight line we can estimate the time to fall for any floor.
 
-How did we know to try using a straight line here? At some level we didn’t. It’s just something that’s mathematically simple, and we’re used to the fact that lots of data we measure turns out to be well fit by mathematically simple things. We could try something mathematically more complicated—say *a* + *b* *x* + *c* *x* ² —and then in this case we do better:
+How did we know to try using a straight line here? At some level we didn’t. It’s just something that’s mathematically simple, and we’re used to the fact that lots of data we measure turns out to be well fit by mathematically simple things. We could try something mathematically more complicated—say _a_ + _b_ _x_ + _c_ _x²_ —and then in this case we do better:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img29.png)
 
-Things can go quite wrong, though. Like here’s [the best we can do](https://reference.wolfram.com/language/ref/FindFit.html) with *a* + *b* / *x* + *c* sin(*x*):
+Things can go quite wrong, though. Like here’s [the best we can do](https://reference.wolfram.com/language/ref/FindFit.html) with _a_ + _b_ / _x_ + _c_ sin(_x_):
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img33.png)
 
@@ -162,7 +173,7 @@ It is worth understanding that there’s never a “model-less model”. Any mod
 
 But the remarkable thing is that the underlying structure of ChatGPT—with “just” that many parameters—is sufficient to make a model that computes next-word probabilities “well enough” to give us reasonable essay-length pieces of text.
 
-## Models for Human-Like Tasks
+## Models for Human-Like Tasks ^models-for-human-like-tasks
 
 The example we gave above involves making a model for numerical data that essentially comes from simple physics—where we’ve known for several centuries that “simple mathematics applies”. But for ChatGPT we have to make a model of human-language text of the kind produced by a human brain. And for something like that we don’t (at least yet) have anything like “simple mathematics”. So what might a model of it be like?
 
@@ -178,7 +189,7 @@ Then to find out if an image we’re given as input corresponds to a particular 
 
 ![](https://content.wolfram.com/sites/43/2023/03/sw021423img36-4.png)
 
-When we made a model for our numerical data above, we were able to take a numerical value *x* that we were given, and just compute *a + b x* for particular *a* and *b*. So if we treat the gray-level value of each pixel here as some variable *x ᵢ* is there some function of all those variables that—when evaluated—tells us what digit the image is of? It turns out that it’s possible to construct such a function. Not surprisingly, it’s not particularly simple, though. And a typical example might involve perhaps half a million mathematical operations.
+When we made a model for our numerical data above, we were able to take a numerical value _x_ that we were given, and just compute _a + b x_ for particular _a_ and _b_. So if we treat the gray-level value of each pixel here as some variable _xᵢ_ is there some function of all those variables that—when evaluated—tells us what digit the image is of? It turns out that it’s possible to construct such a function. Not surprisingly, it’s not particularly simple, though. And a typical example might involve perhaps half a million mathematical operations.
 
 But the end result is that if we feed the collection of pixel values for an image into this function, out will come the number specifying which digit we have an image of. Later, we’ll talk about how such a function can be constructed, and the idea of neural nets. But for now let’s treat the function as black box, where we feed in images of, say, handwritten digits (as arrays of pixel values) and we get out the numbers these correspond to:
 
@@ -194,7 +205,7 @@ And we have a “good model” if the results we get from our function typically
 
 Can we “mathematically prove” that they work? Well, no. Because to do that we’d have to have a mathematical theory of what we humans are doing. Take the “2” image and change a few pixels. We might imagine that with only a few pixels “out of place” we should still consider the image a “2”. But how far should that go? It’s a question of [human visual perception](https://www.wolframscience.com/nks/chap-10--processes-of-perception-and-analysis#sect-10-7--visual-perception). And, yes, the answer would no doubt be different for bees or octopuses—and potentially [utterly different for putative aliens](https://writings.stephenwolfram.com/2021/11/the-concept-of-the-ruliad/#alien-views-of-the-ruliad).
 
-## Neural Nets
+## Neural Nets ^neural-nets
 
 OK, so how do our typical models for tasks like [image recognition](https://writings.stephenwolfram.com/2015/05/wolfram-language-artificial-intelligence-the-image-identification-project/) actually work? The most popular—and successful—current approach uses [neural nets](https://reference.wolfram.com/language/guide/NeuralNetworks.html). Invented—in a form remarkably close to their use today— [in the 1940s](https://www.wolframscience.com/nks/notes-10-12--history-of-ideas-about-thinking/), neural nets can be thought of as simple idealizations of how [brains seem to work](https://www.wolframscience.com/nks/notes-10-12--the-brain/).
 
@@ -224,7 +235,7 @@ So how do we make a neural net “do a recognition task”? Let’s consider thi
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img43.png)
 
-Our goal is to take an “input” corresponding to a position { *x*,*y* }—and then to “recognize” it as whichever of the three points it’s closest to. Or, in other words, we want the neural net to compute a function of { *x*,*y* } like:
+Our goal is to take an “input” corresponding to a position { _x_,_y_ }—and then to “recognize” it as whichever of the three points it’s closest to. Or, in other words, we want the neural net to compute a function of { _x_,_y_ } like:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img44.png)
 
@@ -232,13 +243,13 @@ So how do we do this with a neural net? Ultimately a neural net is a connected c
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img45.png)
 
-Each “neuron” is effectively set up to evaluate a simple numerical function. And to “use” the network, we simply feed numbers (like our coordinates *x* and *y*) in at the top, then have neurons on each layer “evaluate their functions” and feed the results forward through the network—eventually producing the final result at the bottom:
+Each “neuron” is effectively set up to evaluate a simple numerical function. And to “use” the network, we simply feed numbers (like our coordinates _x_ and _y_) in at the top, then have neurons on each layer “evaluate their functions” and feed the results forward through the network—eventually producing the final result at the bottom:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img46.png)
 
-In the traditional (biologically inspired) setup each neuron effectively has a certain set of “incoming connections” from the neurons on the previous layer, with each connection being assigned a certain “weight” (which can be a positive or negative number). The value of a given neuron is determined by multiplying the values of “previous neurons” by their corresponding weights, then adding these up and adding a constant—and finally applying a “thresholding” (or “activation”) function. In mathematical terms, if a neuron has inputs *x* = { *x* ₁, *x* ₂ …} then we compute *f* \[*w*. *x* + *b*\], where the weights *w* and constant *b* are generally chosen differently for each neuron in the network; the function *f* is usually the same.
+In the traditional (biologically inspired) setup each neuron effectively has a certain set of “incoming connections” from the neurons on the previous layer, with each connection being assigned a certain “weight” (which can be a positive or negative number). The value of a given neuron is determined by multiplying the values of “previous neurons” by their corresponding weights, then adding these up and adding a constant—and finally applying a “thresholding” (or “activation”) function. In mathematical terms, if a neuron has inputs _x_ = { _x₁_, _x₂_ …} then we compute _f_ \[_w_·_x_ + _b_\], where the weights _w_ and constant _b_ are generally chosen differently for each neuron in the network; the function _f_ is usually the same.
 
-Computing *w*. *x* + *b* is just a matter of matrix multiplication and addition. The “activation function” *f* introduces nonlinearity (and ultimately is what leads to nontrivial behavior). Various activation functions commonly get used; here we’ll just use [Ramp](http://reference.wolfram.com/language/ref/Ramp.html) (or ReLU):
+Computing _w_·_x_ + _b_ is just a matter of matrix multiplication and addition. The “activation function” _f_ introduces nonlinearity (and ultimately is what leads to nontrivial behavior). Various activation functions commonly get used; here we’ll just use [Ramp](http://reference.wolfram.com/language/ref/Ramp.html) (or ReLU):
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img48.png)
 
@@ -250,7 +261,7 @@ Ultimately, every neural net just corresponds to some overall mathematical funct
 
 The neural net of ChatGPT also just corresponds to a mathematical function like this—but effectively with billions of terms.
 
-But let’s go back to individual neurons. Here are some examples of the functions a neuron with two inputs (representing coordinates *x* and *y*) can compute with various choices of weights and constants (and [Ramp](https://reference.wolfram.com/language/ref/Ramp.html) as activation function):
+But let’s go back to individual neurons. Here are some examples of the functions a neuron with two inputs (representing coordinates _x_ and _y_) can compute with various choices of weights and constants (and [Ramp](https://reference.wolfram.com/language/ref/Ramp.html) as activation function):
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img50.png)
 
@@ -284,7 +295,7 @@ In the final net that we used for the “nearest point” problem above there ar
 
 And if we take a typical cat image
 
-![Cat](https://content.wolfram.com/sites/43/2023/02/sw021423img55.png "Cat")
+![Cat](https://content.wolfram.com/sites/43/2023/02/sw021423img55.png)
 
 then we can represent the states of neurons at the first layer by a collection of derived images—many of which we can readily interpret as being things like “the cat without its background”, or “the outline of the cat”:
 
@@ -302,7 +313,7 @@ But let’s say we want a “theory of cat recognition” in neural nets. We can
 
 We’ll encounter the same kinds of issues when we talk about generating language with ChatGPT. And again it’s not clear whether there are ways to “summarize what it’s doing”. But the richness and detail of language (and our experience with it) may allow us to get further than with images.
 
-## Machine Learning, and the Training of Neural Nets
+## Machine Learning, and the Training of Neural Nets ^machine-learning-and-the
 
 We’ve been talking so far about neural nets that “already know” how to do particular tasks. But what makes neural nets so useful (presumably also in brains) is that not only can they in principle do all sorts of tasks, but they can be incrementally “trained from examples” to do those tasks.
 
@@ -336,13 +347,13 @@ To find out “how far away we are” we compute what’s usually called a “lo
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img62.png)
 
-Alright, so the last essential piece to explain is how the weights are adjusted to reduce the loss function. As we’ve said, the loss function gives us a “distance” between the values we’ve got, and the true values. But the “values we’ve got” are determined at each stage by the current version of neural net—and by the weights in it. But now imagine that the weights are variables—say *w ᵢ*. We want to find out how to adjust the values of these variables to minimize the loss that depends on them.
+Alright, so the last essential piece to explain is how the weights are adjusted to reduce the loss function. As we’ve said, the loss function gives us a “distance” between the values we’ve got, and the true values. But the “values we’ve got” are determined at each stage by the current version of neural net—and by the weights in it. But now imagine that the weights are variables—say _wᵢ_. We want to find out how to adjust the values of these variables to minimize the loss that depends on them.
 
-For example, imagine (in an incredible simplification of typical neural nets used in practice) that we have just two weights *w* ₁ and *w* ₂. Then we might have a loss that as a function of *w* ₁ and *w* ₂ looks like this:
+For example, imagine (in an incredible simplification of typical neural nets used in practice) that we have just two weights _w₁_ and _w₂_. Then we might have a loss that as a function of _w₁_ and _w₂_ looks like this:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img68.png)
 
-Numerical analysis provides a variety of techniques for finding the minimum in cases like this. But a typical approach is just to progressively follow the path of steepest descent from whatever previous *w* ₁, *w* ₂ we had:
+Numerical analysis provides a variety of techniques for finding the minimum in cases like this. But a typical approach is just to progressively follow the path of steepest descent from whatever previous _w₁_, _w₂_ we had:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img71.png)
 
@@ -364,7 +375,7 @@ But each such “different solution” will have at least slightly different beh
 
 But which of these is “right”? There’s really no way to say. They’re all “consistent with the observed data”. But they all correspond to different “innate” ways to “think about” what to do “outside the box”. And some may seem “more reasonable” to us humans than others.
 
-## The Practice and Lore of Neural Net Training
+## The Practice and Lore of Neural Net Training ^the-practice-and-lore
 
 Particularly over the past decade, there’ve been many advances in the art of training neural nets. And, yes, it is basically an art. Sometimes—especially in retrospect—one can see at least a glimmer of a “scientific explanation” for something that’s being done. But mostly things have been discovered by trial and error, adding ideas and tricks that have progressively built a significant lore about how to work with neural nets.
 
@@ -416,7 +427,7 @@ Neural nets—perhaps a bit like brains—are set up to have an essentially fixe
 
 But even within the framework of existing neural nets there’s currently a crucial limitation: neural net training as it’s now done is fundamentally sequential, with the effects of each batch of examples being propagated back to update the weights. And indeed with current computer hardware—even taking into account GPUs—most of a neural net is “idle” most of the time during training, with just one part at a time being updated. And in a sense this is because our current computers tend to have memory that is separate from their CPUs (or GPUs). But in brains it’s presumably different—with every “memory element” (i.e. neuron) also being a potentially active computational element. And if we could set up our future computer hardware this way it might become possible to do training much more efficiently.
 
-## “Surely a Network That’s Big Enough Can Do Anything!”
+## “Surely a Network That’s Big Enough Can Do Anything!” ^surely-a-network-that
 
 The capabilities of something like ChatGPT seem so impressive that one might imagine that if one could just “keep going” and train larger and larger neural networks, then they’d eventually be able to “do everything”. And if one’s concerned with things that are readily accessible to immediate human thinking, it’s quite possible that this is the case. But the lesson of the past several hundred years of science is that there are things that can be figured out by formal processes, but aren’t readily accessible to immediate human thinking.
 
@@ -450,7 +461,7 @@ In other words, the reason a neural net can be successful in writing an essay is
 
 If you had a big enough neural net then, yes, you might be able to do whatever humans can readily do. But you wouldn’t capture what the natural world in general can do—or that the tools that we’ve fashioned from the natural world can do. And it’s the use of those tools—both practical and conceptual—that have allowed us in recent centuries to transcend the boundaries of what’s accessible to “pure unaided human thought”, and capture for human purposes more of what’s out there in the physical and computational universe.
 
-## The Concept of Embeddings
+## The Concept of Embeddings ^the-concept-of-embeddings
 
 Neural nets—at least as they’re currently set up—are fundamentally based on numbers. So if we’re going to to use them to work on something like text we’ll need a way to [represent our text with numbers](https://reference.wolfram.com/language/guide/NetEncoderDecoder.html). And certainly we could start (essentially as ChatGPT does) by just assigning a number to every word in the dictionary. But there’s an important idea—that’s for example central to ChatGPT—that goes beyond that. And it’s the idea of “embeddings”. One can think of an embedding as a way to try to represent the “essence” of something by an array of numbers—with the property that “nearby things” are represented by nearby numbers.
 
@@ -474,7 +485,7 @@ So how in more detail does this work for the digit recognition network? We can t
 
 At the beginning we’re feeding into the first layer actual images, represented by 2D arrays of pixel values. And at the end—from the last layer—we’re getting out an array of 10 values, which we can think of saying “how certain” the network is that the image corresponds to each of the digits 0 through 9.
 
-Feed in the image and the values of the neurons in that last layer are:
+Feed in the image ![](https://content.wolfram.com/sites/43/2023/02/sw021423number4.png) and the values of the neurons in that last layer are:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img81.png)
 
@@ -512,7 +523,7 @@ But actually we can go further than just characterizing words by collections of 
 
 (Strictly, ChatGPT does not deal with words, but [rather with “tokens”](https://platform.openai.com/tokenizer) —convenient linguistic units that might be whole words, or might just be pieces like “pre” or “ing” or “ized”. Working with tokens makes it easier for ChatGPT to handle rare, compound and non-English words, and, sometimes, for better or worse, to invent new words.)
 
-## Inside ChatGPT
+## Inside ChatGPT ^inside-chatgpt
 
 OK, so we’re finally ready to discuss what’s inside ChatGPT. And, yes, ultimately, it’s a giant neural net—currently a version of the so-called GPT-3 network with 175 billion weights. In many ways this is a neural net very much like the other ones we’ve discussed. But it’s a neural net that’s particularly set up for dealing with language. And its most notable feature is a piece of neural net architecture called a “transformer”.
 
@@ -532,15 +543,15 @@ First comes the embedding module. Here’s a schematic Wolfram Language represen
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img86.png)
 
-The input is a [vector of *n* tokens](https://reference.wolfram.com/language/ref/netencoder/SubwordTokens.html) (represented as in the previous section by integers from 1 to about 50,000). Each of these tokens is converted (by a [single-layer neural net](https://reference.wolfram.com/language/ref/EmbeddingLayer.html)) into an embedding vector (of length 768 for GPT-2 and 12,288 for ChatGPT’s GPT-3). Meanwhile, there’s a “secondary pathway” that takes the [sequence of (integer) positions](https://reference.wolfram.com/language/ref/SequenceIndicesLayer.html) for the tokens, and from these integers creates another embedding vector. And finally the embedding vectors from the token value and the token position are [added together](https://reference.wolfram.com/language/ref/ThreadingLayer.html) —to produce the final sequence of embedding vectors from the embedding module.
+The input is a [vector of _n_ tokens](https://reference.wolfram.com/language/ref/netencoder/SubwordTokens.html) (represented as in the previous section by integers from 1 to about 50,000). Each of these tokens is converted (by a [single-layer neural net](https://reference.wolfram.com/language/ref/EmbeddingLayer.html)) into an embedding vector (of length 768 for GPT-2 and 12,288 for ChatGPT’s GPT-3). Meanwhile, there’s a “secondary pathway” that takes the [sequence of (integer) positions](https://reference.wolfram.com/language/ref/SequenceIndicesLayer.html) for the tokens, and from these integers creates another embedding vector. And finally the embedding vectors from the token value and the token position are [added together](https://reference.wolfram.com/language/ref/ThreadingLayer.html) —to produce the final sequence of embedding vectors from the embedding module.
 
 Why does one just add the token-value and token-position embedding vectors together? I don’t think there’s any particular science to this. It’s just that various different things have been tried, and this is one that seems to work. And it’s part of the lore of neural nets that—in some sense—so long as the setup one has is “roughly right” it’s usually possible to home in on details just by doing sufficient training, without ever really needing to “understand at an engineering level” quite how the neural net has ended up configuring itself.
 
-Here’s what the embedding module does, operating on the string *hello hello hello hello hello hello hello hello hello hello bye bye bye bye bye bye bye bye bye bye*:
+Here’s what the embedding module does, operating on the string _hello hello hello hello hello hello hello hello hello hello bye bye bye bye bye bye bye bye bye bye_:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img87.png)
 
-The elements of the embedding vector for each token are shown down the page, and across the page we see first a run of “ *hello* ” embeddings, followed by a run of “ *bye* ” ones. The second array above is the positional embedding—with its somewhat-random-looking structure being just what “happened to be learned” (in this case in GPT-2).
+The elements of the embedding vector for each token are shown down the page, and across the page we see first a run of “ _hello_ ” embeddings, followed by a run of “ _bye_ ” ones. The second array above is the positional embedding—with its somewhat-random-looking structure being just what “happened to be learned” (in this case in GPT-2).
 
 OK, so after the embedding module comes the “main event” of the transformer: a sequence of so-called “attention blocks” (12 for GPT-2, 96 for ChatGPT’s GPT-3). It’s all pretty complicated—and reminiscent of typical large hard-to-understand engineering systems, or, for that matter, biological systems. But anyway, here’s a schematic representation of a single “attention block” (for GPT-2):
 
@@ -548,9 +559,9 @@ OK, so after the embedding module comes the “main event” of the transformer:
 
 Within each such attention block there are a collection of “attention heads” (12 for GPT-2, 96 for ChatGPT’s GPT-3)—each of which operates independently on different chunks of values in the embedding vector. (And, yes, we don’t know any particular reason why it’s a good idea to split up the embedding vector, or what the different parts of it “mean”; this is just one of those things that’s been “found to work”.)
 
-OK, so what do the attention heads do? Basically they’re a way of “looking back” in the sequence of tokens (i.e. in the text produced so far), and “packaging up the past” in a form that’s useful for finding the next token. [In the first section above](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/#its-just-adding-one-word-at-a-time) we talked about using 2-gram probabilities to pick words based on their immediate predecessors. What the “attention” mechanism in transformers does is to allow “attention to” even much earlier words—thus potentially capturing the way, say, verbs can refer to nouns that appear many words before them in a sentence.
+OK, so what do the attention heads do? Basically they’re a way of “looking back” in the sequence of tokens (i.e. in the text produced so far), and “packaging up the past” in a form that’s useful for finding the next token. [[#^it-s-just-adding|In the first section above]] we talked about using 2-gram probabilities to pick words based on their immediate predecessors. What the “attention” mechanism in transformers does is to allow “attention to” even much earlier words—thus potentially capturing the way, say, verbs can refer to nouns that appear many words before them in a sentence.
 
-At a more detailed level, what an attention head does is to recombine chunks in the embedding vectors associated with different tokens, with certain weights. And so, for example, the 12 attention heads in the first attention block (in GPT-2) have the following (“look-back-all-the-way-to-the-beginning-of-the-sequence-of-tokens”) patterns of “recombination weights” for the “ *hello*, *bye* ” string above:
+At a more detailed level, what an attention head does is to recombine chunks in the embedding vectors associated with different tokens, with certain weights. And so, for example, the 12 attention heads in the first attention block (in GPT-2) have the following (“look-back-all-the-way-to-the-beginning-of-the-sequence-of-tokens”) patterns of “recombination weights” for the “ _hello_, _bye_ ” string above:
 
 ![](https://content.wolfram.com/sites/43/2023/02/sw021423img89A.png)
 
@@ -594,7 +605,7 @@ If one looks at the longest path through ChatGPT, there are about 400 (core) lay
 
 But in the end, the remarkable thing is that all these operations—individually as simple as they are—can somehow together manage to do such a good “human-like” job of generating text. It has to be emphasized again that (at least so far as we know) there’s no “ultimate theoretical reason” why anything like this should work. And in fact, as we’ll discuss, I think we have to view this as a—potentially surprising—scientific discovery: that somehow in a neural net like ChatGPT’s it’s possible to capture the essence of what human brains manage to do in generating language.
 
-## The Training of ChatGPT
+## The Training of ChatGPT ^the-training-of-chatgpt
 
 OK, so we’ve now given an outline of how ChatGPT works once it’s set up. But how did it get set up? How were all those 175 billion weights in its neural net determined? Basically they’re the result of very large-scale training, based on a huge corpus of text—on the web, in books, etc.—written by humans. As we’ve said, even given all that training data, it’s certainly not obvious that a neural net would be able to successfully produce “human-like” text. And, once again, there seem to be detailed pieces of engineering needed to make that happen. But the big surprise—and discovery—of ChatGPT is that it’s possible at all. And that—in effect—a neural net with “just” 175 billion weights can make a “reasonable model” of text humans write.
 
@@ -612,9 +623,9 @@ And in the end we can just note that ChatGPT does what it does using a couple hu
 
 Put another way, we might ask what the “effective information content” is of human language and what’s typically said with it. There’s the raw corpus of examples of language. And then there’s the representation in the neural net of ChatGPT. That representation is very likely far from the “algorithmically minimal” representation (as we’ll discuss below). But it’s a representation that’s readily usable by the neural net. And in this representation it seems there’s in the end rather little “compression” of the training data; it seems on average to basically take only a bit less than one neural net weight to carry the “information content” of a word of training data.
 
-When we run ChatGPT to generate text, we’re basically having to use each weight once. So if there are *n* weights, we’ve got of order *n* computational steps to do—though in practice many of them can typically be done in parallel in GPUs. But if we need about *n* words of training data to set up those weights, then from what we’ve said above we can conclude that we’ll need about *n* ² computational steps to do the training of the network—which is why, with current methods, one ends up needing to talk about billion-dollar training efforts.
+When we run ChatGPT to generate text, we’re basically having to use each weight once. So if there are _n_ weights, we’ve got of order _n_ computational steps to do—though in practice many of them can typically be done in parallel in GPUs. But if we need about _n_ words of training data to set up those weights, then from what we’ve said above we can conclude that we’ll need about _n²_ computational steps to do the training of the network—which is why, with current methods, one ends up needing to talk about billion-dollar training efforts.
 
-## Beyond Basic Training
+## Beyond Basic Training ^beyond-basic-training
 
 The majority of the effort in training ChatGPT is spent “showing it” large amounts of existing text from the web, books, etc. But it turns out there’s another—apparently rather important—part too.
 
@@ -634,7 +645,7 @@ It’s also worth pointing out again that there are inevitably “algorithmic li
 
 Of course, the network can learn the answer to specific “irreducible” computations. But as soon as there are combinatorial numbers of possibilities, no such “table-lookup-style” approach will work. And so, yes, just like humans, it’s time then for neural nets to “reach out” and use actual computational tools. (And, yes, [Wolfram|Alpha](https://www.wolframalpha.com/) and [Wolfram Language](https://www.wolfram.com/language/) are [uniquely suitable](https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/), because they’ve been built to “talk about things in the world”, just like the language-model neural nets.)
 
-## What Really Lets ChatGPT Work?
+## What Really Lets ChatGPT Work? ^what-really-lets-chatgpt
 
 Human language—and the processes of thinking involved in generating it—have always seemed to represent a kind of pinnacle of complexity. And indeed it’s seemed somewhat remarkable that human brains—with their network of a “mere” 100 billion or so neurons (and maybe 100 trillion connections) could be responsible for it. Perhaps, one might have imagined, there’s something more to brains than their networks of neurons—like some new layer of undiscovered physics. But now with ChatGPT we’ve got an important new piece of information: we know that a pure, artificial neural network with about as many connections as brains have neurons is capable of doing a surprisingly good job of generating human language.
 
@@ -682,7 +693,7 @@ What might this theory be like? Well, there’s one tiny corner that’s basical
 
 But beyond the narrow example of logic, what can be said about how to systematically construct (or recognize) even plausibly meaningful text? Yes, there are things like [Mad Libs](https://en.wikipedia.org/wiki/Mad_Libs) that use very specific “phrasal templates”. But somehow ChatGPT implicitly has a much more general way to do it. And perhaps there’s nothing to be said about how it can be done beyond “somehow it happens when you have 175 billion neural net weights”. But I strongly suspect that there’s a much simpler and stronger story.
 
-## Meaning Space and Semantic Laws of Motion
+## Meaning Space and Semantic Laws of Motion ^meaning-space-and-semantic
 
 We discussed above that inside ChatGPT any piece of text is effectively represented by an array of numbers that we can think of as coordinates of a point in some kind of “linguistic feature space”. So when ChatGPT continues a piece of text this corresponds to tracing out a trajectory in linguistic feature space. But now we can ask what makes this trajectory correspond to text we consider meaningful. And might there perhaps be some kind of “semantic laws of motion” that define—or at least constrain—how points in linguistic feature space can move around while preserving “meaningfulness”?
 
@@ -726,7 +737,7 @@ Here’s a 3D representation, going for a total of 40 steps:
 
 And, yes, this seems like a mess—and doesn’t do anything to particularly encourage the idea that one can expect to identify “mathematical-physics-like” “semantic laws of motion” by empirically studying “what ChatGPT is doing inside”. But perhaps we’re just looking at the “wrong variables” (or wrong coordinate system) and if only we looked at the right one, we’d immediately see that ChatGPT is doing something “mathematical-physics-simple” like following geodesics. But as of now, we’re not ready to “empirically decode” from its “internal behavior” what ChatGPT has “discovered” about how human language is “put together”.
 
-## Semantic Grammar and the Power of Computational Language
+## Semantic Grammar and the Power of Computational Language ^semantic-grammar-and-the
 
 What does it take to produce “meaningful human language”? In the past, we might have assumed it could be nothing short of a human brain. But now we know it can be done quite respectably by the neural net of ChatGPT. Still, maybe that’s as far as we can go, and there’ll be nothing simpler—or more human understandable—that will work. But my strong suspicion is that the success of ChatGPT implicitly reveals an important “scientific” fact: that there’s actually a lot more structure and simplicity to meaningful human language than we ever knew—and that in the end there may be even fairly simple rules that describe how such language can be put together.
 
@@ -766,7 +777,7 @@ We can think of the construction of computational language—and semantic gramma
 
 So what would happen if we applied ChatGPT to underlying computational language? The computational language can describe what’s possible. But what can still be added is a sense of “what’s popular”—based for example on reading all that content on the web. But then—underneath—operating with computational language means that something like ChatGPT has immediate and fundamental access to what amount to ultimate tools for making use of potentially irreducible computations. And that makes it a system that can not only “generate reasonable text”, but can expect to work out whatever can be worked out about whether that text actually makes “correct” statements about the world—or whatever it’s supposed to be talking about.
 
-## So … What Is ChatGPT Doing, and Why Does It Work?
+## So … What Is ChatGPT Doing, and Why Does It Work? ^so-what-is-chatgpt
 
 The basic concept of ChatGPT is at some level rather simple. Start from a huge sample of human-created text from the web, books, etc. Then train a neural net to generate text that’s “like this”. And in particular, make it able to start from a “prompt” and then continue with text that’s “like what it’s been trained with”.
 
@@ -780,38 +791,19 @@ What ChatGPT does in generating text is very impressive—and the results are us
 
 When it comes to training (AKA learning) the different “hardware” of the brain and of current computers (as well as, perhaps, some undeveloped algorithmic ideas) forces ChatGPT to use a strategy that’s probably rather different (and in some ways much less efficient) than the brain. And there’s something else as well: unlike even in typical algorithmic computation, ChatGPT doesn’t internally “have loops” or “recompute on data”. And that inevitably limits its computational capability—even with respect to current computers, but definitely with respect to the brain.
 
-It’s not clear how to “fix that” and still maintain the ability to train the system with reasonable efficiency. But to do so will presumably allow a future ChatGPT to do even more “brain-like things”. Of course, there are plenty of things that brains don’t do so well — particularly involving what amount to irreducible computations. And for these both brains and things like ChatGPT have to seek “outside tools”—like [Wolfram Language](https://www.wolfram.com/language/).
+It’s not clear how to “fix that” and still maintain the ability to train the system with reasonable efficiency. But to do so will presumably allow a future ChatGPT to do even more “brain-like things”. Of course, there are plenty of things that brains don’t do so well—particularly involving what amount to irreducible computations. And for these both brains and things like ChatGPT have to seek “outside tools”—like [Wolfram Language](https://www.wolfram.com/language/).
 
 But for now it’s exciting to see what ChatGPT has already been able to do. At some level it’s a great example of the fundamental scientific fact that large numbers of simple computational elements can do remarkable and unexpected things. But it also provides perhaps the best impetus we’ve had in two thousand years to understand better just what the fundamental character and principles might be of that central feature of the human condition that is human language and the processes of thinking behind it.
 
-## Thanks
+::::hide
+## Thanks ^thanks
 
 I’ve been following the development of neural nets now for about 43 years, and during that time I’ve interacted with many people about them. Among them—some from long ago, some from recently, and some across many years—have been: Giulio Alessandrini, Dario Amodei, Etienne Bernard, Taliesin Beynon, Sebastian Bodenstein, Greg Brockman, Jack Cowan, Pedro Domingos, Jesse Galef, Roger Germundsson, Robert Hecht-Nielsen, Geoff Hinton, John Hopfield, Yann LeCun, Jerry Lettvin, Jerome Louradour, Marvin Minsky, Eric Mjolsness, Cayden Pierce, Tomaso Poggio, Matteo Salvarezza, Terry Sejnowski, Oliver Selfridge, Gordon Shaw, Jonas Sjöberg, Ilya Sutskever, Gerry Tesauro and Timothee Verdier. For help with this piece, I’d particularly like to thank Giulio Alessandrini and Brad Klee.
 
-## Additional Resources
+:::callout {title="Additional Resources" tone="neutral"}
+- [“Machine Learning for Middle Schoolers” »](https://writings.stephenwolfram.com/2017/05/machine-learning-for-middle-schoolers/)
+- _[Introduction to Machine Learning »](https://www.wolfram.com/language/introduction-machine-learning/)_
+- [Wolfram U Machine Learning Courses »](https://www.wolfram.com/wolfram-u/courses/catalog/?topic=machine-learning)
+:::
 
-[“Machine Learning for Middle Schoolers” »](https://writings.stephenwolfram.com/2017/05/machine-learning-for-middle-schoolers/)
-
-*[Introduction to Machine Learning »](https://www.wolfram.com/language/introduction-machine-learning/)*
-
-[Wolfram U Machine Learning Courses »](https://www.wolfram.com/wolfram-u/courses/catalog/?topic=machine-learning)
-
-DOI:
-
-10.31855/bc47ee6b-75c
-
-Stephen Wolfram (2023), "What Is ChatGPT Doing... and Why Does It Work?," Stephen Wolfram Writings. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
-
-Text
-
-Stephen Wolfram (2023), "What Is ChatGPT Doing... and Why Does It Work?," Stephen Wolfram Writings. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
-
-CMS
-
-Wolfram, Stephen. "What Is ChatGPT Doing... and Why Does It Work?." Stephen Wolfram Writings. February 14, 2023. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
-
-APA
-
-Wolfram, S. (2023, February 14). What is ChatGPT doing... and why does it work?. Stephen Wolfram Writings. writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work.
-
-Posted in: , ,
+::::

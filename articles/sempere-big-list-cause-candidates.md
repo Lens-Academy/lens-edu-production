@@ -15,4 +15,11 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 {>>TODO: Licensed content<<}

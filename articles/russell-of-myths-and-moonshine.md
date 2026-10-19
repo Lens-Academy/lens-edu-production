@@ -1,6 +1,6 @@
 ---
 title: "Of Myths And Moonshine"
-author: "Stuart Russell"
+author: [Stuart Russell](https://en.wikipedia.org/wiki/Stuart_J._Russell)
 source_url: "https://www.edge.org/conversation/the-myth-of-ai#26015"
 published: 2014
 created: 2026-08-22

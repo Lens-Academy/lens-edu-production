@@ -9,7 +9,20 @@ accessed: 2026-07-02
 description: "A new paper on AI control for agents."
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-03
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-03
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 We have released a new paper, _[Ctrl-Z: Controlling AI Agents via Resampling](https://arxiv.org/abs/2504.10374)_. This is the largest and most intricate study of control techniques to date: that is, techniques that aim to prevent catastrophic failures even if egregiously misaligned AIs attempt to subvert the techniques. We extend control protocols to a more realistic, multi-step setting, develop novel _resample protocols_ that outperform all existing control protocols, and study many aspects of control techniques in more detail than prior work. In this blog post, we summarize the main takeaways and lessons learned from our work.
 
@@ -19,11 +32,7 @@ Here’s the abstract of the paper:
 
 This paper builds heavily on Redwood’s first paper on control evaluations, _[AI Control: Improving Safety Despite Intentional Subversion](https://arxiv.org/abs/2312.06942)._ If you haven’t read that paper, or are new to AI control, we think you’d get more value out of this post after reading it, along with _[The case for ensuring that powerful AIs are controlled](https://www.alignmentforum.org/posts/kcKrE9mzEHrdqtDpE/the-case-for-ensuring-that-powerful-ais-are-controlled)_ (a more extensive reading list can be found [here](https://www.redwoodresearch.org/reading-list)). Buck Shlegeris also talks about our new paper, and the core ideas of AI control more broadly, in [his recent interview on the 80,000 Hours podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/).
 
-[
-
-![](https://substackcdn.com/image/fetch/$s_!_JD3!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa4b0f84-2966-4f41-9547-254dbfe3bfdc_1896x936.jpeg)
-
-](https://substackcdn.com/image/fetch/$s_!_JD3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa4b0f84-2966-4f41-9547-254dbfe3bfdc_1896x936.jpeg)
+![](https://substackcdn.com/image/fetch/\$s_!_JD3!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa4b0f84-2966-4f41-9547-254dbfe3bfdc_1896x936.jpeg)
 
 This work was conducted by: Aryan Bhatt, Cody Rushing, Adam Kaufman, Tyler Tracy, Vasil Georgiev, David Matolcsi, Akbir Khan, and Buck Shlegeris.
 

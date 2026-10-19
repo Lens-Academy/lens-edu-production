@@ -11,7 +11,14 @@ tags:
   - "article-importer"
 ---
 
-[METR’s frontier time horizons](https://metr.org/time-horizons/) are doubling every few months, providing substantial evidence that AI will soon be able to automate many tasks or even jobs. But per-task inference costs have also risen sharply, and automation requires AI labor to be affordable, not just possible.[^1] Many people look at the rising compute bills behind frontier models and conclude that automation will soon become unaffordable.
+%%
+Add discussion note here:
+
+...
+
+%%
+
+[METR’s frontier time horizons](https://metr.org/time-horizons/) are doubling every few months, providing substantial evidence that AI will soon be able to automate many tasks or even jobs. But per-task inference costs have also risen sharply, and automation requires AI labor to be affordable, not just possible.[^note-woodruff-1] Many people look at the rising compute bills behind frontier models and conclude that automation will soon become unaffordable.
 
 I think this misreads the data. The rise in inference cost [reflects models completing longer tasks, not models becoming more expensive relative to the human labor](https://blog.redwoodresearch.org/p/distinguish-between-inference-scaling) they replace. Current frontier models complete tasks at their 50% reliability horizon for roughly 3% of human cost, and this hasn’t increased as capabilities have improved. So, cost isn't an additional bottleneck beyond capability, and we should expect to see automation at roughly the time predicted by METR's capability trendlines.
 
@@ -34,27 +41,27 @@ All figures in this article were generated with code that can be found [here](ht
 
 ## Evidence from METR
 
-In this post, I analyze publicly available [time horizon data from METR](https://github.com/METR/eval-analysis-public). I calculate cost ratio by estimating AI inference cost from token count (using OpenRouter pricing) and dividing by the human cost for each task provided by in the dataset. All calculations are performed using METR’s task weighting. I made some modeling assumptions to fill gaps in the METR dataset (see footnote).[^2] These assumptions shouldn’t affect my overall conclusions, because they shouldn’t significantly affect the trend across models.
+In this post, I analyze publicly available [time horizon data from METR](https://github.com/METR/eval-analysis-public). I calculate cost ratio by estimating AI inference cost from token count (using OpenRouter pricing) and dividing by the human cost for each task provided by in the dataset. All calculations are performed using METR’s task weighting. I made some modeling assumptions to fill gaps in the METR dataset (see footnote).[^note-woodruff-2] These assumptions shouldn’t affect my overall conclusions, because they shouldn’t significantly affect the trend across models.
 
 My analysis has important limitations, which I discuss after presenting evidence.
 
 ## Cost ratio at models’ 50% time horizon isn’t increasing
 
-To investigate whether cost ratios rise as models improve, I examine the cost ratio at each model’s 50% reliability time horizon. For each model, I select tasks that the model successfully completes with lengths between 0.79 times and 1.29 times the calculated time horizon (which is plus or minus 0.1 orders of magnitude).[^3] I graph the median cost ratio in the selected set of tasks.
+To investigate whether cost ratios rise as models improve, I examine the cost ratio at each model’s 50% reliability time horizon. For each model, I select tasks that the model successfully completes with lengths between 0.79 times and 1.29 times the calculated time horizon (which is plus or minus 0.1 orders of magnitude).[^note-woodruff-3] I graph the median cost ratio in the selected set of tasks.
 
-![](https://substackcdn.com/image/fetch/$s_!Fa3K!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!Fa3K!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F29b3b408-cf06-4660-8a3b-86012b4e7eb7_1600x985.png)
 
 Figure 1: Median cost ratio of successful completions near each model’s 50% time horizon (between 0.79x and 1.29x the time horizon), with interquartile range. As time horizons increase from minutes to hours across successive models, cost ratios remain well below 1 (dashed line), with no upward trend.
 
 Cost ratios show no upward trend across models, and remain well below 1. As models’ 50% time horizon increases exponentially, companies can cheaply use them to complete longer tasks.
 
-I filter for passing tasks to show that cost isn’t an additional limitation on top of capabilities. If successful tasks are cost-effective, then companies can set a low cost cap and still capture most successes. One might be concerned that this underestimates costs, because models tend to succeed at cheap tasks. But even at the 80% time horizon, where models complete the majority of tasks, cost ratios remain well below 1 (figure B3). Including failures doesn’t change this (figure B4).[^4] This means companies can profitably automate a broad share of tasks, not just a narrow cheap subset.
+I filter for passing tasks to show that cost isn’t an additional limitation on top of capabilities. If successful tasks are cost-effective, then companies can set a low cost cap and still capture most successes. One might be concerned that this underestimates costs, because models tend to succeed at cheap tasks. But even at the 80% time horizon, where models complete the majority of tasks, cost ratios remain well below 1 (figure B3). Including failures doesn’t change this (figure B4).[^note-woodruff-4] This means companies can profitably automate a broad share of tasks, not just a narrow cheap subset.
 
 ## Time horizons improvements aren’t driven by expensive long tasks
 
-One might respond to figure 1 by arguing that even if cost ratios _at_ each model’s 50% time horizon aren’t increasing, improvements to those 50% time horizons come from successes on long tasks with high cost ratios. If this were true, we’d expect cost ratios to rise with task length among successfully completed tasks. I show that’s false: among successful tasks, cost ratios don’t rise with task length.[^5]
+One might respond to figure 1 by arguing that even if cost ratios _at_ each model’s 50% time horizon aren’t increasing, improvements to those 50% time horizons come from successes on long tasks with high cost ratios. If this were true, we’d expect cost ratios to rise with task length among successfully completed tasks. I show that’s false: among successful tasks, cost ratios don’t rise with task length.[^note-woodruff-5]
 
-![](https://substackcdn.com/image/fetch/$s_!9B2i!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!9B2i!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdb51483d-9a83-43fe-88d7-b86ffb1a1996_1600x985.png)
 
 Figure 2: Cost ratio by task duration for successful attempts only (excluding tasks under 1.5 minutes), across a selection of models. The shaded region shows the weighted interquartile range. Cost ratios do not increase with task length, they decline, though this likely reflects a selection effect where models only succeed on relatively cheap long tasks.
 
@@ -66,21 +73,21 @@ Another way to examine the affordability of AI progress is to ask how much progr
 
 I model the affordable 50% time horizon, the maximum task length at which models have a greater than 50% chance of both completing a task and doing so under a given cost ratio. If progress is fast at a low cost ratio, then we can expect that AIs will soon be able to cheaply complete long tasks. I test a range of caps, from 1/4x to 1/32x human cost, to see whether tighter budgets substantially slow the trend.
 
-I model affordability and passing separately. I fit a logistic curve to the pass rate as a function of task length, and a separate logistic [^6] to the probability that any passing task is affordable. I do this because pass rate falls with task length, but affordability increases (see figure 2). Fitting a single logistic curve would fail to capture these opposing trends.
+I model affordability and passing separately. I fit a logistic curve to the pass rate as a function of task length, and a separate logistic [^note-woodruff-6] to the probability that any passing task is affordable. I do this because pass rate falls with task length, but affordability increases (see figure 2). Fitting a single logistic curve would fail to capture these opposing trends.
 
 Multiplying the pass rate logistic and affordability logistic gives the probability that a task at some length will both pass and be affordable:
 
-\\(P(\\text{pass } \\& \\text{ afford}) = P(\\text{afford} \\mid \\text{pass}) \\cdot P(\\text{pass})\\)
+$P(\text{pass } \& \text{ afford}) = P(\text{afford} \mid \text{pass}) \cdot P(\text{pass})$
 
 The affordable 50% time horizon is the longest task length at which p(pass & afford) is greater than or equal to 50%.
 
-![](https://substackcdn.com/image/fetch/$s_!hkIM!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png)
+![](https://substackcdn.com/image/fetch/$s_!hkIM!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb78be3d6-3642-4d93-a00c-c0dda2d43560_1600x1200.png)
 
 Figure 3: Factored model for Claude 4 Opus at four cost thresholds (1/32x, 1/16x, 1/8x, 1/4x human cost). Red dots show failed or over-cost tasks, while green dots show passed and affordable tasks. Each panel decomposes the affordable pass rate (red) into pass probability (blue) and affordability given passing (green dashed). The dashed vertical line marks the affordable 50% time horizon. Tighter cost constraints reduce the horizon only modestly.
 
 At different maximum cost ratios, the doubling times are reliably similar.
 
-![](https://substackcdn.com/image/fetch/$s_!ZE8h!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png)
+![](https://substackcdn.com/image/fetch/$s_!ZE8h!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9b066f3-8694-479b-adef-31d8ce9d7c19_1600x1109.png)
 
 Figure 4: Affordable 50% time horizon over time after 2024 at four cost thresholds: unlimited, 1/4x, 1/8x, and 1/32x human cost. Doubling times range from 3.0 to 3.3 months across thresholds, with high R² values throughout. Stricter cost constraints filter out some models but do not substantially slow the trend.
 
@@ -90,13 +97,13 @@ Stricter cost thresholds filter out some models, but enough recent models have c
 
 This data has some important weaknesses for the analysis I performed above:
 
--   AIs may disproportionately succeed on cheaper tasks at any given length, which would mean the cost ratios I observe reflect the cheapest subset rather than a representative workload. I minimize the effect this has on my results by focusing on trends in cost ratios rather than absolute levels, and by examining cost ratios at higher reliability thresholds where the selection effect is weakened.[^7]
+-   AIs may disproportionately succeed on cheaper tasks at any given length, which would mean the cost ratios I observe reflect the cheapest subset rather than a representative workload. I minimize the effect this has on my results by focusing on trends in cost ratios rather than absolute levels, and by examining cost ratios at higher reliability thresholds where the selection effect is weakened.[^note-woodruff-7]
     
 -   Models’ primary objective in these benchmarks is to complete tasks rather than minimize costs. My approach assumes these tasks were completed at the minimum cost, but some tasks may have been solvable at lower cost (e.g., with different prompting). As a result, I might significantly overestimate the costs of some tasks compared to scaffolding or prompting to optimize for cost.
     
 -   METR notes that [scaffolding differences](https://evaluations.metr.org/gpt-5-1-codex-max-report/) make cost comparisons between models difficult. Unfortunately, I couldn’t find data that holds scaffolding fixed, so there isn’t an easy way to correct this. However, scaffolding differences would need to change costs by manyfold to produce a noticeable effect on the cost trend.
     
--   AIs might have advantages on benchmark tasks because of overfitting, which could drive down absolute costs. But this would only affect the trends I observe if overfitting disproportionately reduces costs at longer or shorter time horizons, and I see no reason to expect that.[^8]
+-   AIs might have advantages on benchmark tasks because of overfitting, which could drive down absolute costs. But this would only affect the trends I observe if overfitting disproportionately reduces costs at longer or shorter time horizons, and I see no reason to expect that.[^note-woodruff-8]
     
 
 I think that these may mildly influence my results, but are unlikely to change overall trends.
@@ -125,7 +132,7 @@ Toby Ord [analyzed the same issue](https://www.tobyord.com/writing/hourly-costs-
 
 Ord’s results come from his analysis of this graph, [released by METR](https://evaluations.metr.org/gpt-5-report/#time-horizon-measurement) (with his annotations).
 
-![](https://substackcdn.com/image/fetch/$s_!T74S!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png)
+![](https://substackcdn.com/image/fetch/$s_!T74S!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbe307b24-e739-4127-a0e7-9b59854d3a22_1350x750.png)
 
 Figure A1: Comparison of time horizon achieved by token cost used for different models. Each model is run once with a constant token budget, and the performance at each cost threshold is calculated by counting all unfinished runs as failures. Costs for o3 and GPT-5 are approximated using cost data for OpenAI o1. Toby Ord has added saturation point annotations to the figure, with diagonal lines indicating a flat hourly cost.
 
@@ -133,21 +140,21 @@ Ord uses this graph to find the hourly cost of AIs at their “saturation point�
 
 I don’t think Ord’s methodology calculates the real hourly AI cost for any set of tasks. Ord calculates hourly cost using the following method for the saturation point:
 
-\\(\\text{Hourly cost} = \\frac{\\text{per-task budget at saturation point}}{\\text{50% time horizon at saturation point}}\\)
+**Hourly cost** = per-task budget at saturation point / 50% time horizon at saturation point
 
 Where the per-task budget is the maximum that can be spent on any individual task.
 
 For example, my data shows GPT-5 succeeds on 1-2 hour tasks at a median cost of $1.29, but Ord’s method requires a $10+ budget to reach a time horizon in that range. The reason is that the 50% time horizon at the saturation point is influenced by passing tasks significantly longer than the horizon itself (see figure A2). So the per-task budget must be large enough to pay for the most expensive task necessary to reach the saturation point, which has a high absolute cost even if its hourly cost is low. Dividing this inflated budget by the shorter 50% time horizon produces an inflated hourly cost. In effect, hourly cost is set by the price of passing a 4-hour task, divided by a 1.6-hour horizon.
 
-![](https://substackcdn.com/image/fetch/$s_!JhSf!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c6596a-102c-4068-87b9-80c29906da89_1286x1058.png)
+![](https://substackcdn.com/image/fetch/$s_!JhSf!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c6596a-102c-4068-87b9-80c29906da89_1286x1058.png)
 
 Figure A2: As the cost cap rises, GPT-5’s horizon grows from ~30s to ~3.5h. The bottom panel decomposes this growth by counterfactual attribution: at each cost step, I remove each duration bucket’s newly-passed runs and refit the logistic to measure its share of the p50 shift. Early growth (under $1) is driven by short tasks (<4m, 4-16m). Above $10, 4-16h tasks (purple) dominate; expensive successes on very long tasks are what push the horizon from ~2h toward its ~3.5h plateau. (My updated data has a different time horizon than in Figure A1, but it matches METR’s updated time horizon.)
 
-![](https://substackcdn.com/image/fetch/$s_!ArpZ!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a571ec1-8225-4865-8fd0-391afc0a98ed_1481x881.png)
+![](https://substackcdn.com/image/fetch/$s_!ArpZ!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a571ec1-8225-4865-8fd0-391afc0a98ed_1481x881.png)
 
 Figure A3: Dividing each model’s required budget by its time horizon gives an implied hourly rate. Ord’s method implies $5–59/hr across models (red) at their overall 50% time horizon, but the actual weighted mean and median per-task hourly costs of successful tasks near each model’s horizon duration are much lower (orange, green). The overstatement ranges from 9–64x against the median. Error bars show 90% bootstrap confidence intervals. I have ignored saturation for simplicity, and simply find the cost necessary to reach 95% of a model’s unrestricted 50% time horizon.
 
-This leads to significant overestimation of absolute costs, possibly by an order of magnitude or more, and it is sufficiently noisy (overestimation from 9x to 64x) that it’s also difficult to draw conclusions about trends.[^9]
+This leads to significant overestimation of absolute costs, possibly by an order of magnitude or more, and it is sufficiently noisy (overestimation from 9x to 64x) that it’s also difficult to draw conclusions about trends.[^note-woodruff-9]
 
 I think there are other, more minor reasons to prefer my analysis to Ord’s:
 
@@ -164,38 +171,38 @@ I think there are other, more minor reasons to prefer my analysis to Ord’s:
 
 I show that the overall trend of cost ratio versus time horizon doesn’t depend much on whether I include tasks with time horizons further than the model’s 50% time horizon.
 
-![](https://substackcdn.com/image/fetch/$s_!TtJT!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c4a6a2-ff83-46fb-b8af-54086185e00a_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!TtJT!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F43c4a6a2-ff83-46fb-b8af-54086185e00a_1600x985.png)
 
 Figure B1: Same as Figure 1 but with a narrower task selection band (±0.05 OOM). The trend is unchanged.
 
-![](https://substackcdn.com/image/fetch/$s_!_E6k!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095ee48-540c-4b71-bcdc-cde2d0a02857_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!_E6k!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2095ee48-540c-4b71-bcdc-cde2d0a02857_1600x985.png)
 
 Figure B2: Same as Figure 1 but with a wider task selection band (±0.2 OOM). The trend is unchanged.
 
 **80% time horizon**
 
-![](https://substackcdn.com/image/fetch/$s_!H5Tp!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c803a5-aab4-48ff-82d6-4b3b6de29b7e_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!H5Tp!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F82c803a5-aab4-48ff-82d6-4b3b6de29b7e_1600x985.png)
 
 Figure B3: Same as Figure 1 but measured at each model’s 80% time horizon. Cost ratios remain below human cost with no upward trend, though o1-preview and o1 are notably more expensive at this threshold.
 
 **Including failures**
 
-![](https://substackcdn.com/image/fetch/$s_!quUa!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120f2d0a-df83-4dbf-b908-a03f72cf94f7_1600x985.png)
+![](https://substackcdn.com/image/fetch/$s_!quUa!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F120f2d0a-df83-4dbf-b908-a03f72cf94f7_1600x985.png)
 
 Figure B4: Same as Figure 1 but including failed attempts in the cost calculation. Median cost ratios shift upward for reasoning models (o1-preview, o1, o3) that spend heavily even on failures, while most other models remain largely unchanged.
 
 ## Appendix C: 80% affordable time horizon
 
-![](https://substackcdn.com/image/fetch/$s_!eqdo!,w_424,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c189420-a551-4376-aab5-75ebe5f9d699_1600x1109.png)
+![](https://substackcdn.com/image/fetch/$s_!eqdo!,w_1200,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1c189420-a551-4376-aab5-75ebe5f9d699_1600x1109.png)
 
 Figure C1: Same as Figure 3 but at the 80% reliability threshold. Doubling times (2.8–3.1 months) are similar across cost thresholds, though stricter thresholds filter out more models, leaving fewer data points.
 
-[^1]: For some applications (e.g., physically dangerous or secretive ones), AI might be used to replace humans even if it is more expensive than them. I still think AI labor being expensive would substantially slow adoption in many areas.
-[^2]: For METR’s data, I don’t have exact inference costs for most models, so I estimate cost from each run’s total token count multiplied by the simple average of that model’s per-token input and output prices on OpenRouter. Note that OpenRouter prices can differ from direct API prices (e.g. Claude 3.5 Sonnet is $6/$30 per million tokens on OpenRouter vs $3/$15 on Anthropic’s API). Because the data only records an aggregate token count (no input/output breakdown), this assumes a roughly equal split between input and output tokens. I tested this assumption against a few tasks for which METR recorded the exact cost and found it to be a reasonable approximation. Pricing was not available on OpenRouter for a few models: for Claude 3 Opus I used Anthropic’s historical API pricing, for o1-preview and Claude 3.5 Sonnet (Old) I substituted pricing from their current-generation equivalents (o1 and Claude 3.5 Sonnet (New), respectively). Some runs for GPT-4 0314 and o1-preview lack token counts and are excluded from the cost analysis.
-[^3]: The overall shape of the graph isn’t very sensitive to this parameter. I show this in Appendix B.
-[^4]: Failed attempts are harder to interpret, since a failure doesn't tell us how many tokens would have been needed to succeed, but the absence of any upward trend even with failures included suggests selection isn't masking rising costs.
-[^5]: I exclude tasks under 1 minute 30 seconds because they are predominantly run on a different scaffold (swaa/generate) that is less comparable to the agentic scaffolds used for longer tasks. I also do this for figures 3 and 4.
-[^6]: I tried many fits, and the logistic had the best accuracy on withheld datapoints.
-[^7]: To avoid selection effects, one might compare models only on tasks they all complete successfully. But weak models only complete very short tasks, so this would only tell us about costs on 5-minute tasks. I'm instead interested in costs at the frontier of each model's capabilities.
-[^8]: Thanks to Gordon Seidoh Worley for this observation. From [their comment](https://www.lesswrong.com/posts/rRbDNQLfihiHbXytf/distinguish-between-inference-scaling-and-larger-tasks-use?commentId=RScDKRsgJBJSwz4rz).
-[^9]: Ord also calculates “sweet spots”, where models are maximally cost-effective, using a similar methodology. Although the effect might be smaller, I suspect something similar would apply to the sweet spot analysis, because Ord’s method still inflates costs at shorter time horizons.
+[^note-woodruff-1]: For some applications (e.g., physically dangerous or secretive ones), AI might be used to replace humans even if it is more expensive than them. I still think AI labor being expensive would substantially slow adoption in many areas.
+[^note-woodruff-2]: For METR’s data, I don’t have exact inference costs for most models, so I estimate cost from each run’s total token count multiplied by the simple average of that model’s per-token input and output prices on OpenRouter. Note that OpenRouter prices can differ from direct API prices (e.g. Claude 3.5 Sonnet is $6/$30 per million tokens on OpenRouter vs $3/$15 on Anthropic’s API). Because the data only records an aggregate token count (no input/output breakdown), this assumes a roughly equal split between input and output tokens. I tested this assumption against a few tasks for which METR recorded the exact cost and found it to be a reasonable approximation. Pricing was not available on OpenRouter for a few models: for Claude 3 Opus I used Anthropic’s historical API pricing, for o1-preview and Claude 3.5 Sonnet (Old) I substituted pricing from their current-generation equivalents (o1 and Claude 3.5 Sonnet (New), respectively). Some runs for GPT-4 0314 and o1-preview lack token counts and are excluded from the cost analysis.
+[^note-woodruff-3]: The overall shape of the graph isn’t very sensitive to this parameter. I show this in Appendix B.
+[^note-woodruff-4]: Failed attempts are harder to interpret, since a failure doesn't tell us how many tokens would have been needed to succeed, but the absence of any upward trend even with failures included suggests selection isn't masking rising costs.
+[^note-woodruff-5]: I exclude tasks under 1 minute 30 seconds because they are predominantly run on a different scaffold (swaa/generate) that is less comparable to the agentic scaffolds used for longer tasks. I also do this for figures 3 and 4.
+[^note-woodruff-6]: I tried many fits, and the logistic had the best accuracy on withheld datapoints.
+[^note-woodruff-7]: To avoid selection effects, one might compare models only on tasks they all complete successfully. But weak models only complete very short tasks, so this would only tell us about costs on 5-minute tasks. I'm instead interested in costs at the frontier of each model's capabilities.
+[^note-woodruff-8]: Thanks to Gordon Seidoh Worley for this observation. From [their comment](https://www.lesswrong.com/posts/rRbDNQLfihiHbXytf/distinguish-between-inference-scaling-and-larger-tasks-use?commentId=RScDKRsgJBJSwz4rz).
+[^note-woodruff-9]: Ord also calculates “sweet spots”, where models are maximally cost-effective, using a similar methodology. Although the effect might be smaller, I suspect something similar would apply to the sweet spot analysis, because Ord’s method still inflates costs at shorter time horizons.

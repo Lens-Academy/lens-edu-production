@@ -1,8 +1,7 @@
 ---
 title: "\"Carefully Bootstrapped Alignment\" is organizationally hard"
 source_url: "https://www.lesswrong.com/posts/thkAtqoQwN6DtaiGT/carefully-bootstrapped-alignment-is-organizationally-hard"
-author:
-  - "Raemon"
+author: [Raemon](https://www.lesswrong.com/users/raemon)
 published: 2023-03-17
 created: 2026-02-27
 description: "In addition to technical challenges, plans to safely develop AI face lots of organizational challenges. If you're running an AI lab, you need a concrete plan for handling that."
