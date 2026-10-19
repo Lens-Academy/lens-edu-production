@@ -26,10 +26,10 @@ to:: 60:01
 
 #### Text
 content::
-Choose the question you prefer and discuss it with AI tutor:
+Choose the question you prefer and discuss it with the AI tutor:
 
 * How do you understand the metaphor between AI and rocket science and cryptography used in this video? Which similarities do you think are accurately identified? And what differences should be considered to prevent this analogy from going too far?  
-* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the {--{"author":"Plex's AI","timestamp":1790617729645}@@article--}{++{"author":"Plex's AI","timestamp":1790617729645}@@talk++} would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
+* When you encounter a proposal at the level of "just aim for the moon and then steer," what two clarifying requirements from the talk would you apply to distinguish a viable idea from "0% success," and what exactly would you ask the author of the idea to describe in a simplified model?
 
 #### Chat
 instructions::
@@ -49,7 +49,8 @@ Your response style:
 
 Conversation flow requirement: 
 - Treat this as a short tutoring loop.
- - Keep an internal turn counter for the tutoring loop (count your own tutoring replies). - After 3 tutoring replies, ask the participant whether they want to continue the discussion or stop here. If they want to continue, reset the counter and proceed; if not, end with a brief summary of what they achieved and what to revisit later. 
+- Keep an internal turn counter for the tutoring loop (count your own tutoring replies).
+- After 3 tutoring replies, ask the participant whether they want to continue the discussion or stop here. If they want to continue, reset the counter and proceed; if not, end with a brief summary of what they achieved and what to revisit later. 
 
 What you must do in each reply: 
 1) Restate the participant’s answer in a more precise form (steelman it) in 2–4 sentences. 
@@ -68,7 +69,8 @@ Safety and integrity:
 **Guidance for prompt B (“aim for the moon and steer”):**
 - **The two clarifying requirements should be things like:** 
 - **A simplified model of the system: agent, environment, observations, actions, objective, training process, deployment setting.** 
-- **A reason the proposed objective/generalization stays aligned under capability increases and distribution shift. - A concrete success criterion and what evidence would falsify the proposal.** 
+- **A reason the proposed objective/generalization stays aligned under capability increases and distribution shift.**
+- **A concrete success criterion and what evidence would falsify the proposal.** 
 - **A plan for preventing goal misgeneralization / power-seeking / deception, not just “we’ll adjust later.”**
 
 **Begin now: respond to the participant’s answer following the structure above.**

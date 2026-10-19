@@ -8,7 +8,7 @@ title: The power of intelligence
 ---
 #### Text
 content::
-Intelligence can seem like a collection of various distinct skills when comparing individual humans, and yet all of them are found almost exclusively in humans as opposed to other animals. Here is a brief meditation on the organ that made it all possible. A superpower that has defeated brawn speed and claws over the course of an evolutionary blink of an eye.
+When we compare individual humans, intelligence can seem like a collection of distinct skills, and yet all of those skills are found almost exclusively in humans rather than in other animals. Here is a brief meditation on the organ that made it all possible: a superpower that has defeated brawn, speed and claws in an evolutionary blink of an eye.
 
 #### Video
 source:: [[../video_transcripts/rationalanimations-the-power-of-intelligence-an-essay-by-eliezer-yudkowsky]]
@@ -17,7 +17,7 @@ to:: 7:00
 
 #### Text
 content::
-So, will intelligence continue to win the arms-race?
+So, will intelligence continue to win the arms race?
 
 #### Chat
 instructions::
@@ -31,5 +31,5 @@ Discussion topics to explore:
 
 Ask what they found surprising or new. Check if they can explain intelligence in their own words—it's a key concept.
 
-The user just answered the question: So, will intelligence continue to win the arms-race?
+The user just answered the question: So, will intelligence continue to win the arms race?
 

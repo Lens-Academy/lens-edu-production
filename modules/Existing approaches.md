@@ -1,7 +1,7 @@
 ---
 id: e2883472-3994-43a1-88a2-b4f64f70b210
 slug: existing-approaches
-title: "Existing approaches"
+title: "Existing Approaches"
 discussion: https://discordapp.com/channels/1440725236843806762/1470760399438614538
 ---
 
@@ -11,17 +11,18 @@ source:: [[../Learning Outcomes/Comparing alignment research agendas]]
 # Submodule: Welcome
 ## Lens: Welcome
 id:: dc56fe14-2c41-4057-b112-a84c0b2ef303
+sidebar_author:: none
 %% tldr:: AI safety has no agreed definition of the problem it's solving, so the field splinters into competing "agendas." This module maps six of them — and for each, pairs an article making the case with one pushing back, so you can judge the disagreements yourself. %%
 summary_for_tutor:: Welcome lens introducing the Existing Approaches module. Opens with a quote from "A newcomer's guide to the technical AI safety field" explaining that AI safety is pre-paradigmatic, with no consensus on the nature of the alignment problem, so the field is organised around research agendas. States the module covers six agendas (automating alignment, mechanistic interpretability, evals, control, agent foundations, shut it all down), which overlap and don't divide the space cleanly, presenting a supporting and a critiquing article for each.
 reading_minutes:: 5
 
+### Article
+source:: [[../articles/zeshen-a-newcomers-guide-to-the-technical-ai-safety-field]]
+from:: In other words, there is no universally agreed-upon
+to:: or even a portfolio of these problems.
+
 ### Text
 content::
-We want to open this module with the quote from the essay [A newcomer’s guide to the technical AI safety field — AI Alignment Forum](https://www.alignmentforum.org/posts/5rsa37pBjo4Cf9fkE/a-newcomer-s-guide-to-the-technical-ai-safety-field)
->AI safety is a pre-paradigmatic field, which APA defines as:
-> > a science at a primitive stage of development, before it has achieved a paradigm and established a consensus about the true nature of the subject matter and how to approach it.
-> 
-> In other words, there is no universally agreed-upon description of what the alignment problem is. \[...\] It’s not just that the proposed solutions garner plenty of disagreements, the nature of the problem itself is ill-defined and often disagreed among researchers in the field. Hence, the field is centered around various researchers / research organizations and their research agenda, which are built on very different formulations of the problem, or even a portfolio of these problems.
 
 {>>CGL > I could see this needing explaining for the non-rationalist audience. Footnote here?
 
@@ -35,9 +36,9 @@ One influential attempt at structuring the space is the classification proposed 
 In this module, we will focus on 5 directions. The list is deliberately incomplete: in particular, it does not aim to cover governance in a comprehensive way. The boundaries between the directions are also not clean. They frequently overlap, borrow tools from one another, or approach the same underlying phenomena using very different conceptual languages.
 %%
 
-This module covers six of those agendas. Sometimes it is obvious that they are talking about the same piece of reality. Sometimes it is surprisingly hard to even see the common object. Still, this decomposition is useful for a first pass, and it will give us one workable map[^1] for navigating the literature that follows. For each agenda, we’ll look at excerpts from two articles: one that supports the idea and one that critiques it.
+This module covers six of those agendas. For each agenda, we’ll look at one piece making the pitch for it and one describing its challenges and limitations. Feel encouraged to pick only the agendas you are interested in, and skip some agendas entirely.
 
-[^1]: Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. 
+%% Footnote removed with the "workable map" sentence (2026-10-02): Readers who have a better map, particularly for teaching purposes, are strongly encouraged to author an alternative version of this module. %%
 
 # Submodule: Automating Alignment
 ## Lens: (Automating alignment)
