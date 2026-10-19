@@ -2,8 +2,8 @@
 title: "Embedded Agency (full-text version)"
 source_url: "https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version"
 author:
-  - "Scott Garrabrant"
-  - "abramdemski"
+  - [Scott Garrabrant](https://www.lesswrong.com/users/scott-garrabrant)
+  - [abramdemski](https://www.lesswrong.com/users/abramdemski)
 published: 2018-11-15
 created: 2026-03-02
 description: "Suppose you want to build a robot to achieve some real-world goal for you—a goal that requires the robot to learn for itself and figure out a lot of…"

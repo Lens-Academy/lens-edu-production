@@ -1,8 +1,7 @@
 ---
 title: "We Need A ‘Science of Evals’"
 source_url: "https://www.apolloresearch.ai/blog/we-need-a-science-of-evals/"
-author:
-  - "Chris"
+author: [Chris](https://www.apolloresearch.ai/)
 published: 2024-01-22
 created: 2026-02-27
 description: "In this post, we argue that if AI model evaluations (evals) want to have meaningful real-world impact, we need a “Science of Evals”, i.e. the field needs rigorous scientific processes that provide more confidence in evals methodology and results."
@@ -35,7 +34,9 @@ In contrast, even everyday products like shoes undergo extensive testing, such a
 
 We think model evaluations should aim to get into a similar stage to close the gap between what evals need to do and what they are currently capable of.
 
+:::hide
 This post is a call for action and coordination and not a solution outline. We are interested in collaborating with academics, industry, other third-party auditors, lawmakers, funders, individual contributors, and others to build up the field of Science of Evals and have concrete projects to suggest. If you’re interested, please [reach out](https://www.apolloresearch.ai/contact).
+:::
 
 ## What do we mean by “Science of Evals”?
 
@@ -70,7 +71,7 @@ The mature field should be able to answer questions such as:
 
 ## Current work in the direction of Science of Evals
 
-To convey a better intuitive understanding of what Science of Evals could look like, we list a few papers that we think broadly go in the direction we have in mind. This is not the result of an exhaustive search, so there might be papers that fit our description better–we’re mostly trying to provide a flavor [^note-apollo-evals-apollo-1].
+To convey a better intuitive understanding of what Science of Evals could look like, we list a few papers that we think broadly go in the direction we have in mind. This is not the result of an exhaustive search, so there might be papers that fit our description better–we’re mostly trying to provide a flavor%% [^note-apollo-evals-apollo-1]%%.
 
 1. Many different papers such as [Liang et al., 2022](https://arxiv.org/abs/2211.09110); [Mizrahi et al., 2023](https://arxiv.org/abs/2401.00595); [Scalar et al., 2023](https://arxiv.org/abs/2310.11324) find that different phrasings of the same question can lead to very different results thus suggesting to always evaluate LMs on a set of diverse prompts.
 2. Multiple papers investigate how different ways of structuring an evaluation, e.g. as multiple choice or generative evaluation, can lead to substantially different results, e.g. [Robinson et al., 2022](https://arxiv.org/abs/2210.12353); [Wang et al., 2023](https://arxiv.org/abs/2311.05915); [Savelka et al., 2023](https://arxiv.org/abs/2303.08033), [Khatun et al, 2024](https://arxiv.org/abs/2401.07955#:~:text=We%20analyze%2026%20small%20open,MCQ%20tests%20with%20these%20models). Since model evaluations often try to make statements about the maximal capability of a model, it’s important to be aware of how a question is structured (e.g. discriminative vs. generative evaluation) and worded.
@@ -118,5 +119,5 @@ Note: One way of quantifying aspects of Science of Evals adequately might be ask
 Evals are going to be an important piece of ensuring the safety of AI systems. They enable us to improve our decision-making because they provide important information and are already tied to safety-related decisions, e.g. in RSPs. For evals to be useful for high-stakes decisions, we need to have high trust in the evals process. Evals is a nascent field and we think a “Science of Evals” would greatly accelerate the maturation process of the field and allow us to make higher-confidence statements about the results of evals.  
   
 
-[^note-apollo-evals-apollo-1]: If you think further papers should be added to this list, feel free to contact us.
+%%[^note-apollo-evals-apollo-1]: If you think further papers should be added to this list, feel free to contact us.%%
 [^note-apollo-evals-apollo-2]: We intend to share a more detailed explanation of this idea soon.

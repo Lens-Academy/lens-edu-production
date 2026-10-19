@@ -16,6 +16,13 @@ tags:
   - work-in-progress
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 Bayes' rule or Bayes' theorem is the law of probability governing *the strength of evidence* — the rule saying *how much* to revise our probabilities (change our minds) when we learn a new fact or observe new evidence.
 
 You may want to learn about Bayes' rule if you are: a professional who uses statistics, such as a scientist or doctor; a computer programmer working in machine learning; or a human being.

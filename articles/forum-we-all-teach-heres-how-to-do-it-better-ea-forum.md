@@ -3,6 +3,7 @@ title: "We all teach: here's how to do it better"
 author:
   - "Michael Noetel"
 source_url: "https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better"
+allowUnreachableUrl: true
 published: 2022-09-30
 created: 2026-06-12
 accessed: 2026-06-12
@@ -11,14 +12,21 @@ tags:
   - "article-importer"
 ---
 
-[_Epistemic status_](https://forum.effectivealtruism.org/posts/bbtvDJtb6YwwWtJm7/epistemic-status-an-explainer-and-some-thoughts)[^1]: _There's consistent meta-analytic evidence for the interventions and models presented here. Still, that research is only one piece of your_ [_evidence-based decision-making._](https://www.frontiersin.org/articles/10.3389/feduc.2020.583157/full) _I've been directive for brevity's sake. Use your judgement, adapt to the context, and let me know where you disagree in the comments._
+%%
+Add discussion note here:
+
+...
+
+%%
+
+[_Epistemic status_](https://forum.effectivealtruism.org/posts/bbtvDJtb6YwwWtJm7/epistemic-status-an-explainer-and-some-thoughts)[^note-forum-1]: _There's consistent meta-analytic evidence for the interventions and models presented here. Still, that research is only one piece of your_ [_evidence-based decision-making._](https://www.frontiersin.org/articles/10.3389/feduc.2020.583157/full) _I've been directive for brevity's sake. Use your judgement, adapt to the context, and let me know where you disagree in the comments._
 
 ## Summary: we need to learn to teach better
 
 Education is the #2 [focus area](https://www.centreforeffectivealtruism.org/strategy) for the Centre for Effective Altruism. Many of us educate, from field building to fundraisers, from coffees to conferences. As a result, I think we can do better by [applying the meta-analyses on what works from educational psychology](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#If_educate_is_the_goal__use_evidence_based_education_strategies). We can use models and strategies that have been shown to work for hundreds of thousands of students, rather than feeling like community building is a whole new paradigm.
 
 *   I think the EA community can make better decisions, and track their progress more effectively, with an [evidence-based theory of change for community building](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#We_need_better_models_of_community_building_so_fewer_people_bounce_off).
-*   One [useful and robustly supported model, self-determination theory](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#Self_determination_theory_is_a_very_well_supported_model_of_how_to_develop_motivation__agency__and_confidence),[^2] suggests we can be more effective if we help community members:
+*   One [useful and robustly supported model, self-determination theory](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#Self_determination_theory_is_a_very_well_supported_model_of_how_to_develop_motivation__agency__and_confidence),[^note-forum-2] suggests we can be more effective if we help community members:
     *   [Feel more competent](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#We_say__educate__don_t_persuade___but_what_s_the_difference__Support_people_s_psychological_needs) by [helping them developing valuable skills using evidence-based teaching strategies](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#If_educate_is_the_goal__use_evidence_based_education_strategies) (rather than focusing so much on knowledge, especially via passive learning)
     *   [Feel more autonomy](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#We_say__educate__don_t_persuade___but_what_s_the_difference__Support_people_s_psychological_needs) by [making learning more meaningful and aligning motivation with their personal values and goals (rather than using quite so much guilt and fear)](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#Educators_that_support_autonomy_tend_to_)
     *   [Feel more connected](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#We_say__educate__don_t_persuade___but_what_s_the_difference__Support_people_s_psychological_needs) by [empathising and accepting their experiences, promoting collaboration, and providing relatable role models.](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-re-all-teachers-learn-to-do-it-better#To_build_a_sense_of_belonging_and_relatedness__educators_can_)
@@ -71,13 +79,13 @@ For those of you who don't care about the causal model, or the evidence, the fol
 
 Community building in EA is a precarious tightrope walk. We want to be truth-seeking but socially accepting. We want to challenge ideas without being adversarial, to push around ideas but not push around people. We want to be able to be avant garde while having many ideas adopted by mainstream institutions. We want to welcome weird thinking without looking so weird that promising people bounce off.
 
-If you're like me, you've seen many promising people bounce off. I've seen committed, vegan medical students who are earning to give bounce off their EA groups. People made Jeremy[^3] feel he wasn't doing enough to help others.
+If you're like me, you've seen many promising people bounce off. I've seen committed, vegan medical students who are earning to give bounce off their EA groups. People made Jeremy[^note-forum-3] feel he wasn't doing enough to help others.
 
 I feel the tension. I want Jeremy to see if he fits direct work too. We want to help people who feel comfortable challenging their career plans. But, we also want value aligned people like Jeremy to feel like they belong. If we don't, then we won't be able to help them challenge those plans.
 
 That EA group was doing all the right _things_. They were tabling, had a fellowship, were running intro events and doing 1:1s. But, I don't think they knew what it meant to do those things well. Some groups measure outcomes: 'people go from table to email list, and from email list to event, from event to fellowship'. But, if we only focus on outcomes then it's hard to understand how to get better at the _process_. Why is Nikola better at tabling than Trevor? A better theory of change would help people know what they should be trying to improve. How do we create highly engaged EAs?
 
-![Image 1](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/txukooavbe2i2edhmrly)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/txukooavbe2i2edhmrly)
 
 If we don't know _why_ some things work, how can we measure if it's working, and how do we choose what to prioritise, or what to change?
 
@@ -105,7 +113,7 @@ Importantly, the evidence for SDT is compelling. Here's an abbreviated list of m
 *   The same patterns show up in [leadership](https://link.springer.com/article/10.1007/s11031-018-9698-y), [health](https://pubmed.ncbi.nlm.nih.gov/26168470/), and [physical activity](https://psycnet.apa.org/record/2019-61785-001). SDT interventions [change how supported people feel](https://www.tandfonline.com/doi/full/10.1080/17437199.2020.1718529). Feeling supported makes people more [motivated, engaged, and happy](https://pubmed.ncbi.nlm.nih.gov/26168470/).
     *   For example, this graph from a [meta-analysis](https://link.springer.com/article/10.1007/s11031-018-9698-y) of 32,780 employees shows SDT at work. Good leaders make their followers feel competent, connected, and in control. Those followers are then more motivated, happier, and perform better.
 
-[![Image 2](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/fkxckfrver8wddesbgs6)](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11031-018-9698-y/MediaObjects/11031_2018_9698_Fig3_HTML.gif?as=webp)
+![](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs11031-018-9698-y/MediaObjects/11031_2018_9698_Fig3_HTML.gif?as=webp)
 
 Understanding SDT helps us know what we're trying to do in community building. We're trying to support people's psychological needs as they learn how to improve the world. If we target those needs, and measure how well we're doing it, we can help people productively and happily do as much good as they can.
 
@@ -119,7 +127,7 @@ Many [donation-solicitation methods involve guilt and pressure to get a short-te
 
 _But,_ these controlled forms of motivation are not what I think we—as a community—would hope for. They are why charity solicitation develops a bad name. They're 'controlled' because we feel motivated by a force that doesn't align with our values. It generally leads to short-term motivation, or even covert resistance.
 
-![Image 3](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/bj8lqfyj65qbijnch70v)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/bj8lqfyj65qbijnch70v)
 
 That's not to say we should _never_ do things that lead to guilt. Extrinsic forms of motivation can provide a strong impetus when it's _also_ value aligned. People use [Beeminder](https://www.beeminder.com/) to provide extrinsic motivation that's aligned with what's important to them (e.g., to exercise). That's very different from the time my mum paid me $10 every time I lost a kilo of weight. Her incentive turned into an excellent money-spinner: I would lose a few kilos, buy a new video game, put the weight back on again, and the cycle would repeat. The problem here was the extrinsic motivations didn't match what was important to me.
 
@@ -131,7 +139,7 @@ It's because these are _autonomously motivating._ _Intrinsic_ motivation is a sp
 
 These better explain why people, for example, might sustainably avoid eating animal products. It's not _fun_ to have a less varied diet, and most people I know don't avoid animal products out of guilt or pressure. People do it because they care about animals and the planet, and want to minimise their impact on both (which is _identified motivation_). Or, they _identify_ with being vegetarian or vegan; that is, it's part of their identity (which is _integrated motivation_). All of these 'autonomous' sources of motivation—identified, integrated, and intrinsic—are sustainable and distinct from extrinsic motivation because they mean the behaviour aligns with your values.
 
-To promote highly engaged EAs, we want people driven to act by these autonomous sources of motivation. We want them to look for the best way to impartially do the most good (and take action on it) because that intellectual project aligns with their personal goals and values.[^4] This framing helps answer some of the controversies in EA already.
+To promote highly engaged EAs, we want people driven to act by these autonomous sources of motivation. We want them to look for the best way to impartially do the most good (and take action on it) because that intellectual project aligns with their personal goals and values.[^note-forum-4] This framing helps answer some of the controversies in EA already.
 
 1. Do we want people to experience guilt in response to the drowning child metaphor? Maybe, but only if the person already sees how EA aligns with their values. If they don't see that alignment, you might get short-term compliance or a hefty dose of resistance.
 2. Do we want people to identify as 'an effective altruist'? Yes, as long as that identity also includes the values of [truth seeking and a scientific mindset](https://www.centreforeffectivealtruism.org/team-values). As outlined in [Scout Mindset](https://www.amazon.com/Scout-Mindset-Perils-Defensive-Thinking/dp/0735217556), [it's true that some identities do cloud our abilities to see the truth](https://www.youtube.com/watch?v=NxqTOm3TzsY), but most agree an [EA identity explicitly involves truth-seeking as a value](https://psyarxiv.com/w52zm). If we discourage people from holding EA identities, we may be turning them away from a powerful source of sustainable motivation. Not using EA as an identity is like not using nuclear power. Yeah, sometimes it causes a meltdown, but most of the time it's safe, low carbon, base-load energy.
@@ -152,7 +160,7 @@ The three most commonly accepted basic psychological needs are:
 
 When we satisfy these needs, we motivate people over the long-term. When we don't we might get short-term compliance, but nothing sustainable.
 
-![Image 4](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/b5zx447bactdjr6efbtj)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/b5zx447bactdjr6efbtj)
 
 If you're having dinner with a friend and they ask you where you donate, you probably have a good feel for their values. If you talk about why you donate to the Long Term Future Fund, but given what you know about them, how they might prefer the [Global Health and Development fund](https://funds.effectivealtruism.org/funds/global-development) or [Top Charities Fund](https://www.givewell.org/maximum-impact-fund), that feels more supportive. You're connecting with them, acknowledging what they value, and giving them a path to effectively achieve those goals.
 
@@ -170,7 +178,7 @@ We could focus on this shared common ground, and helping people better live by t
 
 By being 'need supportive', we can help people feel understood, competent, and empowered. If they feel this way, they are more likely to listen to your ideas. It makes them more likely to take on new beliefs and values (e.g., a more impartial sense of altruism). Then, as they become more aligned, it's easier to support their psychological needs. It creates a virtuous cycle.
 
-![Image 5](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/dz8b4ladzprsyv95mh2x)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/dz8b4ladzprsyv95mh2x)
 
 So, this post aims to outline some gaps between what research says on building long-term motivation, and what sometimes happens in EA events I've been to.
 
@@ -178,7 +186,7 @@ So, this post aims to outline some gaps between what research says on building l
 
 Like many EAs, I found [Peter Singer's Drowning Child thought experiment](https://www.thelifeyoucansave.org.au/child-in-the-pond/) persuasive. It was certainly part of my initial drive toward donating to global poverty, and those donations were central to becoming an EA.
 
-It also took me to a pretty dark place, where I felt I couldn't justify my life decisions or minor purchases, once converted into lives I could have saved. Some EA forum posts even suggested we use this as a persuasive appeal (see the ['currency' described in this post](https://forum.effectivealtruism.org/posts/RmTqKTkjiiPgRTWdL/please-use-art-to-convey-ea); I found the currency too unpalatable to repeat here). It took a few good years of therapy, supportive colleagues, and some quality writing from the EA community[^5] to get me out of that space into something more sustainable.
+It also took me to a pretty dark place, where I felt I couldn't justify my life decisions or minor purchases, once converted into lives I could have saved. Some EA forum posts even suggested we use this as a persuasive appeal (see the ['currency' described in this post](https://forum.effectivealtruism.org/posts/RmTqKTkjiiPgRTWdL/please-use-art-to-convey-ea); I found the currency too unpalatable to repeat here). It took a few good years of therapy, supportive colleagues, and some quality writing from the EA community[^note-forum-5] to get me out of that space into something more sustainable.
 
 I also noticed the downing child metaphor got the hackles up in other people. Yes, I needed to be more tactful with some of them, but with others, they just found the conclusions too demanding to even entertain. I don't think my experiences here are unique. I think they align with the research around motivation.
 
@@ -193,7 +201,7 @@ The problems with guilt or fear appeals are two-fold:
     1. Obsessive passion is where someone is strongly committed to an activity but for controlled reasons (e.g., driven by guilt). [A meta-analysis of 1,308 effect sizes showed obsessive passion was associated with higher burnout, negative affect, anxiety, rumination, and activity/life conflict](https://link.springer.com/article/10.1007/s11031-015-9503-0).
     2. [A meta-analysis of a range of health behaviours found guilt-based motives do lead to positive health behaviours, but lead to negative mental health outcomes](https://journals.sagepub.com/doi/full/10.1177/1745691612447309). Similarly, [experiences of guilt and shame are strongly correlated with depressive symptoms (meta-analysis of 108 studies)](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fa0021466).
 
-Whether we're trying to educate about the importance of the long-term future, the plight of factory farmed animals, or the opportunities to improve global health, there are better alternatives to guilt and fear.[^6] Many of the [core claims of EA are intuitive to most people](https://forum.effectivealtruism.org/posts/WaHJD3Jz29n7QCJiz/what-are-the-key-claims-of-ea-1), for example:
+Whether we're trying to educate about the importance of the long-term future, the plight of factory farmed animals, or the opportunities to improve global health, there are better alternatives to guilt and fear.[^note-forum-6] Many of the [core claims of EA are intuitive to most people](https://forum.effectivealtruism.org/posts/WaHJD3Jz29n7QCJiz/what-are-the-key-claims-of-ea-1), for example:
 
 *   all else being equal, we should do more good rather than less;
 *   science and reason are good methods for identifying what works;
@@ -208,13 +216,15 @@ EA provides some ideas that might be novel to many people, but aligning on the i
 
 ## Using values and avoiding guilt are just _part_ of creating a 'need supportive environment'
 
-We had over [30 world experts in self-determination theory agree on what makes a motivating learning environment.](https://psyarxiv.com/4vrym/)[^7] They agreed on a range of strategies that would have moderate-to-strong improvements to motivation. Expert opinion is relatively [weak evidence](https://en.wikipedia.org/wiki/Hierarchy_of_evidence) but the goal here is to make more concrete what a 'need supportive' environment looks like. I'll focus below on the less obvious ones.
+We had over [30 world experts in self-determination theory agree on what makes a motivating learning environment.](https://psyarxiv.com/4vrym/)[^note-forum-7] They agreed on a range of strategies that would have moderate-to-strong improvements to motivation. Expert opinion is relatively [weak evidence](https://en.wikipedia.org/wiki/Hierarchy_of_evidence) but the goal here is to make more concrete what a 'need supportive' environment looks like. I'll focus below on the less obvious ones.
 
-![Image 6](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/wfo7zvuk2vfhmrmrrq1v)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/wfo7zvuk2vfhmrmrrq1v)
 
 For more detail, I made a short video series talking about how to satisfy these psychological needs. I'll explain the key ideas in the rest of this post, but if you want more, you might find [this playlist of 5 short videos (5 minutes each)](http://bit.ly/PEECtraining) useful, or this one-page summary:
 
-[![Image 7](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/dvi0rzx8a8rxbwmqbnfd)](http://bit.ly/PEECsummary)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/dvi0rzx8a8rxbwmqbnfd)
+
+[Open the PEEC summary](http://bit.ly/PEECsummary)
 
 ### Educators that support autonomy tend to…
 
@@ -224,9 +234,9 @@ For more detail, I made a short video series talking about how to satisfy these 
 *   Explain the real problem in the world you're hoping to help the person solve, how they're going to learn to solve it, and how they'll know they've learned it
     *   The technical term here is ['constructive alignment'](https://en.wikipedia.org/wiki/Constructive_alignment).
 
-![Image 8](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/rokd36ncfdfpyplgn0lf)
+    ![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/rokd36ncfdfpyplgn0lf)
 
-Basically, work backwards from real world problem to the learning objective(s) to the assessment(s) to the learning activity, for example:
+    Basically, work backwards from real world problem to the learning objective(s) to the assessment(s) to the learning activity, for example:
         *   "As you'll learn in this program, AI is likely to become a powerful force in the world, and we don't yet know how to build it safely." (real world problem)
         *   "In this program I want to help you identify whether you think you might fit a career in AI safety." (specific learning objective)
         *   "At the end of the program, you'll have an opportunity to do a 4-week project to test your fit for this kind of work. I will help you craft something that fits your interests." (assessment task)
@@ -270,7 +280,9 @@ Use the hoards of meta-analyses on what improves learning. There are dozens of t
 
 ## If educate is the goal, use evidence-based education strategies
 
-There are many repositories of evidence-based teaching strategies, most of them targeting school children (e.g., [Visible Learning](https://visible-learning.org/), [the Educational Endowment Foundation,](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit) and [Evidence for Learning](https://evidenceforlearning.org.au/the-toolkits/the-teaching-and-learning-toolkit/)). Adult learning can look and feel different from school classrooms. As a result, we've created [a toolkit summarising the meta-analytic evidence for what works in adult learning (usually universities) here](https://www.inspiretoolkit.com.au/evidence-toolkit).[^8] See these links if you want to know [why meta-analyses are important for teaching](https://www.youtube.com/watch?v=xwWQ7JabeIE), how [we tried to make them more accessible](https://www.inspiretoolkit.com.au/about-inspire), and [how to use them in your teaching](https://www.inspiretoolkit.com.au/training). [![Image 10](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/qdpr4tqjkif6exb7jvdc)](https://inspiretoolkit.com.au/)
+There are many repositories of evidence-based teaching strategies, most of them targeting school children (e.g., [Visible Learning](https://visible-learning.org/), [the Educational Endowment Foundation,](https://educationendowmentfoundation.org.uk/education-evidence/teaching-learning-toolkit) and [Evidence for Learning](https://evidenceforlearning.org.au/the-toolkits/the-teaching-and-learning-toolkit/)). Adult learning can look and feel different from school classrooms. As a result, we've created [a toolkit summarising the meta-analytic evidence for what works in adult learning (usually universities) here](https://www.inspiretoolkit.com.au/evidence-toolkit).[^note-forum-8] See these links if you want to know [why meta-analyses are important for teaching](https://www.youtube.com/watch?v=xwWQ7JabeIE), how [we tried to make them more accessible](https://www.inspiretoolkit.com.au/about-inspire), and [how to use them in your teaching](https://www.inspiretoolkit.com.au/training). ![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/qdpr4tqjkif6exb7jvdc)
+
+[Open the INSPIRE evidence toolkit](https://inspiretoolkit.com.au/)
 
 These strategies are not all common sense: many educators use strategies that have been shown to _reduce_ learning. For example, I still hear people espousing so-called 'facts' about learning styles (e.g., 'I'm tailoring this to visual learners'). [Learning styles don't work](https://www.inspiretoolkit.com.au/articles/learning-styles)—instead use [speech for words and images alongside them, wherever possible](https://www.inspiretoolkit.com.au/articles/modality-and-multimedia). Make [the language as simple as you can,](https://www.inspiretoolkit.com.au/articles/spoken-language) because you're probably [plagued with a curse of knowledge](https://www.youtube.com/playlist?list=PLvSeo4-B-agV3yExA_jNderX6g5_BsP17). That means—as is often recommended on the forum—that we should avoid using jargon (see [Michael Aird](https://forum.effectivealtruism.org/posts/uGt5HfRTYi9xwF6i8/3-suggestions-about-jargon-in-ea), AW, [Rob Wiblin](https://forum.effectivealtruism.org/posts/F5YXWJt2rXo6ESzDQ/when-you-shouldn-t-use-ea-jargon-and-how-to-avoid-it)) unless the goal of the session is to learn that jargon (e.g., 'instrumental convergence' in the AI Safety Fundamentals course) or we know everyone has covered that jargon (e.g., later weeks of that course).
 
@@ -299,9 +311,11 @@ Other—possibly obvious but often neglected—evidence based strategies include
 *   Don't make projects or 'assessments' collaborative. The opportunity to let others do the work (so called 'social loafing') is too tempting for many to resist. As a result, [group assessments lead to less learning than individual ones](https://www.inspiretoolkit.com.au/articles/group-assessments), and there's no good data that they lead to increased 'soft skills' like 'communication'. My experience is that those soft skills need to be taught explicitly and deliberately practised.
 *   If it makes sense in your setting, then [use quizzes to help provide people with feedback on their learning](https://www.inspiretoolkit.com.au/articles/quizzes). In a perfect world, some [gamification of the course can make it more engaging](https://www.inspiretoolkit.com.au/articles/gamification), but is usually costly and hard to implement. Still, there are [lots of educational technologies that improve learning](https://www.inspiretoolkit.com.au/articles/technology), especially if they make it easier to promote the learning mechanisms described above (e.g., [better, faster feedback via H5P](https://h5p.org/); [better group collaboration via Miro](https://miro.com/); better simulation of the real-world task like [learning statistical analyses in R using Swirl](https://swirlstats.com/))
 
-Even if you're not making curricula or designing virtual programs, you're probably trying to communicate your ideas publicly. You might be writing on the forum, in which case [learning to write in a clear and compelling way is going to increase your impact (HT Kat Woods)](https://forum.effectivealtruism.org/posts/dAbs7w4J4iNm89DjP/why-fun-writing-can-save-lives-the-case-for-it-being-high). But writing is an inefficient mechanism for communication. Our brains are designed to _hear_ words[^9] and _see_ pictures (which is why [videos work better than many other forms of teaching and communication](https://journals.sagepub.com/doi/abs/10.3102/0034654321990713)). There are a handful of [strategies shown to improve learning from multimedia](https://journals.sagepub.com/doi/abs/10.3102/00346543211052329) from hundreds of experiments (see our [meta-review from last year](https://journals.sagepub.com/doi/abs/10.3102/00346543211052329)). I'm going to practise what I preach here and direct you to one of three multimedia methods for learning these principles. The best is [this video playlist (five videos, roughly five minutes each)](http://bit.ly/ScissorsPaperRockTraining) that walks through how to make multimedia that works. If you're strapped for time, this [twitter thread covers all the evidence-based strategies](https://bit.ly/reduceoverload). If you don't want to leave this post, this one-page summary covers most of the key ideas.
+Even if you're not making curricula or designing virtual programs, you're probably trying to communicate your ideas publicly. You might be writing on the forum, in which case [learning to write in a clear and compelling way is going to increase your impact (HT Kat Woods)](https://forum.effectivealtruism.org/posts/dAbs7w4J4iNm89DjP/why-fun-writing-can-save-lives-the-case-for-it-being-high). But writing is an inefficient mechanism for communication. Our brains are designed to _hear_ words[^note-forum-9] and _see_ pictures (which is why [videos work better than many other forms of teaching and communication](https://journals.sagepub.com/doi/abs/10.3102/0034654321990713)). There are a handful of [strategies shown to improve learning from multimedia](https://journals.sagepub.com/doi/abs/10.3102/00346543211052329) from hundreds of experiments (see our [meta-review from last year](https://journals.sagepub.com/doi/abs/10.3102/00346543211052329)). I'm going to practise what I preach here and direct you to one of three multimedia methods for learning these principles. The best is [this video playlist (five videos, roughly five minutes each)](http://bit.ly/ScissorsPaperRockTraining) that walks through how to make multimedia that works. If you're strapped for time, this [twitter thread covers all the evidence-based strategies](https://bit.ly/reduceoverload). If you don't want to leave this post, this one-page summary covers most of the key ideas.
 
-[![Image 11](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/sa5yceod1yr9w8wt0fgm)](http://bit.ly/SPRsummary)
+![](https://res.cloudinary.com/cea/image/upload/f_auto,q_auto/v1/mirroredImages/ZPNNnEu2HGNSNmifo/sa5yceod1yr9w8wt0fgm)
+
+[Open the multimedia summary](http://bit.ly/SPRsummary)
 
 If possible, try to use a narrative arc that makes the [problem concrete, hits an emotion, has something unexpected, then a concrete resolution.](https://denpeakacademy.com/2017/06/20/peak-book-summary-made-to-stick-by-chip-heath-and-dan-heath/) My adaption of Chip and Dan Health's excellent book (['Made to stick'](https://denpeakacademy.com/2017/06/20/peak-book-summary-made-to-stick-by-chip-heath-and-dan-heath/); my [video summary here](https://www.youtube.com/watch?v=O-yb71xl-DA)) involves the following five steps:
 
@@ -325,20 +339,20 @@ So much of community and field building involves what great teachers do: we shar
 
 Alexander Saeri, Peter Slattery, Emily Grundy, Yi-Yang Chua, Jamie Bernardi, and Sebastian Schmidt were all autonomy supportive teachers that helped me improve this post. Mistakes are my own.
 
-[^1]: I'm acutely aware of the irony that a forum post including prohibitions against jargon contains jargon as the first two words.
+[^note-forum-1]: I'm acutely aware of the irony that a forum post including prohibitions against jargon contains jargon as the first two words.
 
-[^2]: Per Ivar Friborg has also published a great summary of SDT for EA [here](https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and)
+[^note-forum-2]: Per Ivar Friborg has also published a great summary of SDT for EA [here](https://forum.effectivealtruism.org/posts/BoQZhKs26BdyQHpte/how-to-incubate-self-driven-individuals-for-leaders-and)
 
-[^3]: Gender and name randomised for anonymity
+[^note-forum-3]: Gender and name randomised for anonymity
 
-[^4]: This aligns well with [Luke Muehlhouser's conceptualisation of Effective Altruism as a project that some people are excited about, but others aren't](https://lukemuehlhauser.com/effective-altruism-as-i-see-it/), and I think that difference is the degree of alignment between the project and their own values
+[^note-forum-4]: This aligns well with [Luke Muehlhouser's conceptualisation of Effective Altruism as a project that some people are excited about, but others aren't](https://lukemuehlhauser.com/effective-altruism-as-i-see-it/), and I think that difference is the degree of alignment between the project and their own values
 
-[^5]: There were too many forum and blogs posts to name each one that helped me become more sustainably motivated, but if I had to choose one, it'd be [Julia Wise](https://juliawise.net/)
+[^note-forum-5]: There were too many forum and blogs posts to name each one that helped me become more sustainably motivated, but if I had to choose one, it'd be [Julia Wise](https://juliawise.net/)
 
-[^6]: I'm obviously not the first person to suggest we should [replace guilt (e.g., Nate Soares)](https://replacingguilt.com/)
+[^note-forum-6]: I'm obviously not the first person to suggest we should [replace guilt (e.g., Nate Soares)](https://replacingguilt.com/)
 
-[^7]: [The experts also agreed on mistakes some exhausted, defeated teachers might make, like yelling at students](https://psyarxiv.com/4vrym/), but I didn't include them here because I can't imagine an EA community builder making the same mistakes.
+[^note-forum-7]: [The experts also agreed on mistakes some exhausted, defeated teachers might make, like yelling at students](https://psyarxiv.com/4vrym/), but I didn't include them here because I can't imagine an EA community builder making the same mistakes.
 
-[^8]: We haven't finished porting INSPIRE from our [beta version](https://inspireprogram.notion.site/Evidence-Toolkits-9f16be2254a54f95b6698beee7e436a2) to the [proper website](https://www.inspiretoolkit.com.au/), so I actually prefer the user experience on [this version on Notion](https://inspireprogram.notion.site/Evidence-Toolkits-9f16be2254a54f95b6698beee7e436a2). Still, I've linked to the new website so this post is more likely to be evergreen.
+[^note-forum-8]: We haven't finished porting INSPIRE from our [beta version](https://inspireprogram.notion.site/Evidence-Toolkits-9f16be2254a54f95b6698beee7e436a2) to the [proper website](https://www.inspiretoolkit.com.au/), so I actually prefer the user experience on [this version on Notion](https://inspireprogram.notion.site/Evidence-Toolkits-9f16be2254a54f95b6698beee7e436a2). Still, I've linked to the new website so this post is more likely to be evergreen.
 
-[^9]: Another hat tip to [Kat and Nonlinear for the Nonlinear Library](https://forum.effectivealtruism.org/posts/JTZTBienqWEAjGDRv/listen-to-more-ea-content-with-the-nonlinear-library). Not only are podcast versions of the forum more practical for many people, we're likely to learn just as well, if not better (assuming the posts don't have many images that we'd miss). The [Astral Codex Podcast](https://sscpodcast.libsyn.com/) does an amazing job of this where Solenoid Entity explains the graphs in exquisite detail, and has them show up on your podcast player (🧑‍🍳😙🤌)
+[^note-forum-9]: Another hat tip to [Kat and Nonlinear for the Nonlinear Library](https://forum.effectivealtruism.org/posts/JTZTBienqWEAjGDRv/listen-to-more-ea-content-with-the-nonlinear-library). Not only are podcast versions of the forum more practical for many people, we're likely to learn just as well, if not better (assuming the posts don't have many images that we'd miss). The [Astral Codex Podcast](https://sscpodcast.libsyn.com/) does an amazing job of this where Solenoid Entity explains the graphs in exquisite detail, and has them show up on your podcast player (🧑‍🍳😙🤌)

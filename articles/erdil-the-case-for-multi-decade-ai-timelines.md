@@ -11,6 +11,13 @@ tags:
   - "article-importer"
 ---
 
+%%
+Add discussion note here:
+
+...
+
+%%
+
 The date at which transformative AI capabilities will be reached is among the most discussed questions about AI. Opinions vary widely, with industry insiders typically expecting far faster progress than external observers. For instance, Dario Amodei [thinks](https://arstechnica.com/ai/2025/01/anthropic-chief-says-ai-could-surpass-almost-all-humans-at-almost-everything-shortly-after-2027/) there might be only 2 to 3 years left until AI surpasses “almost all humans at almost everything”, while economists such as William Nordhaus still believe we might have more than 100 years left.
 
 Compared to most people in the world, my own median timelines of ~ 20 years until full automation of remote work would be considered quite aggressive. However, most people in the field of AI (and even many others at Epoch) have much shorter timelines than this, and timelines on the order of 1 to 10 years, as seen in the recent [AI 2027 report](https://ai-2027.com/), are often seen as a “default position” that one has to present arguments against. In this issue, I’ll elaborate on the key reasons behind my relatively bearish views. I’ll first explain why I find some common short timelines arguments unconvincing, then elaborate on how I arrive at the specific number of 20 years as a median estimate for how long we have until full automation of remote work.

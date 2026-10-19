@@ -9,7 +9,20 @@ accessed: 2026-07-09
 description: "This is the third of three posts summarizing what I learned when I interviewed 17 AI safety experts about their \"big picture\" of the existential AI r…"
 tags:
   - "article-importer"
+llm-review:
+  date: 2026-09-04
+  model: "sonnet"
+  version: "article-qc-v1.3"
+  source:
+    fetched: 2026-09-04
+    kind: "live"
 ---
+%%
+Add discussion note here:
+
+...
+
+%%
 
 This is the third of three posts summarizing what I learned when I interviewed 17 AI safety experts about their "big picture" of the existential AI risk landscape: how AGI will play out, how things might go wrong, and what the AI safety community should be doing. See [here](https://www.lesswrong.com/posts/yMTNjeEHfHcf2x7nY/big-picture-ai-safety-introduction) for a list of the participants and the standardized list of questions I asked.
 
@@ -57,7 +70,7 @@ There was a general sense that the way we make sense of AI should be more empiri
 
 This criticism of “too much theoretical, not enough empirical” also applied to the types of research we are doing. 4 respondents focussed on this. This was more a complaint about past research, folks were typically more positive about the amount of empirical work going on now.
 
-2 people pointed at MIRI’s overreliance on idealized models of agency in their research, like [AIXI](https://www.lesswrong.com/w/aixi). [Adrià Garriga-Alonso](https://agarri.ga/) thought that [infrabayesianism](https://www.lesswrong.com/w/infra-bayesianism), parts of singular learning theory and John Wentworth’s [research programs](https://www.alignmentforum.org/users/johnswentworth) are unlikely to end up being helpful for safety:
+2 people pointed at MIRI’s overreliance on idealized models of agency in their research, like [AIXI](https://www.lesswrong.com/w/aixi). [Adrià Garriga-Alonso](https://agarri.ga/) thought that [infrabayesianism](https://www.lesswrong.com/w/infra-bayesianism), parts of singular learning theory and John Wentworth’s [research programs](https://www.lesswrong.com/users/johnswentworth) are unlikely to end up being helpful for safety:
 
 > _“I think the theory-only projects of the past did not work that well, and the current ones will go the same way.” -_ Adrià Garriga-Alonso
 
@@ -129,7 +142,7 @@ Many in the AI safety movement do not think enough for themselves, 4 respondents
 
 # Pausing is bad
 
-3 respondents thought that advocating for a [pause to AI](https://pauseai.info/proposal) development is bad, while 1 respondent was pro-pause[^1]. Nora referred me to a [post](https://bounded-regret.ghost.io/ai-pause-will-likely-backfire-by-nora/) she wrote arguing that pausing is bad. In that post, she argues that pausing will a) reduce the quality of alignment research because researchers will be forced to test their ideas on weak models, b) make a [hard takeoff](https://www.lesswrong.com/w/ai-takeoff) more likely when the pause is lifted, and c) push capabilities research underground, where regulations are looser.
+3 respondents thought that advocating for a [pause to AI](https://pauseai.info/proposal) development is bad, while 1 respondent was pro-pause[^note-euanmclean-1]. Nora referred me to a [post](https://bounded-regret.ghost.io/ai-pause-will-likely-backfire-by-nora/) she wrote arguing that pausing is bad. In that post, she argues that pausing will a) reduce the quality of alignment research because researchers will be forced to test their ideas on weak models, b) make a [hard takeoff](https://www.lesswrong.com/w/ai-takeoff) more likely when the pause is lifted, and c) push capabilities research underground, where regulations are looser.
 
 # Discounting public outreach & governance as a route to safety
 
@@ -157,4 +170,4 @@ Participants pointed to a range of mistakes they thought the AI safety movement 
 
 Personally, I hope this can help the AI safety movement avoid making similar mistakes in the future! Despite the negative skew of my questioning, I walked away from these conversations feeling pretty optimistic about the direction the movement is heading. I believe that as long as we continue to be honest, curious and open-minded about what we’re doing right and wrong, AI safety as a concept will overall have a positive effect on humanity’s future.
 
-[^1]: Other respondents may also have been pro or anti-pause, but since the pause debate did not come up in their interviews I didn’t learn what their positions on this issue were.
+[^note-euanmclean-1]: Other respondents may also have been pro or anti-pause, but since the pause debate did not come up in their interviews I didn’t learn what their positions on this issue were.

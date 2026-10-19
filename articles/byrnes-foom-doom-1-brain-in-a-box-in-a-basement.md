@@ -1,7 +1,6 @@
 ---
 title: "Foom & Doom 1: “Brain in a box in a basement”"
-author:
-  - "Steven Byrnes"
+author: [Steven Byrnes](https://sjbyrnes.com/)
 source_url: "https://www.lesswrong.com/posts/yew6zFWAKG4AGs3Wk/foom-and-doom-1-brain-in-a-box-in-a-basement"
 published: 2025-06-23
 created: 2026-08-21
