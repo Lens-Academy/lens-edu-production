@@ -9,7 +9,7 @@ style:: faq
 Your navigator isn't in every room, so:
 
 - **Confused about the task, or want a human?** Click **"••• More” > “Ask for Help"** > Your navigator gets pinged and pops into your room.
-- **Don't get the question, or something in the reading?** Ask the [Lens Coach](https://lensacademy.org/coach). It's for understanding, not for handing you the answer.
+- **Don't get the question, or something in the reading?** Ask [Lens Tutor](https://lensacademy.org/tutor). It's for understanding, not for handing you the answer.
 - **Lost the doc link, or a quick logistics thing?** Check the **Discord channel** or the Zoom chat.
 
 ### Before you arrive
@@ -33,8 +33,8 @@ Your navigator isn't in every room, so:
 
 ### The reading and the questions
 
-- **I don't understand the question or a claim.** Ask the [Lens Coach](https://lensacademy.org/coach)! It'll explain in plain terms.
-- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Coach or Ask for Help.
+- **I don't understand the question or a claim.** Ask [Lens Tutor](https://lensacademy.org/tutor)! It'll explain in plain terms.
+- **Where's the reading?** It's in the course on the Lens platform: the chapter text is loaded right in the lesson. Can't find it? Ask the Tutor or Ask for Help.
 
 ### Tech
 
@@ -44,4 +44,4 @@ Your navigator isn't in every room, so:
 ### After we wrap
 
 - **What happens at 1:30?** We close on time. The meeting then stays open; hang around and keep talking if you'd like, no pressure.
-- **How do accountability buddies work?** You paired up in the first session; your buddy checks in with you before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind.
+- **How do accountability buddies work?** Buddy groups are formed in the first meeting as trios or pairs. For the rest of the course, you check in with each other before each meeting. Swap whatever the last room asked you to take away: a plan, a next step, or simply what changed your mind. If your accountability buddies are no longer taking the course, ask your navigator to place you with a new group.

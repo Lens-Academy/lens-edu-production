@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 First meeting, so start by getting to know each other. Go around:
 1\. Who you are: name, where you're joining from, what you work on. Skeptics welcome.
-2\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. How was this unit? Did you finish it? If you didn't, what got in the way?
 3\. Y2K did nothing because thousands of people fixed it first. Name one prevented catastrophe from your own field or life that people now dismiss because nothing happened.
 4\. If you still have time: how did this unit make you feel?
 
@@ -58,7 +58,7 @@ Its mechanisms:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Protect / cut + your one amendment + its price |
@@ -96,7 +96,7 @@ The others try to change the official's mind, in plain words (no acting needed, 
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Best line that moved the official + the objection that was hardest to answer |
@@ -117,7 +117,7 @@ One or two people share what their group landed on.
 ### Room 4: Buddies, your theory of change, feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
+1\. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
 2\. Your theory of change for this course (what you expect to be different because you did it), as one if-then chain: if I finish these five units, then [what changes first], then [what is different at the end]. Outcomes (what changes), not outputs (what you produce).
 3\. Which assumption is most likely to break your chain? (Send chain and assumption to your buddy after the meeting.)
 4\. Feedback: what would make the course and this meeting better?
@@ -167,7 +167,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 The official who wants no regime (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Buddies, your theory of change, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -192,6 +192,15 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+
+### Accountability buddy setup
+
+**[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
+
+
+In Room 4, the people in each breakout room become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
+
+For **this Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
 ### Close
 
@@ -223,7 +232,7 @@ source:: [[../shared/Navigator Run-Sheet - Navigator Pro-Tips]]
 **Room 1, Icebreaker.** First meeting, so keep introductions short enough that the prevented catastrophe gets airtime. If a room is stuck for examples: the ozone layer, seatbelts, a bug caught before release, a deadline saved by unglamorous prep. Then ask a question the unit invites: how would you tell an averted risk from an overstated one?
 **Room 2, Load-bearing part, weakest weld.** Every Plan A essay prompt is optional, so expect some people to have skimmed the supplement without writing; the candidate list in the prompt is for them, and Option B readers skimmed the same supplement, so they can play. Say: "Which single mechanism, if removed, breaks Plan A?" Expect clustering on the datacenter retrofit and on the 2029 implementation timeline. The amendment step is where design happens: refuse vague amendments ("more inspections") and ask what the amendment costs the 2029 schedule or a signatory's willingness. If a room wants a verdict, ask for the lens's own vote: adopt as written, amend, or reject. If a room agrees too fast, split it on the covert margin: half argue 0.5% of world AI-relevant compute is a frontier-scale cluster in disguise, half argue a covert project that size cannot keep up (A4 asks what disadvantages it would face). Contrarian line from the drill bench, held loosely: a regime that promises zero covert compute is overclaiming; one that prices the residual rate is doing game theory.
 **Room 3, The official who wants no regime.** Two traps. First, the official caves in thirty seconds; tell them to be stubborn, they represent a real position. Second, people name a structure (prisoner's dilemma, security dilemma) instead of stating the mechanism; ask "and why does that make continuing the safer move for a state that fears ASI?" If a room flounders, the three things the unit gives them: why shared fear does not stop the race, why trust, punishment afterwards and mutual transparency each fail between rivals, and what verification changes about each side's incentives. On the "no time" comeback, the unit's own material helps: export controls, cloud know-your-customer, and attestation on shipping GPUs exist today (built for the chip's owner, not for a verifier); cryptographic methods are mostly papers. The honest answer is partial, and that is fine.
-**Room 4, Buddies, your theory of change, feedback.** Insist on real contact details in the table. Watch for outputs dressed as outcomes ("I'll finish every unit" is an output); ask what would be different in the world, or in their work, if the chain held. Feedback here is a verbal primer for XLab's form.**Wrap-up, in your own words (one minute).** Next unit is Precedents and policy scope: about 170 minutes, the densest of the five, so start early. Message your buddy today. Feedback goes to XLab's form, link in the doc. The call stays open for anyone who wants to keep talking.
+**Room 4, Buddies, your theory of change, feedback.** In the whole-group slot before Room 4, walk through the buddy setup above, and ask buddies to message each other today, so both know the channel works. Insist on real contact details in the table. Watch for outputs dressed as outcomes ("I'll finish every unit" is an output); ask what would be different in the world, or in their work, if the chain held. Feedback here is a verbal primer for XLab's form.**Wrap-up, in your own words (one minute).** Next unit is Precedents and policy scope: about 170 minutes, the densest of the five, so start early. Message your buddy today. Feedback goes to XLab's form, link in the doc. The call stays open for anyone who wants to keep talking.
 
 # Tab: Glossary
 style:: plain

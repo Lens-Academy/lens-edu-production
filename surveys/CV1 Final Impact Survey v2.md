@@ -4,7 +4,7 @@ title: Compute Verification Part 1 Final Impact Survey v2
 ---
 
 #### Text
-content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section.
+content:: Thanks for completing the course. This final survey includes the normal meeting questions and a course completion section. Submitting it also records your attendance for this meeting.
 
 #### Text
 content:: **This module and meeting**
@@ -24,38 +24,6 @@ labels::
 - Good
 - Very good
 - Excellent
-
-#### Question: Rating
-id:: 448476f7-e708-4497-8ce1-5d240b38ccfd
-content:: How would you rate this module's content?
-scale:: 10
-labels::
-- Extremely poor
-- Very poor
-- Poor
-- Below average
-- Neutral
-- Above average
-- Good
-- Very good
-- Excellent
-- Outstanding
-
-#### Question: Rating
-id:: b2413563-95ab-470e-bdbb-16dab9d6b87f
-content:: How useful was the AI Tutor for this module?
-scale:: 10
-labels::
-- Not useful at all
-- Very unhelpful
-- Unhelpful
-- Slightly unhelpful
-- Neutral
-- Slightly useful
-- Useful
-- Very useful
-- Extremely useful
-- Essential
 
 #### Question: Rating
 id:: 77275f2f-f868-4068-aaa4-474f26b48a32
@@ -89,12 +57,14 @@ labels::
 - Very good
 - Excellent
 
+#### Page
+
 #### Text
 content:: **The full course**
 
 #### Question: Rating
 id:: b5895bd3-f2ff-4e1e-8a1d-98d724972ef8
-content:: How would you rate the Compute Verification Part 1 course overall?
+content:: How would you rate the Compute Verification 1 course overall?
 scale:: 10
 labels::
 - Very poor
@@ -174,7 +144,8 @@ options::
 
 #### Question: Rating
 id:: 1a9dabd9-4cb7-4fc8-91b5-44b94866daca
-content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months? Select 10 if you already work in it full-time or are in a paid fellowship.
+content:: How strongly do you intend to move into AI safety full-time in the next 3 to 12 months?
+description:: Select 10 if you already work in it full-time or are in a paid fellowship.
 scale:: 10
 labels::
 - No intention
@@ -188,21 +159,22 @@ labels::
 - Actively working toward it
 - Already full-time or in a paid fellowship
 
-#### Question: Rating
-id:: 33141de8-0263-4b4a-a1ac-3b17609e4197
-content:: How clear are you about what you need to do in the next 1 to 3 months?
-scale:: 10
-labels::
-- No clarity
-- Very unclear
-- Unclear
-- Slightly unclear
-- Neutral or mixed
-- Slightly clear
-- Clear
-- Very clear
-- Extremely clear
-- Completely clear
+#### Page
+
+#### Question: Open
+id:: 192fa91e-65de-44b3-bbd4-bd32e2c347c6
+content:: Would you like to leave a short note for people considering this course or Lens? We may share it on our website.
+optional:: true
+max-chars:: 1000
+description:: The most helpful notes are specific: your main worry before joining and how it played out, something you're now doing because of Lens, or one thing you particularly valued.
+
+#### Question: Choice
+id:: 4fe9c259-0b0d-4866-8347-4e185b2794f3
+content:: If we share your note, can we credit you?
+optional:: true
+options::
+- Yes, you can use my profile
+- No, keep me anonymous
 
 #### Text
 content:: **Pay what you want**
@@ -215,11 +187,11 @@ content:: Would you like to apply to facilitate a future Lens course?
 options::
 - Yes, tell me more
 - Not right now
-- Yes, I already signed up!
 
 #### Question: Open
 id:: 23d9685e-753e-47e9-bb14-98baf3da3176
-content:: Is there someone exceptional whom you would refer to this course? Share their name and why they are a good fit. Add contact details only if you have their permission.
+content:: Is there someone exceptional whom you would refer to this course?
+description:: Share their name, why they are a good fit, and add their contact details like email or Linked-In.
 optional:: true
 max-chars:: 1000
 

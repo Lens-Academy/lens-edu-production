@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Where Did Your Points Go?  [0:05–0:19]
 
 Go around your group, two things.
-1\. How was this unit? Denser or easier than the previous units? Did you finish? If you did not finish, what got in the way? “I did not finish” is a normal answer.
+1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2\. Your hundred points: which lever got your biggest line item, and which got almost nothing? One sentence on why. When everyone has gone, name the biggest disagreement in the room. Do not resolve it yet, you will want it later.
 
 
@@ -46,7 +46,7 @@ Two readings in this unit quietly disagree about where the danger inside a lab l
 Split the room: half of you argue the ten should keep watching the models, half argue they should be watching the org chart. Argue it properly, then drop the roles and write the group's verdict: if the ten people took both threats seriously, what would they actually do differently?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | If the ten took both threats seriously, what would they do differently? |

@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 
 Go around your group, three things:
 1\. Introductions: name, where you're joining from, and what pulled you into a course about AI futures.
-2\. How was working through Unit 1? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. How was this unit? Did you finish it? If you didn't, what got in the way?
 3\. The unit opened with a day-zero guess: what should be done about AI in the next two years, what that leaves standing in two hundred, and the mechanism between them. Share your two-year answer in one sentence and, in one word: how did writing it feel? Didn't get to it? Make one guess on the spot; wrong is fine, guessing first is the course's whole method.
 
 
@@ -46,7 +46,7 @@ One or two people share what their group landed on.
 3\. Each person, one line: holds or bends, and what would you see in the next two years that would switch you?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Holds or bends + what would switch you |
@@ -101,9 +101,12 @@ One or two people share what their group landed on.
 Whole group, no breakout room.
 
 
-1\. Accountability buddies: your navigator pairs you up (a trio is fine). Write your pair below and swap contact info in the Zoom chat; Discord works. Your buddy checks in with you before each meeting, starting with the next one.
+1\. Accountability buddies:
+    - Your navigator pairs you up (a trio is fine). Write your pair in the table below.
+    - You swap contact details in the Zoom chat.
+    - Before each meeting, starting with the next one, you check in with each other: did you finish the unit? Are you coming?
 2\. Today, send your buddy one line: what's most likely to stop you finishing Unit 2, and your plan to beat it. That's the plan they'll check in on.
-3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know two hours ago.
+3\. Closing round, answer out loud if you'd like: one thing you're glad you know now that you didn't know 90 minutes ago.
 
 
 Feedback on the course and this meeting goes in the post-meeting survey. The team reads every line.

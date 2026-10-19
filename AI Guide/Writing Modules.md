@@ -1,0 +1,56 @@
+---
+tags:
+  - validator-ignore
+---
+# Writing Modules (AI Guide)
+
+Modules live in `modules/`.
+
+```markdown
+---
+slug: example-module              # required: how courses reference the module
+title: "Example Module Name"      # required
+id: <uuid>                        # the module's stable UUID
+add_to_ai_context:                # tutor context for the whole module
+  - "[[../../Lens Edu Private/sub-folder/file]]"
+---
+# Submodule: Welcome        %← groups following sections under a heading%
+# Lens: Welcome             %← inline lens%
+id:: <uuid>
+#### Text
+content:: Welcome to the course...
+
+# Submodule: Ch1 - Introduction
+# Learning Outcome
+source:: [[../Learning Outcomes/outcome name]]
+
+# Lens: Optional Deep Dive            ← referenced lens
+source:: [[../Lenses/Some Lens]]
+optional:: true                       ← learner may skip
+hide:: true                           ← hidden from the module page (requires optional:: true)
+```
+
+- A hidden lens (`hide:: true`) stays a member of the module: `::card[[lens]]` links to it resolve in-module without a sidebar entry. Linking a lens that is not a member deep-links into whatever other module contains it, even cross-course.
+- A (sub-)module usually consists out of one or more LOs and one or more lenses
+- Submodules are optional ways to further structure modules into sensible chunks
+- Learning outcomes should be linked at the top of a (sub-)module. Their test is rendered at the end of it.
+- A `# Lens:` section has either `source::` (referenced) or `id::` + segments (inline), not both. Segment syntax: [[Writing Lenses]].
+- **Choice groups** let the learner pick k of n lenses on the path, instead of several `optional:: true` lenses with "pick one" in their text:
+  ```
+  # Choose: 1                ← or "# Choose: 3 of 5"
+  ## Lens:
+  source:: [[../Lenses/a]]
+  ## Lens:
+  source:: [[../Lenses/b]]
+  ```
+  Inside a submodule write `## Choose:` with `### Lens:` options. The group ends at the next heading of its level. The module's time counts k times the average of the options (shown with "~"), and progress, grades and reminders count k lenses per group. Use it for "pick one of these readings or reports".
+
+## Creation flow
+1. Deeply think about/discuss with the user what exactly you want to teach in a given module/submodule and create LOs based on this (see [[Writing (Learning) Outcomes]])
+2. Find excellent articles/videos/exercises to teach the LO (if the user tells you to do it by yourself, use multiple subagents to come up with possibilities and others to criticize them until you are certain what you have is the best possible way to achieve the agreed learning outcomes)
+
+## Recommended patterns
+- Before presenting a reading/video, ask one or multiple pre-reading primer questions in a separate lens.
+- Add optional lenses with more in-depth readings/exercises for curious readers
+		- If you want to add many, link them via `::card` footers inside a "Dive deeper" lens. (see [[Writing Lenses]])
+- When a module runs too long, make readings or lenses optional (`optional:: true` on the `# Lens:` block) instead of deleting them. Curious learners keep the depth, and the required path gets shorter.

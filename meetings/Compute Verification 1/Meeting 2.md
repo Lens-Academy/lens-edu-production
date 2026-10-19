@@ -16,10 +16,8 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was this unit: heavier or lighter than Unit 1?
-2\. Did you finish it?
-3\. If you didn't, what got in the way? ("I didn't finish" is a fine answer here.)
-4\. The cost card. Read out your line: "I support \_\_\_ at the cost of \_\_\_." (Skipped it? Make one now.)
+1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
+2\. The cost card. Read out your line: "I support \_\_\_ at the cost of \_\_\_." (Skipped it? Make one now.)
 5\. Was naming the price almost instant, took some thought, or genuinely hard?
 6\. If it was hard: who ends up paying, that you hadn't thought about?
 7\. If you still have time: how did this unit make you feel?
@@ -58,7 +56,7 @@ d. What can they not see at all?
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your system: what it sees and misses + what works for AI, what breaks |
@@ -92,7 +90,7 @@ This unit's trade-off: build verification tough enough for a full halt and every
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Which approach you'd sign this year + why |

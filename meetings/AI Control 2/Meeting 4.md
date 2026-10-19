@@ -60,7 +60,7 @@ Two proposals from this unit, both about what an AI wants rather than what it pl
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | What you'd grant + what goes wrong first + where it stops working |
@@ -100,7 +100,7 @@ So Apollo Research and OpenAI built an instrument together:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+Want help or an explanation for this question? Copy it into the [Lens Tutor](https://lensacademy.org/tutor) and ask for an explanation.
 
 
 | Names | Best rival explanation + what would rule it out + what a lab changes |

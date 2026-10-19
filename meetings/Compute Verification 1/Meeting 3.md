@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works]]
 ### Room 1: Icebreaker  [0:05–0:19]
 
 Go around your group:
-1\. How was working through this unit's content? Denser or easier than the previous units? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2\. MIRI's draft treaty is a full legal text for preventing artificial superintelligence:
 
 - bans on big training runs
@@ -62,7 +62,7 @@ Your group is a country that signed and now wants to cheat.
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | How you'd cheat + your fix + its problems |
@@ -95,7 +95,7 @@ Actors:
 
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your smallest set + what each controls + who else if one refuses |

@@ -17,7 +17,7 @@ source:: [[../shared/Session Doc - How today works]]
 
 First meeting, so start by getting to know each other. Go around:
 1\. Who you are: name, where you're joining from, what you work on. Skeptics welcome.
-2\. How was working through this unit's content? Did you finish? If you didn't finish, what got in the way? (No judgment, "I didn't finish" is a fine answer.)
+2\. How was this unit? Did you finish it? If you didn't, what got in the way?
 3\. Keeping a system that may be working against you, and may be smarter than you, boxed in while still getting useful work out of it: tractable, or hopeless? Gut answer, one sentence each.
 4\. If you still have time: what would have to be true to move you to the other answer?
 
@@ -56,7 +56,7 @@ The course opens on an analogy. Banks and hospitals do not assume every insider 
 4\. If you still have time: you cannot test whether this insider means well. What could you test instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your organisation's mechanisms + what carries over, what breaks |
@@ -90,7 +90,7 @@ You are a model writing code for a lab. Your work ships if the tests pass.
 3\. The lab now has a weaker model score everything you write for suspicion, and a human checks the 2% it scores most suspicious. Which step does that hit, and where does your attack go instead?
 
 
-Want help or an explanation for this question? Copy it into the [Lens Coach](https://lensacademy.org/coach) and ask for an explanation.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 | Names | Your routes + the steps your best one needs + where the monitor bites |
@@ -111,7 +111,7 @@ One or two people share what their group landed on.
 ### Room 4: Buddies, next unit, feedback  [1:15–1:27]
 
 **New group. Names first, then straight in.**
-1\. Accountability buddies: pair up (a trio is fine) and swap contact details in the table. Before each meeting you check in: did you finish, are you coming?
+1\. The people in this breakout room are your accountability buddies for the rest of the course. Swap contact details in the table below. Before each meeting, check in with one another: did you finish, are you coming?
 2\. Next unit: the paper that started this field, read in full with exercises and interactive models built into it, and then the question of when it would be safe to let AIs take over the work of keeping AIs safe. About 4 hours. What's most likely to stop you finishing, and what's your plan to beat it? (Send that plan to your buddy today.)
 3\. Feedback: what would make the course and this meeting better?
 
@@ -160,7 +160,7 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 | 0:42–0:47 | Back together (whole group) |
 | 0:47–0:52 | Break |
 | 0:52–1:10 | R3 Attack tree: a backdoor lands in production (reshuffle) |
-| 1:10–1:15 | Back together (whole group) |
+| 1:10–1:15 | Back together (whole group), then walk through the buddy setup below |
 | 1:15–1:27 | R4 Buddies, next unit, feedback (reshuffle) |
 | 1:27–1:30 | Close (whole group) |
 
@@ -185,6 +185,15 @@ source:: [[../shared/Navigator Run-Sheet - Before anyone joins]]
 source:: [[../shared/Navigator Run-Sheet - During the breakout rooms]]
 
 source:: [[../shared/Navigator Run-Sheet - Zoom breakout timer]]
+
+### Accountability buddy setup
+
+**[1:10–1:15], whole group**, after the sharing. Walk through the accountability buddy system (about a minute):
+
+
+In Room 4, the people in each breakout room become their accountability buddies, so they should swap contact details. Before each meeting they will check in with one another: did they finish the unit? Are they coming?
+
+For **this Room 4 only**, aim to create breakout rooms of trios (a couple of pairs are fine).
 
 ### Close
 

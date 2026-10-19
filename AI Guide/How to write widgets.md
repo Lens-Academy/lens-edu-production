@@ -1,0 +1,206 @@
+---
+tags:
+  - validator-ignore
+---
+# How to write widgets (AI Guide)
+
+A **widget** is a small self-contained web page (HTML + CSS + JavaScript in one file) that a lens embeds inline between its other segments: a clickable diagram, a sorting exercise, a simulation, a map. Learners see it in place; the platform renders it in a sandboxed frame that sizes itself to the content.
+
+Live example: [[../Lenses/Widget Demo]] (source files in `widgets/`).
+
+## Files
+
+Widgets live in `widgets/<name>.html`, in the root `widgets/` folder. The Lens Editor shows the file as a page (Preview, Source, Split, Phone), so you see the widget while you write it, and the right sidebar lists the lenses that use it. The frontmatter is YAML inside a comment on the first lines, so the preview does not show it. The first line is exactly `<!--lens-widget`, and the comment closes with a line that holds only `-->`. The HTML document follows:
+
+```html
+<!--lens-widget
+id: '3f2a9c1e-7b4d-4e8f-a1c2-5d6e7f8a9b0c'
+title: The types of AI
+summary_for_tutor: A concentric diagram of AI categories; the learner taps a ring or an example system to read why it sits there.
+height: auto
+tags: [wip]
+-->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style> ... </style>
+</head>
+<body>
+  ...
+  <script> ... </script>
+</body>
+</html>
+```
+
+Frontmatter fields:
+
+- `id`: a UUID (`uuidgen | tr A-Z a-z`, quoted), required. It is the key a learner's saved state is stored under, so it never changes once learners have used the widget. The same widget placed in two lenses shares the learner's state.
+- `title`: shown to screen readers and in the "could not be loaded" notice.
+- `summary_for_tutor`: what the widget shows and what the learner does with it. The AI tutor cannot see the learner's clicks; it sees this summary plus the widget's visible text. A widget that builds its content in JavaScript has no visible text at parse time, so the summary is then the tutor's only view of it. Write it as if briefing a colleague who cannot see the screen.
+- `height`: `auto` (default, the frame follows the content) or a fixed CSS length such as `480px` (the frame keeps that height and the page scrolls inside).
+- `width`: `full`, or leave it out. Without `width`, the frame is as wide as the text column (right for most widgets, and what their `@media` widths assume). With `width: full`, the frame spans the page between the course sidebar and the tutor panel, and the widget decides how much of it to use: use it for wide tables, grids and maps that would otherwise scroll sideways. The frame has no border either way. On a phone both are as wide as the text. The platform sets two CSS variables on the widget's `<html>`: `--lens-text-left` (where the text column starts, from the frame's left edge) and `--lens-text-width` (its width), both in px. They change when a sidebar opens or the window resizes. A full-width widget can use them to keep some parts in line with the text, for example a heading: `margin-left: var(--lens-text-left, 0px); max-width: var(--lens-text-width, 100%)`.
+- `tags`: `wip` while unfinished, like every other file.
+
+Never write `-->` inside a frontmatter value: it ends the comment early. The validator reports it. Older widgets used `widgets/<name>.md` with a `---` block; the platform still reads that form, but a widget must not exist in both forms. To convert one, move it to `<name>.html` (links need no change), then turn the first `---` into `<!--lens-widget` and the closing `---` into `-->`.
+
+Embed it from a lens with a `#### Widget` segment:
+
+```markdown
+#### Widget
+source:: [[../widgets/types-of-ai]]
+```
+
+**No third-party pages inside a widget.** The widget frame has no cookies or storage, and an `<iframe>` inside it inherits that. A third-party app that needs storage to start stays blank there: an Airtable form does. To show such a page between a lens's segments, use `#### Embed` with `inline:: true` (see [[Writing Lenses]]).
+
+Optional on the segment: `height::` overrides the file's height for that one placement; `required:: true` makes the lens wait for the widget's `Lens.complete()` before the learner can mark it complete (widgets gate nothing by default). A widget can be used by several lenses.
+
+**Widgets that belong to an article.** If a widget is built because it belongs to a source article (it reproduces or replaces a figure in an article we import), it goes inside that article, at the figure's place, with `![[../widgets/name]]` on its own line in `articles/<name>.md` (see [[Adding Sources]]). It is then imported into every lens together with the article excerpt. Never place such a widget as a separate `#### Widget` segment in the lens next to the article: that puts the figure outside the article it belongs to. And never make it more complex than the figure it stands for: the same chart, the same controls the original has and no others, no buttons, filters, readouts, progress marks or instructions the original does not show. Tables, captions or lead-ins written as a text stand-in for the figure go away when the widget goes in.
+
+## Saving state, completing, talking to the tutor
+
+Every widget page gets a `window.Lens` object from the platform. Nothing to include; it is there before your script runs.
+
+```js
+// Restore: called once with the learner's saved state (null on first visit)
+// and whether they completed the widget before. Render from it.
+Lens.onState(function (state, meta) {
+  if (state) { org = state.org; boxes = state.boxes; }
+  if (meta.completed) { /* show the finished view */ }
+});
+
+// Save: call on every meaningful change. The second argument is the text the
+// AI tutor reads instead of your JSON: write it like a note to a colleague who
+// cannot see the screen ("Organisation: ACME. Inputs: money. Outputs: ...").
+Lens.saveState({ org: org, boxes: boxes }, summaryText);
+
+// Complete: the learner did what the exercise asks. Gates the lens when the
+// segment has required:: true; harmless otherwise.
+Lens.complete();
+
+// Ask the tutor: opens a tutor turn from inside the widget. The first text is
+// what the learner sees as their own message; the second is a private note
+// only the model gets (the state behind the click, what you want the tutor
+// to do with it).
+Lens.promptTutor("Can you stress-test my theory of change?", "Canvas: ... Ask one question that tests the weakest assumption.");
+```
+
+Rules that follow from how this is wired:
+
+- State is per learner and per widget file (`id`), stored on the Lens account (or the anonymous session), saved a moment after the last change and again when the page closes. Keep it small (64 KB) and plain JSON.
+- The tutor sees the summary from `saveState`, not the JSON, and only when it changed since the tutor last saw it, so save the summary in one clean paragraph. A widget that never saves is invisible to the tutor beyond `summary_for_tutor`.
+- `Lens.onState` may fire after your page has rendered its empty state; render from the callback, not before it.
+- Outside the platform (opening the HTML in a browser tab, the editor preview) `window.Lens` does not exist. Guard calls with `if (window.Lens)` so the page still works standalone and in the editor's preview.
+
+Live example with all four calls: `widgets/theories-of-change.html` in [[../Lenses/Widget Demo]].
+
+## Scoring an answer
+
+A widget can have any number of things scored, each with its own instructions, and it can build those instructions at runtime. `Lens.submit` stores the answer, has the AI assessor grade it in the background (0 to 100), and resolves with the score once it is in (or `null` if grading takes longer than a minute). Show the score however fits the widget; the platform draws nothing.
+
+```js
+Lens.submit({
+  item: "canvas",                       // your key for the thing scored; one widget, many items
+  question: "Build a theory of change for an AI verification organisation.",
+  answer: summaryText,                  // what the learner produced, as text
+  assessmentInstructions: "100 when every box names a concrete, checkable step and each output plausibly causes the next outcome. Take 15 off per box that only restates the label.",
+  feedbackInstructions: "Name the weakest link first, then one question that would test it."  // optional
+}).then(function (result) {
+  showScore(result.score);              // 0 to 100, or null
+  lastResponseId = result.responseId;   // keep it if you want tutor feedback later
+});
+
+// Tutor feedback on a scored answer: the tutor gets the question, the answer,
+// the grade and your feedback instructions. The text is the learner's bubble.
+Lens.requestFeedback(lastResponseId, "Can I get feedback on my canvas?");
+```
+
+What the assessor sees is exactly what you send: the question, the answer and the assessment instructions, nothing from the widget's screen. Write the instructions as a marking scheme (what earns full marks, what loses them). Every `submit` is a new attempt; nothing stops a learner from submitting again. Scores are for practice: the learner, the tutor and ops see them, course standings do not count them.
+
+## Reading the learner's earlier answers
+
+A widget can read what the learner answered to any question in the course, by the question's `id::`, the same answers an `::answer{id="..."}` quote shows in text (see [[../Lenses/Response to question segments]]).
+
+```js
+Lens.getAnswers([objectionId, yearsId]).then(function (answers) {
+  var years = answers[yearsId];
+  // years.answer          the learner's latest submitted answer as text, or null
+  // years.questionTitle   the question's title, or null
+  // years.questionText    the question text (blanks shown as ___), or null
+  // years.lensTitle       the lens the question is in
+  // years.canGoToQuestion true when the learner's course shows the question
+});
+
+// Take the learner to the question card, as the quote popup's "Go to question" does.
+// Show the button only when canGoToQuestion is true.
+Lens.goToQuestion(yearsId);
+```
+
+- The answer is read once per call. The widget is not told when the learner answers again, so offer a way to read again (a button) if that matters.
+- Up to 50 ids per call. An id that is not a question comes back with `answer: null`.
+- Answers are the learner's own text: render them with `textContent`, never as HTML.
+
+Live example: `widgets/answers-reader-demo.html`, at the end of [[../Lenses/Response to question segments]].
+
+## Rules the frame imposes
+
+- **One file, no build step.** Plain HTML, CSS and JavaScript. Libraries are fine when loaded from a CDN `<script src>`; there is no bundler and no npm.
+- **No Lens data, no cookies, no parent page.** The frame is sandboxed (`allow-scripts allow-popups allow-popups-to-escape-sandbox`, no same origin). The widget cannot read who the learner is, call the Lens API, or store anything the platform sees, except through the `window.Lens` calls above. Use `localStorage` inside the widget if it needs to remember something on that browser.
+- **Let the frame size itself.** In `auto` mode the platform forces `html, body { height: auto }` and hides overflow, then measures the content. Do not design around the viewport height (`100vh`, `height: 100%` layouts): the widget is a block in a reading column, as tall as its content. If the content changes (a panel opens), the frame follows.
+- **No assets from the content repo.** Images in `widgets/` or `attachments/` are not served to learners. Inline small data (SVG, data URIs) or link to an external URL you are allowed to use.
+- **Size limit 400 KB** for the HTML body. Widgets are inlined into every module page that uses them.
+- **Links** open in a new tab (`target="_blank"`); the frame allows pop-ups so external references work.
+- **Width.** At desktop width the reading column gives a widget only about 640px. Lay it out for 640px and for 360px, not for the full screen.
+- **Dragging uses pointer events, not HTML5 drag-and-drop.** In the sandboxed frame, HTML5 drag-and-drop fired only `dragstart`, never `dragover` or `drop`. Use `pointerdown` with `setPointerCapture`, a fixed-position ghost, and `document.elementFromPoint` to find the target. Keep tap-a-block-then-tap-a-slot as well, so a finger on the palette still scrolls the page on touch screens. Working example: [[../widgets/xlab-control-protocol-builder]].
+- **Sliders update live while dragged.** Keep the slider outside whatever you redraw (rebuilding it ends the drag after one step). On `input`, redraw at most once per frame with `requestAnimationFrame`, never with a debounce that waits until the thumb stops. Cache the parts that don't depend on the slider, and keep chart axes fixed so a curve doesn't jump while other values move. Before calling it done, drag each slider for real and check the charts move with it.
+- **Staging can lag.** After an edit, staging sometimes serves the old widget for several minutes. Check that the frame shows something only the new version has before you verify anything.
+
+## Validation
+
+The validator (`validate_content`, the `/validate` page, CI) checks every `widgets/` file:
+
+- frontmatter fields (unknown fields are flagged, `height` must be `auto` or a CSS length);
+- the HTML parses: stray or mis-nested end tags, an unclosed `<script>` or `<style>`, self-closing `<div/>`, unterminated comments or attributes;
+- a JavaScript-built widget without visible text has a `summary_for_tutor` (warning otherwise).
+
+A lens that embeds a widget with errors gets an error too, and learners see a notice in that spot: "This widget could not be loaded. You can continue with the rest of the lesson." The same notice appears when the widget's own script throws before the page is up, or when the page never finishes loading. Run the validator before handing a widget over.
+
+Edits to an `.html` widget apply directly; the editor makes no suggestions in HTML files. (In an old `.md` widget, pending suggestions are stripped, so an unaccepted change never reaches learners.) Obsidian `%% %%` comments are stripped too. Do not put `</script>` inside a JavaScript string; it ends the script element.
+
+## Lens look
+
+Widgets sit inside the reading column of a lesson, so they should look like part of it, not like a foreign site. The platform's own tokens:
+
+- **Type.** UI and labels: `"DM Sans", Arial, sans-serif`. Headings: `"Newsreader", Georgia, serif` (weight 500 to 600). Long reading text: `"Source Serif 4", Georgia, serif`. Load DM Sans and Newsreader from Google Fonts in the widget's `<head>`, non-blocking so a slow font server never delays the page (a widget that has not finished loading after 8 seconds is shown as broken):
+  `<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">`
+- **Colour.** Page `#faf8f3`, cards `#ffffff`, text `#1a1a1a`, muted text `#5a5a5a`, borders `#e8e5df`, accent `#b87018` (hover `#9a5c10`, white text on it). Use the accent for the one thing that matters (selection, the "correct" state, a heat scale). Greys and one accent; no second brand colour.
+- **Shape.** 1px borders, 8px radius, generous whitespace, 14px base text, 1.5 line height. No drop shadows heavier than a hairline. Buttons are quiet (border + hover background), not filled, unless they are the primary action.
+- **Behaviour.** Everything clickable is a `<button>` or `<a>` (keyboard reachable), state changes are visible without colour alone, and the widget works at 360px wide (stack columns with a media query; a wide grid may scroll horizontally inside its own box, never the page).
+
+A starter stylesheet that matches:
+
+```css
+:root {
+  --bg: #ffffff; --text: #1a1a1a; --muted: #5a5a5a; --border: #e8e5df;
+  --accent: #b87018; --accent-hover: #9a5c10;
+  --font-ui: "DM Sans", Arial, sans-serif; --font-heading: "Newsreader", Georgia, serif;
+}
+* { box-sizing: border-box; }
+body { margin: 0; padding: 16px; font: 14px/1.5 var(--font-ui); color: var(--text); background: var(--bg); }
+h1, h2 { font-family: var(--font-heading); font-weight: 600; margin: 0; }
+.card { border: 1px solid var(--border); border-radius: 8px; padding: 16px; background: #fff; }
+button { font: inherit; color: inherit; border: 1px solid var(--border); border-radius: 8px; background: #fff; padding: 8px 12px; cursor: pointer; }
+button:hover { background: #faf8f3; }
+button.is-active { border-color: var(--text); box-shadow: 0 0 0 1px var(--text); }
+.eyebrow { font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+```
+
+## Writing one
+
+1. Decide what the learner does (click, drag, sort, adjust) and what they should notice. If nothing changes when they interact, it is a figure, not a widget: use an image or SVG in a `#### Text` segment instead.
+2. Put the data in the file as plain JavaScript objects; render with `document.createElement`, not string-built HTML, so quotes in the data cannot break the markup.
+3. Write `summary_for_tutor` last, from the finished widget.
+4. Run `validate_content`, then open the lens on staging and click through everything at desktop and phone width.
+
+Porting an interactive from another site (for example XLab Tracks widgets) means rewriting it as vanilla HTML/JS with the data inlined and the styling replaced by the Lens look; keep an HTML comment crediting the source.

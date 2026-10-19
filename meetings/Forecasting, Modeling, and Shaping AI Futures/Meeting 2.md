@@ -16,7 +16,7 @@ source:: [[../shared/Session Doc - How today works (3 rooms)]]
 ### Room 1: What is driving this  [0:05–0:19]
 
 Go around your group. Two things.
-1\. How was this unit? Harder or easier than Unit 1? Did you finish it? If you did not finish, what stopped you? "I did not finish" is a normal answer.
+1\. How was this unit? Did you finish it? If you didn't, what got in the way? What do you think about this unit compared to previous ones?
 2\. AI systems can do longer and longer tasks each year. Say what you think is actually causing that. Not when it will get somewhere. What is doing the work: more computers, better training methods, more money, more people, something else?
 
 
@@ -57,7 +57,7 @@ Your job is to break it. Find the weakest link in that chain.
 \- The model says experiment compute becomes the limit. If that is right, what stops being important? What starts being important?
 
 
-If a question is not clear, copy it into the Lens Coach ([https://lensacademy.org/coach](https://lensacademy.org/coach)) and ask it to explain.
+If a question is unclear, ask your navigator or copy it into [Lens Tutor](https://lensacademy.org/tutor).
 
 
 
@@ -118,7 +118,7 @@ Whole group, no breakout room.
 
 
 1\. Next unit: today, send your accountability partner one line: what is most likely to stop you finishing it, and your plan to prevent that.
-2\. Closing round, answer out loud if you'd like: one thing you are less sure about than you were two hours ago, and one thing you are more sure about.
+2\. Closing round, answer out loud if you'd like: one thing you are less sure about than you were 90 minutes ago, and one thing you are more sure about.
 
 
 One question for the post-meeting survey's feedback box. We are deciding the shape of this course now, and your answer will change it. Which helps you more: fewer exercises from us and more good readings, or the present balance? We want the honest answer, not the kind one.

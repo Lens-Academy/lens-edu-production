@@ -2,72 +2,104 @@
 tags:
   - validator-ignore
 ---
-# Course Authoring (AI Guide)
+## What a course is
 
-Lens Academy courses are plain markdown documents in this **"Lens Edu"** folder. Humans edit them in the web editor (editor.lensacademy.org), AI agents edit them through the lens-relay MCP tools.
+A **course** is a collection of `.md` files that link to each other.
+It is defined by a course file (see [[Lens Edu/AI Guide/Writing Course Files]]). A course file defines a set of units. Each unit consists of one or more modules, which students go through in self-study, and a group meeting at the end. During a meeting, students go through a Google Doc, which defines what they discuss (see [[../AI Guide/Writing Meeting Docs]]). After every unit, students are asked to fill out a survey (see [[../AI Guide/Writing Surveys]]).
 
-## Read next
+A module (see [[../AI Guide/Writing Modules]]) contains links to a set of learning outcomes that define what we want to teach in this module, and an ordered list of lenses, which constitute the actual content.
+Each learning outcome (see [[../AI Guide/Writing (Learning) Outcomes]]) defines one testable skill and a set of tests the platform uses to measure it (the test renders at the end of the module or submodule that declares the outcome).
+Each lens is rendered as a separate page. They contain the actual learning content (readings, AI-tutor chats, questions, roleplays). (see [[../AI Guide/Writing Lenses]]) Before adding or editing any question, read [[../AI Guide/Writing Rubrics]]: whether to grade it, how to write the rubric and the feedback brief, and the checks to run.
+Lenses can embed external **articles** and **video transcripts**, which live in the `articles/` and `video_transcripts/` folders alongside. (see [[../AI Guide/Adding Sources]])
+A lens can also mark words from the course **glossary** (`glossary/` folder): the learner sees a dotted line and can point at the word to read its definition. (see [[../AI Guide/Writing Glossary Entries]])
 
-| Task | Read |
-|------|------|
-| Writing or editing any content file | `Lens Edu/AI Guide/Element Reference.md` — exact frontmatter + segment syntax, validation rules |
-| Authoring lenses, learning outcomes, or modules | `Lens Edu/AI Guide/Quality Patterns.md` — the proven pedagogical patterns (read together with the element reference) |
-| Getting an external article/webpage into the knowledge base | `Lens Edu/AI Guide/Article Import.md` |
-| Human-facing intro for content creators | `Lens Edu/Content Creation Guide.md` |
+Read through a file type's guide before creating/editing any file of that type.
 
-## Content hierarchy
+Changes sync to https://staging.lensacademy.org within seconds; Only core team members can push to production (https://lensacademy.org).
 
+Staging and production are two different repositories, `lens-edu-staging` and `lens-edu-production`, not two branches of one. Editing here changes staging only. Nothing you fix is live for learners until that file is promoted, which is a pull request on `lens-edu-production`. Production files can therefore sit weeks behind a fix that already exists here, so when you are chasing something a learner reported, check what production actually has before concluding the file is fine.
+
+[[../courses/user-facing/Demo Course]] contains examples of all of our features. Look through it if you are unsure and direct new course creators to it to get familiar with our platform.
+
+## The document model
+
+Every content file is markdown with two kinds of structure: YAML frontmatter on top (file-level metadata, `key: value`) and a body of nested headings. A heading's section can carry its own metadata as `key:: value` lines under it; a value runs until the next `key::` or heading. Headings inside multi-line values must be escaped (e.g. `\## Heading`); inside a fenced code block nothing counts as structure. Segments can be grouped: `#### Callout: Title` … `#### End Callout` draws a box around the segments between them, nested to any depth (see [[../Lenses/Nested callouts demo]]). Unknown frontmatter fields are tolerated, but the platform only acts on documented fields.
+
+## Rules that apply everywhere
+
+- Never use em dashes anywhere!
+- **No semicolons** in course text (lens text, tldr, summary_for_tutor, course descriptions, unit goals). Use full stops or commas. Search the text for `;` before you finish.
+- **No quality disclaimers about our own courses.** When you point learners to another Lens course, say what it covers and how to take it, with a link. Never call it "less polished" or similar.
+- **No mannered prose.** This is Anthropic's definition ([source](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1)): "Mannered prose substitutes metaphor and flourish for direct statement. Instead of 'a parameter worth varying,' the mannered writer produces 'a dial worth turning.' Instead of 'this point still matters,' they write 'this point earns its keep.' The phrases exist to display the writer, not to convey the idea, and readers can tell. That is why mannered prose irritates: it makes the reader work harder so the writer can perform. It is also imprecise. Metaphors drag in connotations the writer did not choose and cannot control. The fix is to say what you mean. When a literal phrase is available, use it." Before you finish a text, reread it and remove all mannered prose. Examples from our own tldrs: "quietly steers which solutions you chase", "rolls into whichever valley is easiest to reach", "hands you the map". (Why: [AI tells - Graphite Opus 5.5](https://editor.lensacademy.org/328fc057/Lens/Research/AI-tells---Graphite-Opus-5.5.md).)
+- To get responses from course participants, use `#### Question: Open`, `#### Question: Rating`, `#### Question: Choice`, `#### Question: FillBlank`, or `#### Question: Ranking`. Old syntax used bare `#### Question` (legacy, being phased out; to convert one, keep its `id::` and decide whether it needs feedback, grading or both, as described in Writing Lenses) and `#### Rating` / `#### Choice`, but is being deprecated. The live reference is [[../Lenses/Response to question segments]].
+- **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, response segment, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
+- **Never change the id of already-published content.** Learner progress is keyed on these ids
+- **Drafts**: add `wip` to `tags` while a file is unfinished. Remove it when done. A production file referencing a wip file is a production error.
+- **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1785489958756}@@...<<}` (CriticMarkup) are stripped before parsing, safe for author notes anywhere.
+- **`add_to_ai_context`** injects source material (e.g. chapter text from a private folder) into the AI tutor's context; use it whenever the tutor must discuss a text the student read elsewhere. Allowed on a lens (scopes to that lens), module frontmatter (whole module), or a `# Submodule:` marker.
+- **Run the validator early, not as a final gate.** `validate_content` with `accept_drafts: true` finds schema errors no amount of reading finds.
+
+## Checking that the course is correct
+
+It is easy to write a course that sounds right. Being careful while writing does not prevent errors. These checks do. Run them on every course before promoting it.
+
+**Every claim outside articles is sourced, marked as our own view, or deleted.**
+Source means: a link the student can see (inline or footnote), or for maths, a calculation you ran. Own view means the sentence says so ("We think…"). Hedging ("probably") is neither. (rather cut than hedge)
+Claims hide in sentences that read like structure ("there are two ways to get this wrong", "these are mirror images") or like teaching lore ("students often misread this"). Treat those as claims too; the second kind is usually better rewritten as an instruction to the tutor: "if the student does X, do Y".
+
+**How to write sourced claims:**
+- **Facts are plain claims with a footnote.** "Redwood advises AI companies, including Google DeepMind and Anthropic.[^cite-…]", not "Redwood says it advises…" or "in its authors' words". Don't wrap most facts in quotation marks. A short quote is fine where the exact wording matters.
+- **Judgements name who holds them,** or they read as our own view: "According to Rob Wiblin, host of the 80,000 Hours podcast, Redwood is …".
+- **An organisation's claims about its own practice, and its promises and plans, are marked as its claims,** because only it can vouch for them: "Google DeepMind says it treats its own AI agents as possible insider threats." Facts others can check (it published X, a paper found Y) stay plain claims. If the organisation is the only source for a strong claim, look for an outside source first.
+- **No marketing qualifiers.** Don't copy fuzzy wording such as "well over 99%", "well within 24 hours", "highly robust" or "very reliably". State the plain fact or the number: "over 99%", "within 24 hours", "safety fell from 99% to 59%".
+
+**Cite with footnotes.**
+When you cite a source in lens text, put a `[^cite-<id>]` marker right after the claim, after the punctuation, and write the definition at the end of the same segment: authors (year), *title*, then a link named after the site. The learner sees a small [1] and the full reference when hovering or tapping it. Use `[^note-<id>]` for an aside. Ids are lowercase kebab-case, and the same source keeps the same id. Full rules: [[Adding Sources#Citations and explanatory notes]].
+
+```markdown
+Redwood researchers mostly call these high-stakes and low-stakes,[^cite-hebbar-2025] and this course does too.
+
+[^cite-hebbar-2025]: Vivek Hebbar (2025), *How can we solve diffuse threats like research sabotage with AI control?* [Redwood Research blog](https://blog.redwoodresearch.org/p/how-can-we-solve-diffuse-threats)
 ```
-Course  (courses/<Name>.md)             one file per course
-  # Module: [[../modules/<Name>]]       ordered module references
-  # Meeting: <name>                     marks a live-meeting point between modules
-Module  (modules/<Name>.md)
-  # Learning Outcome: <title>           source:: ![[../Learning Outcomes/<Name>]] — declared FIRST:
-                                        module-level before all submodules, submodule-level before
-                                        the lenses; tests auto-render at the end of their scope
-  # Submodule: <name>                   groups the sections below it
-  # Lens: <title>                       source:: ![[../Lenses/<Name>]]  (or inline: id:: + segments)
-Learning Outcome  (Learning Outcomes/<Name>.md)
-  ## Test:                              id:: + #### Question segments with scoring rubrics
-  # Suggested Lenses:                   optional, below the test; ## Lens: entries
-                                        (source:: [[../Lenses/<Name>]], notes::) —
-                                        author-facing suggestions, NOT imported by modules
-Lens  (Lenses/<Name>.md)                flat: frontmatter + H4 segments only
-  #### Text | Chat | Article | Video | Question | Roleplay
-Article (articles/*.md), Video transcript (video_transcripts/*.md)
-                                        source material referenced by Article/Video segments
-```
 
-A learning outcome is one testable skill ("Explain why...", "Distinguish X from Y"); its test is how the platform checks it. Referencing an outcome from a module imports **only the test** — the lenses that teach it are listed explicitly in the module, after the `# Learning Outcome:` ref (outcome declared first; the platform renders the test at the end of the module or submodule). An outcome's `# Suggested Lenses:` section is author-facing metadata: candidate lenses (each `## Lens:` with `source::` and optional `notes::`) for module authors to pick from; zero-suggestion outcomes are valid.
+**Check every number in a separate pass.**
+Reading prose for claims skips numerals. Grep every figure in the course and compare it against the original paper, not a summary. Check two things: that the digits are right, and that the number describes the quantity the text says it does. Example: a paper reported a 14% probability that progress arrives as a discontinuity; the course wrote it as a 14% share of total progress, and a test question graded students against the wrong meaning.
 
-## Editing workflow (MCP)
+**Have the course reviewed by agents who did not write it.**
+An author cannot see their own errors. Use several reviewers, and give each one a specific error to look for:
+- Try to grade a sample answer using only the rubric. Where is the rubric ambiguous?
+- Answer the test without having read the material. Can a fluent writer pass?
+- Read the mathematics. Does the argument depend on it, or is it decoration?
+- Read as an impatient expert. Where would you stop reading?
 
-1. Call `create_session` once with the user's first name — edits are attributed as "{name}'s AI" in the review UI.
-2. `read` a document before you `edit` it. Use `glob`/`grep`/`search` to find content — scope patterns to a subfolder or prefix (`Lens Edu/Lenses/IABIED*`); a bare `Lens Edu/**` glob returns 100k+ characters.
-3. All markdown writes (`create`, `edit`) land as **CriticMarkup suggestions**, not direct changes. A human must accept them in the editor review UI before they exist for the platform — the content pipeline strips unaccepted suggestions. So:
-   - After making suggestions, call `get_url` for each touched document and give the user the links so they can review and accept. Never construct editor URLs by hand.
-   - Don't expect your own unaccepted edits to show up in validation or on the site.
-   - `read` shows pending suggestions in a `[Pending suggestions]` section — check it to avoid duplicating or fighting an existing suggestion.
-4. Leave notes for human reviewers inline with `{>>{"author":"Elias's AI","timestamp":1783754188139}@@your note<<}` — attribution is automatic.
-5. Renaming or moving files: use `move`, which rewrites wikilinks in referencing documents. Never simulate a move with create + delete.
+A review that only says "looks good" was not done.
 
-## Publish pipeline and validation
+**If several agents built the course, do two more checks.**
+- Ask each author agent, while it is still running, where each of its claims came from. It must answer one of: here is the source; this is our own opinion; this is wrong. Tell it not to produce a citation it does not actually remember.
+- Check that promises made in one file are kept in the next. A pre-test whose baseline is never used later, or a prediction the student writes down that is never revisited, are the typical failures.
 
-```
-Relay "Lens Edu" folder ──auto-sync──▶ github.com/Lens-Academy/lens-edu-staging (branch: staging)
-        │                                        │ promotion PR (human)
-staging.lensacademy.org  ◀── reads staging       ▼
-lensacademy.org          ◀── reads lens-edu-production
-```
+### Self-Determination Theory
 
-After edits are accepted, check **https://staging.lensacademy.org/validate** — it continuously validates the synced content and lists errors/warnings per file, filterable by course. Errors are categorized `production` (blocks promotion) vs `wip` (draft-only, from `tags: [wip]`). Fix production-category errors in files you touched before calling the work done.
+Self-determination theory distinguishes **autonomous motivation**, acting for reasons connected to one's own goals and values, from motivation produced mainly by pressure, guilt, fear, or external control. 
 
-**Never push to the `Lens-Academy/lens-edu-staging` or `lens-edu-production` git repos directly** (no `git push`, no `gh api`). The staging repo is continuously force-synced from the relay; external pushes break the sync. All content changes go through the relay.
+It identifies three psychological needs:
 
-## Rules that prevent the most common breakage
+- **Autonomy:** feeling able to choose and align one's behavior with one's values.
+- **Competence:** feeling capable of achieving one's goals.
+- **Relatedness:** feeling accepted, connected, and that one belongs.
 
-- **Escape headings inside field values.** A line starting with `#`–`####` inside a multi-line `content::`/`instructions::` value is parsed as a new section boundary and silently truncates the field. Escape it: `\## Phase 1: Recall` (existing content uses `\##`; the validator suggests `!##` — both work).
-- **Wikilinks are relative** to the referencing file and must contain a `/`. Convention: module `source::` refs use the embed form (`source:: ![[../Lenses/Name]]`), segment and suggested-lens `source::` refs the plain form (`source:: [[../articles/name]]`, `source:: [[../Lenses/Name]]`). The parser accepts both — match the convention, don't "fix" the other form in existing files.
-- **IDs are UUIDs** (lowercase v4, generate with `uuidgen | tr A-Z a-z`). Every lens, learning outcome, module, test, and inline lens needs its own. Quote them in frontmatter (`id: 'a1b2...'`) so YAML never mangles them; never reuse or invent non-UUID ids.
-- **Drafts**: add `wip` to `tags` while a file is unfinished — its errors then don't block promotion. Remove it when done. A production file referencing a wip file is a production error.
-- **Comments**: `%% ... %%` (Obsidian) and `{>>{"author":"Elias's AI","timestamp":1783754188139}@@...<<}` (CriticMarkup) are stripped before parsing — safe for author notes anywhere.
+For Lens, these are useful internal design variables and possible aggregate evaluation measures. They should not become visible learner prerequisites or pass/fail criteria.
+
+Support learner agency by:
+
+- Explaining the real problem, the course's purpose, and how an activity is meant to help.
+- Connecting rationales to the learner's own goals and values rather than assuming agreement.
+- Offering meaningful choices and multiple legitimate contribution paths.
+- Building competence through achievable practice and constructive feedback.
+- Fostering belonging without using conformity as evidence of success.
+- Avoiding guilt, fear, status pressure, or inadequacy as ways to obtain compliance.
+- Treating a learner's different conclusion as compatible with successful learning when they can reason about it well.
+
+Dispositions can be implicit in the learner-facing graph while explicit in the internal theory of change. Lens may intentionally design for agency and sustainable motivation without displaying "motivation achieved" or grading value alignment.
+
+- [Michael Noetel, "We all teach: here's how to do it better"](https://forum.effectivealtruism.org/posts/ZPNNnEu2HGNSNmifo/we-all-teach-here-s-how-to-do-it-better)
