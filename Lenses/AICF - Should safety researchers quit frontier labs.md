@@ -8,7 +8,7 @@ tutor_minutes: 13
 ---
 #### Text
 content::
-The warning-shot argument has a practical form: if safety work at AI companies prevents the incidents that might win support for a pause, maybe safety researchers should leave. Ryan Kidd, who runs a programme that trains safety researchers, sets out that argument and his replies to it. He states his conflict of interest at the end.
+The warning-shot argument has a practical form: if safety work at AI companies prevents the incidents that might win support for a pause, maybe safety researchers should leave. Ryan Kidd, who runs a programme that trains safety researchers, sets out that argument and his replies to it.
 
 #### Article
 source:: [[../articles/kidd-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
@@ -23,7 +23,7 @@ feedback-instructions:: The learner read Ryan Kidd's post and is ranking his rep
 
 #### Text
 content::
-Here are three comments on the post. Boaz Barak, who says he works on OpenAI's alignment team, comments on it, and Leo Gao replies to him. A commenter called orthonormal replies to Kidd directly, a day before Barak's comment.
+Boaz Barak commented on the post, and Leo Gao replied to him.
 
 #### Article
 source:: [[../articles/barak-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
@@ -35,10 +35,17 @@ source:: [[../articles/leogao-comment-on-should-safety-researchers-quit-frontier
 id:: 47d37df0-405b-4df3-9a0c-bbb7b8b71280
 force-feedback:: first
 content::
-Barak says we should be very suspicious of any argument that we should make things worse now so they can be better later. Leo Gao, replying to Barak, accepts that, but still thinks something in the quitting argument survives. Take a control researcher at a frontier lab who stops building monitors that block an AI's dangerous actions, but stays at the lab. Gao draws a line between aiming to increase harm and choosing not to reduce it as far as possible in order to uphold another principle. Does that line allow this choice, and why? Would Barak still object, and why?
+Barak says we should be very suspicious of any argument that we should make things worse now so they can be better later. Leo Gao, replying to Barak, accepts that, but still thinks something in the quitting argument survives. Take a control researcher at a frontier lab who stops building monitors that block an AI's dangerous actions, but stays at the lab. Gao draws a line between aiming to increase harm and choosing not to reduce it as far as possible in order to uphold another principle.
+
+1. Does that line allow this choice, and why?
+2. Would Barak still object, and why?
 placeholder:: A few sentences.
 assessment-instructions:: Score out of 100. Context for grading: Boaz Barak says to strongly suspect any argument that you should make the situation worse now so it can be better later, because people who try usually succeed only at the first part, and because nobody can control how harmful the next warning shot would be. Leo Gao agrees it would be bad to try to cause warning shots, but distinguishes aiming to increase harm from not reducing harm as much as possible in order to uphold another principle, for example not mitigating harms when that would stop recklessness from being properly punished. 55: Gao applied to the researcher: his line could allow the choice if the aim is to uphold another principle, such as not shielding the company from the consequences of its own recklessness, and not if the aim is to let incidents happen so they become warning shots. Either verdict earns the 55 when it is argued from that distinction. 45: Barak would still object, because the choice makes things less safe now in the hope of a better later, and nobody can control how bad the next incident would be. A reasoned argument that he would not object also earns these 45. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Gao's line could allow it if the researcher stops in order not to cover for a reckless company, not in order to cause incidents. Barak would still object, because it makes things less safe now in the hope of a better later, and nobody can control how bad the next incident would be."
 feedback-instructions:: The learner applies Barak's comment and Leo Gao's reply to a researcher who stops building blocking monitors but stays at the lab. Gao: there is a difference between aiming to increase harm and declining to reduce it as much as possible in order to uphold another principle, for example not shielding a company from the consequences of its own recklessness, so his line may allow the choice depending on why the researcher makes it, but not if the aim is to let incidents happen. Barak: suspect any "make it worse now so it is better later" argument, and the next warning shot cannot be controlled, though he also says a researcher who does not feel their work matters should look elsewhere. Accept other reasoned readings. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say whether anyone should quit.
+
+#### Text
+content::
+Another commenter, orthonormal, replied to Kidd's post directly.
 
 #### Article
 source:: [[../articles/orthonormal-comment-on-should-safety-researchers-quit-frontier-labs-re-warning-shots]]
@@ -47,7 +54,7 @@ source:: [[../articles/orthonormal-comment-on-should-safety-researchers-quit-fro
 id:: 5055a20c-7ac3-414d-96ce-9968aefd6604
 force-feedback:: first
 content::
-orthonormal, writing a day before Barak, also agrees that "make things worse now so they can be better later" is a bad kind of argument, but still thinks something in the quitting argument survives: much safety work hid misalignment in released models instead of fixing it. Take again the control researcher who stays at a frontier lab. Does building monitors that block an AI's dangerous actions hide misalignment in orthonormal's sense? Why or why not?
+orthonormal also agrees that "make things worse now so they can be better later" is a bad kind of argument, but still thinks something in the quitting argument survives: much safety work hid misalignment in released models instead of fixing it. Take again the control researcher who stays at a frontier lab. Does building monitors that block an AI's dangerous actions hide misalignment in orthonormal's sense? Why or why not?
 placeholder:: A few sentences.
 assessment-instructions:: Score out of 100. Context for grading: orthonormal agrees that 'worse is better' is a bad kind of argument, but says much prosaic safety work at frontier labs hid misalignment in released models rather than making them more robustly aligned, and that if researchers had refused to keep patching surface problems, commercial progress would have been halted. Earlier in the unit, Vincent Cheng argued that blocking monitors stop incidents before anyone outside the lab sees them, and that labs keep blocked attempts internal. 40: the reason says what the monitor does to the misalignment: it stops the visible harm but leaves the model as misaligned as before. 60: a verdict that follows from what happens to the blocked attempts. Either verdict can earn the full 60. Yes: the monitor stops the visible harm while the model stays misaligned, and if blocked attempts stay inside the lab, outsiders see a model that seems fine. No, or less so: a blocked attempt is caught and recorded, so the misalignment becomes known to the lab and can be studied or disclosed, unlike a patch that removes the symptom. An answer that says it depends on what is done with the blocked attempts earns the full 60 if it says why. 30 of these 60 for a verdict whose reason does not say what happens to the misalignment. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "It depends. Blocking stops the harm but leaves the model as misaligned as before, which is what orthonormal means by hiding. If the lab keeps the blocked attempts to itself, the model looks fine to everyone else. If it studies and discloses them, the monitor reveals the misalignment instead of hiding it."
 feedback-instructions:: The learner applies orthonormal's comment to a control researcher who stays at a frontier lab and builds blocking monitors. orthonormal says much safety work hid misalignment in released models instead of making them more robustly aligned. Blocking monitors stop the visible harm without changing the model, so they hide misalignment if blocked attempts stay inside the lab (Cheng's point), and reveal it if the attempts are studied and disclosed. Accept either verdict with a reason that says what happens to the misalignment. If the learner merges orthonormal's point with Gao's line between aiming to increase harm and not reducing it in order to uphold another principle, ask how they differ. At most two replies, 60 to 120 words each, no lists, no generic praise. Do not say whether anyone should quit.
