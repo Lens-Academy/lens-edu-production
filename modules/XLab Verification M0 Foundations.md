@@ -61,6 +61,26 @@ source:: [[../Lenses/XLab Verification - v-intuitions-success]]
 optional:: true
 
 # Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-ai-2027]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-restrictions]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
 
 # Submodule: 0.3 History, precedents, parallels
