@@ -97,40 +97,32 @@ optional:: true
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-strategic-thinking]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-game-theory]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-signaling]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-witness]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-monitoring]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-two-level-games]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-weaponized-interdependence]]
 
 # Lens:
 optional:: true
-hide:: true
 source:: [[../Lenses/XLab Verification - v-sf-written-exercise]]
