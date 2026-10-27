@@ -9,7 +9,7 @@ tags: []
 ---
 #### Text
 content::
-We don't "build" intelligence brick by brick; instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The article below examines these features of the current AI development paradigm and explores the consequences of such an approach.
+We don't "build" intelligence brick by brick. Instead, we create conditions for it to develop using massive datasets. This "growth" leads to emergent properties, skills that the system wasn't explicitly taught and that often surprise the creators themselves. The article below examines these features and consequences born from the current AI development paradigm.
 
 #### Article
 source:: [[../articles/yudkowsky-soares-ai-is-grown-not-built|yudkowsky-soares-ai-is-grown-not-built]]

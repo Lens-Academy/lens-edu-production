@@ -15,15 +15,34 @@ source:: [[../Lenses/XLab Verification - v-intuitions]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-plan-a]]
 
-# Choose: 1
-## Lens:
+# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-a1]]
-## Lens:
+optional:: true
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-b1]]
+optional:: true
 
 # Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-success]]
 optional:: true
 
 # Lens:
-source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-ai-2027]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-restrictions]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]]

@@ -2,22 +2,23 @@
 id: 'd274604f-c1e4-4538-ad50-dde3c49a6d66'
 title: "Primer Practice: Inspection, Commitment, and Logic"
 tldr: "Commit an answer, read the explanation, and continue through six ungraded checks."
-summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score."
+summary_for_tutor: "Six ungraded primer drills. Preserve all choices and explanations. Ask learner to commit before revealing each explanation; do not assign a score. In Compute Verification 1 it sits in Strategic foundations, after the readings. The first and fifth checks draw on the inspection game in the Game Theory primer (§8.2), the second on its §6, and the sixth on logic alone. The third, on Putnam's two-level games, is optional, since that reading is. The fourth is optional too: Fearon, an optional reading, names two of its terms, and the Game Theory primer's §6 supplies the third (the doomsday machine). Its key is corrected from the source's, which credited all three to Fearon."
 reading_minutes: 4
 tutor_minutes: 12
 tags: [wip]
 ---
 #### Text
 content::
-The primer bench: inspection games, credible commitment, and two-level games.
+Test your strategic intuitions across a handful of drills that cover inspection games, credible commitment, and two-level games.
 Commit an answer before each reveal, read why, then continue. Nothing here is graded.
 
 #### Question: Choice
 id:: b9535676-a824-44eb-a1c8-86556c0f0a80
-content:: In a well-designed inspection game, the inspector's optimal strategy drives the equilibrium violation rate to zero. True or false?
+content:: In a well-designed inspection game where the inspector has a limited inspection budget, the inspector's optimal strategy drives the equilibrium violation rate to zero. True or false?
 options::
 - True
 - False
+force-feedback:: first
 feedback-instructions:: Explain: false, and the word doing the damage is "zero". In Dresher-style inspection games the inspector has limited inspections, so the equilibrium involves randomized inspection and a nonzero violation rate. A regime that promises zero is overclaiming; a regime that prices the residual rate is doing game theory. Two or three sentences.
 
 #### Text
@@ -32,6 +33,7 @@ content:: Reputation, reciprocity, and retaliation can sustain compliance withou
 options::
 - True
 - False
+force-feedback:: first
 feedback-instructions:: Explain: true. Each enforcement channel that works without a world government begins with noticing the violation. No detection, no deterrence; verification is upstream of every enforcement story. Two or three sentences.
 
 #### Text
@@ -42,10 +44,12 @@ True. Each enforcement channel that works without a world government begins with
 
 #### Question: Choice
 id:: 43fbcb43-c2b2-41ea-bee2-71882b642b3b
-content:: In Putnam's two-level game, a leader who signs in good faith and then fails domestic ratification has still defected, involuntarily. True or false?
+content:: Optional, from The Logic of Two-Level Games: In Putnam's two-level game, a leader who signs in good faith and then fails domestic ratification has still defected, involuntarily. True or false?
 options::
 - True
 - False
+force-feedback:: first
+optional:: true
 feedback-instructions:: Explain: true. Two-level games distinguish voluntary defection (chose to cheat) from involuntary (couldn't deliver the home front). A verification regime must survive both; the second kind is why ratification constraints belong in feasibility analysis, not just bad faith. Two or three sentences.
 
 #### Text
@@ -56,19 +60,21 @@ True. Two-level games distinguish voluntary defection (chose to cheat) from invo
 
 #### Question: Choice
 id:: 357a36a9-d41c-454c-a7e7-760afe1f3a0a
-content:: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
+content:: Optional, from Signaling Foreign Policy Interests and Game Theory: Series: sunk costs, tied hands, mechanical enforcement. Name the tightest concept that covers all three, and only them.
 options::
 - Game-theoretic concepts
-- Fearon's ways of making a commitment credible
+- Ways of making a commitment credible
 - Forms of treaty punishment
 - Domestic ratification constraints
 shuffle:: true
-feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement). Two or three sentences.
+force-feedback:: first
+optional:: true
+feedback-instructions:: Explain: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad. Fearon (1997) names the first two: burn resources up front (sunk cost) or make backing down costly later (tied hands). The third, removing the choice entirely (mechanical enforcement), is the doomsday machine in the Game Theory reading's section on commitment (Ross, §6). Two or three sentences.
 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-The series rule: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad; it earns zero on an olympiad table and it should here too. Fearon (1997): burn resources up front (sunk cost), make backing down costly later (tied hands), or remove the choice entirely (mechanical enforcement).
+The series rule: the tightest true label wins. "Game-theoretic concepts" is true but hopelessly broad; it earns zero on an olympiad table and it should here too. Fearon (1997) names the first two: burn resources up front (sunk cost) or make backing down costly later (tied hands). The third, removing the choice entirely (mechanical enforcement), is the doomsday machine in the Game Theory reading's section on commitment.
 :::
 
 #### Question: Choice
@@ -86,12 +92,13 @@ options::
 - Schelling focal point
 multi:: true
 shuffle:: true
+force-feedback:: first
 feedback-instructions:: Four families were mixed into the list: inspection games (randomized inspection: predictable inspectors are avoidable inspectors; Dresher game: the founding formalization of inspector vs. potential violator; equilibrium violation rate: the rate is nonzero at optimum), repeated cooperation (tit-for-tat, grim trigger), commitment credibility (audience costs, cheap talk), and coordination (Schelling focal point, ratification constraint belongs to two-level games). Name the family of each term the learner got wrong. Distractor density is part of the drill.
 
 #### Text
 content::
 :::callout {title="Why (open after you have answered)" tone="neutral" collapse="closed"}
-Four families were mixed into the list: inspection games (the three you had to find), repeated cooperation, commitment credibility, and coordination. Three needles are buried in eleven terms; distractor density is part of the drill.
+Four families were mixed into the list: inspection games (the three you had to find), repeated cooperation, commitment credibility, and coordination. Three needles are buried in nine terms; distractor density is part of the drill.
 
 - randomized inspection: inspection-game logic, predictable inspectors are avoidable inspectors.
 - tit-for-tat: repeated-cooperation strategy, the Evolution of Trust family, not inspection.
@@ -112,6 +119,7 @@ options::
 - Some treaty provisions are not tamper-resistant
 - Some tamper-resistant mechanisms are treaty provisions
 - All treaty provisions are self-reporting mechanisms
+force-feedback:: first
 feedback-instructions:: Explain by chaining the circles: the log-based circle sits wholly inside self-reporting (premise 2), and self-reporting is disjoint from tamper-resistant (premise 1); the treaty-provisions circle overlaps log-based (premise 3), so that overlap is forced outside tamper-resistant, an existential conclusion and nothing more. The rest of the provisions circle is unconstrained, which kills the "no" and "all" options; the third option is not derivable at all. Drawing the arrangement where the answer holds and the others fail is the justification.
 
 #### Text

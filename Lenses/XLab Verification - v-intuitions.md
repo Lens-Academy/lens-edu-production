@@ -1,7 +1,7 @@
 ---
 id: '7a5bcc21-1cea-45f1-95d1-46c7896c94ec'
 title: "Building Verification Intuitions"
-tldr: "Take the most detailed public plan for a verified AI slowdown, AI 2040's Plan A, and treat it like an engineer treats a bridge design: find the load-bearing part, the weakest weld, the unrealistic schedule, and how much hidden compute it can survive. Then write your verdict."
+tldr: "Take the most detailed public plan for a verified AI slowdown, AI 2040's Plan A, and treat it like an engineer treats a bridge design: find the load-bearing element, the weakest component, the unrealistic schedule, and how much hidden compute it could survive. Then write your verdict."
 summary_for_tutor: "Introduces the verification exercise and the two alternative essay routes. The next lens embeds three excerpts from Plan A's verification supplement (Romeo Dean, AI 2040: Verification Plan), not the main Plan A scenario. Each optional route keeps its four preparatory responses and final essay together. Further exploration and ungraded primer practice are separate."
 tags: [wip]
 reading_minutes: 2
@@ -28,14 +28,14 @@ For its dates, percentages, and recommendations, ask:
 - What remains uncertain?
 
 Use logic and evidence to support your judgment.
-Then choose an essay option:
+Then choose an essay option (optional):
 
 - **Option A:** [[../Lenses/XLab Verification - v-intuitions-a1|Stress-test Plan A]]. Assess whether its verification regime would work and where it could fail.
 - **Option B:** [[../Lenses/XLab Verification - v-intuitions-b1|Compare Plan A and Plan S]]. Read about Plan S, then weigh a verified slowdown against a complete shutdown.
 
 In either option, four short responses help you develop your argument for the final essay.
 
-:::callout {title="A writing good practice" tone="neutral" collapse="closed"}
+:::callout {title="A good writing practice" tone="neutral" collapse="closed"}
 Clarify the source of each claim you make, and explicitly identify gaps, uncertainties, or ambiguities as they appear. You won't know everything, and you aren't expected to.
 :::
 {>>{"author":"Elias's AI","timestamp":1788014588121}@@Order note: the "Works cited" segment currently lands before this question's "Why" callout; move it to the very end of the lens when accepting.<<}
