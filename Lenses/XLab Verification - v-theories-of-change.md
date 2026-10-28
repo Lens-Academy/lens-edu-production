@@ -1,7 +1,7 @@
 ---
 id: 'b9bf7a86-0221-4b6e-8980-29e23fa7f435'
 title: "We Need More Theories of Change"
-tldr: "Congress cancelled a $11B collider because nobody could say why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world; if you cannot state it, neither can the people deciding whether to fund or act on your work."
+tldr: "Congress cancelled an $11B collider because nobody could articulate why it mattered. A theory of change is the chain of if-then claims from what you do to what changes in the world. If you cannot state it, then neither can the people deciding whether to fund or act on your work."
 summary_for_tutor: "Imported from XLab's canonical Verification curriculum. Preserve source framing. The optional exercise is an interactive widget: the learner names a real AI safety organization, fills its eight-box theory-of-change chain (inputs, outputs, outcomes, assumptions, external factors) and presses Get feedback, which submits the chain and requests written feedback from you; check outputs vs outcomes and if-then links."
 tags: [wip]
 reading_minutes: 7
@@ -17,7 +17,7 @@ Judge whether a stated theory of change is good and workable: where its outputs 
 
 How exactly does your project contribute to making the world a better place? This seems like an obvious question for researchers to be able to answer, especially those working in high-impact areas like AI safety. But it can be concerningly easy to handwave a fuzzy “good impact” to justify all sorts of work. This risks obfuscating truly useful projects as indistinguishable from those that only appear to be so at first glance.
 
-Even multibillion, nation-funded projects have fallen victim to this fuzziness. In 1993, Congress [canceled](https://www.liquisearch.com/superconducting_super_collider/cancellation) the Superconducting Super Collider, after $2 billion had already been spent and over 20 kilometers of tunnel had been bored underground. Had it been finished, it would have likely found the Higgs boson decades before CERN’s Large Hadron Collider did.
+Even multibillion, nation-funded projects have fallen victim to this fuzziness. In 1993, Congress [canceled](https://www.liquisearch.com/superconducting_super_collider/cancellation) the Superconducting Super Collider, after $2 billion had already been spent and over 20 kilometers of tunnel had been bored underground. Had it been finished, it would likely have found the Higgs boson years before CERN’s Large Hadron Collider did.
 
 Everyone agreed that “science was good”. The SSC had serious institutional backing at the highest levels. President Clinton tried to prevent the cancellation, [warning](https://www.aip.org/fyi/1993/looking-back-why-ssc-was-terminated) that “abandoning the SSC at this point would signal that the United States is compromising its position of leadership in basic science.” When he signed the cancellation bill he expressed regret at the “serious loss” for science.
 
@@ -43,7 +43,7 @@ So, what does a good AI safety theory of change actually look like? This table m
 
 | Inputs | Outputs | Outputs | Outcome | Outcome | Outcome |
 |---|---|---|---|---|---|
-| What do we need? | What do we do? | Who do we reach? | What changes first? | What changes next? | What is different in the end? |
+| What do we need? | What do we do? | Who do we reach? | Short-term | Intermediate | Long-term |
 | *Resources, people* | *Activities* | *New audience, collaborators* | *Knowledge increased* | *Behavior changed, decision-making done* | *Conditions changed* |
 
 | Assumptions | External factors |
@@ -63,7 +63,7 @@ A simple test to check if you are clear enough is to try explaining the project 
 - Conceptual AI Safety research may seem difficult to write a cohesive and tractable theory of change about, but it’s possible! See [this example by John Wentworth](https://www.lesswrong.com/posts/vh5ZjdmJYJgnbpq8C/the-plan-2025-update).
 - [Slow Food USA’s theory of change](https://slowfoodusa.org/theory-of-change/): an effective theory of change, conveyed in engaging and easy-to-parse visuals.
 
-![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/XLabTracks/tracks/main/public/verification/assets/theories-of-change/slow-food-theory-of-change.png)
+![Slow Food USA's one-page theory of change: assumptions and purpose at the top feed a mission, three pillars, and a tree whose canopy holds the future and vision, with values at the roots and roles and strategies beneath.](https://raw.githubusercontent.com/Lens-Academy/lens-edu-staging/staging/attachments/xlab-v-theories-of-change-slow-food.png)
 
 Image: [Our Theory of Change](https://slowfoodusa.org/theory-of-change/), Slow Food USA.{>>{"author":"Elias's AI","timestamp":1788009459586}@@Proposed: the image hotlinks XLab's asset server; link the original page instead. Alternative: copy the image into Lens.<<}
 :::

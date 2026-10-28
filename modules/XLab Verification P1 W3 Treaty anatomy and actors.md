@@ -23,6 +23,9 @@ content::
 source:: [[../Lenses/XLab Verification - v-scoping-anatomy]]
 
 # Lens:
+source:: [[../Lenses/XLab Verification - v-scoping-anatomy-assignment]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-paper-scher-treaty]]
 optional:: true
 

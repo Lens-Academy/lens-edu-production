@@ -61,6 +61,26 @@ source:: [[../Lenses/XLab Verification - v-intuitions-success]]
 optional:: true
 
 # Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-ai-2027]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-restrictions]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-oxford-martin]]
+
+# Lens:
+optional:: true
+hide:: true
+source:: [[../Lenses/XLab Verification - v-intuitions-read-scher-mechanisms]]
+
+# Lens:
 source:: [[../Lenses/XLab Verification - v-intuitions-drills-1]]
 
 # Submodule: 0.3 History, precedents, parallels
@@ -74,3 +94,35 @@ source:: [[../Lenses/XLab Verification - v-precedents]]
 # Lens:
 source:: [[../Lenses/XLab Verification - v-strategic-foundations]]
 optional:: true
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-strategic-thinking]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-game-theory]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-signaling]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-witness]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-monitoring]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-two-level-games]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-weaponized-interdependence]]
+
+# Lens:
+optional:: true
+source:: [[../Lenses/XLab Verification - v-sf-written-exercise]]

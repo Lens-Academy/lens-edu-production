@@ -1,7 +1,7 @@
 ---
 id: '5991339a-c9ea-48cd-8b62-ded2834a0792'
 title: "Who can prove what"
-tldr: "Verification is not something an actor has; it is an arrow between two of them: A can put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in 1.2, key them against Baker et al.'s four subgoals, and count. Ten of seventeen actors have no arrow at all, and one chip designer is holding up three of the four subgoals."
+tldr: "Verification is not simply something a single actor has. It is a connection between two of them. A can put a fact in front of a verifier about B that B did not volunteer. Draw the arrows on the board you built in the opening lens of this module, key them against Baker et al.'s four subgoals, count which actors have no arrow at all, and find out who is holding up three of the four subgoals."
 summary_for_tutor: "The learner draws directed evidence edges on the 17-actor board from 1.2 in the widget, then reads what the finished map says. An edge A to B means A can produce evidence about B, for a verifier, that B did not volunteer. Committing the edges grades them against XLab's seven-edge key and completes the widget: Cloud providers to Frontier labs (1.A declared uses are accurate), NVIDIA to Frontier labs (1.B declared uses have the required properties), NVIDIA to Cloud providers (2.A no undeclared use of a declared cluster), TSMC to Proxies, NVIDIA to Proxies, Intelligence community to China and Intelligence community to Proxies (all 2.B no undeclared clusters at all). A reversed edge is reported as reversed, not as a miss; extras cost nothing but get named. Committing also prints, inside the widget, each key edge's full mechanism with its Baker quotes and the ten actors with no edge and why, as XLab does. The page carries the rest: the brief and the board before the widget, the four Baker et al. subgoals with their quotes, and a roster callout the learner may open at any time; after the widget, a closed callout holds the reading of the map (2.B has four edges, the other subgoals one each, NVIDIA on three of seven, six of seven arrowheads point at a company or a shell), then a multiple-choice question on whose removal stops a frontier training run soonest (the key says the cloud providers) and three optional written questions marked against XLab's key (Taiwan's roles, information holders in order of completeness, an actor that is capability holder and enforcement authority at once). Do not reveal the key before the learner has committed their edges. Every quoted mechanism is from Baker et al. 2025 (arXiv 2507.15916)."
 tags: [wip]
 reading_minutes: 30
@@ -46,7 +46,7 @@ Baker et al. decompose it this way, and the key tags every edge with the part it
 #### Text
 content::
 :::callout {title="The 17 actors (open any time)" tone="neutral" collapse="closed"}
-Reference for the workshop below: the cast from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids: who has to declare it, who holds evidence about the declaration, who checks it, and what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
+Reference for the exercises below: the actors from 1.2, the ring each one sits on in the key placement, what it does on the chain, and the functional roles and postures 1.2 tagged it with. The rings run outward from the compute use the agreement forbids, starting with who has to declare it, who holds evidence about the declaration, who checks it, and extending to what no declaration covers. At the centre is the paper’s own scope: “it seeks to verify compliance on the basis that all large-scale AI compute use is accounted for in compliant activities” (Baker et al., §3.1, AI compute accounting).
 
 **Declares.** You own or use large-scale compute, or you signed the agreement and answer for what happens inside your territory. Either way the regime wants a declaration from you: you are the Prover.
 
@@ -77,9 +77,22 @@ Reference for the workshop below: the cast from 1.2, the ring each one sits on i
 - **Proxies** (front companies, resellers, straw buyers). Distribution, across every stage. They exist to break the link between a name and an activity. *Roles: evasion pathway. Postures: defect.*
 - **Deployers** (product builders and deployers). Deployment, most downstream. A diffuse downstream signal of what models can do. *Roles: victim or beneficiary. Postures: free-ride.*
 
-**The six functional roles** (the role chips in the workshop, which appear once you commit, light the actors that hold one): capability holder, who can actually build the dangerous thing; chokepoint controller, who can physically stop or slow the flow; information holder, who already knows what verifiers need to learn; enforcement authority, who can impose a real cost for violating; evasion pathway, through whom a cheater would route; victim, free-rider or beneficiary, who bears the risk or enjoys the stability without a seat at the table.
+**The six functional roles**
 
-**The five postures:** comply, follow the agreement as written; defect, covertly violate for advantage; hide, obscure assets or activities from view, whether or not a rule is being broken; exaggerate, overstate compliance, safety, or capability; free-ride, enjoy the stability produced by others’ restraint without bearing its costs.
+- **Capability holder:** who can actually build the dangerous thing.
+- **Chokepoint controller:** who can physically stop or slow the flow.
+- **Information holder:** who already knows what verifiers need to learn.
+- **Enforcement authority:** who can impose a real cost for violating.
+- **Evasion pathway:** through whom a cheater would route.
+- **Victim, free-rider or beneficiary:** who bears the risk or enjoys the stability without a seat at the table.
+
+**The five postures**
+
+- **Comply:** follow the agreement as written.
+- **Defect:** covertly violate for advantage.
+- **Hide:** obscure assets or activities from view, whether or not a rule is being broken.
+- **Exaggerate:** overstate compliance, safety, or capability.
+- **Free-ride:** enjoy the stability produced by others’ restraint without bearing its costs.
 :::
 
 #### Text
@@ -127,7 +140,8 @@ options::
 - ASML.
 - TSMC.
 - The Bureau of Industry and Security.
-feedback-instructions:: Give XLab's reasoning for the option chosen, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
+force-feedback:: first
+feedback-instructions:: Give the source lesson's reasoning for the option chosen, from the "Why" callout below, then the lesson. Cloud providers: "The run happens on their machines. Access can be suspended this afternoon, and they are the other actor the regime asks for a declaration, because the cluster it happens on is theirs." ASML: "The most consequential removal on this board and the slowest. ASML is 100% of EUV lithography, so taking it away eventually takes leading-edge fabrication with it, but no training run stops this week, because the chips already exist." TSMC: "Same shape as ASML, one step nearer: ~90% of sub-7nm logic. It stops the next generation of chips, not the run already loaded." BIS: "It writes and enforces export controls and trains nothing. Remove it and the rules stop being enforced, which loosens the regime rather than stopping the activity." Lesson: "That gap is the thing a ring map is drawn to show. The removal that bites soonest and the removal that matters most are different actors, on different rings, and a regime that reaches only for the second one buys nothing this year. Ask both questions of any chokepoint you are offered." No praise.
 
 #### Text
 content::
@@ -150,6 +164,7 @@ id:: 05d81c94-4e73-4bc5-a462-aa7753def986
 content:: Optional: Name every functional role Taiwan holds (there are at least three), and say what makes each one true.
 optional:: true
 assessment-instructions:: Score out of 100. 34: chokepoint controller, 14 for naming the role and 20 for the reason: Taiwan hosts the fabrication (and advanced packaging) of nearly all leading-edge AI chips, the tightest physical chokepoint in the chain, so it is the fabrication step, not the country as such, that makes it one. 33: information holder, 13 for the role and 20 for the reason: it knows what was fabricated, how much, and for whom. 33: victim or beneficiary, 13 for the role and 20 for the reason: it carries the risk of being that chokepoint, the prize and possible battlefield in a conflict it does not control. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "Chokepoint controller: Taiwan hosts the fabrication and advanced packaging of nearly all leading-edge AI chips, the single tightest physical chokepoint in the system; it is the fabrication step, not the country as such, that makes it one. Information holder: through its fabs it knows what was fabricated, how much, and for whom. Victim or beneficiary: it carries the risk of being that chokepoint, both the prize and the battlefield in a conflict between the US and China that it does not control."
+force-feedback:: first
 feedback-instructions:: Split the answer three ways: roles named with reasoning, roles named without it, roles missed. For the ones missed, give the key's line, chokepoint controller because of the fabrication step, "the single tightest physical chokepoint in the system"; information holder because it knows what was fabricated, how much, and for whom; victim or beneficiary because it carries the risk of being the chokepoint without controlling the conflict over it. For the ones named without reasoning, ask what makes it true rather than supplying the reason. Do not expand roles the learner already justified. No praise.
 
 #### Question: Open
@@ -157,6 +172,7 @@ id:: adc1c6ef-76db-4be7-840c-6456e8ae2805
 content:: Optional: For one specific frontier training run, list the information holders in order of how complete their picture is, and say what each one can and cannot see.
 optional:: true
 assessment-instructions:: Score out of 100. 35: the information holders are put in an actual order of how complete their picture of the run is, not just listed. 65: each rank carries its reason, what that actor sees of the run and what it cannot see (for example the lab knows what was trained and on what data, the cloud provider holds logs and billing, the fab holds shipment records), the points split evenly across the ranks given. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 30 if the answer gives no reason why one actor's picture is more complete than another's. Model answer, for the feedback, not a grading checklist: "Most complete: the frontier lab, which knows what was trained, on what data, with how much compute, and what the evaluations showed. Next: the cloud provider, whose logs and billing show how much compute the run used, when, and for which customer, but not what the model is or what data went in. Then the chip designer (NVIDIA), which knows which chips went to which customers and could report usage through on-chip features, but today sees little of how they are used. Then the fab (TSMC, in Taiwan), which knows what was fabricated, how much, and for whom, and nothing about the run itself. Least: the intelligence community, which may see the facility, its power draw and its procurement from outside, but not the workload."
+force-feedback:: first
 feedback-instructions:: First say whether the answer is an ordering with a claim behind it or a list. Then take the ranks whose reason is missing and give what that actor sees and what it cannot: the lab knows what was trained and on what, the cloud holds logs and billing, the fab holds shipments. If the order matches the order the lesson prints and no argument was made for it, say so plainly. Do not restate ranks the learner justified. No praise.
 
 #### Question: Open
@@ -164,6 +180,7 @@ id:: 160e3cec-7fa2-4d1f-bb4f-d7140e91f58d
 content:: Optional: Name one actor that is a capability holder and an enforcement authority at the same time, and say why that pairing should make you uneasy.
 optional:: true
 assessment-instructions:: Score out of 100. 35: the actor named really holds both roles at once; on this roster that is a state with a frontier programme of its own, the United States or China. 65: the unease is stated as a mechanism: the same actor builds the thing and judges whether the rules about it were broken, so a finding against the rules would be a finding against itself, and it has a reason not to look hard or not to report; a bare "conflict of interest" with no account of what the conflict leads the actor to do earns 15 of these 65. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "The United States (or China). It is a capability holder, home to frontier labs and chip designers, and an enforcement authority, through export controls, courts and regulators. That should make you uneasy because the same actor builds the thing and judges whether the rules about it were broken: an unfavourable finding costs it twice, since it would be a finding against its own programme, so it has a standing reason not to look hard or not to report. In practice the state is several institutions that do not want the same thing, so the useful next question is which institution inside it would make the finding."
+force-feedback:: first
 feedback-instructions:: Say whether the actor named really holds both roles at once on this roster, and whether the unease was put as a mechanism or as a label. If the answer stops at conflict of interest, name the cost: the same actor builds the thing and judges whether the rules about it were broken, so an unfavourable finding costs it twice. Then ask which institution inside that actor would make the finding, which is Table 3's point. No praise.
 
 #### Text
