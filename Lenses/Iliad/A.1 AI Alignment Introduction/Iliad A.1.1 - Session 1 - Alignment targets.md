@@ -22,18 +22,6 @@ content::
 
 Spend **25 minutes** reading the following texts. Pick one most interesting to you. 
 
-:::require_x_optional_lenses{x=1}
-::card[[../../yudkowsky-coherent-extrapolated-volition|Coherent extrapolated volition]]
-
-> Most important: The first 2.5 pages in Section 3.
-
-::card[[../../christiano-clarifying-ai-alignment|Intent alignment]]
-
-::card[[../../anthropic-claudes-new-constitution|Claude’s constitution overview]]
-
-::card[[../../lesswrong-corrigibility|Corrigibility]]
-:::
-
 * [Coherent extrapolated volition](https://intelligence.org/files/CEV.pdf)
   * Most important: The first 2.5 pages in Section 3.  
 * [Intent alignment](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6)  

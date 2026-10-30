@@ -1,7 +1,7 @@
 ---
 id: '61088782-f0b8-4eeb-9787-1e6c80760ae9'
 title: "Upstream and downstream"
-tldr: "Two documents from the same side agreeing with each other is not verification; it is one actor being consistent with itself. Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and rewrite it so each claim carries its source. Then ask of every report: whose claims am I relying on, and who acts on mine?"
+tldr: "Sit on an IAEA team at Fordow in January 2023, watch a true sentence fail because every claim in it came from Iran, and learn how to rewrite it so each claim carries its source. Then ask of every report: whose claims am I relying on, and who acts on mine?"
 summary_for_tutor: "Worked case, then a memo brief. The Fordow case: a first-draft finding that is true in every clause but built only on Iran's declaration and the operator's records; the three upstream sources ranked by how much they deserve trust; the 83.7 percent swipe sample that broke the declaration; a revised finding that keeps each claim attached to its source; two downstream readers (the IAEA Board of Governors needs a determination, ISIS analysts need the raw discrepancy) and why a report must serve both. Two notebook prompts are optional Open questions (pause before reading on; the two questions to answer before writing). The memo slot for this lesson is the actor, authority, and evidence map. The Context Distiller exercise is the next lens. When discussing, keep the provenance test central: which claims were verified independently, which inherited from the actor being checked."
 tags: [wip]
 reading_minutes: 8
@@ -13,7 +13,7 @@ Earlier, you followed a chip from sand to server and saw that verifiability depe
 
 \### The Setup
 
-Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in Iran in January 2023. Iran is a party to the Nuclear Non-Proliferation Treaty and has a safeguards agreement with the Agency, so it must declare its nuclear material and enrichment activity, and the Agency's job is to confirm that the declaration is complete and correct. Iran has declared that it enriches uranium at Fordow to 60 percent U-235. The plant is run by the Atomic Energy Organization of Iran, which also keeps its operating records. That is already far above the 3.67 percent cap of the 2015 nuclear deal and well beyond any civilian power need, though still short of the roughly 90 percent that counts as weapons grade.
+Put yourself on an IAEA verification team at the Fordow Fuel Enrichment Plant in Iran in January 2023. Iran is a party to the Nuclear Non-Proliferation Treaty and has a safeguards agreement with the Agency, so it must declare its nuclear material and enrichment activity, and the Agency's job is to confirm that the declaration is complete and correct. Iran has declared that it enriches uranium at Fordow to 60 percent U-235. That is already far above the 3.67 percent cap of the 2015 nuclear deal and well beyond any civilian power need, though still short of the roughly 90 percent that counts as weapons grade.
 
 Your first draft of the central finding reads:
 
@@ -26,7 +26,7 @@ id:: bbb153b5-c932-4f0d-a379-bc451bb3c5fd
 content:: Optional: Pause before reading on. What is wrong with this sentence? Every clause in it is true.
 force-feedback:: first
 feedback-instructions:: One turn. Say in a sentence each which of the three points below the learner got and which they missed, then send them into the paragraph that follows, which explains it. The flaw is provenance: every claim comes from the side being checked. The three points: the 60 percent figure is Iran's own declaration, and Iran is the party the treaty binds; the operating records are kept by the operator, the Atomic Energy Organization of Iran, which runs the plant, so they come from the same side rather than being a second source; and two sources from the same side agreeing shows only internal consistency, not verification, since nothing independent backs them, yet the sentence presents it as confirmation. Reference answer, not a checklist: "The problem is provenance. Iran declared the 60 percent figure, and the operating records that "match" it are kept by the Atomic Energy Organization of Iran, which runs the plant. Two sources produced by the same side agreeing with each other is not verification; it is one actor being consistent with itself. Your draft presents that internal consistency as if it were confirmation, and it leaves out the one stream that came from somewhere else." Do not ask a follow-up question. No praise.
-optional:: true{>>{"author":"Elias's AI","timestamp":1788016743664}@@Legacy #### Question converted to Question: Open with a fresh id. XLab renders this as a notebook callout that gates nothing, hence optional. The invalid feedback:: false line is dropped.<<}
+optional:: true
 
 #### Text
 content::

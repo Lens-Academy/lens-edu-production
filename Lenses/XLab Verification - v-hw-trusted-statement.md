@@ -1,7 +1,7 @@
 ---
 id: '22f3ba95-64cf-4248-9d3a-a83975f4255b'
 title: "From a chip to a trusted statement"
-tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's shipping GPU attestation does and does not attest, and then dissect one trust chain yourself."
+tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's current shipping GPU attestation does and does not attest, and then dissect one trust chain yourself."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
 tags: [wip]
 reading_minutes: 21
@@ -100,7 +100,7 @@ Cryptography can faithfully transmit a false or insufficient measurement. The va
 | **Laboratory controlling its servers** | Physical access, administrative control, optional security modes, peripherals, network routes, updates, and logging | Independent manufacturer services or separately installed sensors may still impose constraints, but must be tested against owner control |
 | **State-backed owner** | Supplier pressure, substitute hardware, expensive physical attacks, coercion of domestic firms, manipulation of inspections, and long preparation | Assurance may require mutually governed keys, externally installed monitoring, supply-chain reconciliation, destructive sampling, and evidence outside the device |
 
-The same product can be strong against a remote tenant and weak against an owner with physical access. “Secure” is not a mechanism property without an adversary.
+The same product can be strong against a remote tenant and weak against an owner with physical access. “Secure” is not a mechanism property without relation to an adversary.
 
 \#### Activity: trust-chain autopsy
 

@@ -1,7 +1,7 @@
 ---
 id: '70ee83e3-ccaa-4130-a72f-8a4310acc919'
 title: "Geographic supply-chain map"
-tldr: "One Dutch company builds every EUV machine on Earth; one island fabricates about 90 percent of leading-edge logic; three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known addresses, and where it fans out into places a verifier cannot see."
+tldr: "One Dutch company builds every EUV machine on Earth. One island fabricates about 90 percent of leading-edge logic. Only three firms make nearly all high-bandwidth memory. Follow a chip from sand to model through fourteen countries and see where the chain pinches to a few known actors, and where it fans out into places a verifier cannot see."
 summary_for_tutor: "XLab's interactive supply-chain map as a widget, with the reading around it on the page. The page opens with the geographic framing, then three headline stats (about 90 percent of leading-edge logic fabricated on one island, one company builds every EUV lithography machine, three firms make nearly all high-bandwidth memory), then the widget: a clickable world map of fourteen countries coloured by their primary supply-chain layer, a key of the six layers (chip design and EDA, equipment and materials, fabrication, memory HBM, packaging assembly and test, compute and models), a detail card, and the eight-stage pipeline from materials and wafers to trained models. Selecting a country opens its layers, two or three anchor facts, its actor roles and a 'Why it matters for verification' paragraph; selecting a layer in the key or a stage in the pipeline dims the map to that layer's countries and lists who would have to be in the room to verify it. Below the widget the page glosses the six actor roles (capability holder, chokepoint controller, information holder, enforcement authority, evasion pathway, victim/free-rider/beneficiary) and links ETO's Chip Explorer as optional further reading (Anatomy of a Chip), then closes with XLab's Notes and sources and a currency warning: concentration figures are 2021 to 2023 data. The widget has no finish condition; its saved state records which card is open and which countries, layers and stages the learner has opened. If the learner asks about a number, point them to the cited sources (CSET 2021; Sastry, Heim, Belfield et al. 2024; CNAS 2024) and remind them shares move while the structure has not."
 tags: [wip]
 reading_minutes: 15
@@ -23,6 +23,8 @@ The whole story of this map is concentration. The chain crosses borders dozens o
 - **1** company builds every EUV lithography machine on Earth
 - **3** firms make nearly all high-bandwidth memory
 
+Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.
+
 #### Widget
 source:: [[../widgets/interactive-map]]
 
@@ -38,14 +40,6 @@ Explore the components inside an AI accelerator and connect them to the supply-c
 [Chip Supply Chain: How AI Chips Are Made](https://chipsupplychain.org/), Yashvardhan Sharma (2026)
 
 A book-length guide that follows an AI chip through fifteen stages, from design software and silicon wafers to the data center, then the economics and the geopolitics. Each chapter says who makes that part, how concentrated the stage is, and what a substitute would cost. Read the chapters for the chokepoints you want to understand.
-:::
-
-#### Text
-content::
-:::callout {title="Start here" tone="neutral"}
-The whole story of this map is concentration. The chain crosses borders dozens of times, but the parts that matter for verification sit in a handful of countries — and each stage is a near-monopoly.
-
-Tap a country for its role, or isolate a layer to see exactly who would have to be in the room to verify it.
 :::
 
 #### Text

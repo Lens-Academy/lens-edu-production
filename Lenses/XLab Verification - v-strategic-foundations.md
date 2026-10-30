@@ -1,7 +1,7 @@
 ---
 id: '4f5ceb89-f774-41b3-b382-f63f044c2823'
 title: "Strategic Foundations"
-tldr: "Background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Two short primers on game theory are required. For the rest, prioritize reading the pathway you are weakest on."
+tldr: "Background in game theory and international relations: why promises between rivals need to be costly to be believed, how evidence turns into compliance judgments, and why a leader can sign in good faith and still fail to deliver. Two primers on game theory are required. For the rest, prioritize reading the pathway you are weakest on."
 summary_for_tutor: "Opening page of Strategic foundations. Preserve the source's framing. A chart shows the four reading pathways in game theory and international relations and which readings belong to each. The two game theory primers, Strategic Thinking and Game Theory (sections 1 and 6, and the inspection-game part of 8.2), follow as required pages; the other five readings are optional and reached from the additional readings page; a required page of six ungraded checks (Primer Practice, moved here from unit 1) follows them; an optional written output (actor, authority, and evidence map) closes the module. Two readings in the source's pathways need a subscription or institutional access and are listed only in the Works cited. The page has no questions."
 tags: [wip]
 reading_minutes: 3
@@ -9,7 +9,7 @@ tutor_minutes: 0
 ---
 #### Text
 content::
-{>>{"author":"Andreas's AI","timestamp":1793131857654}@@Stage 6 flag, Content: "the two short primers" fits Strategic Thinking (about 1,500 words) but not Game Theory (about 7,100 words with the §8.2 excerpt, 52 minutes). XLab calls only the first one short. The tldr says the same. See the CV1 plain language worklist.<<}Short reading pathways in game theory and international relations. The two short primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
+Short reading pathways in game theory and international relations. The two primers on game theory, Strategic Thinking and Game Theory, are required and come next. The other readings are optional: read the pathway you are weakest on, from the additional readings page after the primers.
 
 | Pathway | Reading |
 | --- | --- |
