@@ -1,7 +1,7 @@
 ---
 id: '783c38a6-2552-4902-96bf-48de75aa30ad'
 title: "What makes a verification mechanism effective?"
-tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how sellable, how much it proves, and how fast it rots. Rank twelve mechanisms on four lanes, keep the set, and use it as a baseline as you learn more in Part 2 and the separate capstone."
+tldr: "Before you learn how any verification mechanism works, write down your guesses: how buildable, how politically feasible, how much it proves, and how durable it is. Rank twelve mechanisms on those four lanes, keep the set, and use it as a baseline as you learn more in Part 2 and the separate capstone."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opens with the module objectives and four metric definitions (technical feasibility, political feasibility, verification effectiveness, durability), each with XLab's low and high anchor examples, plus a closed callout on the page giving each metric's five rung labels. The mechanism-sort widget then runs the rating exercise itself: twelve mechanism cards, four five-rung scales each, markers landing on four ranking lanes, sealed at the end. Do not reveal the reference map or grade against it; that comparison belongs to the separate capstone after Parts 1 and 2. A short page note after the widget says there is no key and no score, then an open question on the heuristics used. Then the Swiss-cheese section, a one-line lead-in to the evidence-taxonomies widget (five maps of the same twelve mechanisms, with per-mechanism placement panels and the strengths and limits of each map inside the widget), and three choice checks built from those maps."
 tags: [wip]
 reading_minutes: 40
@@ -44,7 +44,7 @@ Before we dive in, record your baseline intuitions: rank each mechanism across f
 
 | Low | High |
 | --- | --- |
-| FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which takes long to mature and go obsolete. |
+| FLOP-threshold reporting; algorithmic efficiency gains push dangerous capabilities below any fixed threshold within a few years. | Mechanisms rooted in chip hardware, which currently takes years to design and ship, and more years to fall out of use. |
 {>>{"author":"Elias's AI","timestamp":1789826364150}@@XLab's SlidingScale is a static display (a rail with the Low and High anchor texts), not an input, so it is reproduced as a two-column table rather than a Rating question. The ratings themselves happen in the mechanism-sort widget below.<<}
 
 Rate each mechanism on four metrics; every rating drops it onto the ranking lanes below, so you can see your full ordering take shape. Keep the set for comparison with the reference map in the separate capstone.
@@ -61,7 +61,7 @@ Rate each mechanism on four metrics; every rating drops it onto the ranking lane
 
 #### Text
 content::
-As you go through this exercise, jot down in your notebook the heuristics you're using to judge whether a mechanism is technically feasible, politically feasible, effective, and durable.
+As you go through this exercise, take note or jot down the heuristics you're using to judge whether a mechanism is technically feasible, politically feasible, effective, and durable.
 
 #### Widget
 source:: [[../widgets/mechanism-sort]]
@@ -72,7 +72,7 @@ There is no grading here, and no key. This set exists to be revised: the separat
 
 #### Question: Open
 id:: 590f109a-6299-4945-a377-286c926726ef
-content:: Now that you’ve gone through the exercise, look back at what you jotted down: what were the heuristics you used to evaluate whether a verification mechanism was:
+content:: Now that you’ve gone through the exercise, look back at what you took note of or jotted down. Were the heuristics you used able to evaluate whether a verification mechanism was:
 
 - Technically feasible? → Are there historical verification precedents that have used a similar mechanism? Current technical analogs?
 - Politically feasible? → How difficult would it be to get the U.S. to agree? China? What must remain confidential, no matter what?
@@ -93,7 +93,7 @@ The Swiss-cheese model asks us to combine defenses whose holes do not line up. T
 
 \## Evidence Taxonomies
 
-It’s important to note that the way we’ve taxonomized verification mechanisms in this course is not necessarily the only or most accepted way to do so; on the other hand, there are several different ways you can taxonomize the evidence streams of verification, according to your writing goals and audience context. We’ve chosen the hardware/cloud/intel/human four buckets, the by-layer taxonomy, for pedagogical simplicity. Keep in mind that when going forwards, you should proactively think about the best taxonomy or categorization level for your audience; think back to the upstream and downstream exercises you completed in [[../Lenses/XLab Verification - v-scoping-upstream-downstream|earlier this week]]. For instance, you’d want to prioritize mechanisms by policy goal when speaking to congressional officials, while you’d want to focus more on the easy-to-visualize by-layer organization for educational purposes.
+It’s important to note that the way we’ve taxonomized verification mechanisms in this course is not necessarily the only or most accepted way to do so. There are several different ways you can taxonomize the evidence streams of verification, according to your writing goals and audience context. We’ve chosen the hardware/cloud/intel/human four buckets, the by-layer taxonomy, for pedagogical simplicity. Keep in mind that when going forwards, you should proactively think about the best taxonomy or categorization level for your audience; think back to the upstream and downstream exercises you completed in [[../Lenses/XLab Verification - v-scoping-upstream-downstream|earlier this week]]. For instance, you’d want to prioritize mechanisms by policy goal when speaking to congressional officials, while you’d want to focus more on the easy-to-visualize by-layer organization for educational purposes.
 
 \### Five maps of the evidence
 

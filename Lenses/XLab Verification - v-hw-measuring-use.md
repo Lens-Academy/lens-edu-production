@@ -1,7 +1,7 @@
 ---
 id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
 title: "Measuring and classifying use"
-tldr: "Counting FLOP and knowing whether they were training are two different problems, and a 98.2 percent classifier that drops to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practise turning an experimental result into exactly the policy claim it supports."
+tldr: "Counting FLOP and knowing whether they were training are two different problems. A 98.2 percent accurate classifier that can drop to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practice turning an experimental result into exactly the policy claim it supports."
 summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
 tags: []
 reading_minutes: 32
@@ -39,7 +39,7 @@ Existing performance counters and management telemetry can measure useful quanti
 O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv 2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
 :::
 
-Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has an update condition.
+Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has rules that would trigger a revision.
 
 :::callout {title="Question to keep visible" tone="blue"}
 What quantity did the meter record, and how closely does that quantity match the legal rule?

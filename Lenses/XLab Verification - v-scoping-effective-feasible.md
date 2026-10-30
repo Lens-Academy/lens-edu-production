@@ -1,7 +1,7 @@
 ---
 id: '26ee0f2c-1c8b-4f3e-8b95-be4d8de6e500'
 title: "Policies must be effective and feasible"
-tldr: "A global ban on fossil fuels would end emissions tomorrow and be dead by Friday; a voluntary pledge would be signed by everyone and change nothing. Every policy sits somewhere on that plane. Price your own favourite policy first, then sort eleven anti-ASI policy buckets, from lab self-governance to a coordinated halt, by how much they deter and how gettable they are."
+tldr: "A global ban on fossil fuels would end emissions tomorrow and be dead within a week, while a voluntary pledge would be signed by everyone and change nothing. Every policy sits somewhere in that tension. Scope your own favourite policy first, then sort eleven anti-ASI policy buckets, from lab self-governance to a coordinated halt, by how much they deter and how gettable they are."
 summary_for_tutor: "Three exercises around the effectiveness versus feasibility frame. (1) Everything comes with a cost: a flip-card widget where the learner names a policy they believe in, flips the card to name one real cost of enforcing it, then rates how hard that was (optional and personal; the card reaches you in the widget state). (2) Scoping an anti-ASI policy: a sorting widget. The two five-rung scales and the eleven policy buckets with their historical parallels are on this page as closed callouts above the widget; in the widget the learner places every bucket on the feasibility x effectiveness plane and checks, which ticks the on-the-mark chips and draws an arrow from every other chip to the cell XLab's reference has it in (one rung off counts as close). The securitization question (coordinated halt is the design target) is asked inside the widget once the learner has checked once. (3) The module's stakeholder map memo for a hypothetical pause treaty (about 800 words, peer reviewed on XLab). Reference placements and rationales are in the closed callout below the sort; share them only after the learner has checked. The corners are settled, the middle band is contestable, so accept argued deviations."
 tags: [wip]
 reading_minutes: 30
@@ -28,7 +28,7 @@ Sort the following policy buckets on the feasibility x effectiveness matrix.
 content::
 \### The axes
 
-{>>{"author":"Andreas's AI","timestamp":1793131851387}@@Stage 6 flag, Lens text: "before the buckets" appears twice in two sentences, and the first is a fragment taken from the widget's heading ("the two words doing the work"). Candidate: "Read both scales before you sort the buckets." See the CV1 plain language worklist.<<}Before the buckets: the two words doing the work. Read both scales before the buckets.
+Before the exercise, take a closer look at the two words doing the work. Read both scales before the buckets.
 
 :::callout {title="What is effectiveness?" tone="neutral" collapse="closed"}
 **Effectiveness.** How much the policy actually deters ASI development, measured against the global race, not against one country’s labs. Low to high:
@@ -50,7 +50,7 @@ content::
 5. **Already happening.** Versions of it exist today.
 :::
 
-{>>{"author":"Andreas's AI","timestamp":1793131854463}@@Stage 6 flag, Lens text and Content: two semicolons (Course Authoring), and "the plane" where the page above says "matrix". Content: "Costly to get and weak once you have it" also describes the reference placement of bucket 5, joint emergency preparedness (long shot, symbolic), one cell from this corner. A learner who places it there correctly may then think their reading is off. Naming the cell ("off the table and symbolic") would avoid that. See the CV1 plain language worklist.<<}Two corners of the plane are empty by construction. High effectiveness at high feasibility is the policy everyone would already have adopted; nothing lives there. Costly to get and weak once you have it is the worst of both; if a bucket seems to belong there, one of your axis readings is off.
+Two corners of the matrix are empty by construction. High effectiveness at high feasibility is the policy everyone would already have adopted, which is why nothing lives there. Unattainable and ineffective if you even get it is the worst of both, so if a bucket seems to belong there, one of your axis readings is off.
 
 \### The buckets
 

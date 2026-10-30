@@ -15,14 +15,16 @@ source:: [[../../Lenses/Iliad/C.1 Intro to ML Engineering/Iliad C.1.2 - Practica
 # Lens: C.1.3 Claude Code for Research
 source:: [[../../Lenses/Iliad/C.1 Intro to ML Engineering/Iliad C.1.3 - Claude Code for Research]]
 
-# Lens: Paper for the final project (on a GPU)
-source:: [[../../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction]]
-
 # Lens: Claude Code cheat sheet
 source:: [[../../Lenses/alignment-hive-claude-code-cheat-sheet]]
 
-# Lens: Paper for the final project (inference only, no GPU needed)
+# Choose: 1
+
+## Lens: Paper for the final project (inference only, no GPU needed)
 source:: [[../../Lenses/chen-reasoning-models-dont-always-say-what-they-think]]
+
+## Lens: Paper for the final project (on a GPU)
+source:: [[../../Lenses/arditi-refusal-in-language-models-is-mediated-by-a-single-direction]]
 
 # Submodule: C.2 Mechanistic Interpretability
 

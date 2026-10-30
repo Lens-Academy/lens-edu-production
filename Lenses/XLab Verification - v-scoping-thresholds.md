@@ -1,7 +1,7 @@
 ---
 id: 'd7c78491-f02b-42e9-8c7e-459cf25b3e8d'
 title: "Drawing the Line: Compute vs. Capability"
-tldr: "A speed limit works because a radar gun gives one number nobody can argue with. A treaty on advanced AI needs the same: a line you can measure before the harm exists. Compute (FLOP) is that radar gun; capability evals measure the danger more directly but too late and too fuzzily. See why pause-style agreements draw the line in FLOP."
+tldr: "A speed limit works because a radar gun gives one number nobody can argue with. A treaty on advanced AI needs the same: a line you can measure before the harm exists. Compute (FLOP) is that radar gun, while capability evals measure the danger more directly but too late and too fuzzily. See why pause-style agreements draw the line in FLOP."
 summary_for_tutor: "Reading-only lens, no questions. Contrasts compute thresholds (FLOP: black-and-white, measurable early, externally verifiable, but underinclusive as algorithms improve) with capability thresholds (more direct, but evals are unreliable, measured after training, hard to verify externally) in a paired table, then argues that pause-style agreements favor compute lines while softer regimes can use capability. Two collapsed asides: the Threshold Test Ban Treaty's fuzzy 150-kiloton yield line, and further reading on evals. If asked, help the learner articulate the mirror-image trade-off; do not require agreement with the source."
 tags: [wip]
 reading_minutes: 6
@@ -26,7 +26,7 @@ The two contenders for operational thresholds are compute and capability. The ta
 
 In the event of pursuing a full or temporary pause, the treaty is focused on hard-line enforcement, which favors the objectivity of a compute threshold. Each party needs to definitively recognize which models to shut off, and they need to trust that their counterpart is following the same rule, which you only get with a black-and-white FLOP line. Timelines will also be tighter and less negotiable with a pause-based agreement, given its urgency: regulators cannot afford to deal with potentially wishy-washy capability definitions.
 
-If we're not focusing on a full pause, and more so on domestic enforcement and lighter observation- and resource-sharing-based policies, then capability thresholds can more realistically come into the picture. If regulators believe they have the time to pace development and experiment with evaluations, the definitional specificity of qualitative capabilities can be useful for knowledge.
+If we're not focusing on a full pause, and more so on domestic enforcement, lighter observation, and resource-sharing-based policies, then capability thresholds can more realistically come into the picture. If regulators believe they have the time to pace development and experiment with evaluations, the definitional specificity of qualitative capabilities can be useful knowledge for appraising models.
 
 For the purposes of this course, we will mainly focus on compute thresholds: they have historical precedent, they are straightforward to operationalize, and they are the most relevant choice for pause-style agreements. We generally orient more towards a pause because it encompasses the maximum possible range of verification possibilities and difficulties.
 
