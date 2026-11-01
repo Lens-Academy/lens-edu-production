@@ -1,17 +1,17 @@
 ---
 id: 'fe43d166-6a95-4865-992f-f8448dfacb75'
-title: "Reconstructing a declared training run"
+title: "Reconstructing a Declared Training Run"
 tldr: "Can a verifier tell whether the declared training process really produced the submitted model? Proof-of-learning has been broken more than once, and zero-knowledge training proofs still have thirteen open problems. Spend a limited verification budget and say which claim stays untested."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Optional technical extension: evidence for reconstructing a declared run, Shavit's decomposition, proof-of-learning and its adversarial breaks, and three claims to keep separate (declared-run correctness, declared-run completeness, fleet completeness). Ends with an optional open question allocating a verification-compute budget across seven checks. Push the learner to state which of the three claims each check addresses and which remains untested."
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Optional technical extension: evidence for reconstructing a declared run, Shavit's decomposition, proof-of-learning and its adversarial breaks, and three claims to keep separate (declared-run correctness, declared-run completeness, fleet completeness). Ends with an optional open question allocating a verification-compute budget across seven checks. Push the learner to state which of the three claims each check addresses and which remains untested."
 tags: []
 reading_minutes: 3
 tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.7 Reconstructing a declared training run
+\### Reconstructing a Declared Training Run
 
-Optional: this lesson is the technical extension of section 2.1 and is marked optional in XLab's curriculum.
+Optional: a technical extension of this unit.
 
 This extension asks a different question: can a verifier test whether a declared training process plausibly produced the submitted checkpoints or model?
 
@@ -67,6 +67,6 @@ content::
 Peigné, Pierre, Ky Nguyen, and Paul Wang. "Zero knowledge verification for frontier AI training is possible." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.05433)
 *The 2026 proposal estimating a future ZK system could verify dense frontier training at roughly 2–10 percent overhead, while naming thirteen unresolved technical problems and the training architectures it does not yet cover.*
 
-XLab. "2.1.7 Reconstructing a declared training run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
+XLab. "2.1.7 Reconstructing a Declared Training Run." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-reconstructing-run)
 *The source lesson this page adapts. Shavit (2023), Jia et al. (2021), Zhang et al. (2022), Fang et al. (2023) and Choi, Shavit and Duvenaud (2023) are cited inline above.*
 :::

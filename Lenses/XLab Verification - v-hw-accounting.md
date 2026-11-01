@@ -1,15 +1,15 @@
 ---
 id: 'e9aefe42-bbdf-4ea0-be7f-2ee033558aa8'
-title: "Accounting for hardware: identity, location, topology, and completeness"
-tldr: "A registry is a spreadsheet, not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams. A chip locator widget sits after the location verification excerpt: the learner moves landmark servers, changes how many report and how noisy their delays are, and watches the region consistent with every delay measurement tighten to a patch or spread across the map."
+title: "Accounting for Hardware: Identity, Location, Topology, and Completeness"
+tldr: "A registry is not a sensor. Identity, location, cluster topology and completeness are four different claims, and the hardest one is negative: no compute existed outside the declared system. Pick three independent evidence streams that could support it."
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Reading on device identity, location verification (timing and challenge-response, still an open research area), cluster topology, and completeness. Ends with the Try it open question: three evidence streams that do not share a source for the claim that all covered accelerators at Site X are registered. Do not accept the site operator's inventory, logs and declaration as three independent streams. A chip locator widget sits after the location verification excerpt: the learner moves landmark servers, changes how many report and how noisy their delays are, and watches the region consistent with every delay measurement tighten to a patch or spread across the map."
 tags: [wip]
 reading_minutes: 17
 tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.3 Accounting for hardware: identity, location, topology, and completeness
+\### Accounting for Hardware: Identity, Location, Topology, and Completeness
 
 A registry of covered accelerators can support several verification tasks. It can link a device credential to an owner, facility, jurisdiction, and reporting obligation. It can also make discrepancies visible when manufacturer, shipping, customs, provider, or site records disagree.
 
@@ -73,7 +73,7 @@ to:: AI chips could be designed to make it possible for an external regulatory a
 
 #### Text
 content::
-Landmark servers turn a challenge and response into a distance. Work the method below: each delay bounds how far away the chip can be, and the region consistent with every landmark is all a verifier can claim. The units are schematic.
+A verifier can time how long a chip takes to answer a challenge from servers at known locations, called landmarks. Each delay sets an upper limit on how far away the chip can be, and the area consistent with every landmark is all the verifier can claim. Work the method below. Its units are illustrative, not to scale.
 
 #### Widget
 source:: [[../widgets/ogara-chip-locator]]
@@ -99,7 +99,7 @@ Attestation covers devices that participate. A registry covers devices that ente
 - Intelligence on undeclared facilities or diversion;
 - Insiders who report substitution, tampering, or hidden capacity.
 
-Hardware is therefore strongest for known, instrumented compute. Part 2 of this course, on intelligence and human mechanisms, will address what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
+Hardware is therefore strongest for known, instrumented compute. Compute Verification 2, on intelligence and human mechanisms, addresses what remains when the operator never registers the device, never installs the monitor, or never submits evidence.
 
 \#### Try it
 
@@ -108,7 +108,7 @@ id:: 121faa9c-cabd-43ef-ad37-7be61a16e67d
 content:: The treaty body wants to support the claim: “All covered accelerators at Site X are registered and accounted for.” Choose three evidence streams that do not share the same source. For each, name the actor that produces it and one way it could fail.
 
 A strong answer does not treat the site operator’s inventory, the site operator’s logs, and the site operator’s declaration as three independent streams.
-assessment-instructions:: Score out of 100. For each of three evidence streams, 30: 10 for a stream that bears on whether every covered accelerator at Site X is registered (such as manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power, cooling or construction evidence, intelligence on diversion, insider reports), 10 for the actor that produces it, and 10 for one realistic way it could fail. 10: the three streams have genuinely different producers, so no single actor's error or deception runs through all of them. Cap at 40 if all three streams originate with the site operator. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "(1) Manufacturer and foundry production and shipment records, produced by the chip designer and its foundry (for example NVIDIA and TSMC), listing the serial numbers shipped to Site X or its suppliers. They can fail if chips were resold or diverted after shipment: they show where devices went first, not where they are now. (2) Customs and shipping records, produced by customs authorities and carriers. They can fail through mislabelled cargo or transshipment through third countries and front companies. (3) A physical inspection and device count, produced by the treaty body's inspectors. It can fail if devices are moved out before the visit or kept in rooms the inspectors are not shown. Power and cooling evidence from the utility is another good stream: a draw larger than the registered fleet needs points to unregistered devices, though on-site generation can hide it. The operator's inventory, logs and declaration are one stream, not three: an operator hiding devices would leave them out of all three."
+assessment-instructions:: Score out of 100. For each of three evidence streams, 30: 10 for a stream that bears on whether every covered accelerator at Site X is registered (such as manufacturer or foundry production records, customs or shipping records, provider inventories, physical inspection and device counts, power, cooling or construction evidence, intelligence on diversion, insider reports), 10 for the actor that produces it, and 10 for one realistic way it could fail. 10: the three streams have genuinely different producers, so no single actor's error or deception runs through all of them. Cap at 40 if all three streams originate with the site operator. Give credit for each point whenever the answer shows the idea, in any wording. Model answer, for the feedback, not a grading checklist: "(1) Manufacturer and foundry production and shipment records, produced by the chip designer and its foundry (for example NVIDIA and TSMC), listing the serial numbers shipped to Site X or its suppliers. They can fail if chips were resold or diverted after shipment: they show where devices went first, not where they are now. (2) Customs and shipping records, produced by customs authorities and carriers. They can fail through mislabeled cargo or transshipment through third countries and front companies. (3) A physical inspection and device count, produced by the treaty body's inspectors. It can fail if devices are moved out before the visit or kept in rooms the inspectors are not shown. Power and cooling evidence from the utility is another good stream: a draw larger than the registered fleet needs points to unregistered devices, though on-site generation can hide it. The operator's inventory, logs and declaration are one stream, not three: an operator hiding devices would leave them out of all three."
 force-feedback:: first
 feedback-instructions:: The learner has just read this page and chosen three evidence streams for the claim that all covered accelerators at Site X are registered and accounted for. Check independence first: if two or all three streams come from the site operator, say so before anything else, since its inventory, logs and declaration are one stream, and an operator hiding devices would leave them out of all three. Then, for each stream, say whether it bears on registration, whether its producer is named, and whether the failure named is realistic. Streams to point to when one is weak: manufacturer or foundry shipment records (they fail when chips are resold after shipment), customs and shipping records (mislabeled cargo, transshipment), a physical inspection and device count (devices moved before the visit), utility power and cooling records (on-site generation). At full marks, confirm in one sentence. If the learner says they do not understand, give one foothold, such as asking who besides the operator would have a record of a chip arriving at Site X, rather than repeating the question. Judge only against what this page supplied. 80 to 150 words, short paragraphs, no praise.
 
@@ -118,6 +118,6 @@ content::
 O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms for Verifying Responsible AI Development." *arXiv*, Apr. 2025. [arxiv.org](https://arxiv.org/abs/2505.03742)
 *A study of hardware-enabled mechanisms for verifiable reporting of AI training activity: compute usage, cluster configuration, and workload claims.*
 
-XLab. "2.1.3 Accounting for hardware: identity, location, topology, and completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
+XLab. "2.1.3 Accounting for Hardware: Identity, Location, Topology, and Completeness." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-accounting)
 *The source lesson this page adapts.*
 :::

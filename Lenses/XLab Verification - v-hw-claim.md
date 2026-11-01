@@ -1,17 +1,17 @@
 ---
 id: '5cfb50dd-3ac7-4580-8861-8fb9253ea6f1'
-title: "Start with the claim, not the mechanism"
-tldr: "A chip can truthfully report six things and the treaty can still be broken. Learn to separate the policy goal, the legal rule, and the narrow proposition a device actually tests, then ask three questions of any evidence: is it authentic, is it correct, is it complete?"
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Short reading: the working policy goal, legal rule and verification claim used throughout section 2.1; six narrow propositions hardware can test; authenticity, correctness, completeness. Ends with one open question (initial claim map) where the learner completes three sentences about the opening-puzzle artifact from lesson 2.1. Push the learner to keep the three sentences distinct and to name what remains outside the claim."
+title: "Start With the Claim, Not the Mechanism"
+tldr: "Hardware can truthfully report six things and the treaty can still be broken. Learn to separate the policy goal, the legal rule, and the narrow proposition a device actually tests, then ask three questions of any evidence: is it authentic, is it correct, is it complete?"
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Short reading: the working policy goal, legal rule and verification claim used throughout Unit 5; six narrow propositions hardware can test; authenticity, correctness, completeness. Ends with one open question (initial claim map) where the learner completes three sentences about the opening-puzzle artifact from the unit's opening page. Push the learner to keep the three sentences distinct and to name what remains outside the claim."
 tags: []
 reading_minutes: 3
 tutor_minutes: 6
 ---
 #### Text
 content::
-\### 2.1.1 Start with the claim, not the mechanism
+\### Start With the Claim, Not the Mechanism
 
-Consider the policy objective used throughout this section.
+Consider the policy objective used throughout this unit.
 
 - **Policy goal**: prevent a strategically dangerous training run during an emergency pause.
 - **Legal rule**: no covered party may conduct an unlicensed training run above threshold T during the pause. Inference and approved safety evaluations remain permitted.
@@ -42,9 +42,9 @@ Three questions recur throughout hardware verification.
 
 Hardware-rooted cryptography is often strongest on authenticity. Carefully designed measurement can improve correctness. Completeness usually requires evidence beyond the device itself.
 
-\#### Notebook: initial claim map
+\#### Initial claim map
 
-The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]].
+The opening puzzle is the attestation-token scenario from [[../Lenses/XLab Verification - v-hw-attestation|the unit's opening page]].
 
 #### Question: Open
 id:: aff4f378-14ef-4cd4-b12d-249c4c66644e
@@ -60,6 +60,6 @@ feedback-instructions:: The learner has just read this page and completed three 
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.1.1 Start with the claim, not the mechanism." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)
+XLab. "2.1.1 Start With the Claim, Not the Mechanism." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-claim)
 *The source lesson this page adapts.*
 :::
