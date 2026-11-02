@@ -1,15 +1,15 @@
 ---
 id: '22f3ba95-64cf-4248-9d3a-a83975f4255b'
-title: "From a chip to a trusted statement"
-tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's current shipping GPU attestation does and does not attest, and then dissect one trust chain yourself."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
+title: "From a Chip to a Trusted Statement"
+tldr: "A valid signature proves that a key signed some claims, nothing more. Follow the chain from measurement component to treaty response, learn the minimum attestation vocabulary, see what NVIDIA's current GPU attestation does and does not attest, and then dissect one trust chain yourself."
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Reading on RATS roles (Attester, Verifier, Relying Party), the minimum vocabulary, NVIDIA's deployed attestation chain and its multi-GPU limits, what a signature does not establish, and how the adversary profile changes assurance. Ends with the trust-chain autopsy open question (nine items). Use NVIDIA's architecture diagram in the reading for the trust-chain autopsy. Grade for naming a concrete owner of each link and one common-mode failure."
 tags: [wip]
 reading_minutes: 21
 tutor_minutes: 12
 ---
 #### Text
 content::
-\### 2.1.2 From a chip to a trusted statement
+\### From a Chip to a Trusted Statement
 
 Remote attestation is often described as a chip proving its state. That description hides several actors and several separate judgments.
 
@@ -131,6 +131,6 @@ Birkholz, Henk, et al. "Remote ATtestation ProcedureS (RATS) Architecture." *RFC
 NVIDIA Corporation. "Architecture Overview." *NVIDIA Attestation Suite Documentation*, NVIDIA. [docs.nvidia.com](https://docs.nvidia.com/attestation/quick-start-guide/latest/architecture.html)
 *NVIDIA's documentation of its attestation architecture: how clients, cloud services, and GPU hardware form a verifiable chain of trust.*
 
-XLab. "2.1.2 From a chip to a trusted statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
+XLab. "2.1.2 From a Chip to a Trusted Statement." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-trusted-statement)
 *The source lesson this page adapts. The Blackwell and Hopper multi-GPU attestation examples are cited inline above.*
 :::

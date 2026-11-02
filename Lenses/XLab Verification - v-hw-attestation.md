@@ -2,14 +2,14 @@
 id: 'b481c94e-9a3a-4118-b4e9-7bd13a1c488d'
 title: "Hardware"
 tldr: "A lab hands you 20,000 valid cryptographic tokens and says they prove the cluster complied with a pause. Before reading anything, judge seven conclusions those tokens might support. You will review your own answers at the start of Compute Verification 2."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Opening lens of section 2.1. The page sets the scenario (a laboratory's 20,000 valid attestation tokens) and the three-point scale, then the claim-ledger widget carries the opening puzzle: seven proposed conclusions, each judged supported / possibly supported if the system was designed to measure it / unsupported by attestation alone, kept with a button that flips the ledger to a read-only record the learner returns to at the start of Compute Verification 2. The widget is ungraded and shows no answer key; do not give the answers, they are revealed at the start of Compute Verification 2. The page text around it holds the scenario and scale above the widget, and below it the reminder to keep the answers, the central question, the core-section objectives, the function map table, the repeated method, the readings list and the source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Opening lens of Unit 5. The page sets the scenario (a laboratory's 20,000 valid attestation tokens) and the three-point scale, then the claim-ledger widget carries the opening puzzle: seven proposed conclusions, each judged supported / possibly supported if the system was designed to measure it / unsupported by attestation alone, kept with a button that flips the ledger to a read-only record the learner returns to at the start of Compute Verification 2. The widget is ungraded and shows no answer key; do not give the answers, they are revealed at the start of Compute Verification 2. The page text around it holds the scenario and scale above the widget, and below it the reminder to keep the answers, the central question, the core-section objectives, the function map table, the repeated method, the readings list and the source packet. If the learner asks about a claim, ask what the token actually measured rather than telling them the verdict."
 tags: [wip]
 reading_minutes: 8
 tutor_minutes: 0
 ---
 #### Text
 content::
-\### 2.1 Hardware
+\### Hardware
 
 During a three-month AI pause, a laboratory sends the verification authority a valid cryptographic statement from each of the 20,000 accelerators in its declared cluster. The laboratory says the tokens prove that the cluster complied.
 
@@ -28,16 +28,16 @@ A signed statement can be authentic and still be too narrow, stale, incomplete, 
 
 \#### What you will be able to do
 
-:::callout {title="By the end of the core section, you will be able to:" tone="blue"}
+:::callout {title="By the end of this unit, you will be able to:" tone="blue"}
 1. **Bound a hardware claim.** Distinguish what a mechanism identifies, attests, measures, classifies, restricts, or reconstructs, then state what remains outside the claim.
 2. **Trace the trust and authority chain.** Name who measures, signs, defines acceptable state, updates, revokes, appraises, decides, and enforces.
 3. **Invert the threat model.** Reassess the same mechanism when the operator is a cloud customer, a laboratory with physical control, or a state-backed owner.
 4. **Compare trust architectures.** Evaluate on-chip, off-chip, and hybrid designs for the same policy claim.
 5. **Recommend a bounded role.** State what hardware should carry in a layered regime, what it should not carry, which independent evidence must corroborate it, and what new evidence would change your recommendation.
 :::
-{>>{"author":"Elias's AI","timestamp":1788015904638}@@XLab's Objectives block here has scope="the core section", so the rendered lead sentence is "By the end of the core section, you will be able to:" rather than "this module".<<}
 
-\#### A map of the section
+
+\#### A map of the unit
 
 Hardware proposals serve several different functions. These functions are not a ladder from weak to strong. A mechanism may perform one function well and contribute little to another.
 
@@ -50,11 +50,11 @@ Hardware proposals serve several different functions. These functions are not a 
 | **Authorize or restrict use** | Was the activity permitted? Who can issue, suspend, revoke, appeal, or override authorization? |
 | **Reconstruct a declared run** | Did the declared training process plausibly produce the submitted checkpoints or model? |
 
-The rest of this section uses one repeated method:
+The rest of this unit uses one repeated method:
 
 **State the claim. Trace the measurement and trust chain. Name the adversary. Price the mechanism. Bound the conclusion. Find the remaining hole.**
 
-\#### Readings across this section
+\#### Readings across this unit
 
 - **RATS and NVIDIA:** who makes an attestation claim, who checks it, and what current systems leave unverified.
 - **O’Gara et al.:** mechanisms and open questions for accounting, workload classification, location, configuration, and licensing.

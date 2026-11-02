@@ -1,15 +1,15 @@
 ---
 id: 'f531b3cd-2f33-44c7-8c2b-407afa6a8500'
-title: "Measuring and classifying use"
+title: "Measuring and Classifying Use"
 tldr: "Counting FLOP and knowing whether they were training are two different problems. A 98.2 percent accurate classifier that can drop to 43 percent on unseen adversarial workloads is a component demo, not a treaty regime. Practice turning an experimental result into exactly the policy claim it supports."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
+summary_for_tutor: "Adapted from the source lesson; preserve its framing. Reading on compute accounting rules, the Rahman and Tajdari telemetry study and its limitations, and a table separating adversary moves by what they attack. Ends with the from-result-to-policy-claim open question (observation, supported inference, unsupported policy leap, deployment dependencies). Reject answers that claim the study proves treaty-grade detection across frontier clusters or against a state controlling the measurement path."
 tags: []
 reading_minutes: 32
 tutor_minutes: 8
 ---
 #### Text
 content::
-\### 2.1.4 Measuring and classifying use
+\### Measuring and Classifying Use
 
 The working rule prohibits **unlicensed training above threshold T** while permitting inference and approved safety evaluations. Verifying that rule requires answers to three separate questions:
 
@@ -39,7 +39,7 @@ Existing performance counters and management telemetry can measure useful quanti
 O’Gara et al., *Hardware-Enabled Mechanisms for Verifying Responsible AI Development*, [arXiv 2505.03742](https://arxiv.org/abs/2505.03742), 2025; the sections on compute accounting, workload classification, cluster configuration, location verification, and offline licensing.
 :::
 
-Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore has rules that would trigger a revision.
+Even perfect accounting verifies the threshold, not the policy goal. Algorithmic, architectural, and data improvements can produce more capability at the same counted compute. A fixed threshold therefore needs rules that would trigger a revision.
 
 :::callout {title="Question to keep visible" tone="blue"}
 What quantity did the meter record, and how closely does that quantity match the legal rule?
@@ -128,6 +128,6 @@ O'Gara, Aidan, Gabriel Kulp, Will Hodgkins, et al. "Hardware-Enabled Mechanisms 
 Rahman, Robi, and Sabiha Tajdari. "Detecting Hidden ML Training With Zero-Overhead Telemetry." *arXiv*, June 2026. [arxiv.org](https://arxiv.org/abs/2606.19262)
 *A study classifying GPU workloads from privacy-preserving telemetry, reporting 98.2 percent accuracy at spotting concealed training runs.*
 
-XLab. "2.1.4 Measuring and classifying use." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)
+XLab. "2.1.4 Measuring and Classifying Use." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-measuring-use)
 *The source lesson this page adapts.*
 :::
