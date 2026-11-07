@@ -1,8 +1,8 @@
 ---
 id: '96070491-7898-4bf3-9a05-f6790631d4cb'
-title: "E.1.3 Provably safe AI and verification"
-tldr: "Provably safe AI as a control and oversight idea, proof checkers such as Lean and their limits, and four example papers on verified AI, of which you read one and discuss it."
-summary_for_tutor: "Sections 5 and 6 of worksheet E.1: provably safe AI (a possibly misaligned AI plus a verification system, used for control and for scalable oversight), proof checkers such as Lean and the limits of formal verification (syntactic domains only, NP-sized proofs, semantic steps judged by an oracle), and the 10:30 paper session. Each learner reads one of four papers: two on maths and code with Lean (faithfulness of LLM formalization, a Rust-to-Lean verification pipeline) and two on physics (self-correcting AI physicists, PDE-grounded intent verification of simulation code). Then they discuss six prompts: the central claim, a concrete experiment, the world model, prover and verifier, trust in the verification, ambiguity in the verified criteria, and closeness to a real-world setting."
+title: "E.1.3 Introduction to Verified AI"
+tldr: "Verified AI as a control and oversight idea, with an untrusted AI as prover, a trusted verifier and a world model, proof checkers such as Lean and their limits, and four example papers on verified AI, of which you read one and discuss it."
+summary_for_tutor: "Sections 5 and 6 of worksheet E.1: verified AI (a possibly misaligned AI acts as the prover, and a trusted verifier checks its output against a specification using a world model, used for control and for scalable oversight). The literature also calls this provably safe AI or guaranteed safe AI. If the learner uses those terms, treat them as the same idea, and point out that outside formal domains the check is not a proof. Also covers proof checkers such as Lean and the limits of formal verification (syntactic domains only, NP-sized proofs, semantic steps judged by an oracle), and the 10:30 paper session. Each learner reads one of four papers: two on maths and code with Lean (faithfulness of LLM formalization, a Rust-to-Lean verification pipeline) and two on physics (self-correcting AI physicists, PDE-grounded intent verification of simulation code). Then they discuss six prompts: the central claim, a concrete experiment, the world model, prover and verifier, trust in the verification, ambiguity in the verified criteria, and closeness to a real-world setting."
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
@@ -10,9 +10,17 @@ source_url: https://iliad-intensive.org/safety/debate/
 
 #### Text
 content::
-\## 5. Introduction to Provably Safe AI and AI Scientist
+\## 5. Introduction to Verified AI
 
-Provably Safe AI is the idea that we can combine a potentially misaligned AI with a verification system that gives us guarantees not on the AI itself, but on whatever the AI designed for us (e.g. a plan, software, a proof, a research proposal).
+Verified AI is the idea that we can combine a potentially misaligned AI with a verification system that gives us guarantees not on the AI itself, but on whatever the AI designed for us (e.g. a plan, software, a proof, a research proposal).
+
+The setup has three parts. The untrusted AI is the **prover**: it produces the output together with a justification that the output meets a **specification**. A trusted **verifier** checks that justification against a **world model**, a representation of the parts of the world that matter for the specification. Depending on the domain, the verifier can be a proof checker, a test suite or a human judge. The guarantee is only as good as the specification and the world model.
+
+The same idea appears in the literature as Provably Safe AI[^cite-tegmark-2023] and Guaranteed Safe AI.[^cite-dalrymple-2024] We use the name Verified AI because the specification does not have to be about safety (it can be the correctness of a proof or of a research conclusion), and because outside purely formal domains the check is not a proof.
+
+[^cite-tegmark-2023]: Max Tegmark and Steve Omohundro (2023), *Provably safe systems: the only path to controllable AGI*, [arXiv](https://arxiv.org/abs/2309.01933)
+
+[^cite-dalrymple-2024]: David Dalrymple et al. (2024), *Towards Guaranteed Safe AI: A Framework for Ensuring Robust and Reliable AI Systems*, [arXiv](https://arxiv.org/abs/2405.06624)
 
 This has two applications for Safety:
 
