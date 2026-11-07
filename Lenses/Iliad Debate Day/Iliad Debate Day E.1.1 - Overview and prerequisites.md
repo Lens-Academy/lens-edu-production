@@ -19,9 +19,8 @@ content::
 
 - The basic idea of Provably Safe AI as both a Control and a Scalable Oversight Technique
 - The difference between syntactic and semantic problems and why a world model is necessary to turn semantics into syntax.
-- Different ideas of world models: Human judgement, Davidad-style world models, hardware specifications
 - Why Debate could drastically reduce the queries to the world model/human oversight
-- Secondary Debate concepts: Cross-Examination,
+- Secondary Debate concept: Cross-Examination
 - Are familiar with the UK AISI safety case, and are able to defend/critique it.
 
 :::
@@ -37,15 +36,14 @@ Debate is a form of scalable oversight: it seeks to extend a reward signal for h
 The timetable for the in-person day, with the part of this course that goes with each session.
 
 - **10:00 Fun game: wrong but convincing proofs.** Find the mistake in each proof, in [[Iliad Debate Day E.1.2 - Find the mistake in the proof|E.1.2]].
-- **10:20 Introduction to scalable oversight and the AI scientist.** (Semi-)verified AI as a control and oversight program, with the ideas of world model, prover and verifier. [[Iliad Debate Day E.1.3 - Provably safe AI and verification|E.1.3]].
+- **10:20 Introduction to Verified AI.** Verified AI as a control and oversight program, with the ideas of world model, prover and verifier. [[Iliad Debate Day E.1.3 - Provably safe AI and verification|E.1.3]].
 - **10:30 Scalable oversight goal: paper reading and discussion.** Read one of the four papers in [[Iliad Debate Day E.1.3 - Provably safe AI and verification|E.1.3]], section 6, and discuss it.
 - **11:30 Introduction to AI safety via debate.** The formal debate setup and the proof that Debate = PSPACE. [[Iliad Debate Day E.1.4 - The debate setup and interactive proofs|E.1.4]] and [[Iliad Debate Day E.1.5 - Debate as a complexity class and Debate = PSPACE|E.1.5]], based on [Debate_Overview.pdf](https://drive.google.com/file/d/1KMqJDdFITy3YRz02oIfa4RctxP-h-ERF/view?usp=drive_link).
 - **12:30 Lunch break**
 - **13:30 Cross-examination and exercises.** [[Iliad Debate Day E.1.6 - Cross-examination raises debate to NEXP|E.1.6]] and [[Iliad Debate Day E.1.7 - Exercises on cross-examination|E.1.7]].
 - **14:30 Pause**
 - **14:40 Obfuscated arguments and prover-estimator debate.** [[Iliad Debate Day E.1.8 - Criticisms and obfuscated arguments|E.1.8]] and [[Iliad Debate Day E.1.9 - Prover-estimator debate|E.1.9]].
-- **15:10 Judge models: introduction**
-- **15:15 Talk by Leonardo: Debate on Graphs**
+- **15:10 Debate on Graphs**
 - **16:00 Pause**
 - **16:10 Reading and discussion: experimental results.** Read one of the three papers in [[Iliad Debate Day E.1.10 - Experimental results and discussion|E.1.10]] and discuss it.
 - **17:10 Presentation: the AISI safety case.** [[Iliad Debate Day E.1.11 - The AISI safety case and the quiz|E.1.11]].
