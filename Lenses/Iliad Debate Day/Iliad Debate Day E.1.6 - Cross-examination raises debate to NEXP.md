@@ -2,7 +2,7 @@
 id: '9d974678-08e6-4f66-967a-4f73a8f8859b'
 title: "E.1.6 Cross-examination raises debate to NEXP"
 tldr: "Cross-examination, where a debater can question a fresh copy of the other debater, and a proof that it lifts debate from PSPACE to NEXP using computation tableaux."
-summary_for_tutor: "Sections 12 and 13 of worksheet E.1: the idea of cross-examination (questions to fresh copies of the earlier debater, PSPACE to NEXP), Definition 13.1 (the class CX with deterministic strategies A and B^A and verifier U), Theorem 13.2 NEXP is contained in CX-Debate, and its collapsed proof with a computation tableau, initial, accepting and local transition conditions, Bob's challenge (type, tau, j), completeness, soundness and verifier complexity. The handout Debate_Overview.pdf, which the room uses, numbers these items differently: each one shows its handout number in brackets."
+summary_for_tutor: "Sections 12 and 13 of worksheet E.1: the idea of cross-examination (questions to fresh copies of the earlier debater, PSPACE to NEXP), Definition 13.1 (the class CX with deterministic strategies A and B^A and verifier U), Theorem 13.2 NEXP is contained in CX-Debate, and its collapsed proof with a computation tableau, initial and accepting conditions, local transition conditions checked on 2x3 windows (checking one cell against the three above it is not enough for a nondeterministic machine, because cells could follow different transitions), Bob's challenge (type, tau, j), completeness, soundness and verifier complexity. The handout Debate_Overview.pdf, which the room uses, numbers these items differently: each one shows its handout number in brackets."
 authors:
   - Stephan Wäldchen (Iliad)
 source_url: https://iliad-intensive.org/safety/debate/
@@ -95,17 +95,19 @@ $$
 
 1. **Initial row condition:** row $$0$$ correctly encodes the start configuration of $$N$$ on input $$x$$.
 2. **Accepting row condition:** row $$T$$ is in an accepting halting configuration.
-3. **Local transition conditions:** for every time $$1\le \tau \le T$$ and every tape position $$1\le j\le T+1$$, the symbol at tableau position $$(\tau,j)$$ is consistent with the machine transition rule applied to a constant-size neighborhood in the previous row, namely
+3. **Local transition conditions:** for every time $$1\le \tau \le T$$ and every tape position $$1\le j\le T+1$$, the $$2\times 3$$ window
 
 $$
-(\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1).
+W(\tau,j)=\big\{(\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1),\ (\tau,j-1),\ (\tau,j),\ (\tau,j+1)\big\}
 $$
 
-These are exactly the usual local constraints from the Cook–Levin tableau construction: whether one cell in row $$\tau$$ is correct depends only on a constant-size window in row $$\tau-1$$.
+is **legal**: the bottom row of the window can be obtained from the top row by a single transition of $$N$$ (cells beyond the edge of the tableau count as blank).
+
+These are the usual local constraints from the Cook–Levin tableau construction. A window two rows high is needed because $$N$$ is nondeterministic. Checking each cell of row $$\tau$$ separately against the three cells above it is not enough: suppose that in state $$q$$ reading $$a$$, $$N$$ may either write $$1$$ and move left, or write $$0$$ and move right. A row where the head moved left but the symbol $$0$$ was written passes every single-cell check, since each cell agrees with one of the two transitions, but no single transition produces it. The window centred on the head's old position contains every cell the step can change, so it catches this mix. If row $$0$$ is the start configuration and every window is legal, then every row is a valid successor of the row above.
 
 **Step 3: The cross-examination protocol.**  We define the following protocol.
 
-1. Alice outputs a string $$a$$, intended to be the linearized tableau of an accepting computation branch of $$N$$ on input $$x$$.
+1. Alice does not send the tableau, which has $$(T+1)^2$$ cells, exponentially many. Instead, her strategy $$\mathcal{A}$$ answers single queries: given a position $$(\tau,j)$$, she replies with a symbol $$\mathcal{T}[\tau,j]\in\Gamma$$, intended to be that entry of the tableau of an accepting computation branch of $$N$$ on input $$x$$. The query has $$O(p(n))$$ bits and the reply is one symbol, so both fit within the polynomial bound $$r(n)$$. Because $$\mathcal{A}$$ is deterministic and every query goes to a fresh copy that sees only the position it is asked about, her answers define one fixed tableau $$\mathcal{T}$$ before Bob chooses where to challenge.
 2. Bob outputs a challenge
 
 $$
@@ -116,35 +118,31 @@ where $$\mathrm{type}$$ specifies which constraint is being challenged:
 
 - $$\mathrm{type}=\mathrm{init}$$: challenge the initial-row condition at cell $$j$$;
 - $$\mathrm{type}=\mathrm{acc}$$: challenge the accepting-row condition at cell $$j$$;
-- $$\mathrm{type}=\mathrm{step}$$: challenge the local transition condition at spacetime location $$(\tau,j)$$.
-3. The verifier computes the queried coordinates $$I(x,t)$$ as follows:
+- $$\mathrm{type}=\mathrm{step}$$: challenge the legality of the window $$W(\tau,j)$$.
+3. The verifier computes the coordinates $$I(x,t)$$ and queries Alice on each of them:
    - for $$\mathrm{init}$$, query only the $$j$$-th cell of row $$0$$;
    - for $$\mathrm{acc}$$, query only the $$j$$-th cell of row $$T$$;
-   - for $$\mathrm{step}$$, query the constant-size neighborhood
+   - for $$\mathrm{step}$$, query the six cells of the window $$W(\tau,j)$$.
 
-   $$
-   (\tau-1,j-1),\ (\tau-1,j),\ (\tau-1,j+1),\ (\tau,j).
-   $$
+   The verifier accepts iff the queried cells satisfy the corresponding local constraint. For $$\mathrm{step}$$, that means the window is legal.
 
-   The verifier accepts iff the queried cells satisfy the corresponding local constraint.
+**Step 4: Completeness.**  Assume $$x\in L$$. Then $$N$$ has some accepting computation branch on input $$x$$ of length at most $$T$$. Let $$\mathcal{T}$$ be the tableau of that accepting branch, padded after halting so that it has exactly $$T+1$$ rows.
 
-**Step 4: Completeness.**  Assume $$x\in L$$. Then $$N$$ has some accepting computation branch on input $$x$$ of length at most $$T$$. Let $$\mathcal{T}$$ be the tableau of that accepting branch, padded after halting so that it has exactly $$T+1$$ rows, and let $$a$$ be its linearization.
-
-If Alice outputs this $$a$$, then:
+Let honest Alice answer every query $$(\tau,j)$$ with the entry $$\mathcal{T}[\tau,j]$$ of this tableau. Then:
 
 - the initial row is correct,
 - the final row is accepting,
-- every local transition constraint is satisfied.
+- every window is legal.
 
 Hence every challenge Bob can issue is answered correctly by the queried cells, and the verifier always accepts.
 
 **Step 5: Soundness.**  Assume $$x\notin L$$. Then $$N$$ has no accepting computation branch on input $$x$$ of length at most $$T$$.
 
-Take any string $$a$$ output by Alice, and interpret it as a tableau $$\mathcal{T}$$. Since there is no accepting computation tableau for $$x$$, $$\mathcal{T}$$ must violate at least one of the conditions above:
+Take any Alice strategy $$\mathcal{A}$$, and let $$\mathcal{T}$$ be the tableau defined by her answers to all positions $$(\tau,j)$$. Since there is no accepting computation tableau for $$x$$, $$\mathcal{T}$$ must violate at least one of the conditions above:
 
 - either row $$0$$ is not the correct initial configuration,
 - or row $$T$$ is not accepting,
-- or some local transition condition fails at some $$(\tau,j)$$.
+- or some window $$W(\tau,j)$$ is not legal.
 
 Bob outputs a challenge $$t$$ pointing to such a violated condition. By construction, the verifier queries exactly the cells needed to check that local condition, detects the violation, and rejects.
 
