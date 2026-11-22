@@ -4,7 +4,7 @@ title: Navigator Application
 ---
 
 #### Text
-content:: Thanks for wanting to navigate with Lens! These few questions help us get to know you. It takes about five minutes, and questions without a red star are optional.
+content:: Thanks for wanting to navigate with Lens! These questions help us get to know you. It takes about 15 minutes, and questions without a red star are optional. Please answer without AI assistance: we're interested in your own thinking and voice, and bullet points are welcome.
 
 #### Question
 key:: full_name
@@ -75,12 +75,14 @@ required:: true
 #### Question
 key:: heard_about_lens_detail
 content:: If other, or if someone referred you, tell us where or who.
+description:: Please be specific, for example: "[Name] recommended it", "a post by [name] on LinkedIn", or "found it searching for AI safety courses".
 max-chars:: 300
 short:: true
 
 #### Choice
 key:: facilitation_experience
 content:: Have you led group discussions or taught before?
+description:: No experience yet is fine: we train every navigator.
 options::
 - Yes, regularly
 - A few times
@@ -121,6 +123,19 @@ content:: Group sessions per week you could lead: maximum
 max-chars:: 3
 short:: true
 required:: true
+
+#### Question
+key:: nominee
+content:: Who's the most exceptional person you'd nominate to navigate with Lens? Include their name and email.
+description:: You can nominate more than one. If we think they'd be a great fit, we may reach out to them.
+max-chars:: 500
+
+#### Choice
+key:: nominee_mention_ok
+content:: Can we mention your name when we reach out to them?
+options::
+- Yes
+- No
 
 #### Question
 key:: anything_else
