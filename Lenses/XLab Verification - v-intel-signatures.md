@@ -10,7 +10,7 @@ tutor_minutes: 0
 #### Text
 content::
 Every mechanism so far has needed the monitored side to play along. Hardware
-roots of trust (2.1) and provider reporting (2.2) share one failure mode: they
+roots of trust and provider reporting share one failure mode: they
 assume cooperation. This section covers the one evidence stream that works
 uninvited — what undeclared frontier-AI development shows to a rival who is
 simply watching, and what a watcher can honestly conclude from it.
@@ -24,7 +24,7 @@ same thing differently: Wasil et al. call it the national technical means (NTM)
 category, *Six Layers* calls it Layer 6, and Scher and Thiergart call it the
 national-intelligence building blocks.
 
-Hold on to one distinction for the rest of the module. Intelligence
+Hold on to one distinction for the rest of the unit. Intelligence
 **identifies**; the regime **resolves**. A tip is not a finding.
 
 \## The signature catalog
@@ -58,7 +58,7 @@ commercial thermal satellites are the current example.
 
 \### Energy and the power grid
 
-The module's most quantitative tool and its most perishable. Measured energy
+The unit's most quantitative tool and its most perishable. Measured energy
 delivery can be converted into an approximate FLOP count, which makes large
 unauthorized runs detectable from power draw — coarse violations only (Wasil et
 al.). City-scale draw needs transmission lines visible even in public satellite
@@ -85,12 +85,12 @@ layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
 of Artificial Superintelligence*, Appendix D — and connect it back to the
-development picture from Module 1.
+development picture from earlier in the course.
 :::
 
 \### Procurement, customs, and financial intelligence
 
-The best real-case material in the module. The canonical indicator is a
+The best real-case material in the unit. The canonical indicator is a
 GPU-import surge to a region far exceeding declared facilities' needs (Wasil et
 al.), with the State Department's Blue Lantern end-use monitoring and FinCEN
 suspicious-activity reporting as named institutional precedents.
@@ -174,19 +174,6 @@ source:: [[../widgets/wasil-method-explorer]]
 
 #### Text
 content::
-
-:::callout {title="Unfinished writing" tone="amber"}
-Two pieces this section is specified to carry are not built yet: the
-interactive on AI data-centre power consumption built from
-[Epoch's data-centre dataset](https://epoch.ai/data/ai-data-centers), with the
-inference-versus-training comparison; and the predict-before-the-reveal beat on
-each signature card ("what does this signature actually establish, and what is
-its main caveat?"). The open-source card is also held short deliberately — a
-dedicated treatment exists and should be distilled before it is finalised.
-:::
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
@@ -197,6 +184,6 @@ Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for
 Epoch AI. "AI Data Centers." *Epoch AI*, continuously updated. [epoch.ai](https://epoch.ai/data/ai-data-centers)
 *Epoch's continuously updated database of the world's largest AI data centers, built from satellite imagery and permitting records.*
 
-XLab. "2.3.1 Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
+XLab. "Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::

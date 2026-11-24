@@ -9,7 +9,7 @@ tutor_minutes: 30
 ---
 #### Text
 content::
-\### 2.1.8 Policy judgment: what role should hardware play?
+\### Policy judgment: what role should hardware play?
 
 The most common error in this area is maturity inflation. Separate five stages.
 
@@ -108,11 +108,7 @@ Your brief must include:
 | Layering and common-mode failure | 10% | The corroborating layer is genuinely independent and covers the named blind spot |
 | Audience fit and update conditions | 10% | The recommendation serves the named reader and states what would change it |
 
-:::callout {title="Written output · 2.1 · Hardware assurance brief" tone="neutral"}
-A bounded hardware assurance brief. The point is not forecasting the correct future — it is making the assessment conditional on visible facts: coverage, fidelity, time to deployment, and the preferred corroborating layer.
-
-**Budget:** about 1000 words. **Reader:** A named national delegation or joint drafting session considering a three-month U.S.–China pause.
-:::
+The point of the brief is not forecasting the correct future. It is making the assessment conditional on visible facts: coverage, fidelity, time to deployment, and the preferred corroborating layer.
 
 #### Question: Open
 id:: 936e8aee-a0d9-4e27-9e58-f3b32f08d834
@@ -127,7 +123,7 @@ content::
 
 You judged these seven conclusions before you read anything in this section. Classify them again now, then see what moved.
 
-The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|2.1 Hardware]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
+The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|Hardware]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
 
 #### Widget
 source:: [[../widgets/claim-ledger]]
@@ -145,6 +141,6 @@ Attestation alone does not establish cumulative compute, workload class, declare
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.1.8 Policy judgment: what role should hardware play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
+XLab. "Policy judgment: what role should hardware play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
 *The source lesson this page adapts, including the hardware assurance brief and its rubric.*
 :::

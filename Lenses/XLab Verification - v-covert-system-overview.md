@@ -9,9 +9,9 @@ tutor_minutes: 61
 ---
 #### Text
 content::
-In this module, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms you learned in Module 2, actors and incentive structures you learned in Module 1, and verification intuitions you gained in Module 0.
+In this unit, you will tackle a comprehensive technical verification system proposal, synthesizing the verification mechanisms, the actors and incentive structures, and the verification intuitions you gained earlier in the course.
 
-:::callout {title="By the end of this module, you will be able to:" tone="blue"}
+:::callout {title="By the end of this unit, you will be able to:" tone="blue"}
 1. Explain how the requirements of an international AI agreement might be translated into a technical verification system.
 2. Understand and critique the assumptions, design choices, and unresolved problems involved in verifying AI compute use under conditions of limited trust between the parties.
 3. Apply an existing compute verification regime to a realistic facility simulation, identifying weak points, evasion possibilities, and testable assumptions.
@@ -223,6 +223,6 @@ content::
 Cankaya, Naci. "A System Overview for Near-Term, Low-Trust AI Compute Verification." *Machine Intelligence Research Institute, Technical Governance Team*, June 2026. [techgov.intelligence.org](https://techgov.intelligence.org/research/a-system-overview-for-near-term-low-trust-ai-compute-verification)
 *A working draft of a privacy-preserving, retrofittable system for verifying AI compute use between rival states, published to be argued with; each of its six technical sections closes with a set of questions for the reader.*
 
-XLab. "3.0 A system overview for near-term, low-trust AI compute verification." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/covert-development/low-trust-compute-verification)
+XLab. "A system overview for near-term, low-trust AI compute verification." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/covert-development/low-trust-compute-verification)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788015610104}@@XLab's MemoDesk for this lesson (memos.ts slot m3-written-output) is unspecified: brief and audience are null, only "800 words, peer reviewed" and a gap note saying the outline never says which written output Module 3 gets. Nothing to import, so the "Import gap" placeholder is dropped rather than replaced with an invented memo prompt.<<}

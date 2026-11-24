@@ -21,7 +21,7 @@ application-survey:: [[../../surveys/Application Form]]
 
 # Module: [[../../modules/XLab Verification Part 2 U6 Feedback|Unit 6 feedback]]
 
-# Meeting: Unit 6: Hardware judgment and cloud records
+# Meeting: Unit 6: Hardware Judgment and Cloud Records
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
@@ -29,7 +29,7 @@ facilitator-survey:: [[../../surveys/Navigator Session 1 Debrief]]
 
 # Module: [[../../modules/XLab Verification Part 2 U7 Feedback|Unit 7 feedback]]
 
-# Meeting: Unit 7: Cloud limits and intelligence
+# Meeting: Unit 7: Cloud Limits and Intelligence
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
@@ -37,7 +37,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification Part 2 U8 Feedback|Unit 8 feedback]]
 
-# Meeting: Unit 8: The human layer
+# Meeting: Unit 8: The Human Layer
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
@@ -45,7 +45,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification Part 2 U9 Feedback|Unit 9 feedback]]
 
-# Meeting: Unit 9: Covert development and the low-trust architecture
+# Meeting: Unit 9: Covert Development and the Low-Trust Architecture
 survey:: [[../../surveys/Lens Post-Meeting Impact Survey v2 (meeting only)]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
@@ -53,7 +53,7 @@ facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
 # Module: [[../../modules/XLab Verification Part 2 U10 Feedback|Unit 10 and course feedback]]
 
-# Meeting: Unit 10: Evasion routes and the red team review
+# Meeting: Unit 10: Evasion Routes and the Red Team Review
 survey:: [[../../surveys/CV2 Final Impact Survey v2]]
 facilitator-survey:: [[../../surveys/Navigator Post-Meeting Survey]]
 
