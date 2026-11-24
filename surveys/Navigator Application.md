@@ -23,6 +23,13 @@ content:: Link to your CV, LinkedIn, etc.
 max-chars:: 300
 short:: true
 
+#### Question
+key:: location
+content:: Where will you live while navigating (City, Country)?
+description:: We need this for paid navigator contracts.
+max-chars:: 100
+short:: true
+
 #### Text
 content:: **Your experience**
 slot:: lens_history
