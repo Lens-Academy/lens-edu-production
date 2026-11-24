@@ -13,10 +13,10 @@ Human-based verification strategies, such as personnel interviews and
 whistleblower programs, are simultaneously the most enforceable and least
 reliable mechanisms in this course. Interviewing staff doesn't require any
 additional technological infrastructure or innovation—but people can
-obfuscate, lie, and hide motivations. In this module, you will learn about the
+obfuscate, lie, and hide motivations. In this unit, you will learn about the
 core mechanisms of human verification applicable to AI development.
 
-:::callout {title="By the end of this submodule, you will be able to:" tone="blue"}
+:::callout {title="By the end of this unit, you will be able to:" tone="blue"}
 1. Identify who in the AI supply chain could observe which activities, and why and how they could be incentivized to reveal, hide, or obfuscate that information.
 2. Trace the path information takes from reporter to verifier, and judge whether a proposed reporting channel would probabilistically motivate an insider to use it.
 3. Compare and contrast audits and inspections, including analyzing the knowledge boundaries of an audit or inspection regime.
@@ -26,6 +26,6 @@ core mechanisms of human verification applicable to AI development.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "2.4 The human layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
+XLab. "The human layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788015709033}@@XLab's Objectives block carries scope="this submodule", so the title says "submodule" rather than "module".<<}

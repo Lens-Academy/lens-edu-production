@@ -12,7 +12,7 @@ content::
 You have learned the main methods of human-based AI verification; traced the
 reporting channel from whistleblower to verifier; and distinguished where,
 when, and what types of inspections are effective. In the final section of
-this module, you will put together everything you've learned to form
+this unit, you will put together everything you've learned to form
 judgments about auditing and reporting institutions as a whole. The question
 is: can the inspecting institution reach a defensible and reliable judgment
 about the evidence it handles?
@@ -98,7 +98,7 @@ feedback-instructions:: Three sentences. Acknowledge the pick, say what is missi
 #### Text
 content::
 :::callout {title="Commentary: The finder (open after you have answered)" tone="neutral" collapse="closed"}
-AI has candidate finders, module 2’s evidence streams: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
+AI has candidate finders, the evidence streams from earlier in the course: chip attestation and logs, cloud records, national technical means, and the human layer this section closed on. What none of them supplies alone is facts that survive challenge: the finder’s access has to be agreed in advance, or every finding arrives with a provenance fight attached.
 :::
 
 :::callout {title="Commentary: The judge (open after you have answered)" tone="neutral" collapse="closed"}
@@ -159,6 +159,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Brundage et al. (2026), Frontier AI auditing: design principles, and Carlson (2009), Defining Noncompliance: NPT Safeguards Agreements, are cited inline above.
 
-XLab. "2.4.4 Institutions and policy judgment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-institutions)
+XLab. "Institutions and policy judgment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-institutions)
 *The source lesson this page adapts, including the From Nuclear to AI Inspections and The Standard of Proof exercises.*
 :::{>>{"author":"Elias's AI","timestamp":1788016292046}@@Widgets rebuilt from missing-board.ts and standard-of-proof.ts. Assessment instructions for the open questions are written from XLab's commentary, self-check, and 2x2 reveal; XLab itself does not grade these. Brundage and Carlson URLs are in citations.json pending, not entries.<<}

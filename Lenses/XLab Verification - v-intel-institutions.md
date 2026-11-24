@@ -32,7 +32,7 @@ Rose Gottemoeller, the US chief negotiator for New START, called NTM
 noninterference "one of the earliest and easiest points of agreement" in those
 negotiations.
 
-This is the low-hanging fruit of the whole module. Note the contrast with
+This is the low-hanging fruit of the whole unit. Note the contrast with
 sharing, where drafting is hard — a point worth carrying into the written
 output.
 
@@ -78,7 +78,7 @@ to:: as relevant to this Agreement.
 content::
 Read ¶1(b)(iii) against (i) and (ii). Protection is an undertaking; sharing is
 an encouragement. That is the asymmetry of this whole section sitting in one
-paragraph, and 2.3.5 asks you to draft the obligation it declines to impose.
+paragraph, and a later lens in this unit asks you to draft the obligation it declines to impose.
 
 \## Authenticating what gets shared
 
@@ -87,7 +87,7 @@ question, and it belongs here: how do rivals authenticate intelligence passed
 between them — signal authentication, chain of custody?
 
 The cryptographic machinery for this — zero-knowledge proofs, multi-party
-computation, attestation — stays in 2.0. The bridge worth knowing is the
+computation, attestation — is outside this lens. The bridge worth knowing is the
 zero-knowledge warhead-verification precedent (Glaser, Barak and Goldston,
 *Nature*, 2014).
 
@@ -110,19 +110,9 @@ to:: Verifier—bilateral or third-party? Though this report’s focus is not on
 
 #### Text
 content::
-
-:::callout {title="Unfinished writing" tone="amber"}
-Two specified pieces are missing. The **Six Layers treatment** for this section
-has not been written up against its supporting context (NSS 2025 p. 13, Baker
-§2.3.3, *World Order* pp. 199–201). Neither have the **analysis questions on
-the treaty parts** that the section is meant to end on.
-:::
-
-#### Text
-content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 The readings this lesson names (the MIRI draft agreement, Baker, and *Six Layers*) are cited in the text without links; their full entries appear in the sibling lenses that link them.
 
-XLab. "2.3.4 Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
+XLab. "Intelligence institutions and treaty design." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-institutions)
 *The source lesson this page adapts.*
 :::{>>{"author":"Elias's AI","timestamp":1788521432992}@@XLab's lesson cited a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), whose text this lens now embeds from the imported paper so the 2.3.5 red-line has something to work from.<<}

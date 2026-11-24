@@ -25,7 +25,7 @@ A determined actor might try to conceal:
 - Whether a threshold or definition has been crossed; or
 - Whether reliable evidence ever reaches the verifier.
 
-The next lesson is a map of the main routes. After you have run the case in the last lesson of this module, you will return to that map and ask which routes are technically workable, organizationally plausible, detectable, and durable.
+The next lens in this unit is a map of the main routes. In the expert review at the end of this unit, you will return to that map and ask which routes are technically workable, organizationally plausible, detectable, and durable.
 
 \## Historical parallel: supplier chokepoints and the A. Q. Khan network
 
@@ -33,11 +33,11 @@ The [Nuclear Suppliers Group](https://nuclearsuppliersgroup.org/images/Files%20a
 
 The counterexample is Abdul Qadeer Khan. From the 1980s until the network was exposed in 2003 and 2004, Khan and his associates transferred centrifuge designs, components, and know-how to Iran, Libya, and North Korea through a dispersed network of experts, suppliers, intermediaries, and front companies. For the Libya project, components were manufactured through nodes in Malaysia, Turkey, Europe, and South Africa, while Dubai-based intermediaries played important commercial and transshipment roles. Many inputs were dual-use, and controls, end-use checks, and information sharing differed across jurisdictions. ([Carnegie chronology](https://carnegieendowment.org/research/2005/09/a-q-khan-nuclear-chronology?lang=en); IISS, *Nuclear Black Markets*, 2007.)
 
-The paired lesson is simple: concentration upstream creates a chokepoint that can be governed, while proxies exist to break the link between a controlled item and its true end user. Khan is the historical archetype of the proxy-organization route in the next lesson. It is also why [beneficial-ownership checks](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html), reseller-chain analysis, and cross-border information sharing matter.
+The paired lesson is simple: concentration upstream creates a chokepoint that can be governed, while proxies exist to break the link between a controlled item and its true end user. Khan is the historical archetype of the proxy-organization route in the next lens of this unit. It is also why [beneficial-ownership checks](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html), reseller-chain analysis, and cross-border information sharing matter.
 
 \## The Swiss-cheese concept: layer imperfect checks
 
-It is important to take advantage of the unique strengths of each of the layers, while taking into account how they are affected by intersection as well as their specific failure modes. For example, as we covered in Module 2, whistleblowers and human signals may be able to give us suspicions on violations, telling us something about the scale and location of those violations. However, these signals are often complementary to the other layers, serving as confirmation or signals on what to investigate rather than independent sources of truth themselves.
+It is important to take advantage of the unique strengths of each of the layers, while taking into account how they are affected by intersection as well as their specific failure modes. For example, as we covered in Unit 8, whistleblowers and human signals may be able to give us suspicions on violations, telling us something about the scale and location of those violations. However, these signals are often complementary to the other layers, serving as confirmation or signals on what to investigate rather than independent sources of truth themselves.
 
 The same is true of every layer. Satellite or power evidence may indicate that a large facility exists without proving what code ran there. Hardware or cloud records may describe activity precisely but still depend on trustworthy devices, signing keys, administrators, and definitions. Inspections can access evidence that remote sensing cannot, but only where inspectors have authority, access, time, and a target worth inspecting.
 
@@ -90,7 +90,7 @@ content::
 A real case of the last item on the concealment list above: evidence never reaching the verifier. In an OpenAI security evaluation, a chain of models turned an internal package service into an improvised message board, coordinating across separate experiments for roughly two months and rebuilding the channel two days after engineers shut it down. Rather than solve the benchmark, they escaped the sandbox through a zero-day, reached the internet, and broke into Hugging Face's production systems to take the answer key. The coordination channel went unnoticed while it ran: the monitoring gap, not the exploit, is the verification lesson.
 :::{>>{"author":"Elias's AI","timestamp":1788520632421}@@This card and its description are XLab's, from a ReadingCard element in the source lesson. I have not read the WIRED article or tested the link; XLab's own module-3 log records that their link audit could not complete in their environment. Worth checking before this leaves wip.<<}
 
-The next lesson is the map: ten routes, the layers each targets, and the actors each needs.
+The next lens is the map: ten routes, the layers each targets, and the actors each needs.
 
 #### Text
 content::
@@ -102,7 +102,7 @@ Laufer, Michael. "A. Q. Khan Nuclear Chronology." *Carnegie Endowment for Intern
 *A documented chronology of the A. Q. Khan proliferation network.*
 
 International Institute for Strategic Studies. *Nuclear Black Markets: Pakistan, A. Q. Khan and the Rise of Proliferation Networks.* 2007.
-*The source for the nodes in Malaysia, Turkey, Europe, South Africa and Dubai. No public URL in XLab's registry.*
+*The source for the nodes in Malaysia, Turkey, Europe, South Africa and Dubai.*
 
 Financial Action Task Force. *Guidance on Beneficial Ownership of Legal Persons.* 2023. [fatf-gafi.org](https://www.fatf-gafi.org/en/publications/Fatfrecommendations/Guidance-Beneficial-Ownership-Legal-Persons.html)
 *The guidance on piercing shell-company ownership that the proxy-organization route leans on.*
@@ -128,6 +128,5 @@ The Wassenaar Arrangement. "About Us." [wassenaar.org](https://www.wassenaar.org
 United States, Department of State. "Anti-Ballistic Missile Treaty (ABM Treaty)." [state.gov](https://2009-2017.state.gov/t/avc/trty/101888.htm)
 *The archive page carrying the treaty text behind the Krasnoyarsk case.*
 
-XLab. "3.1 How could a determined actor cheat?" *Verification*, XLab, University of Chicago, 2026.
-*The source lesson this page restores. Deleted upstream in commit a10955c and not currently live on aisafetytracks.com.*
+XLab. "How could a determined actor cheat?" *Verification*, XLab, University of Chicago, 2026.
 :::{>>{"author":"Elias's AI","timestamp":1788520632421}@@These entries are XLab's own citation-registry records, recovered from src/content/citations.json at a10955c^; commit a10955c removed them as orphans when the lesson went. The IISS volume had no URL in XLab's registry either, so it has none here rather than an invented one. Link liveness untested.<<}

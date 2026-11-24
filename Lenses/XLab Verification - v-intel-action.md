@@ -44,34 +44,14 @@ An assessment that hides its own uncertainty is worth less than one that states
 it, because the next decision-maker cannot calibrate on it. This is the same
 discipline as the evidence standards in the capstone.
 
-:::callout {title="Unfinished writing" tone="amber"}
-This section's written output is proposed but not settled. The task is
-**red-lining the treaty text**: you work from the verbatim excerpt in 2.3.4 —
-item 17 of Article II's definitions, the definition of national technical means
-covering satellites, signals intelligence, imagery and so on, plus Article X
-¶1(b) and its clauses (i), (ii) and (iii): noninterference, no deliberate
-concealment, and cooperation that is encouraged but not obligated —
-and go through it with a pencil, as a lawyer preparing for negotiations would.
-
-The questions it asks: what does the Article II definition omit? Whose
-satellites count as "national" — is a commercial constellation under
-government tasking NTM or not? The word "cyber" inside the definition — is that
-legalized intelligence collection, or a license to hack that Beijing strikes
-out first?
-And what does "deliberate concealment" mean for AI — is behind-the-meter power
-generation camouflage, or ordinary industrial practice?
-
-The precedent suggests Article X's noninterference clause (¶1(b)(i)) should be
-the easy part, and that drafting dies on the sharing clause. That is the
-discovery the task is built to produce.
-:::
+As you red-line the treaty text, ask yourself: what does the Article II definition omit? Whose satellites count as "national", and is a commercial constellation under government tasking NTM or not? The word "cyber" appears inside the definition: is that legalized intelligence collection, or a license to hack that Beijing strikes out first? And what does "deliberate concealment" mean for AI: is behind-the-meter power generation camouflage, or ordinary industrial practice?
 
 #### Question: Open
 id:: b1cfa8da-fe64-4ad4-975b-1a6b08111099
 content::
-\### Written output, 2.3, Red-line: Red-line the NTM article
+\### Written output: Red-line the NTM article
 
-Work from the treaty text quoted in 2.3.4: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against 2.3.4’s rule, that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
+Work from the treaty text quoted in the Intelligence institutions and treaty design lens: item 17 of Article II's definitions, plus Article X ¶1(b) and its clauses (i), (ii) and (iii). Mark at least three gaps or ambiguities, starting from your four answers if you like, and redraft the one provision whose failure you judge most consequential. Then confront the question the historical record says drafters avoid: write the binding sharing clause the text declines to impose, since ¶1(b)(iii) encourages cooperation but obligates nothing, or defend its absence in three sentences. Test whatever you write against the rule that states sign what is symmetric, cheap, and checkable, and finish with the both-capitals test: one paragraph on why Washington accepts your article, one on why Beijing does.
 
 **Reader:** The drafters of a US–China agreement, read in both capitals.
 
@@ -90,8 +70,8 @@ feedback-instructions:: Go criterion by criterion: name the strongest of the fiv
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-The MIRI draft agreement this task red-lines is cited without a link in this lesson; its full entry appears in [[../Lenses/XLab Verification - v-intel-signatures|2.3.1]].
+The MIRI draft agreement this task red-lines is cited without a link in this lesson; its full entry appears in [[../Lenses/XLab Verification - v-intel-signatures|Observable signatures of undeclared AI development]].
 
-XLab. "2.3.5 From intelligence lead to verification action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
+XLab. "From intelligence lead to verification action." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-action)
 *The source lesson this page adapts, including the red-line written output.*
 :::{>>{"author":"Elias's AI","timestamp":1788521470158}@@XLab's lesson named a "Definition 17" and separate "noninterference" and "no-deliberate-concealment" articles; none of those labels exists in arXiv:2511.10783v3. Corrected here and in 2.3.4 to Article II — Definitions item 17 and Article X ¶1(b)(i) to (iii), which 2.3.4 now quotes in full.<<}
