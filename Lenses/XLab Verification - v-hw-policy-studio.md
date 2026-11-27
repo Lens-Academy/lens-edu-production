@@ -1,15 +1,15 @@
 ---
 id: '3caea549-faad-4153-b4d8-85def1479af4'
-title: "Policy judgment: what role should hardware play?"
-tldr: "The most common error is calling a demo a regime. Separate five maturity stages, fill in the hardware mechanism dossier, and write the section's deliverable: a 700 to 1,000 word hardware assurance brief for a delegation weighing a three-month U.S.-China pause. Then grade your opening-puzzle answers."
-summary_for_tutor: "Imported from XLab's Verification curriculum; preserve source framing. The five maturity stages, the August 2026 assessment, the dossier anatomy, then the hardware assurance brief as a graded open question with XLab's rubric weights in the assessment instructions (claim fidelity 25, trust chain 20, adversary 20, feasibility 15, layering 10, audience and update 10). Finally the return to the opening puzzle: the same claim-ledger widget from lesson 2.1 is placed again here. It opens blank, because Lens keeps a widget's answers with the page it sits on, so the learner reclassifies the seven conclusions now and compares them with the ledger they kept in 2.1 Hardware. XLab's resolution follows the widget in a closed callout titled Open after you have classified; do not give those verdicts away before the learner has judged all seven rows. Review the brief against the eight required elements before scoring."
+title: "Policy Judgment: What Role Should Hardware Play?"
+tldr: "The most common error is calling a demo a regime. Separate five maturity stages and write a hardware assurance brief for a delegation weighing a three-month U.S.-China pause. Then compare your ledger answers now to the ones you gave in Unit 5."
+summary_for_tutor: "The closing lens of the hardware material, at the start of Compute Verification 2. The lens text sets out five maturity stages for hardware verification, from deployed primitive to operating governance regime, and warns against inferring a later stage from early evidence. A current assessment dated August 2026 of what hardware can and cannot yet contribute follows, then the anatomy of an assurance dossier. The hardware assurance brief is a graded, required open question with first-answer feedback: 700 to 1,000 words for a national delegation considering a three-month U.S.-China pause, covering eight required elements. Its rubric weights are claim fidelity 25, trust chain 20, adversary 20, feasibility 15, layering 10, audience and update 10. Review the brief against the eight elements before scoring. Then the claim-ledger widget from the start of Unit 5 appears again. It opens blank, because Lens keeps a widget's answers with the lens it sits on, so the learner reclassifies the seven conclusions and compares them with the ledger they kept in Unit 5. The resolution follows in a closed callout titled Open after you have classified. Do not give those verdicts away before the learner has judged all seven rows."
 tags: [wip]
 reading_minutes: 15
-tutor_minutes: 30
+tutor_minutes: 45
 ---
 #### Text
 content::
-\### Policy judgment: what role should hardware play?
+\### Policy Judgment: What Role Should Hardware Play?
 
 The most common error in this area is maturity inflation. Separate five stages.
 
@@ -112,18 +112,19 @@ The point of the brief is not forecasting the correct future. It is making the a
 
 #### Question: Open
 id:: 936e8aee-a0d9-4e27-9e58-f3b32f08d834
-content:: Write a hardware assurance brief (700 to 1,000 words) for a named national delegation considering a three-month U.S.-China pause, covering the eight required elements above: assess the role one proposed hardware architecture should play in verifying a rule that prohibits unlicensed above-threshold training while permitting inference and approved safety evaluations, and recommend a bounded use, a pilot or deployment pathway, and the independent evidence needed to cover the mechanism’s principal blind spot.
+force-feedback:: first
+content:: Write your hardware assurance brief (700 to 1,000 words) for a named national delegation considering a three-month U.S.-China pause in response to the prompt above, covering the eight required elements.
 assessment-instructions:: Score out of 100. 25: claim fidelity: the conclusion is precisely bounded, names the exact proposition the hardware tests, ties it to the legal rule (no unlicensed above-threshold training, with inference and approved safety evaluations allowed), and says where the policy goal outruns what the hardware can prove. 20: trust chain and authority: what is measured, how the evidence reaches the verifier, and named owners for keys, measurements, reference values, updates, decisions and enforcement. 20: adversary: the strongest plausible bypass by the relevant actor, 10, and the collapsing weakness, the unresolved assumption that would defeat the proposed role, 10. 15: feasibility and deployment path: deployed primitives, demonstrated components, proposed components and missing institutions are kept apart, with time and scale given for the pilot or deployment. 10: layering: the principal blind spot is named and covered by a corroborating layer (cloud, intelligence, inspection or human evidence) that fails independently of the hardware. 10: audience and update: the recommendation serves the named delegation, 5, and states what evidence, trend or political change would raise or lower it, 5. Any recommendation earns full points when it is bounded and defended. Give credit for each point whenever the answer shows the idea, in any wording. Cap at 50 if the brief infers a working governance regime from deployed primitives or component demonstrations (calling a demo a regime). Model answer, for the feedback, not a grading checklist: "For the joint drafting group on a three-month U.S.-China pause: use GPU attestation with a shared chip registry to prove one bounded claim, that every declared accelerator in a covered facility is a genuine, registered device running approved firmware. It does not prove the claim the rule needs, that no unlicensed above-threshold training ran: attestation tests identity and configuration, not what was computed, so that gap must be covered by other evidence. Trust chain: the chip vendors' root keys and firmware reference values, held under a joint technical secretariat; operators produce attestation quotes; the secretariat verifies them; a joint commission decides on anomalies, and each state enforces domestically. Maturity: attestation on current datacenter GPUs is a deployed primitive; fleet-wide registry and quote collection is at best an end-to-end prototype; no international key authority exists. Path: a 30-day pilot on the ten largest declared clusters on each side, then all declared clusters by month three. Strongest bypass: training on undeclared, legacy or smuggled chips that never enter the registry. Collapsing weakness: if device keys can be extracted, an operator can replay valid quotes from replaced firmware, and the evidence becomes disinformation. Blind spot and sibling layer: undeclared compute, covered by power and satellite monitoring and intelligence leads, which do not depend on the vendors' keys; training disguised as inference on declared chips, covered by on-site inspection of workloads. Update: raise the recommendation if a relevant-scale pilot shows quotes that survive an owner with physical access; lower it if key extraction is shown on the deployed fleet or either side refuses the joint key authority."
 feedback-instructions:: Give the score per rubric dimension with one sentence each on what earned or lost credit, name the single most consequential gap, and ask one follow-up question about the update condition. No generic praise.
 {>>{"author":"Elias's AI","timestamp":1788016104223}@@XLab's MemoDesk is a persistent cross-lesson drafting notebook; the memo slot m2-1-hardware-brief from memos.ts is rendered here as the callout plus this graded Open question. The persistent desk itself is not reproducible.<<}
 
 #### Text
 content::
-\#### Return to the opening puzzle
+\#### Return to the claim ledger
 
-You judged these seven conclusions before you read anything in this section. Classify them again now, then see what moved.
+You judged these seven conclusions at the start of Unit 5, before you read anything about hardware. Classify them again now, then see what moved.
 
-The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|Hardware]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from this section that changed it.
+The ledger below opens blank: Lens keeps a widget's answers with the page it sits on, so this copy cannot show your earlier record. Judge all seven rows and keep your answers, then open [[../Lenses/XLab Verification - v-hw-attestation|your ledger from the start of Unit 5]] alongside it and compare the two ledgers line by line. For every judgment that changed, name the evidence or distinction from the hardware pages that changed it.
 
 #### Widget
 source:: [[../widgets/claim-ledger]]
@@ -141,6 +142,6 @@ Attestation alone does not establish cumulative compute, workload class, declare
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "Policy judgment: what role should hardware play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
+XLab. "2.1.8 Policy Judgment: What Role Should Hardware Play?" *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/hardware-policy-studio)
 *The source lesson this page adapts, including the hardware assurance brief and its rubric.*
 :::

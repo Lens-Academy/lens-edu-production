@@ -1,10 +1,10 @@
 ---
 id: '67977ae1-be51-4cc8-b464-5ccc714db95b'
-title: "Detection gaps and policy limits"
-tldr: "A rule that counts compute per account is only as good as the unit it adds up over: split a run across accounts or days and every piece stays under the line. RAND models that gap; Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
-summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.3. Two external readings with XLab's reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance, with all assigned sections included, and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. Ends with a Works cited callout."
+title: "Detection Gaps and Policy Limits"
+tldr: "A rule that counts compute per account is only as good as the ability to detect how that compute is used: split a run across accounts or days and every piece stays under the line. RAND models that gap while Carnegie asks whether closing it pushes customers toward providers and countries the rule cannot reach."
+summary_for_tutor: "A reading lens on the limits of cloud-based monitoring. Two readings, each with reading instructions: the RAND report by Moon et al. (2025) on detection gaps in a game-theoretic model of compute governance, with all assigned sections included, and Noah Tan's Carnegie article (2026) on the geopolitics of cloud controls, whose three assigned sections are inlined as article excerpts. No questions in this lens. If the learner asks about the BLOOM calculation, keep it as an illustration of how an evader exploits the unit a rule aggregates over, not as a threshold recommendation. A Works cited callout closes the lens."
 tags: [wip]
-reading_minutes: 30
+reading_minutes: 20
 tutor_minutes: 0
 ---
 #### Text
@@ -51,7 +51,7 @@ to:: [^note-shell-companies]: Given the existing policies and procedures of dete
 #### Text
 content::
 RAND shows how evasion depends on what a rule measures and how activity is
-grouped. Carnegie then asks what broader coverage would cost—and whether it
+grouped. Carnegie then asks what broader coverage would cost, and whether it
 would push users toward providers or jurisdictions beyond the rule.
 
 \### The Geopolitical Debates Over Controlling Cloud Compute
@@ -81,6 +81,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Both readings, Moon et al. (2025) for RAND and Tan (2026) for Carnegie, are cited inline above with their links.
 
-XLab. "Detection gaps and policy limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
+XLab. "2.2.3 Detection Gaps and Policy Limits." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-detection-gaps)
 *The source lesson this page adapts.*
 :::

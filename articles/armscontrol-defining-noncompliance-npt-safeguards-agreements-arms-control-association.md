@@ -154,15 +154,19 @@ Clarification of the issues involved in noncompliance determinations is importan
 
 ## Table 1: Factors in Determining Noncompliance ^table-1-factors-in-determining-noncompliance
 
-| Table 1: Factors in Determining NoncomplianceIn recent years, the International Atomic Energy Agency Board of Governors has found five states to be in noncompliance with their agency safeguards agreements. In another two recent decisions on serious safeguards breaches, involving South Korea (2004) and Egypt (2005), the board did not find the states in noncompliance. The board weighed several factors in making its determination. |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+In recent years, the International Atomic Energy Agency Board of Governors has found five states to be in noncompliance with their agency safeguards agreements. In another two recent decisions on serious safeguards breaches, involving South Korea (2004) and Egypt (2005), the board did not find the states in noncompliance. The board weighed several factors in making its determination.
+
 |  | Romania | Iraq | North Korea | Libya | Iran | South Korea | Egypt |
+| --- | --- | --- | --- | --- | --- | --- | --- |
 | Diversion, evidence of nuclear weapons purpose | yes | yes | yes | yes | under investigation | no | no |
 | Nuclear program with possible weapons-related elements | planned | yes | yes | yes | yes | no | no |
-| Undeclared productionof fissile material | yes | yes | yes | yes | yes | yes | yes* |
-| Intention to scale upfissile material production | yes | yes | yes | yes | yes | no | no |
+| Undeclared production of fissile material | yes | yes | yes | yes | yes | yes | yes\* |
+| Intention to scale up fissile material production | yes | yes | yes | yes | yes | no | no |
 | Safeguards implementation obstructed (e.g., after detection of breaches) | no | yes | yes | no | yes | no | no |
-| *Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.Source: John Carlson, based on IAEA reports |  |  |  |  |  |  |  |
+
+\*Egypt irradiated and dissolved very small quantities of uranium and thorium but did not separate any plutonium or uranium-233.
+
+Source: John Carlson, based on IAEA reports
 
 [Click here to comment on this article.](https://armscontroltoday.blogspot.com/2009/05/defining-noncompliance-npt-safeguards.html)
 

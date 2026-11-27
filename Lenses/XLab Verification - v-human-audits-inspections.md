@@ -1,8 +1,8 @@
 ---
 id: '77e16c6b-824b-42e8-ad7c-5eec6b943f05'
-title: "Audits and inspections"
-tldr: "An audit, a routine inspection, and a challenge inspection answer three different questions, and each access level caps what an inspector may honestly conclude. Read Wasil, Brundage, and the OPCW managed-access rules, then draft an inspection order for Project Lattice that survives both evasion and a legitimate confidentiality objection."
-summary_for_tutor: "Three readings (Wasil et al. on access-dependent methods, Brundage et al. section 5.3 on levels of assurance, OPCW Verification Annex Part X paragraphs 38 to 50) with four guiding questions, then an optional drill: the Build the inspection order widget, ten commit-then-reveal decisions in four phases (purpose of an audit, a routine inspection and a challenge inspection; access ceiling for black-box, gray-box and deep access; mandate clauses on scope, preservation and refusal; managed access). The brief and the Project Lattice case file are in the callout above the widget, and the closing Inspection order and bounded finding with its ten finding lines is in the callout below it. Inside the widget an unsupported line is marked with a retry hint and the supported line is marked with the explanation and its source, so the per-decision reasoning is only visible after the learner commits. Hold the learner to the access ceiling: a conclusion may not exceed what the observed system, records, and period support."
+title: "Audits and Inspections"
+tldr: "An audit, a routine inspection, and a challenge inspection answer three different questions, and each access level caps what an inspector may conclude. Read Wasil, Brundage, and the OPCW managed-access rules, then draft an inspection order for Project Lattice that survives both evasion and a legitimate confidentiality objection."
+summary_for_tutor: "Three readings (Wasil et al. on access-dependent methods, Brundage et al. section 5.3 on levels of assurance, OPCW Verification Annex Part X paragraphs 38 to 50) with four guiding questions, then a required drill. The Build the inspection order widget is ten commit-then-reveal decisions in four phases: (1) the purpose of an audit, a routine inspection and a challenge inspection, (2) the access ceiling for black-box, gray-box and deep access, (3) mandate clauses on scope, preservation and refusal, and (4) managed access. The lens counts as complete once the learner finishes the widget. The brief and the Project Lattice case file are in the callout above the widget, and the closing Inspection order and bounded finding, with its ten finding lines, is in the callout below it. Inside the widget an unsupported line is marked with a retry hint and the supported line with the explanation and its source, so the reasoning for each decision is only visible after the learner commits. A Works cited callout closes the lens. Hold the learner to the access ceiling: a conclusion may not exceed what the observed system, records, and period support."
 tags: [wip]
 reading_minutes: 40
 tutor_minutes: 0
@@ -16,7 +16,7 @@ contemporary AI inspection regimes and the Chemical Weapons Convention
 precedent. As you read, keep the following questions in mind:
 
 - Who conducts the audit or inspection, and what access are they actually
-  granted — to sites, to systems, to people?
+  granted: to sites, to systems, to people?
 - What can routine, continuous, and challenge inspections each actually
   observe, and what does that access still not let the inspector conclude?
 - How does the regime protect information unrelated to compliance (managed
@@ -73,14 +73,15 @@ content::
 
 \## Build the inspection order
 
-:::callout {title="Read first: the brief and the Project Lattice case file (optional, 12 to 15 minutes)" tone="neutral" collapse="closed"}
-**Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. The exercise below is optional, and the case file stays available here while you work through it.
+:::callout {title="Read first: the brief and the Project Lattice case file" tone="neutral" collapse="closed"}
+**Build the inspection order.** A power anomaly has raised a concrete concern. Choose the mechanism, set the ceiling imposed by access, and write an order that can survive both evasion and a legitimate confidentiality objection. The case file stays available here while you work through the exercise below.
 
 **Project Lattice.** A declared data center reports no training run above the treaty threshold. Independently obtained power-allocation and procurement records show a six-week expansion under the same project code. The records identify a facility and time period but not the workload. The agreement permits periodic inspections and a short-notice inspection when a specific concern cannot be resolved through consultation.
 :::
 
 #### Widget
 source:: [[../widgets/human-audits-inspections]]
+required:: true
 
 #### Text
 content::
@@ -112,6 +113,6 @@ Brundage, Miles, Noemi Dreksler, Aidan Homewood, et al. "Frontier AI Auditing: T
 *§§5.3.1 to 5.3.3, pages 29 to 35, define the four AI Assurance Levels and the access each one requires.*
 {>>{"author":"Elias's AI","timestamp":1788521760470}@@Entry expanded from the previous "cited inline above" line and pointed at the PDF, because the arXiv HTML render of this paper is truncated mid-§5.3.3. Every Brundage link in this file now points at the PDF.<<}
 
-XLab. "Audits and inspections." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)
+XLab. "2.4.3 Audits and Inspections." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-audits-inspections)
 *The source lesson this page adapts, including the Build the inspection order exercise.*
 :::{>>{"author":"Elias's AI","timestamp":1788016215814}@@Widget rebuilt from human-policy-labs.ts (AUDITS_INSPECTIONS_LAB). The lesson's Wasil link is the #S6.SS2 anchor, which is not itself in citations.json entries; the general html entry for the same paper is listed. Brundage 2601.11699 is only in pending.<<}

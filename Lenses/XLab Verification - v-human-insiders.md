@@ -1,8 +1,8 @@
 ---
 id: 'dae72ebf-335a-4bd5-b970-b2b3e72230ed'
-title: "Insiders and human sources"
-tldr: "An insider's job title tells you where they stood, not what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then work six Project Lattice sources one at a time: what each could observe, what stayed out of view, and which record they never controlled could check the claim. Then write one case of your own in which the report is true, the reporting is lawful, and the verification regime still cannot act on it."
-summary_for_tutor: "Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as Article segments. Two widgets follow, both on this page. The first, human-insiders, is an optional warm-up: the learner assesses six insider sources (evaluator, training engineer, infrastructure operator, procurement, contractor, executive) on what each could observe, what stays out of view and which independent record checks the claim, then works the Project Lattice case report through four credibility questions and issues a finding. A collapsed callout under it, 'Why a consistent account may still be wrong', carries the four failure modes (selective truth, coordinated cover story, management staging, suppression) for after the finding. The second, construct-case, is the exercise XLab runs at this spot: the page states the three conditions and the 100 to 180 word brief, and the learner writes one case in four boxes (Insider, Information, Reporting route, Failure point) in which an insider's report is accurate, reporting is lawful, and the regime still cannot turn it into actionable evidence. Live desk checks mark the box they are about while the learner drafts; submitting freezes the boxes and reveals a five-point marking key they self-mark, and a Score my case button sends the four boxes to the AI assessor against the same key. Three collapsed callouts below that widget hold the material deliberately withheld until submission: the five Check your case questions, the failure categories that do and do not count, and two worked cases. Works cited closes the page. When the learner over-reaches on a source, apply the warm-up's own line: a job title alone proves nothing; limit the claim to what the person could observe. When their case fails, it is almost always the failure point: it has to be a named mechanism inside the institution, not a false allegation and not a verifier who simply ignores the report."
+title: "Insiders and Human Sources"
+tldr: "An insider's job title tells you where they stood. It doesn't tell you what they saw. Read Baker et al. on whistleblower programs, interviews, and intelligence, then optionally work six Project Lattice sources one at a time: what each could observe, what stayed out of view, and which independent record could check the claim. Then write one case of your own in which the report is true, the reporting is lawful, and the verification regime still cannot act on it."
+summary_for_tutor: "Two excerpts from Baker et al. (2025), section 4.3 and Appendix A.8, are embedded as article segments. Two widgets follow. The first, human-insiders, is an optional warm-up: the learner assesses six insider sources (evaluator, training engineer, infrastructure operator, procurement, contractor, executive) on what each could observe, what stays out of view and which independent record checks the claim, then works the Project Lattice case report through four credibility questions and issues a finding. A collapsed callout under it, 'Why a consistent account may still be wrong', carries the four failure modes (selective truth, coordinated cover story, management staging, suppression) for after the finding. The second, construct-case, is the main exercise and is required: the lens counts as complete once the learner submits. The lens states the three conditions and the 100 to 180 word brief, and the learner writes one case in four boxes (Insider, Information, Reporting route, Failure point) in which an insider's report is accurate, reporting is lawful, and the regime still cannot turn it into actionable evidence. Live desk checks mark the box they are about while the learner drafts. Submitting freezes the boxes and reveals a five-point marking key the learner self-marks, and a Score my case button sends the four boxes to the AI assessor against the same key. Three collapsed callouts below that widget hold the material withheld until submission: the five Check your case questions, the failure categories that do and do not count, and two worked cases. A Works cited callout closes the lens. When the learner over-reaches on a source, apply the warm-up's own line: a job title alone proves nothing, so limit the claim to what the person could observe. When their case fails, it is almost always the failure point: it has to be a named mechanism inside the institution, not a false allegation and not a verifier who simply ignores the report."
 tags: [wip]
 reading_minutes: 17
 tutor_minutes: 10
@@ -81,6 +81,7 @@ Describe the situation and explain why each condition is satisfied. Use 100 to 1
 
 #### Widget
 source:: [[../widgets/construct-case]]
+required:: true
 
 #### Text
 content::
@@ -93,7 +94,7 @@ content::
 :::
 
 :::callout {title="Where a report can die (open after you have submitted)" tone="neutral" collapse="closed"}
-Naming where a report dies is the work, so this list sits here and not above the exercise. Four failures that do not count: the insider lies, the insider is wrong, reporting is illegal, or the verifier ignores the report for no reason.
+Four failures that do not count: the insider lies, the insider is wrong, reporting is illegal, or the verifier ignores the report for no reason.
 
 Some that do count:
 
@@ -132,9 +133,9 @@ content::
 Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
 *A six-layer verification framework whose personnel-based layers map which workers can observe different violations and why disclosures still need independent confirmation.*
 
-Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI — Appendix A.8: Whistleblower Programs." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/html/2507.15916#A1.SS8)
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI, Appendix A.8: Whistleblower Programs." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/html/2507.15916#A1.SS8)
 *Baker et al. examine secure contact, suppression, incentives, confidentiality, and which supply-chain personnel can observe different violations.*
 
-XLab. "Insiders and human sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
+XLab. "2.4.1 Insiders and Human Sources." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-insiders)
 *The source lesson this page adapts, including the Who knows what? source-assessment exercise.*
 :::{>>{"author":"Elias's AI","timestamp":1788015819856}@@Widget human-insiders rebuilt from src/lib/verification/data/human-insiders.ts: 18 source questions (6 actors x observe/boundary/corroborate), 4 credibility questions on the Project Lattice case report, final finding and failure modes. Option order follows the data file's choices order. All optional because XLab folds it as optional.<<}
