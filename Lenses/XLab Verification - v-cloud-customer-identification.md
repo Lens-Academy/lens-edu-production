@@ -1,8 +1,8 @@
 ---
 id: '3eadac2f-e82d-478a-9c1e-0b5a6136c211'
-title: "Customer identification and ongoing monitoring"
-tldr: "Banks learned the hard way that you must know who you are dealing with, and that customers split transactions to stay under reporting limits. Egan and Heim port that playbook to compute providers: who gets identified, what is monitored after sign-up, and how a customer could split a job to stay under the threshold."
-summary_for_tutor: "Reading lens adapted from XLab lesson 2.2.2. Egan and Heim (2023), Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers, inlined as article excerpts: the opening of section 2, selected parts of Box 3 (financial-sector KYC obligations and implementation lessons), section 2.1, the opening of section 2.2 with Box 4, and sections 2.2.1 and 2.2.2. No questions in this lens. If the learner asks, help them connect the pieces: the compute threshold, customer identification, beneficial ownership, ongoing monitoring, reporting of high-risk profiles, and the two evasion routes (structuring and shell companies). Ends with a Works cited callout."
+title: "Customer Identification and Ongoing Monitoring"
+tldr: "Banks learned the hard way that you must know who you are dealing with, and that customers split transactions to stay under reporting limits. Egan and Heim import that framework to compute providers: who gets identified, what is monitored after sign-up, and how a customer could split a job to stay under the threshold."
+summary_for_tutor: "A reading lens on know-your-customer rules for compute providers. Egan and Heim (2023), Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers, inlined as article excerpts: the opening of section 2, selected parts of Box 3 (financial-sector KYC obligations and implementation lessons), section 2.1, the opening of section 2.2 with Box 4, and sections 2.2.1 and 2.2.2. No questions in this lens. If the learner asks, help them connect the pieces: the compute threshold, customer identification, beneficial ownership, ongoing monitoring, reporting of high-risk profiles, and the two evasion routes (structuring and shell companies). A Works cited callout closes the lens."
 tags: [wip]
 reading_minutes: 20
 tutor_minutes: 0
@@ -33,7 +33,7 @@ to:: The history of the implementation of KYC in the financial sector could prov
 
 #### Text
 content::
-\### Box 3: Learning from KYC in the financial sector — selected requirements and implementation lessons
+\### Box 3: Learning from KYC in the financial sector: selected requirements and implementation lessons
 
 #### Article
 source:: [[../articles/egan-oversight-for-frontier-ai-through-a-know-your-customer-scheme-for-compute-providers]]
@@ -69,6 +69,6 @@ content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
 Egan and Heim (2023), *Oversight for Frontier AI through a Know-Your-Customer Scheme for Compute Providers*, is cited inline above with its arXiv link.
 
-XLab. "Customer identification and ongoing monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
+XLab. "2.2.2 Customer Identification and Ongoing Monitoring." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/cloud-customer-identification)
 *The source lesson this page adapts.*
 :::

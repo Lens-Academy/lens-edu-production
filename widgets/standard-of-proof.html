@@ -1,7 +1,7 @@
 <!--lens-widget
 id: '54bb4936-12e7-47db-bf8c-983220d90912'
 title: The Standard of Proof
-summary_for_tutor: "An optional decision exercise on the standard of proof, four dockets in one widget. The page above the widget carries the allegation (Meridian Compute ran a training run above the agreement's compute ceiling at its Delta campus in the third quarter), the task list and the 60 to 90 word guidance; the page below it carries two native open questions, the decision standard in at most 50 words and the optional transfer question about a structural change. Inside the widget the learner works four dockets, A to D, each showing the institution holding it and the evidence in front of it: A a lone protected insider report, B that report plus customs records, grid telemetry and a refused managed-access visit, C a channel controlled by the audited party with the working papers withheld, D strong evidence in front of a panel funded by the association Meridian chairs. For each docket the learner picks the institution's next move (Record and keep collecting, Open a formal investigation, Issue a compliance judgment, Refer for enforcement) and writes a defence: what the docket establishes and what kind of evidence does that work, what it does not establish, whether this institution can defend the move. Submit unlocks only once every docket carries a move and a defence; it freezes the dockets, completes the widget, reveals the 2x2 the learner was never shown (A and B varied evidence weight under a sound institution; C and D varied institutional soundness), and attaches XLab's marking criterion to each docket, worth 2 points, with the grounds behind it revealed by clicking the criterion. The learner self-marks out of 8; that score is theirs and counts towards nothing. A separate button sends the four defences to the assessor and the returned score appears on its own docket. Moves, defences and self-marks reach you through the saved-state summary. Push back when a move reweighs the evidence in a docket where the institution was the weak part (C and D). Content ported from XLab's Verification track."
+summary_for_tutor: "An optional decision exercise on the standard of proof, four dockets in one widget, at the end of the Institutions and policy judgment lens of Unit 8. The lens above the widget carries the allegation (Meridian Compute ran a training run above the agreement's compute ceiling at its Delta campus in the third quarter), the task list and the 60 to 90 word guidance. Below it come two optional open questions, the decision standard in at most 50 words and the transfer question about a structural change. Inside the widget the learner works four dockets, A to D, each showing the institution holding it and the evidence in front of it: A a lone protected insider report, B that report plus customs records, grid telemetry and a refused managed-access visit, C a channel controlled by the audited party with the working papers withheld, D strong evidence in front of a panel funded by the association Meridian chairs. For each docket the learner picks the institution's next move (Record and keep collecting, Open a formal investigation, Issue a compliance judgment, Refer for enforcement) and writes a defense: what the docket establishes and what kind of evidence does that work, what it does not establish, and whether this institution can defend the move. Submit unlocks only once every docket carries a move and a defense. It freezes the dockets, completes the widget, reveals the 2x2 the learner was never shown (A and B varied evidence weight under a sound institution, C and D varied institutional soundness), and attaches a marking criterion to each docket, worth 2 points, with the grounds behind it revealed by clicking the criterion. The learner self-marks out of 8. That score is theirs and counts toward nothing. A separate button sends the four defenses to the assessor and the returned score appears on its own docket. Moves, defenses and self-marks reach you through the saved-state summary. Push back when a move reweighs the evidence in a docket where the institution was the weak part (C and D)."
 height: auto
 tags: [wip]
 -->
@@ -85,7 +85,7 @@ tags: [wip]
 </style>
 </head>
 <body>
-<p class="lead" id="lead">Pick a move for each docket, write your defence, then submit.</p>
+<p class="lead" id="lead">Pick a move for each docket, write your defense, then submit.</p>
 
 <section class="card reveal after" id="reveal" aria-labelledby="reveal-label">
   <p class="eyebrow" id="reveal-label">What the four dockets were</p>
@@ -117,7 +117,7 @@ tags: [wip]
 
   <section class="card" id="assessor">
     <p class="eyebrow">Assessor</p>
-    <p class="body" id="score-text">Send your four defences to the assessor. Each docket is graded against its criterion above, and the score appears on that docket.</p>
+    <p class="body" id="score-text">Send your four defenses to the assessor. Each docket is graded against its criterion above, and the score appears on that docket.</p>
     <div class="bar">
       <span></span>
       <span>
@@ -193,8 +193,8 @@ tags: [wip]
 
   // XLab marking key (STANDARD_OF_PROOF_KEY). One criterion per docket, in docket order.
   var KEY_NOTE = "Each docket now carries its criterion. Mark your own answer. Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing.";
-  var KEY_REASONING = "The judgement alone is not the point. The reasoning has to be on the page.";
-  var KEY_FOOT = "This score is yours. It is not sent anywhere, counts towards nothing, and completes nothing.";
+  var KEY_REASONING = "The judgment alone is not the point. The reasoning has to be on the page.";
+  var KEY_FOOT = "This score is yours. It is not sent anywhere, counts toward nothing, and completes nothing.";
   var KEY = {
     criteria: [
       {
@@ -491,12 +491,12 @@ tags: [wip]
       TASK_LEAD + " " + TASKS.join(" ") + " " + LIMIT;
   }
   function docketInstructions(c) {
-    return "Score 0 to 100 against XLab’s marking key criterion for this docket: " + c.text + " " + KEY_REASONING +
+    return "Score 0 to 100 against the marking key criterion for this docket: " + c.text + " " + KEY_REASONING +
       " Grounds: " + c.grounds +
       " Any wording that does not distort the meaning counts; no criterion needs a particular term. Where a criterion asks for a mechanism, a correct label without it earns nothing." +
       " Full marks when the move and the reasoning both match the criterion. About half when the move matches but the reasoning is missing or generic. No credit for: " + KEY.noCredit.join(" ");
   }
-  var FEEDBACK = "Answer XLab’s two self-check questions for this docket in two or three sentences: " + SELF_CHECK.join(" ");
+  var FEEDBACK = "Answer the two self-check questions for this docket in two or three sentences: " + SELF_CHECK.join(" ");
 
   scoreBtn.addEventListener("click", function () {
     if (!window.Lens || !Lens.submit || !state.submitted) return;

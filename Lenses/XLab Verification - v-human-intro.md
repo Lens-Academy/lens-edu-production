@@ -1,8 +1,8 @@
 ---
 id: '53ac9af2-f8da-4859-9649-2e24c0d22e5c'
-title: "The human layer"
-tldr: "Whistleblowers, interviews, audits, inspections: the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This submodule teaches you to work out who could know, whether they would tell, and what an institution can honestly conclude from what they say."
-summary_for_tutor: "Opening page of submodule 2.4 (the human layer). One framing paragraph on human-based verification as enforceable but unreliable, then the four objectives for lenses 2.4.1 to 2.4.4. No questions on this page. If the learner asks about mechanisms, point them forward to 2.4.1 Insiders and human sources rather than lecturing here."
+title: "The Human Layer"
+tldr: "This unit is about whistleblowers, interviews, audits, and inspections. Humans are the cheapest verification tools to deploy and the easiest to fool. Like a witness on the stand, a person can be compelled to speak but not compelled to be truthful. This unit teaches you to work out who could know, whether they would tell, and what an institution can conclude from what they say."
+summary_for_tutor: "Opening lens of the human layer in Unit 8. One framing paragraph presents human-based verification as enforceable but unreliable, then an objectives callout lists four aims for the unit. A Works cited callout closes the lens. No questions. If the learner asks about mechanisms, point them forward to the next lens, on insiders and human sources, rather than lecturing here."
 tags: [wip]
 reading_minutes: 2
 tutor_minutes: 0
@@ -12,7 +12,7 @@ content::
 Human-based verification strategies, such as personnel interviews and
 whistleblower programs, are simultaneously the most enforceable and least
 reliable mechanisms in this course. Interviewing staff doesn't require any
-additional technological infrastructure or innovation—but people can
+additional technological infrastructure or innovation, but people can
 obfuscate, lie, and hide motivations. In this unit, you will learn about the
 core mechanisms of human verification applicable to AI development.
 
@@ -26,6 +26,6 @@ core mechanisms of human verification applicable to AI development.
 #### Text
 content::
 :::callout {title="Works cited" tone="neutral" collapse="closed"}
-XLab. "The human layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
+XLab. "2.4 The Human Layer." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/human-intro)
 *The source lesson this page adapts.*
-:::{>>{"author":"Elias's AI","timestamp":1788015709033}@@XLab's Objectives block carries scope="this submodule", so the title says "submodule" rather than "module".<<}
+:::

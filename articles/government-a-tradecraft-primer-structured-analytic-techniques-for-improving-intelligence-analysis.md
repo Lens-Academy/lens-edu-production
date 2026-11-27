@@ -82,10 +82,13 @@ Mental models are critical to allowing individuals to process what otherwise wou
 
 <sup>2</sup> These observations were drawn from a lengthier treatment of cognitive bias found in the Sherman Kent Center’s Occasional Paper, *Making Sense of Transnational Threats*, Vol. 3, No. 1, October 2004.
 
-| Common Perceptual and Cognitive Biases                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Perceptual Biases**<br><br>**Expectations.** We tend to perceive what we expect to perceive. More (unambiguous) information is needed to recognize an unexpected phenomenon.<br><br>**Resistance.** Perceptions resist change even in the face of new evidence.<br><br>**Ambiguities.** Initial exposure to ambiguous or blurred stimuli interferes with accurate perception, even after more and better information becomes available. | **Biases in Evaluating Evidence**<br><br>**Consistency.** Conclusions drawn from a small body of consistent data engender more confidence than ones drawn from a larger body of less consistent data.<br><br>**Missing Information.** It is difficult to judge well the potential impact of missing evidence, even if the information gap is known.<br><br>**Discredited Evidence.** Even though evidence supporting a perception may be proved wrong, the perception may not quickly change. |
-| **Biases in Estimating Probabilities**<br><br>**Availability.** Probability estimates are influenced by how easily one can imagine an event or recall similar instances.<br><br>**Anchoring.** Probability estimates are adjusted only incrementally in response to new information or further analysis.<br><br>**Overconfidence.** In translating feelings of certainty into a probability estimate, people are often overconfident, especially if they have considerable expertise. | **Biases in Perceiving Causality**<br><br>**Rationality.** Events are seen as part of an orderly, causal pattern. Randomness, accident and error tend to be rejected as explanations for observed events. For example, the extent to which other people or countries pursue a coherent, rational, goal-maximizing policy is overestimated.<br><br>**Attribution.** Behavior of others is attributed to some fixed nature of the person or country, while our own behavior is attributed to the situation in which we find ourselves. |
+**Common Perceptual and Cognitive Biases**
+
+| Perceptual Biases | Biases in Evaluating Evidence |
+| --- | --- |
+| **Expectations.** We tend to perceive what we expect to perceive. More (unambiguous) information is needed to recognize an unexpected phenomenon.<br><br>**Resistance.** Perceptions resist change even in the face of new evidence.<br><br>**Ambiguities.** Initial exposure to ambiguous or blurred stimuli interferes with accurate perception, even after more and better information becomes available. | **Consistency.** Conclusions drawn from a small body of consistent data engender more confidence than ones drawn from a larger body of less consistent data.<br><br>**Missing Information.** It is difficult to judge well the potential impact of missing evidence, even if the information gap is known.<br><br>**Discredited Evidence.** Even though evidence supporting a perception may be proved wrong, the perception may not quickly change. |
+| **Biases in Estimating Probabilities** | **Biases in Perceiving Causality** |
+| **Availability.** Probability estimates are influenced by how easily one can imagine an event or recall similar instances.<br><br>**Anchoring.** Probability estimates are adjusted only incrementally in response to new information or further analysis.<br><br>**Overconfidence.** In translating feelings of certainty into a probability estimate, people are often overconfident, especially if they have considerable expertise. | **Rationality.** Events are seen as part of an orderly, causal pattern. Randomness, accident and error tend to be rejected as explanations for observed events. For example, the extent to which other people or countries pursue a coherent, rational, goal-maximizing policy is overestimated.<br><br>**Attribution.** Behavior of others is attributed to some fixed nature of the person or country, while our own behavior is attributed to the situation in which we find ourselves. |
 
 Intelligence analysts must actively review the accuracy of their mind-sets by applying structured analytic techniques that will make those mental models more explicit and expose their key assumptions. The techniques found in this primer are designed to assist in this regard by:
 
@@ -295,52 +298,57 @@ Whether used alone, or in combination with other structured analysis, the proces
 
 Developing two lists of indicators for each hypothesis or scenario may prove useful to distinguish between indicators that a development is or is not emerging. This is particularly useful in a “What If?” Analysis, when it is important to make a case that a certain event is unlikely to happen.
 
-| Tracking the Potential for Political Instability in a Foreign Country |                                                       |      |    |     |    |      |    |     |    |  |
-|-----------------------------------------------------------------------|-------------------------------------------------------|------|----|-----|----|------|----|-----|----|--|
-| Topics                                                                | Indicators                                            | 1999 |    |     |    | 2000 |    |     |    |  |
-|                                                                       |                                                       | I    | II | III | IV | I    | II | III | IV |  |
-| Government Capacity                                                   | Quality of leadership/organizational capabilities     | ●    | ●  | ●   | ■  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Responsiveness to popular demands                     | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Ability to deliver basic goods and services           |      |    |     |    |      |    |     |    |  |
-|                                                                       | Internal Security Capabilities                        |      |    |     |    |      |    |     |    |  |
-|                                                                       | Effectiveness of civil/criminal justice systems       |      |    |     |    |      |    |     |    |  |
-| Legitimacy of Regime                                                  | Breadth and depth of political participation          | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Perceived level of corruption                         | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Human rights violations                               | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Weakness of civil society                             |      |    |     |    |      |    |     |    |  |
-|                                                                       | Pervasiveness of transnational criminal organizations |      |    |     |    |      |    |     |    |  |
-|                                                                       | External support for government                       |      |    |     |    |      |    |     |    |  |
-| Opposition Activity                                                   | Ethnic/religious discontent                           | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Military discontent with civilian government          | ●    | ●  | ●   | ●  | ●    | ●  | ●   | ●  |  |
-|                                                                       | Popular demonstrations/strikes/riots                  |      |    |     |    |      |    |     |    |  |
-|                                                                       | Insurgent/separatist/terrorist group activity         |      |    |     |    |      |    |     |    |  |
-|                                                                       | External support for opposition                       |      |    |     |    |      |    |     |    |  |
-|                                                                       | Threat of conflict with or in neighboring state       |      |    |     |    |      |    |     |    |  |
-| Economic Factors                                                      | Weakness of domestic economy/unemployment/inflation   |      |    |     |    |      |    |     |    |  |
-|                                                                       | Degree of income disparity                            |      |    |     |    |      |    |     |    |  |
-|                                                                       | Capital flight                                        |      |    |     |    |      |    |     |    |  |
-|                                                                       | Decreased access to foreign funds                     |      |    |     |    |      |    |     |    |  |
-|                                                                       | Reduced trade openness                                |      |    |     |    |      |    |     |    |  |
-| Environmental Issues                                                  | Extent of environmental degradation                   |      |    |     |    |      |    |     |    |  |
-|                                                                       | Food/energy shortages                                 |      |    |     |    |      |    |     |    |  |
-|                                                                       | Ability to respond to natural disasters               |      |    |     |    |      |    |     |    |  |
-| Presence of Trigger Mechanisms ( ▶ if present)                        |                                                       |      |    |     |    |      |    |     |    |  |
-| Contested elections                                                   |                                                       |      |    |     | ▶  |      |    |     |    |  |
-| Unpopular changes in food/energy prices                               |                                                       |      |    | ▶   |    |      |    |     |    |  |
-| Sudden imposition of unpopular policies                               |                                                       |      |    |     |    |      |    |     |    |  |
-| Coup plotting                                                         |                                                       |      |    |     | ▶  |      |    |     |    |  |
-| Government mismanagement of natural disaster or national emergency    |                                                       |      |    |     |    |      |    |     |    |  |
-| Death of key figure                                                   |                                                       |      |    |     |    |      |    |     |    |  |
+**Tracking the Potential for Political Instability in a Foreign Country**
 
-■ Serious concern
+| Indicators | 1999 I | II | III | IV | 2000 I | II | III |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Government Capacity** |  |  |  |  |  |  |  |
+| Quality of leadership / organizational capabilities | 🟠 | 🟠 | 🟠 | 🟥 | 🔴 | 🟠 | 🟠 |
+| Responsiveness to popular demands | 🟠 | 🟢 | 🔴 | 🟠 | 🟠 | 🟠 | 🟠 |
+| Ability to deliver basic goods and services |  |  |  |  |  |  |  |
+| Internal Security Capabilities |  |  |  |  |  |  |  |
+| Effectiveness of civil/criminal justice systems |  |  |  |  |  |  |  |
+| **Legitimacy of Regime** |  |  |  |  |  |  |  |
+| Breadth and depth of political participation | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 | 🟠 | 🟠 |
+| Perceived level of corruption | 🟠 | 🟢 | 🟢 | 🟢 | 🟢 | 🟠 | 🟠 |
+| Human rights violations | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 | 🟢 |
+| Weakness of civil society |  |  |  |  |  |  |  |
+| Pervasiveness of transnational criminal organizations |  |  |  |  |  |  |  |
+| External support for government |  |  |  |  |  |  |  |
+| **Opposition Activity** |  |  |  |  |  |  |  |
+| Ethnic/religious discontent | 🟠 | 🟢 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 |
+| Military discontent with civilian government | 🟠 | 🟠 | 🟠 | 🔴 | 🔴 | 🔴 | 🔴 |
+| Popular demonstrations / strikes / riots |  |  |  |  |  |  |  |
+| Insurgent / separatist / terrorist group activity |  |  |  |  |  |  |  |
+| External support for opposition |  |  |  |  |  |  |  |
+| Threat of conflict with or in neighboring state |  |  |  |  |  |  |  |
+| **Economic Factors** |  |  |  |  |  |  |  |
+| Weakness of domestic economy / unemployment / inflation |  |  |  |  |  |  |  |
+| Degree of income disparity |  |  |  |  |  |  |  |
+| Capital flight |  |  |  |  |  |  |  |
+| Decreased access to foreign funds |  |  |  |  |  |  |  |
+| Reduced trade openness |  |  |  |  |  |  |  |
+| **Environmental Issues** |  |  |  |  |  |  |  |
+| Extent of environmental degradation |  |  |  |  |  |  |  |
+| Food/energy shortages |  |  |  |  |  |  |  |
+| Ability to respond to natural disasters |  |  |  |  |  |  |  |
+| **Presence of Trigger Mechanisms** (▶ if present) |  |  |  |  |  |  |  |
+| Contested elections |  |  |  | ▶ |  |  |  |
+| Unpopular changes in food/energy prices |  |  | ▶ |  |  |  |  |
+| Sudden imposition of unpopular policies |  |  |  |  |  |  |  |
+| Coup plotting |  |  |  | ▶ |  |  |  |
+| Government mismanagement of natural disaster or national emergency |  |  |  |  |  |  |  |
+| Death of key figure |  |  |  |  |  |  |  |
 
-● Substantial concern
+🟥 Serious concern
 
-● Moderate concern
+🔴 Substantial concern
 
-● Low concern
+🟠 Moderate concern
 
-● Negligible concern
+🟢 Low concern
+
+· Negligible concern (a small green dot in the original; none in this chart)
 
 **Tracking the Potential for Political Instability in an Indicators Matrix.** Analysts tracked the potential for regime change in 2000 and identified a list of indicators, to which they posed the question, "is this occurring or not? Analysts also went further and developed a list of "trigger mechanisms" that might bring about a political shift.
 
@@ -388,15 +396,15 @@ To accomplish this, the process should follow these steps:
 - Identify and monitor indicators that would be both consistent and inconsistent with the full set of hypotheses. In the latter case, explore what could account for inconsistent data.
 - <sup>5</sup> The “diagnostic value” of the evidence will emerge as analysts determine whether a piece of evidence is found to be consistent with only one hypothesis, or could support more than one or indeed all hypotheses. In the latter case, the evidence can be judged as unimportant to determining which hypothesis is more likely correct.
 
-| Terrorism in Tokyo From Aum Shinrikyo |                         |        |            |                 |                    |                |  |
-|---------------------------------------|-------------------------|--------|------------|-----------------|--------------------|----------------|--|
-|                                       |                         | Weight | H: 1       | H: 4            | H: 2               | H: 3           |  |
-|                                       |                         |        | Kooky Cult | Terrorist Group | Political Movement | Criminal Group |  |
-|                                       | Inconsistency Score ➡   |        | -1.0       | -1.0            | -2.0               | -3.0           |  |
-| E3                                    | Attacks on Journalists  | MEDIUM | I          | N               | I                  | I              |  |
-| E2                                    | Religious Affiliation   | MEDIUM | C          | I               | I                  | I              |  |
-| E4                                    | Established Party       | MEDIUM | N          | N               | C                  | I              |  |
-| E1                                    | Blind Leader Mastsumoto | MEDIUM | C          | C               | C                  | C              |  |
+**Terrorism in Tokyo From Aum Shinrikyo**
+
+|  |  | Weight | H: 1 Kooky Cult | H: 4 Terrorist Group | H: 2 Political Movement | H: 3 Criminal Group |
+| --- | --- | --- | --- | --- | --- | --- |
+|  | Inconsistency Score ➡ |  | -1.0 | -1.0 | -2.0 | -3.0 |
+| E3 | Attacks on Journalists | MEDIUM | I | N | I | I |
+| E2 | Religious Affiliation | MEDIUM | C | I | I | I |
+| E4 | Established Party | MEDIUM | N | N | C | I |
+| E1 | Blind Leader Mastsumoto | MEDIUM | C | C | C | C |
 
 **ACH Matrix of Terrorism in Tokyo.** In March 1995, a largely unknown group attacked the Tokyo subways by using a highly lethal nerve agent known as sarin. ACH provides a mechanism to carefully examine all the evidence and possible explanations for understanding what type of group could have been responsible. In simplified form, the above matrix arrays each piece of evidence on the vertical axis and then evaluates each in terms of the item's consistency with four possible explanations for the terrorist attack in Tokyo (horizontal axis). Analysts rate a piece of evidence as consistent (C); inconsistent (I); or neutral (N). This process allows analysts to see that some evidence will be consistent with more than one hypothesis and be less valuable in disproving hypotheses.
 

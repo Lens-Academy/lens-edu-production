@@ -1,8 +1,8 @@
 ---
 id: '3e9c7610-3661-4ac9-b4ee-160932e9d3c9'
-title: "Observable signatures of undeclared AI development"
-tldr: "A covert training site leaks like a hidden factory: a footprint from orbit, a rooftop where snow never settles, a power line you cannot bury quietly, a GPU import spike, a hiring wave. Learn what each signature can honestly establish, its main caveat, and which of seven collection disciplines picks it up."
-summary_for_tutor: "Imported from XLab's Verification curriculum; a reading with three interactives and no questions. It catalogues the observable signatures of undeclared frontier-AI development (overhead imagery, thermal, energy and the power grid, procurement and financial intelligence, open sources), each with what it establishes and its caveat, sorts them into four families (facility, resource-flow, organizational, operational), and ends with the collection map. That last part is now the 'The collection map' widget: seven tiles in two families (collects language: OSINT, HUMINT, SIGINT, CYBER; collects physics: IMINT, GEOINT, MASINT) that the learner opens one at a time to read what the discipline is, what it picks up and its characteristic limit, with a counter that completes at seven. The page above the widget carries only the heading and the two-family lead-in; the discipline text lives in the widget, so quote it from there rather than expecting it in the page. After the Scher excerpt's lever prose there is a second widget, the threshold explorer: the learner sets the Strict and Monitored FLOP thresholds and one of the six cluster sizes Tables 1 and 2 tabulate, and it recomputes the time to each threshold, the day the cluster gets registered, and the levers that reach it domestically and internationally; the paper's own tables follow it on the page. Keep the identify/resolve distinction in view: intelligence identifies, the regime resolves. After the Wasil reading the page carries the 'Verification method explorer' widget, which lets the learner filter and sort all ten of that paper's verification methods by the four Figure 6 attributes and by how much further research each needs, and open one to read its limitations and the methods that complement it; it reaches beyond national technical means on purpose. If the learner asks about a signature, press the standing red-team question: would it survive an adversary who knows it is being watched? The Unfinished writing callout is XLab's own note about parts not yet built; do not invent that content."
+title: "Observable Signatures of Undeclared AI Development"
+tldr: "A covert training site leaks like a hidden factory: a footprint from orbit, a rooftop where snow never settles, a power line you cannot bury easily, a GPU import spike, a hiring wave. Learn what each signature can establish, its main caveat, and which of seven collection disciplines picks it up."
+summary_for_tutor: "A reading lens with three widgets and no questions. It catalogs the observable signatures of undeclared frontier-AI development (overhead imagery, thermal, energy and the power grid, procurement and financial intelligence, open sources), each with what it establishes and its caveat, and sorts them into four families (facility, resource-flow, organizational, operational). Then comes the collection map widget: seven tiles in two families, the disciplines that collect language (OSINT, HUMINT, SIGINT, CYBER) and those that collect physics (IMINT, GEOINT, MASINT). The learner opens them one at a time to read what each discipline is, what it picks up and its characteristic limit. The widget is required, and a counter completes it at seven. Above the widget the lens shows only the heading and the two-family lead-in. The discipline text lives in the widget, so quote it from there. In the readings, after the lever prose of the Scher excerpt, the threshold explorer lets the learner set the Strict and Monitored FLOP thresholds and pick one of the six cluster sizes that Tables 1 and 2 tabulate. It recomputes the time to each threshold, the day the cluster gets registered, and the levers that reach it domestically and internationally. The paper's own tables follow it. Keep the identify/resolve distinction in view: intelligence identifies, the regime resolves. After the Wasil reading, the verification method explorer lets the learner filter and sort all ten of that paper's verification methods by the four Figure 6 attributes and by how much further research each needs, and open one to read its limitations and the methods that complement it. It reaches beyond national technical means on purpose. The threshold and method explorers are not required. A Works cited callout closes the lens. If the learner asks about a signature, press the standing red-team question: would it survive an adversary who knows it is being watched?"
 tags: [wip]
 reading_minutes: 45
 tutor_minutes: 0
@@ -12,16 +12,16 @@ content::
 Every mechanism so far has needed the monitored side to play along. Hardware
 roots of trust and provider reporting share one failure mode: they
 assume cooperation. This section covers the one evidence stream that works
-uninvited — what undeclared frontier-AI development shows to a rival who is
+uninvited: what undeclared frontier-AI development shows to a rival who is
 simply watching, and what a watcher can honestly conclude from it.
 
 The guiding question: **how can states identify possible undeclared frontier-AI
 development without the monitored actor's cooperation?**
 
 Two properties frame the layer. It works without permission, and it works
-today — no new hardware, no new treaty machinery. Three literatures name the
+today, with no new hardware and no new treaty machinery. Three literatures name the
 same thing differently: Wasil et al. call it the national technical means (NTM)
-category, *Six Layers* calls it Layer 6, and Scher and Thiergart call it the
+category, *Six Layers* calls it Layer 6, and [Scher and Thiergart](https://arxiv.org/abs/2506.15867) call it the
 national-intelligence building blocks.
 
 Hold on to one distinction for the rest of the unit. Intelligence
@@ -31,7 +31,7 @@ Hold on to one distinction for the rest of the unit. Intelligence
 
 Each signature below carries the same three-part anatomy: what it tells a
 verifier, what access it requires, and its main caveat. A standing red-team
-question applies to every one — **would this signature survive an adversary who
+question applies to every one: **would this signature survive an adversary who
 knows it is being watched?**
 
 \### Overhead imagery
@@ -45,38 +45,38 @@ The historical hook: the IAEA only began using satellite imagery in the 1990s,
 after failures to detect undeclared facilities under declared-facility
 safeguards.
 
-Caveats: imagery is unlikely to distinguish AI from non-AI datacenters —
-cooling is the key differentiator — it struggles with industrial look-alikes,
+Caveats: imagery is unlikely to distinguish AI from non-AI datacenters
+(cooling is the key differentiator), it struggles with industrial look-alikes,
 and it can be defeated by underground or camouflaged construction.
 
 \### Thermal
 
 Waste heat, and the narrow temperature band of constant chip operation. Infrared
 imaging, or heat inferred from rooftops where snow never accumulates in winter
-(Baker, footnote 127). Sensing capability is actively improving — HotSat-class
+(Baker, footnote 127). Sensing capability is actively improving: HotSat-class
 commercial thermal satellites are the current example.
 
 \### Energy and the power grid
 
 The unit's most quantitative tool and its most perishable. Measured energy
 delivery can be converted into an approximate FLOP count, which makes large
-unauthorized runs detectable from power draw — coarse violations only (Wasil et
+unauthorized runs detectable from power draw, though it catches only coarse violations (Wasil et
 al.). City-scale draw needs transmission lines visible even in public satellite
 imagery, and burying them is itself a slow, satellite-visible construction
 project (MIRI).
 
 Against that, Scher and Thiergart rate power-grid analysis only **Medium**
-feasibility — their sole non-High intelligence mechanism. Three reasons:
+feasibility, their sole non-High intelligence mechanism. Three reasons:
 
 - Covert generation at the roughly 130 MW scale of a 100k-H100 cluster is
   plausible, comparable to military naval reactors.
-- Around 500 datacenters worldwide exceed 10 MW — a large haystack (2024–25
+- Around 500 datacenters worldwide exceed 10 MW, a large haystack (2024–25
   figures).
 - Chip performance-per-watt improves about 1.6× a year, steadily shrinking the
   energy signature of any fixed quantity of compute.
 
-Real-world colour: the xAI Memphis behind-the-meter gas turbines were surfaced
-by aerial thermal imaging — the signature and the workaround in one case.
+Real-world color: the xAI Memphis behind-the-meter gas turbines were surfaced
+by aerial thermal imaging: the signature and the workaround in one case.
 
 :::callout {title="Architecture changes the picture" tone="blue"}
 Power consumption is architecture-dependent, so the same facility can change
@@ -84,7 +84,7 @@ signature without changing size. Scaling an existing architecture by adding
 layers and shifting to a new architecture with a different compute profile
 produce different curves, and inference and training draw differently again.
 See Scher et al., *An International Agreement to Prevent the Premature Creation
-of Artificial Superintelligence*, Appendix D — and connect it back to the
+of Artificial Superintelligence*, Appendix D, and connect it back to the
 development picture from earlier in the course.
 :::
 
@@ -98,8 +98,8 @@ suspicious-activity reporting as named institutional precedents.
 Financial intelligence is rated **High** feasibility, under one year: covert AI
 projects are very expensive and might leave a substantial money trail across raw
 materials, chips, and datacenter components (Scher and Thiergart). Covert fabs
-are detectable by monitoring the lithography-equipment supply chain — a
-chokepoint of a few dozen capable facilities worldwide (Shavit §6). The Huawei
+are detectable by monitoring the lithography-equipment supply chain, a
+chokepoint of fewer than two dozen capable facilities worldwide (Shavit §6). The Huawei
 shadow-fab network surfaced in 2023 through exactly this channel.
 
 Caveats: domestic chip manufacturing erodes customs tracking, and dual-use
@@ -116,15 +116,15 @@ supplemental mechanisms.
 The cards above sort into four families, and it is worth being able to name
 which one a given observation belongs to:
 
-- **Facility signatures** — what the building is and looks like.
-- **Resource-flow signatures** — power, water, chips, money moving in.
-- **Organizational signatures** — who is hired, who contracts with whom.
-- **Operational signatures** — what the site does, and when.
+- **Facility signatures:** what the building is and looks like.
+- **Resource-flow signatures:** power, water, chips, money moving in.
+- **Organizational signatures:** who is hired, who contracts with whom.
+- **Operational signatures:** what the site does, and when.
 
 \## How we see traces
 
 Those are the signatures. The disciplines below are the ways a watcher picks
-them up — the collection side of the same picture.
+them up, the collection side of the same picture.
 
 #### Text
 content::
@@ -134,6 +134,7 @@ Seven ways a watcher sees. The disciplines split into two families: those that c
 
 #### Widget
 source:: [[../widgets/collection-map]]
+required:: true
 
 #### Text
 content::
@@ -150,7 +151,7 @@ to:: Even carefully compartmentalized state projects will likely involve many pe
 
 #### Text
 content::
-Tables 1 and 2 set those same levers against cluster size. Set the two FLOP thresholds and pick a size: the widget recomputes how long that cluster needs to reach each threshold, when it gets registered, and which levers reach it from each side. The paper's own tables follow.
+Set the two FLOP thresholds and pick a size: the widget recomputes how long that cluster needs to reach each threshold, when it gets registered, and which levers reach it from the domestic and international sides. The paper's own tables follow after, where Tables 1 and 2 show which of those same levers reach a cluster depending on its size.
 
 #### Widget
 source:: [[../widgets/scher-threshold-explorer]]
@@ -178,12 +179,24 @@ content::
 Scher, Aaron, David Abecassis, Peter Barnett, et al. "An International Agreement to Prevent the Premature Creation of Artificial Superintelligence." *arXiv*, Nov. 2025. [arxiv.org](https://arxiv.org/abs/2511.10783)
 *MIRI's draft international agreement to prevent the premature creation of artificial superintelligence, the treaty text several lessons read against.*
 
+Scher, Aaron, and Lisa Thiergart. "Mechanisms to Verify International Agreements About AI Development." *arXiv*, June 2025. [arxiv.org](https://arxiv.org/abs/2506.15867)
+*MIRI's survey of verification mechanisms with a feasibility rating for each. The power-grid and financial-intelligence figures on this page come from it.*
+
 Wasil, Akash R., Tom Reed, Jack William Miller, et al. "Verification Methods for International AI Agreements." *arXiv*, Aug. 2024. [arxiv.org](https://arxiv.org/abs/2408.16074)
 *A survey of ten verification techniques for catching violations of international AI agreements, from unauthorized training runs to undeclared data centers.*
 
 Epoch AI. "AI Data Centers." *Epoch AI*, continuously updated. [epoch.ai](https://epoch.ai/data/ai-data-centers)
 *Epoch's continuously updated database of the world's largest AI data centers, built from satellite imagery and permitting records.*
 
-XLab. "Observable signatures of undeclared AI development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
+Baker, Mauricio. "Nuclear Arms Control Verification and Lessons for AI Treaties." *arXiv*, Apr. 2023. [arxiv.org](https://arxiv.org/abs/2304.04123)
+*A survey of nuclear arms-control verification and what it suggests for AI treaties. Its footnote 127 describes reading heat from snow-free rooftops.*
+
+Baker, Mauricio, Gabriel Kulp, Oliver Marks, et al. "Verifying International Agreements on AI: Six Layers of Verification for Rules on Large-Scale AI Development and Deployment." *arXiv*, July 2025. [arxiv.org](https://arxiv.org/abs/2507.15916)
+*The six-layer verification framework this page draws on, in which national intelligence is Layer 6.*
+
+Shavit, Yonadav. "What Does It Take to Catch a Chinchilla? Verifying Rules on Large-Scale Neural Network Training via Compute Monitoring." *arXiv*, Mar. 2023. [arxiv.org](https://arxiv.org/abs/2303.11341)
+*A proposal for verifying rules on large training runs by monitoring compute. Section 6 covers the chip supply chain and how concentrated it is.*
+
+XLab. "2.3.1 Observable Signatures of Undeclared AI Development." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-signatures)
 *The source lesson this page adapts, including the collection map.*
 :::

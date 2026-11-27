@@ -1,10 +1,10 @@
 ---
 id: '87824966-a77c-476e-9df9-64267492aa12'
-title: "From signal to intelligence assessment"
-tldr: "A sensor records a hot roof; you infer chips; you judge a covert run. Those are three different claims, and most fights about evidence are really fights about the assumption in the middle. Learn to keep observation, inference and judgment apart, ask what else explains the signal, and know what a source is worth before you escalate."
-summary_for_tutor: "Imported from XLab's Verification curriculum; a five-minute reading with no questions. It separates observation, inference and judgment; names what breaks the chain (alternative explanations, dual-use ambiguity, base rates such as the roughly 500 datacenters above 10 MW); gives four source-quality questions (reliability, timeliness, corroboration, confidence); and states the progression anomaly, verification lead, suspected non-compliance. One optional reading: the CIA Tradecraft Primer sections on Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses. The Unfinished writing callout is XLab's note that the case-brief packet task is not yet built; do not improvise a packet. If the learner brings a scenario, coach them to label each statement as observation, inference or judgment."
+title: "From Signal to Intelligence Assessment"
+tldr: "A sensor records a hot roof. You infer chips. You judge a covert run. Those are three different claims, and most fights about evidence are fights about the assumption in the middle. Learn to keep observation, inference and judgment apart, ask what else explains the signal, and know what a source is worth before you escalate."
+summary_for_tutor: "A short reading on turning a signal into an assessment, with no questions. It separates observation, inference and judgment, names what breaks the chain (alternative explanations, dual-use ambiguity, base rates such as the roughly 500 datacenters above 10 MW), gives four source-quality questions (reliability, timeliness, corroboration, confidence), and states the progression from anomaly to verification lead to suspected non-compliance. One required reading follows: the CIA Tradecraft Primer sections on the Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses. A Works cited callout closes the lens. If the learner brings a scenario, coach them to label each statement as observation, inference or judgment."
 tags: [wip]
-reading_minutes: 10
+reading_minutes: 15
 tutor_minutes: 0
 ---
 #### Text
@@ -24,7 +24,7 @@ Three things get collapsed in ordinary speech and must be kept apart here.
   alternatives, and their own confidence.
 
 Most disputes that look like disagreements about evidence are disagreements one
-layer up — about which assumption is doing the work.
+layer up, about which assumption is doing the work.
 
 \## What breaks the chain
 
@@ -41,13 +41,13 @@ layer up — about which assumption is doing the work.
 
 Four questions, applied to every input:
 
-- **Reliability** — has this source been right before, and about this kind of
+- **Reliability:** has this source been right before, and about this kind of
   thing?
-- **Timeliness** — is it describing the present, or a facility as it stood two
+- **Timeliness:** is it describing the present, or a facility as it stood two
   years ago?
-- **Corroboration** — does an independent stream see the same thing? Streams
+- **Corroboration:** does an independent stream see the same thing? Streams
   that share an origin are not independent.
-- **Confidence** — what would have to be true for this to be wrong, and how
+- **Confidence:** what would have to be true for this to be wrong, and how
   likely is that?
 
 \## The progression
@@ -59,9 +59,7 @@ loses the window in which the activity is observable.
 
 \## Readings
 
-Optional: three techniques from the CIA's *A Tradecraft Primer* — the Quality
-of Information Check, Indicators or Signposts of Change, and Analysis of
-Competing Hypotheses.
+Three techniques from the CIA's *A Tradecraft Primer*, for judging a source, watching for signs of change, and weighing rival explanations: the Quality of Information Check, Indicators or Signposts of Change, and Analysis of Competing Hypotheses.
 
 #### Article
 source:: [[../articles/government-a-tradecraft-primer-structured-analytic-techniques-for-improving-intelligence-analysis]]
@@ -74,6 +72,6 @@ content::
 United States Government. *A Tradecraft Primer: Structured Analytic Techniques for Improving Intelligence Analysis*. Mar. 2009. [stat.berkeley.edu](https://www.stat.berkeley.edu/~aldous/157/Papers/Tradecraft%20Primer-apr09.pdf)
 *The US government primer on structured analytic techniques, the intelligence-analysis tradecraft the assessment lesson draws on.*
 
-XLab. "From signal to intelligence assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
+XLab. "2.3.3 From Signal to Intelligence Assessment." *Verification*, XLab, University of Chicago, 2026. [aisafetytracks.com](https://aisafetytracks.com/tracks/verification/verification-infrastructure/intelligence-assessment)
 *The source lesson this page adapts.*
 :::
