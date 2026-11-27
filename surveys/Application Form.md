@@ -41,6 +41,7 @@ options::
 - Bachelors
 - Masters
 - PhD
+- PostDoc / Professor
 - Other
 required:: true
 
@@ -49,19 +50,10 @@ key:: universities
 content:: Universities studied or working at. (You can add multiple.)
 required:: true
 
-#### Choice
-key:: career_stage
-content:: Career stage
-options::
-- High school
-- Bachelors
-- Masters
-- PhD
-- PostDoc / Professor
-- Early career (up to 3 years)
-- Mid career (3–10 years)
-- Expert career (10+ years)
-required:: true
+#### Question: FillBlank
+key:: work_years_fte
+content:: How many years of full-time-equivalent work experience do you have? {{number min 0 max 60 step 0.5}}
+description:: Count any paid work (PhD, internships, co-ops, seasonal, part-time) as full-time equivalent. ~40 hrs/week × ~12 months = 1 year. Part-time counts proportionally. You can include half-years.
 
 #### Choice
 key:: fields
